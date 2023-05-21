@@ -1,0 +1,8 @@
+owner = ORL
+controller = ORL
+add_core = POI
+add_core = ORL
+add_core = FRC
+trade_goods = fruit
+life_rating = 30
+1861.1.1 = { railroad = 3 }

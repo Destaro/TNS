@@ -1,0 +1,11 @@
+owner = GLC
+controller = GLC
+
+trade_goods = coal
+life_rating = 35
+terrain = farmlandhills
+
+
+
+add_core = GLC
+add_core = IBR

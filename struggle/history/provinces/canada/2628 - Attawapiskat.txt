@@ -1,0 +1,9 @@
+owner = VNS
+controller = VNS
+
+
+trade_goods = fish
+life_rating = 31
+
+
+add_core = VNS

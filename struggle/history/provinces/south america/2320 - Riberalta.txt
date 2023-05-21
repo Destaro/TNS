@@ -1,0 +1,7 @@
+
+trade_goods = timber
+life_rating = 15
+1860.1.1 = {
+	owner = BOL
+	controller = BOL
+}

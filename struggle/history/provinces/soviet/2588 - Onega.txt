@@ -1,0 +1,7 @@
+owner = RTH
+controller = RTH
+add_core = RTH
+add_core = RUT
+trade_goods = timber
+terrain = boreal
+life_rating = 10

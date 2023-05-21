@@ -1,0 +1,8 @@
+owner = AWA
+controller = AWA
+add_core = AWA
+add_core = NEP
+trade_goods = grain
+life_rating = 32
+terrain = hills
+

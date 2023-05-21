@@ -1,0 +1,6 @@
+owner = JAS
+controller = JAS
+trade_goods = dye
+life_rating = 32
+
+add_core = JAS

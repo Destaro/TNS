@@ -1,0 +1,8 @@
+owner = SIB
+controller = SIB
+trade_goods = timber
+terrain = boreal
+life_rating = 15
+
+add_core = KDA
+add_core = SIB

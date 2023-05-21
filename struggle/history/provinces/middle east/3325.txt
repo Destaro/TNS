@@ -1,0 +1,8 @@
+owner = KSK
+controller = KSK
+
+trade_goods = grain
+life_rating = 35
+terrain = farmlandhills
+
+add_core = KSK

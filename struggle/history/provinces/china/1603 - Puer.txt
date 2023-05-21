@@ -1,0 +1,7 @@
+owner = SIA
+controller = SIA
+add_core = SIA
+add_core = SHA
+add_core = YNN
+trade_goods = tea
+life_rating = 32

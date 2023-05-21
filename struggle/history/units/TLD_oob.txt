@@ -1,0 +1,442 @@
+#Army
+army = {
+	name = "Ejército del Centro"
+	location = 489
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Guardia Real"
+		type = guard
+		home = 481
+	}
+
+	regiment = {
+		name= "1. Brigada de Infantería 'El Ramillete'"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = engineer
+		home = 495
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = cuirassier
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = cuirassier
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = cuirassier
+		home = 488
+	}
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 490
+	
+	regiment = {
+		name= "4. Brigada de Infantería 'San Jorge'"
+		type = infantry
+		home = 498
+	}
+
+	regiment = {
+		name= "1. Brigada de Artillería"
+		type = artillery
+		home = 476
+	}
+	
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = infantry
+		home = 482
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantería 'La Granja'"
+		type = infantry
+		home = 483
+	}
+
+	regiment = {
+		name= "7. Brigada de Infantería"
+		type = infantry
+		home = 497
+	}
+}
+
+army = {
+	name = "Ejército del Sur"
+	location = 488
+
+	regiment = {
+		name= "8. Brigada de Infantería"
+		type = infantry
+		home = 512
+	}
+
+	regiment = {
+		name= "9. Brigada de Infantería"
+		type = infantry
+		home = 514
+	}
+
+	regiment = {
+		name= "10. Brigada de Infantería"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "11. Brigada de Infantería"
+		type = infantry
+		home = 516
+	}
+	
+	regiment = {
+		name= "12. Brigada de Infantería"
+		type = infantry
+		home = 515
+	}
+}
+
+army = {
+	name = "Ejército de Cuba"
+	location = 2209
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = infantry
+		home = 474
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = infantry
+		home = 2209
+	}
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = infantry
+		home = 475
+	}
+	
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1455
+	}
+	
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = hussar
+		home = 1463
+	}
+}
+
+army = {
+	name = "Ejército Lusitano"
+	location = 521
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 522
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 524
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 525
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 523
+	}
+
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = infantry
+		home = 2135
+	}
+
+	regiment = {
+		name= "7. Brigada de Infantaria"
+		type = infantry
+		home = 2134
+	}
+
+	regiment = {
+		name= "8. Brigada de Infantaria"
+		type = infantry
+		home = 527
+	}
+	
+	regiment = {
+		name= "1. Brigada de Artilharia"
+		type = artillery
+		home = 518
+	}
+	
+	regiment = {
+		name= "1. Brigada Hussar"
+		type = hussar
+		home = 521
+	}
+}
+
+
+
+navy = {
+	name = "Armada de Filipe"
+	location = 521
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada Real Toleda"
+	location = 521
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+leader = {
+	name = "Francisco Serrano"
+	date = 1833.1.1
+	type = land
+	personality = expert
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "Leopoldo O'Donnell"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = rising_star
+	prestige = 0.0
+}
+
+leader = {
+	name = "Narváez"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = powerful_friends
+	prestige = 0.0
+}
+
+leader = {
+	name = "Gerónimo Valdés"
+	date = 1836.1.1
+	type = land
+	personality = competent
+	background = generals_aide
+	prestige = 0.0
+}
+
+leader = {
+	name = "Van Halen"
+	date = 1823.1.1
+	type = land
+	personality = merciless
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "José Ramón Rodil"
+	date = 1824.1.1
+	type = land
+	personality = merciless
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Vicente de Mesquita"
+	date = 1840.1.1
+	type = land
+	personality = dauntless
+	background = madman
+	prestige = 0.3
+}
+
+leader = {
+	name = "Duke of Saldanha"
+	picture = european_general_55
+	type = land
+	date = 1825.8.20
+	background = aristocrat
+	personality = soldierly
+	prestige = 0.1
+	}
+	
+leader = {
+	name = "José Joaquim da Rosa Coelho"
+	picture = european_admiral_5
+	type = sea
+	date = 1820.12.14
+	background = generals_aide
+	personality = stout
+	prestige = 0.05
+	}
+
+leader = {
+	name = "Nunes Vidigal"
+	date = 1808.1.1
+	type = land
+	personality = aggressive
+	background = hated
+	prestige = 0.2
+}
+
+leader = {
+	name = "Luís Barreto"
+	date = 1824.1.1
+	type = land
+	personality = resolute
+	background = gifted_administrator
+	prestige = 0.2
+}
+
+

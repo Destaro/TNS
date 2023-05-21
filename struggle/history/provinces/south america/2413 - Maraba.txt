@@ -1,0 +1,6 @@
+
+
+add_core = KRT
+
+trade_goods = grain
+life_rating = 20

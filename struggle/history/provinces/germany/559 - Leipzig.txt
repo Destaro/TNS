@@ -1,0 +1,9 @@
+owner = WEI
+controller = WEI
+add_core = BDB
+add_core = GER
+trade_goods = coal
+life_rating = 35
+terrain = leipzig
+
+add_core = WEI

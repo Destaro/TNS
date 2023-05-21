@@ -1,0 +1,10 @@
+owner = LPL
+controller = LPL
+
+trade_goods = iron
+terrain = dryhills
+life_rating = 35
+1861.1.1 = { railroad = 1 }
+
+add_core = ARC
+add_core = LPL

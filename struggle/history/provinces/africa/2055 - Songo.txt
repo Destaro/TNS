@@ -1,0 +1,8 @@
+owner = ZOU
+controller = ZOU
+add_core = SHO
+trade_goods = grain
+life_rating = 35
+
+
+add_core = ZOU

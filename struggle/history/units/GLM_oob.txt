@@ -1,0 +1,66 @@
+army = {
+	name = "7-i Armeiskii Korpus" #Poland Army
+	location = 702
+	
+
+	regiment = {
+		name= "7.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "7.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "7.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "7.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 952
+	}
+	
+	regiment = {
+		name= "7.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 3320
+	}
+
+	regiment = {
+		name= "7.1-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 3319
+	}
+
+	regiment = {
+		name= "7.2-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 702
+	}
+
+	regiment = {
+		name= "7.3-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 705
+	}
+	
+	regiment = {
+		name= "7.1-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 952
+	}
+	
+	regiment = {
+		name= "7.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 705
+	}
+	
+}

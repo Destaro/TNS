@@ -1,0 +1,14 @@
+owner = VNS
+controller = VNS
+add_core = MEX
+add_core = TEX
+add_core = RGR
+trade_goods = grain
+life_rating = 35
+terrain = new_world_semidesert
+
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 40
+}
+add_core = VNS

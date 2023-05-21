@@ -1,0 +1,7 @@
+owner = OMA
+controller = OMA
+add_core = LUR
+trade_goods = fish
+life_rating = 35
+
+add_core = OMA

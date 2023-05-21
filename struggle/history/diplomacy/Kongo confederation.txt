@@ -1,0 +1,33 @@
+#congo confederation
+substate = {
+	first = KON
+	second = LOA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = KON
+	second = LUN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = KON
+	second = MNG
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = KON
+	second = LBA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+
+substate = {
+	first = KON
+	second = KUB
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}

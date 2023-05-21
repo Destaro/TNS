@@ -1,0 +1,8 @@
+
+add_core = ETH
+trade_goods = fruit
+terrain = desert
+life_rating = 10
+	owner = ETH
+	controller = ETH
+

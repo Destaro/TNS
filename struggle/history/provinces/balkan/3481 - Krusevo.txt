@@ -1,0 +1,7 @@
+owner = ORL
+controller = ORL
+add_core = ORL
+add_core = FRC
+add_core = POI
+trade_goods = fish
+life_rating = 35

@@ -1,0 +1,7 @@
+
+
+
+add_core = VOP
+trade_goods = tropical_wood
+life_rating = 15
+

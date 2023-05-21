@@ -1,0 +1,12 @@
+owner = AVA
+controller = AVA
+add_core = AVA
+trade_goods = iron
+life_rating = 35
+terrain = philadelphia
+railroad = 1
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

@@ -1,0 +1,7 @@
+owner = MIN
+controller = MIN
+add_core = FJN
+add_core = MIN
+add_core = CHI
+trade_goods = tea
+life_rating = 35 

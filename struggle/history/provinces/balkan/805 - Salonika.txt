@@ -1,0 +1,10 @@
+owner = BYZ
+controller = BYZ
+
+add_core = GRE
+trade_goods = tobacco
+life_rating = 35
+
+add_core = AOM
+add_core = ROM
+add_core = BYZ

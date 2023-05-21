@@ -1,0 +1,6 @@
+owner = DON
+controller = DON
+add_core = DON
+add_core = RUT
+trade_goods = grain
+life_rating = 35

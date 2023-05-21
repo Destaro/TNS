@@ -1,0 +1,8 @@
+owner = SCA
+controller = SCA
+
+trade_goods = fish
+life_rating = 35
+terrain = small_island
+
+add_core = SCA

@@ -1,0 +1,7 @@
+owner = AJP
+controller = AJP
+
+trade_goods = fish
+life_rating = 35
+terrain = vancouver
+add_core = AJP

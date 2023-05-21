@@ -1,0 +1,718 @@
+#Mawarannahr Region (200000) #see Kazakhstan.txt, Uzbekistan.txt, Kirghizstan.txt and uzbekistan.txt for balance of region 
+#under the rule of Kokand in 1836  
+#Khujand (200000/50000 POPS) #now part of Tajikistan  
+1201 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 775
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 400
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 2000
+	}
+
+	soldiers = {
+	    culture = sogdian
+		religion = manichaeism
+		size = 400
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 13025
+	}
+	
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1400
+	}
+	
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 3000
+	}
+
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 275
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 3300
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 22000
+	}
+}
+#Uroteppa
+3452 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 10
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 40
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 20
+	}
+
+	soldiers = {
+	    culture = sogdian
+		religion = manichaeism
+		size = 40
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1025
+	}
+
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 9000
+	}
+	
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 3000
+	}
+}
+#Badakhshan Region (212000) 
+#under the rule of Kokand in 1836  
+#Kulob (120000/30000 POPS)   
+1207 = {
+	aristocrats = {
+		culture = aryao
+		religion = manichaeism
+		size = 575
+	}
+
+	clergymen = {
+		culture = aryao
+		religion = manichaeism
+		size = 275
+	}
+
+	artisans = {
+		culture = aryao
+		religion = manichaeism
+		size = 1450
+	}
+
+	soldiers = {
+		culture = aryao
+		religion = manichaeism
+		size = 1250
+	}
+
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 19000
+	}
+	
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 9000
+	}
+
+	slaves = {
+		culture = aryao
+		religion = manichaeism
+		size = 2000
+	}
+
+	slaves = {
+		culture = khotani
+		religion = manichaeism
+		size = 4000
+	}
+}
+
+#Hissar (120000/30000 POPS)   
+3448 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 150
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1050
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 6000
+	}
+
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 4000
+	}
+	
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 200
+	}
+}
+
+#Ayni (120000/30000 POPS)   
+3449 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 550
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1050
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 50
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 150
+	}
+	
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 5500
+	}
+	
+	aristocrats = {
+		culture = aryao
+		religion = manichaeism
+		size = 15
+	}
+
+	clergymen = {
+		culture = aryao
+		religion = manichaeism
+		size = 15
+	}
+
+	artisans = {
+		culture = aryao
+		religion = manichaeism
+		size = 10
+	}
+
+	soldiers = {
+		culture = aryao
+		religion = manichaeism
+		size = 150
+	}
+
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 1300
+	}
+}
+
+#Darvaz (120000/30000 POPS)   
+3450 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 550
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1050
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 14000
+	}
+	
+	aristocrats = {
+		culture = assyrian
+		religion = zoroastrian
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = zoroastrian
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = zoroastrian
+		size = 50
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = zoroastrian
+		size = 150
+	}
+	
+	farmers = {
+		culture = assyrian
+		religion = zoroastrian
+		size = 5500
+	}
+}
+
+#Khorugh (92000/23000 POPS)   
+1208 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 50
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 150
+	}
+	
+	soldiers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 1000
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 12450
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 1450
+	}
+
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 175
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 1650
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 50
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 450
+	}
+	
+	officers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 10
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 4450
+	}
+
+	slaves = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 1000
+	}
+}
+
+#Darvaz
+3420 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 20
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 25
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 50
+	}
+	
+	soldiers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 300
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 20
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 25
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 50
+	}
+	
+	soldiers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 30
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 2450
+	}
+
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 175
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 3650
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 450
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 1450
+	}
+}
+
+#Wakhan
+3419 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 20
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 25
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 50
+	}
+	
+	soldiers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 30
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 8450
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 10
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 5
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 40
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 750
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 10
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 5
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 40
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 450
+	}
+}

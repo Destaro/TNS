@@ -1,0 +1,8 @@
+owner = KRT
+controller = KRT
+add_core = KRT
+
+
+add_core = PRGtrade_goods = fruit
+terrain = savanna
+life_rating = 15

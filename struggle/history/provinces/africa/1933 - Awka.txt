@@ -1,0 +1,8 @@
+owner = BEN
+controller = KBO
+add_core = ARO
+add_core = WRI
+trade_goods = cattle
+life_rating = 35
+
+add_core = BEN

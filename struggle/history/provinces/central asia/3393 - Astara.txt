@@ -1,0 +1,7 @@
+owner = PER
+controller = PER
+add_core = PER
+add_core = AZB
+terrain = montane_forest
+trade_goods = timber
+life_rating = 35

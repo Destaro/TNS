@@ -1,0 +1,6 @@
+owner = NJP
+controller = NJP
+add_core = NJP
+trade_goods = cattle
+life_rating = 35
+naval_base = 1

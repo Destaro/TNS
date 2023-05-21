@@ -1,0 +1,7 @@
+owner = MIN
+controller = MIN
+add_core = GNG
+add_core = MIN
+add_core = CHI
+trade_goods = silk
+life_rating = 32

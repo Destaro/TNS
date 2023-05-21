@@ -1,0 +1,7 @@
+owner = AVA
+controller = AVA
+add_core = AVA
+add_core = ULA
+trade_goods = grain
+life_rating = 35
+fort = 1

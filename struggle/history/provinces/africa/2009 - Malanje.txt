@@ -1,0 +1,8 @@
+owner = KON
+controller = KON
+add_core = TRN
+trade_goods = fruit
+life_rating = 30
+
+
+add_core = KON

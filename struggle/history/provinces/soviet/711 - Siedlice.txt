@@ -1,0 +1,8 @@
+owner = PRD
+controller = PRD
+add_core = PRD
+
+trade_goods = cattle
+life_rating = 35
+
+add_core = POL

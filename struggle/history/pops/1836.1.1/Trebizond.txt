@@ -1,0 +1,306 @@
+#Trebizonde Region (540000)
+#under the rule of Ottoman Empire in 1836
+#Trabzon (301812/75453 POPS)
+882 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 1050
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
+	}
+	
+	bureaucrats = {
+		culture = greek
+		religion = orthodox
+		size = 1276
+	}
+
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 650
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 4250
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 59947
+	}
+	
+	aristocrats = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+	
+	officers = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = armenian
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 3700
+	}
+}
+#Giresun (196000/49000 POPS)
+884 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 37000
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 7525
+	}
+	
+	soldiers = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 1875
+	}
+}
+
+#Rizounta (140000/35547 POPS)
+3497 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 550
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 21307
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 310
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 310
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 7525
+	}
+	
+	soldiers = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 1875
+	}
+}
+
+#Argyropolis (108000/27000 POPS)
+3498 = {
+	aristocrats = {
+		culture = armenian
+		religion = sunni
+		size = 325
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = armenian
+		religion = sunni
+		size = 1150
+	}
+
+	soldiers = {
+		culture = armenian
+		religion = sunni
+		size = 700
+	}
+
+	farmers = {
+		culture = armenian
+		religion = sunni
+		size = 8400
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 1635
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 615
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1750
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 2135
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 10065
+	}
+}

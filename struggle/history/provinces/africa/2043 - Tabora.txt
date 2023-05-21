@@ -1,0 +1,9 @@
+add_core = BUG
+controller = BUG
+owner = BUG
+
+
+trade_goods = tobacco
+terrain = savanna
+
+life_rating = 25

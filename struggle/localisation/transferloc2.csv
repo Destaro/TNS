@@ -1,0 +1,5 @@
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+i_deselector;State transfer deselector;;;;;;;;;;;;;x
+i_deselector_desc;build in state to deselect;;;;;;;;;;;;;x
+i_selector;State transfer selector;;;;;;;;;;;;;x
+i_selector_desc;build in state to deselect.;;;;;;;;;;;;;x

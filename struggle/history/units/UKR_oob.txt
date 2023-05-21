@@ -1,0 +1,65 @@
+army = {
+	name = "1-i Kavkazskii Korpus"
+	location = 3535
+	
+	regiment = {
+		name= "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 3535
+	}
+
+	regiment = {
+		name= "1.2-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 3535
+	}
+
+	regiment = {
+		name= "1.3-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 1037
+	}
+
+	regiment = {
+		name= "1.4-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 1035
+	}
+
+	regiment = {
+		name= "1.5-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 1032
+	}
+	
+	regiment = {
+		name= "1.6-ya Kavkazskii Pekhotnaya Diviziya"
+		type = infantry
+		home = 1042
+	}
+	
+	regiment = {
+		name= "1.1-ya Kavkazskii Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 1042
+	}
+
+	regiment = {
+		name= "1.2-ya Kavkazskii Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 1044
+	}
+
+	regiment = {
+		name= "1.3-ya Kavkazskii Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 1059
+	}
+
+	regiment = {
+		name= "1.1-ya Kavkazskii Artilleriiskii Diviziya"
+		type = artillery
+		home = 1034
+	}
+	
+}

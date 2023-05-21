@@ -1,0 +1,6 @@
+owner = BRT
+controller = SCA
+add_core = BRT
+trade_goods = fish
+life_rating = 35
+terrain = small_island

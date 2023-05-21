@@ -1,0 +1,9 @@
+owner = VND
+controller = VND
+add_core = VND
+trade_goods = grain
+life_rating = 30
+1861.1.1 = { railroad = 3 }
+
+add_core = OCC
+add_core = IBR

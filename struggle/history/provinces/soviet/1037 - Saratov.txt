@@ -1,0 +1,12 @@
+owner = UKR
+controller = UKR
+
+add_core = AKH
+trade_goods = grain
+life_rating = 35
+terrain = saratov
+
+
+
+add_core = UKR
+add_core = RUT

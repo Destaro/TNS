@@ -1,0 +1,2 @@
+owner = LPLcontroller = LPLadd_core = ARCadd_core = PTGtrade_goods = cattlelife_rating = 151861.1.1 = { 	owner = LPL	controller = LPL	add_core = ARG	}
+add_core = LPL

@@ -1,0 +1,8 @@
+owner = VNS
+controller = VNS
+add_core = MEX
+trade_goods = coffee
+life_rating = 30
+
+
+add_core = VNS

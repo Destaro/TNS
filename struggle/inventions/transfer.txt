@@ -1,0 +1,57 @@
+i_selector = {
+	limit = {
+		basic_chemistry = 1
+		
+	}
+
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = -100
+			OR = {
+				ai = yes
+
+			}
+		}
+		modifier = {
+			factor = 100
+
+			ai = no
+		}
+	}
+
+	effect = {
+		activate_building = state_selector
+	}
+}
+
+i_deselector = {
+	limit = {
+		basic_chemistry = 1
+		
+	}
+
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = -100
+			OR = {
+				ai = yes
+
+			}
+		}
+		modifier = {
+			factor = 100
+
+			ai = no
+		}
+	}
+
+	effect = {
+		activate_building = state_deselector
+	}
+}

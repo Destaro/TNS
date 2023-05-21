@@ -1,0 +1,357 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+USA = { value = 0 }
+
+leader = {
+	name = "Sakuma Shozan"
+	date = 1836.1.1
+	type = land
+	personality = clever
+	background = politician
+	prestige = 0.1
+}
+
+leader = {
+	name = "Takashima Shuhan"
+	date = 1836.1.1
+	type = land
+	personality = defiant
+	background = innovative_tactician
+	prestige = 0.1
+}
+
+leader = {
+	name = "Watanabe Kazan"
+	date = 1836.1.1
+	type = land
+	personality = strange
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Takano Choei"
+	date = 1836.1.1
+	type = land
+	personality = bold
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Prince Fushimi Kuniie"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Prince Fushimi Sadanori"
+	date = 1836.1.1
+	type = land
+	personality = spirited
+	background = rising_star
+}
+
+army = {
+	name = "Imperial Guard"
+	location = 1657
+	regiment = {
+		name= "1.Guard"
+		type = cavalry
+		home = 1657
+	}
+	regiment = {
+		name= "2.Guard"
+		type = cavalry
+		home = 1657
+	}
+	
+	
+	regiment = {
+		name= "3.Guard"
+		type = guard
+		home = 1656
+	}
+	
+	regiment = {
+		name= "4.Guard"
+		type = guard
+		home = 1658
+	}
+	regiment = {
+		name= "5.Guard"
+		type = guard
+		home = 1656
+	}
+	
+	regiment = {
+		name= "6.Guard"
+		type = guard
+		home = 1655
+	}
+	
+	regiment = {
+		name= "7.Guard"
+		type = infantry
+		home = 1655
+	}
+	regiment = {
+		name= "8.Guard"
+		type = infantry
+		home = 1655
+	}
+	
+	regiment = {
+		name= "9.Guard"
+		type = artillery
+		home = 1655
+	}
+	
+	regiment = {
+		name= "10.Guard"
+		type = cavalry
+		home = 1657
+	}
+	regiment = {
+		name= "11.Guard"
+		type = cavalry
+		home = 1657
+	}
+	
+	regiment = {
+		name= "12.Guard"
+		type = cavalry
+		home = 1657
+	}
+}
+
+
+
+
+
+
+
+army = {
+	name = "Takasago Garrison"
+	location = 1485
+	
+	
+	
+	
+	
+	regiment = {
+		name= "1.Guard"
+		type = infantry
+		home = 3346
+	}
+	regiment = {
+		name= "2.Guard"
+		type = infantry
+		home = 3347
+	}
+	
+	
+}
+
+
+
+
+
+
+army = {
+	name = "Indonesian Garrison"
+	location = 1456
+	
+	
+	
+	
+	
+	regiment = {
+		name= "1.Guard"
+		type = infantry
+		home = 1456
+	}
+	regiment = {
+		name= "2.Guard"
+		type = infantry
+		home = 1677
+	}
+	
+	
+}
+
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1657
+	
+	
+	ship = {
+		name= "Yusosentai"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Yusosentai 2"
+		type = manowar
+	}
+	ship = {
+		name= "Yusosentai 3"
+		type = manowar
+	}
+	ship = {
+		name= "Yusosentai 4"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 5"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 6"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 7"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 8"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 9"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 10"
+		type = frigate
+	}
+	ship = {
+		name= "Yusosentai 11"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Yusosentai 12"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Yusosentai 13"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Yusosentai 14"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Yusosentai 15"
+		type = clipper_transport
+	}
+	
+	
+
+}
+
+
+
+
+
+
+navy = {
+	name = "Takasago Fleet"
+	location = 1485
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	
+	
+	ship = {
+		name= "HMS Melampus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Minerva"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
+	
+
+}
+
+
+navy = {
+	name = "Indonesian Fleet"
+	location = 1459
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
+	
+	
+	
+
+}

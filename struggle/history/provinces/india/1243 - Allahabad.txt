@@ -1,0 +1,5 @@
+owner = AWA
+controller = AWA
+add_core = AWA
+trade_goods = tobacco
+life_rating = 32

@@ -1,0 +1,8 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+add_core = AIN
+trade_goods = fish
+life_rating = 20
+colonial = 1
+terrain = mountain

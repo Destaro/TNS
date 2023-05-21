@@ -1,0 +1,8 @@
+owner = VNS
+controller = VNS
+add_core = MEX
+trade_goods = iron
+life_rating = 35
+
+add_core = TEX
+add_core = VNS

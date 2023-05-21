@@ -1,0 +1,8 @@
+owner = SHW
+controller = SHW
+add_core = EGY
+
+trade_goods = fruit
+life_rating = 30
+
+add_core = SHW

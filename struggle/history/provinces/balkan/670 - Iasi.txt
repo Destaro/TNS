@@ -1,0 +1,14 @@
+owner = PNN
+controller = PNN
+
+add_core = ROM
+trade_goods = fruit
+life_rating = 35
+
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}
+
+add_core = CRO
+add_core = PNN

@@ -1,0 +1,7 @@
+owner = TLD
+controller = TLD
+
+trade_goods = fruit
+life_rating = 35
+
+add_core = TLD

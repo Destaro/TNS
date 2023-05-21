@@ -1,0 +1,6 @@
+owner = AGC
+controller = AGC
+add_core = AGC
+add_core = ZOU
+trade_goods = grain
+life_rating = 35

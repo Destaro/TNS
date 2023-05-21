@@ -1,0 +1,6 @@
+owner = JOR
+controller = JOR
+add_core = JOR
+add_core = HDJ
+trade_goods = sulphur
+life_rating = 10

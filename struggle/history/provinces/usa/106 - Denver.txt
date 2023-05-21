@@ -1,0 +1,11 @@
+owner = VNS
+controller = VNS
+add_core = UNM
+
+trade_goods = cattle
+life_rating = 35
+
+add_core = MEX
+add_core = VNS
+add_core = ACH
+add_core = AMG

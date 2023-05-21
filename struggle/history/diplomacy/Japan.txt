@@ -1,0 +1,36 @@
+substate = {
+	first = JAP
+	second = SAT
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+substate = {
+	first = JAP
+	second = CHO
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+substate = {
+	first = JAP
+	second = TOS
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+substate = {
+	first = JAP
+	second = KAG
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+substate = {
+	first = JAP
+	second = TKG
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+substate = {
+	first = JAP
+	second = SEN
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}

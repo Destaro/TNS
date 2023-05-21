@@ -1,0 +1,21 @@
+owner = ORL
+controller = ORL
+
+trade_goods = coal
+life_rating = 30
+railroad = 1
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+1861.1.1 = { railroad = 2 }
+
+add_core = ORL
+add_core = FRC
+add_core = OCC

@@ -1,0 +1,271 @@
+leader = {
+	name = "A.E. Ramsay"
+	date = 1828.1.1
+	type = land
+	personality = steadfast
+	background = uncommonly_young
+	prestige = 0.3
+}
+
+leader = {
+	name = "Fedor von Berg"
+	date = 1828.1.1
+	type = land
+	personality = sharp
+	background = cartographer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Ferdinand Wrangel"
+	date = 1836.1.1
+	type = sea
+	personality = active_p
+	background = cartographer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Pavel Grabbe"
+	date = 1835.1.1
+	type = land
+	personality = keen
+	background = school_of_firepower
+	prestige = 0.3
+}
+
+
+army = {
+	name = "Army of Bolkania"
+	location = 352
+	regiment = {
+		name= "1st Wallachia Infantry"
+		type = infantry
+		home = 718
+	}
+
+	regiment = {
+		name= "2nd Wallachia Infantry"
+		type = infantry
+		home = 718
+	}
+
+	regiment = {
+		name= "3rd Wallachia Infantry"
+		type = infantry
+		home = 945
+	}
+	
+	regiment = {
+		name= "1. Infanterie Moldovei"
+		type = infantry
+		home = 3547
+	}
+
+	regiment = {
+		name= "2. Infanterie Moldovei"
+		type = infantry
+		home = 940
+	}
+
+	regiment = {
+		name= "3. Infanterie Moldovei"
+		type = infantry
+		home = 3545
+	}
+
+}
+
+army = {
+	name = "2-i Armeiskii Korpus" #Belarus Army
+	location = 997
+	regiment = {
+		name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 3561
+	}
+
+	regiment = {
+		name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 3561
+	}
+
+	regiment = {
+		name= "2.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 978
+	}
+
+	regiment = {
+		name= "2.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 978
+	}
+
+	regiment = {
+		name= "2.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 355
+	}
+
+	regiment = {
+		name= "2.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 944
+	}
+
+	regiment = {
+		name= "2.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 944
+	}
+	
+	regiment = {
+		name= "2.6-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 954
+	}
+	
+	regiment = {
+		name = "2.1-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 3298
+	}
+
+	regiment = {
+		name = "2.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 960
+	}
+}
+
+army = {
+	name = "3-i Armeiskii Korpus" #Vilna/Marijampole - Baltic Army
+	location = 356
+
+	regiment = {
+		name = "3.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 939
+	}
+
+	regiment = {
+		name = "3.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 961
+	}
+	
+	regiment = {
+		name = "3.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 961
+	}
+	
+	regiment = {
+		name = "3.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 3548
+	}
+	
+	regiment = {
+		name = "3.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 948
+	}
+	
+	regiment = {
+		name = "3.6-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 945
+	}
+	
+	regiment = {
+		name = "3.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 3549
+	}
+
+	regiment = {
+		name = "3.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 3549
+	}
+
+	regiment = {
+		name = "3.1-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 3549
+	}
+	
+	regiment = {
+		name = "3.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 959
+	}
+}
+
+army = {
+	name = "4-i Armeiskii Korpus" #Kiev/Ukrainian Army
+	location = 958
+	
+	regiment = {
+		name = "4.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 959
+	}
+	
+	regiment = {
+		name = "4.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 958
+	}
+
+	regiment = {
+		name = "4.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 958
+	}
+
+	regiment = {
+		name = "4.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 957
+	}
+	
+	regiment = {
+		name = "4.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 957
+	}
+
+	regiment = {
+		name = "4.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 955
+	}
+	
+	regiment = {
+		name = "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cuirassier
+		home = 956
+	}
+	
+	regiment = {
+		name = "4.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cavalry
+		home = 955
+	}
+	
+	regiment = {
+		name = "4.1-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 3692
+	}
+
+	regiment = {
+		name = "4.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 3692
+	}
+}

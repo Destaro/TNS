@@ -1,0 +1,8 @@
+owner = TLD
+controller = TLD
+
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+
+add_core = TLD

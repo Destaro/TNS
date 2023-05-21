@@ -1,0 +1,7 @@
+owner = WES
+controller = WES
+add_core = WES
+add_core = POM
+add_core = GER
+trade_goods = fish
+life_rating = 35

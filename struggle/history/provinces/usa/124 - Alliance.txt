@@ -1,0 +1,7 @@
+owner = ACH
+controller = ACH
+trade_goods = grain
+life_rating = 35
+
+add_core = ACH
+add_core = AKR

@@ -1,0 +1,11 @@
+owner = MRV
+controller = MRV
+
+
+add_core = SLV
+
+trade_goods = fruit
+life_rating = 35
+
+
+add_core = PNN

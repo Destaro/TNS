@@ -1,0 +1,10 @@
+owner = NMB
+controller = NMB
+add_core = NMB
+terrain = desert
+trade_goods = fish
+life_rating = 25
+
+
+
+add_core = SAF

@@ -1,0 +1,10 @@
+owner = ETH
+controller = ETH
+add_core = AWS
+add_core = ETH
+trade_goods = cattle
+terrain = semidesert
+life_rating = 10
+
+
+add_core = SOM

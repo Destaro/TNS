@@ -1,0 +1,10 @@
+owner = BUK
+controller = BUK
+
+trade_goods = grain
+life_rating = 35
+terrain = samarkand
+
+
+
+add_core = BUK

@@ -1,0 +1,163 @@
+
+army = {
+	name = "Armej af Neter Lutherungen"
+	location = 576
+	regiment = {
+		name= "1.Küniclijke Garte"
+		type = guard
+		home = 425
+	}
+
+	regiment = {
+		name= "2.Küniclijke Garte"
+		type = guard
+		home = 426
+	}
+
+	regiment = {
+		name= "3.Küniclijke Garte"
+		type = guard
+		home = 427
+	}
+
+	regiment = {
+		name= "4.Küniclijke Garte"
+		type = guard
+		home = 2570
+	}
+
+	regiment = {
+		name= "5.Küniclijke Garte"
+		type = guard
+		home = 425
+	}
+	
+	regiment = {
+		name= "1. Kavalerie Divisjen"
+		type = hussar
+		home = 436
+	}
+	
+	regiment = {
+		name= "2. Kavalerie Divisjen"
+		type = hussar
+		home = 439
+	}
+	
+	regiment = {
+		name= "1. Infanterije Divisjen"
+		type = infantry
+		home = 438
+	}
+
+	regiment = {
+		name= "2. Infanterije Divisjen"
+		type = infantry
+		home = 408
+	}
+
+	regiment = {
+		name= "3. Infanterije Divisjen"
+		type = infantry
+		home = 406
+	}
+	
+	regiment = {
+		name= "1. Artillerije Divisjen"
+		type = artillery
+		home = 425
+	}
+	
+	regiment = {
+		name= "2. Artillerije Divisjen"
+		type = artillery
+		home = 440
+	}
+}
+
+army = {
+	name = "2. Armej af Neter Lutherungen"
+	location = 398
+	regiment = {
+		name= "1.Küniclijke Garte"
+		type = guard
+		home = 398
+	}
+
+	regiment = {
+		name= "2.Küniclijke Garte"
+		type = guard
+		home = 397
+	}
+
+	regiment = {
+		name= "3.Küniclijke Garte"
+		type = guard
+		home = 3376
+	}
+
+	regiment = {
+		name= "4.Küniclijke Garte"
+		type = guard
+		home = 3377
+	}
+
+	regiment = {
+		name= "5.Küniclijke Garte"
+		type = guard
+		home = 425
+	}
+	
+	regiment = {
+		name= "1. Kavalerie Divisjen"
+		type = hussar
+		home = 395
+	}
+	
+	regiment = {
+		name= "2. Kavalerie Divisjen"
+		type = hussar
+		home = 395
+	}
+	
+	regiment = {
+		name= "1. Infanterije Divisjen"
+		type = infantry
+		home = 3378
+	}
+
+	regiment = {
+		name= "2. Infanterije Divisjen"
+		type = infantry
+		home = 3378
+	}
+
+	regiment = {
+		name= "3. Infanterije Divisjen"
+		type = infantry
+		home = 576
+	}
+	
+	regiment = {
+		name= "1. Artillerije Divisjen"
+		type = artillery
+		home = 576
+	}
+	
+	regiment = {
+		name= "2. Artillerije Divisjen"
+		type = artillery
+		home = 577
+	}
+}
+
+leader = {
+	name = "Clovis XVIII Karling"
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = gifted_administrator
+	prestige = 1.0
+}
+	
+	

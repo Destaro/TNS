@@ -1,0 +1,9 @@
+
+add_core = ETH
+trade_goods = cattle
+life_rating = 35
+terrain = gonder
+
+	owner = ETH
+	controller = ETH
+	

@@ -1,0 +1,8 @@
+owner = TEX
+controller = TEX
+add_core = MEX
+trade_goods = grain
+life_rating = 35
+terrain = neworleans
+naval_base = 1
+add_core = TEX

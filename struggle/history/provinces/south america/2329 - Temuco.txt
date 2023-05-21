@@ -1,0 +1,10 @@
+owner = LPL
+controller = LPL
+
+add_core = PTG
+trade_goods = wool
+terrain = montane_forest
+life_rating = 35
+
+add_core = ARC
+add_core = LPL

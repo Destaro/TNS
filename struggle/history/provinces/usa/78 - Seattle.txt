@@ -1,0 +1,7 @@
+owner = AJP
+controller = AJP
+
+trade_goods = timber
+life_rating = 35
+add_core = AJP
+add_core = AMG

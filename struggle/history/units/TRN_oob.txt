@@ -1,0 +1,57 @@
+army = {
+	name = "National Army"
+	location = 2015
+	regiment = {
+		name= "1.National Commando"
+		type = infantry
+		home = 2015
+	}
+	regiment = {
+		name= "2.National Commando"
+		type = infantry
+		home = 2015
+	}
+	regiment = {
+		name= "3.National Commando"
+		type = infantry
+		home = 2015
+	}
+}
+leader = {
+	name = "Paul Kruger"
+	date = 1828.1.1
+	type = land
+	personality = competent
+	background = diplomat
+	prestige = 0.5
+}
+
+army = {
+	name = "Volunteer Army"
+	location = 2007
+	regiment = {
+		name= "Pretoria Commando"
+		type = dragoon
+		home = 2015
+	}
+
+	regiment = {
+		name= "Johannesburg Commando"
+		type = dragoon
+		home = 2013
+	}
+
+	regiment = {
+		name= "Klerksdorp Commando"
+		type = infantry
+		home = 2007
+	}
+
+	regiment = {
+		name= "Lydenburg Commando"
+		type = infantry
+		home = 2006
+	}
+
+}
+

@@ -1,0 +1,11 @@
+owner = MEL
+controller = MEL
+add_core = MEL
+add_core = SIC
+add_core = ITA
+trade_goods = fruit
+life_rating = 35
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+}

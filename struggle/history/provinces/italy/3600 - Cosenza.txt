@@ -1,0 +1,6 @@
+owner = CSZ
+controller = CSZ
+add_core = CSZ
+add_core = ITA
+trade_goods = iron
+life_rating = 35

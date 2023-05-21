@@ -1,0 +1,14 @@
+owner = JAP
+controller = JAP
+add_core = LSK
+colonial = 2
+trade_goods = fish
+life_rating = 15
+terrain = new_world_arctic
+1861.1.1 = {
+	owner = JAP
+	controller = JAP
+	colonial = 2
+}
+
+add_core = AJP

@@ -1,0 +1,8 @@
+owner = ORL
+controller = ORL
+
+trade_goods = grain
+life_rating = 30
+
+add_core = ORL
+add_core = FRC

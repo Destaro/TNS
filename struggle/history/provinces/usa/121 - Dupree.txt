@@ -1,0 +1,6 @@
+owner = AKR
+controller = AKR
+trade_goods = coal
+life_rating = 35
+add_core = AKR
+add_core = ACH

@@ -1,0 +1,6 @@
+owner = KSK
+controller = KSK
+
+trade_goods = fruit
+life_rating = 35
+add_core = KSK

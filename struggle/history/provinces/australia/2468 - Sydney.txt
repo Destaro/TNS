@@ -1,0 +1,8 @@
+owner = NJP
+controller = NJP
+add_core = NJP
+add_core = NKR
+trade_goods = grain
+life_rating = 35
+terrain = sydney
+naval_base = 1

@@ -1,0 +1,7 @@
+owner = ORL
+controller = ORL
+add_core = DOM
+trade_goods = coffee
+naval_base = 1
+life_rating = 35
+colonial = 2

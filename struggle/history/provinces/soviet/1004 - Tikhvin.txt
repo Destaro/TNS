@@ -1,0 +1,7 @@
+owner = NOV
+controller = NOV
+add_core = RTH
+add_core = NOV
+add_core = RUT
+trade_goods = grain
+life_rating = 35

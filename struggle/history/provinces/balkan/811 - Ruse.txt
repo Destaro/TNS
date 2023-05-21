@@ -1,0 +1,9 @@
+owner = BYZ
+controller = BYZ
+
+
+trade_goods = grain
+life_rating = 35
+
+add_core = DBJ
+add_core = ROM

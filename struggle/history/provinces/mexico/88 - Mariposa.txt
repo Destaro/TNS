@@ -1,0 +1,6 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+trade_goods = fruit
+terrain = new_world_semidesert
+life_rating = 30

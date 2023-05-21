@@ -1,0 +1,8 @@
+owner = SOM
+controller = SOM
+add_core = HBY
+trade_goods = coffee
+terrain = savanna
+life_rating = 30
+
+add_core = SOM

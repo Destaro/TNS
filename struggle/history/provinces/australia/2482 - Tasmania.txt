@@ -1,0 +1,6 @@
+owner = NKR
+controller = NKR
+add_core = NKR
+trade_goods = timber
+life_rating = 35
+naval_base = 1

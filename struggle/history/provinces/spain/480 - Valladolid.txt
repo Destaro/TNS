@@ -1,0 +1,11 @@
+owner = GLC
+controller = GLC
+
+trade_goods = cattle
+life_rating = 35
+1861.1.1 = { railroad = 2 }
+
+
+
+add_core = GLC
+add_core = IBR

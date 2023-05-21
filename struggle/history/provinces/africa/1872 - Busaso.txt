@@ -1,0 +1,11 @@
+owner = OMA
+controller = OMA
+add_core = MAJ
+add_core = GEL
+add_core = WRL
+trade_goods = grain
+terrain = semidesert
+life_rating = 31
+
+add_core = OMA
+add_core = SOM

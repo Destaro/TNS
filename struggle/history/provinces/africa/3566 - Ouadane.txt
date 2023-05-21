@@ -1,0 +1,6 @@
+owner = TRZ
+controller = TRZ
+add_core = TRZ
+terrain = semidesert
+trade_goods = fruit
+life_rating = 20

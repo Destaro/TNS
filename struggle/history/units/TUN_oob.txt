@@ -1,0 +1,134 @@
+
+GBU = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+ALD = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+ANU = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+KRT = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+MOR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+MGH = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+TRZ = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+CSZ = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+MEL = {	
+	value = -175
+	level = 0
+	influence_value = 0
+}
+
+AVR = {	
+	value = -175
+	level = 0
+	influence_value = 0
+}
+
+PAP = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+TUS = {	
+	value = -150
+	level = 0
+	influence_value = 0
+}
+
+SVY = {	
+	value = -150
+	level = 0
+	influence_value = 0
+}
+
+LOM = {	
+	value = -135
+	level = 0
+	influence_value = 0
+}
+
+
+
+
+army = {
+	name = "Army of the Bey of Tunis"
+	location = 1725
+	regiment = {
+		name= "1.Askäris"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = infantry
+		home = 1726
+	}
+
+}
+
+army = {
+	name = "Army of Ifriqiya"
+	location = 1730
+	regiment = {
+		name= "1.Kroumir"
+		type = irregular
+		home = 1727
+	}
+
+	regiment = {
+		name= "2.Kroumir"
+		type = irregular
+		home = 1728
+	}
+
+	regiment = {
+		name= "3.Kroumir"
+		type = irregular
+		home = 1730
+	}
+
+}
+

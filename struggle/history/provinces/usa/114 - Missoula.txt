@@ -1,0 +1,5 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+trade_goods = cattle
+life_rating = 35

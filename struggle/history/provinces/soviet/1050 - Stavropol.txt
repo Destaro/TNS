@@ -1,0 +1,7 @@
+owner = ALN
+controller = ALN
+add_core = ALN
+trade_goods = wool
+life_rating = 35
+
+add_core = CHY

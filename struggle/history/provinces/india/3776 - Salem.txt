@@ -1,0 +1,6 @@
+owner = KRN
+controller = KRN
+trade_goods = grain
+life_rating = 32
+
+add_core = KRN

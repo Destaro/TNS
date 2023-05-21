@@ -1,0 +1,6 @@
+owner = AOT
+controller = AOT
+add_core = AOT
+trade_goods = wool
+terrain = montane_forest
+life_rating = 30

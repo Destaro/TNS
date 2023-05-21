@@ -1,0 +1,8 @@
+owner = PER
+controller = PER
+add_core = PER
+add_core = RDL
+add_core = KDS
+terrain = mountain
+trade_goods = cotton
+life_rating = 35

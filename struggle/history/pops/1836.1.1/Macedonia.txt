@@ -1,0 +1,886 @@
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Nevesca (424000/106000 POPS) 
+3476 = {
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 2450
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 3000
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 14212
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 20212
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 700
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+}
+3495 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 2450
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 16212
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 700
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 10000
+	}
+}
+#Monastir Region (268000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Bitola (268000/67000 POPS) 
+807 = {
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1200
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 24075
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 225
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 2965
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 500
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 6000
+	}
+
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = greek
+		religion = orthodox
+		size = 225
+	}
+
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1300
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 1975
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 9475
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1000
+	}
+
+}
+
+#Monastir Region (268000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Bitola (268000/67000 POPS) 
+3478 = {
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1200
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 24075
+	}
+	
+	soldiers = {
+		culture = serb
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = serb
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = serb
+		religion = orthodox
+		size = 225
+	}
+	
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 2965
+	}
+	
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = sunni
+		size = 6000
+	}
+
+	aristocrats = {
+		culture = aromanian
+		religion = sunni
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = aromanian
+		religion = sunni
+		size = 225
+	}
+
+	officers = {
+		culture = aromanian
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = sunni
+		size = 1300
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = sunni
+		size = 1975
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 9475
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1000
+	}
+
+}
+#Bitola (268000/67000 POPS) 
+3474 = {
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1200
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 24075
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1000
+	}
+
+}
+
+#Ohrid - Former Tichit
+1780 = {
+    aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 614
+	}
+	
+	bureaucrats = {
+		culture = albanian
+		religion = orthodox
+		size = 143
+	}
+	
+	officers = {
+		culture = albanian
+		religion = orthodox
+		size = 122
+	}
+    
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 2100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 16062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 26062
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 10100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 700
+	}
+}
+
+
+#Monastir Region (384000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836
+#Florina (116000/29000 POPS) #now part of Greece
+819 = {
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 10062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 14062
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 3100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
+}
+
+#Kastoria
+3473 = {
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 7062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 7062
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 3100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
+}
+#Krusevo
+3481 = {
+	clergymen = {
+		culture = frankish
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = frankish
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = frankish
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = frankish
+		religion = orthodox
+		size = 20062
+	}
+	
+	clergymen = {
+		culture = frankish
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = frankish
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = frankish
+		religion = orthodox
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 3100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
+}
+
+
+#Skopje
+806 = {
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 1250
+	}
+	
+	officers = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 2000
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 5000
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 36350
+	}
+}
+
+#Skopje
+3471 = {
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 125
+	}
+	
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 10000
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 18000
+	}
+}

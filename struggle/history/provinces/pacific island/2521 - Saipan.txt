@@ -1,0 +1,8 @@
+owner = TLD
+controller = TLD
+add_core = PHL
+trade_goods = fish
+life_rating = 30
+colonial = 1
+terrain = small_island
+

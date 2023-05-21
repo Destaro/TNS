@@ -1,0 +1,10 @@
+owner = RTH
+controller = RTH
+add_core = RTH
+add_core = URA
+add_core = RUT
+trade_goods = precious_metal
+terrain = montane_tundra
+life_rating = 15
+colonial = 2
+

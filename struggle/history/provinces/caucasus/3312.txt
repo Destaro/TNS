@@ -1,0 +1,7 @@
+owner = ALN
+controller = ALN
+add_core = SVA
+add_core = CIR
+add_core = ALN
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,5 @@
+owner = WIA
+controller = WIA
+add_core = WIA
+trade_goods = opium
+life_rating = 35

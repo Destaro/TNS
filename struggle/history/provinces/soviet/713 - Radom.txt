@@ -1,0 +1,9 @@
+owner = MRV
+controller = MRV
+add_core = POL
+
+add_core = PZN
+trade_goods = coal
+life_rating = 35
+
+add_core = CRO

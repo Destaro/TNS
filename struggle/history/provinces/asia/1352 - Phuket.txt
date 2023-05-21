@@ -1,0 +1,5 @@
+owner = PHG
+controller = PHG
+add_core = PHG
+trade_goods = timber
+life_rating = 35

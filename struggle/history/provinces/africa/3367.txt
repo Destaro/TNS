@@ -1,0 +1,8 @@
+owner = TUN
+controller = TUN
+add_core = TUN
+
+terrain = farmlands
+trade_goods = grain
+life_rating = 35
+

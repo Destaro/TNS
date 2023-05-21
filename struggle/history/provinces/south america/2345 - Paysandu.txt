@@ -1,0 +1,12 @@
+owner = KRT
+controller = KRT
+add_core = RGS
+add_core = LPL
+trade_goods = grain
+life_rating = 35
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 25
+}
+
+add_core = KRT

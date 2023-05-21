@@ -1,0 +1,7 @@
+owner = KUR
+controller = KUR
+add_core = KUR
+add_core = BUL
+add_core = RUT
+trade_goods = grain
+life_rating = 35

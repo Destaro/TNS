@@ -1,0 +1,10 @@
+owner = AQU
+controller = AQU
+
+add_core = FIU
+add_core = AQU
+naval_base = 1
+trade_goods = grain
+life_rating = 35
+
+add_core = ITA

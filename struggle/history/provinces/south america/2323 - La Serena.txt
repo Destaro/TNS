@@ -1,0 +1,8 @@
+owner = LPL
+controller = LPL
+
+trade_goods = grain
+life_rating = 35
+
+add_core = ARC
+add_core = LPL

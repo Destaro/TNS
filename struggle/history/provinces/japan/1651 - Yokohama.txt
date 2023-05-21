@@ -1,0 +1,8 @@
+owner = TKG
+controller = TKG
+
+trade_goods = grain
+terrain = yokohama
+life_rating = 35
+
+add_core = TKG

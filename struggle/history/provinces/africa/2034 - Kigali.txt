@@ -1,0 +1,8 @@
+owner = BUG
+controller = BUG
+add_core = RWA
+trade_goods = coffee
+terrain = montane_forest
+life_rating = 30
+
+add_core = BUG

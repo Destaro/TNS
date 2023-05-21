@@ -1,0 +1,9 @@
+owner = PRD
+controller = PRD
+add_core = PRD
+
+trade_goods = cattle
+life_rating = 40
+terrain = warsaw
+
+add_core = POL

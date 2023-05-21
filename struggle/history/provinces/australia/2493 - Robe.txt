@@ -1,0 +1,6 @@
+owner = NKR
+controller = NKR
+add_core = NKR
+trade_goods = wool
+terrain = savanna
+life_rating = 35

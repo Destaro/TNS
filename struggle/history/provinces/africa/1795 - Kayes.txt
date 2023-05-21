@@ -1,0 +1,8 @@
+owner = GBU
+controller = GBU
+add_core = SEG
+add_core = MAS
+trade_goods = wool
+life_rating = 32
+
+add_core = GBU

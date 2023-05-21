@@ -1,0 +1,6 @@
+owner = BER
+controller = BER
+add_core = BER
+trade_goods = cotton
+life_rating = 32
+terrain = steppe

@@ -1,0 +1,5 @@
+owner = AVA
+controller = AVA
+add_core = AVA
+trade_goods = grain
+life_rating = 35

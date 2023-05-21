@@ -1,0 +1,9 @@
+owner = TRN
+controller = TRN
+
+add_core = LUN
+terrain = savanna
+trade_goods = cattle
+life_rating = 35
+
+add_core = TRN

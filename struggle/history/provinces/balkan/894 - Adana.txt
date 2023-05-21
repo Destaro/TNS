@@ -1,0 +1,9 @@
+owner = CLC
+controller = CLC
+
+
+trade_goods = wool
+life_rating = 35
+
+add_core = CLC
+add_core = KSK

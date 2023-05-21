@@ -1,0 +1,6 @@
+owner = MAH
+controller = MAH
+trade_goods = cotton
+life_rating = 32
+
+add_core = MAH

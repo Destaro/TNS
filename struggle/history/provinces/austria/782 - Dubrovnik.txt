@@ -1,0 +1,11 @@
+owner = AQU
+controller = AQU
+add_core = DLM
+terrain = dubrovnik
+trade_goods = fish
+life_rating = 35
+
+add_core = ITA
+
+
+add_core = AQU

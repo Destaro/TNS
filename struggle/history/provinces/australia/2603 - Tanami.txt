@@ -1,0 +1,4 @@
+add_core = NJP
+trade_goods = cattle
+terrain = semidesert
+life_rating = 15

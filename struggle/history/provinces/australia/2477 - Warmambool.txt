@@ -1,0 +1,5 @@
+owner = NKR
+controller = NKR
+add_core = NKR
+trade_goods = wool
+life_rating = 35

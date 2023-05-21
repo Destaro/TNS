@@ -1,0 +1,5 @@
+owner = NJP
+controller = NJP
+add_core = NJP
+trade_goods = timber
+life_rating = 35

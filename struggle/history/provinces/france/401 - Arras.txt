@@ -1,0 +1,9 @@
+owner = FLA
+controller = FLA
+add_core = FLA
+add_core = BEL
+trade_goods = coal
+life_rating = 30
+1861.1.1 = { railroad = 3 }
+
+add_core = FRC

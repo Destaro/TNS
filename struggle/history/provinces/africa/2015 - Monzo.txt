@@ -1,0 +1,9 @@
+owner = TRN
+controller = TRN
+
+add_core = KZB
+trade_goods = grain
+terrain = savanna
+life_rating = 30
+
+add_core = TRN

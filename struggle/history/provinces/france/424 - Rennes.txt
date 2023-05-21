@@ -1,0 +1,14 @@
+owner = ORL
+controller = ORL
+add_core = BRT
+add_core = ORL
+
+trade_goods = grain
+
+life_rating = 30
+terrain = rennes
+
+1861.1.1 = { railroad = 3 }
+
+add_core = NDY
+add_core = FRC

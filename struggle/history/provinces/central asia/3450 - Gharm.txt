@@ -1,0 +1,6 @@
+owner = ZNU
+controller = ZNU
+add_core = ZNU
+add_core = TAJ
+trade_goods = cattle
+life_rating = 35

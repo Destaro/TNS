@@ -1,0 +1,7 @@
+owner = AJP
+controller = AJP
+
+terrain = new_world_montane_tundra
+trade_goods = fish
+life_rating = 20
+add_core = AJP

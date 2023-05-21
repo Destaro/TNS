@@ -1,0 +1,12 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+
+
+trade_goods = fish
+life_rating = 35
+terrain = odessa
+naval_base = 1
+
+
+add_core = CRO

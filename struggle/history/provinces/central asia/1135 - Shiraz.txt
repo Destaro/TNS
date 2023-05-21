@@ -1,0 +1,6 @@
+owner = PER
+controller = PER
+add_core = PER
+terrain = dry_mountains
+trade_goods = opium
+life_rating = 35

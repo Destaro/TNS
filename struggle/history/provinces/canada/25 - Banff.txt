@@ -1,0 +1,8 @@
+owner = AJP
+controller = AJP
+trade_goods = coal
+life_rating = 30
+
+add_core = AJP
+add_core = AKR
+add_core = AMG

@@ -1,0 +1,8 @@
+owner = LST
+controller = LST
+
+trade_goods = fruit
+life_rating = 35
+
+add_core = LST
+add_core = IBR

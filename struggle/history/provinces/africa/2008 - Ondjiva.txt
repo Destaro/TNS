@@ -1,0 +1,6 @@
+terrain = savanna
+trade_goods = iron
+life_rating = 10
+colonial = 1
+add_core = TRN
+add_core = NMB

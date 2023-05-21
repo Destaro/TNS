@@ -1,0 +1,7 @@
+owner = VIN
+controller = VIN
+trade_goods = cattle
+life_rating = 35
+
+add_core = VIN
+add_core = AVA

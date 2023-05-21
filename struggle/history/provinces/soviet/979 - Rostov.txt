@@ -1,0 +1,7 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+add_core = DON
+trade_goods = coal
+life_rating = 40
+terrain = rostov

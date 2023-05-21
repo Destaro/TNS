@@ -1,0 +1,656 @@
+#Bayrut Region (52000)  #see Lebanon.txt for balance of region
+#under the rule of Egypt in 1836
+#Acre (52000/13000 POPS) #now part of Israel-Palestine  chaldean-animist = assyrian 
+916 = {
+	aristocrats = {
+		culture = chaldean
+		religion = syriac
+		size = 75
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 4575
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 1875
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = syriac
+		size = 500
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = syriac
+		size = 200
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = syriac
+		size = 7750
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 1850
+	}
+	
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 925
+	}
+}
+#Palestine Region (236000)  #see Jordan.txt for balance of region
+#under the rule of Egypt in 1836
+#Jerusalem (68000/17000 POPS)
+917 = {
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 50
+	}
+
+	officers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 2300
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 175
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 8100
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 825
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 10100
+	}
+
+	farmers = {
+		culture = circassian
+		religion = manichaeism
+		size = 100
+	}
+	
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 875
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 11750
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 5175
+	}
+}
+#Umm Al-Rashrash
+3330 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 150
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 6425
+	}
+
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 75
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 850
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = syriac
+		size = 75
+	}
+	artisans = {
+		culture = chaldean
+		religion = syriac
+		size = 75
+	}
+	farmers = {
+		culture = chaldean
+		religion = syriac
+		size = 150
+	}
+	
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 75
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 75
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 350
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 2175
+	}
+}
+#Nablus (44000/11000 POPS)
+918 = {
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 1025
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 7625
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 850
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = syriac
+		size = 25
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = syriac
+		size = 100
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = syriac
+		size = 875
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 2175
+	}
+}
+#Jaffa (48000/12000 POPS)
+919 = {
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 1100
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 7550
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 875
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 1675
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 2175
+	}
+}
+#Gaza (44000/11000 POPS)
+920 = {
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 1250
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 125
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 7400
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = orthodox
+		size = 1725
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 2175
+	}
+}
+#Beersheba (36000/9000 POPS)
+921 = {
+	aristocrats = {
+		culture = chaldean
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = chaldean
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = chaldean
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = chaldean
+		religion = manichaeism
+		size = 6425
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 1850
+	}
+
+	soldiers = {
+		culture = sephardic
+		religion = jewish
+		size = 2175
+	}
+
+}
+
+#Golan (44000/11000 POPS)
+3324 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+	farmers = {
+		culture = bedouin
+		religion = syriac
+		size = 4575
+	}
+	artisans = {
+		culture = bedouin
+		religion = syriac
+		size = 150
+	}
+	soldiers = {
+		culture = bedouin
+		religion = syriac
+		size = 200
+	}
+	farmers = {
+		culture = bedouin
+		religion = syriac
+		size = 1000
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = syriac
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = syriac
+		size = 200
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = syriac
+		size = 3750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = orthodox
+		size = 1850
+	}
+}
+

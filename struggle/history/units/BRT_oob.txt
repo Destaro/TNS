@@ -1,0 +1,17 @@
+leader = {
+	name = "Andrev Morphred"
+	date = 1828.1.1
+	type = land
+	personality = implacable
+	background = school_of_the_bayonet
+	prestige = 0.5
+}
+
+leader = {
+	name = "Aldric Richards"
+	date = 1828.1.1
+	type = land
+	personality = cautious
+	background = school_of_defense
+	prestige = 0.5
+}

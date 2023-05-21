@@ -1,0 +1,8 @@
+owner = LPL
+controller = LPL
+add_core = PTG
+trade_goods = wool
+terrain = steppe
+life_rating = 15
+
+add_core = LPL

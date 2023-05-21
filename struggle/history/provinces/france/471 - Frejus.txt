@@ -1,0 +1,9 @@
+owner = BRG
+controller = BRG
+
+add_core = OCC
+add_core = ITA
+trade_goods = silk
+life_rating = 30
+
+add_core = BRG

@@ -1,0 +1,7 @@
+owner = MAS
+controller = MAS
+add_core = GBU
+trade_goods = fruit
+life_rating = 35
+
+add_core = MAS

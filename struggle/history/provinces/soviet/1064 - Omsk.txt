@@ -1,0 +1,8 @@
+owner = SIB
+controller = SIB
+trade_goods = sulphur
+life_rating = 30
+terrain = omsk
+
+
+add_core = SIB

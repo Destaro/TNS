@@ -1,0 +1,12 @@
+owner = BYZ
+controller = BYZ
+
+add_core = BOS
+
+
+trade_goods = fruit
+life_rating = 35
+
+
+add_core = WAL
+add_core = ROM

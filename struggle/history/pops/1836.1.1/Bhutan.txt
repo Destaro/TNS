@@ -1,0 +1,553 @@
+#Himalaya Region (56000) #see Nepal.txt and India.txt for balance of region
+#under the rule of Bhutan in 1836  
+#Thimpu (136000/34000 POPS)   
+1329 = {
+	aristocrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 575
+	}
+
+	bureaucrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 800
+	}
+
+	officers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 250
+	}
+
+	clergymen = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 300
+	}
+
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 15000
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 4000
+	}
+
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 65250
+	}
+
+	aristocrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 500
+	}
+
+	clergymen = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 750
+	}
+
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 2000
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 250
+	}
+
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 36500
+	}
+
+	slaves = {
+		culture = assamese
+		religion = gelugpa
+		size = 7000
+	}
+	
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 2500
+	}
+
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 8000
+	}
+	
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 10000
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 3000
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 3000
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 3000
+	}
+}
+#Darjeeling (3248000/812000 POPS)
+1252 = {
+	aristocrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 6000
+	}
+
+	clergymen = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 6250
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 3000
+	}
+
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 45250
+	}
+
+	aristocrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 1100
+	}
+
+	clergymen = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 2000
+	}
+
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 9500
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 2000
+	}
+
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 12500
+	}
+}
+#Tumlong (56000/14000 POPS)  #now part of India 
+#Animist - Lepcha Mun
+1328 = {
+	aristocrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 20
+	}
+
+	officers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 150
+	}
+
+	clergymen = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 200
+	}
+
+	artisans = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 100
+	}
+
+	soldiers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 1100
+	}
+
+	farmers = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 47950
+	}
+	
+	farmers = {
+		culture = dzongkha
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = gelugpa
+		size = 10000
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 365
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = gelugpa
+		size = 1000
+	}
+	
+	serfs = {
+		culture = dzongkha
+		religion = gelugpa
+		size = 300
+	}
+}
+
+#Trashigang
+3745 = {
+	aristocrats = {
+		culture = tshangla
+		religion = gelugpa
+		size = 75
+	}
+
+	clergymen = {
+		culture = tshangla
+		religion = gelugpa
+		size = 200
+	}
+
+	artisans = {
+		culture = tshangla
+		religion = gelugpa
+		size = 500
+	}
+
+	soldiers = {
+		culture = tshangla
+		religion = gelugpa
+		size = 1000
+	}
+
+	farmers = {
+		culture = tshangla
+		religion = gelugpa
+		size = 1200
+	}
+    
+	serfs = {
+		culture = tshangla
+		religion = gelugpa
+		size = 6500
+	}
+	
+	clergymen = {
+		culture = khengkha
+		religion = gelugpa
+		size = 100
+	}
+
+	artisans = {
+		culture = khengkha
+		religion = gelugpa
+		size = 100
+	}
+
+	soldiers = {
+		culture = khengkha
+		religion = gelugpa
+		size = 200
+	}
+
+	farmers = {
+		culture = khengkha
+		religion = gelugpa
+		size = 600
+	}
+    
+	serfs = {
+		culture = khengkha
+		religion = gelugpa
+		size = 3500
+	}
+	
+	clergymen = {
+		culture = bumthangkha
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = bumthangkha
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = bumthangkha
+		religion = gelugpa
+		size = 100
+	}
+
+	farmers = {
+		culture = bumthangkha
+		religion = gelugpa
+		size = 300
+	}
+    
+	serfs = {
+		culture = bumthangkha
+		religion = gelugpa
+		size = 1750
+	}
+	
+	clergymen = {
+		culture = kurtopkha
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = kurtopkha
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = kurtopkha
+		religion = gelugpa
+		size = 100
+	}
+
+	farmers = {
+		culture = kurtopkha
+		religion = gelugpa
+		size = 300
+	}
+    
+	serfs = {
+		culture = kurtopkha
+		religion = gelugpa
+		size = 1500
+	}
+	
+	clergymen = {
+		culture = dzalakha
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = dzalakha
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = dzalakha
+		religion = gelugpa
+		size = 100
+	}
+
+	farmers = {
+		culture = dzalakha
+		religion = gelugpa
+		size = 300
+	}
+    
+	serfs = {
+		culture = dzalakha
+		religion = gelugpa
+		size = 1800
+	}
+	
+	clergymen = {
+		culture = chochangachakha
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = chochangachakha
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = chochangachakha
+		religion = gelugpa
+		size = 100
+	}
+
+	farmers = {
+		culture = chochangachakha
+		religion = gelugpa
+		size = 300
+	}
+    
+	serfs = {
+		culture = chochangachakha 
+		religion = gelugpa
+		size = 1700
+	} 
+	
+	clergymen = {
+		culture = brokpake
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = brokpake
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = brokpake
+		religion = gelugpa
+		size = 100
+	}
+
+	farmers = {
+		culture = brokpake
+		religion = gelugpa
+		size = 300
+	}
+    
+	serfs = {
+		culture = brokpake 
+		religion = gelugpa
+		size = 1000
+	} 
+	
+	farmers = {
+		culture = dakpakha 
+		religion = gelugpa
+		size = 600
+	} 
+	
+    farmers = {
+		culture = chalikha 
+		religion = gelugpa
+		size = 500
+	} 	
+	
+	farmers = {
+		culture = kham 
+		religion = gelugpa
+		size = 300
+	} 
+	
+	farmers = {
+		culture = brokkat 
+		religion = gelugpa
+		size = 200
+	}
+	
+	farmers = {
+		culture = gongduk
+		religion = animist
+		size = 200
+	}
+    
+	serfs = {
+		culture = gongduk
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 175
+	}
+    
+	serfs = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = boro
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = boro
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = boro
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = boro
+		religion = animist
+		size = 25
+	}
+	
+	farmers = {
+		culture = boro
+		religion = animist
+		size = 100
+	}
+
+	serfs = {
+		culture = boro
+		religion = animist
+		size = 650
+	}
+}
+

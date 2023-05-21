@@ -1,0 +1,5 @@
+owner = SBL
+controller = SBL
+add_core = SBL
+trade_goods = grain
+life_rating = 30

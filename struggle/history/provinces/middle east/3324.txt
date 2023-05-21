@@ -1,0 +1,6 @@
+owner = ASY
+controller = ASY
+add_core = ASY
+add_core = JOR
+trade_goods = sulphur
+life_rating = 10

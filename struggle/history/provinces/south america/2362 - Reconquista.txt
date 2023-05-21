@@ -1,0 +1,2 @@
+owner = LPLcontroller = LPLadd_core = LPLtrade_goods = cattleterrain = savanna
+life_rating = 15

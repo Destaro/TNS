@@ -1,0 +1,57 @@
+name = "Bolkanian Invasion Of The Baltics"
+
+1835.10.2 = {
+	add_attacker = BUL
+	add_attacker = LIT
+	add_attacker = BYE
+	add_attacker = PRD
+	add_defender = SCA
+	add_defender = EST
+	add_defender = IZH
+	add_defender = NOV
+	add_defender = FIN
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = acquire_state
+		state_province_id = 997
+		actor = SCA
+		receiver = BUL
+	}
+	
+	war_goal = {
+		casus_belli = acquire_substate_region
+		state_province_id = 351
+		country = EST
+		actor = BUL
+		receiver = SCA
+	}
+	
+	war_goal = {
+		casus_belli = acquire_substate_region
+		state_province_id = 349
+		country = EST
+		actor = BUL
+		receiver = SCA
+	}
+	
+	war_goal = {
+		casus_belli = acquire_substate_region
+		state_province_id = 996
+		country = IZH
+		actor = BUL
+		receiver = SCA
+	}
+	
+	
+
+}
+
+1836.6.6 = {
+	rem_attacker = BUL
+	rem_defender = SCA
+}

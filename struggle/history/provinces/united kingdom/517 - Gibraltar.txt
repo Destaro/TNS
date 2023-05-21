@@ -1,0 +1,12 @@
+owner = TUN
+controller = TUN
+add_core = ANU
+add_core = TUN
+#terrain = urban
+trade_goods = fish
+life_rating = 35
+terrain = gibraltar
+naval_base = 2
+fort = 1
+
+add_core = IBR

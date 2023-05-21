@@ -1,0 +1,9 @@
+owner = KBO
+controller = KBO
+add_core = KBO
+add_core = DAM
+trade_goods = cattle
+terrain = semidesert
+life_rating = 30
+
+add_core = SOK

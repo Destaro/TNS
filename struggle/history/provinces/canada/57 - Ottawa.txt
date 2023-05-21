@@ -1,0 +1,9 @@
+owner = VIN
+controller = VIN
+
+trade_goods = grain
+life_rating = 35
+terrain = ottawa
+
+
+add_core = VIN

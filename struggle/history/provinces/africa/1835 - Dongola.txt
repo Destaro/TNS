@@ -1,0 +1,10 @@
+owner = SHW
+controller = SHW
+add_core = EGY
+
+trade_goods = fruit
+life_rating = 32
+terrain = semidesert
+colonial = 2
+
+add_core = SHW

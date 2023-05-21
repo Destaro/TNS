@@ -1,0 +1,7 @@
+owner = ORL
+controller = ORL
+add_core = ORL
+
+add_core = FRC
+trade_goods = iron
+life_rating = 30

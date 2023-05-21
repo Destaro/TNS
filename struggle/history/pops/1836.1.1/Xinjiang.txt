@@ -1,0 +1,1170 @@
+#Xinjiang Region (1356000)
+#under the "rule" of China in 1836
+#Kashgar (268000/67000 POPS)
+1594 = {
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 1100
+	}
+
+	bureaucrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 250
+	}
+
+	officers = {
+		culture = khotani
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 525
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 2600
+	}
+
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 2525
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 66775
+	}
+
+	aristocrats = {
+		culture = kirgiz
+		religion = animist
+		size = 225
+	}
+
+	clergymen = {
+		culture = kirgiz
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = animist
+		size = 575
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = animist
+		size = 8975
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 1450
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 975
+	}
+
+	slaves = {
+		culture = beifaren
+		religion = mahayana
+		size = 9000
+	}
+}
+
+#Taklamakan
+3343 = {
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 5
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 26
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 25
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 400
+	}
+
+	farmers = {
+		culture = mongol
+		religion = manichaeism
+		size = 50
+	}
+	
+	farmers = {
+		culture = mongol
+		religion = mahayana
+		size = 100
+	}
+}
+#Qarasheher 
+3368 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 300
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 2675
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 50225
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 575
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 1325
+	}
+
+	bureaucrats = {
+		culture = uighur
+		religion = mahayana
+		size = 50
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = uighur
+		religion = mahayana
+		size = 150
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = mahayana
+		size = 550
+	}
+
+	farmers = {
+		culture = uighur
+		religion = mahayana
+		size = 1750
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 25
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 100
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 1025
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 800
+	}
+
+	slaves = {
+		culture = uighur
+		religion = mahayana
+		size = 4000
+	}
+}
+#Yarkent
+3341 = {
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 250
+	}
+
+	officers = {
+		culture = khotani
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 400
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 2000
+	}
+
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 1525
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 35775
+	}
+	
+	clergymen = {
+		culture = mongol
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = mongol
+		religion = manichaeism
+		size = 600
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = manichaeism
+		size = 1000
+	}
+
+	farmers = {
+		culture = mongol
+		religion = manichaeism
+		size = 15000
+	}
+	
+	aristocrats = {
+		culture = mongol
+		religion = mahayana
+		size = 100
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = mongol
+		religion = mahayana
+		size = 600
+	}
+
+	farmers = {
+		culture = mongol
+		religion = mahayana
+		size = 775
+	}
+
+	aristocrats = {
+		culture = kirgiz
+		religion = animist
+		size = 225
+	}
+
+	clergymen = {
+		culture = kirgiz
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = animist
+		size = 575
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = animist
+		size = 8975
+	}
+
+}
+#Ili (168000/42000 POPS)
+1595 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 575
+	}
+
+	bureaucrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 150
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 300
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 1500
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 300
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 27325
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = kazak
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = kazak
+		religion = manichaeism
+		size = 5475
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 20
+	}
+
+	bureaucrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = manichaeism
+		size = 20
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = manichaeism
+		size = 50
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 10
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 900
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 100
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 250
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 4550
+	}
+}
+#Tulta (88000/22000 POPS)
+1596 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 6375
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = kazak
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = kazak
+		religion = manichaeism
+		size = 6375
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 20
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = manichaeism
+		size = 20
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = manichaeism
+		size = 50
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 10
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 900
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 125
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 75
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 350
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 75
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 6375
+	}
+}
+#Aksu (192000/48000 POPS)
+1597 = {
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 950
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 500
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 2400
+	}
+
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 43650
+	}
+}
+#Khotan (88000/22000 POPS)
+1598 = {
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 425
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 225
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 11000
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 11000
+	}
+
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 2250
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 92025
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 62025
+	}
+}
+#Kumul (188000/47000 POPS)
+1599 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 850
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 425
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 2150
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 425
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 39200
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 50
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = manichaeism
+		size = 150
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 25
+	}
+
+	slaves = {
+		culture = hanhui
+		religion = manichaeism
+		size = 2700
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 25
+	}
+
+	slaves = {
+		culture = beifaren
+		religion = mahayana
+		size = 900
+	}
+
+	slaves = {
+		culture = kirgiz
+		religion = mahayana
+		size = 900
+	}
+}
+#Urumqi (Tihwa) (332000/83000 POPS)
+1600 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 1200
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 600
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 3300
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 1675
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 80225
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = manichaeism
+		size = 7325
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 25
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 100
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 25
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 1800
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = kazak
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = kazak
+		religion = manichaeism
+		size = 3600
+	}
+
+	slaves = {
+		culture = beifaren
+		religion = mahayana
+		size = 14000
+	}
+}
+#Lopnur (32000/8000 POPS)
+2607 = {
+	aristocrats = {
+		culture = uighur
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = uighur
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = uighur
+		religion = manichaeism
+		size = 4575
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 75
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 150
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 25
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 2700
+	}
+
+}
+#Sarikol
+3342 = {
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 20
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 50
+	}
+	
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 300
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 20
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 50
+	}
+	
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 30
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 4450
+	}
+
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 175
+	}
+
+	soldiers = {
+		culture = khotani
+		religion = manichaeism
+		size = 500
+	}
+
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 3650
+	}
+	
+	aristocrats = {
+		culture = khotani
+		religion = manichaeism
+		size = 10
+	}
+	
+	clergymen = {
+		culture = khotani
+		religion = manichaeism
+		size = 5
+	}
+
+	artisans = {
+		culture = khotani
+		religion = manichaeism
+		size = 40
+	}
+	
+	farmers = {
+		culture = khotani
+		religion = manichaeism
+		size = 450
+	}
+}

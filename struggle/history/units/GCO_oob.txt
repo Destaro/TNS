@@ -1,0 +1,229 @@
+army = {
+	name = "Primary Army"
+	location = 2253
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 2252
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 2254
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballería"
+		type = cuirassier
+		home = 2250
+	}
+
+}
+
+leader = {
+	name = "Tomas de Mosquera"
+	date = 1820.1.1
+	type = land
+	personality = resourceful
+	background = politician
+	prestige = 0.2
+}
+
+army = {
+	name = "2nd Southern Army"
+	location = 2247
+	regiment = {
+		name= "1.1a División de Infantería"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2.1a División de Infantería"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "3.1a División de Infantería"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "1.2a División de Infantería"
+		type = cavalry
+		home = 2248
+	}
+
+	regiment = {
+		name= "2.2a División de Infantería"
+		type = cavalry
+		home = 2248
+	}
+
+	regiment = {
+		name= "3.2a División de Infantería"
+		type = artillery
+		home = 2250
+	}
+
+}
+
+army = {
+	name = "Northern Army"
+	location = 2255
+	regiment = {
+		name= "1.3a División de Infantería"
+		type = infantry
+		home = 2255
+	}
+
+	regiment = {
+		name= "2.3a División de Infantería"
+		type = infantry
+		home = 2255
+	}
+
+	regiment = {
+		name= "3.3a División de Infantería"
+		type = infantry
+		home = 2255
+	}
+
+	regiment = {
+		name= "1.4a División de Infantería"
+		type = infantry
+		home = 2254
+	}
+
+	regiment = {
+		name= "2.4a División de Infantería"
+		type = cavalry
+		home = 2254
+	}
+
+	regiment = {
+		name= "3.4a División de Infantería"
+		type = cavalry
+		home = 2254
+	}
+
+}
+
+leader = {
+	name = "Leon Cordero"
+	date = 1820.1.1
+	type = land
+	personality = resourceful
+	background = professor
+	prestige = 0.2
+}
+
+leader = {
+	name = "Juan Falcón"
+	date = 1827.1.1
+	type = land
+	personality = balanced_p
+	background = corrupt
+	prestige = 0.1
+}
+
+army = {
+	name = "2nd Northern Army"
+	location = 2264
+	regiment = {
+		name= "1.1ra división"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2.1ra división"
+		type = infantry
+		home = 2267
+	}
+
+	regiment = {
+		name= "3.1ra división"
+		type = cuirassier
+		home = 2268
+	}
+
+	regiment = {
+		name= "1.2ra división"
+		type = infantry
+		home = 2269
+	}
+
+	regiment = {
+		name= "2.2ra división"
+		type = infantry
+		home = 2270
+	}
+
+	regiment = {
+		name= "3.2ra división"
+		type = cuirassier
+		home = 2271
+	}
+
+}
+
+leader = {
+	name = "Garcia Moreno"
+	date = 1829.1.1
+	type = land
+	personality = deeply_religious
+	background = politician
+	prestige = 0.1
+}
+
+army = {
+	name = "Southern Army"
+	location = 2279
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = infantry
+		home = 2279
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = infantry
+		home = 2279
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = infantry
+		home = 2279
+	}
+	regiment = {
+		name= "4. Brigada de Infantería"
+		type = cavalry
+		home = 2279
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = artillery
+		home = 2279
+	}
+
+	regiment = {
+		name= "6. Brigada de Infantería"
+		type = artillery
+		home = 2283
+	}
+
+}
+
+

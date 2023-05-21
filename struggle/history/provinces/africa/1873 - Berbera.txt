@@ -1,0 +1,10 @@
+owner = SOM
+controller = SOM
+add_core = WRL
+add_core = MAJ
+add_core = GEL
+trade_goods = cotton
+terrain = semidesert
+life_rating = 31
+
+add_core = SOM

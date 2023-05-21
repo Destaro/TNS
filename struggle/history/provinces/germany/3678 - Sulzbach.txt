@@ -1,0 +1,8 @@
+owner = FRE
+controller = FRE
+add_core = FRE
+add_core = GER
+trade_goods = coal
+life_rating = 35
+
+

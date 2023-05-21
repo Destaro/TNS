@@ -1,0 +1,101 @@
+army = {
+	name = "6-i Armeiskii Korpus" #Crimean Army
+	location = 964
+	regiment = {
+		name= "6.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 969
+	}
+
+	regiment = {
+		name= "6.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 969
+	}
+
+	regiment = {
+		name= "6.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 969
+	}
+
+	regiment = {
+		name= "6.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 968
+	}
+
+	regiment = {
+		name= "6.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 978
+	}
+
+	regiment = {
+		name= "6.1-ya Pekhotnaya Diviziya"
+		type = cavalry
+		home = 978
+	}
+
+	regiment = {
+		name= "6.2-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 978
+	}
+	
+	regiment = {
+		name= "6.3-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 979
+	}
+	
+	regiment = {
+		name= "6.4-ya Kavalerijskaya Diviziya"
+		type = cavalry
+		home = 964
+	}
+
+}
+
+
+navy = {
+	name = "Black Sea Fleet"
+	location = 967
+	
+
+	ship = {
+		name= "Tri Svyatitelei"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tri Svyatitelei"
+		type = manowar
+	}
+	ship = {
+		name= "Tri Svyatitelei"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1. Transportnaya Flotiliya"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Transportnaya Flotiliya"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "3. Transportnaya Flotiliya"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4. Transportnaya Flotiliya"
+		type = clipper_transport
+	}
+
+}

@@ -1,0 +1,6 @@
+owner = AGC
+controller = AGC
+add_core = AGC
+add_core = ZOU
+trade_goods = tobacco
+life_rating = 35

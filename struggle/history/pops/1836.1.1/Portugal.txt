@@ -1,0 +1,582 @@
+#Duoro e Minho Region (1660000)
+#Oporto (768000/192000 POPS)
+518 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 1500
+	}
+
+	officers = {
+		culture = suebi
+		religion = catholic
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = suebi
+		religion = catholic
+		size = 800
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 10000
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 2500
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 150200
+	}
+}
+#Vila Real (324000/81000) POPS
+519 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 1850
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 625
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 3250
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 69275
+	}
+}
+#Covilha (568000/142000 POPS)
+520 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 1250
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 1500
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 7250
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 1500
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 86500
+	}
+
+}
+#Beira-Estremadura Region (1060000)
+#Lisbon (348000/87000 POPS)
+521 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 1100
+	}
+
+	officers = {
+		culture = visigothic
+		religion = catholic
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = visigothic
+		religion = catholic
+		size = 650
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 1100
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 8500
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 68500
+	}
+}
+#Coimbra (460000/115000 POPS)
+522 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 1200
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 1200
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 99800
+	}
+}
+#Abrantes (140000/35000 POPS)
+523 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 450
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 2250
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 400
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 41550
+	}
+}
+#Setubal (112000/28000 POPS)
+524 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 400
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 1500
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 42800
+	}
+
+}
+#Alentejo-Algarve Region (372000)
+#Evora (156000/39000 POPS)
+525 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 850
+	}
+
+	officers = {
+		culture = visigothic
+		religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = visigothic
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 425
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 2250
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 44250
+	}
+}
+#Beja (96000/24000 POPS)
+526 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 250
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 1250
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 42250
+	}
+}
+#Faro (120000/30000 POPS)
+527 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 550
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 325
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 1750
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 350
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 36025
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 5025
+	}
+
+}
+#Azores & Madeira Region (308000)
+#Azores (204000/51000 POPS)
+2134 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 500
+	}
+
+	officers = {
+		culture = visigothic
+		religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = visigothic
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 375
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 45975
+	}
+}
+#Madeira (104000/26000 POPS)
+2135 = {
+	aristocrats = {
+		culture = visigothic
+		religion = catholic
+		size = 250
+	}
+
+	clergymen = {
+		culture = visigothic
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = visigothic
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 23825
+	}
+
+}
+#Port-Superior
+3338 = {
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 2130
+	}
+	
+	clergymen = {
+		culture = suebi
+		religion = protestant
+		size = 275
+	}
+
+	artisans = {
+		culture = suebi
+		religion = protestant
+		size = 2150
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = protestant
+		size = 450
+	}
+
+	farmers = {
+		culture = suebi
+		religion = protestant
+		size = 38125
+	}
+}
+#Memphis (128000/32000 POPS)
+3339 = {
+	clergymen = {
+		culture = suebi
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = suebi
+		religion = protestant
+		size = 400
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = protestant
+		size = 75
+	}
+
+	farmers = {
+		culture = suebi
+		religion = protestant
+		size = 1475
+	}
+
+	aristocrats = {
+		culture = suebi
+		religion = protestant
+		size = 450
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = protestant
+		size = 150
+	}
+
+	artisans = {
+		culture = suebi
+		religion = protestant
+		size = 800
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = protestant
+		size = 300
+	}
+
+	farmers = {
+		culture = suebi
+		religion = protestant
+		size = 20300
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = suebi
+		religion = protestant
+		size = 350
+	}
+
+	farmers = {
+		culture = suebi
+		religion = protestant
+		size = 100
+	}
+
+	slaves = {
+		culture = suebi
+		religion = protestant
+		size = 7500
+	}
+}

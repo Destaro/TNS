@@ -1,0 +1,263 @@
+leader = {
+	name = "de Urquiza"
+	date = 1827.1.1
+	type = land
+	personality = inefficient
+	background = powerful_friends
+	prestige = 0.2
+}
+
+leader = {
+	name = "Bartolomé Mitre"
+	date = 1823.1.1
+	type = land
+	personality = efficient
+	background = politician
+	prestige = 0.2
+}
+
+leader = {
+	name = "Julio Roca"
+	date = 1821.1.1 #1853
+	type = land
+	personality = brilliant
+	background = war_college
+	prestige = 0.2
+}
+
+army = {
+	name = "National Army"
+	location = 2322
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "1.1ra división de caballería"
+		type = cuirassier
+		home = 2326
+	}
+
+	regiment = {
+		name= "2.1ra división de caballería"
+		type = cuirassier
+		home = 2360
+	}
+
+	regiment = {
+		name= "3.1ra división de caballería"
+		type = cuirassier
+		home = 2328
+	}
+
+}
+
+
+
+army = {
+	name = "Army of the Silver Wind"
+	location = 2349
+	regiment = {
+		name= "1. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "2. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "3. División de Infantería"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "4. División de Infantería"
+		type = infantry
+		home = 2349
+	}
+
+}
+
+leader = {
+	name = "Justo Arteaga"
+	date = 1821.1.1
+	type = land
+	personality = careful
+	background = elderly
+	prestige = 0.2
+}
+
+army = {
+	name = "Mountain Unit"
+	location = 2323
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = infantry
+		home = 2326
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "1.1ra división de caballería"
+		type = cuirassier
+		home = 2328
+	}
+
+	regiment = {
+		name= "2.1ra división de caballería"
+		type = cuirassier
+		home = 2325
+	}
+
+	regiment = {
+		name= "3.1ra división de caballería"
+		type = cuirassier
+		home = 2324
+	}
+
+}
+
+army = {
+	name = "River Garrison"
+	location = 2359
+	regiment = {
+		name= "1. División de Infantería"
+		type = infantry
+		home = 2360
+	}
+	regiment = {
+		name= "2. División de Infantería"
+		type = infantry
+		home = 2356
+	}
+}
+
+
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 2325
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4st Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+
+navy = {
+	name = "Pacific Fleet"
+	location = 2325
+	
+	ship = {
+		name= "Esmeralda"
+		type = frigate
+	}
+
+	ship = {
+		name= "Maipu"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Aquiles"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Voltaire"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Orbegoso"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Valparaiso"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Libertad"
+		type = frigate
+	}
+	
+	ship = {
+		name = "1. Buque de transporte"
+		type = clipper_transport
+	}
+	
+	
+	ship = {
+		name = "2. Buque de transporte"
+		type = clipper_transport
+	}
+
+}
+	
+leader = {
+   name = "Angel Pacheco"
+   type = land
+   date = 1836.1.1
+   background = aristocrat
+   personality = implacable
+}
+
+leader = {
+   name = "Justo José de Urquiza"
+   type = land
+   date = 1836.1.1
+   background = school_of_the_bayonet
+   personality = implacable
+	}
+	leader = {
+   name = "Genaro Berón de Astrada"
+   type = land
+   date = 1835.12.12
+   background = drillmaster
+   personality = audacious
+	}

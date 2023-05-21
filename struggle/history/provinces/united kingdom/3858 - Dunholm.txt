@@ -1,0 +1,8 @@
+owner = WHA
+controller = WHA
+add_core = WHA
+add_core = SCO
+add_core = NTU
+trade_goods = coal
+life_rating = 35
+

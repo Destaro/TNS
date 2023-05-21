@@ -1,0 +1,9 @@
+owner = GCO
+controller = GCO
+add_core = VNG
+trade_goods = tobacco
+life_rating = 35
+colonial = 2
+terrain = new_world_plains
+
+add_core = GCO

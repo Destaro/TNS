@@ -1,0 +1,87 @@
+
+army = {
+	name = "Armej af Opper Lutherungen"
+	location = 3376
+	regiment = {
+		name= "1.Küniclijke Garte"
+		type = guard
+		home = 3554
+	}
+
+	regiment = {
+		name= "2.Küniclijke Garte"
+		type = guard
+		home = 3557
+	}
+
+	regiment = {
+		name= "3.Küniclijke Garte"
+		type = guard
+		home = 413
+	}
+
+	regiment = {
+		name= "4.Küniclijke Garte"
+		type = guard
+		home = 413
+	}
+
+	regiment = {
+		name= "5.Küniclijke Garte"
+		type = guard
+		home = 413
+	}
+	
+	regiment = {
+		name= "1. Kavalerie Divisjen"
+		type = hussar
+		home = 414
+	}
+	
+	regiment = {
+		name= "2. Kavalerie Divisjen"
+		type = hussar
+		home = 411
+	}
+	
+	regiment = {
+		name= "1. Infanterije Divisjen"
+		type = infantry
+		home = 412
+	}
+
+	regiment = {
+		name= "2. Infanterije Divisjen"
+		type = infantry
+		home = 412
+	}
+
+	regiment = {
+		name= "3. Infanterije Divisjen"
+		type = infantry
+		home = 571
+	}
+	
+	regiment = {
+		name= "1. Artillerije Divisjen"
+		type = artillery
+		home = 432
+	}
+	
+	regiment = {
+		name= "2. Artillerije Divisjen"
+		type = artillery
+		home = 432
+	}
+}
+
+leader = {
+	name = "Lothar XII Af Lutherungen"
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = gifted_administrator
+	prestige = 1.0
+}
+	
+	

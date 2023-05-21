@@ -1,0 +1,191 @@
+
+SLV = {	
+	value = 25
+	level = 4
+	influence_value = 0
+}
+
+FRE = {	
+	value = 125
+	level = 3
+	influence_value = 0
+}
+
+POL = {	
+	value = 25
+	level = 4 
+	influence_value = 0
+}
+
+BDB = {	
+	value = 25
+	level = 3
+	influence_value = 0
+}
+
+WES = {	
+	value = 25
+	level = 2
+	influence_value = 0
+}
+
+
+leader = {
+	name = "Ölprecht zu Hapšpurk"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+#Army
+
+army = {
+	name = "I. Armä"
+	location = 625
+	
+
+	regiment = {
+		name= "2.1. Kavällerý"
+		type = cuirassier
+		home = 625
+	}
+
+	regiment = {
+		name= "3.1. Kavällerý"
+		type = cuirassier
+		home = 3469
+	}
+
+	regiment = {
+		name= "2.2. Infänterý"
+		type = infantry
+		home = 3469
+	}
+
+	regiment = {
+		name= "2.3. Infänterý"
+		type = infantry
+		home = 3470
+	}
+
+	
+
+	regiment = {
+		name= "3.2. Infänterý"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "1.3. Infänterý"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "3.4. Infänterý"
+		type = artillery
+		home = 626
+	}
+
+	regiment = {
+		name= "3.6. Infänterý"
+		type = artillery
+		home = 631
+	}
+
+	regiment = {
+		name= "3.7. Infänterý"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "3.8. Infänterý"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "3.9. Infänterý"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "3.1. Infänterý"
+		type = artillery
+		home = 683
+	}
+
+	
+
+	regiment = {
+		name= "5.1. Infänterý"
+		type = artillery
+		home = 684
+	}
+
+	regiment = {
+		name= "5.2. Infänterý"
+		type = cuirassier
+		home = 684
+	}
+}
+
+
+army = {
+	name = "II. Armä"
+	location = 682
+	regiment = {
+		name= "1.1. Kavällerý"
+		type = cuirassier
+		home = 625
+	}
+
+	
+
+	regiment = {
+		name= "2.2. Infänterý"
+		type = infantry
+		home = 3469
+	}
+
+	regiment = {
+		name= "2.3. Infänterý"
+		type = infantry
+		home = 3470
+	}
+
+	regiment = {
+		name= "2.4. Infänterý"
+		type = infantry
+		home = 3470
+	}
+
+regiment = {
+		name= "2.3. Infänterý"
+		type = infantry
+		home = 3470
+	}
+
+	regiment = {
+		name= "2.4. Infänterý"
+		type = infantry
+		home = 3470
+	}
+	
+
+	regiment = {
+		name= "5.1. Infänterý"
+		type = artillery
+		home = 684
+	}
+
+	regiment = {
+		name= "5.2. Infänterý"
+		type = cuirassier
+		home = 684
+	}
+}

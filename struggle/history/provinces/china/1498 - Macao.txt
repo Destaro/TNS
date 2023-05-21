@@ -1,0 +1,8 @@
+owner = MIN
+controller = MIN
+add_core = GNG
+add_core = MIN
+add_core = CHI
+trade_goods = precious_goods
+life_rating = 35
+terrain = macao

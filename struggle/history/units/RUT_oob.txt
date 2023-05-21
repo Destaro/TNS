@@ -1,0 +1,113 @@
+army = {
+	name = "2-i Armeiskii Korpus" #Belarus Army
+	location = 941
+	regiment = {
+		name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 948
+	}
+
+	regiment = {
+		name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
+		home = 949
+	}
+
+	regiment = {
+		name= "2.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 3561
+	}
+
+	regiment = {
+		name= "2.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 3561
+	}
+
+	regiment = {
+		name= "2.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 956
+	}
+
+	regiment = {
+		name= "2.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 955
+	}
+
+	
+	
+	
+	regiment = {
+		name = "2.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 954
+	}
+}
+
+army = {
+	name = "4-i Armeiskii Korpus" #Kiev/Ukrainian Army
+	location = 958
+	
+	regiment = {
+		name = "4.1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 957
+	}
+	
+	regiment = {
+		name = "4.2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 959
+	}
+
+	regiment = {
+		name = "4.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 959
+	}
+
+	regiment = {
+		name = "4.4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 955
+	}
+	
+	regiment = {
+		name = "4.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 955
+	}
+
+	regiment = {
+		name = "4.5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 958
+	}
+	
+	regiment = {
+		name = "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cuirassier
+		home = 958
+	}
+	
+	regiment = {
+		name = "4.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cavalry
+		home = 3548
+	}
+	
+	regiment = {
+		name = "4.1-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 960
+	}
+
+	regiment = {
+		name = "4.2-ya Artilleriiskii Diviziya"
+		type = artillery
+		home = 960
+	}
+}

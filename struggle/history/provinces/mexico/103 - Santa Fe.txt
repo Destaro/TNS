@@ -1,0 +1,5 @@
+owner = AKR
+controller = AKR
+trade_goods = fruit
+life_rating = 35
+add_core = AKR

@@ -1,0 +1,7 @@
+owner = ZOU
+controller = ZOU
+add_core = SHO
+trade_goods = tobacco
+life_rating = 10
+
+add_core = ZOU

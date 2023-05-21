@@ -1,0 +1,17 @@
+owner = TUN
+controller = TUN
+add_core = TUN
+trade_goods = grain
+life_rating = 35
+terrain = tunis
+naval_base = 2
+1861.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 2
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}

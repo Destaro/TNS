@@ -1,0 +1,6 @@
+owner = TUN
+controller = TUN
+add_core = BER
+trade_goods = precious_goods
+life_rating = 32
+colonial = 2

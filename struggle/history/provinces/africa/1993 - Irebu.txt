@@ -1,0 +1,7 @@
+owner = KON
+controller = KON
+add_core = MNG
+trade_goods = grain
+life_rating = 10
+
+add_core = KON

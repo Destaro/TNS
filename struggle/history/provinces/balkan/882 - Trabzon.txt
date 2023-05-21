@@ -1,0 +1,9 @@
+owner = KSK
+controller = KSK
+
+add_core = ARM
+trade_goods = cattle
+life_rating = 35
+
+add_core = PNT
+add_core = KSK

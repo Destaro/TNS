@@ -1,0 +1,6 @@
+owner = WIA
+controller = WIA
+add_core = KAR
+add_core = WIA
+trade_goods = grain
+life_rating = 33

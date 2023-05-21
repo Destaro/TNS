@@ -1,0 +1,6 @@
+owner = OMA
+controller = OMA
+add_core = ZAN
+add_core = OMA
+trade_goods = cattle
+life_rating = 30

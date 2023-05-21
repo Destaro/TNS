@@ -1,0 +1,12 @@
+owner = SYR
+controller = SYR
+add_core = HAL
+add_core = SYR
+add_core = HDJ
+trade_goods = grain
+life_rating = 10
+
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
+}

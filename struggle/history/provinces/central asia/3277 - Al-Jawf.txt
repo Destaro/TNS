@@ -1,0 +1,6 @@
+owner = HAL
+controller = HAL
+add_core = HAL
+add_core = HDJ
+trade_goods = sulphur
+life_rating = 10

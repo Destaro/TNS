@@ -1,0 +1,38 @@
+name = "War of the Frankish League"
+
+1830.4.19 = {
+	add_attacker = ORL
+	add_attacker = BRT
+	add_attacker = NDY
+	add_defender = SCA
+	
+	war_goal = {
+		casus_belli = become_independent
+		actor = BRT
+		receiver = SCA
+	}
+	
+	war_goal = {
+		casus_belli = become_independent
+		actor = NDY
+		receiver = SCA
+	}
+	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SCA
+		receiver = BRT
+	}
+	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SCA
+		receiver = NDY
+	}
+
+}
+
+1848.9.3 = {
+	rem_attacker = BRT
+	rem_defender = SCA
+}

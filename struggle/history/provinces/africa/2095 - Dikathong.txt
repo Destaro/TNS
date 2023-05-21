@@ -1,0 +1,7 @@
+trade_goods = grain
+owner = TSW
+controller = TSW
+add_core = TSW
+terrain = semidesert
+life_rating = 15
+

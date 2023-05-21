@@ -1,0 +1,7 @@
+add_core = SHK
+add_core = SUD
+owner = SUD
+controller = SUD
+trade_goods = grain
+life_rating = 15
+

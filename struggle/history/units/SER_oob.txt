@@ -1,0 +1,67 @@
+leader = {
+	name = "Prince Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+
+leader = {
+	name = "Milivoje Blaznavac"
+	date = 1861.1.1
+	type = land
+	personality = openminded
+	background = artillerist
+}
+
+army = {
+	name = "Serbian Army"
+	location = 668
+	regiment = {
+		name= "1.1. Division"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = infantry
+		home = 666
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = infantry
+		home = 665
+	}
+
+	regiment = {
+		name= "4.1. Division"
+		type = cuirassier
+		home = 664
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 667
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 669
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 664
+	}
+
+	
+}
+
+
+

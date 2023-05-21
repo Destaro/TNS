@@ -1,0 +1,7 @@
+owner = SCA
+controller = SCA
+add_core = MAL
+add_core = INO
+trade_goods = tropical_wood
+life_rating = 30
+colonial = 2

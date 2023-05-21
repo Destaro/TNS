@@ -1,0 +1,12 @@
+owner = MRV
+controller = MRV
+
+
+add_core = SLV
+
+trade_goods = cattle
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+
+
+add_core = PNN

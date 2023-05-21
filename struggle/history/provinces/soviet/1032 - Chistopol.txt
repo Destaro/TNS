@@ -1,0 +1,6 @@
+owner = UKR
+controller = UKR
+add_core = UKR
+add_core = RUT
+trade_goods = timber
+life_rating = 35

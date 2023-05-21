@@ -1,0 +1,135 @@
+army = {
+	name = "Royal Vinlandic Army"
+	location = 57
+	regiment = {
+		name= "1.1. Canadian Division"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "2.1. Canadian Division"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "3.1. Canadian Division"
+		type = infantry
+		home = 65
+	}
+
+}
+
+army = {
+	name = "The home Garrison"
+	location = 58
+	
+	regiment = {
+		name= "2nd Dragoons (Royal Scots Greys)"
+		type = cuirassier
+		home = 46
+	}
+	
+	regiment = {
+		name= "1st Canadian Royal Regiment"
+		type = infantry
+		home = 46
+	}
+
+	regiment = {
+		name= "The Welch Regiment"
+		type = infantry
+		home = 56
+	}
+
+	regiment = {
+		name= "Duke of Cornwall's Light Infantry"
+		type = infantry
+		home = 65
+	}
+	
+	regiment = {
+		name= "34th (Cumberland) Regiment"
+		type = infantry
+		home = 52
+	}
+	
+	regiment = {
+		name= "6th Regiment Royal Artillery"
+		type = artillery
+		home = 52
+	}
+	
+	regiment = {
+		name= "7th Regiment Royal Artillery"
+		type = artillery
+		home = 58
+	}
+	
+	regiment = {
+		name= "8th Regiment Royal Artillery"
+		type = artillery
+		home = 58
+	}
+}
+
+army = {
+	name = "The Moshva Garrison"
+	location = 46
+	
+	regiment = {
+		name= "Prince of Wales's Lancers"
+		type = cuirassier
+		home = 56
+	}
+	
+	regiment = {
+		name= "12th (The East Suffolk) Regiment"
+		type = infantry
+		home = 65
+	}
+
+	regiment = {
+		name= "9th (The East Norfolk) Regiment"
+		type = infantry
+		home = 52
+	}
+
+	regiment = {
+		name= "Canadian Frontier Light Infantry"
+		type = infantry
+		home = 52
+	}
+	
+	regiment = {
+		name= "Prince of Wales's Own Regiment"
+		type = infantry
+		home = 56
+	}
+	
+	regiment = {
+		name= "1st Canadian Royal Artillery"
+		type = artillery
+		home = 46
+	}
+	
+	regiment = {
+		name= "2nd Canadian Royal Artillery"
+		type = artillery
+		home = 55
+	}
+	
+	regiment = {
+		name= "1st Regiment Royal Artillery"
+		type = artillery
+		home = 51
+	}
+	
+	regiment = {
+		name= "3rd Regiment Royal Artillery"
+		type = artillery
+		home = 51
+	}
+
+}

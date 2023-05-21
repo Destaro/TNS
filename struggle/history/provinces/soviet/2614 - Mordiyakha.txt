@@ -1,0 +1,14 @@
+owner = URA
+controller = URA
+
+trade_goods = timber
+life_rating = 35
+colonial = 2
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+
+
+add_core = URA

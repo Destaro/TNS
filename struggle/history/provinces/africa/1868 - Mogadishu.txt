@@ -1,0 +1,11 @@
+owner = OMA
+controller = OMA
+add_core = MAJ
+add_core = GEL
+add_core = WRL
+trade_goods = cattle
+terrain = savanna
+life_rating = 35
+
+add_core = OMA
+add_core = SOM

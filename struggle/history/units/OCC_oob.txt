@@ -1,0 +1,70 @@
+army = {
+	name = "Force d'intervention Espagnole"
+	location = 3374
+	regiment = {
+		name = "1.8ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+
+	regiment = {
+		name = "2.8ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+
+	regiment = {
+		name = "3.8ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+
+	regiment = {
+		name = "1.9ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+
+	regiment = {
+		name = "1.10ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+	
+	regiment = {
+		name = "1.11ème Division d'Infanterie"
+		type = infantry
+		home = 3374
+	}
+
+	regiment = {
+		name = "2.2ème Division de cavalerie"
+		type = cuirassier
+		home = 459
+	}
+
+	regiment = {
+		name = "3.2ème Division de cavalerie"
+		type = cuirassier
+		home = 462
+	}
+	
+	regiment = {
+		name = "1ème Division d'Artillerie"
+		type = artillery
+		home = 467
+	}
+
+	regiment = {
+		name = "2ère Division d'Artillerie"
+		type = artillery
+		home = 456
+	}
+	
+	regiment = {
+		name = "3ème Division d'Artillerie"
+		type = artillery
+		home = 447
+	}
+
+}

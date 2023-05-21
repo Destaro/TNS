@@ -1,0 +1,7 @@
+owner = TEX
+controller = TEX
+add_core = MEX
+add_core = ACH
+trade_goods = grain
+life_rating = 35
+add_core = TEX

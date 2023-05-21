@@ -1,0 +1,13 @@
+owner = HYD
+controller = HYD
+add_core = BAS
+add_core = ORI
+add_core = HYD
+trade_goods = fish
+naval_base = 1
+life_rating = 32
+
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+}

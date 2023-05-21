@@ -1,0 +1,6 @@
+owner = WLL
+controller = WLL
+add_core = WLL
+add_core = FRC
+trade_goods = grain
+life_rating = 35

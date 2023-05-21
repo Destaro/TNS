@@ -1,0 +1,6 @@
+owner = NJP
+controller = NJP
+add_core = NJP
+trade_goods = cattle
+terrain = plains
+life_rating = 30

@@ -1,0 +1,6 @@
+owner = CRO
+controller = CRO
+add_core = POL
+add_core = CRO
+trade_goods = coal
+life_rating = 35

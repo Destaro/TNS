@@ -1,0 +1,8 @@
+owner = MOR
+controller = MOR
+
+trade_goods = grain
+life_rating = 31
+terrain = semidesert
+
+add_core = MOR

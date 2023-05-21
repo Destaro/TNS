@@ -1,0 +1,7 @@
+owner = DAR
+controller = DAR
+add_core = DAR
+trade_goods = wool
+life_rating = 20
+terrain = semidesert
+

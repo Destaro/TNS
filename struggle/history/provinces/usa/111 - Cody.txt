@@ -1,0 +1,14 @@
+owner = VNS
+controller = VNS
+add_core = UNM
+trade_goods = coal
+life_rating = 35
+
+1861.1.1 = {
+	colonial = 0 
+	remove_core = COL
+}
+
+add_core = MEX
+add_core = VNS
+add_core = AMG

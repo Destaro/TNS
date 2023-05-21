@@ -1,0 +1,360 @@
+#Duoro e Minho Region (1660000)
+#Oporto (768000/192000 POPS)
+518 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 1500
+	}
+
+	officers = {
+		culture = suebi
+		religion = catholic
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = suebi
+		religion = catholic
+		size = 800
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 10000
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 2500
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 150200
+	}
+}
+#Vila Real (324000/81000) POPS
+519 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 1850
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 625
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 3250
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 69275
+	}
+}
+#Galicia-Asturias Region (1572000)
+#La Coruna (796000/199000 POPS)
+474 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 2200
+	}
+
+	officers = {
+		culture = suebi
+		religion = catholic
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = suebi
+		religion = catholic
+		size = 650
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 2000
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 2350
+	}
+        artisans = {
+		culture = suebi
+		religion = catholic
+		size = 4350
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 3000
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 104350
+	}
+        farmers = {
+		culture = suebi
+		religion = catholic
+		size = 40350
+	}
+}
+#Oviedo (448000/112000 POPS)
+475 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 1050
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 10850
+	}
+
+	clergymen = {
+		culture = basque
+		religion = catholic
+		size = 50
+		militancy = 8
+	}
+
+	soldiers = {
+		culture = basque
+		religion = catholic
+		size = 50
+		militancy = 8
+	}
+
+	farmers = {
+		culture = basque
+		religion = catholic
+		size = 3900
+		militancy = 8
+	}
+}
+#Vigo (328000/82000 POPS)
+476 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 700
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 800
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 4000
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 45500
+	}
+        farmers = {
+		culture = suebi
+		religion = catholic
+		size = 30500
+	}
+
+}
+#Leon Region (888000)
+#Leon (280000/70000 POPS)
+477 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 800
+	}
+
+	officers = {
+		culture = suebi
+		religion = catholic
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = suebi
+		religion = catholic
+		size = 400
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 700
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 700
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 63600
+	}
+}
+#Santander (178000/44500) POPS
+478 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 3500
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 400
+	}
+
+	farmers = {
+		culture = basque
+		religion = catholic
+		size = 35700
+	}
+
+	clergymen = {
+		culture = basque
+		religion = catholic
+		size = 50
+		militancy = 8
+	}
+
+	soldiers = {
+		culture = basque
+		religion = catholic
+		size = 50
+		militancy = 8
+	}
+
+	farmers = {
+		culture = basque
+		religion = catholic
+		size = 3900
+		militancy = 8
+	}
+}
+#Valladolid (194000/48500 POPS)
+480 = {
+	aristocrats = {
+		culture = suebi
+		religion = catholic
+		size = 600
+	}
+
+	clergymen = {
+		culture = suebi
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = suebi
+		religion = catholic
+		size = 6000
+	}
+
+	soldiers = {
+		culture = suebi
+		religion = catholic
+		size = 500
+	}
+
+	farmers = {
+		culture = suebi
+		religion = catholic
+		size = 40900
+	}
+
+}

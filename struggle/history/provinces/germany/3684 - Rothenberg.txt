@@ -1,0 +1,6 @@
+owner = FRE
+controller = FRE
+add_core = FRE
+add_core = GER
+trade_goods = grain
+life_rating = 35

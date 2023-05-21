@@ -1,0 +1,9 @@
+owner = AVA
+controller = AVA
+add_core = AVA
+trade_goods = fish
+life_rating = 30
+
+naval_base = 1
+fort = 1
+add_core = VIN

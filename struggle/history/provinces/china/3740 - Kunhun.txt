@@ -1,0 +1,6 @@
+owner = UYG
+controller = UYG
+add_core = UYG
+add_core = KYR
+trade_goods = fruit
+life_rating = 30

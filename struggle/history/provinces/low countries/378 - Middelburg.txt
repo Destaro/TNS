@@ -1,0 +1,9 @@
+owner = LUX
+controller = LUX
+add_core = BRB
+add_core = BEL
+trade_goods = fish
+life_rating = 35
+
+add_core = FRC
+add_core = LUX

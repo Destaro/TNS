@@ -1,0 +1,7 @@
+owner = UZB
+controller = UZB
+add_core = UZB
+add_core = KHI
+trade_goods = opium
+terrain = farmlands
+life_rating = 35

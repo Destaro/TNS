@@ -1,0 +1,9 @@
+owner = GCO
+controller = GCO
+add_core = VNZ
+add_core = GUY
+trade_goods = tobacco
+life_rating = 15
+
+add_core = VNG
+add_core = GCO

@@ -1,0 +1,11 @@
+owner = UKR
+controller = UKR
+
+add_core = AKH
+trade_goods = cattle
+life_rating = 35
+
+
+
+add_core = UKR
+add_core = RUT

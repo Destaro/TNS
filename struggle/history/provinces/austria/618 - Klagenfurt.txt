@@ -1,0 +1,7 @@
+owner = DLM
+controller = DLM
+add_core = DLM
+add_core = SLO
+add_core = ITA
+trade_goods = coal
+life_rating = 35

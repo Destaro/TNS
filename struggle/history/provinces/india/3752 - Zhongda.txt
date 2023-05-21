@@ -1,0 +1,7 @@
+owner = AWA
+controller = AWA
+add_core = LAD
+add_core = TIB
+trade_goods = wool
+life_rating = 25
+terrain = mountain

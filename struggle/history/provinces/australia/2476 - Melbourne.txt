@@ -1,0 +1,7 @@
+owner = NKR
+controller = NKR
+add_core = NKR
+trade_goods = wool
+life_rating = 35
+terrain = melbourne
+naval_base = 1

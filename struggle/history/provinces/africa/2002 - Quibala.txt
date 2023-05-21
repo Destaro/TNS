@@ -1,0 +1,7 @@
+owner = KON
+controller = KON
+trade_goods = coffee
+life_rating = 30
+
+add_core = TRN
+add_core = KON

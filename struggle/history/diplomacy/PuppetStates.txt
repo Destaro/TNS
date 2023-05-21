@@ -1,0 +1,419 @@
+##BOLKANIA##
+#Bolkanian Crownland
+substate = {
+	first = BUL
+	second = PRD
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = BUL
+	second = LIT
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Bolkanian Sattelites
+
+# Porchow
+substate = {
+	first = BUL
+	second = BYE
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+# Bryansk
+substate = {
+	first = BUL
+	second = BKV
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+# Kursk
+substate = {
+	first = BUL
+	second = KUR
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+
+
+#MoravianSubstates
+
+
+
+
+#Alan Puppets
+substate = {
+	first = ALN
+	second = ABK
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = ALN
+	second = CIR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = ALN
+	second = SVA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = ALN
+	second = CHY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Mittelafrika
+substate = {
+	first = GER
+	second = MIT
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Liechenstein
+vassal = {
+	first = PNJ
+	second = BIK
+	start_date = 1760.1.1
+	end_date = 1936.1.1
+}
+
+
+#Bahrain - Qatar
+vassal = {
+	first = BHR
+	second = QAT
+	start_date = 1815.1.1
+	end_date = 1868.1.1
+}
+
+#Iraq-Banu Ka'ab
+vassal = {
+	first = IRQ
+	second = KHZ
+	start_date = 1836.1.1
+	end_date = 1944.1.1
+}
+
+#Sweden-Finland
+substate = {
+	first = SCA
+	second = FIN
+	start_date = 1815.1.1
+	end_date = 1935.1.1
+}
+substate = {
+	first = SCA
+	second = SAF
+	start_date = 1815.1.1
+	end_date = 1935.1.1
+}
+##sca-vin
+substate = {
+	first = SCA
+	second = VIN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Sweden-Novgorod
+substate = {
+	first = SCA
+	second = NOV
+	start_date = 1815.1.1
+	end_date = 1863.1.1
+}
+
+
+
+##Sokoto - Adamawa Emirate
+#vassal = {
+#	first = SOK
+#	second = ADW
+#	start_date = 1808.1.1
+#	end_date = 1936.1.1
+#}
+
+##Wadai - Baguirmi
+#vassal = {
+#	first = WAD
+#	second = BRM
+#	start_date = 1808.1.1
+#	end_date = 1936.1.1
+#}
+
+##Substates of the Argentine Confederation
+substate = {
+	first = ARC
+	second = ENT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = ARC
+	second = CRT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+# Denmark-Schleswig-Holstein
+vassal = {
+	first = SCA
+	second = SWH
+	start_date = 1773.1.1
+	end_date = 1864.10.30
+}
+
+#vassal = {
+#	first = PAN
+#	second = KAS
+#	start_date = 1780.1.1
+#	end_date = 1949.1.1
+#}
+
+##########################China
+
+#China - Tannu Tuva
+vassal = {
+	first = MGL
+	second = TNT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Ming/Lanfang
+vassal = {
+	first = MIN
+	second = LAN
+	start_date = 1636.1.1
+	end_date = 1860.1.1
+}
+
+
+#########
+
+# Siam - Champasak 
+vassal = {
+	first = SIA
+	second = CHK
+	start_date = 1826.1.1
+	end_date = 1975.1.1
+}
+
+##PARTHIA##
+vassal = {
+	first = KHR
+	second = MAK
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = KHR
+	second = TKM
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = KHR
+	second = SEM
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = KHR
+	second = BDK
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+# Toledan Empire
+vassal = {
+	first = TLD
+	second = VNS
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+### Southern Roman Empire ###
+# Carthage-Numidia
+substate = {
+	first = TUN
+	second = ALD
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+# Carthage-Mauretania
+substate = {
+	first = TUN
+	second = MOR
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+# Carthage-Libya
+substate = {
+	first = TUN
+	second = MGH
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+# Carthage-Lusitania
+substate = {
+	first = TUN
+	second = LST
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+### Norse Empire ###
+# Livland
+substate = {
+	first = SCA
+	second = LAT
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+# Estland
+substate = {
+	first = SCA
+	second = EST
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+# Ingermanland
+substate = {
+	first = SCA
+	second = IZH
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+##QIRGIZ KHANATE##
+#Pamir
+vassal = {
+	first = KYR
+	second = TAJ
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+#Gharm Syriacs
+vassal = {
+	first = KYR
+	second = ZNU
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+#Marzbanate of Kokand
+vassal = {
+	first = KYR
+	second = KOK
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+#Shahdom of Khotan
+substate = {
+	first = KYR
+	second = XIN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Ili Ogürs
+substate = {
+	first = KYR
+	second = KML
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Tokharians
+substate = {
+	first = KYR
+	second = UYG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+### Feher Moğerurusag ###
+
+vassal = {
+	first = ANT
+	second = BDN
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+vassal = {
+	first = ANT
+	second = SRN
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+vassal = {
+	first = ANT
+	second = BHT
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = ANT
+	second = CLC
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+### Songhai Empire ###
+vassal = {
+	first = MAS
+	second = SEG
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = MAS
+	second = GBU
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+### Agisymban Empire ###
+vassal = {
+	first = KBO
+	second = MOS
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = KBO
+	second = SOK
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+###RUTHENIAN SUCCESSORS###
+vassal = {
+	first = UKR
+	second = MVI
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}
+
+###SAHSEN###
+vassal = {
+	first = WES
+	second = LAU
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}

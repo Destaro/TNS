@@ -1,0 +1,4 @@
+owner = VNScontroller = VNSadd_core = UNMtrade_goods = cattlelife_rating = 30terrain = new_world_semidesert1861.1.1 = {	controller = CSA	owner = CSA	add_core = USA	add_core = CSA	remove_core = MEX	colonial = 0}
+add_core = MEX
+add_core = VNS
+add_core = AMG

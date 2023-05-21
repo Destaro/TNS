@@ -1,0 +1,7 @@
+owner = TUS
+controller = TUS
+add_core = TUS
+add_core = ITA
+trade_goods = timber
+terrain = farmlands
+life_rating = 35

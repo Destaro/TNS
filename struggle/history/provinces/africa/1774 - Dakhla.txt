@@ -1,0 +1,8 @@
+owner = TRZ
+controller = TRZ
+
+trade_goods = wool
+life_rating = 10
+colonial = 2
+
+add_core = TRZ

@@ -1,0 +1,225 @@
+#Alba
+3251 = {
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 60000
+	}
+	
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+	
+	capitalists = {
+		culture = north_italian
+		religion = catholic
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 850
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 425
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 7500
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = catholic
+		size = 4500
+	}
+}
+#Monaco (170800/22700 POPS)
+3631 = {
+    aristocrats = {
+        culture = north_italian
+        religion = catholic
+        size = 250
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 25
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size= 100
+
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 1225
+    }
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 250
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 2850
+    }
+
+    bureaucrats = {
+        culture = north_italian
+        religion = catholic
+        size = 10
+    }
+
+}
+#Andorra (228000/37000 POPS)
+3252 = {
+	aristocrats = {
+		culture = vandalic
+		religion = catholic
+		size = 700
+	}
+
+	clergymen = {
+		culture = occitan
+		religion = catholic
+		size = 450
+	}
+
+	artisans = {
+		culture = vandalic
+		religion = catholic
+		size = 4500
+	}
+
+	soldiers = {
+		culture = occitan
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = vandalic
+		religion = catholic
+		size = 50000
+	}
+
+	farmers = {
+		culture = occitan
+		religion = catholic
+		size = 12050
+	}
+}
+
+#Reutte
+3253 = {
+	aristocrats = {
+		culture = bavarian
+		religion = catholic
+		size = 150 
+	}
+
+	clergymen = {
+		culture = bavarian
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = bavarian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = bavarian
+		religion = catholic
+		size = 600
+	}
+
+	farmers = {
+		culture = bavarian
+		religion = catholic
+		size = 20000
+	}
+	
+	farmers = {
+		culture = bavarian
+		religion = protestant
+		size = 4725
+	}
+}
+
+
+
+#San Marino
+3266 = {
+    aristocrats = {
+        culture = north_italian
+        religion = catholic
+        size = 1200
+    }
+
+    bureaucrats = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 450
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 6800
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 1500
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 43000
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = catholic
+        size = 2500
+    }
+}

@@ -1,0 +1,6 @@
+owner = TLD
+controller = TLD
+add_core = TLD
+trade_goods = timber
+life_rating = 31
+colonial = 2

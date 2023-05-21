@@ -1,0 +1,9 @@
+owner = TUN
+controller = TUN
+add_core = WOL
+add_core = TOO
+trade_goods = grain
+terrain = semidesert
+life_rating = 35
+colonial = 2
+add_core = GBU

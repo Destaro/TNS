@@ -1,0 +1,341 @@
+FRE = {
+	value = 25
+	level = 5
+	influence_value = 0
+}
+
+WEI = {
+	value = 25
+	level = 5
+	influence_value = 0
+}
+
+leader = {
+	name = "Prince H. Wilhelm Adalbert"
+	picture = european_admiral_2
+	type = sea
+	date = 1836.1.1
+	background = gifted_administrator
+	personality = soldierly
+	prestige = 0.1
+	}
+
+leader = {
+	name = "Helmuth von Moltke"
+	picture = european_general_36
+	type = land
+	date = 1836.1.1
+	background = school_of_firepower
+	personality = implacable
+	prestige = 1.0
+	}
+	
+leader = {
+	name = "Albrecht von Roon"
+	picture = european_general_41
+	type = land
+	date = 1836.1.1
+	background = school_of_the_bayonet
+	personality = au_fait
+	prestige = 0.75
+	}
+	
+leader = {
+	name = "Friedrich Graf von Wrangel"
+	picture = pru_gen_wrangel
+	type = land
+	date = 1810.1.1
+	background = school_of_the_bayonet
+	personality = unflinching
+	prestige = 0.5
+	}	
+	
+leader = {
+	name = "Eduard Vogel von Falckenstein"
+	picture = european_general_27
+	type = land
+	date = 1826.1.1
+	background = cartographer
+	personality = audacious
+	prestige = 0.3
+	}
+	
+leader = {
+	name = "Leopold Hermann von Boyen"
+	picture = pru_gen_boyen
+	date = 1813.1.1
+	type = land
+	personality = openminded
+	background = gifted_administrator
+	prestige = 0.5
+}
+
+leader = {
+	name = "Prince Friedrich Wilhelm August"
+	picture = pru_gen_prinzaugust
+	date = 1814.1.1
+	type = land
+	personality = resourceful
+	background = womanizer
+	prestige = 0.8
+}
+
+leader = {
+	name = "Prince Friedrich Karl"
+	picture = pru_gen_prinzkarl
+	date = 1824.1.1
+	type = land
+	personality = indifferent
+	background = armchair_general
+	prestige = 0.8
+}
+
+leader = {
+	name = "Friedrich Wilhelm IV"
+	picture = pru_gen_prinzwilhelm
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = aristocrat
+	prestige = 0.9
+}
+	
+
+army = {
+	name = "I. Armee"
+	location = 581
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = cuirassier
+		home = 581
+	}
+
+	regiment = {
+		name= "2.1. Kavalleriedivision"
+		type = infantry
+		home = 581
+	}
+
+	regiment = {
+		name= "3.1. Kavalleriedivision"
+		type = infantry
+		home = 2561
+	}
+
+	regiment = {
+		name= "2.2. Infanteriedivision"
+		type = infantry
+		home = 540
+	}
+
+	regiment = {
+		name= "3.2. Infanteriedivision"
+		type = infantry
+		home = 565
+	}
+
+	regiment = {
+		name= "1.3. Infanteriedivision"
+		type = infantry
+		home = 535
+	}
+
+	regiment = {
+		name= "2.3. Infanteriedivision"
+		type = infantry
+		home = 566
+	}
+
+	regiment = {
+		name= "3.3. Infanteriedivision"
+		type = artillery
+		home = 581
+	}
+}
+
+army = {
+	name = "II. Armee-Korps"
+	location = 549
+	regiment = {
+		name= "Regiment der Gardes du Corps"
+		type = guard
+		home = 549
+	}	
+
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 553
+	}
+
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 557
+	}
+
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 554
+	}
+
+	regiment = {
+		name= "I. Pionierbrigade"
+		type = engineer
+		home = 577
+	}
+
+	regiment = {
+		name= "IV. Linieninfanteriebrigade"
+		type = infantry
+		home = 2561
+	}
+
+	regiment = {
+		name= "V. Linieninfanteriebrigade"
+		type = infantry
+		home = 582
+	}
+
+	regiment = {
+		name= "VI. Linieninfanteriebrigade"
+		type = infantry
+		home = 582
+	}
+
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 549
+	}
+	
+	
+	
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 551
+	}
+
+}
+
+army = {
+	name = "III. Armee-Korps"
+	location = 371
+
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = cuirassier
+		home = 534
+	}
+
+	regiment = {
+		name= "XIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "XIV. Linieninfanteriebrigade"
+		type = infantry
+		home = 3267
+	}
+
+	regiment = {
+		name= "XV. Linieninfanteriebrigade"
+		type = infantry
+		home = 3267
+	}
+
+	regiment = {
+		name= "III. Pionierbrigade"
+		type = engineer
+		home = 580
+	}
+
+	regiment = {
+		name= "XVI. Linieninfanteriebrigade"
+		type = infantry
+		home = 580
+	}
+
+	regiment = {
+		name= "XVII. Linieninfanteriebrigade"
+		type = infantry
+		home = 3519
+	}
+
+	regiment = {
+		name= "XVIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 556
+	}
+
+	regiment = {
+		name= "III. Artilleriebrigade"
+		type = artillery
+		home = 555
+	}
+
+}
+
+army = {
+	name = "IV. Armee-Korps"
+	location = 566
+
+	regiment = {
+		name = "I. Kavalleriebrigade"
+		type = dragoon
+		home = 566
+	}
+
+	regiment = {
+		name = "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 565
+	}
+
+	regiment = {
+		name= "XIX. Linieninfanteriebrigade"
+		type = infantry
+		home = 565
+	}
+
+	regiment = {
+		name= "XX. Linieninfanteriebrigade"
+		type = infantry
+		home = 578
+	}
+
+	regiment = {
+		name= "XXI. Linieninfanteriebrigade"
+		type = infantry
+		home = 3265
+	}
+
+	regiment = {
+		name= "IV. Pionierbrigade"
+		type = engineer
+		home = 3265
+	}
+
+	regiment = {
+		name= "XXII. Linieninfanteriebrigade"
+		type = infantry
+		home = 578
+	}
+
+	regiment = {
+		name= "XXIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 532
+	}
+
+	regiment = {
+		name= "IV. Artilleriebrigade"
+		type = artillery
+		home = 531
+	}
+
+}

@@ -1,0 +1,8 @@
+owner = MOR
+controller = MOR
+
+terrain = semidesert
+trade_goods = wool
+life_rating = 31
+
+add_core = MOR

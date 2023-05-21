@@ -1,0 +1,7 @@
+owner = UKR
+controller = UKR
+add_core = UKR
+add_core = KAZ
+add_core = RUT
+trade_goods = iron
+life_rating = 35

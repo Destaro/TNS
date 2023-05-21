@@ -1,0 +1,6 @@
+owner = TEX
+controller = TEX
+add_core = MEX
+trade_goods = sulphur
+life_rating = 35
+add_core = TEX

@@ -1,0 +1,6 @@
+owner = TTN
+controller = TTN
+add_core = PER
+add_core = TTN
+trade_goods = wool
+life_rating = 35

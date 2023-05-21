@@ -1,0 +1,39 @@
+name = "West Libyan War"
+
+1815.10.2 = {
+	add_attacker = KBO
+	add_attacker = SOK
+	add_attacker = MOS
+	add_attacker = ASH
+	add_defender = BEN
+	add_defender = MAS
+	add_defender = GBU
+	add_defender = SEG
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = KBO
+		receiver = BEN
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = BEN
+		receiver = KBO
+	}
+	war_goal = {
+		casus_belli = humiliate
+		actor = MAS
+		receiver = KBO
+	}
+
+}
+
+1836.6.6 = {
+	rem_attacker = KBO
+	rem_defender = BEN
+}

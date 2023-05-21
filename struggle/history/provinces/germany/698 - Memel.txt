@@ -1,0 +1,8 @@
+owner = LIT
+controller = LIT
+add_core = LIT
+add_core = PRD
+
+trade_goods = fish
+life_rating = 35
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,7 @@
+owner = LBN
+controller = LBN
+add_core = LBN
+trade_goods = grain
+life_rating = 35
+
+add_core = KSK

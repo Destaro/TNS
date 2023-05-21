@@ -1,0 +1,5 @@
+owner = NJP
+controller = NJP
+add_core = NJP
+trade_goods = tropical_wood
+life_rating = 30

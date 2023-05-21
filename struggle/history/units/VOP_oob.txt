@@ -1,0 +1,215 @@
+CHL = {
+	value = -125
+}
+ARC = {
+	value = -125
+}
+BRZ = {
+	value = -50
+}
+ECU = {
+	value = -25
+}
+CLM = {
+	value = -25
+}
+VNZ = {
+	value = -25
+}
+
+
+leader = {
+	name = "Jose Ballivián"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+leader = {
+	name = "Jose Ballivián"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+army = {
+	name = "Army of the Quechua"
+	location = 2313 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1. Brigada de Infanteria"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanteria"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanteria"
+		type = infantry
+		home = 2311
+	}
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. Cavalry Brigade"
+		type = cavalry
+		home = 2310
+	}
+}
+
+
+
+leader = {
+	name = "Valencia Melgarejo"
+	date = 1860.1.1
+	type = land
+	personality = bastard
+	background = corrupt
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of the Aimara"
+	location = 2310
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = infantry
+		home = 2313
+	}
+
+}
+
+
+
+leader = {
+	name = "Juan Blanchet"
+	type = sea
+	date = 1794.12.14
+	background = amateur
+	personality = pisspoor
+	}
+	
+navy = {
+	name = "Frankish mercenaries"
+	location = 2305
+	ship = {
+		name = "Edmond"
+		type = frigate
+		}
+	
+	ship = {
+		name = "Peru"
+		type = frigate
+		}
+		
+	ship = {
+		name = "Mejicana"
+		type = clipper_transport
+		}
+
+	}
+	
+	army = {
+	name = "Tawatinsuyu Army"
+	location = 2295
+	regiment = {
+		name= "1.1ra división de infantería"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "2.1ra división de infantería"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "3.1ra división de infantería"
+		type = artillery
+		home = 2298
+	}
+	
+	regiment = {
+		name= "4.1ra división de infantería"
+		type = artillery
+		home = 2302
+	}
+    
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 2295
+	}
+
+	regiment = {
+		name= "2. Cavalry Brigade"
+		type = cavalry
+		home = 2295
+	}
+
+	regiment = {
+		name= "3. Cavalry Brigade"
+		type = cavalry
+		home = 2302
+	}
+}
+
+
+navy = {
+	name = "Incan War Navy"
+	location = 2295
+	ship = {
+		name= "Monteagudo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Cruz"
+		type = frigate
+	}
+	ship = {
+		name= "Amazonas"
+		type = frigate
+	}
+
+	ship = {
+		name= "Apúrimac"
+		type = frigate
+	}
+
+	ship = {
+		name= "General Lerzundi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ucayali"
+		type = steam_transport
+	}
+
+}
+
+

@@ -1,0 +1,11 @@
+owner = GLC
+controller = GLC
+
+trade_goods = fruit
+life_rating = 35
+terrain = forest
+
+
+
+add_core = GLC
+add_core = IBR

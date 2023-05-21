@@ -1,0 +1,7 @@
+owner = WIA
+controller = WIA
+add_core = WIA
+trade_goods = grain
+life_rating = 42
+terrain = bangkok
+naval_base = 1

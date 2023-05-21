@@ -1,0 +1,7 @@
+owner = BSQ
+controller = BSQ
+add_core = DOM
+trade_goods = fish
+life_rating = 35
+colonial = 2
+

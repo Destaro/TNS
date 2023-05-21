@@ -1,0 +1,135 @@
+#oman-somaliland
+
+alliance = {
+	first = OMA
+	second = SOM
+	start_date = 1386.9.5
+	end_date = 1936.1.1
+}
+
+#saxony-thuringia
+
+alliance = {
+	first = WES
+	second = WEI
+	start_date = 1386.9.5
+	end_date = 1936.1.1
+}
+
+
+#Abyssinia-sudanese-guys
+
+alliance = {
+	first = ETH
+	second = SHW
+	start_date = 1386.9.5
+	end_date = 1936.1.1
+}
+
+alliance = {
+	first = ETH
+	second = SUD
+	start_date = 1386.9.5
+	end_date = 1936.1.1
+}
+
+#lombardi-aquilea
+
+alliance = {
+	first = LOM
+	second = AQU
+	start_date = 1386.9.5
+	end_date = 1936.1.1
+}
+
+
+
+#Swedens-alliances
+alliance = {
+first = SWE
+	second = EST
+	start_date = 1826.9.5
+	end_date = 1936.1.1
+}
+
+alliance = {
+first = SWE
+	second = IZH
+	start_date = 1826.9.5
+	end_date = 1936.1.1
+}
+
+#austria-bohemia
+alliance = {
+first = AUS
+	second = BOH
+	start_date = 1826.9.5
+	end_date = 1936.1.1
+}
+
+
+
+
+
+
+
+
+#Circassia and Caucasiam Imamate
+alliance = {
+		first = CIR 
+		second = DAG 
+		start_date =  1835.1.1
+		end_date = 1838.1.1
+}
+	
+#Morrocan-Algerian
+alliance = {
+		first = MOR 
+		second = ALD 
+		start_date =  1835.1.1
+		end_date = 1838.1.1
+	}
+#########UK and Puppets
+
+#########Prussia and their allies
+
+
+#saxony-franconia
+alliance = {
+	first = WES
+	second = FRE
+	start_date = 1835.1.1
+	end_date = 1981.1.1
+}
+
+#Siam/Champassak
+alliance = {
+	first = SIA
+	second = CHK
+	start_date = 1835.1.1
+	end_date = 1911.1.1
+}
+#Levantine Alliances
+alliance = {
+	first = ISR
+	second = LBN
+	start_date = 1386.9.5
+	end_date = 1840.1.1
+}
+
+
+
+#African Alliances
+alliance = {
+	first = MAS
+	second = BEN
+	start_date = 1386.9.5
+	end_date = 1840.1.1
+}
+
+alliance = {
+	first = KBO
+	second = ASH
+	start_date = 1386.9.5
+	end_date = 1840.1.1
+}

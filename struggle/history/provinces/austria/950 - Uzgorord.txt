@@ -1,0 +1,11 @@
+owner = MRV
+controller = MRV
+
+
+trade_goods = coal
+life_rating = 35
+
+
+
+add_core = CRO
+add_core = SIE

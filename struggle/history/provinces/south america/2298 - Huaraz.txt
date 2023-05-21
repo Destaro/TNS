@@ -1,0 +1,8 @@
+owner = VOP
+controller = VOP
+
+trade_goods = wool
+terrain = dryhills
+life_rating = 35
+
+add_core = VOP

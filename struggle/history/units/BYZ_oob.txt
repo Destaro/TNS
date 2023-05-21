@@ -1,0 +1,330 @@
+army = {
+	name = "Thrace Army"
+	location = 859
+	regiment = {
+		name= "1. Piyade Alayı"
+		type = infantry
+		home = 859
+	}
+
+	regiment = {
+		name= "2. Piyade Alayı"
+		type = infantry
+		home = 814
+	}
+
+	regiment = {
+		name= "3. Piyade Alayı"
+		type = infantry
+		home = 3669
+	}
+	
+	regiment = {
+		name= "4. Piyade Alayı"
+		type = infantry
+		home = 823
+	}
+
+	regiment = {
+		name= "5. Piyade Alayı"
+		type = infantry
+		home = 825
+	}
+
+	regiment = {
+		name= "6. Piyade Alayı"
+		type = infantry
+		home = 828
+	}
+	
+	regiment = {
+		name= "1. Süvari Alayı"
+		type = cuirassier
+		home = 859
+	}
+
+	
+
+	regiment = {
+		name= "1. Piyade Alayı"
+		type = artillery
+		home = 859
+	}
+
+}
+
+leader = {
+	name = "von Heideck"
+	type = land
+	date="1833.1.1"
+	personality = romantic
+	background = poet
+	prestige = 0.1
+}
+
+leader = {
+	name = "Demetrios Kalergis"
+	type = land
+	date="1836.1.1"
+	personality = impetuous
+	background = cavalry_school
+}
+
+leader = {
+	name = "Ioannis Kolokotronis"
+	type = land
+	date="1833.1.1"
+	personality = aweless
+	background = powerful_friends
+	prestige = 0.1
+}
+
+leader = {
+	name = "Antonios Kriezis"
+	type = sea
+	date="1836.1.1"
+	personality = audacious
+	background = expert_raider
+}
+
+leader = {
+	name = "Prince Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+
+leader = {
+	name = "Milivoje Blaznavac"
+	date = 1821.1.1
+	type = land
+	personality = openminded
+	background = artillerist
+}
+
+leader = {
+	name = "Mirko Petrovic"
+	type = land
+	date="1830.1.1"
+	personality = au_fait
+	background = poet
+	prestige = 0.2
+}
+
+army = {
+	name = "Army of the Prince-Bishop"
+	location = 2583
+	regiment = {
+		name= "1st Montenegrin Infantry"
+		type = infantry
+		home = 2583
+	}
+}
+
+
+
+army = {
+	name = "Aromanian Army"
+	location = 795
+	regiment = {
+		name= "1.1. Division"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = infantry
+		home = 666
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = infantry
+		home = 665
+	}
+
+	regiment = {
+		name= "4.1. Division"
+		type = cuirassier
+		home = 664
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 667
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 669
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 664
+	}
+
+	
+}
+
+army = {
+	name = "Stratós Thessalías"
+	location = 836
+	regiment = {
+		name= "1. Taxiarchia Pezikou"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "2. Taxiarchia Pezikou"
+		type = infantry
+		home = 836
+	}
+
+	regiment = {
+		name= "3. Taxiarchia Pezikou"
+		type = infantry
+		home = 835
+	}
+
+	regiment = {
+		name= "4. Taxiarchia Pezikou"
+		type = infantry
+		home = 838
+	}
+	
+	regiment = {
+		name= "5. Taxiarchia Pezikou"
+		type = infantry
+		home = 839
+	}
+}
+
+army = {
+	name = "Stratós Epeírou"
+	location = 837
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = infantry
+		home = 837
+	}
+
+	regiment = {
+		name= "7. Taxiarchia Pezikou"
+		type = infantry
+		home = 841
+	}
+	
+	regiment = {
+		name= "8. Taxiarchia Pezikou"
+		type = infantry
+		home = 839
+	}
+	
+	regiment = {
+		name= "1st Bavarian Legion"
+		type = infantry
+		home = 839
+	}
+}
+
+navy = {
+	name = "Hellenic Navy"
+	location = 834
+
+	ship = {
+		name= "1st Clipper Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "2nd Clipper Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1st Steam Transport"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "2nd Steam Transport"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "Hellas"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Navarino"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Psara"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Heratos"
+		type = frigate
+	}
+
+}
+
+army = {
+	name = "Army of Wallachia"
+	location = 786
+	regiment = {
+		name= "1st Wallachia Infantry"
+		type = infantry
+		home = 664
+	}
+
+	regiment = {
+		name= "2nd Wallachia Infantry"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "3rd Wallachia Infantry"
+		type = infantry
+		home = 669
+	}
+
+}
+
+
+
+army = {
+	name = "Armata Principatul Moldovei"
+	location = 812
+	regiment = {
+		name= "1. Infanterie Moldovei"
+		type = infantry
+		home = 670
+	}
+
+	regiment = {
+		name= "2. Infanterie Moldovei"
+		type = infantry
+		home = 672
+	}
+
+	regiment = {
+		name= "3. Infanterie Moldovei"
+		type = infantry
+		home = 673
+	}
+
+}

@@ -1,0 +1,8 @@
+owner = GCO
+controller = GCO
+add_core = GCO
+add_core = VNZ
+trade_goods = cattle
+life_rating = 32
+
+add_core = VNG

@@ -1,0 +1,24 @@
+name = "War for the Lotharingian Crown"
+
+1830.4.19 = {
+	add_attacker = LOR
+	add_defender = LUX
+	
+	war_goal = {
+		casus_belli = conquest
+		actor = LOR
+		receiver = LUX
+	}
+	
+	war_goal = {
+		casus_belli = conquest
+		actor = LUX
+		receiver = LOR
+	}
+
+}
+
+1848.9.3 = {
+	rem_attacker = LOR
+	rem_defender = LUX
+}

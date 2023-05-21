@@ -1,0 +1,9 @@
+owner = GCO
+controller = GCO
+add_core = GCO
+add_core = ECU
+add_core = VNG
+add_core = VOP
+trade_goods = grain
+life_rating = 35
+naval_base = 1

@@ -1,0 +1,5 @@
+trade_goods = grain
+terrain = boreal
+life_rating = 15
+
+add_core = KAM

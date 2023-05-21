@@ -1,0 +1,7 @@
+owner = ORL
+controller = ORL
+add_core = KON
+add_core = TRN
+trade_goods = coffee
+life_rating = 35
+colonial = 2

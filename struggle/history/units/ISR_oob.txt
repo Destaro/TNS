@@ -1,0 +1,73 @@
+leader = {
+   name = "Franz Ginsberg"
+   type = land
+   date = 1836.1.1
+   background = warmonger
+   personality = competent
+}
+army = {
+
+	name = "Israelite Army"
+
+	location = 917
+	regiment = {
+
+		name= "1st Cavalry"
+	
+	type = cavalry
+
+		home = 917
+	}
+
+
+	regiment = {
+
+		name= "1st Infantry"
+	
+	type = infantry
+	
+	home = 917
+
+	}
+
+	regiment = {
+
+		name= "2nd Infantry"
+	
+	type = infantry
+
+
+		home = 918
+	}
+	regiment = {
+
+		name= "1st Artillery"
+	
+	type = artillery
+
+
+		home = 921
+
+	}
+
+	regiment = {
+
+		name= "3rd Infantry"
+	
+	type = infantry
+
+
+		home = 918
+	}
+
+	regiment = {
+
+		name= "4th Infantry"
+	
+	type = infantry
+
+
+		home = 920
+	}
+
+}

@@ -1,0 +1,8 @@
+owner = SCA
+controller = SCA
+
+trade_goods = timber
+terrain = montane_tundra
+life_rating = 20
+
+add_core = SCA

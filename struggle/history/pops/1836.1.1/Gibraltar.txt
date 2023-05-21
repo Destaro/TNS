@@ -1,0 +1,76 @@
+#Gibraltar : 16394
+#Ruled by Britain 1836
+#Gibraltar (16394/4100 POPS)
+517 = {
+	officers = {
+		culture = african_romance
+		religion = protestant
+		size = 35
+	}
+
+	bureaucrats = {
+		culture = african_romance
+		religion = punic_church
+		size = 50
+	}
+
+	soldiers = {
+		culture = african_romance
+		religion = punic_church
+		size = 1274
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 700
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 353
+	}
+	
+	artisans = {
+		culture = maghrebi
+		religion = punic_church
+		size = 117
+	}
+	
+	farmers = {
+		culture = punic
+		religion = punic_church
+		size = 1069
+	}
+	
+	artisans = {
+		culture = visigothic
+		religion = catholic
+		size = 700
+	}
+	
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 1209
+	}
+
+	clergymen = {
+		culture = african_romance
+		religion = punic_church
+		size = 25
+	}
+	
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 1307
+	}
+	
+	farmers = {
+		culture = punic
+		religion = punic_church
+		size = 305
+	}
+}

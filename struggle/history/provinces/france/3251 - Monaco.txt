@@ -1,0 +1,9 @@
+owner = BRG
+controller = BRG
+
+add_core = ITA
+terrain = urban
+trade_goods = fruit
+life_rating = 35
+
+add_core = BRG
