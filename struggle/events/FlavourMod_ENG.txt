@@ -1,0 +1,162 @@
+#99900 Singapore Free Port
+#99901 Singapore Migration
+#99902 Australia Immigration
+#99903 Unciv Research Fix
+#99904 Australia Gold Rush
+#99905 China Research Fix
+#99906 German New Guinea
+#99907-11 Don Pacifico Affair
+#99920-22 Military Aid Events
+#99930 Splendid Isolation GB
+
+#Splendid Isolation GB
+
+
+#The Death of Queen Victoria
+
+
+#The End of Splendid Isolation
+
+
+#Conflict with Burma 3
+
+#UK LR Normalization
+country_event = {
+	id = 99808
+	title = "EVTNAME33040"
+	desc = "EVTDESC33040"
+	picture = "big_ben_finished"
+
+	trigger = {
+		tag = ENG
+		is_greater_power = yes
+		OR = {
+			AND = {
+				health_care = no_health_care
+				year = 1900
+			}
+			AND = {
+				health_care = trinket_health_care
+				year = 1900
+			}
+			AND = {
+				health_care = low_health_care
+				year = 1897
+			}
+			AND = {
+				health_care = acceptable_health_care
+				year = 1896
+			}
+			AND = {
+				health_care = good_health_care
+				year = 1895
+			}
+		}
+		NOT = { has_country_flag = lr_normalized_eng }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVT33040OPTA"
+		ENG = { all_core = { limit = { life_rating = 37 is_overseas = no NOT = { is_core = IRE } NOT = { province_id = 300 } } life_rating = -5 } }
+		ENG = { all_core = { limit = { life_rating = 35 is_overseas = no NOT = { is_core = IRE } } life_rating = -3 } }
+		set_country_flag = lr_normalized_eng
+	}
+}
+
+#Battle of Rorke's Drift
+country_event = {
+	id = 99809
+	title = "EVTNAME99809" 
+	desc = "EVTDESC99809"
+	picture = "rorkes_drift"
+	#news = yes
+	#news_desc_long = "EVTDESC99101_NEWS_LONG"
+	#news_desc_medium = "EVTDESC99101_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC99101_NEWS_SHORT"
+	
+	trigger = {
+		tag = ENG
+		war_with = ZUL
+		2113 = { country_units_in_province = ENG }
+	}
+	
+	fire_only_once = yes	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT99809OPTA"
+		prestige = -55
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = 0.5
+			consciousness = 2.5
+		}
+	}
+}
+
+#Imperial Conference 1907
+
+
+#Imperial Conference 1907
+
+
+#Anglo-Bhutan War
+
+
+#Anglo-Manipur War
+
+#White Highlands
+province_event = {
+	id = 99107
+	title = "EVTNAME99107" 
+	desc = "EVTDESC99107"
+	fire_only_once = yes
+		
+	trigger = {
+		capital_scope = { continent = europe }
+		is_greater_power = yes
+		owns = 2033
+		owns = 2026
+		has_global_flag = berlin_conference
+		has_global_flag = kenya_organized
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "EVT99107OPT"
+		any_owned = {
+			limit = {
+				is_core = KNY
+				NOT = { terrain = savanna }
+			}
+			add_province_modifier = {
+				name = small_immigration_boom
+				duration = 3650
+			}
+			add_province_modifier = {
+				name = colonial_exploitation
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				militancy = 3
+				consciousness = 3
+			}	
+		}
+		ai_chance = { factor = 1 }
+	}
+}

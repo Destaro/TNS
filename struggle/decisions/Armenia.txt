@@ -1,0 +1,68 @@
+political_decisions = {
+
+greater_armenia = { 
+potential = { 
+
+tag = ARM
+NOT = { has_country_flag = greater_armenia }
+
+}
+allow = {
+war = no
+ARM = { all_core = { owned_by = THIS } }
+nationalism_n_imperialism = 1
+is_greater_power = yes
+}
+effect = { 
+prestige = 20
+set_country_flag = greater_armenia
+CLC = { all_core = { add_core = THIS } }
+LBN = { all_core = { add_core = THIS } }
+ASY = { all_core = { add_core = THIS } }
+GEO = { all_core = { add_core = THIS } }
+MIG = { all_core = { add_core = THIS } }
+SHV = { all_core = { add_core = THIS } }
+1108 = { add_core = THIS }
+3424 = { add_core = THIS }
+3425 = { add_core = THIS }
+1112 = { add_core = THIS }
+3391 = { add_core = THIS }
+1100 = { add_core = THIS }
+927 = { add_core = THIS }
+925 = { add_core = THIS }
+3438 = { add_core = THIS }
+3436 = { add_core = THIS }
+3437 = { add_core = THIS }
+3439 = { add_core = THIS }
+1111 = { add_core = THIS }
+1118 = { add_core = THIS }
+
+                  }
+
+       }
+
+
+accept_the_peoples_of_our_empire = { 
+potential = { 
+
+tag = ARM
+NOT = { has_country_flag = accept_the_peoples_of_our_empire }
+has_country_flag = greater_armenia
+}
+allow = {
+war = no
+ARM = { all_core = { owned_by = THIS } }
+revolution_n_counterrevolution = 1
+is_greater_power = yes
+}
+effect = {
+prestige = 10
+set_country_flag = accept_the_peoples_of_our_empire
+add_accepted_culture = kurdish
+add_accepted_culture = assyrian
+
+                  }
+
+       } 	   
+
+}

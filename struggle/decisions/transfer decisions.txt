@@ -1,0 +1,93 @@
+#email me if you find a bug gaming44592@gmail.com
+political_decisions = {
+	transfer_state = {
+		potential = {
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			any_country = {
+				limit = {
+					has_country_flag = allow_transfer
+					ai = no
+				}
+				country_event = 9999992
+			}
+		}
+	}
+
+	list_transfer = {
+		potential = {
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			any_owned = {
+				limit={
+					has_building = state_selector
+				}
+				province_event ={id = 9999990} 
+			}
+		}
+	}
+
+	show_transfer = {
+		potential = {
+			ai = no
+			NOT = {has_country_flag = show_transfer}
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = show_transfer
+		}
+	}
+
+	hide_transfer = {
+		potential = {
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_country_flag = show_transfer
+		}
+	}
+
+	allow_transfer = {
+		potential = {
+			ai = no
+			has_country_flag = show_transfer
+			NOT = {has_country_flag = allow_transfer}
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = allow_transfer
+		}
+	}
+
+	deny_transfer = {
+		potential = {
+			ai = no
+			has_country_flag = show_transfer
+			has_country_flag = allow_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_country_flag = allow_transfer
+		}
+	}
+}

@@ -1,0 +1,253 @@
+political_decisions = {
+	france_rename_rhine = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = beneluxian
+			}
+			OR = {
+				AND = { owns = 387 NOT = { has_global_flag = france_rename_brussels accepted_culture = flemish } }
+				AND = { owns = 575 NOT = { has_global_flag = france_rename_rhine } }
+				AND = { owns = 574 NOT = { has_global_flag = france_rename_prussian_pfalz } }
+				AND = { owns = 570 NOT = { has_global_flag = france_rename_hesse_pfalz } }
+				AND = { owns = 397 NOT = { has_global_flag = france_rename_luxemburg } }
+				AND = { owns = 392 NOT = { has_global_flag = france_rename_namur } }
+				AND = { owns = 393 NOT = { has_global_flag = france_rename_tournai } }
+				AND = { owns = 394 NOT = { has_global_flag = france_rename_charleroi } }
+				AND = { owns = 395 NOT = { has_global_flag = france_rename_liege } }
+				AND = { owns = 398 NOT = { has_global_flag = france_rename_arlon } }
+				AND = { owns = 381 NOT = { has_global_flag = french_rename_limburg } }
+				AND = { owns = 388 NOT = { has_global_flag = france_rename_flanders } }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			random_owned = {
+				limit = { province_id = 575 }
+				575 = { 
+					change_province_name = "Keuln"
+					state_scope = { change_region_name = "Reinlant"  }
+				}
+				396 = { change_province_name = "Eypen" }
+				390 = { change_province_name = "Anverpe"
+					state_scope = { change_region_name = "Brakbant"  } }
+				391 = { change_province_name = "Haselt" }
+				576 = { change_province_name = "Aken" }
+				572 = { change_province_name = "Trier" }
+				577 = { change_province_name = "Kleef" }
+				375 = { change_province_name = "Amsteldam" }
+				376 = { change_province_name = "Rottadam" }
+				377 = { change_province_name = "Utreg" }
+				378 = { change_province_name = "Middeburg" }
+				379 = { change_province_name = "Endehoof" }
+				380 = { change_province_name = "Tilburg" }
+				382 = { change_province_name = "Arnem" }
+				384 = { change_province_name = "Zwol" }
+				3378 = { change_province_name = "Bon" }
+				3558 = { change_province_name = "Vosiers" }
+				3562 = { change_province_name = "Bylen" }
+				405 = { change_province_name = "Lotharstad" 
+					state_scope = { change_region_name = "Lotharstad-Vosiers"  } 
+					}
+				owner = { set_global_flag = france_rename_rhine }
+			}
+			
+			random_owned = {
+				limit = { province_id = 388 }
+				388 = { 
+					change_province_name = "Brugga"
+					state_scope = { change_region_name = "Flaendren" }
+				}
+				389 = { change_province_name = "Gant" }
+				400 = { change_province_name = "Duunkirke" }
+				401 = { change_province_name = "Atreg" }
+				404 = { change_province_name = "Kamerig	" }
+				399 = { change_province_name = "Rizel" }
+				3372 = { change_province_name = "Aalzt" }
+				owner = { set_global_flag = france_rename_flanders }
+			}
+			
+			random_owned = {
+				limit = { province_id = 381 }
+				381 = { change_province_name = "Maestrig"
+					state_scope = { change_region_name = "Maestrig-Aken" } }
+				owner = { 
+					set_global_flag = french_rename_limburg
+					clr_global_flag = german_rename_limburg
+					clr_global_flag = dutch_rename_limburg
+				}
+			}
+			
+			random_owned = {
+				limit = { province_id = 574 }
+				574 = { 
+					change_province_name = "Koblents"  }
+				571 = { change_province_name = "Frankenvurd" }
+				573 = { change_province_name = "Saarbrygge"	
+				owner = { set_global_flag = france_rename_prussian_pfalz }
+				}
+			}
+			
+			random_owned = {
+				limit = { province_id = 570 }
+				570 = { change_province_name = "Mans" }
+				owner = { set_global_flag = france_rename_hesse_pfalz }
+			}
+			random_owned = {
+				limit = { province_id = 397 }
+				397 = { change_province_name = "Luksburg" }
+				owner = { set_global_flag = france_rename_luxemburg }
+			}
+			random_owned = {
+				limit = { province_id = 398 }
+				398 = { change_province_name = "Arlen" }
+				owner = { 
+					set_global_flag = france_rename_arlon
+					clr_global_flag = dutch_rename_arlon
+					clr_global_flag = german_rename_arlon
+				}
+			}
+			random_owned = {
+				limit = { province_id = 395 }
+				395 = { change_province_name = "Luwik" }
+				owner = { 
+					set_global_flag = france_rename_liege
+					clr_global_flag = dutch_rename_liege
+					clr_global_flag = german_rename_liege
+				}
+			}
+			random_owned = {
+				limit = {
+					province_id = 387
+					owner = { NOT = { accepted_culture = flemish } }
+				}
+				387 = { change_province_name = "Broezel"
+					state_scope = { change_region_name = "Brabant" }
+					}
+				owner = {
+					set_global_flag = france_rename_brussels
+					clr_global_flag = dutch_rename_brussels
+				}
+			}
+			random_owned = {
+				limit = { province_id = 392 }
+				392 = { change_province_name = "Naamn"
+					state_scope = { change_region_name = "Hengaw" } }
+				owner = {
+					set_global_flag = france_rename_namur
+					clr_global_flag = dutch_rename_namur
+				}
+			}
+			random_owned = {
+				limit = { province_id = 393 }
+				393 = { change_province_name = "Dornig" }
+				owner = { 
+					set_global_flag = france_rename_tournai
+					clr_global_flag = dutch_rename_tournai
+				}
+			}
+			random_owned = {
+				limit = { province_id = 394 }
+				394 = {  change_province_name = "Berge" }
+				owner = { 
+					set_global_flag = france_rename_charleroi
+					clr_global_flag = dutch_rename_charleroi
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	german_rename_rhine = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			OR = {
+				AND = { owns = 575 has_global_flag = france_rename_rhine }
+				AND = { owns = 574 has_global_flag = france_rename_prussian_pfalz }
+				AND = { owns = 570 has_global_flag = france_rename_hesse_pfalz }
+				AND = { owns = 397 has_global_flag = france_rename_luxemburg }
+				AND = { owns = 398 NOT = { has_global_flag = german_rename_arlon } }
+				AND = { owns = 395 NOT = { has_global_flag = german_rename_liege } }
+				AND = { owns = 381 NOT = { has_global_flag = german_rename_limburg } }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			random_owned = {
+				limit = { province_id = 381 }
+				381 = { change_province_name = "Limburg"
+					state_scope = { change_region_name = "Limburg-Aachen" }
+					}
+				owner = { 
+					set_global_flag = german_rename_limburg
+					clr_global_flag = dutch_rename_limburg
+					clr_global_flag = french_rename_limburg
+				}
+			}
+			random_owned = {
+				limit = { province_id = 575 }
+				575 = { 
+					change_province_name = "Köln"
+					state_scope = { change_region_name = "Rheinland" }
+				}
+				396 = { change_province_name = "Eupen-Malmedy" }
+				576 = { change_province_name = "Aachen" }
+				572 = { change_province_name = "Trier" }
+				577 = { change_province_name = "Kleve" }
+				378 = { change_province_name = "Middelburg" }
+				3378 = { change_province_name = "Bonn" }
+				owner = { clr_global_flag = france_rename_rhine }
+			}
+			
+			random_owned = {
+				limit = { province_id = 574 }
+				574 = { 
+					change_province_name = "Koblenz" }
+				}
+				571 = { change_province_name = "Kaiserslautern" }
+				573 = { change_province_name = "Saarbrücken"
+				owner = { clr_global_flag = france_rename_prussian_pfalz }
+			}
+			
+			random_owned = {
+				limit = { province_id = 570 }
+				570 = { change_province_name = "Mainz" }
+				owner = { clr_global_flag = france_rename_hesse_pfalz }
+			}
+			random_owned = {
+				limit = { province_id = 397 }
+				397 = { change_province_name = "Luxemburg" }
+				owner = { clr_global_flag = france_rename_luxemburg }
+			}
+			random_owned = {
+				limit = { province_id = 398 }
+				398 = { change_province_name = "Arel" }
+				owner = { 
+					set_global_flag = german_rename_arlon
+					clr_global_flag = dutch_rename_arlon
+					clr_global_flag = france_rename_arlon
+				}
+			}
+			random_owned = {
+				limit = { province_id = 395 }
+				395 = { change_province_name = "Lüttich" }
+				owner = { 
+					set_global_flag = german_rename_liege
+					clr_global_flag = dutch_rename_liege
+					clr_global_flag = france_rename_liege
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+}

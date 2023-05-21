@@ -1,0 +1,1102 @@
+ political_decisions = {
+	
+	abandon_the_finnish = {
+		picture = old_finnish_map
+		potential = {
+			NOT = { tag = SCA }
+			accepted_culture = finnish
+			has_country_modifier = leader_of_kalmar
+		}
+		
+		allow = {
+			citizenship_policy = residency
+		}
+		
+		effect = {
+			remove_accepted_culture = finnish
+			any_pop = {
+				limit = { has_pop_culture = finnish }
+				militancy = 3
+				consciousness = 6
+			}
+		}
+		
+		ai_will_do = { factor = 1 	}
+	}
+	
+	claim_finland = {
+		picture = old_finnish_map
+		potential = {
+			tag = SCA
+			343 = { NOT = { is_core = THIS } }
+		}
+		
+		allow = {
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		
+		effect = {
+			badboy = 4
+			FIN = { all_core = { add_core = SCA } }
+		}
+		
+		ai_will_do = { factor = 1 	}
+	}
+	
+	embrace_the_finns = {
+		picture = form_scandinavia
+		potential = {
+			tag = SCA
+			NOT = { accepted_culture = finnish }
+		}
+		
+		allow = {
+			citizens_rights = all_voting_pops
+			citizenship_policy = full_citizenship
+		}
+		
+		effect = {
+			add_accepted_culture = finnish	
+			any_pop = {
+				limit = { has_pop_culture = finnish }
+				militancy = -1
+				consciousness = -3
+			}
+			
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				consciousness = 1
+			}
+			
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+			consciousness = 3
+			}
+		}
+		
+		ai_will_do = { factor = 1 	}
+	}
+	
+	move_capital_to_gothenburg = {
+		picture = declare_republic_of_neuchatel
+		alert = no
+		potential = {
+			tag = SCA
+			owns = 329 # Gothenburg
+			NOT = { capital = 329 }
+			capital = 322
+		}	
+		
+		allow = {
+			NOT = { capital = 329 }
+		}
+		
+		effect = {
+			capital = 329
+			prestige = 5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_scandinavia = {
+		news = yes
+		news_desc_long = "form_scandinavia_NEWS_LONG"
+		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
+		news_desc_short = "form_scandinavia_NEWS_SHORT"
+		potential = {
+			NOT = { exists = SCA }
+			has_country_modifier = leader_of_kalmar
+			has_global_flag = scandinavian_political_union
+			NOT = { has_country_flag = post_colonial_country }
+			capital_scope = { continent = europe }
+			OR = {
+				AND = {
+					NOT = { tag = SWE }
+					SWE = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = NOR }
+					NOR = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = DEN }
+					DEN = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = ICL }
+					ICL = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = SCH }
+					SCH = { has_country_modifier = kalmar_union }
+				}
+			}
+		}
+		
+		allow = {
+			NOT = { accepted_culture = finnish }
+			prestige = 300
+			is_greater_power = yes
+			war = no
+			SCA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+								AND = {
+									is_vassal = yes
+									NOT = { tag = FIN }
+									is_culture_group = scandinavian
+									overlord = { is_culture_group = scandinavian }
+								}
+							}
+							war = no
+							is_greater_power = no
+						}
+						is_core = FIN
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			all_core = { add_core = SCA remove_core = THIS }
+			change_tag = SCA
+			political_reform = federalism
+			remove_country_modifier = kalmar_union
+			remove_country_modifier = leader_of_kalmar
+			remove_country_modifier = customs_union
+			any_country = {
+				limit = {
+					is_culture_group = scandinavian
+					NOT = { primary_culture = finnish }
+					NOT = { has_country_flag = post_colonial_country }
+				}
+				all_core = { add_core = SCA }
+			}
+			any_country = {
+				limit = {
+					exists = yes
+					is_greater_power = no
+					has_country_modifier = kalmar_union
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+						AND = {
+							is_vassal = yes
+							NOT = { tag = FIN }
+							OR = {
+								is_culture_group = scandinavian
+								tag = SCH
+								tag = SWH
+							}
+							overlord = { is_culture_group = scandinavian }
+						}
+					}
+				}
+				country_event = 11101
+			}
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	reform_kalmar = {
+		potential = {
+			is_culture_group = scandinavian
+			capital_scope = { continent = europe }
+			NOT = { exists = SCA }
+			NOT = { primary_culture = finnish }
+			NOT = { has_global_flag = kalmar_reformed }
+			NOT = { has_country_flag = greater_finland }
+			NOT = { has_country_flag = post_colonial_country }
+		}
+		
+		allow = {
+			prestige = 50
+			is_greater_power = yes
+			war = no
+			SWE = {
+				OR = {
+					tag = THIS
+					exists = no
+					relation = { who = THIS value = 100 }
+					in_sphere = THIS
+				}
+			}
+			NOR = {
+				OR = {
+					tag = THIS
+					exists = no
+					relation = { who = THIS value = 100 }
+					in_sphere = THIS
+				}
+			}
+			DEN = {
+				OR = {
+					tag = THIS
+					exists = no
+					relation = { who = THIS value = 100 }
+					in_sphere = THIS
+				}
+			}
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = scandinavian
+						tag = SCH
+						tag = SWH
+					}
+					NOT = { primary_culture = finnish }
+					NOT = { tag = THIS }
+					NOT = { has_country_flag = post_colonial_country }
+					capital_scope = { continent = europe }
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+						AND = {
+							is_vassal = yes
+							NOT = { tag = FIN }
+							OR = {
+								is_culture_group = scandinavian
+								tag = SCH
+								tag = SWH
+							}
+							overlord = { is_culture_group = scandinavian }
+						}
+					}
+					exists = yes
+				}
+				country_event = 49501
+			}
+			add_country_modifier = {
+				name = leader_of_kalmar
+				duration = -1
+			}
+			set_global_flag = kalmar_reformed 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SCA_customs_union = {
+	picture = SCA_customs_union
+		potential = {
+			NOT = { exists = SCA }
+			has_global_flag = kalmar_reformed
+			capital_scope = { continent = europe }
+			has_country_modifier = leader_of_kalmar
+			not = { has_global_flag = scandinavian_customs_union }
+			OR = {
+				AND = {
+					NOT = { tag = SWE }
+					SWE = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = NOR }
+					NOR = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = DEN }
+					DEN = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = ICL }
+					ICL = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = SCH }
+					SCH = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = FRO }
+					FRO = { has_country_modifier = kalmar_union }
+				}
+			}
+		}
+		
+		allow = {
+			prestige = 100
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+			war = no
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					exists = yes
+					has_country_modifier = kalmar_union
+				}
+				country_event = 49503
+			}
+			add_country_modifier = {
+				name = customs_union
+				duration = -1
+			}
+			set_global_flag = scandinavian_customs_union
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SCA_political_union = {
+	picture = SCA_political_union
+		potential = {
+			NOT = { exists = SCA }
+			has_global_flag = scandinavian_customs_union
+			capital_scope = { continent = europe }
+			has_country_modifier = leader_of_kalmar
+			not = { has_global_flag = scandinavian_political_union }
+			OR = {
+				AND = {
+					NOT = { tag = SWE }
+					SWE = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = NOR }
+					NOR = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = DEN }
+					DEN = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = ICL }
+					ICL = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = SCH }
+					SCH = { has_country_modifier = kalmar_union }
+				}
+				AND = {
+					NOT = { tag = FRO }
+					FRO = { has_country_modifier = kalmar_union }
+				}
+			}
+		}
+		
+		allow = {
+			prestige = 200
+			revolution_n_counterrevolution = 1
+			is_greater_power = yes
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = scandinavian_call_to_union
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = icelandic
+			any_country = {
+				limit = {
+					exists = yes
+					has_country_modifier = kalmar_union
+				}
+				country_event = 49504
+			}
+			all_core = { add_core = SCA }
+			set_global_flag = scandinavian_political_union
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	usurp_kalmar = {
+		picture = reform_kalmar
+		potential = {
+			has_country_modifier = kalmar_union
+			capital_scope = { continent = europe }
+			NOT = { exists = SCA }
+			OR = { 
+				DEN = { 
+					has_country_modifier = leader_of_kalmar	
+					is_greater_power = no
+				}				
+				NOR = { 
+					has_country_modifier = leader_of_kalmar	
+					is_greater_power = no
+				}
+				SWE = { 
+					has_country_modifier = leader_of_kalmar	
+					is_greater_power = no
+				}
+				ICL = { 
+					has_country_modifier = leader_of_kalmar	
+					is_greater_power = no
+				}
+				SCH = { 
+					has_country_modifier = leader_of_kalmar	
+					is_greater_power = no
+				}
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			war = no
+		}
+		
+		effect = {
+			random_country = {
+				limit = { has_country_modifier = leader_of_kalmar }
+				country_event = 49509
+			}
+			remove_country_modifier = kalmar_union
+			add_country_modifier = {
+				name = leader_of_kalmar
+				duration = -1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	join_kalmar_union = {
+		picture = reform_kalmar
+		potential = {
+			is_culture_group = scandinavian
+			is_greater_power = no
+			NOT = { has_country_modifier = kalmar_union }
+			NOT = { has_country_flag = refused_kalmar_union }
+			NOT = { has_country_flag = post_colonial_country }
+			capital_scope = { continent = europe }
+			any_greater_power = {
+				has_country_modifier = leader_of_kalmar
+			}
+			NOT = { exists = SCA }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				is_vassal = no
+				overlord = { has_country_modifier = leader_of_kalmar }
+			}
+			any_greater_power = {
+				has_country_modifier = leader_of_kalmar
+				NOT = { truce_with = THIS }
+				OR = {
+					is_sphere_leader_of = THIS
+					relation = { who = THIS value = 150 }
+				}
+			}
+		}
+		
+		effect = {
+			clr_country_flag = refused_kalmar_union
+			add_country_modifier = {
+				name = kalmar_union
+				duration = -1
+			}
+			random_owned = {
+				limit = {
+					owner = { has_global_flag = scandinavian_customs_union }
+				}
+				owner = {
+					add_country_modifier = {
+						name = customs_union 
+						duration = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = { has_global_flag = scandinavian_call_to_union }
+				}
+				owner = {
+					any_owned = { 
+						limit = {
+							is_colonial = no
+							is_core = THIS
+						}
+						add_core = SCA 
+					}
+					add_accepted_culture = swedish
+					add_accepted_culture = danish
+					add_accepted_culture = norwegian
+					add_accepted_culture = icelandic
+				}
+			}
+			random_country = {
+				limit = {
+					is_sphere_leader_of = THIS
+					NOT = { has_country_modifier = leader_of_kalmar }
+				}
+				diplomatic_influence = { who = THIS value = -100 }
+			}
+			random_country = {
+				limit = { has_country_modifier = leader_of_kalmar }
+				relation = { who = THIS value = 100 }
+				diplomatic_influence = { who = THIS value = 100 }
+			}
+		}
+	}
+	
+	
+	name_oslo = {
+		picture = declare_republic_of_neuchatel
+		potential = {
+			is_culture_group = scandinavian
+			owns = 313
+			NOT = { has_global_flag = oslo_is_back }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				mass_politics = 1
+				year = 1925
+			}
+		}
+		
+		effect = {
+			set_global_flag = oslo_is_back
+			prestige = 2
+			313 = { change_province_name = "Oslo" }
+		}
+	}
+	
+	
+
+    embrace_the_scots = {
+        potential = {
+            OR = {
+                tag = NOR
+                tag = SCA
+            }
+            NOT = { exists = SCO
+			has_country_flag = emb_sco }
+        }
+		
+        allow = {
+            SCO = {  all_core = { owned_by = THIS  }  }
+            war = no
+            nationalism_n_imperialism = 1
+        }
+		
+        effect = {
+            set_country_flag = emb_sco
+            badboy = 1
+            add_accepted_culture = scottish
+			
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+	
+	dominis_mari_baltici = {
+	potential = {
+	tag = SCA
+	NOT = { has_country_flag = dominis_mari_baltici }
+	      }
+		  
+	allow = {
+	revolution_n_counterrevolution = 1
+	steel_steamers = 1
+	war = no
+	   owns = 354
+	   owns = 358
+	   owns = 349
+	   owns = 343
+	   owns = 372
+	   owns = 544
+	   owns = 679
+	   owns = 680
+	   owns = 690
+	   owns = 695
+	   owns = 698
+	   owns = 994
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = dominis_mari_baltici
+	add_accepted_culture = estonian
+	add_accepted_culture = latvian
+	add_accepted_culture = lithuanian
+	add_accepted_culture = pruski
+	add_accepted_culture = baltic_german
+	badboy = 5
+	prestige = 50
+	add_core = 680
+	add_core = 691
+	add_core = 696
+	add_core = 3510
+	add_core = 695
+	add_core = 3509
+	add_core = 698
+	add_core = 365
+	add_core = 364
+	add_core = 359
+	add_core = 358
+	add_core = 357
+	add_core = 355
+	add_core = 354
+	add_core = 356
+	add_core = 1006
+	add_core = 352
+	add_core = 351
+	add_core = 350
+	add_core = 349
+	add_core = 353
+	add_core = 363
+	add_core = 692
+	
+	            }
+	}
+	
+	#integrates finland and estonia
+	integrate_finland_and_estonia = {
+	picture = concede_finland
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_finland_and_estonia
+	        has_country_flag = integrate_finland      }
+	      FIN = { vassal_of = THIS }
+	   EST = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	nationalism_n_imperialism = 1
+	
+	war = no
+	   FIN = { vassal_of = THIS }
+	   EST = { vassal_of = THIS }
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_finland_and_estonia
+	inherit = FIN
+	inherit = EST
+	prestige = 10
+	FIN = { all_core = { add_core = THIS } }
+	EST = { all_core = { add_core = THIS } }
+	            }
+	}
+	
+	
+	#integrates finland incase estonia is lost
+	integrate_finland = {
+	picture = concede_finland
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_finland_and_estonia
+	        has_country_flag = integrate_finland }
+	      FIN = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	nationalism_n_imperialism = 1
+	
+	war = no
+	   FIN = { vassal_of = THIS }
+	   
+	is_greater_power = yes
+	
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_finland
+	inherit = FIN
+	
+	prestige = 10
+	FIN = { all_core = { add_core = THIS } }
+	
+	            }
+	}
+	
+	
+	integrate_livonia = {
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_livonia
+	                                              }
+	      IZH = { vassal_of = THIS }
+		  LAT = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	OR = {
+	has_country_flag = integrate_finland
+	has_country_flag = integrate_finland_and_estonia 
+	            }
+	nationalism_n_imperialism = 1
+	year = 1855
+	war = no
+	   IZH = { vassal_of = THIS }
+	   LAT = { vassal_of = THIS }
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_livonia
+	inherit = LAT
+	inherit = IZH
+	
+	prestige = 5
+	IZH = { all_core = { add_core = THIS } }
+	LAT = { all_core = { add_core = THIS } }
+	            }
+	}
+	
+	
+	
+	integrate_lithuania = {
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_lithuania
+	                                              }
+	      
+		  LIT = { vassal_of = THIS } 
+		  
+		  }
+		  
+	allow = {
+	
+	nationalism_n_imperialism = 1
+	year = 1860
+	war = no
+	   
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_lithuania
+	inherit = LIT
+	inherit = CUR
+	prestige = 5
+	CUR = { all_core = { add_core = THIS } }
+	LIT = { all_core = { add_core = THIS } }
+	            }
+	}
+	
+	
+	integrate_novgorod = {
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_novgorod
+	                                              }
+	      NOV = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	OR = {
+	has_country_flag = integrate_finland
+	has_country_flag = integrate_finland_and_estonia 
+	            }
+	has_country_flag = integrate_livonia
+	revolution_n_counterrevolution = 1
+	year = 1880
+	war = no
+	   NOV = { vassal_of = THIS }
+	  
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_novgorod
+	inherit = NOV
+	add_accepted_culture = novgorodian
+	prestige = 20
+	NOV = { all_core = { add_core = THIS } }
+	relation = { who = MUS value = -200 }
+	
+	            }
+	}
+	
+	
+	integrate_vinland = {
+	potential = {
+	
+	tag = SCA
+	
+	        
+	NOT = { has_country_flag = integrate_vinland
+	                                              }
+	      VIN = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	
+	revolution_n_counterrevolution = 1
+	year = 1880
+	war = no
+	   VIN = { vassal_of = THIS }
+	  
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_vinland
+	inherit = VIN
+	add_accepted_culture = vinlander
+	prestige = 20
+	VIN = { all_core = { add_core = THIS } }
+	
+	
+	            }
+	}
+	
+	integrate_the_edge_of_the_world = {
+	potential = {
+	
+	tag = SCA
+	
+	        
+	NOT = { has_country_flag = integrate_the_edge_of_the_world
+	                                              }
+	      SAF = { vassal_of = THIS }
+		  
+		  }
+		  
+	allow = {
+	SAF = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+	revolution_n_counterrevolution = 1
+	year = 1880
+	war = no
+	   SAF = { vassal_of = THIS }
+	  
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_the_edge_of_the_world
+	inherit = SAF
+	add_accepted_culture = boer
+	prestige = 5
+	
+	
+	
+	            }
+	}
+
+
+	
+restore_the_baltic = {
+     potential = {
+	 OR = { 
+	 tag = SCA 
+	 tag = SWE
+	 }
+	 NOT = {  has_country_flag = restore_the_baltic }
+	            }
+     
+	 allow = {
+	 war = no
+	 351 = { owned_by = THIS }
+	 
+	 }
+	 
+	 effect = {
+	 SCA = { create_vassal = LAT }
+	  any_owned = {
+                limit = { is_core = LAT 
+				         NOT = { is_core = SCA }
+						           }
+           			secede_province = LAT	}
+	 prestige = 20
+	 set_country_flag = restore_the_baltic
+	LIT = { country_event = 4004005 }
+	 }
+
+      }
+	  
+	  restore_nordumbren = {
+     potential = {
+	 
+	 tag = SCA 
+	
+	 
+	 NOT = {  has_country_flag = restore_nordumbren }
+	            }
+     
+	 allow = {
+	 war = no
+	 NTU = { all_core = { owned_by = THIS } }
+	 nationalism_n_imperialism = 1
+	 }
+	 
+	 effect = {
+	 badboy = -5
+	 prestige = 25
+	 set_country_flag = restore_nordumbren
+	 create_vassal = NTU
+	 any_owned = {
+	 limit = {
+      NOT = { is_core = THIS }
+  	  is_core = NTU }
+	      secede_province = NTU
+		  remove_core = WHA
+					 }
+	           }
+
+      }
+	  
+	  
+	   dismantle_pridain = {
+     potential = {
+	 
+	 tag = SCA 
+	has_country_flag = restore_nordumbren
+	 has_country_flag = embrace_the_scots
+	 NOT = {  has_country_flag = dismantle_pridain }
+	            }
+     
+	 allow = {
+	 prestige = 350
+	 military_score = 200
+	 WHA = { is_greater_power = no }
+	 war = no
+	 SCO = { all_core = { owned_by = THIS } }
+	 NTU = { vassal_of = THIS }
+	 revolution_n_counterrevolution = 1
+	 ENL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			
+	 }
+	 
+	 effect = {
+	 badboy = 20
+			war = {
+                target = WHA
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                  
+                }
+               
+                defender_goal = { 
+				    casus_belli = release_puppet
+                    tag = NTU }
+					
+					defender_goal = { 
+				    casus_belli = cut_down_to_size }
+					
+			    defender_goal = { 
+				    casus_belli = war_reparations }
+            
+			
+                   }
+	 set_country_flag = dismantle_pridain
+	
+	 
+	           }
+
+      }
+	  
+	  demand_prussian_submission = { 
+	  potential = {
+         tag = SCA
+             PRD = {  is_vassal = no	 }
+			  PRD = { in_sphere = THIS	 }
+			  NOT = { has_country_flag = demand_prussian_submission }
+			 }
+	  allow = { 
+	  war = no
+	  PRD = { in_sphere = THIS }
+	  nationalism_n_imperialism = 1
+	  is_greater_power = yes
+	  neighbour = PRD
+	      }
+	  effect = {
+	  badboy = 7
+    set_country_flag = demand_prussian_submission
+       PRD = { country_event =  6045009 }	  
+	          }
+	  
+	  
+	  }
+	  
+	  
+	  
+	  
+
+}   

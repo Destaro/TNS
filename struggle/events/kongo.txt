@@ -1,0 +1,143 @@
+country_event = {
+	id = 4090904
+	title = "EVTNAME47860905" #northernRevolt
+	desc = "EVTDESC47860905"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1848
+		tag = KON
+		LOA = { vassal_of = THIS }
+		MNG = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		THIS = { leave_alliance = LOA }
+		THIS = { leave_alliance = MNG }
+		KON = {
+			release_vassal = LOA }
+			KON = {
+			release_vassal = MNG }
+		
+		war = {
+			target = LOA
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		
+		war = {
+			target = MNG
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		set_global_flag = the_northern_kongo_rebellion
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+country_event = {
+	id = 4096604
+	title = "EVTNAME4096604" #southernrevolt
+	desc = "EVTDESC4096604"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1850
+		tag = KON
+		KUB = { vassal_of = THIS }
+		LUN = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		THIS = { leave_alliance = KUB }
+		THIS = { leave_alliance = LUN }
+		KON = {
+			release_vassal = KUB }
+			KON = {
+			release_vassal = LUN }
+		
+		war = {
+			target = LUN
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		
+		war = {
+			target = KUB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		set_global_flag = the_southern_kongo_rebellion
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+country_event = {
+	id = 4996644
+	title = "EVTNAME4096604" #easternrevolt
+	desc = "EVTDESC4096604"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1852
+		tag = KON
+		LBA = { vassal_of = THIS }
+		AZA = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		THIS = { leave_alliance = AZA }
+		THIS = { leave_alliance = LBA }
+		KON = {
+			release_vassal = AZA }
+			KON = {
+			release_vassal = LBA }
+		
+		war = {
+			target = LBA
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		
+		war = {
+			target = AZA
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = humiliate }
+		}
+		set_global_flag = the_eastern_kongo_rebellion
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}

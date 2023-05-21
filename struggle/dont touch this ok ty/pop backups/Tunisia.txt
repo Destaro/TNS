@@ -1,0 +1,710 @@
+#Tunisia Region (1392000)  
+#under the rule of Tunisia in 1836  
+#Tunis (488000/122000 POPs)
+1725 = {
+    aristocrats = {
+        culture = african_romance
+        religion = punic_church
+        size = 3000
+    }
+    officers = {
+        culture = african_romance
+        religion = punic_church
+        size = 120
+    }
+	
+    soldiers = {
+        culture = african_romance
+        religion = punic_church
+        size = 6000
+    }
+	
+    clergymen = {
+        culture = african_romance
+        religion = punic_church
+        size = 500
+    }
+
+    artisans = {
+        culture = african_romance
+        religion = punic_church
+        size = 3500
+    }
+
+    artisans = {
+        culture = african_romance
+		religion = punic_church
+        size = 2000
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 25000
+    }
+
+    artisans = {
+        culture = african_romance
+        religion = punic_church
+        size = 2000
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 50100
+    }
+	
+    aristocrats = {
+        culture = punic
+        religion = punic_church
+        size = 1500
+    }
+    officers = {
+        culture = punic
+        religion = punic_church
+        size = 120
+    }
+	
+    soldiers = {
+        culture = punic
+        religion = punic_church
+        size = 3000
+    }
+	
+    clergymen = {
+        culture = punic
+        religion = punic_church
+        size = 250
+    }
+
+    artisans = {
+        culture = punic
+        religion = punic_church
+        size = 1500
+    }
+
+    artisans = {
+        culture = punic
+		religion = punic_church
+        size = 1000
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 10000
+    }
+
+    artisans = {
+        culture = punic
+        religion = punic_church
+        size = 2000
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 17100
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 5000
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = jewish
+        size = 1000
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = sephardic
+        religion = jewish
+        size = 500
+    }
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 100000
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 55000
+	}
+
+	craftsmen = {
+		culture = african_romance
+		religion = punic_church
+		size = 55000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 17500
+	}
+}
+
+#Bizerte (268000/67000 POPS)
+1726 = {
+
+    clergymen = {
+        culture = african_romance
+        religion = punic_church
+        size = 540
+    }
+
+    artisans = {
+        culture = african_romance
+        religion = punic_church
+        size = 2600
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 36860
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 10000
+    }
+
+    slaves = {
+        culture = punic
+        religion = punic_church
+        size = 2000
+    }
+    clergymen = {
+        culture = punic
+        religion = punic_church
+        size = 135
+    }
+
+    artisans = {
+        culture = punic
+        religion = punic_church
+        size = 650
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 4715
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 9000
+    }
+
+    bureaucrats = {
+        culture = punic
+        religion = punic_church
+        size = 350
+    }
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 30000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 10000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 10000
+	}
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 5000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 10000
+	}
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 7000
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 30000
+	}
+}
+
+#Berneza
+3367 = {
+
+    clergymen = {
+        culture = african_romance
+        religion = punic_church
+        size = 60
+    }
+
+    aristocrats = {
+        culture = african_romance
+        religion = punic_church
+        size = 100
+    }
+
+    farmers = {
+        culture = berber
+        religion = punic_church
+        size = 1000
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 500
+    }
+}
+
+#Nabeul - More Punic and Sephardic than Cartago 
+
+3366 = {
+    aristocrats = {
+        culture = punic 
+        religion = punic_church
+        size = 1000
+    }
+	
+    soldiers = {
+        culture = punic
+        religion = punic_church 
+        size = 800
+    }
+	
+    clergymen = {
+        culture = punic
+        religion = punic_church
+        size = 50
+    }
+
+    artisans = {
+        culture = punic
+        religion = punic_church
+        size = 150
+    }
+
+    artisans = {
+        culture = punic
+		religion = punic_church
+        size = 100
+    }
+
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 6000
+    }
+
+    artisans = {
+        culture = punic
+        religion = punic_church
+        size = 10000
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 92100
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 1000
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = jewish
+        size = 1000
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 15500
+    }
+
+    bureaucrats = {
+        culture = sephardic
+        religion = jewish
+        size = 500
+    }
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 85000
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 20000
+	}
+}
+#Gafsa (112000/28000 POPS) 
+1727 = {
+	aristocrats = {
+		culture = punic
+		religion = punic_church
+		size = 450
+	}
+
+	clergymen = {
+		culture = punic
+		religion = punic_church
+		size = 275
+	}
+
+	artisans = {
+		culture = punic
+		religion = punic_church
+		size = 1250
+	}
+
+	soldiers = {
+		culture = punic
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 22025
+	}
+
+	slaves = {
+		culture = berber
+		religion = punic_church
+		size = 3000
+	}
+
+    clergymen = {
+        culture = african_romance
+        religion = punic_church
+        size = 540
+    }
+
+    artisans = {
+        culture = african_romance
+        religion = punic_church
+        size = 2600
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 36860
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 10000
+    }
+}
+#Vesteni (112000/28000 POPS) 
+3518 = {
+	aristocrats = {
+		culture = punic
+		religion = punic_church
+		size = 450
+	}
+
+	clergymen = {
+		culture = punic
+		religion = punic_church
+		size = 275
+	}
+
+	artisans = {
+		culture = punic
+		religion = punic_church
+		size = 1250
+	}
+
+	soldiers = {
+		culture = punic
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 22025
+	}
+
+	slaves = {
+		culture = berber
+		religion = punic_church
+		size = 3000
+	}
+}
+#Kairouan (228000/57000 POPS) 
+1728 = {
+	aristocrats = {
+		culture = punic
+		religion = punic_church
+		size = 875
+	}
+
+	clergymen = {
+		culture = punic
+		religion = punic_church
+		size = 400
+	}
+
+	artisans = {
+		culture = punic
+		religion = punic_church
+		size = 2250
+	}
+
+	soldiers = {
+		culture = punic
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 20225
+	}
+
+	farmers = {
+		culture = punic
+		religion = punic_church
+		size = 30225
+	}
+
+	slaves = {
+		culture = berber
+		religion = punic_church
+		size = 12000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 245
+	}
+}
+#Tozeur (96000/24000 POPS) 
+1729 = {
+	aristocrats = {
+		culture = african_romance
+		religion = punic_church
+		size = 350
+	}
+
+	clergymen = {
+		culture = african_romance
+		religion = punic_church
+		size = 200
+	}
+
+	artisans = {
+		culture = african_romance
+		religion = punic_church
+		size = 950
+	}
+
+	soldiers = {
+		culture = punic
+		religion = punic_church
+		size = 200
+	}
+
+	farmers = {
+		culture = berber
+		religion = punic_church
+		size = 15300
+	}
+
+	farmers = {
+		culture = punic
+		religion = punic_church
+		size = 9000
+	}
+}
+#Gabes (200000/50000 POPS) 
+1730 = {
+	aristocrats = {
+		culture = punic
+		religion = punic_church
+		size = 900
+	}
+
+	clergymen = {
+		culture = punic
+		religion = punic_church
+		size = 400
+	}
+
+	artisans = {
+		culture = punic
+		religion = punic_church
+		size = 2275
+	}
+
+	soldiers = {
+		culture = punic
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_romance
+		religion = punic_church
+		size = 17825
+	}
+
+	farmers = {
+		culture = punic
+		religion = punic_church
+		size = 23825
+	}
+
+	slaves = {
+		culture = berber
+		religion = punic_church
+		size = 4000
+	}
+	
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 500
+	}
+
+}
+
+3365 = {
+    clergymen = {
+        culture = african_romance
+        religion = punic_church
+        size = 220
+    }
+
+    artisans = {
+        culture = african_romance
+        religion = punic_church
+        size = 1100
+    }
+
+    farmers = {
+        culture = punic
+        religion = punic_church
+        size = 16180
+    }
+
+    farmers = {
+        culture = african_romance
+        religion = punic_church
+        size = 12000
+    }
+	
+	artisans = {
+        culture = punic
+        religion = punic_church
+        size = 15
+    }
+
+}

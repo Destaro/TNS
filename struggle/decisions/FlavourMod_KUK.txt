@@ -1,0 +1,123 @@
+political_decisions = {
+	build_the_northern_railway = { #Vienna-Prague Railway
+		picture = whistlestop_tour
+		potential = {
+			OR = {
+				tag = AUS
+				tag = MRV
+			}
+			NOT = { has_global_flag = build_the_northern_railway }
+		}
+		allow = {
+			money = 10000
+			owns = 625
+		}
+		effect = {
+			set_global_flag = build_the_northern_railway
+			treasury = -10000
+			703 = { infrastructure = 1 }
+			2584 = { infrastructure = 1 }
+			689 = { infrastructure = 1 }
+			631 = { infrastructure = 1 }
+			619 = { infrastructure = 1 }
+			625 = { infrastructure = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	build_the_southern_railway = { #Vienna-Prague Railway
+		picture = whistlestop_tour
+		potential = {
+			OR = {
+				tag = AUS
+				tag = MRV
+			}
+			early_railroad = 1
+			NOT = { has_global_flag = build_the_southern_railway }
+		}
+		allow = {
+			money = 10000
+			early_railroad = 1
+			owns = 768
+			owns = 767
+			owns = 616
+			owns = 736
+		}
+		
+		effect = {
+			set_global_flag = build_the_southern_railway
+			treasury = -10000
+			620 = { infrastructure = 1 }
+			617 = { infrastructure = 1 }
+			616 = { infrastructure = 1 }
+			767 = { infrastructure = 1 }
+			768 = { infrastructure = 1 }
+			625 = { infrastructure = 1 }
+			769 = { infrastructure = 1 }
+			736 = { infrastructure = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	embraced_jews_in_austria = {
+	picture = embrace_the_jews
+		potential = {
+			OR = {
+				tag = AUS
+				tag = MRV
+				tag = DNB
+			}
+			
+			NOT = { has_country_flag = embraced_jews }
+		}
+		
+		allow = {
+		idealism = 1
+			war = no
+			year = 1850
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		
+		effect = {
+			set_country_flag = embraced_jews
+			any_pop = {
+				limit = { 
+					NOT = { has_pop_religion = jewish }
+				}
+				militancy = 1
+				consciousness = 2
+			}
+			add_accepted_culture = ashkenazi
+			any_pop = {
+				limit = { 
+					culture = ashkenazi
+					location = { province_id = 619 } #Vienna
+				}
+				militancy = -10
+				consciousness = -10
+				reduce_pop = 2
+			}
+			any_pop = {
+				limit = { 
+					has_pop_religion = jewish
+				}
+				militancy = -10
+				consciousness = -10
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+}

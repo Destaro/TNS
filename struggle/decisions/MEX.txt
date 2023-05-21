@@ -1,0 +1,159 @@
+political_decisions = {
+	restore_mexican_empire = {
+		potential = {
+			tag = MEX
+			government = democracy
+			NOT = { has_country_flag = we_have_tried_this_once }
+			
+		}
+		allow = {
+			war = no
+			OR = {
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+			average_militancy = 3
+		}
+		
+		effect = {
+			government = hms_government
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 8
+				}
+			}
+			
+			set_country_flag = we_have_tried_this_once
+		}
+	}
+	
+	claim_the_northern_tigers = {
+	potential = {
+       tag = MEX	 
+    NOT = { has_country_flag = claim_the_northern_tigers }	  
+                 	}
+	allow = {
+       war = no 
+       owns = 84
+       owns = 114
+       owns = 110
+       owns = 143 
+	   owns = 107
+         	         }
+	effect = { 
+	prestige = 10
+	set_country_flag = claim_the_northern_tigers
+	 AMG = { all_core = { add_core = THIS } }
+	 AKR = { all_core = { add_core = THIS } }
+	 AJP = { all_core = { add_core = THIS } }
+	 ACH = { all_core = { add_core = THIS } }
+	           }
+	
+	
+	}
+
+	
+	
+	 become_mexico = {
+        potential = {
+            tag = TEX
+            NOT = { exists = MEX }
+        }
+
+        allow = {
+            prestige = 25
+            war = no
+            TEX = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            add_accepted_culture = mayan
+			add_accepted_culture = texan
+			add_accepted_culture = mexican
+            prestige = 20
+				any_country = {
+				limit = {
+					OR = {
+						OR = {
+							primary_culture = texan
+							primary_culture = mexican
+							
+						}
+						
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            change_tag = MEX
+            any_owned = {
+                limit = { is_core = MEX }
+                add_core = THIS
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	
+	 become_mexico_vns = {
+        potential = {
+            tag = VNS
+            NOT = { exists = MEX }
+        }
+
+        allow = {
+		is_greater_power = yes
+            prestige = 25
+            war = no
+            MEX = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            add_accepted_culture = mayan
+			add_accepted_culture = texan
+			add_accepted_culture = mexican
+            prestige = 20
+				any_country = {
+				limit = {
+					OR = {
+						OR = {
+							primary_culture = texan
+							primary_culture = mexican
+							
+						}
+						
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            change_tag = MEX
+            any_owned = {
+                limit = { is_core = MEX }
+                add_core = THIS
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+}

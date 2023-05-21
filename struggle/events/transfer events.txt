@@ -1,0 +1,81 @@
+#email me if you find a bug gaming44592@gmail.com
+province_event = {
+	id = 9999990 
+	title = "$STATENAME$ marked for transfer"
+	desc = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+    
+
+	option = {
+		name = "ok"
+	}
+}
+
+province_event = {
+	id = 9999991
+	title = "Unmarking $STATENAME$ for transfer"
+	desc = ""
+	allow_multiple_instances = no
+	mean_time_to_happen =  {
+		days = 1
+    }
+
+    trigger = {
+	    has_building = state_deselector
+    }
+
+	option = {
+		name = "ok"
+		state_scope = {
+			any_owned = {
+				state_selector =-3
+				state_deselector =-3
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = 9999992
+	title = "Recieve transfer from $FROMCOUNTRY$?"
+	desc = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "yes"
+		FROM = {
+			country_event = {id = 9999993}
+		}
+	}
+	option = {
+		name = "no"
+	}
+}
+
+country_event = {
+	id = 9999993
+	title = "Transfer to $FROMCOUNTRY$?"
+	desc = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "yes"
+		any_owned = {
+			limit={
+				has_building = state_selector
+			}
+			state_scope={
+				any_owned = {
+					secede_province = FROM
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "no"
+	}
+}

@@ -1,0 +1,833 @@
+#Khwarazm Region (40000) #see chaghatayistan.txt and Kazakhstan.txt for balance of region 
+#under the rule of Khiva in 1836  
+#Dashhowuz (40000/10000 POPS) #now part of uzbekistan  
+1196 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 175
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3500
+	}
+	
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 200
+	}
+	
+
+	soldiers = {
+		culture = chorasmian
+		religion = manichaeism
+		size = 2500
+	}
+
+	farmers = {
+		culture = chorasmian
+		religion = manichaeism
+		size = 6000
+	}
+	
+	
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 25
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 100
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1750
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 6825
+	}
+	
+}
+#uzbekia Region (368000) 
+#under the rule of Khiva in 1836  
+#Ashkabad (148000/32000 POPS)   
+1204 = {
+	aristocrats = {
+		culture = parthian
+		religion = manichaeism
+		size = 700
+	}
+
+	clergymen = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = parthian
+		religion = manichaeism
+		size = 1000
+	}
+
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 300
+	}
+
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 200
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 300
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 5675
+	}
+	
+	aristocrats = {
+		culture = parthian
+		religion = zoroastrian
+		size = 100
+	}
+
+	clergymen = {
+		culture = parthian
+		religion = zoroastrian
+		size = 275
+	}
+
+	artisans = {
+		culture = parthian
+		religion = zoroastrian
+		size = 1250
+	}
+	
+	farmers = {
+		culture = parthian
+		religion = zoroastrian
+		size = 2000
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = zoroastrian
+		size = 25
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = zoroastrian
+		size = 1200
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = zoroastrian
+		size = 25
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = zoroastrian
+		size = 7750
+	}
+}
+#Kizil Arvut (88000/22000 POPS)   
+1205 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 200
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 6400
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 200
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = zoroastrian
+		size = 100
+	}
+}
+#under the rule of Bukhara in 1836  
+#Chardzhou (132000/33000 POPS)   
+1206 = {
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 225
+	}
+
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 100
+	}
+
+	soldiers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 2025
+	}
+
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 12000
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1250
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 2025
+	}
+	
+	aristocrats = {
+		culture = aryao
+		religion = manichaeism
+		size = 400
+	}
+	
+	clergymen = {
+		culture = aryao
+		religion = manichaeism
+		size = 225
+	}
+
+	artisans = {
+		culture = aryao
+		religion = manichaeism
+		size = 1000
+	}
+	
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 8825
+	}
+}
+
+#Merv - Former Line Islands (?/? POPS)
+686 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 10
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 20
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 20
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1550
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3000
+	}
+	
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 180
+	}
+	
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 150
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 250
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1400
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 8425
+	}
+	
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 300
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 600
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 4000
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = zoroastrian
+		size = 9425
+	}
+
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 4700
+	}
+
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 17000
+	}
+	
+	aristocrats = {
+		culture = parthian
+		religion = zoroastrian
+		size = 15
+	}
+
+	clergymen = {
+		culture = parthian
+		religion = zoroastrian
+		size = 25
+	}
+
+	artisans = {
+		culture = parthian
+		religion = zoroastrian
+		size = 140
+	}
+
+	soldiers = {
+		culture = parthian
+		religion = zoroastrian
+		size = 75
+	}
+}
+	
+#Panjdeh - now Badghis
+3442 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 30
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 9500
+	}
+	
+	aristocrats = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+	
+	clergymen = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+	
+	artisans = {
+		culture = parthian
+		religion = manichaeism
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 250
+	}
+	
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 10000
+	}
+	
+	aristocrats = {
+		culture = parthian
+		religion = manichaeism
+		size = 50
+	}
+	
+	clergymen = {
+		culture = parthian
+		religion = manichaeism
+		size = 50
+	}
+	
+	artisans = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+	
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 300
+	}
+	
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 8000
+	}
+}
+
+#Mashrian
+3432 = {
+	aristocrats = {
+		culture = parthian
+		religion = manichaeism
+		size = 3
+	}
+
+	clergymen = {
+		culture = parthian
+		religion = manichaeism
+		size = 3
+	}
+
+	artisans = {
+		culture = parthian
+		religion = manichaeism
+		size = 30
+	}
+
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 4100
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 12500
+	}
+	
+	aristocrats = {
+		culture = parthian
+		religion = manichaeism
+		size = 10
+	}
+	
+	clergymen = {
+		culture = parthian
+		religion = manichaeism
+		size = 20
+	}
+	
+	artisans = {
+		culture = parthian
+		religion = manichaeism
+		size = 200
+	}
+	
+	soldiers = {
+		culture = parthian
+		religion = manichaeism
+		size = 50
+	}
+	
+	farmers = {
+		culture = parthian
+		religion = manichaeism
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = kurdish
+		religion = zoroastrian
+		size = 20
+	}
+	
+	clergymen = {
+		culture = kurdish
+		religion = zoroastrian
+		size = 40
+	}
+	
+	artisans = {
+		culture = kurdish
+		religion = zoroastrian
+		size = 400
+	}
+	
+	soldiers = {
+		culture = kurdish
+		religion = zoroastrian
+		size = 50
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = zoroastrian
+		size = 200
+	}
+}
+
+#Uzboy
+3433 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 3
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 30
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 4100
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 10500
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 20
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 20
+	}
+	
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 400
+	}
+	
+	soldiers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 25
+	}
+	
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 500
+	}
+}
+
+#Sadagh
+3441 = {
+	aristocrats = {
+		culture = aryao
+		religion = manichaeism
+		size = 20
+	}
+	
+	clergymen = {
+		culture = aryao
+		religion = manichaeism
+		size = 15
+	}
+	
+	artisans = {
+		culture = aryao
+		religion = manichaeism
+		size = 70
+	}
+	
+	soldiers = {
+		culture = aryao
+		religion = manichaeism
+		size = 500
+	}
+	
+	farmers = {
+		culture = aryao
+		religion = manichaeism
+		size = 3000
+	}
+	
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 20
+	}
+	
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 15
+	}
+	
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 300
+	}
+	
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 1100
+	}
+	
+	aristocrats = {
+		culture = sogdian
+		religion = manichaeism
+		size = 20
+	}
+	
+	clergymen = {
+		culture = sogdian
+		religion = manichaeism
+		size = 15
+	}
+	
+	artisans = {
+		culture = sogdian
+		religion = manichaeism
+		size = 300
+	}
+	
+	farmers = {
+		culture = sogdian
+		religion = manichaeism
+		size = 3500
+	}
+}
+
+#Karakum
+3434 = {
+	aristocrats = {
+		culture = uzbek
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = manichaeism
+		size = 80
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 1200
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = manichaeism
+		size = 2700
+	}
+	
+	artisans = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 20
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = manichaeism
+		size = 300
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 30
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 500
+	}
+}
+

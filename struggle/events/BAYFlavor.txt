@@ -1,0 +1,106 @@
+country_event = {
+
+	id = 33400
+	news = yes
+	news_desc_long = "EVTDESC33400_NEWS_LONG"
+	news_desc_medium = "EVTDESC33400_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33400_NEWS_SHORT"
+
+	trigger = {
+		tag = BAV
+		year = 1841
+		classicism_n_early_romanticism = 1 #has the romanticism tech
+		NOT = {
+			year = 1844
+			has_country_flag = Walhalla
+			}
+		}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1842
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME33400"
+	desc = "EVTDESC33400"
+	picture = "Walhalla"
+
+	option = {
+		name = "EVTOPTA33400" 
+		prestige = 5
+		set_country_flag = Walhalla
+	}
+}
+
+
+
+
+
+country_event = {
+
+	id = 33404
+
+	trigger = {
+		tag = BAV
+		year = 1838
+		war = no
+		has_global_flag = MozartFest1838
+		NOT = {
+			has_country_flag = MozartFest1838
+			year = 1841
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME34100"
+	desc = "EVTDESC34100"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA34100" 
+		set_country_flag = MozartFest1838
+		plurality = 1
+		farmers = {
+			consciousness = 1 
+		}
+		artisans = {
+			consciousness = 1 
+		}
+		craftsmen = {
+			consciousness = 1 
+		}
+		clerks = {
+			consciousness = 1 
+		}
+		labourers = {
+			consciousness = 1 
+		}
+	}
+}
+
+

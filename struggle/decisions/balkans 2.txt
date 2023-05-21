@@ -1,0 +1,218 @@
+political_decisions = {
+	
+	rename_syrmia = {
+		picture = gtfo
+		potential = {
+			OR = {
+				AND = {
+					is_culture_group = germanic
+					AND = { owns = 791 NOT = { has_global_flag = germanic_renamed_syrmia } }
+				}
+				AND = {
+					is_culture_group = south_slavic
+					AND = { owns = 791 NOT = { has_global_flag = southslavic_renamed_syrmia } }
+				}
+				AND = {
+					is_culture_group = ugric
+					AND = { owns = 791 NOT = { has_global_flag = hungarian_renamed_syrmia } }
+				}
+				AND = {
+					is_culture_group = pan_albanian
+					AND = { owns = 791 NOT = { has_global_flag = greek_renamed_syrmia } }
+				}
+			}
+		}
+		
+		allow = {
+			#war = no
+		}
+		
+		effect = {
+			
+			###german - syrmia###
+			random_owned = {
+				limit = {
+					province_id = 791
+					owner = {
+						is_culture_group = germanic
+					}
+				}
+				791 = {
+					change_province_name = "Mitrowitz"
+				}
+				owner = { 
+					set_global_flag = germanic_renamed_syrmia
+					clr_global_flag = southslavic_renamed_syrmia
+					clr_global_flag = hungarian_renamed_syrmia
+					clr_global_flag = greek_renamed_syrmia
+				}
+			}
+			
+			###southslavic - syrmia###
+			random_owned = {
+				limit = {
+					province_id = 791
+					owner = {
+						is_culture_group = south_slavic
+					}
+				}
+				791 = {
+					change_province_name = "Mitrovica"
+				}
+				owner = { 
+					set_global_flag = southslavic_renamed_syrmia
+					clr_global_flag = germanic_renamed_syrmia
+					clr_global_flag = hungarian_renamed_syrmia
+					clr_global_flag = greek_renamed_syrmia
+				}
+			}
+			
+			###hungarian - syrmia###
+			random_owned = {
+				limit = {
+					province_id = 791
+					owner = {
+						is_culture_group = ugric
+					}
+				}
+				791 = {
+					change_province_name = "Szávaszentdemeter"
+				}
+				owner = { 
+					set_global_flag = hungarian_renamed_syrmia
+					clr_global_flag = germanic_renamed_syrmia
+					clr_global_flag = southslavic_renamed_syrmia
+					clr_global_flag = greek_renamed_syrmia
+				}
+			}
+			
+			###albanian - syrmia###
+			random_owned = {
+				limit = {
+					province_id = 791
+					owner = {
+						is_culture_group = pan_albanian
+					}
+				}
+				791 = {
+					change_province_name = "Sirmiumi"
+				}
+				owner = { 
+					set_global_flag = greek_renamed_syrmia
+					clr_global_flag = germanic_renamed_syrmia
+					clr_global_flag = southslavic_renamed_syrmia
+					clr_global_flag = hungarian_renamed_syrmia
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rename_vukovar = {
+		picture = gtfo
+		potential = {
+			OR = {
+				AND = {
+					is_culture_group = germanic
+					AND = { owns = 793 NOT = { has_global_flag = germanic_renamed_vukovar } }
+				}
+				AND = {
+					is_culture_group = south_slavic
+					AND = { owns = 793 NOT = { has_global_flag = southslavic_renamed_vukovar } }
+				}
+				AND = {
+					is_culture_group = ugric
+					AND = { owns = 793 NOT = { has_global_flag = hungarian_renamed_vukovar } }
+				}
+				AND = {
+					is_culture_group = pan_albanian
+					AND = { owns = 793 NOT = { has_global_flag = greek_renamed_vukovar } }
+				}
+			}
+		}
+		
+		allow = {
+			#war = no
+		}
+		
+		effect = {
+			
+			###german - vukovar###
+			random_owned = {
+				limit = {
+					province_id = 793
+					owner = {
+						is_culture_group = germanic
+					}
+				}
+				793 = {
+					change_province_name = "Wukowar"
+				}
+				owner = { 
+					set_global_flag = germanic_renamed_vukovar
+					clr_global_flag = southslavic_renamed_vukovar
+					clr_global_flag = hungarian_renamed_vukovar
+					clr_global_flag = greek_renamed_vukovar
+				}
+			}
+			
+			###southslavic - vukovar###
+			random_owned = {
+				limit = {
+					province_id = 793
+					owner = {
+						is_culture_group = south_slavic
+					}
+				}
+				793 = {
+					change_province_name = "Vukovar"
+				}
+				owner = { 
+					set_global_flag = southslavic_renamed_vukovar
+					clr_global_flag = germanic_renamed_vukovar
+					clr_global_flag = hungarian_renamed_vukovar
+					clr_global_flag = greek_renamed_vukovar
+				}
+			}
+			
+			###hungarian - vukovar###
+			random_owned = {
+				limit = {
+					province_id = 793
+					owner = {
+						is_culture_group = ugric
+					}
+				}
+				793 = {
+					change_province_name = "Vukovár"
+				}
+				owner = { 
+					set_global_flag = hungarian_renamed_vukovar
+					clr_global_flag = germanic_renamed_vukovar
+					clr_global_flag = southslavic_renamed_vukovar
+					clr_global_flag = greek_renamed_vukovar
+				}
+			}
+			
+			###albanian - vukovar###
+			random_owned = {
+				limit = {
+					province_id = 793
+					owner = {
+						is_culture_group = pan_albanian
+					}
+				}
+				793 = {
+					change_province_name = "Vukovari"
+				}
+				owner = { 
+					set_global_flag = greek_renamed_vukovar
+					clr_global_flag = germanic_renamed_vukovar
+					clr_global_flag = southslavic_renamed_vukovar
+					clr_global_flag = hungarian_renamed_vukovar
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

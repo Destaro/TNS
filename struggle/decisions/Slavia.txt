@@ -1,0 +1,127 @@
+political_decisions = {
+
+form_slavia = {
+        potential = {
+		OR = {
+		tag = BUL
+        tag = RUT
+		tag = PLC
+		tag = YUG
+			}
+            NOT = { exists = SLA }
+        }
+
+        allow = {
+	        military_score = 200
+            prestige = 250
+            war = no
+            revolution_n_counterrevolution = 1
+			RUT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			BUL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			POL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			CRO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			
+			THIS = { all_core = { owned_by = THIS } }
+        }
+
+        effect = {
+           CRO = { all_core = { add_core = THIS } }
+           RUT = { all_core = { add_core = THIS } }
+		   POL = { all_core = { add_core = THIS } }
+		   HUN = { all_core = { add_core = THIS } }
+		   LIT = { all_core = { add_core = THIS } }
+		   BUL = { all_core = { add_core = THIS } }
+		   SLV = { all_core = { add_core = THIS } }
+		    add_accepted_culture = ukrainian
+			add_accepted_culture = byelorussian
+			add_accepted_culture = bulgarian
+			add_accepted_culture = slovak
+			add_accepted_culture = croat
+           add_accepted_culture = polish
+           add_accepted_culture = russian
+		   any_country = {
+				limit = {
+					OR = {
+						is_culture_group = east_slavic
+						primary_culture = polish
+						primary_culture = croat
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            prestige = 40
+            change_tag = SLA
+            
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+
+the_black_sea_coast = { 
+potential = {
+   OR = { 
+     tag = SLA 
+	 tag = RUT 
+	 tag = BUL }
+	 NOT = { has_country_flag = the_black_sea_coast }
+        }
+allow = {
+year = 1855
+is_greater_power = yes
+war = no
+ HUN = { all_core = { owned_by = THIS } } 
+          }
+effect = { 
+  badboy = 2
+  set_country_flag = the_black_sea_coast 
+  HUN = { all_core = { add_core = THIS } }
+                    
+					}
+
+                                                   }
+	
+	
+	
+
+
+}

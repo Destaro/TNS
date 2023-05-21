@@ -1,0 +1,112 @@
+political_decisions = { 
+reclaiming_illiria = {
+potential = { 
+        tag = AQU
+		NOT = { has_country_flag = reclaiming_illiria 
+		        has_country_flag = illiria_abandoned }
+		
+		}
+		
+		allow = {
+		DLM = { all_core = { owned_by = THIS } }
+		war = no
+		
+		}
+		
+		effect = {
+		set_country_flag = reclaiming_illiria 
+		badboy = 2
+		prestige = 10
+		DLM = { all_core = { add_core = THIS } }
+		}
+		
+	}
+	
+	embracing_illiria = {
+potential = { 
+        tag = AQU
+		NOT = { has_country_flag = embracing_illiria
+		       }
+		
+		}
+		
+		allow = {
+		DLM = { all_core = { owned_by = THIS } }
+		AQU = { all_core = { owned_by = THIS } }
+		war = no
+		
+		}
+		
+		effect = {
+		set_country_flag = embracing_illiria
+		
+		prestige = 10
+		add_accepted_culture = dalmatian
+		}
+		
+	}
+
+tirol_is_ours = {
+potential = { 
+    
+	tag = AQU
+      NOT = { has_country_flag = tirol_is_ours
+	  exists = ITA
+	                   }
+					}
+		allow = {
+		war = no
+		TST = { all_core = { owned_by = THIS } }
+		NOT = { exists = AQU
+                exists = LOM   }
+		}
+		
+		effect = { 
+		TST = { all_core = { add_core = THIS } }
+		prestige = 10
+		set_country_flag = tirol_is_ours
+		}
+                   
+         }
+		 
+
+
+
+lombardia_is_gone = {
+potential = { 
+    
+	tag = AQU
+      NOT = { has_country_flag = lombardia_is_gone
+	  exists = LOM
+	  exists = AQU
+	                   }
+					}
+		allow = {
+		war = no
+		LOM = { all_core = { owned_by = THIS } }
+		NOT = { exists = AQU 
+		        exists = DLM }
+		is_greater_power = yes
+		}
+		
+		effect = { 
+		LOM = { all_core = { add_core = THIS } }
+		badboy = 5
+		prestige = 30
+		set_country_flag = lombardia_is_gone
+		any_owned = {
+				limit = {
+				
+				    is_core = DLM
+					is_core = TST
+					is_core = LOM
+					   
+				}
+				remove_core = LOM
+				remove_core = TST
+				remove_core = DLM
+			}
+		}
+                   
+         }
+}

@@ -1,0 +1,32 @@
+country_event = {
+	id = 9006005
+	title = "EVTNAME9006005" #demandthecoloniesback
+	desc = "EVTDESC9006005"
+	picture = "rosas_urquiza"
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT9006005A"
+		leave_alliance = FRA
+		FRC = { add_casus_belli = { target = THIS type = make_puppet months = 24 } }
+		ai_chance = { factor = 0.7 }
+	}
+		
+	option = {
+	prestige = -40
+		name = "EVTOPT9006005B"
+		FRC = { create_vassal = THIS }
+		any_pop = {
+		               limit = { is_primary_pop = yes }
+		militancy = 7 }
+		ai_chance = { factor = 0.3 }
+	}
+}

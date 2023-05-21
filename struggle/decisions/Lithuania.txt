@@ -1,0 +1,31 @@
+political_decisions = {
+
+
+
+core_courland = {
+        potential = {
+			tag = LIT
+			NOT = { has_country_flag = core_courland }
+        }
+		
+		allow = { 
+			war = no
+			CUR = { all_core = { owned_by = THIS } }
+			
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = latvian
+			set_country_flag = core_courland
+			
+			CUR = { all_core = { add_core = THIS } }
+        }
+	}
+
+
+
+
+
+	
+}

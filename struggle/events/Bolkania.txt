@@ -1,0 +1,145 @@
+#western revolts
+country_event = {
+
+	id = 777007
+	title = "EVTNAME777007" #westernrevolts
+	desc = "EVTDESC777007"
+	picture = "danishgovernment"
+	fire_only_once = yes
+	trigger = {
+	CPL = { vassal_of = BUL}
+	PRD = { vassal_of = BUL}
+	tag = BUL
+    year = 1842
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "EVTOPTB777007" #westernrevolts
+		release_vassal = PRD
+		release_vassal = CPL
+		prestige = 10
+		badboy = -20
+		set_global_flag = western_revolts
+		war = {
+	target = PRD
+	attacker_goal = { 
+	casus_belli = make_puppet
+	
+	 }
+	defender_goal = { 
+	casus_belli = humiliate 
+	                         }
+		
+	       }
+		   
+		   war = {
+	target = LIT
+	attacker_goal = { 
+	casus_belli = make_puppet
+	
+	 }
+	defender_goal = { 
+	casus_belli = humiliate 
+	                         }
+		
+	       }
+		   
+		   ai_chance = { factor = 50 }
+       }
+	   
+	   option = { 
+	   name = "EVTOPTA777007" #westernrevolts
+	   prestige = -15
+	   release_vassal = PRD
+		release_vassal = LIT
+		badboy = -5
+		ai_chance = { factor = 50 }
+	   }
+}
+
+
+#easternrevolt
+country_event = {
+
+	id = 777008
+	title = "EVTNAME777008" #easternrevolt
+	desc = "EVTDESC777008"
+	picture = "danishgovernment"
+	fire_only_once = yes
+	trigger = {
+	BYE = { vassal_of = BUL}
+	BKV = { vassal_of = BUL}
+	KUR = { vassal_of = BUL}
+	tag = BUL
+    year = 1842
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "EVTOPTB777010" #easternrevolt
+		set_global_flag = eastern_revolt
+		
+		release_vassal = BKV
+		release_vassal = KUR
+		release_vassal = BYE
+		prestige = 10
+		war = {
+	target = BKV
+	attacker_goal = { 
+	casus_belli = conquest_any
+	
+	 }
+	defender_goal = { 
+	casus_belli = humiliate 
+	                         }
+		
+	       }
+		   
+		   war = {
+	target = BYE
+	attacker_goal = { 
+	casus_belli = conquest_any
+	
+	 }
+	defender_goal = { 
+	casus_belli = humiliate 
+	                         }
+		
+	       }
+		   
+		   war = {
+	target = KUR
+	attacker_goal = { 
+	casus_belli = conquest_any
+	
+	 }
+	defender_goal = { 
+	casus_belli = humiliate 
+	                         }
+		
+	       }
+		   
+		   
+		   
+		   ai_chance = { factor = 80 }
+       }
+	   
+	   option = { 
+	   name = "EVTOPTA777009" #easternrevolt
+	   prestige = -15
+	   release_vassal = BYE
+	   release_vassal = KUR
+	   release_vassal = BKV
+		badboy = -5
+		ai_chance = { factor = 20 }
+	   }
+}

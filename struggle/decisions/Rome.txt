@@ -1,0 +1,246 @@
+political_decisions = {
+
+	the_eagle_rose_in_the_west_italy = {
+		picture = occupy_misiones
+		potential = {
+		NOT = { has_global_flag = the_eagle_rose_in_the_west }
+		tag = ITA
+					}
+					
+		allow = {
+		is_greater_power = yes
+			war = no
+			revolution_n_counterrevolution = 1
+			owns = 749
+			OCC = { all_core = { owned_by = THIS } }
+			VND = { all_core = { owned_by = THIS } }
+			IBR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+		change_tag = WRE
+			set_global_flag = the_eagle_rose_in_the_west
+			prestige = 30
+			badboy = -5
+			add_accepted_culture = occitan
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			add_accepted_culture = vandalic
+			add_accepted_culture = visigothic
+			add_accepted_culture = suebi 
+			add_accepted_culture = basque
+			TLD = { all_core = { add_core = THIS } }
+			VND = { all_core = { add_core = THIS } }
+			LST = { all_core = { add_core = THIS } }
+			GLC = { all_core = { add_core = THIS } }
+			BSQ = { all_core = { add_core = THIS } }
+			ANU = { all_core = { add_core = THIS } }
+			OCC = { all_core = { add_core = THIS } }
+			ITA = { all_core = { add_core = THIS } }
+			any_country = {
+				limit = {
+					is_culture_group = iberian
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	
+	the_eagle_rose_in_the_west_iberia = {
+		picture = occupy_misiones
+		potential = {
+		NOT = { has_global_flag = the_eagle_rose_in_the_west }
+		tag = IBR
+					}
+					
+		allow = {
+		is_greater_power = yes
+			war = no
+			revolution_n_counterrevolution = 1
+			owns = 749
+			OCC = { all_core = { owned_by = THIS } }
+			ITA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			IBR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+		change_tag = WRE
+			set_global_flag = the_eagle_rose_in_the_west
+			prestige = 30
+			badboy = -5
+			add_accepted_culture = occitan
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			add_accepted_culture = vandalic
+			add_accepted_culture = visigothic
+			add_accepted_culture = suebi 
+			add_accepted_culture = basque
+			TLD = { all_core = { add_core = THIS } }
+			VND = { all_core = { add_core = THIS } }
+			LST = { all_core = { add_core = THIS } }
+			GLC = { all_core = { add_core = THIS } }
+			BSQ = { all_core = { add_core = THIS } }
+			ANU = { all_core = { add_core = THIS } }
+			OCC = { all_core = { add_core = THIS } }
+			ITA = { all_core = { add_core = THIS } }
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	the_eagle_rose_in_the_west_ocitania = {
+		picture = occupy_misiones
+		potential = {
+		NOT = { has_global_flag = the_eagle_rose_in_the_west }
+		tag = OCC
+					}
+					
+		allow = {
+		is_greater_power = yes
+			war = no
+			revolution_n_counterrevolution = 1
+			owns = 749
+			OCC = { all_core = { owned_by = THIS } }
+			LOM = { all_core = { owned_by = THIS } }
+			BSQ = { all_core = { owned_by = THIS } }
+			VND = { all_core = { owned_by = THIS } }
+			owns = 720
+			ITA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			IBR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+		change_tag = WRE
+			set_global_flag = the_eagle_rose_in_the_west
+			prestige = 30
+			badboy = -5
+			add_accepted_culture = occitan
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			add_accepted_culture = vandalic
+			add_accepted_culture = visigothic
+			add_accepted_culture = suebi 
+			add_accepted_culture = basque
+			TLD = { all_core = { add_core = THIS } }
+			VND = { all_core = { add_core = THIS } }
+			LST = { all_core = { add_core = THIS } }
+			GLC = { all_core = { add_core = THIS } }
+			BSQ = { all_core = { add_core = THIS } }
+			ANU = { all_core = { add_core = THIS } }
+			OCC = { all_core = { add_core = THIS } }
+			ITA = { all_core = { add_core = THIS } }
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+			
+			any_country = {
+				limit = {
+					is_culture_group = iberian
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	
+	reclaim_the_lands_of_the_gauls = {
+		picture = occupy_misiones
+		potential = {
+		NOT = { has_global_flag = reclaim_the_lands_of_the_gauls }
+		tag = WRE
+					}
+					
+		allow = {
+		year = 1880
+		military_score = 250
+		prestige = 300
+			war = no
+			is_greater_power = yes
+			owns = 451 
+			WRE = { all_core = { owned_by = THIS } }
+			
+			
+		}
+		
+		effect = {
+			set_global_flag = reclaim_the_lands_of_the_gauls
+			prestige = 10
+			badboy = 10
+			add_accepted_culture = arpitan
+			
+			BRG = { all_core = { add_core = THIS } }
+			ORL = { all_core = { add_core = THIS } }
+			
+		}
+		ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	}

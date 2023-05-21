@@ -1,0 +1,690 @@
+country_event = {
+
+	id = 49501
+	title = "EVTNAME49501" #Reforming the Kalmar Union
+	desc = "EVTDESC49501"
+	picture = "danishgovernment"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA49501" #Agree
+		random_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				NOT = { tag = FROM }
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+		FROM = {
+			relation = {
+				who = THIS
+				value = 100
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = 100
+			}
+		}
+		create_alliance = FROM
+		add_country_modifier = {
+			name = kalmar_union
+			duration = -1
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				has_country_flag = greater_finland
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					OR = {
+						government = absolute_monarchy
+						government = prussian_constitutionalism
+						government = hms_government
+						government = democracy
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					NOT = {
+						OR = {
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+							government = hms_government
+							government = democracy
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB49501" #Refuse
+		set_country_flag = refused_kalmar_union
+		FROM = { country_event = 49502 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				in_sphere = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 49502
+	title = "EVTNAME49502" #Refused!
+	desc = "EVTDESC49502"
+	picture = "danishgovernment"
+	
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA49502" #Let them go
+		FROM = {
+			relation = {
+				who = THIS
+				value = -100
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+			remove_country_modifier = kalmar_union
+			remove_country_modifier= customs_union 
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0.5
+				war_policy = jingoism
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB49502" #Conquer them
+		badboy = 4
+		any_pop = {
+			scaled_militancy = {
+				issue = pacifism
+				factor = 4
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				vassal_of = THIS
+			}
+			THIS = { release_vassal = FROM }
+		}
+		leave_alliance = FROM
+		relation = {
+			who = FROM
+			value = -200
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}		
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				badboy = 0.84
+			}
+			modifier = {
+				factor = 0
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 49503
+	title = "EVTNAME49503" #Form a Customs Union?
+	desc = "EVTDESC49503"
+	picture = "danishgovernment"
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA49503" #Agree
+		random_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				NOT = { tag = FROM }
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+		FROM = {
+			relation = {
+				who = THIS
+				value = 100
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = 100
+			}
+		}
+		add_country_modifier = {
+			name = customs_union 
+			duration = -1
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				has_country_flag = greater_finland
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					OR = {
+						government = absolute_monarchy
+						government = prussian_constitutionalism
+						government = hms_government
+						government = democracy
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					NOT = {
+						OR = {
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+							government = hms_government
+							government = democracy
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB49503" #Refuse
+		set_country_flag = refused_kalmar_union
+		FROM = { country_event = 49502 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 3
+				NOT = {
+					relation = { who = FROM value = 100 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 49504
+	title = "EVTNAME49504" #Form a Political Union?
+	desc = "EVTDESC49504"
+	picture = "danishgovernment"
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA49504" #Agree
+		random_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				NOT = { tag = FROM }
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+		FROM = {
+			relation = {
+				who = THIS
+				value = 100
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = 100
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_colonial = no
+					continent = europe
+				}
+				is_core = THIS
+			}
+			add_core = SCA 
+		}
+		add_accepted_culture = swedish
+		add_accepted_culture = danish
+		add_accepted_culture = norwegian
+		add_accepted_culture = finnish
+		add_accepted_culture = icelandic
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				has_country_flag = greater_finland
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					OR = {
+						government = absolute_monarchy
+						government = prussian_constitutionalism
+						government = hms_government
+						government = democracy
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					NOT = {
+						OR = {
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+							government = hms_government
+							government = democracy
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB49504" #Refuse
+		set_country_flag = refused_kalmar_union
+		FROM = {
+			country_event = 49502 
+			}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 3
+				NOT = {
+					relation = { who = FROM value = 100 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 49509
+
+	title = "EVTNAME49509" #Leadership of Kalmar changes hands
+	desc = "EVTDESC49509"
+	picture = "danishgovernment"
+
+	is_triggered_only = yes		
+	option = {
+		name = "EVT49509OPTA"
+		FROM = {
+			relation = {
+				who = THIS
+				value = 100
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = 100
+			}
+		}
+		create_alliance = FROM
+		remove_country_modifier = leader_of_kalmar
+		add_country_modifier = {
+			name = kalmar_union
+			duration = -1
+		}
+	}
+}
+
+
+
+country_event = {
+	id = 4408007
+	title = "EVTNAME4408007" #reorganizingthecelts
+	desc = "EVTDESC4408007"
+	picture = "mexico_soldiers"
+
+	fire_only_once = yes
+
+	trigger = {
+	273 = { owned_by = THIS }
+	263 = { owned_by = THIS }
+		tag = SCA
+		has_country_flag = dismantle_pridain
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVT4408007PTA"
+		any_owned = {
+			limit = { is_core = IRE }
+			secede_province = IRE
+		}
+		
+		any_owned = {
+			limit = { NOT = { is_core = IRE}
+			           is_core = WHA }
+			secede_province = WHA
+		}
+		
+		create_vassal = WHA
+		create_vassal = IRE
+		
+		ai_chance = {
+			factor = 90
+			
+		}	
+	}
+	
+	option = {
+		name = "EVT4408007PTB"
+		prestige = 30
+		any_owned = {
+		limit = {
+		 is_core = IRE
+		       is_core = WHA 
+		                 }
+			militancy = 8
+		}
+		
+		ai_chance = {
+			factor = 10
+			
+		}	
+	}
+
+	
+}
+
+
+country_event = {
+
+	id = 4004005
+
+	title = "EVTNAME4004005" #recovery of the baltic
+	desc = "EVTDESC4004005"
+	picture = "danishgovernment"
+
+ is_triggered_only = yes
+
+	option = {
+		name = "EVT4004005PTA"
+		SCA = { create_vassal = CUR }
+		
+		SCA = { create_vassal = LAT }
+		SCA = { create_vassal = EST }
+		 
+		 any_owned = {
+                limit = { is_core = LAT
+            NOT = { is_core = SCA }				}
+           			secede_province = LAT	}
+		 
+		                
+		LIT = {
+		any_owned = {
+				limit = {
+					is_core = EST
+					NOT = { is_core = SCA }
+				}
+				secede_province = EST
+			}
+			any_owned = {
+				limit = {
+					is_core = SCA
+
+				}
+				secede_province = SCA
+			}
+		
+		     any_owned = {
+				limit = {
+					is_core = CUR
+					NOT = { is_core = SCA }
+					
+				}
+				secede_province = CUR
+			}
+		
+		any_owned = {
+				limit = {
+					is_core = LAT
+					NOT = { is_core = SCA }
+				}
+				secede_province = LAT
+			}
+			
+		any_owned = {
+				limit = {
+					is_core = LIT
+					NOT = { is_core = SCA
+                            is_core = EST
+                            is_core = IZH
+                            is_core = LAT	
+                            is_core = CUR							}
+				}
+				secede_province = LIT
+			}
+			
+	    }
+	}
+}
+
+country_event = {
+	id = 47860904
+	title = "EVTNAME47860904" #vinlandicrevobellion
+	desc = "EVTDESC47860904"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1838
+		tag = SCA
+		VIN = { vassal_of = SCA }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		VIN = { country_event = 47860903 }
+		THIS = { leave_alliance = VIN }
+		
+		SCA = {
+			release_vassal = VIN
+			
+		}
+		
+		
+		set_global_flag = the_vinlandic_rebellion
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+country_event = {
+	id = 47860903
+	title = "EVTNAME47860903" #vinlandicrevobellion
+	desc = "EVTDESC47860903"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		
+		government = hms_government
+		 add_country_modifier = { name = small_country_draft duration = 365 }
+		add_country_modifier = { name = unrecognized_country duration = 3650 } 
+		             
+		war = {
+			target = SCA
+			attacker_goal = { casus_belli = status_quo }
+			defender_goal = { casus_belli = make_puppet }
+		}
+		
+		
+		
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+country_event = {
+	id = 47860906
+	title = "EVTNAME47860906" #MidgardianRevolt
+	desc = "EVTDESC47860906"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		
+		government = hms_government
+		 add_country_modifier = { name = small_country_draft duration = 365 }
+		add_country_modifier = { name = unrecognized_country duration = 3650 } 
+		             
+		war = {
+			target = SCA
+			attacker_goal = { casus_belli = acquire_core_state
+                    			state_province_id = 2087 }
+			defender_goal = { casus_belli = make_puppet }
+		}
+		
+		
+		
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+country_event = {
+	id = 47860905
+	title = "EVTNAME47860905" #MidgardianRevolt
+	desc = "EVTDESC47860905"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1838
+		tag = SCA
+		SAF = { vassal_of = SCA }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT47860904A"
+		THIS = { leave_alliance = SAF }
+		SAF = { country_event = 47860906 }
+		SCA = {
+			release_vassal = SAF
+			
+		}
+		
+		set_global_flag = the_vinlandic_rebellion
+		ai_chance = { factor = 0.9 }
+	}
+		
+	
+}
+
+
+
+country_event = {
+	id = 6045009
+	title = "EVTNAME6045009" #submissionofpruski
+	desc = "EVTDESC6045009"
+	picture = "rosas_urquiza"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT6045009A"
+		PRD = { leave_alliance = SCA }
+		add_country_modifier = { name = small_country_draft duration = 365 }
+		add_country_modifier = { name = unrecognized_country duration = 3650 }
+		SCA = {
+			release_vassal = PRD
+			
+		}
+		
+		war = {
+			target = SCA
+			attacker_goal = { casus_belli = humiliate }
+			defender_goal = { casus_belli = conquest_any }
+		}
+		set_global_flag = the_pruski_war
+		ai_chance = { factor = 0.5 }
+	}
+		
+	option = {
+		name = "EVTOPT6045009B"
+		SCA = { inherit = PRD }
+		any_owned = {
+		               limit = { culture = pruski }
+		militancy = 7 }
+		ai_chance = { factor = 0.5 }
+	}
+}

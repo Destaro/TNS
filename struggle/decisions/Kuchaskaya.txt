@@ -1,0 +1,98 @@
+political_decisions = {
+reclaim_the_levant = {
+potential = { 
+tag = KSK 
+NOT = { has_country_flag = reclaim_the_levant }
+               }
+allow = { 
+war = no
+ KSK = { all_core = { owned_by = THIS } }
+  }
+effect = {
+set_country_flag = reclaim_the_levant
+prestige = 5
+SYR = { all_core = { add_core = THIS } }
+ }
+}
+
+claim_the_armenians = {
+potential = { 
+tag = KSK 
+NOT = { has_country_flag = claim_the_armenians }
+               }
+allow = { 
+nationalism_n_imperialism = 1
+war = no
+ ARM = { all_core = { owned_by = THIS } }
+  }
+effect = {
+set_country_flag = claim_the_armenians
+prestige = 5
+badboy = 5
+ARM = { all_core = { add_core = THIS } }
+ }
+}
+
+claim_the_asyria = {
+potential = { 
+tag = KSK 
+NOT = { has_country_flag = claim_the_asyria }
+               }
+allow = { 
+nationalism_n_imperialism = 1
+war = no
+ ASY = { all_core = { owned_by = THIS } }
+  }
+effect = {
+set_country_flag = claim_the_asyria
+prestige = 5
+badboy = 1
+ASY = { all_core = { add_core = THIS } }
+ }
+}
+
+reclaim_the_egypt = {
+potential = { 
+tag = KSK 
+NOT = { has_country_flag = reclaim_the_egypt }
+               }
+			   
+allow = { 
+war = no
+ LBN = { all_core = { owned_by = THIS } }
+ KSK = { all_core = { owned_by = THIS } }
+  }
+  
+effect = {
+set_country_flag = reclaim_the_egypt
+prestige = 5
+EGY = { all_core = { add_core = THIS } }
+ }
+}
+
+the_end_of_the_romans = {
+potential = { 
+tag = KSK 
+NOT = { has_country_flag = the_end_of_the_romans}
+has_country_flag = reclaim_the_egypt
+has_country_flag = reclaim_the_levant
+KSK = { all_core = { owned_by = THIS } }
+               }
+			   
+allow = { 
+nationalism_n_imperialism = 1
+war = no
+ EGY = { all_core = { owned_by = THIS } }
+ LBN = { all_core = { owned_by = THIS } }
+ owns = 860
+  }
+  
+effect = {
+set_country_flag = the_end_of_the_romans
+prestige = 20
+badboy = 10
+BYZ = { all_core = { add_core = THIS } }
+ }
+}
+
+}

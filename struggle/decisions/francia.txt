@@ -1,0 +1,243 @@
+political_decisions = {
+victory_against_scandinavia = {
+potential = { 
+       tag = ORL
+	    NOT = { has_country_flag = victory_against_scandinavia }
+		
+		           }
+				   
+	allow = { 
+	war = no
+	BRT = { war = no }
+	NDY = { war = no }
+	}
+	effect = {
+	set_country_flag = victory_against_scandinavia 
+	
+	inherit = NDY
+	prestige = 10
+	}
+}
+
+reclaim_ocitania = {
+ potential = {
+             
+			tag = FRC
+			
+			
+         NOT = {
+            has_country_flag = reclaim_ocitania 
+		 }
+                      }
+					  
+	    allow = {
+		455 = { owned_by = THIS }
+		 war = no
+		 nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+		prestige = 15
+		badboy = -1
+		OCC = { all_core = { add_core = THIS } }
+		set_country_flag = reclaim_ocitania
+		
+		}
+       
+ 
+ }
+ 
+ claim_britany = {
+ potential = {
+             
+			tag = FRC
+			
+			
+         NOT = {
+            has_country_flag = claim_britany
+		 }
+                      }
+					  
+	    allow = {
+		421 = { owned_by = THIS }
+		 war = no
+		state_n_government = 1
+		}
+		
+		effect = {
+		prestige = 15
+		badboy = 1
+		BRT = { all_core = { add_core = THIS } }
+		set_country_flag = claim_britany
+		
+		}
+       
+ 
+ }
+ 
+ 
+ 
+ reclaim_savoy = {
+ potential = {
+             
+			tag = FRC
+			
+			
+         NOT = {
+            has_country_flag = reclaim_savoy
+		 }
+                      }
+					  
+	    allow = {
+		720 = { owned_by = THIS }
+		revolution_n_counterrevolution = 1
+		 war = no
+		}
+		
+		effect = {
+		prestige = 10
+		badboy = 2
+		3628 = { add_core = THIS }
+		3526 = { add_core = THIS }
+		3631 = { add_core = THIS }
+		466 = { add_core = THIS }
+		465 = { add_core = THIS }
+		721 = { add_core = THIS }
+		608 = { add_core = THIS }
+		720 = { add_core = THIS }
+		469 = { add_core = THIS }
+		3251 = { add_core = THIS }
+		3629 = { add_core = THIS }
+		471 = { add_core = THIS }
+		470 = { add_core = THIS }
+		set_country_flag = reclaim_savoy
+		
+		}
+       
+ 
+ }
+ 
+  embrace_the_west_germs = {
+ potential = {
+             
+			tag = FRC
+			
+			
+         NOT = {
+            has_country_flag = embrace_the_west_germs
+		 }
+                      }
+					  
+	    allow = {
+		586 = { owned_by = THIS }
+		589 = { owned_by = THIS }
+		revolution_n_counterrevolution = 1
+		 war = no
+		}
+		
+		effect = {
+		prestige = 5
+		badboy = 1
+		add_accepted_culture = allemanic
+		set_country_flag = embrace_the_west_germs
+		
+		}
+       
+ 
+ }
+ 
+ 
+  embrace_the_arpitans = {
+ potential = {
+             
+			tag = FRC
+			has_country_flag = reclaim_burgundy
+			has_country_flag = reclaim_savoy
+			
+         NOT = {
+            has_country_flag = embrace_the_arpitans
+		 }
+                      }
+					  
+	    allow = {
+		609 = { owned_by = THIS }
+		revolution_n_counterrevolution = 1
+		 war = no
+		}
+		
+		effect = {
+		prestige = 5
+		badboy = 1
+		add_accepted_culture = arpitan
+		set_country_flag = embrace_the_arpitans
+		NCT = { all_core = { add_core = THIS } }
+		}
+       
+ 
+ }
+ 
+ 
+ demand_the_return_of_the_colonies = {
+  potential = {
+             
+			tag = FRC
+			
+			
+         NOT = {
+            has_country_flag = demand_the_return_of_the_colonies
+		 }
+                      }
+					  
+	    allow = {
+		
+		
+		 war = no
+		}
+		
+		effect = {
+	    badboy = 10
+		set_country_flag = demand_the_return_of_the_colonies
+		ULA = { country_event = 9006005 }
+		GCO = { country_event = 9006005 }
+		LPL = { country_event = 9006005 }
+		}
+ 
+ 
+ }
+ 
+ 
+ reconquer_the_incas = {
+  potential = {
+             
+			tag = FRC
+			has_country_flag = demand_the_return_of_the_colonies
+			
+         NOT = {
+            has_country_flag = reconquer_the_incas
+		 }
+                      }
+					  
+	    allow = {
+		ULA = { vassal_of = THIS }
+		GCO = { vassal_of = THIS }
+		LPL = { vassal_of = THIS }
+		 war = no
+		}
+		
+		effect = {
+	    badboy = 7
+		set_country_flag = reconquer_the_incas
+		war = {
+			target = VOP
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
+		}
+		}
+ 
+ 
+ }
+ 
+
+
+ }
+ 

@@ -1,0 +1,532 @@
+
+
+
+
+
+
+
+#Mongolian Protectorate
+
+country_event = {
+	id = 80115
+	title = "EVTNAME80115"
+	desc = "EVTDESC80115"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT80115OPTA"
+		prestige = -5
+		any_owned = {
+			limit = { is_core = RUT }
+			secede_province = RUT
+		}
+		create_alliance = FROM
+		FROM = {
+			create_vassal = THIS
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 100 }
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = QNG
+					tag = CHI
+					tag = KMT
+					tag = TPG
+				}
+				exists = yes
+				neighbour = THIS
+			}
+			casus_belli = {
+				target = RUT
+				type = release_puppet
+				months = 60
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "EVT80115OPTB"
+		prestige = 5
+		any_pop = { militancy = -3 }
+		RUT = { country_event = 80116 }
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 80116
+	title = "EVTNAME80116"
+	desc = "EVTDESC80116"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT80116OPTA"
+		prestige = -5
+		leave_alliance = FROM
+		relation = { who = FROM value = -100 }
+		diplomatic_influence = { who = FROM value = -100 }
+		random_country = {
+			limit = {
+				tag = FROM
+				number_of_states = 2
+				civilized = yes
+			}
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				number_of_states = 2
+				civilized = no
+				NOT = { has_global_flag = berlin_conference }
+			}
+			add_casus_belli = {
+				target = THIS
+				type = demand_concession_NI_casus_belli
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				number_of_states = 2
+				civilized = no
+				has_global_flag = berlin_conference
+			}
+			add_casus_belli = {
+				target = THIS
+				type = demand_concession_BC_casus_belli
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { number_of_states = 2 }
+				civilized = yes
+			}
+			add_casus_belli = {
+				target = THIS
+				type = conquest
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { number_of_states = 2 }
+				civilized = no
+				NOT = { has_global_flag = berlin_conference }
+			}
+			add_casus_belli = {
+				target = THIS
+				type = establish_protectorate_NI_casus_belli
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { number_of_states = 2 }
+				civilized = no
+				has_global_flag = berlin_conference
+			}
+			add_casus_belli = {
+				target = THIS
+				type = establish_protectorate_BC_casus_belli
+				months = 24
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+country_event = {
+	
+	id = 32532
+	title = "EVTNAME32532" #Russia expels the chinese from Outer Manchuria
+	desc = "EVTDESC32532"
+	picture = "vladivostok_manchu"
+	
+	trigger = {
+		has_country_flag = country_trying_to_expel_the_manchus
+		owns = 1082
+		owns = 1083
+		owns = 1084
+		NOT = { has_global_flag = manchus_expelled_primorye }
+		has_global_flag = trying_to_expel_the_manchus
+	}
+
+	mean_time_to_happen = { 
+		months = 40 
+			modifier = {
+				factor = 0.8
+				CHI_1082 = { any_owned_province = { country_units_in_province = THIS } }
+			}
+		}
+	
+	option = {
+		name = "EVT32532OPTA"
+		set_global_flag = manchus_expelled_primorye
+		clr_global_flag = trying_to_expel_the_manchus
+		clr_country_flag = country_trying_to_expel_the_manchus
+		prestige = 5
+		1082 = { 
+		
+		poor_strata = {
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+			}
+			move_pop = 1554
+		}
+			
+		any_pop = { 
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			militancy = 7
+			consciousness = 9
+		}
+			
+		any_pop = { 
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+				OR = {
+					pop_type = artisans
+					pop_type = clergymen
+					pop_type = bureaucrats
+				}
+			}
+			pop_type = labourers
+		}
+		add_province_modifier = { name = population_resettlement duration = 2190 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1083 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1554
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+		
+		1084 = { poor_strata = { 
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+				}
+			}
+			pop_type = labourers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1085 = { poor_strata = {
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = {
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+					}
+				}
+			pop_type = farmers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1082 = {
+			poor_strata = {
+				limit = {
+					culture = russian
+				}
+				reduce_pop = 3
+			}
+		}
+		
+		1083 = {
+			poor_strata = {
+				limit = {
+					culture = russian
+				}
+				reduce_pop = 2
+			}
+		}
+		
+		
+		2617 = { poor_strata = { 
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+					}
+				}
+			pop_type = labourers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+	}
+}
+
+country_event = {	
+	
+	id = 32533
+	title = "EVTNAME32533" #Russia fails to expels the chinese from Outer Manchuria
+	desc = "EVTDESC32533"
+	picture = "ambush_army"
+	
+	trigger = {
+		has_country_flag = country_trying_to_expel_the_manchus
+		owns = 1082
+		owns = 1083
+		owns = 1084
+		NOT = { has_global_flag = manchus_expelled_primorye }
+		has_global_flag = trying_to_expel_the_manchus
+	}
+		
+	mean_time_to_happen = { months = 50 }
+	
+	option = {
+		name = "EVT32533OPTA"
+		clr_country_flag = country_trying_to_expel_the_manchus
+		clr_global_flag = trying_to_expel_the_manchus
+		prestige = -2
+		CHI_1082 = { any_pop = { limit = { is_primary_culture = yes } reduce_pop = 0.99 } }
+	}
+}
+
+
+
+
+
+#Renaming central asia and removing cores
+country_event = {
+	
+	id = 32536
+	title = "EVTNAME32536"
+	desc = "EVTDESC32536"
+	picture = "storm_of_samarkand"
+	
+	trigger = {
+		tag = RUT
+		owns = 1186
+		owns = 1187
+		owns = 1188
+		owns = 1193
+		owns = 2606
+		owns = 1190
+		owns = 1192
+		owns = 1194
+		owns = 2612
+	}
+	
+	fire_only_once = yes
+	
+		
+	mean_time_to_happen = { months = 6 }
+	
+	option = {
+		name = "EVT32536OPTA"
+			2606 = { change_province_name = "Zhambyl" remove_core = RUS }
+			1193 = { change_province_name = "Perovsk" remove_core = RUS }
+			1188 = { change_province_name = "Taldy-Kurgan" remove_core = RUS }
+			1186 = { change_province_name = "Verniy" remove_core = RUS }
+			1187 = { change_province_name = "Semipalatinsk" remove_core = RUS }
+			1190 = { remove_core = RUS }
+			1194 = { remove_core = RUS change_province_name = "Fort Alexandrovsky" }
+			1192 = { remove_core = RUS }
+			2612 = { remove_core = RUS }
+			1186 = { state_scope = { change_region_name = "Semireche" } }
+	}
+}
+
+
+

@@ -1,0 +1,75 @@
+country_event = {
+	id = 6045709
+	title = "EVTNAME6054006" #submissionofgaza
+	desc = "EVTDESC6054006"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	trigger = {
+	year = 1838
+		tag = GAZ
+		exists = ZOU
+		ZOU = { prestige = 20 }
+	}
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+	
+	option = {
+		name = "EVTOPT6045009A"
+		ZOU = { leave_alliance = GAZ }
+		
+		
+		
+		GAZ = { add_casus_belli = { target = ZOU type = conquest_any months = 24 } }
+		set_global_flag = reject_submission_to_the_frankishboers
+		ai_chance = { factor = 0.5 }
+	}
+		
+	option = {
+		name = "EVTOPT6045009B"
+		ZOU = { inherit = GAZ }
+		any_owned = {
+		               limit = { culture = nguni }
+		militancy = 7 }
+		ai_chance = { factor = 0.5 }
+	}
+}
+
+country_event = {
+	id = 6445899
+	title = "EVTNAME6054006" #submissionofkazembe
+	desc = "EVTDESC6054006"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	trigger = {
+	year = 1838
+		tag = KZB
+		exists = TRN
+		TRN = { prestige = 20 }
+	}
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+	
+	option = {
+		name = "EVTOPT6045009A"
+		TRN = { leave_alliance = KZB }
+		
+		
+		
+		KZB = { add_casus_belli = { target = TRN type = conquest_any months = 24 } }
+		set_global_flag = reject_submission_to_the_frankishboers
+		ai_chance = { factor = 0.5 }
+	}
+		
+	option = {
+		name = "EVTOPT6045009B"
+		TRN = { inherit = KZB }
+		any_owned = {
+		               limit = { culture = lunda }
+		militancy = 7 }
+		ai_chance = { factor = 0.5 }
+	}
+}

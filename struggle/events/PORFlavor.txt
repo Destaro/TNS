@@ -1,0 +1,77 @@
+
+
+
+#Getting Yao Territory
+country_event = {
+
+	id = 49514
+	title = "EVTNAME49514"
+	desc = "EVTDESC49514"
+	picture = "yao_slave"
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_conference
+		OR = {
+			owns = 2065
+			owns = 2063
+		}
+		
+		2581 = { empty = yes }
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	option = {
+		name = "EVT49514OPTA"
+		prestige = 2
+		2581 = {
+			secede_province = THIS
+			any_pop = { reduce_pop = 0.9 literacy = -0.99 }
+			life_rating = 20
+		}
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "EVT49514OPTB"
+		prestige = -5
+		ai_chance = { factor = 0 }
+	}
+}
+
+
+#Death of Soshangane and conquest of Gaza
+country_event = {
+
+	id = 49517
+	title = "EVTNAME49517"
+	desc = "EVTDESC49517"
+	picture = "natives_of_soshangane"
+
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2059
+		owns = 2053
+		GAZ = {
+			exists = yes
+			ai = yes
+			NOT = { has_leader = "Soshangane" } 
+		}
+	}
+
+	mean_time_to_happen = { months = 6 }
+
+	option = {
+		name = "EVT49517OPTA"
+		GAZ = {
+			any_pop = { militancy = 6 }
+			random_owned = { limit = { province_id = 2057 } secede_province = THIS }
+		}
+		relation = { who = GAZ value = -400 }
+		diplomatic_influence = { who = GAZ value = -400 }
+	}
+}
+
+#Treaty of Simulambuko for the sphere owner of Kongo

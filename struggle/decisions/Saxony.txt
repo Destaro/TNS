@@ -1,0 +1,349 @@
+political_decisions = {
+
+ integrate_lausic = {
+ potential = {
+             
+			OR = {
+			
+			tag = MRV
+			}
+         NOT = {
+            has_country_flag = integrate_lausic		 
+		 }
+                      }
+					  
+	    allow = {
+		nationalism_n_imperialism = 1
+		owns = 687
+		owns = 3514
+		 war = no
+		}
+		
+		effect = {
+		687 = { add_core = THIS }
+		558 = { add_core = THIS }
+		3514 = { add_core = THIS }
+		3512 = { add_core = THIS }
+		552 = { add_core = THIS }
+		set_country_flag = integrate_lausic
+		
+		}
+       
+ 
+ }
+ 
+  integrate_austria = {
+ potential = {
+             
+			OR = {
+			
+			tag = SGF
+			tag = GER
+			
+			}
+         NOT = {
+            has_country_flag = integrate_austria	 
+		 }
+                      }
+					  
+	    allow = {
+		is_greater_power = yes
+		 AUS = { all_core = { owned_by = THIS } }
+		 war = no
+		}
+		
+		effect = {
+		AUS = { all_core = { add_core = THIS } }
+		set_country_flag = integrate_austria
+		
+		}
+       
+ 
+ }
+ 
+ 
+  push_west = {
+ potential = {
+             has_country_flag = integrate_frisia
+			 has_country_flag = integrate_net
+			 has_country_flag = integrate_the_north
+			tag = GER
+         NOT = {
+            has_country_flag = push_west
+		                                   }
+                      }
+					  
+	    allow = {
+		prestige = 300
+		military_score = 200
+		is_greater_power = yes
+		owns = 571
+		owns = 574
+		 war = no
+		 revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+		add_core = 575
+		add_core = 3378
+		add_core = 572
+		add_core = 574
+		add_core = 571
+		add_core = 3254
+		add_core = 3563
+		add_core = 409
+		add_core = 410
+		add_core = 604
+		set_country_flag = push_west
+		badboy = 6
+		prestige = 20
+		}
+       
+ 
+ }
+ 
+  integrate_silesia = {
+ potential = {
+             
+			OR = {
+			tag = WES
+			tag = NGF
+			tag = GER
+			
+			}
+         NOT = {
+            has_country_flag = integrate_silesia	 
+		 }
+                      }
+					  
+	    allow = {
+		 684 = { owned_by = THIS }
+		 682 = { owned_by = THIS }
+		 war = no
+		}
+		
+		effect = {
+		badboy = 5
+		add_core = 3519
+		add_core = 683
+		add_core = 682
+		add_core = 684
+		add_core = 685
+		add_core = 688
+		add_core = 632
+		set_country_flag = integrate_silesia
+		
+		}
+       
+ 
+ }
+ 
+ integrate_the_north = {
+ potential = {
+             
+			OR = {
+			tag = WES
+			tag = NGF
+			tag = GER
+			
+			}
+         NOT = {
+            has_country_flag = integrate_the_north 
+		 }
+                      }
+					  
+	    allow = {
+		366 = { owned_by = THIS }
+		 war = no
+		}
+		
+		effect = {
+		badboy = 3
+		add_core = 2557
+		add_core = 366
+		add_core = 368
+		add_core = 367
+		set_country_flag = integrate_the_north
+		
+		}
+       
+ 
+ }
+ 
+ integrate_frisia = {
+ potential = {
+             
+			OR = {
+			tag = WES
+			tag = NGF
+			tag = GER
+			
+			}
+         NOT = {
+            has_country_flag = integrate_frisia	 
+		 }
+                      }
+					  
+	    allow = {
+		 FRI = { all_core = { owned_by = THIS } }
+		 war = no
+		}
+		
+		effect = {
+		badboy = 1
+		FRI = { all_core = { add_core = THIS } }
+		set_country_flag = integrate_frisia
+		
+		}
+       
+ 
+ }
+ 
+ integrate_net = {
+ potential = {
+             
+			OR = {
+			tag = WES
+			tag = NGF
+			tag = GER
+			
+			}
+         NOT = {
+            has_country_flag = integrate_net	 
+		 }
+                      }
+					  
+	    allow = {
+		 NET = { all_core = { owned_by = THIS } }
+		 war = no
+		}
+		
+		effect = {
+		badboy = 1
+		NET = { all_core = { add_core = THIS } }
+		set_country_flag = integrate_net
+		
+		}
+       
+ 
+ }
+
+
+ 
+	
+	
+	
+	 march_east = {
+        potential = {
+		is_greater_power = yes
+	 	exists = PRD
+	 	OR = {
+	    
+			tag = GER
+			          }
+          
+            NOT = { has_country_flag = march_east }
+         is_vassal = no
+		 PRD = { is_vassal = no }
+       }
+        allow = {
+		revolution_n_counterrevolution = 1
+		war = no
+		GER = { all_core = { owned_by = THIS } }
+		NOT = {
+		
+		PRD = { OR = { 
+		           alliance_with = THIS 
+		           vassal_of = THIS  }
+				   }
+		        }
+        }
+        effect = {
+		badboy = 5
+        set_country_flag = march_east
+		
+		war = {
+                target = PRD
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                  
+                }
+               
+                defender_goal = { 
+				    casus_belli = cut_down_to_size }
+                   }
+                 }
+	 }
+	 
+	 begin_baltic_integration = {
+	 potential = {
+         tag = GER
+		 has_country_flag = march_east
+		 NOT = { has_country_flag = begin_baltic_integration}
+      	 }
+	 
+	 allow = {
+     war = no
+     PRD = { all_core = { owned_by = THIS } }
+     is_greater_power = yes
+	 year = 1875
+	 }
+	 
+	 effect = {
+     set_country_flag = begin_baltic_integration 
+	 prestige = 5
+	 PRD = { all_core = { add_core = THIS } }
+	 add_accepted_culture = pruski
+     	 }
+	 
+	 }
+	 
+	 
+	 integrate_the_east = {
+        potential = {
+            OR = {
+		    tag = NGF
+            tag = WES
+			tag = GER
+			          }
+           
+			
+            NOT = { has_country_flag = integrate_the_east }
+            is_vassal = no
+        }
+        allow = {
+		is_greater_power = yes
+		empiricism = 1
+		functionalism = 1
+		war = no
+		WES = { all_core = { owned_by = THIS } }
+		
+		owns = 691
+		owns = 701
+		owns = 694
+		
+		                 }    
+		effect = {
+		prestige = 20
+		add_accepted_culture = baltic_german
+		badboy = 2
+        set_country_flag = integrate_the_east
+		add_core = 691
+		add_core = 3854
+		add_core = 690
+		add_core = 693
+		add_core = 694
+		add_core = 700
+		add_core = 701
+		add_core = 717
+		add_core = 3511
+		add_core = 710
+	
+                         }
+	              }
+				  
+				  
+       
+
+}

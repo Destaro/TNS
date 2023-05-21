@@ -1,0 +1,95 @@
+political_decisions = {
+ form_volkstaat = {
+potential = { 
+  OR = {
+       tag = TRN 
+	   tag = ZOU
+	   }
+	    NOT = { exists = VLK
+		has_country_flag = form_volkstaat }
+		
+		           }
+				   
+	allow = { 
+	war = no
+	owns = 790
+	owns = 2009
+	owns = 2072
+	owns = 2056
+	owns = 2011
+	}
+	effect = {
+	add_accepted_culture = nguni
+	add_accepted_culture = lunda
+	set_country_flag = form_volkstaat
+	GAZ = { all_core = { add_core = THIS } }
+	AGC = { all_core = { add_core = THIS } }
+	ZOU = { all_core = { add_core = THIS } }
+	KZB = { all_core = { add_core = THIS } }
+	TRN = { all_core = { add_core = THIS } }
+	MAT = { all_core = { add_core = THIS } }
+	LUN = { all_core = { add_core = THIS } }
+	2009 = { add_core = THIS }
+	2010 = { add_core = THIS }
+	2005 = { add_core = THIS }
+	2002 = { add_core = THIS }
+	1999 = { add_core = THIS }
+	2003 = { add_core = THIS }
+	2004 = { add_core = THIS }
+	change_tag = VLK
+	prestige = 10
+	}
+}
+
+ form_the_south_african_confederation = {
+potential = { 
+  OR = {
+       tag = VLK
+	   tag = NAL
+	   }
+	    NOT = { exists = ORA
+		has_country_flag = form_the_south_african_confederation }
+		
+		           }
+				   
+	allow = { 
+	revolution_n_counterrevolution = 1
+	war = no
+	owns = 2075
+	owns = 2095
+	owns = 2113
+	owns = 2079
+	owns = 2069
+	owns = 2051
+	}
+	effect = {
+	add_accepted_culture = nguni
+	add_accepted_culture = boer
+    add_accepted_culture = Serklander
+	add_accepted_culture = Pauperes
+	set_country_flag = form_the_south_african_confederation
+	GAZ = { all_core = { add_core = THIS } }
+	AGC = { all_core = { add_core = THIS } }
+	ZOU = { all_core = { add_core = THIS } }
+	KZB = { all_core = { add_core = THIS } }
+	TRN = { all_core = { add_core = THIS } }
+	MAT = { all_core = { add_core = THIS } }
+	LUN = { all_core = { add_core = THIS } }
+	TSW = { all_core = { add_core = THIS } }
+	ZUL = { all_core = { add_core = THIS } }
+	SAF = { all_core = { add_core = THIS } }
+	NMB = { all_core = { add_core = THIS } }
+	MAD = { all_core = { add_core = THIS } }
+	2009 = { add_core = THIS }
+	2010 = { add_core = THIS }
+	2005 = { add_core = THIS }
+	2002 = { add_core = THIS }
+	1999 = { add_core = THIS }
+	2003 = { add_core = THIS }
+	2004 = { add_core = THIS }
+	change_tag = ORA
+	prestige = 20
+	}
+}
+	
+}

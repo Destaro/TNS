@@ -1,0 +1,88 @@
+political_decisions = {
+	the_horn_of_africa = {
+	      potential = { 
+		    tag = ETH
+            NOT = { has_country_flag = the_horn_of_africa }		
+                      			}
+		  allow = {
+		  war = no
+          SOM = { all_core = { owned_by = THIS } }
+		                                }
+		  effect = { 
+		   prestige = 10
+		   SOM = { all_core = { add_core = THIS } }
+		   set_country_flag = the_horn_of_africa
+		  }
+	}
+	
+	the_eastern_coast_is_kongo = {
+	      potential = { 
+		    tag = KON
+            NOT = { has_country_flag = the_horn_of_africa }		
+                      			}
+		  allow = {
+		  civilized = yes
+		  war = no
+          owns = 2043
+		  owns = 2023
+		                                }
+		  effect = { 
+		   prestige = 10
+		   2046 = { add_core = THIS }
+		   2042 = { add_core = THIS }
+		   2040 = { add_core = THIS }
+		   2045 = { add_core = THIS }
+		   2047 = { add_core = THIS }
+		   2027 = { add_core = THIS }
+		   2028 = { add_core = THIS }
+		   2032 = { add_core = THIS }
+		   BUG = { all_core = { add_core = THIS } }
+		   ZAN = { all_core = { add_core = THIS } }
+		   set_country_flag = the_eastern_coast_is_kongo
+		  }
+	}
+	
+	properly_integrate_the_peoples_around_the_kongo	= {
+	      potential = { 
+		    tag = KON
+            NOT = { has_country_flag = properly_integrate_the_peoples_around_the_kongo }		
+                      			}
+		  allow = {
+		  war = no
+          civilized = yes
+		  MNG = { all_core = { owned_by = THIS } }
+		  LUN = { all_core = { owned_by = THIS } }
+		  KUB = { all_core = { owned_by = THIS } }
+		                                }
+		  effect = { 
+		   prestige = 10
+		 add_accepted_culture = mongo
+		 add_accepted_culture = kuba
+		 add_accepted_culture = lunda
+		   set_country_flag = properly_integrate_the_peoples_around_the_kongo
+		  }
+	}
+	
+	unite_the_christians_of_nubia = {
+	      potential = { 
+		    tag = ETH
+            NOT = { has_country_flag = unite_the_christians_of_nubia }		
+			exists = SUD 
+			exists = SHW
+                      			}
+		  allow = {
+		  war = no
+         civilized = yes
+		 prestige = 50
+		                                }
+		  effect = { 
+		   prestige = 10
+		   SHW = { all_core = { add_core = THIS } }
+		   SUD = { all_core = { add_core = THIS } }
+		   inherit = SUD 
+		   inherit = SHW
+		   set_country_flag = unite_the_christians_of_nubia
+		  }
+	}
+	
+	}

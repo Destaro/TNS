@@ -1,0 +1,164 @@
+political_decisions = { 
+
+integrate_the_west_alania = {
+   potential = {
+      tag = ALN
+	  NOT = { has_country_flag = integrate_the_west_alania}
+   
+   }
+   
+   allow = { 
+   war = no
+      owns = 980
+	  owns = 975
+   }
+   
+   effect = {
+   prestige = 5
+   set_country_flag = integrate_the_west_alania
+        add_core = 3317
+		add_core = 979
+		add_core = 980
+		add_core = 975
+		add_core = 974
+		add_core = 973
+		add_core = 965
+		add_core = 976
+   }
+                               }
+							   
+							   
+		centralize_alania = {
+	           potential = {
+			   tag = ALN	   
+			   NOT = { has_country_flag = centralize_alania }
+			   MIG = { vassal_of = THIS }
+			  
+			   CIR = { vassal_of = THIS }
+			   ABK = { vassal_of = THIS }
+			   CHY = { vassal_of = THIS }
+			   }
+	      
+		  allow = {
+				war = no
+				civilized = yes
+				state_n_government = 1
+			
+			
+			MIG = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			
+			CIR = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			 
+			 CHY = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			 ABK = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+	      }
+		  
+		  effect = {
+		  set_country_flag = centralize_alania
+		  MIG = { all_core = { add_core = THIS } }
+		  ABK = { all_core = { add_core = THIS } }
+		  CHY = { all_core = { add_core = THIS } }
+		  CIR = { all_core = { add_core = THIS } }
+		  
+		  inherit = MIG
+		  inherit = ABK
+		  inherit = CIR
+		  inherit = CHY
+		  prestige = 10
+		  badboy = -1
+		             	  
+				}
+		 }
+		 
+		 	centralize_parthia = {
+	           potential = {
+			   tag = KHR	   
+			   NOT = { has_country_flag = centralize_parthia }
+			   TKM = { vassal_of = THIS }
+			   SEM = { vassal_of = THIS }
+			   BDK = { vassal_of = THIS }
+			   }
+	      
+		  allow = {
+				war = no
+				civilized = yes
+			
+			TKM = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			 
+			 SEM = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			 BDK = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+	      }
+		  
+		  effect = {
+		  set_country_flag = centralize_parthia
+		  TKM = { all_core = { add_core = THIS } }
+		  SEM = { all_core = { add_core = THIS } }
+		  BDK = { all_core = { add_core = THIS } }
+		  MAK = { all_core = { add_core = THIS } }
+		  inherit = BDK
+		  inherit = SEM
+		  inherit = TKM
+		  prestige = 10
+		  badboy = -1
+		             	  
+				}
+		 }
+							   
+
+}

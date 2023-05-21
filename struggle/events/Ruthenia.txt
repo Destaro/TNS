@@ -1,0 +1,54 @@
+country_event = {
+	id = 48865995
+	title = "EVTNAME48865995" #Panslavism
+	desc = "EVTDESC48865995"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1855
+	nationalism_n_imperialism = 1
+		tag = RUT
+		is_greater_power = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+			
+	}
+
+		
+	option = {
+		name = "EVTOPT48865995A"
+		THIS = {
+		leave_alliance = BUL 
+          relation = {
+				who = BUL
+				value = -200
+			}		
+		}
+		BUL = { all_core = { add_core = THIS } }
+		badboy = 5
+		prestige = 30
+		set_global_flag = the_panslavic_dream
+		ai_chance = { factor = 0.8 }
+	}
+	
+	option = {
+		name = "EVTOPT48865995B"
+		badboy = -5
+		prestige = -10
+		THIS = {
+		
+          relation = {
+				who = BUL
+				value = 100
+			}		
+		}
+		set_global_flag = the_ruthenians_abandon_bolkania
+		ai_chance = { factor = 0.2 }
+	}
+		
+	
+}

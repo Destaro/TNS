@@ -1,0 +1,105 @@
+#Luxembourgian Victory
+country_event = {
+	id = 11111
+	title = "EVTNAME11111"
+	desc = "EVTDESC11111"
+	picture = "rhineland"
+	
+	trigger = {
+		tag = LUX
+		war = no
+		owns = 411
+		NOT = { has_country_flag = lux_win }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = "EVT11111OPTA"
+		set_country_flag = lux_win
+		prestige = 20
+		LUX = { 
+			all_core = { 
+				remove_core = LUX
+				add_core = LOT
+			}
+		}
+		LOR = { 
+			all_core = { 
+				remove_core = LOR
+				add_core = LOT
+			}
+		}
+	}
+}
+# Victory in the Northern Crisis
+
+	country_event = {
+         id = 111111
+         title = "Victory in the Northern Crisis"
+         desc = "Placeholder"
+         fire_only_once = yes
+
+
+
+
+	trigger = { 
+         tag = ORL
+         truce_with = SCA
+         NOT = {
+                any_neighbour_country = { is_vassal = yes }
+                has_country_flag = victor_in_the_north 
+			}
+		}
+
+
+			mean_time_to_happen = {
+			months = 1
+			}
+
+			option = {
+			name = "EVT111111OPTA"
+			set_country_flag = victor_in_the_north
+			prestige = 5
+			}
+
+}
+
+#Lorrainian Victory
+country_event = {
+	id = 11112
+	title = "EVTNAME11112"
+	desc = "EVTDESC11112"
+	picture = "rhineland"
+	
+	trigger = {
+		tag = LOR
+		war = no
+		owns = 576
+		NOT = { has_country_flag = lor_win }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = "EVT11112OPTA"
+		set_country_flag = lor_win
+		prestige = 20
+		LUX = { 
+			all_core = { 
+				remove_core = LUX
+				add_core = LOT
+			}
+		}
+		LOR = { 
+			all_core = { 
+				remove_core = LOR
+				add_core = LOT
+			}
+		}
+	}
+}

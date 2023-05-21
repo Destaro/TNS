@@ -1,0 +1,150 @@
+political_decisions = {
+	latin_rename_thrace = {
+		picture = gtfo
+		potential = {
+			tag = BYZ
+			owns = 860
+		NOT = { has_global_flag = latin_rename_thrace }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = latin_rename_thrace
+			prestige = 2
+			860 = { change_province_name = "Constantinopolis"
+			state_scope = {
+					change_region_name = "Eastern Thrace"
+				}
+			}
+			859 = { change_province_name = "Kallipoli" }
+			858 = { change_province_name = "San Sarantea"}
+			828 = { change_province_name = "Adrianopolis"
+			state_scope = {
+					change_region_name = "Western Thrace"
+				}
+			}
+			830 = { change_province_name = "Alexandropolis" }
+			3691 = { change_province_name = "Breierofara" }
+			829 = { change_province_name = "Xantea" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	latin_rename_macedonia = {
+		picture = gtfo
+		potential = {
+			tag = BYZ
+			owns = 805
+			owns = 829
+			NOT = { has_global_flag = latin_rename_macedonia }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = latin_rename_macedonia
+			prestige = 2
+			805 = { change_province_name = "Tessalonika"}
+			3655 = { change_province_name = "Ato" }
+			822 = { change_province_name = "Polighiru"}
+			821 = { change_province_name = "Caterina" }
+			830 = { change_province_name = "Alexandropolis" }
+			3477 = { change_province_name = "Kilke" }
+			3495 = { change_province_name = "Platamone" }
+			806 = { change_province_name = "Skopia" }
+			823 = { change_province_name = "Serre" }
+			808 = { change_province_name = "Skaptopara" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	latin_rename_greece = {
+		picture = gtfo
+		potential = {
+			tag = BYZ
+			owns = 834
+			NOT = { has_global_flag = latin_rename_greece }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = latin_rename_greece
+			prestige = 2
+			834 = { change_province_name = "Athene"}
+			835 = { change_province_name = "Thebe" }
+			840 = { change_province_name = "Korintu"}
+			842 = { change_province_name = "Patra" }
+			839 = { change_province_name = "Sparta" }
+			838 = { change_province_name = "Kalci" }
+			833 = { change_province_name = "Tricca" }
+			832 = { change_province_name = "Volo" }
+			824 = { change_province_name = "Iannina" }
+			808 = { change_province_name = "Skaptopara" }
+			845 = { change_province_name = "Cikladi" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	latin_rename_albania = {
+		picture = gtfo
+		potential = {
+			tag = BYZ
+			owns = 851
+			NOT = { has_global_flag = latin_rename_albania }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = latin_rename_albania
+			prestige = 2
+			852 = { change_province_name = "Pukeriopolis"}
+			851 = { change_province_name = "Kroja" }
+			850 = { change_province_name = "Alexio" }
+			3656 = { change_province_name = "Djrrakio" }
+			
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	latin_rename_rumelia = {
+		picture = gtfo
+		potential = {
+			tag = BYZ
+			owns = 851
+			NOT = { has_global_flag = latin_rename_rumelia }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = latin_rename_rumelia
+			prestige = 2
+			815 = {
+				change_province_name = "Karsala" 
+				state_scope = {
+					change_region_name = "Northern Thrace"
+				}
+			}
+			816 = { change_province_name = "Vero" }
+			817 = { change_province_name = "Firgo" }
+			809 = { change_province_name = "Serdonopolis" }
+			814 = { change_province_name = "Odexo" }
+			3484 = { change_province_name = "Filippopolis" }
+			3482 = { change_province_name = "Serra" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

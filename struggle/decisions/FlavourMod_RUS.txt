@@ -1,0 +1,271 @@
+political_decisions = {
+	
+
+	build_the_warsaw_vienna_railway = { #Warsaw-Vienna Railway
+		picture = warsaw_vienna_railway
+		potential = {
+			OR = {
+				tag = RUT
+				primary_culture = polish
+			}
+			early_railroad = 1
+			NOT = { has_global_flag = build_the_wvr }
+		}
+		allow = {
+			money = 15000
+			OR = { 
+				early_railroad = 1
+				year = 1845
+			}
+			owns = 706
+			owns = 713
+			owns = 716
+		}
+		effect = {
+			set_global_flag = build_the_wvr
+			treasury = -15000
+			706 = { infrastructure = 2 }
+			713 = { infrastructure = 2 }
+			716 = { infrastructure = 2 }
+			703 = { infrastructure = 1 }
+			2584 = { infrastructure = 1 }
+			689 = { infrastructure = 1 }
+			631 = { infrastructure = 1 }
+			619 = { infrastructure = 1 }
+			random_owned = { limit = { owner = { ai = yes } } owner = { activate_technology = early_railroad } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	build_the_st_petersburg_moscow_railway = { #Saint Petersburg–Moscow Railway
+		picture = whistlestop_tour
+		potential = {
+			tag = RUT
+			early_railroad = 1
+			NOT = { has_country_flag = build_the_smr }
+		}
+		allow = {
+			money = 30000
+			OR = { 
+				early_railroad = 1
+				year = 1842
+			}
+			owns = 994
+			owns = 1008
+			owns = 1003
+		}
+		effect = {
+			set_country_flag = build_the_smr
+			treasury = -30000
+			994 = { infrastructure = 2 }
+			1003 = { infrastructure = 2 }
+			1005 = { infrastructure = 2 }
+			1000 = { infrastructure = 2 }
+			1009 = { infrastructure = 2 }
+			998 = { infrastructure = 2 }
+			1008 = { infrastructure = 2 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	abolish_volga_region = {
+		picture = russify_baltic_states
+		potential = {
+			tag = RUT
+			war_exhaustion = 20
+			great_wars_enabled = yes
+			has_country_flag = russification_of_the_baltic_states
+			owns = 1037
+			OR = {
+				war_with = GER
+				war_with = GCF
+			}
+			NOT = { has_country_flag = abolish_volga_region }
+		}
+		allow = {
+			owns = 1037
+			war = yes
+		}
+		effect = {
+			set_country_flag = abolish_volga_region
+			VLG = { all_core = { remove_core = VLG } }
+			war_exhaustion = -5
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	establish_panslavism_rus = {
+	picture = pan_slavism
+		potential = {
+			tag = RUT
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			owns = 706
+			owns = 711
+			owns = 958
+			owns = 718
+			NOT = { has_global_flag = establish_panslavism }
+		}
+		
+		allow = {
+			ruling_party_ideology = reactionary
+			war_policy = jingoism
+			NOT = { citizens_rights = primary_culture_only }
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_global_flag = establish_panslavism
+			any_country = {
+				limit = {
+					is_culture_group = south_slavic
+				}	
+				relation = {
+					who = THIS
+					value = 100
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						is_culture_group = east_slavic
+						is_culture_group = south_slavic
+						is_culture_group = czecho_slovak_culture_group
+					}
+				}
+				militancy = -2
+				consciousness = -2
+			}
+			prestige = 10
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	
+
+	
+	integrate_svaneti = {
+		picture = integrate_abkhazia
+		potential = {
+			tag = RUT
+			NOT = { has_country_flag = integrate_svaneti }
+			owns = 1051
+			owns = 1049
+			owns = 1056
+			OR = {
+				SVA = {
+					exists = yes
+					OR = {
+						vassal_of = THIS
+						substate_of = THIS
+					}
+				}
+				owns = 1095
+			}
+			OR = {
+				has_global_flag = crimea_has_happened
+				year = 1870
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				revolution_n_counterrevolution = 1
+				great_wars_enabled = yes
+				has_global_flag = 2nd_caucasian_war
+			}
+		}
+		
+		effect = {
+			badboy = 0.5
+			set_country_flag = integrate_svaneti
+			random_country = {
+				limit = {
+					tag = SVA
+					exists = yes
+					TCA = { exists = yes vassal_of = RUT }
+				}
+				all_core = { add_core = TCA }
+				annex_to = TCA
+			}
+			random_country = {
+				limit = {
+					tag = SVA
+					exists = yes
+					TCA = { exists = no }
+				}
+				all_core = { add_core = RUT }
+				annex_to = RUT
+			}
+			SVA = { all_core = { remove_core = SVA } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+		
+	integrate_mingrelia = {
+		picture = niko_dadiani
+		
+		potential = {
+			tag = RUT
+			NOT = { has_country_flag = integrate_mingrelia }
+			owns = 1051
+			owns = 1049
+			owns = 1056
+			OR = {
+				MIG = {
+					exists = yes
+					OR = {
+						vassal_of = THIS
+						substate_of = THIS
+					}
+				}
+				owns = 1095
+			}
+			OR = {
+				has_global_flag = crimea_has_happened
+				year = 1870
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				revolution_n_counterrevolution = 1
+				great_wars_enabled = yes
+				has_global_flag = 2nd_caucasian_war
+			}
+		}
+		
+		effect = {
+			badboy = 0.5
+			set_country_flag = integrate_mingrelia
+			random_country = {
+				limit = {
+					tag = MIG
+					exists = yes
+					TCA = { exists = yes vassal_of = RUT }
+				}
+				all_core = { add_core = TCA }
+				annex_to = TCA
+			}
+			random_country = {
+				limit = {
+					tag = MIG
+					exists = yes
+					TCA = { exists = no }
+				}
+				all_core = { add_core = RUT }
+				annex_to = RUT
+			}
+			MIG = { all_core = { remove_core = MIG } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+}

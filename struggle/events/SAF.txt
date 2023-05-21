@@ -1,0 +1,739 @@
+country_event = {
+	id = 6000
+	title = "EVTNAME6000" #Frontiers lost
+	desc = "EVTDESC6000"
+	picture = "walvis"
+	
+	trigger = {
+		is_greater_power = no
+		is_secondary_power = no
+		has_country_modifier = opened_frontiers
+		NOT = {
+			AND = {
+				owns = 2111
+				owns = 2106
+				owns = 2101
+				owns = 2087
+				owns = 2098
+				owns = 2088
+			}
+		}	
+		NOT = { has_country_flag = frontiers_lost }
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT6000OPTA"
+		prestige = -15
+		set_country_flag = frontiers_lost
+		SAF = { remove_country_modifier = opened_frontiers }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 6001
+	title = "EVTNAME6001" #Rename the Mozambican Provinces
+	desc = "EVTDESC6001"
+	picture = "cape_map"
+	
+	trigger = {
+		AND = {
+			primary_culture = boer
+			owns = 2049
+			owns = 2050
+			owns = 2051
+			owns = 2052
+		}
+		NOT = { has_country_flag = rename_mozambican_provinces_boer }
+	}
+
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT6001OPTA"
+		set_country_flag = rename_mozambican_provinces_boer
+		2049 = { change_province_name = "Lourenço Marques" add_core = THIS }
+		2050 = { change_province_name = "João Belo" add_core = THIS }
+		2051 = { change_province_name = "Inhambane" add_core = THIS }
+		2052 = { change_province_name = "Malvérnia" add_core = THIS }
+		2049 = { state_scope = { change_region_name = "Lourenço Marques"} }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT6001OPTB"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+
+
+
+country_event = {
+	id = 6008
+	title = "EVTNAME6008" #Mineral Revolution
+	desc = "EVTDESC6008"
+	picture = "south_africa_gold_miners"
+	
+	trigger = {
+		owns = 2094
+		owns = 2095
+		owns = 2101
+		owns = 2106
+		civilized = yes
+		year = 1880
+		THIS = { capital_scope = { continent = africa } }
+		NOT = { has_country_flag = mineral_revolution }
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT6008OPTA"
+		set_country_flag = mineral_revolution
+		add_country_modifier = { 
+			name = mineral_revolution
+			duration = 1825
+		}
+		any_pop = {
+			limit = {
+				culture = boer
+			}
+			scaled_consciousness = {
+				factor = 1
+			}
+			scaled_militancy = {
+				factor = 1
+			}
+		}
+		set_country_flag = mineral_revolution_happened
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+
+country_event = {
+	
+	id = 6013
+	title = "EVTNAME6013"
+	desc = "EVTDESC6013"
+	picture = "cape_map"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT6013OPTA"
+		capital = 2087
+		2087 = { 
+			life_rating = 5 
+			add_province_modifier = {
+				name = recently_built_city
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT6013OPTB"
+		capital = 2101
+		2101 = { 
+			life_rating = 5 
+			add_province_modifier = {
+				name = recently_built_city
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT6013OPTC"
+		capital = 2111
+		2111 = { 
+			life_rating = 5 
+			add_province_modifier = {
+				name = recently_built_city
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT6013OPTD"
+		capital = 2105
+		2105 = { 
+			life_rating = 5 
+			add_province_modifier = {
+				name = recently_built_city
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT6013OPTE"
+		capital = 2106
+		2106 = { 
+			life_rating = 5 
+			add_province_modifier = {
+				name = recently_built_city
+				duration = 365
+			}	
+		}
+	}
+}
+	
+
+
+
+
+
+
+#country_event = {
+#	id = 6018
+#	title = "EVTNAME6018" #transvaal life rating
+#	desc = "EVTDESC6018"
+#	picture = vaal_painting
+#		
+#	trigger = {
+#		AND = {
+#			owns = 2105
+#			owns = 2106
+#			owns = 2107
+#			owns = 2108
+#			owns = 2109
+#			owns = 2110
+#		}
+#		2105 = { NOT = { life_rating = 34 } }
+#		NOT = { has_country_flag = { transvaal_rating } }
+#		OR = {
+#			AND = { 
+#				tag = SAF
+#				is_secondary_power = yes
+#			}
+#			AND = { 
+#				tag = VLK
+#				is_secondary_power = yes
+#			}				
+#			AND = { 
+#				tag = TRN
+#				is_vassal = no
+#				is_secondary_power = yes
+#			}
+#		}
+#		war = no
+#		compound_steam_engines = 1
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#		
+#	option = {
+#		name = "EVT6018OPTA"
+#		random_owned = {
+#			limit = { owner = { NOT = { has_global_flag = transvaal_rating } } }
+#			2105 = { life_rating = 20 }
+#			2106 = { life_rating = 20 }
+#			2107 = { life_rating = 15 }
+#			2108 = { life_rating = 15 }
+#			2109 = { life_rating = 20 }
+#			2110 = { life_rating = 15 }
+#			owner = { set_global_flag = transvaal_rating  }
+#		}
+#		money = -25000
+#	}
+#}
+
+
+#################################################################
+#																#
+#      	     		Zoutpansberg Setup							#
+#																#
+#################################################################
+
+
+
+
+
+country_event = {
+	id = 6027
+	title = "EVTNAME6027" #Border Raids Suazi
+	desc = "EVTDESC6027"
+	picture = xhosa_bushfighting
+	
+	trigger = {
+		civilized = yes
+		year = 1840
+		neighbour = SUA
+		NOT = { 
+			SUA = { civilization_progress = 0.5 } 
+			relation = {
+				who = SUA
+				value = 150
+			}
+			war_with = SUA
+			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+		}
+		NOT = { has_country_flag = border_raid_suazi }
+	}
+	
+	mean_time_to_happen = {	months = 60 }
+		
+	option = {
+		name = "EVT6027OPTA"
+		casus_belli = {
+			target = SUA
+			type = establish_protectorate_casus_belli
+			months = 12
+		}
+		badboy = 3
+		small_arms = -5
+		canned_food = -10
+		money = -300
+		set_country_flag = border_raid_suazi
+		
+		ai_chance = { factor = 30 }
+	}
+	option = {
+		name = "EVT6027OPTB"
+		prestige = -1
+		small_arms = -5
+		canned_food = -10
+		money = -300
+		set_country_flag = border_raid_suazi
+		ai_chance = { factor = 70 }
+	}
+}
+
+country_event = {
+	id = 6028
+	title = "EVTNAME6027" #Border Raids Zulu
+	desc = "EVTDESC6027"
+	picture = xhosa_bushfighting
+	
+	trigger = {
+		civilized = yes
+		year = 1840
+		neighbour = ZUL
+		NOT = { 
+			ZUL = { civilization_progress = 0.5 } 
+			relation = {
+				who = ZUL
+				value = 150
+			}
+			war_with = ZUL
+			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+		}
+		NOT = { has_country_flag = border_raid_zulu }
+	}
+	
+	mean_time_to_happen = {	months = 60 }
+		
+	option = {
+		name = "EVT6027OPTA"
+		set_country_flag = border_raid_zulu
+		casus_belli = {
+			target = ZUL
+			type = establish_protectorate_casus_belli
+			months = 12
+		}
+		badboy = 3
+		small_arms = -5
+		canned_food = -10
+		money = -500
+		
+		ai_chance = { factor = 30 }
+	}
+	option = {
+		name = "EVT6027OPTB"
+		set_country_flag = border_raid_zulu
+		prestige = -1
+		small_arms = -5
+		canned_food = -10
+		money = -500
+		ai_chance = { factor = 70 }
+	}
+}
+
+country_event = {
+	id = 6030
+	title = "EVTNAME6027" #Border Raids BSH
+	desc = "EVTDESC6027"
+	picture = xhosa_bushfighting
+	
+	trigger = {
+		civilized = yes
+		year = 1840
+		neighbour = BSH
+		NOT = { 
+			BSH = { civilization_progress = 0.5 } 
+			relation = {
+				who = BSH
+				value = 150
+			}
+			war_with = BSH
+			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+		}
+		NOT = { has_country_flag = border_raid_bsh }
+	}
+	
+	mean_time_to_happen = {	months = 60 }
+		
+	option = {
+		name = "EVT6027OPTA"
+		set_country_flag = border_raid_bsh
+		casus_belli = {
+			target = BSH
+			type = establish_protectorate_casus_belli
+			months = 12
+		}
+		badboy = 3
+		small_arms = -5
+		canned_food = -10
+		money = -500
+		
+		ai_chance = { factor = 30 }
+	}
+	option = {
+		name = "EVT6027OPTB"
+		prestige = -1
+		small_arms = -5
+		canned_food = -10
+		money = -500
+		ai_chance = { factor = 70 }
+	}
+}
+
+#################################################################
+#																#
+#     	Oranje 1889 railroad construction by Cape				#
+#																#
+#################################################################
+
+country_event = {
+	id = 6050
+	title = "EVTNAME6050" #Cape to Bloemfontein Railroad
+	desc = "EVTDESC6050"
+	picture = "exemplar_colony"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ORA
+		year = 1889
+		
+		war = no
+		2101 = { #Oranje owns Bloemfontein
+			owned_by = THIS 
+		}
+		
+		OR = {
+			 #Kimberley
+			ORA = { owns = 2094 } #Kimberley
+		}
+		NOT = { has_country_flag = cape_to_bloemfontein_railroad }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVT6050OPTA"
+		set_country_flag = cape_to_bloemfontein_railroad
+		any_owned = {
+			limit = {
+				province_id = 2101
+			}
+			infrastructure = 1
+		}
+		any_owned = {
+			limit = {
+				province_id = 2094
+			}
+			infrastructure = 1
+		}
+		
+		
+	}
+}
+
+#################################################################
+#																#
+#      	      Portugal Port Access for ZAR						#
+#																#
+#################################################################
+
+
+#################################################################
+#																#
+#      	      UK Cape Access for Oranje							#
+#																#
+#################################################################
+
+#################################################################
+#																#
+#      	      Diamonds Discovered in Transvaal					#
+#																#
+#################################################################
+country_event = {
+	id = 6042
+	title = "EVTNAME6042"
+	desc = "EVTDESC6042"
+	picture = "diamonds_in_kimberley"
+
+    trigger = {
+		year = 1836
+		NOT = { year = 1910 }
+		owns = 2107 # Klerksdorp 
+		2107 = {
+			NOT = { trade_goods = precious_goods }
+		}
+		NOT = { has_country_flag = diamonds_in_kimberley }
+	}
+
+	mean_time_to_happen =  {
+		days = 8
+
+	}
+	
+	option = {
+		name = "EVT6042OPTA"
+		set_country_flag = diamonds_in_kimberley
+		2107 = { 
+			trade_goods = precious_goods
+			add_province_modifier = {
+				name = diamonds_are_boer
+				duration = 3650
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 6043
+	title = "EVTNAME6043"
+	desc = "EVTDESC6043"
+	picture = "south_africa_gold_miners"
+
+    trigger = {
+		year = 1870
+		NOT = { year = 1910 }
+		owns = 2108 # Nylstroom
+		2108 = {
+			NOT = { trade_goods = precious_goods }
+		}
+		NOT = { has_country_flag = diamonds_are_boer }
+	}
+
+	mean_time_to_happen =  {
+		months = 8
+
+	}
+	
+	option = {
+		name = "EVT6043OPTA"
+		set_country_flag = diamonds_are_boer
+		2108 = { 
+			trade_goods = precious_goods
+			add_province_modifier = {
+				name = diamonds_are_boer
+				duration = 3650
+			}
+		}
+	}
+}
+#################################################################
+#																#
+#      	     		 Transvaal Bankruptcy						#
+#																#
+#################################################################
+
+#################################################################
+#																#
+#      	     			 First Boer War							#
+#																#
+#################################################################
+
+#################################################################
+#																#
+#      	     			 Jameson Raid							#
+#																#
+#################################################################
+country_event = {
+	id = 6051
+	title = "EVTNAME6051" #Jameson Raid
+	desc = "EVTDESC6051"
+	picture = "schoeman_rifles"
+
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = SAF
+			tag = VLK
+			tag = ORA
+		}
+		year = 1895
+		war = no
+		is_vassal = no
+		2106 = { #ZAR, VLK, or ORA owns Witwatersrand
+			owned_by = THIS 
+		}
+		2106 = { trade_goods = precious_metal } #Witwatersrand
+		
+		2087 = { #UK owns Cape Town
+			owned_by = SCA
+		}
+		is_greater_power = no
+		NOT = { has_country_flag = jameson_raid }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVT6051OPTA" #Turn over Jameson and his men to the UK
+		SAF = {
+			set_country_flag = jameson_raid
+		}
+		any_pop = {
+			limit = { has_pop_culture = boer }
+			militancy = -1
+			dominant_issue = {
+				factor = 0.25
+				value = jingoism
+			}
+		}
+		relation = {
+			who = SCA
+			value = -75
+		}
+		SCA = {
+			diplomatic_influence = {
+				who = THIS
+				value = -25
+			}
+		}
+		GER = { 
+			limit = { #conditions for not sending telegram
+				is_greater_power = yes
+				exists = yes
+				NOT = {
+					alliance_with = ENG	
+					truce_with = ENG
+					war_policy = pacifism
+				}
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+			country_event = 6052 #Kruger telegram
+		}
+		GCF = { 
+			limit = { #conditions for not sending telegram
+				is_greater_power = yes
+				exists = yes
+				NOT = {
+					alliance_with = ENG	
+					truce_with = ENG
+					war_policy = pacifism
+				}
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+			country_event = 6052 #Kruger telegram
+		}
+			
+		ai_chance = {
+			factor = 85
+		}
+	}
+	
+	option = {
+		name = "EVT6051OPTB" #Execute them all, blame the UK
+		SCA = {
+			set_country_flag = jameson_raid
+		}
+		any_pop = {
+			limit = { has_pop_culture = boer }
+			militancy = -1
+			dominant_issue = {
+				factor = 0.33
+				value = jingoism
+			}
+		}
+		relation = {
+			who = SCA
+			value = -200
+		}
+		SCA = {
+			diplomatic_influence = {
+				who = THIS
+				value = -75
+			}
+		}
+		GER = { 
+			limit = { #conditions for not sending telegram
+				exists = yes
+				is_greater_power = yes
+				NOT = {
+					alliance_with = ENG	
+					truce_with = ENG
+					war_policy = pacifism
+				}
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+			country_event = 6052 #Kruger telegram
+		}
+		GCF = { 
+			limit = { #conditions for not sending telegram
+				exists = yes
+				is_greater_power = yes
+				NOT = {
+					alliance_with = ENG	
+					truce_with = ENG
+					war_policy = pacifism
+				}
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+			country_event = 6052 #Kruger telegram
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+
+

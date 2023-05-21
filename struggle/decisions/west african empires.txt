@@ -1,0 +1,54 @@
+political_decisions = { 
+centralize_agisymban = {
+potential = { 
+        tag = KBO
+		NOT = { has_country_flag = centralize_agisymban }
+		
+		}
+		
+		allow = {
+		SOK = { all_core = { owned_by = THIS } }
+		MOS = { all_core = { owned_by = THIS } }
+		war = no
+		civilized = yes
+		}
+		
+		effect = {
+		set_country_flag = centralize_agisymban
+		inherit = SOK
+		inherit = MOS
+		prestige = 10
+		SOK = { all_core = { add_core = THIS } }
+		MOS = { all_core = { add_core = THIS } }
+		}
+		
+	}
+	
+	centralize_songai = {
+potential = { 
+        tag = MAS
+		NOT = { has_country_flag = centralize_songai }
+		
+		}
+		
+		allow = {
+		SEG = { all_core = { owned_by = THIS } }
+		GBU = { all_core = { owned_by = THIS } }
+		war = no
+		civilized = yes
+		}
+		
+		effect = {
+		set_country_flag = centralize_songai
+		inherit = SEG
+		inherit = GBU
+		prestige = 10
+		SEG = { all_core = { add_core = THIS } }
+		GBU = { all_core = { add_core = THIS } }
+		}
+		
+	}
+	
+	
+	
+}

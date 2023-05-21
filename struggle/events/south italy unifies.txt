@@ -1,0 +1,933 @@
+#UNIFICATION
+country_event = {
+	id = 72669
+	title = "EVTNAME72669"
+	desc = "EVTDESC72669"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA72669"
+
+		THIS = {
+			any_owned = {
+				secede_province = FRC
+			}
+		}
+	}
+}
+
+### Mezzogiorno VS Carthage ###
+## Leadup to the Meeting ##
+country_event = {
+id = 29989
+	title = "EVTNAME29991" #The Empire strikes back
+	desc = "EVTDESC29991" #Carthage. Once the enemy of Rome, it became what it was supposed to destroy, and now, beaten back by the Visigoths, look with weary eyes to the east, to us! It is time to unite with our brothers so that we can defeat this wretched contortion of the once mighty Roman Empire.
+	picture = "mezzogiorno"
+	fire_only_once = yes
+
+	trigger = {
+		tag = AVR
+		NOT = { has_country_flag = the_long_wait }
+		year = 1838
+	}
+		
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+	name = "EVTOPTA29991" #We wait...
+		prestige = 5
+		THIS = {
+		create_alliance = CSZ
+		create_alliance = MEL
+		create_alliance = AVR
+		}
+		AVR = { country_event = 29992 }
+		set_country_flag = the_long_wait
+	}
+}
+country_event = {
+id = 29990
+	title = "EVTNAME29991" #The Empire strikes back
+	desc = "EVTDESC29991" #Carthage. Once the enemy of Rome, it became what it was supposed to destroy, and now, beaten back by the Visigoths, look with weary eyes to the east, to us! It is time to unite with our brothers so that we can defeat this wretched contortion of the once mighty Roman Empire.
+	picture = "mezzogiorno"
+	fire_only_once = yes
+
+	trigger = {
+		tag = MEL
+		NOT = { has_country_flag = the_long_wait }
+		year = 1838
+	}
+		
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+	name = "EVTOPTA29991" #We wait...
+		prestige = 5
+		MEL = { country_event = 29992 }
+		set_country_flag = the_long_wait
+	}
+}
+country_event = {
+id = 29991
+	title = "EVTNAME29991" #The Empire strikes back
+	desc = "EVTDESC29991" #Carthage. Once the enemy of Rome, it became what it was supposed to destroy, and now, beaten back by the Visigoths, look with weary eyes to the east, to us! It is time to unite with our brothers so that we can defeat this wretched contortion of the once mighty Roman Empire.
+	picture = "mezzogiorno"
+	fire_only_once = yes
+
+	trigger = {
+		tag = CSZ
+		NOT = { has_country_flag = the_long_wait }
+		year = 1838
+	}
+		
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+	name = "EVTOPTA29991" #We wait...
+		prestige = 5
+		CSZ = { country_event = 29992 }
+		set_country_flag = the_long_wait
+	}
+}
+
+## The Meeting Itself ##
+country_event = {
+	id = 29992
+	title = "EVTNAME29992" #The Meeting
+	desc = "EVTDESC29992" #Our 3 leaders decided to meet in Castrovillari to decide who will be in charge of this union. The ruler of Amalfi, Duke Alfredo II, says an union between the 3 states should be like any normal alliance. On the other hand the ruler of Melfi, Duke Riccardo the IV, says that it would be best to reunite the old kingdom under an union of kingdoms. But the Grand Master Pantaleone IX of Cosenza says that it would be best to unite the Meridione into a centralized kingdom strong enough to defeat the Punics. A council will be set up and they will decide what idea is the best one.
+	picture = "orazi"
+	fire_only_once = yes
+	trigger = {
+ NOT = { ai = yes }	
+	OR = {
+	tag = CSZ
+	tag = AVR
+	tag = MEL
+	
+	}
+	has_country_flag = the_long_wait
+	
+	}
+	
+	mean_time_to_happen = { days = 30 }
+		option = {
+			name = "EVTOPTA29992" #Amalfi's idea sounds simple.
+			AVR = { prestige = 10 }
+			set_global_flag = aversa_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+	
+		option = {
+			name = "EVTOPTB29992" #Melfi is right!
+			MEL = { prestige = 10 }
+			set_global_flag = melfi_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+	
+		option = {
+			name = "EVTOPTC29992" #Yes, I do believe Cosenza's decision will benefit us more.
+			CSZ = { prestige = 10 }
+			set_global_flag = cosenza_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+}
+
+## The Meeting Itself for ai ##
+country_event = {
+	id = 27702004
+	title = "EVTNAME29992" #The Meeting
+	desc = "EVTDESC29992" #Our 3 leaders decided to meet in Castrovillari to decide who will be in charge of this union. The ruler of Amalfi, Duke Alfredo II, says an union between the 3 states should be like any normal alliance. On the other hand the ruler of Melfi, Duke Riccardo the IV, says that it would be best to reunite the old kingdom under an union of kingdoms. But the Grand Master Pantaleone IX of Cosenza says that it would be best to unite the Meridione into a centralized kingdom strong enough to defeat the Punics. A council will be set up and they will decide what idea is the best one.
+	picture = "orazi"
+	
+	fire_only_once = yes
+	trigger = { 
+	
+	OR = {
+	tag = CSZ
+	tag = AVR
+	tag = MEL
+	AND = { ai = yes }
+	}
+	has_country_flag = the_long_wait
+	
+	}
+	
+	mean_time_to_happen = { days = 30 }
+		option = {
+			name = "EVTOPTA29992" #Amalfi's idea sounds simple.
+			AVR = { prestige = 10 }
+			set_global_flag = aversa_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+	
+		option = {
+			name = "EVTOPTB29992" #Melfi is right!
+			MEL = { prestige = 10 }
+			set_global_flag = melfi_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+	
+		option = {
+			name = "EVTOPTC29992" #Yes, I do believe Cosenza's decision will benefit us more.
+			CSZ = { prestige = 10 }
+			set_global_flag = cosenza_is_right
+		ai_chance = {
+			factor = 33
+		}
+	}
+}
+
+## The Aftermath of the Meeting ##
+country_event = {
+	id = 29993
+	title = "EVTNAME29993" #Aversa's Proposal Succeeds
+	desc = "EVTDESC29993" #My Duke, Your proposal of a loose alliance has been voted to the top.
+	picture = "vespers"
+    fire_only_once = yes
+	
+		trigger = {
+		has_global_flag = aversa_is_right
+			tag = AVR
+			year = 1838
+			NOT = { has_global_flag = aversa_proposal_succeeds }
+			NOT = { has_global_flag = melfi_proposal_succeeds }
+			NOT = { has_global_flag = cosenza_proposal_succeeds }
+			prestige = 15
+		}
+		
+		mean_time_to_happen = { days = 4 }
+
+		option = {
+		name = "EVTOPTA29993" #May this lead us into prosperity.
+		THIS = {
+			create_alliance = CSZ
+			create_alliance = MEL
+			create_alliance = AVR
+		}
+		set_global_flag = aversa_proposal_succeeds
+		set_global_flag = no_sicily
+	}
+}
+
+country_event = {
+	id = 29994
+	title = "EVTNAME29994" #Melfi's Proposal Succeeds
+	desc = "EVTDESC29994" #TBD
+	picture = "vespers"
+    fire_only_once = yes
+	
+		trigger = {
+		has_global_flag = melfi_is_right
+			tag = MEL
+			year = 1838
+			OR = {
+			NOT = { has_global_flag = melfi_proposal_succeeds }
+			NOT = { has_global_flag = cosenza_proposal_succeeds }
+			NOT = { has_global_flag = no_sicily }
+			}
+			prestige = 15
+		}
+		
+		mean_time_to_happen = { days = 9 }
+
+		option = {
+		name = "EVTOPTA29994" #We shall rule benevolently.
+		set_global_flag = melfi_proposal_succeeds
+		set_country_flag = melfis_dream_to_be
+		inherit = AVR
+		inherit = CSZ
+		change_tag = SIC
+		CSZ = { all_core = { add_core = SIC } }
+		AVR = { all_core = { add_core = SIC } }
+		MEL = { all_core = { add_core = SIC } }
+		THIS = { 
+		    any_owned = {
+		              limit = { 
+					  OR = {  
+		          AND = { culture = south_italian }
+		                  is_core = ITA } 
+						                   }
+		       add_core = SIC
+		           }
+		       }
+		TUN = {
+		any_owned = {
+		limit = { is_core = ITA }
+		add_core = SIC
+		          }
+		}
+		government = hms_goverment 
+	}
+}
+
+country_event = {
+	id = 29995
+	title = "EVTNAME29995" #Cosenza's Proposal Succeeds
+	desc = "EVTDESC29995" #TBD
+	picture = "vespers"
+    fire_only_once = yes
+	
+		trigger = {
+		has_global_flag = cosenza_is_right
+			tag = CSZ
+			year = 1838
+			OR = {
+			NOT = { has_global_flag = cosenza_proposal_succeeds }
+			NOT = { has_global_flag = melfi_proposal_succeeds }
+			NOT = { has_global_flag = no_sicily }
+			}
+			prestige = 15
+		}
+		
+		mean_time_to_happen = { days = 6 }
+
+		option = {
+		name = "EVTOPTA29995" #We shall rule benevolently.
+		set_global_flag = cosenza_proposal_succeeds
+		set_country_flag = cosenzas_dream_to_be
+		government = absolute_monarchy 
+		inherit = AVR 
+		CSZ = { all_core = { add_core = SIC } }
+		AVR = { all_core = { add_core = SIC } }
+		MEL = { all_core = { add_core = SIC } }
+		THIS = { any_owned = {
+		 limit = { is_core = ITA }
+		 add_core = SIC
+		           }
+		       }
+		change_tag = SIC
+		TUN = {
+		any_owned = {
+		limit = { is_core = ITA }
+		add_core = SIC
+		          }
+		}
+		inherit = MEL
+	}
+}
+
+# Five days of Palermo
+country_event = {
+	id = 299990
+	title = "EVTNAME299990" 
+	desc = "EVTDESC299990"
+	picture = "cinque_giornate"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = TUN
+		owns = 762
+		exists = SIC
+		NOT = {
+			has_global_flag = five_days_of_milan_occurred
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	immediate = {
+		set_global_flag = five_days_of_palermo_occurred
+		SYC = { government = democracy }
+		762 = { secede_province = SYC }
+		relation = { who = SYC value = -100 }
+		prestige = -15
+	}
+
+	option = {
+		name = "EVTOPTA299990"
+		war = {
+			target = SYC
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = become_independent
+							  casus_belli = acquire_all_cores}
+		}
+		define_general = {
+			name = "Ioseph Glorius Mago"
+			personality = brilliant
+			background = old_school
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+
+	option = {
+		name = "EVTOPTB299990"
+		set_country_flag = africa_let_palermo_go
+		prestige = -25
+		casus_belli = {
+			target = SYC
+			type = conquest
+			months = 60
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+				location = { is_core = ITA }
+			}
+			militancy = 1
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = visigothic
+				location = { is_core = IBR }
+			}
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				any_greater_power = { war_with = THIS }
+			}
+		}
+	}
+}
+
+# Sicilian intervention
+country_event = {
+	id = 299991
+	title = "EVTNAME299991" 
+	desc = "EVTDESC299991"
+	picture = "cinque_giornate"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = SIC
+		has_global_flag = five_days_of_palermo_occurred
+		NOT = { has_country_flag = first_war_of_italian_independence_intervention }
+		NOT = { has_country_flag = first_war_of_italian_independence_refused }
+		NOT = { has_global_flag = first_war_of_italian_independence_lost }
+		NOT = { has_global_flag = first_war_of_italian_independence_won }
+		TUN = { war_with = SYC }
+		TUN = { war_with = SRD }
+		exists = SYC
+		exists = SRD
+		SYC = { owns = 762 }
+		NOT = { truce_with = TUN }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA299991"
+		set_country_flag = first_war_of_italian_independence_intervention
+		TUN = { country_event = 299992 }
+		military_access = SYC	
+		create_alliance = SYC
+		create_vassal = SYC
+		military_access = SRD
+		create_alliance = SRD
+		add_country_modifier = {
+			name = italico_valore
+			duration = 365
+			}
+		prestige = 20
+		any_pop = {
+			limit = { is_culture_group = italian }
+			militancy = -4
+			consciousness = -1
+		}
+		war = {
+			target = TUN
+			attacker_goal = {
+					casus_belli = unification_casus_belli 
+					state_province_id = 759}
+			defender_goal = {
+					casus_belli = acquire_state 
+					state_province_id = 3594
+				}
+		}
+		define_general = {
+				name = "Aureliano 'u Paladinu' di Fagnano"
+				personality = chivalrous
+				background = school_of_the_bayonet
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0.5
+				war_exhaustion = 5
+			}
+			modifier = {
+				factor = 0.1
+				war_exhaustion = 10
+			}
+			modifier = {
+				factor = 0
+				war_exhaustion = 15
+			}
+			modifier = {
+				factor = 1.3
+				manpower = 30
+			}
+			modifier = {
+				factor = 1.1
+				war_policy = pro_military
+			}
+			modifier = {
+				factor = 1.2
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 1.3
+				alliance_with = LOM
+			}
+			modifier = {
+				factor = 1.3
+				alliance_with = PAP
+			}
+			modifier = {
+				factor = 1.3
+				alliance_with = TLD
+			}
+			modifier = {
+				factor = 1.3
+				alliance_with = OCC
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB299991"
+		set_country_flag = first_war_of_italian_independence_refused
+		prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = north_italian }
+			militancy = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = south_italian }
+			militancy = 2
+		}
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Message to Africa
+country_event = {
+	id = 299992
+	title = "EVTNAME299992" 
+	desc = "EVTDESC299992"
+	picture = "cinque_giornate"
+	major = yes
+
+	immediate = {
+		casus_belli = {
+			target = SIC
+			type = acquire_state
+			months = 12
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA299992"
+		any_country = {
+			limit = {
+				alliance_with = THIS
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = 100
+			}
+		}
+		SIC = {
+			war = {
+				target = TUN
+				attacker_goal = {
+					add_casus_belli = unification_casus_belli 
+					state_province_id = 763
+				}
+				defender_goal = {
+					add_casus_belli = war_reparations
+				}
+				call_ally = no
+			}
+		}
+	}
+}
+
+# Palermo occupied by Africa
+country_event = {
+	id = 299993
+	title = "EVTNAME299993" 
+	desc = "EVTDESC299993"
+	picture = "italian_war_of_independence_lost"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = SIC
+		has_country_flag = first_war_of_italian_independence_intervention
+		NOT = { owns = 759 }
+		NOT = { year = 1851 }
+		owns = 762 
+		NOT = { SIC = { controls = 762 } }
+		TUN = { war_with = THIS }
+		OR = {
+			NOT = { has_global_flag  = first_war_of_italian_independence_lost }
+			NOT = { has_global_flag  = first_war_of_italian_independence_won }
+			NOT = { has_country_flag = first_war_of_italian_independence_refused }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA299993"
+		set_global_flag = first_war_of_italian_independence_lost
+		clr_country_flag = first_war_of_italian_independence_intervention
+		prestige = -10
+		TUN = { country_event = 299994 }
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "EVTOPTB299993"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# An honourful agreement
+country_event = {
+	id = 299994
+	title = "EVTNAME299994" 
+	desc = "EVTDESC299994"
+	picture = "italian_war_of_independence_lost"
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Roma aeterna!"
+		prestige = 10
+		end_war = FROM
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = TUN
+			}
+			end_war = THIS
+		}
+		726 = { secede_province = TUN }
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+			}
+			militancy = -5
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+			}
+			consciousness = -5
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "We are not satisfied, we shall punish the Italian traitors."
+                prestige = -10
+                badboy = 5
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+			}
+			militancy = 5
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+			}
+			consciousness = 5
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Sardinian insurrection
+country_event = {
+	id = 299996
+	title = "EVTNAME299996" 
+	desc = "EVTDESC299996"
+	picture = "sicilian_revolution"
+	major = no
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = TUN
+		owns = 765
+		OR = {
+			765 = { controlled_by = TUN }
+			765 = { controlled_by = REB }
+		}
+		has_global_flag = five_days_of_palermo_occurred	       
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	immediate = {
+		set_global_flag = sardinian_insurrection_occurred
+		SRD = { government = democracy }
+		765 = { secede_province = SRD }
+		766 = { secede_province = SRD }
+		3606 = { secede_province = SRD }
+		3607 = { secede_province = SRD }
+		3608 = { secede_province = SRD }
+		3609 = { secede_province = SRD }
+		relation = { who = SYC value = -100 }
+		prestige = -15
+		any_pop = {
+			limit = {
+				location = { is_core = SRD }
+				has_pop_culture = south_italian
+			}
+			militancy = -10
+		}
+		any_owned = {
+			limit = {
+				is_core = SRD
+				NOT = { is_core = TUN }
+			}
+			secede_province = SRD
+		}
+		relation = { who = SRD value = -100 }
+		
+	}
+
+	option = {
+		name = "Bring me de Ponna!"
+			war = {
+				target = SRD
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = annex_core_country
+				}	
+			}
+		define_general = {
+				name = "Julius Hanno de Ponna"
+				personality = coolminded
+				background = war_college
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+
+	option = {
+		name = "We have more important matters."
+		set_country_flag = africa_let_sardinia_go
+		prestige = -30
+		casus_belli = {
+			target = SRD
+			type = conquest
+			months = 60
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = visigothic
+				location = { is_core = IBR }
+			}
+			militancy = 1
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = south_italian
+				location = { is_core = ITA }
+			}
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				any_greater_power = { war_with = THIS }
+			}
+		}
+	}
+
+	option = {
+		name = "Libbertade!"
+			war = {
+					target = SRD
+					attacker_goal = {
+						casus_belli = annex_core_country
+                                        }
+			}
+		change_tag_no_core_switch = SRD
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Italian war of Independence won
+country_event = {
+	id = 299997
+	title = "EVTNAME299997" 
+	desc = "EVTDESC299997"
+	picture = "italian_war_of_independence_won"
+        major = yes
+
+	fire_only_once = yes
+	trigger = {
+		tag = SIC
+		war = no
+		OR = {  
+			TUN = {
+				exists = yes
+				truce_with = THIS
+				NOT = { has_country_flag = africa_let_palermo_go}
+			}
+		}
+		has_global_flag = sardinian_insurrection_occurred
+		has_global_flag = five_days_of_palermo_occurred
+		has_country_flag = first_war_of_italian_independence_intervention
+		owns = 762
+		owns = 759
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "We have shown the world the heroism of the Italian people!"
+		set_global_flag = first_war_of_italian_independence_won
+		prestige = 45
+		any_country = {
+            limit = {
+                exists = yes
+                OR = {
+                    tag = SRD
+                }
+            }
+
+            annex_to = THIS
+        }
+        any_owned = { add_core = SIC secede_province = THIS }
+		any_pop = {
+			limit = { culture = south_italian }
+			militancy = -5
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = TUN
+				}
+				truce_with = SIC
+				exists = yes
+			}
+			diplomatic_influence = { who = SIC value = -400 }
+			diplomatic_influence = { who = LOM value = -400 }
+			diplomatic_influence = { who = PAP value = -400 }
+			diplomatic_influence = { who = SVY value = -400 }
+			diplomatic_influence = { who = VEN value = -400 }
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				OR = {
+					tag = SRD
+				}
+			}
+			any_owned = { add_core = SAR secede_province = THIS }
+			annex_to = THIS
+		}
+		763 = { secede_province = SIC }
+		764 = { secede_province = SIC }
+		3590 = { secede_province = SIC }
+		3591 = { secede_province = SIC }
+		3592 = { secede_province = SIC }
+		3593 = { secede_province = SIC }
+	}
+}
+
+## Aftermath of the War ##
+
+country_event = {
+	id = 20090
+	title = "EVTNAME20090" #New Capital
+	desc = "EVTDESC20090" #
+	picture = "palermo"
+    fire_only_once = yes
+	
+		trigger = {
+			tag = SIC
+			762 = {
+			owned_by = THIS
+			}
+			war = no
+		}
+
+		option = {
+		name = "EVTOPTA20090A" #Napoli
+		capital = 754
+		prestige = 5
+		754 = {
+			add_province_modifier = {
+			name = baby_boom
+			duration = 365
+			}
+		}
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "EVTOPTA20090B" #Palermo
+		capital = 762
+		prestige = 5
+		762 = {
+			add_province_modifier = {
+			name = baby_boom
+			duration = 365
+			}
+		}
+		ai_chance = { factor = 30 }
+	}
+}

@@ -1,0 +1,165 @@
+
+#bavaria annexes franconia
+country_event = {
+
+	id = 666
+
+	trigger = {
+		tag = BAV
+		year = 1850
+		war = no
+		exists = FRE
+		NOT = {
+			exists = SGF
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME666"
+	desc = "EVTDESC666"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA666" 
+		set_global_flag = annexing_franconia
+		badboy = 5
+		
+			relation = {
+			
+			who = WES
+			value = -200 
+			
+		}
+		inherit = FRE
+		
+				ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA667" 
+		set_global_flag = franconia_is_saxon
+		badboy = -2
+
+			relation = {
+			 who = WES
+			value = 200
+			}
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+#war of the crowns
+country_event = {
+
+	id = 667
+
+	trigger = {
+		tag = SAX
+		has_global_flag = annexing_franconia
+		
+		NOT = {
+			has_global_flag = franconia_is_saxon
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME667"
+	desc = "EVTDESC667"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA668" 
+		set_country_flag = war_of_the_crowns
+		badboy = 5
+		
+			relation = {
+			who = BAV
+			value = -200 
+		}
+		war = {
+	target = BAV
+	attacker_goal = { 
+	casus_belli = conquest_any
+	 }
+	defender_goal = { 
+	casus_belli = conquest_any }
+	
+}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA669" 
+		set_global_flag = franconia_is_bavarian
+		prestige = -30
+		relation = {
+		
+		who = BAV
+		value = 100
+		
+		}
+				ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#victory over bavaria
+country_event = {
+
+	id = 668
+
+	trigger = {
+		tag = WES
+		war = no
+		has_country_flag = war_of_the_crowns
+		BAV = { all_core = { owned_by = WES } }
+		NOT = {
+			has_global_flag = franconia_is_bavarian
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME668"
+	desc = "EVTDESC668"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA670" 
+		set_global_flag = victory_over_bavaria
+		
+		
+		prestige = 30
+	}
+	
+	
+}
+
