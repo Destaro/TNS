@@ -1,45 +1,45 @@
 army = {
 	name = "I. Armee"
-	location = 643
+	location = 664
 	regiment = {
 		name= "1.2. Kavalleriedivision"
 		type = cuirassier
-		home = 643
+		home = 667
 	}
 
 	regiment = {
 		name= "2.2. Kavalleriedivision"
 		type = cuirassier
-		home = 641
+		home = 664
 	}
 
 	regiment = {
 		name= "3.2. Kavalleriedivision"
 		type = cuirassier
-		home = 626
+		home = 666
 	}
 
 	regiment = {
 		name= "1.1. Infanteriedivision"
 		type = infantry
-		home = 640
+		home = 670
 	}
 
 	regiment = {
 		name= "2.1. Infanteriedivision"
 		type = infantry
-		home = 771
+		home = 670
 	}
 
 	regiment = {
 		name= "3.1. Infanteriedivision"
 		type = infantry
-		home = 639
+		home = 668
 	}
 
 	regiment = {
 		name= "1.2. Infanteriedivision"
 		type = infantry
-		home = 642
+		home = 669
 	}
 }

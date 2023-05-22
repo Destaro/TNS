@@ -2,6 +2,7 @@ owner = LBN
 controller = LBN
 add_core = LBN
 add_core = ASY
+add_core = KSK
 trade_goods = grain
 life_rating = 10
 

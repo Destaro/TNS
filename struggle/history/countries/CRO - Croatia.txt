@@ -1,4 +1,4 @@
-capital = 670
+capital = 702
 primary_culture = croat
 religion = catholic
 government = absolute_monarchy

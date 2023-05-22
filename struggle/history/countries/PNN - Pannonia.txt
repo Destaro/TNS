@@ -1,4 +1,4 @@
-capital = 643
+capital = 664
 primary_culture = pannonian
 religion = catholic
 government = absolute_monarchy
