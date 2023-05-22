@@ -1,41 +1,41 @@
 army = {
 	name = "Army of Syria"
-	location = 902
+	location = 919
 
 	regiment = {
 		name= "1.3 Infantry"
 		type = infantry
-		home = 1746
+		home = 919
 	}
 
 	regiment = {
 		name= "2.3 Infantry"
 		type = infantry
-		home = 1752
+		home = 921
 	}
 
 	regiment = {
 		name= "3.3 Infantry"
 		type = infantry
-		home = 1748
+		home = 3330
 	}
 
 	regiment = {
 		name= "1.4th Division"
 		type = infantry
-		home = 1749
+		home = 3326
 	}
 
 	regiment = {
 		name= "2.4th Division"
 		type = infantry
-		home = 1765
+		home = 917
 	}
 
 	regiment = {
 		name= "3.4th Division"
 		type = infantry
-		home = 1764
+		home = 917
 	}
 
 }

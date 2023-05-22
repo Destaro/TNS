@@ -426,6 +426,88 @@
 		size = 4000
 	}
 }
+
+#barteni
+3364 = {
+	aristocrats = {
+		culture = berber
+		religion = punic_church
+		size = 325
+	}
+
+	clergymen = {
+		culture = berber
+		religion = punic_church
+		size = 200
+	}
+
+	artisans = {
+		culture = berber
+		religion = punic_church
+		size = 2150
+	}
+
+	soldiers = {
+		culture = berber
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = berber
+		religion = punic_church
+		size = 20200
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = punic_church
+		size = 25
+	}
+
+	clergymen = {
+		culture = berber
+		religion = punic_church
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = punic_church
+		size = 225
+	}
+
+	soldiers = {
+		culture = berber
+		religion = punic_church
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = punic_church
+		size = 1700
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 100
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 120
+	}
+
+	slaves = {
+		culture = forest_bantu
+		religion = animist
+		size = 4000
+	}
+}
+
 #Safi (76000/19000 POPS)
 2563 = {
 	aristocrats = {

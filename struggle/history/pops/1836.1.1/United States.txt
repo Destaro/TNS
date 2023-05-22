@@ -3115,7 +3115,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 1750
+		size = 15750
 	}
 	
 	aristocrats = {

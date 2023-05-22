@@ -1,5 +1,6 @@
 capital = 876
 primary_culture = kurdish
+culture = south_hungarian
 religion = manichaeism
 government = absolute_monarchy
 plurality = 0

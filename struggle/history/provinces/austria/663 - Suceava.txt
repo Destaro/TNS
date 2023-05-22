@@ -1,5 +1,5 @@
-owner = MRV
-controller = MRV
+owner = CRO
+controller = CRO
 
 
 trade_goods = cattle
@@ -8,3 +8,5 @@ life_rating = 35
 
 
 add_core = CRO
+
+add_core = PNN

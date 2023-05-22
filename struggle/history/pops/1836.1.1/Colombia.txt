@@ -41,7 +41,7 @@
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 76875
+		size = 176875
 	}
 
 	clergymen = {
@@ -605,7 +605,7 @@
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 35725
+		size = 135725
 	}
 
 	clergymen = {

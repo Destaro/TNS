@@ -87,7 +87,7 @@ LOM = {
 
 
 army = {
-	name = "Army of the Bey of Tunis"
+	name = "Army of the Bey of Cartago"
 	location = 1725
 	regiment = {
 		name= "1.Askäris"
@@ -106,29 +106,454 @@ army = {
 		type = infantry
 		home = 1726
 	}
+	
+    regiment = {
+		name= "4.Askäris"
+		type = infantry
+		home = 1708
+	}
+
+	regiment = {
+		name= "5.Askäris"
+		type = infantry
+		home = 1708
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = infantry
+		home = 1709
+	}
+	
+	regiment = {
+		name= "7.Askäris"
+		type = artillery
+		home = 1709
+	}
+
+	regiment = {
+		name= "8.Askäris"
+		type = cuirassier
+		home = 1701
+	}
+
+	regiment = {
+		name= "9.Askäris"
+		type = cuirassier
+		home = 1701
+	}
 
 }
 
 army = {
 	name = "Army of Ifriqiya"
-	location = 1730
+	location = 1733
 	regiment = {
 		name= "1.Kroumir"
-		type = irregular
+		type = infantry
 		home = 1727
 	}
 
 	regiment = {
 		name= "2.Kroumir"
-		type = irregular
+		type = infantry
 		home = 1728
 	}
 
 	regiment = {
 		name= "3.Kroumir"
-		type = irregular
+		type = infantry
+		home = 1730
+	}
+	
+	regiment = {
+		name= "4.Kroumir"
+		type = cavalry
 		home = 1730
 	}
 
 }
 
+leader = {
+	name = "Emir Abdelkader"
+	type = land
+	date = 1836.1.1
+	personality = stalwart
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ahmed Bey"
+	type = land
+	date = 1780.1.1
+	personality = stalwart
+	background = elderly
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of Nundia"
+	location = 1707
+	regiment = {
+		name= "1.Askäris"
+		type = infantry
+		home = 1708
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = infantry
+		home = 1702
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = infantry
+		home = 3518
+	}
+
+	regiment = {
+		name= "1.Spahis"
+		type = artillery
+		home = 1709
+	}
+
+	regiment = {
+		name= "2.Spahis"
+		type = cavalry
+		home = 765
+	}
+
+	regiment = {
+		name= "3.Spahis"
+		type = cavalry
+		home = 3606
+	}
+
+}
+
+army = {
+	name = "Army of the Bey of Malaga"
+	location = 514
+	regiment = {
+		name= "4.Askäris"
+		type = infantry
+		home = 514
+	}
+
+	regiment = {
+		name= "5.Askäris"
+		type = infantry
+		home = 515
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = infantry
+		home = 1688
+	}
+
+	regiment = {
+		name= "7.Askäris"
+		type = infantry
+		home = 1687
+	}
+
+	regiment = {
+		name= "3.Spahis"
+		type = cavalry
+		home = 763
+	}
+
+	regiment = {
+		name= "4.Spahis"
+		type = cavalry
+		home = 3593
+	}
+
+}
+
+army = {
+	name = "Army of the Mauria"
+	location = 1681
+	regiment = {
+		name= "1. Infantry Brigade 'Askäria'"
+		type = infantry
+		home = 1710
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 1702
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 1709
+	}
+
+}
+
+
+
+army = {
+	name = "Army of Sahara"
+	location = 2573
+	regiment = {
+		name= "7. Infantry Brigade 'Dawi Mani'"
+		type = infantry
+		home = 2573
+	}
+
+	regiment = {
+		name= "8. Infantry Brigade 'Sahrawi'"
+		type = infantry
+		home = 1790
+	}
+
+	regiment = {
+		name= "9. Infantry Brigade"
+		type = infantry
+		home = 1789
+	}
+
+}
+
+army = {
+	name = "Army of the Goths"
+	location = 515
+	
+	regiment = {
+		name= "4. Infantry Brigade 'Ait 'Atta'"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "5. Infantry Brigade"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "6. Infantry Brigade 'Ait Mnad'"
+		type = infantry
+		home = 1725
+	}
+	
+	regiment = {
+		name= "10. Infantry Brigade"
+		type = infantry
+		home = 1702
+	}
+
+	regiment = {
+		name= "11. Infantry Brigade"
+		type = cavalry
+		home = 1702
+	}
+
+	regiment = {
+		name= "12. Infantry Brigade"
+		type = artillery
+		home = 1702
+	}
+
+}
+
+leader = {
+	name = "Sultan Abd al-Rahman"
+	type = land
+	date = 1820.1.1
+	background = gifted_administrator
+	personality = harsh
+	prestige = 0.1
+	}
+	
+	
+
+army = {
+	name = "Sicilian Armies"
+	location = 762
+	regiment = {
+		name= "1. Fanteria di Linea - Re e Regina"
+		type = infantry
+		home = 762
+	}
+
+	regiment = {
+		name= "2. Fanteria di Linea - Duca di Calabria"
+		type = infantry
+		home = 764
+	}
+
+	regiment = {
+		name= "3. Fanteria di Linea - Duca di Noto"
+		type = infantry
+		home = 764
+	}
+
+	regiment = {
+		name= "4. Fanteria di Linea"
+		type = artillery
+		home = 3591
+	}
+
+	regiment = {
+		name= "1. Cavalleria di Linea"
+		type = cuirassier
+		home = 3590
+	}
+
+	regiment = {
+		name= "2. Cavalleria di Linea"
+		type = cuirassier
+		home = 3590
+	}
+
+	regiment = {
+		name= "3. Cavalleria di Linea"
+		type = cuirassier
+		home = 3590
+	}
+
+}
+
+
+
+
+
+
+
+
+
+navy = {
+	name = "Grand Armada"
+	location = 765
+	ship = {
+		name= "Ferdinando II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Christina"
+		type = frigate
+	}
+
+	ship = {
+		name= "Regina Isabella"
+		type = frigate
+	}
+
+	ship = {
+		name= "Principe Carlo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Partenope"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caracciolo"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "The Strait Garrison"
+	location = 517
+	ship = {
+		name= "Ferdinando II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Christina"
+		type = frigate
+	}
+
+	ship = {
+		name= "Regina Isabella"
+		type = frigate
+	}
+
+	ship = {
+		name= "Principe Carlo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Partenope"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caracciolo"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Saharan Transports"
+	location = 2573
+	
+
+	ship = {
+		name= "Christina"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+}
