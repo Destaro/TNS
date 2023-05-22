@@ -1,9 +1,7 @@
 political_decisions = {
 	form_south_german_confederation = {
 		potential = {
-			NOT = { capital_scope = { continent = europe } } #stops decision from being shown
-
-			capital_scope = { continent = europe }
+			
 			OR = {
 				primary_culture = allemanic
 				primary_culture = franconian
