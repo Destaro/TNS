@@ -1,0 +1,76 @@
+political_decisions = {
+
+
+claim_pannonian_lands = {
+potential = {
+  tag = SIE
+  NOT = {
+  exists = PNN
+  has_country_flag = claim_pannonian_lands      
+			                               }
+  }
+allow = {
+        war = no
+		SIE = { all_core = { owned_by = THIS } }
+      		}
+effect = { 
+         set_country_flag = claim_pannonian_lands
+		 PNN = { all_core = { add_core = THIS } }
+		 change_tag = PNN
+		 prestige = 20
+		 }
+     }
+	 
+	  become_the_danubian_something_transilvania = {
+		 potential = { 
+		               tag = PNN 
+            NOT = { has_country_flag = become_the_danubian_something_transilvania }					   
+		                                    }
+		 allow = {
+            is_greater_power = yes
+			war = no
+			SIE = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+		
+			PNN = {
+				all_core = {
+					OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+					}
+				}
+			 }
+			 owns = 675
+			 owns = 812
+			 owns = 791
+			 owns = 795
+			 owns = 818
+			 owns = 772
+				                                   }
+		 effect = { 
+		 prestige = 30
+		              set_country_flag = become_the_danubian_something_transilvania
+					  change_tag = DNB
+					  add_accepted_culture = albanian
+					  add_accepted_culture = aromanian
+					  ROM = { all_core = { add_core = THIS } }
+					  ALB = { all_core = { add_core = THIS } }
+					  WAL = { all_core = { add_core = THIS } }
+					  MOL = { all_core = { add_core = THIS } }
+					  EPI = { all_core = { add_core = THIS } }
+					  
+					  }
+		 
+		 }
+
+
+
+}

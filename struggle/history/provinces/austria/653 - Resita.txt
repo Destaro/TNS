@@ -12,4 +12,3 @@ life_rating = 35
 
 add_core = SIE
 
-add_core = PNN

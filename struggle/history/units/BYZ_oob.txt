@@ -1,39 +1,39 @@
 army = {
 	name = "Thrace Army"
-	location = 859
+	location = 860
 	regiment = {
 		name= "1. Piyade Alayı"
 		type = infantry
-		home = 859
+		home = 861
 	}
 
 	regiment = {
 		name= "2. Piyade Alayı"
 		type = infantry
-		home = 814
+		home = 860
 	}
 
 	regiment = {
 		name= "3. Piyade Alayı"
 		type = infantry
-		home = 3669
+		home = 860
 	}
 	
 	regiment = {
 		name= "4. Piyade Alayı"
 		type = infantry
-		home = 823
+		home = 860
 	}
 
 	regiment = {
 		name= "5. Piyade Alayı"
-		type = infantry
+		type = artillery
 		home = 825
 	}
 
 	regiment = {
 		name= "6. Piyade Alayı"
-		type = infantry
+		type = cuirassier
 		home = 828
 	}
 	
@@ -48,7 +48,7 @@ army = {
 	regiment = {
 		name= "1. Piyade Alayı"
 		type = artillery
-		home = 859
+		home = 813
 	}
 
 }
@@ -149,7 +149,7 @@ army = {
 	regiment = {
 		name= "4.1. Division"
 		type = cuirassier
-		home = 664
+		home = 798
 	}
 
 	regiment = {
@@ -174,64 +174,64 @@ army = {
 }
 
 army = {
-	name = "Stratós Thessalías"
+	name = "Stratos Thessalias"
 	location = 836
 	regiment = {
 		name= "1. Taxiarchia Pezikou"
 		type = infantry
-		home = 834
+		home = 853
 	}
 
 	regiment = {
 		name= "2. Taxiarchia Pezikou"
 		type = infantry
-		home = 836
+		home = 853
 	}
 
 	regiment = {
 		name= "3. Taxiarchia Pezikou"
 		type = infantry
-		home = 835
+		home = 806
 	}
 
 	regiment = {
 		name= "4. Taxiarchia Pezikou"
-		type = infantry
-		home = 838
+		type = cuirassier
+		home = 850
 	}
 	
 	regiment = {
 		name= "5. Taxiarchia Pezikou"
-		type = infantry
-		home = 839
+		type = cuirassier
+		home = 850
 	}
 }
 
 army = {
-	name = "Stratós Epeírou"
+	name = "Stratos Epeirou"
 	location = 837
 	regiment = {
 		name= "6. Taxiarchia Pezikou"
 		type = infantry
-		home = 837
+		home = 824
 	}
 
 	regiment = {
 		name= "7. Taxiarchia Pezikou"
 		type = infantry
-		home = 841
+		home = 824
 	}
 	
 	regiment = {
 		name= "8. Taxiarchia Pezikou"
-		type = infantry
-		home = 839
+		type = artillery
+		home = 824
 	}
 	
 	regiment = {
 		name= "1st Bavarian Legion"
-		type = infantry
-		home = 839
+		type = artillery
+		home = 842
 	}
 }
 
@@ -287,19 +287,19 @@ army = {
 	regiment = {
 		name= "1st Wallachia Infantry"
 		type = infantry
-		home = 664
+		home = 799
 	}
 
 	regiment = {
 		name= "2nd Wallachia Infantry"
 		type = infantry
-		home = 668
+		home = 3564
 	}
 
 	regiment = {
 		name= "3rd Wallachia Infantry"
 		type = infantry
-		home = 669
+		home = 3666
 	}
 
 }
@@ -312,19 +312,19 @@ army = {
 	regiment = {
 		name= "1. Infanterie Moldovei"
 		type = infantry
-		home = 670
+		home = 3691
 	}
 
 	regiment = {
 		name= "2. Infanterie Moldovei"
 		type = infantry
-		home = 672
+		home = 829
 	}
 
 	regiment = {
 		name= "3. Infanterie Moldovei"
-		type = infantry
-		home = 673
+		type = dragoon
+		home = 3691
 	}
 
 }

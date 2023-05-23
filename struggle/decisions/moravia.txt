@@ -265,28 +265,10 @@ political_decisions = {
 			is_greater_power = yes
 			prestige = 200
 			
-			SIE = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			
-			CRO = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			 
+			owns = 660
+			owns = 3663
+			 owns = 671
 			 owns = 670
-			 
 			 
 	      }
 		  
@@ -337,7 +319,7 @@ political_decisions = {
 		 effect = {
 		 set_country_flag = integrate_the_peoples_of_the_nation
 		 prestige = 10
-		 add_accepted_culture = serb
+		 add_accepted_culture = bavarian
 		 add_accepted_culture = slovak
 		 add_accepted_culture = croat
 		                 }
@@ -350,8 +332,14 @@ political_decisions = {
             NOT = { has_country_flag = become_the_danubian_something_moravia }					   
 		                                    }
 		 allow = {
-                  has_country_flag = integrate_the_peoples_of_the_nation
-				  war = no
+             has_country_flag = integrate_the_peoples_of_the_nation
+	   	     war = no
+			 owns = 675
+			 owns = 812
+			 owns = 791
+			 owns = 795
+			 owns = 818
+			 owns = 772
 			SIE = {
 				all_core = {
 					OR = {
@@ -428,13 +416,13 @@ political_decisions = {
 		 prestige = 30
 		              set_country_flag = become_the_danubian_something_moravia
 					  change_tag = DNB
-					  add_accepted_culture = bavarian
+					  add_accepted_culture = albanian
 					  add_accepted_culture = aromanian
 					  ROM = { all_core = { add_core = THIS } }
 					  DBJ = { all_core = { add_core = THIS } }
 					  WAL = { all_core = { add_core = THIS } }
 					  MOL = { all_core = { add_core = THIS } }
-					  EPI = { all_core = { add_core = THIS } }
+					  ALB = { all_core = { add_core = THIS } }
 					  CRO = { all_core = { add_core = THIS } }
 					  }
 		 

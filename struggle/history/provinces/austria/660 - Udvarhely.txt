@@ -1,5 +1,5 @@
-owner = PNN
-controller = PNN
+owner = SIE
+controller = SIE
 
 
 trade_goods = wool
@@ -9,4 +9,5 @@ life_rating = 35
 
 
 
-add_core = PNN
+
+add_core = SIE
