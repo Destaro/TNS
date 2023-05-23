@@ -1,5 +1,6 @@
-owner = ZNU
-controller = ZNU
+owner = KYR
+controller = KYR
+add_core = KYR
 add_core = ZNU
 add_core = TAJ
 trade_goods = cattle

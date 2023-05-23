@@ -1,7 +1,9 @@
-owner = MIN
-controller = MIN
+owner = DAI
+controller = DAI
 add_core = GNG
 add_core = MIN
 add_core = CHI
 trade_goods = fish
 life_rating = 32
+
+add_core = DAI

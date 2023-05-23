@@ -1,0 +1,132 @@
+political_decisions = {
+yuan_restoration = {
+potential = {
+tag = MGL
+NOT = { has_country_flag = yuan_restoration } 
+                }
+
+allow = {
+ war = no
+ CHI = { all_core = { owned_by = THIS } }
+
+           }
+
+effect = { 
+ prestige = 30
+ set_country_flag = yuan_restoration
+ CHI = { all_core = { add_core = THIS } }
+ XBI = { all_core = { add_core = THIS } }
+ KOR = { all_core = { add_core = THIS } }
+ YNN = { all_core = { add_core = THIS } }
+ TIB = { all_core = { add_core = THIS } }
+		  }
+}
+
+reclamation_of_the_western_steppe = {
+potential = {
+tag = MGL
+NOT = { has_country_flag = reclamation_of_the_western_steppe } 
+                }
+
+allow = {
+ war = no
+ UYG = { all_core = { owned_by = THIS } }
+ KML = { all_core = { owned_by = THIS } }
+           }
+
+effect = { 
+ prestige = 10
+ set_country_flag = reclamation_of_the_western_steppe
+ UYG = { all_core = { add_core = THIS } }
+ KML = { all_core = { add_core = THIS } }
+ KYR = { all_core = { add_core = THIS } }
+ XIN = { all_core = { add_core = THIS } }
+ ALT = { all_core = { add_core = THIS } }
+ KAZ = { all_core = { add_core = THIS } }
+ TAJ = { all_core = { add_core = THIS } }
+		  }
+
+}
+
+annex_the_tuvans = {
+potential = {
+tag = MGL
+NOT = { has_country_flag = annex_the_tuvans }
+TNT = { vassal_of = THIS }
+}
+allow = { prestige = 10 }
+
+effect = { set_country_flag = annex_the_tuvans
+           inherit = TNT
+		   TNT = { all_core = { add_core = THIS } }
+ 		   }
+}
+
+centralize_kyrgistan_by_kyrgistan = {
+potential = {
+tag = KYR
+NOT = { has_country_flag = centralize_kyrgistan_by_kyrgistan }
+TAJ = { vassal_of = THIS }
+XIN = { vassal_of = THIS }
+KML = { vassal_of = THIS }
+UYG = { vassal_of = THIS }
+}
+allow = { prestige = 10 }
+
+effect = { set_country_flag = centralize_kyrgistan_by_kyrgistan
+           inherit = TAJ
+		   inherit = KML
+		   inherit = XIN
+		   inherit = UYG
+		   XIN = { all_core = { add_core = THIS } }
+			TAJ = { all_core = { add_core = THIS } }
+			KML = { all_core = { add_core = THIS } }
+			UYG = { all_core = { add_core = THIS } }
+ 		   }
+}
+
+core_the_yakuts = {
+potential = {
+tag = MGL
+NOT = { has_country_flag = core_the_yakuts }
+
+}
+allow = {  YAK = { all_core = { owned_by = THIS } }
+           }
+
+effect = { 
+           set_country_flag = core_the_yakuts       
+		   YAK = { all_core = { add_core = THIS } }
+		   KAM = { all_core = { add_core = THIS } }
+ 		   }
+}
+
+core_further_west = {
+potential = {
+tag = MGL
+NOT = { has_country_flag = core_further_west }
+
+}
+allow = { 
+           civilized = yes
+           war = no
+           KAZ = { all_core = { owned_by = THIS } }
+           ALT = { all_core = { owned_by = THIS } }
+		   KYR = { all_core = { owned_by = THIS } }
+           }
+
+effect = { 
+           set_country_flag = core_further_west       
+		   SIB = { all_core = { add_core = THIS } }
+		   URA = { all_core = { add_core = THIS } }
+		   BLG = { all_core = { add_core = THIS } }
+		   KDA = { all_core = { add_core = THIS } }
+		   UZB = { all_core = { add_core = THIS } }
+		   KHI = { all_core = { add_core = THIS } }
+		   TKM = { all_core = { add_core = THIS } }
+		   BUK = { all_core = { add_core = THIS } }
+		   BDK = { all_core = { add_core = THIS } }
+ 		   }
+}
+
+}
