@@ -1,7 +1,8 @@
-owner = HAL
-controller = HAL
+owner = NEJ
+controller = NEJ
 add_core = HAL
 trade_goods = wool
 life_rating = 35
 
 add_core = HDJ
+add_core = NEJ

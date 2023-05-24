@@ -7,6 +7,7 @@ political_decisions = {
 				tag = NEJ
 				tag = HDJ
 				tag = HAL
+				tag = OMA
 			}
 			NOT = { exists = ARA }
 		}
@@ -14,29 +15,28 @@ political_decisions = {
 		allow = {
 			war = no
 			owns = 1157
-			OR = {
-				has_global_flag = house_of_rashid_exiled
-				is_sphere_leader_of = HAL
-				HAL = { all_core = { owned_by = THIS } }
-			}
-			OR = {
-				has_global_flag = house_of_saud_exiled
-				is_sphere_leader_of = NEJ
-				NEJ = { all_core = { owned_by = THIS } }
-			}
-			OR = {
-				is_sphere_leader_of = HDJ
-				HDJ = { all_core = { owned_by = THIS } }
-			}
+			owns = 1151
+			owns = 1166
 		}
 	
 		effect = {
-			prestige = 10
+			prestige = 20
+			add_core = 908
+			add_core = 909
+			add_core = 906
+			add_core = 910
+			add_core = 3330
+			add_core = 907
+			add_core = 3324
+			add_core = 911
+			add_core = 1163
+			add_core = 1158
 			add_accepted_culture = bedouin
 			add_accepted_culture = mashriqi
 			NEJ = { all_core = { add_core = ARA } } #Riyadh
 			HAL = { all_core = { add_core = ARA } } #Kaf
 			HDJ = { all_core = { add_core = ARA } } #Hedjaz
+			OMA = { all_core = { add_core = ARA } } #Oman
 			random_country = {
 				limit = {
 					tag = NEJ
@@ -55,15 +55,31 @@ political_decisions = {
 			}
 			random_country = {
 				limit = {
-					tag = HAL
+					tag = OMA
 					exists = yes
 					ai = yes
 				}
-				THIS = { inherit = HAL }
+				THIS = { inherit = OMA }
 			}
 			random_country = {
 				limit = {
-					tag = HAL
+					tag = OMA
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = JOR
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = JOR }
+			}
+			random_country = {
+				limit = {
+					tag = JOR
 					exists = yes
 					ai = no
 				}
@@ -88,10 +104,12 @@ political_decisions = {
 			any_owned = {
 				remove_core = NEJ
 				remove_core = HDJ
+				remove_core = JOR
+				remove_core = OMA
 				remove_core = HAL
 			}
 			change_tag = ARA
-			capital = 1157
+			capital = 1151
 			
 			1163 = { remove_core = TUR }
 			1164 = { remove_core = TUR }

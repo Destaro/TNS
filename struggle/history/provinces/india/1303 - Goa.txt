@@ -1,8 +1,10 @@
-owner = NAG
-controller = NAG
-add_core = NAG
+owner = OMA
+controller = OMA
+
 add_core = MAH
 trade_goods = fish
 life_rating = 32
 terrain = goa
 
+
+add_core = OMA
