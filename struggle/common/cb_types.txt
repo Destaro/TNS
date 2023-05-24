@@ -3910,6 +3910,8 @@ china_acquire_state = {
 	always = yes
 
 	can_use = {
+	NOT = { tag = JAP
+			        tag = KOR }
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS
 		OR = {
@@ -7495,12 +7497,14 @@ mongolia_acquire_state = {
                 is_core = CHI
             }
             tag = MGL
-			
+			NOT = { tag = JAP
+			        tag = KOR }
         }
         THIS = {
             OR = {
                 tag = MGL
-				
+				NOT = { tag = JAP
+			        tag = KOR }
             }
             NOT = {
                 has_country_modifier = neutrality
