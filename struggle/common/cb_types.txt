@@ -59,6 +59,7 @@ ruthenia_acquire_state
 persia_acquire_state
 parthia_acquire_state
 frankia_acquire_state
+mongolia_acquire_state
 unification_annex_casus_belli
 annex_core_country
 unification_add_to_sphere
@@ -3917,7 +3918,10 @@ china_acquire_state = {
 				is_core = CHI
 			}
 			is_culture_group = east_asian
+			tag = MGL
 		}
+		OR = {
+		tag = MGL
 		THIS = {
 			NOT = { tag = LAN }
 			is_culture_group = east_asian
@@ -3926,6 +3930,7 @@ china_acquire_state = {
 				#war_policy = pacifism
 			}
 		}
+	}
 		is_vassal = no
 		OR = {
 			war_with = THIS
@@ -7448,6 +7453,87 @@ parthia_acquire_state = {
     po_demand_state = yes
 
     war_name = WAR_PARTHIA_UNIFICATION
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.10
+        }
+    }
+}
+
+
+mongolia_acquire_state = {
+    sprite_index = 2
+    months = 12
+    crisis = no
+
+    badboy_factor = 0
+    prestige_factor = 0
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 6
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    always = yes
+
+    can_use = {
+        NOT = { is_our_vassal = THIS }
+        number_of_states = 2
+        neighbour = THIS
+        OR = {
+            any_owned_province = {
+                NOT = { is_core = THIS }
+                is_core = CHI
+            }
+            tag = MGL
+			
+        }
+        THIS = {
+            OR = {
+                tag = MGL
+				
+            }
+            NOT = {
+                has_country_modifier = neutrality
+                war_policy = pacifism
+            }
+        }
+        is_vassal = no
+        OR = {
+            war_with = THIS
+            THIS = {
+                NOT = { has_country_modifier = no_more_war }
+            }
+        }
+    }
+
+    allowed_states = {
+        OR = {
+            any_owned_province = {
+                NOT = { is_core = THIS }
+                is_core = CHI
+            }
+            any_owned_province = {
+                owner = { primary_culture = beifaren }
+                NOT = { is_core = MGL }
+            }
+        }
+		
+		
+    }
+
+    po_demand_state = yes
+
+    war_name = WAR_CHINA_REUNIFICATION
 
     on_add = {
         move_issue_percentage = {

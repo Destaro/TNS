@@ -82,3 +82,7 @@ frankia_acquire_state;Frankia;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;
 frankia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 frankia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 frankia_acquire_state_desc;Acquire a Frankish state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,
+mongolia_acquire_state;China;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+mongolia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+mongolia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+mongolia_acquire_state_desc;Acquire a Chinese state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,
