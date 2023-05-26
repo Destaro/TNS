@@ -5,3 +5,5 @@ add_core = CHI
 trade_goods = timber
 life_rating = 32
 terrain = xian
+
+add_core = MGL

@@ -8,3 +8,5 @@ life_rating = 32
 1861.1.1 = {
 	fort = 1
 }
+
+add_core = MGL

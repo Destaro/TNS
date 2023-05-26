@@ -1,5 +1,7 @@
-owner = AVA
-controller = AVA
+owner = NEW
+controller = NEW
 add_core = AVA
 trade_goods = grain
 life_rating = 35
+
+add_core = NEW

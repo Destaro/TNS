@@ -1,0 +1,114 @@
+army = {
+	name = "Army of the Plains"
+
+	leader = {
+		name = "Don Carlos Buell"
+		type = land
+		date="1811.1.1"
+		prestige = 0.05
+		personality = careful
+		background = diplomat
+		picture="european_general_37"
+	}
+
+	location = 181
+	regiment = {
+		name= "3rd Moshva Cavalry"
+		type = dragoon
+		home = 159
+	}
+
+	regiment = {
+		name= "5th Moshva Artillery"
+		type = artillery
+		home = 159
+	}
+
+	regiment = {
+		name= "16th Moshva Infantry"
+		type = infantry
+		home = 182
+	}
+
+	regiment = {
+		name= "17th Moshva Infantry"
+		type = infantry
+		home = 182
+	}
+
+	regiment = {
+		name= "18th Moshva Infantry"
+		type = infantry
+		home = 186
+	}
+
+	regiment = {
+		name= "19th Moshva Infantry"
+		type = cavalry
+		home = 186
+	}
+	regiment = {
+		name= "20th Moshva Infantry"
+		type = cavalry
+		home = 161
+	}
+	regiment = {
+		name= "21th Moshva Infantry"
+		type = cavalry
+		home = 161
+	}
+
+}
+
+army = {
+	
+	name = "Army of the Great lakes"
+
+	leader = {
+		name = "Ulysses S. Grant"
+		type = land
+		date="1836.1.1"
+		prestige = 0.15
+		personality = aggressive
+		background = natural_born_leader
+		picture="european_general_44"
+	}
+	
+	location = 148
+	regiment = {
+		name= "13th Moshva Infantry"
+		type = infantry
+		home = 159
+	}
+
+	regiment = {
+		name= "14th Moshva Infantry"
+		type = infantry
+		home = 163
+	}
+
+	regiment = {
+		name= "15th Moshva Infantry"
+		type = infantry
+		home = 163
+	}
+	
+	regiment = {
+		name= "16th Moshva Infantry"
+		type = artillery
+		home = 163
+	}
+
+	regiment = {
+		name= "17th Moshva Infantry"
+		type = artillery
+		home = 161
+	}
+
+	regiment = {
+		name= "18th Moshva Infantry"
+		type = cuirassier
+		home = 161
+	}
+
+}

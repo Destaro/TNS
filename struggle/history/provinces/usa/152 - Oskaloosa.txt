@@ -1,7 +1,8 @@
-owner = VIN
-controller = VIN
+owner = NEW
+controller = NEW
 trade_goods = grain
 life_rating = 35
 
 add_core = VIN
-add_core = AVA
+
+add_core = NEW

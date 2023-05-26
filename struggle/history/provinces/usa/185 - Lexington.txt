@@ -1,6 +1,8 @@
-owner = AVA
-controller = AVA
+owner = NEW
+controller = NEW
 add_core = AVA
 add_core = ULA
 trade_goods = coal
 life_rating = 35
+
+add_core = NEW

@@ -4,3 +4,5 @@ add_core = SHU
 add_core = CHI
 trade_goods = coal
 life_rating = 30
+
+add_core = MGL

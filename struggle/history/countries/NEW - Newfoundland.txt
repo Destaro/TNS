@@ -1,13 +1,14 @@
-capital = 74
-primary_culture = anglo_canadian
-culture = french_canadian
+capital = 163
+primary_culture = vinlander
+culture = avalonian
 religion = catholic
-government = colonial_company
+government = democracy
 plurality = 0.2
+prestige = 10
 nationalvalue = nv_order
 literacy = 0.6
 civilized = yes
-
+oob = "NEW_oob.txt"
 
 # Political reforms
 slavery = no_slavery
@@ -57,6 +58,29 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+piston_steam_engine = 1
+
+#Inventions
+#corvettes = yes
+authoritarianism = yes
+hierarchical_order = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 
 1861.1.1 = {

@@ -4546,121 +4546,121 @@
 #Kansas City (56000/14000 POPS)
 150 = {
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = catholic
 		size = 100
 	}
 	
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = catholic
 		size = 50
 	}
 	
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 35
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 60
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 6075
 	}
 
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 15
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 50
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 15
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 1400
 	}
 
 	aristocrats = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 225
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 4600
 	}
 
 	clergymen = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 35
 	}
 
 	slaves = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 900
 	}
@@ -4670,61 +4670,61 @@
 #Des Moines (12000/3000 POPS)
 151 = {
 	farmers = {
-		culture = mexican
+		culture = vinlander
 		religion = catholic
 		size = 100
 	}
 	
 	clergymen = {
-		culture = mexican
+		culture = vinlander
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = mexican
+		culture = vinlander
 		religion = catholic
 		size = 50
 	}
 	
 	aristocrats = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 25
 	}
 	
 	officers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	bureaucrats = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 900
 	}
@@ -4857,25 +4857,25 @@
 154 = {
 	
 	clergymen = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	artisans = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 10
 	}
 
 	soldiers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 50
 	}
@@ -4898,37 +4898,37 @@
 155 = {
 
 	aristocrats = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 	
 	officers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 	
 	clergymen = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	artisans = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	soldiers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 20
 	}
 
 	farmers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 30
 	}
@@ -4973,37 +4973,37 @@
 156 = {
 
 	aristocrats = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 	
 	officers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 	
 	clergymen = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	artisans = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 5
 	}
 
 	soldiers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 20
 	}
 
 	farmers = {
-		culture = mexican
+		culture = vinlander
 		religion = protestant
 		size = 30
 	}
@@ -5110,19 +5110,19 @@
 	farmers = {
 		culture = vinlander
 		religion = catholic
-		size = 200
+		size = 20200
 	}
 	
 	clergymen = {
 		culture = vinlander
 		religion = catholic
-		size = 10
+		size = 510
 	}
 
 	artisans = {
 		culture = vinlander
 		religion = catholic
-		size = 50
+		size = 1050
 	}
 	
 	clergymen = {
@@ -5140,7 +5140,7 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 50
+		size = 8500
 	}
 
 	farmers = {
@@ -5217,13 +5217,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 25
+		size = 10025
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 910
+		size = 10910
 	}
 
 	aristocrats = {
@@ -5301,19 +5301,19 @@
 	artisans = {
 		culture = vinlander
 		religion = catholic
-		size = 150
+		size = 10150
 	}
 
 	soldiers = {
 		culture = vinlander
 		religion = catholic
-		size = 10
+		size = 10010
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = catholic
-		size = 2130
+		size = 22130
 	}
 	
 	clergymen = {
@@ -5357,13 +5357,19 @@
 	soldiers = {
 		culture = avalonian
 		religion = protestant
-		size = 125
+		size = 10125
 	}
 
 	farmers = {
 		culture = avalonian
 		religion = protestant
 		size = 10250
+	}
+	
+	farmers = {
+		culture = vinlander
+		religion = protestant
+		size = 20250
 	}
 }
 #Champaign (36000/9000 POPS)
@@ -5395,49 +5401,49 @@
 #Peoria (100000/25000 POPS)
 166 = {
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
-		size = 250
+		size = 10250
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = protestant
 		size = 23350
 	}
 
 	clergymen = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 100
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 350
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 4000
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = vinlander
 		religion = mormon
 		size = 250
 	}
@@ -5461,11 +5467,23 @@
 		religion = catholic
 		size = 10
 	}
-
+     
+	soldiers = {
+		culture = vinlander
+		religion = catholic
+		size = 6010
+	}
+	
 	farmers = {
 		culture = avalonian
 		religion = catholic
 		size = 130
+	}
+	
+	farmers = {
+		culture = vinlander
+		religion = catholic
+		size = 20130
 	}
 	
 	bureaucrats = {
@@ -5615,7 +5633,7 @@
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 64225
+		size = 14225
 	}
 
 	clergymen = {
@@ -5659,23 +5677,23 @@
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 42925
+		size = 12925
 	}
 
 	clergymen = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_caribeno
+		culture = vinlander
 		religion = protestant
 		size = 1825
 	}
@@ -5781,31 +5799,31 @@
 	officers = {
 		culture = vinlander
 		religion = protestant
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = vinlander
 		religion = protestant
-		size = 150
+		size = 550
 	}
 
 	artisans = {
 		culture = vinlander
 		religion = protestant
-		size = 900
+		size = 10900
 	}
 
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 100
+		size = 3100
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 16825
+		size = 76825
 	}
 
 	clergymen = {
@@ -5917,7 +5935,7 @@
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 3700
+		size = 13700
 	}
 	
 	clergymen = {
@@ -5950,19 +5968,19 @@
 	artisans = {
 		culture = vinlander
 		religion = protestant
-		size = 100
+		size = 1100
 	}
 
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 25
+		size = 125
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 1850
+		size = 11850
 	}
 	
 	clergymen = {
@@ -6193,13 +6211,13 @@
 	soldiers = {
 		culture = avalonian
 		religion = protestant
-		size = 500
+		size = 8500
 	}
 
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 45775
+		size = 37775
 	}
 
 	clergymen = {
@@ -6299,13 +6317,13 @@
 	soldiers = {
 		culture = avalonian
 		religion = protestant
-		size = 500
+		size = 6500
 	}
 
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 45725
+		size = 39725
 	}
 
 	clergymen = {
@@ -6367,7 +6385,7 @@
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 49450
+		size = 29450
 	}
 
 	clergymen = {
@@ -6719,7 +6737,7 @@
 	farmers = {
 		culture = new_frankish
 		religion = protestant
-		size = 23725
+		size = 13725
 	}
 
 	aristocrats = {
@@ -6761,7 +6779,7 @@
 	farmers = {
 		culture = new_frankish
 		religion = protestant
-		size = 41825
+		size = 21825
 	}
 
 	clergymen = {
@@ -6782,11 +6800,7 @@
 		size = 850
 	}
 
-	slaves = {
-		culture = afro_frankish
-		religion = protestant
-		size = 10250
-	}
+	
 }
 #Paducah (108000/27000 POPS)
 187 = {

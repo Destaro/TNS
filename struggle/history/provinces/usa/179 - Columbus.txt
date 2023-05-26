@@ -1,5 +1,5 @@
-owner = AVA
-controller = AVA
+owner = NEW
+controller = NEW
 add_core = AVA
 trade_goods = grain
 life_rating = 35
@@ -14,3 +14,5 @@ party_loyalty = {
 }
 
 1861.1.1 = { railroad = 3 }
+
+add_core = NEW

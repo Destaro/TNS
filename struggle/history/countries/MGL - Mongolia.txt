@@ -1,12 +1,14 @@
 capital = 1468
 primary_culture = mongol
+culture = manchu
 religion = gelugpa
-government = colonial_company
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
 non_state_culture_literacy = 0.01 #Chinese
 prestige = 1
+oob = "MGL_oob.txt"
 
 # Political reforms
 slavery = no_slavery

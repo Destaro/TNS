@@ -1,6 +1,8 @@
-owner = VIN
-controller = VIN
+owner = NEW
+controller = NEW
 add_core = VIN
 trade_goods = fish
 life_rating = 35
 
+
+add_core = NEW

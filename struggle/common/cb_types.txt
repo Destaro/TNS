@@ -3910,8 +3910,9 @@ china_acquire_state = {
 	always = yes
 
 	can_use = {
-	NOT = { tag = JAP
-			        tag = KOR }
+	is_culture_group = east_asian
+	THIS = { NOT = { tag = JAP
+			        tag = KOR } }
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS
 		OR = {
@@ -3919,11 +3920,11 @@ china_acquire_state = {
 				NOT = { is_core = THIS }
 				is_core = CHI
 			}
-			is_culture_group = east_asian
-			tag = MGL
+			
+			
 		}
 		OR = {
-		tag = MGL
+		
 		THIS = {
 			NOT = { tag = LAN }
 			is_culture_group = east_asian
@@ -7488,21 +7489,24 @@ mongolia_acquire_state = {
     always = yes
 
     can_use = {
+	
+	NOT = { tag = JAP
+			        tag = KOR }
         NOT = { is_our_vassal = THIS }
         number_of_states = 2
         neighbour = THIS
         OR = {
+		
             any_owned_province = {
                 NOT = { is_core = THIS }
                 is_core = CHI
             }
-            tag = MGL
-			NOT = { tag = JAP
-			        tag = KOR }
+            primary_culture = mongol
+			
         }
         THIS = {
             OR = {
-                tag = MGL
+                primary_culture = mongol
 				NOT = { tag = JAP
 			        tag = KOR }
             }
