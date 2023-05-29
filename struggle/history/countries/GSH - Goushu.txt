@@ -1,7 +1,7 @@
 capital = 2476
-primary_culture = korean
-religion = mahayana
-government = presidential_dictatorship
+primary_culture = nankaiganese
+religion = catholic
+government = democracy
 plurality = 0.57
 nationalvalue = nv_order
 literacy = 0.40
@@ -38,15 +38,15 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = no_colonies 
 
-set_country_flag = mahayana_country
+set_country_flag = catholic_country
 set_country_flag = new_world_nation
 
-ruling_party = KOR_conservative_2
+ruling_party = JAP_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 17
-	conservative = 48
-	reactionary = 35	
+	conservative = 35
+	reactionary = 48
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

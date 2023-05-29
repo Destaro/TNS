@@ -1,6 +1,6 @@
-owner = NJP
-controller = NJP
-add_core = NJP
+owner = SBL
+controller = SBL
+add_core = SBL
 trade_goods = cattle
 terrain = plains
 life_rating = 30

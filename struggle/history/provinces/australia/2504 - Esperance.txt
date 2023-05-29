@@ -1,6 +1,7 @@
-owner = SBL
-controller = SBL
-add_core = SBL
+owner = SKG
+controller = SKG
+add_core = SKG
+add_core = GSH
 trade_goods = fruit
 terrain = dryhills
 life_rating = 30

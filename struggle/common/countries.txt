@@ -72,14 +72,18 @@ MNZ = "countries/Monza.txt"
 MTU = "countries/Mantua.txt"
 FRE = "countries/Franconia.txt"
 NTU = "countries/Northumbria.txt"
-NJP = "countries/Nankaigan.txt"
 AVA		= "countries/Avalon.txt"
 AMG		= "countries/American Mongolia.txt"
 MIN		= "countries/Ming.txt"
 SHU		= "countries/Shun.txt"
-NKR     = "countries/New Korea.txt"
-SBL     = "countries/Seobli.txt"
-SHV     = "countries/Caucasian Albania.txt"
+SHV		= "countries/Caucasian Albania.txt"
+
+### TNS Australia ###
+HOJ		= "countries/Hoju.txt"
+GSH		= "countries/Goushu.txt"
+SBL		= "countries/Seobli.txt"
+NKG		= "countries/Nankaigan.txt"
+SKG		= "countries/Seikaigan.txt"
 
 ##HFM New Nations
 #ATB	= "countries/Saxe-Altenburg.txt"

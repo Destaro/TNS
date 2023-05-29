@@ -1,5 +1,5 @@
-owner = NJP
-controller = NJP
-add_core = NJP
-trade_goods = cattle
-life_rating = 15
+owner = SBL
+controller = SBL
+add_core = SBL
+trade_goods = fruit
+life_rating = 20

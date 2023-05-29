@@ -1,4 +1,7 @@
-
+owner = NKG
+controller = NKG
+add_core = NKG
+add_core = GSH
 trade_goods = wool
 terrain = semidesert
 life_rating = 20

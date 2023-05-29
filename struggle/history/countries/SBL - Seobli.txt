@@ -1,5 +1,5 @@
-capital = 2497
-primary_culture = korean
+capital = 2483
+primary_culture = seoblian
 religion = catholic
 government = democracy
 plurality = 0.57

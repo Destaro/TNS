@@ -1,5 +1,5 @@
-owner = NJP
-controller = NJP
-add_core = NJP
+owner = SBL
+controller = SBL
+add_core = SBL
 trade_goods = grain
 life_rating = 20

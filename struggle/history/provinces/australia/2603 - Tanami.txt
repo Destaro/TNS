@@ -1,4 +1,6 @@
-add_core = NJP
+owner = SBL
+controller = SBL
+add_core = SBL
 trade_goods = cattle
 terrain = semidesert
 life_rating = 15

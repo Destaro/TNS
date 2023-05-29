@@ -1,5 +1,6 @@
-owner = NKR
-controller = NKR
-add_core = NKR
+owner = NKG
+controller = NKG
+add_core = NKG
+add_core = GSH
 trade_goods = wool
 life_rating = 35

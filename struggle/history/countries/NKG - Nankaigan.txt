@@ -1,6 +1,6 @@
-capital = 2468
+capital = 2476
 primary_culture = nankaiganese
-religion = mahayana
+religion = catholic
 government = democracy
 plurality = 0.57
 nationalvalue = nv_order

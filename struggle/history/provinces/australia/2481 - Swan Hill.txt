@@ -1,6 +1,7 @@
-owner = NKR
-controller = NKR
-add_core = NKR
+owner = NKG
+controller = NKG
+add_core = NKG
+add_core = GSH
 trade_goods = fruit
 terrain = savanna
 life_rating = 25
