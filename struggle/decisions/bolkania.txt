@@ -46,7 +46,7 @@ political_decisions = {
 			   tag = BUL		   
 			   NOT = { has_country_flag = integrate_the_lithuanians }
 			   LIT = { vassal_of = THIS }
-               BYE = { vassal_of = THIS }
+              
 			   }
 	      
 		  allow = {
@@ -63,15 +63,7 @@ political_decisions = {
 				}
 			}
 			
-          	BYE = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			}
+          
 			
 			
 			
@@ -82,8 +74,18 @@ political_decisions = {
 		  LIT = { all_core = { add_core = THIS } }
           BYE = { all_core = { add_core = THIS } }
 		  add_accepted_culture = lithuanian
-		  inherit = BYE
-		  inherit = LIT
+		 	any_country = {
+				limit = {
+					OR = {
+					tag = BYE
+					tag = LIT
+					          }
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
 		  prestige = 15
 		  badboy = 1
 		             	  
