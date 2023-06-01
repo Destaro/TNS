@@ -121,8 +121,10 @@ political_decisions = {
 	           potential = {
 			   tag = BUL		   
 			   NOT = { has_country_flag = integrate_the_eastern_slavs }
-			   KUR = { vassal_of = THIS }
-               BKV = { vassal_of = THIS }
+			 OR = {  
+			 KUR = { vassal_of = THIS }
+                         BKV = { vassal_of = THIS }
+	                             }
 			   }
 	      
 		  allow = {
@@ -131,6 +133,7 @@ political_decisions = {
 				nationalism_n_imperialism = 1
 				empiricism = 1
 				functionalism = 1
+			OR = {
 			BKV = {
 				all_core = {
 					OR = {
@@ -151,7 +154,8 @@ political_decisions = {
 					}
 				}
 			}
-			
+		 
+		    }
 			
 			
 			
@@ -162,8 +166,19 @@ political_decisions = {
 		  KUR = { all_core = { add_core = THIS } }
           BKV = { all_core = { add_core = THIS } }
 		  DON = { all_core = { add_core = THIS } }
-		  inherit = KUR
-		  inherit = BKV
+		 	any_country = {
+				limit = {
+					OR = {
+					tag = BKV
+					tag = KUR	
+					}
+					
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
 		  prestige = 5
 		  badboy = 1
 		             	  
