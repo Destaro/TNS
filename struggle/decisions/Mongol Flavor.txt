@@ -13,6 +13,7 @@ allow = {
 
 effect = { 
  prestige = 30
+ add_accepted_culture = beifaren
  set_country_flag = yuan_restoration
  CHI = { all_core = { add_core = THIS } }
  XBI = { all_core = { add_core = THIS } }
