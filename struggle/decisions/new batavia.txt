@@ -2,13 +2,12 @@ political_decisions = {
 claim_the_texans = {
 		potential = {
 		NOT = { has_country_flag = claim_the_texans }
+		owns = 205 
 			OR = {
 			tag = ULA
-			
-			tag = AVA
-			tag = VIN
-			AND = { owns = 205 }
-			       
+			tag = USA
+			tag = CAN
+			tag = QUE
 			}
 		}	
 		allow = {
@@ -45,13 +44,12 @@ claim_the_texans = {
 	ultimatum_to_the_texans = {
 		potential = {
 		NOT = { has_country_flag = ultimatum_to_the_texans }
+			owns = 205 
 			OR = {
 			tag = ULA
-			
-			tag = AVA
-			tag = VIN
-			AND = { owns = 205 }
-			       
+			tag = USA
+			tag = CAN
+			tag = QUE
 			}
 		}	
 		allow = {
