@@ -954,6 +954,7 @@
 	
 restore_the_baltic = {
      potential = {
+     exists = LIT
 	 OR = { 
 	 tag = SCA 
 	 tag = SWE
@@ -969,6 +970,7 @@ restore_the_baltic = {
 	 
 	 effect = {
 	 BUL = { release_vassal = LIT }
+	 BUL = { release_vassal = BYE }
 	 SCA = { create_vassal = LAT }
 	 SCA = { create_vassal = LIT }
 	 
