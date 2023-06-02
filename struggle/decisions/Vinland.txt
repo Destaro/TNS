@@ -153,7 +153,7 @@ form_vinland_federation = {
 	OR = {
 	       tag = AVA
 		   }
-		   NOT = { has_country_flag = claim_the_breakaway_nordic_nordic_colony }
+		   NOT = { has_country_flag = claim_the_breakaway_nordic_colony }
 		                }
 	
 	allow = { 
