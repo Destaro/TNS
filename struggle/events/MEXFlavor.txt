@@ -245,7 +245,7 @@ country_event = {
 country_event = {
 
 	id = 44805
-	title = "EVTNAME44805" #Antonio López de Santa Anna
+	title = "EVTNAME44805" #Antonio LÃ³pez de Santa Anna
 	desc = "EVTDESC44805"
 	picture = "antonio_lopez_de_santa_ana"
 
@@ -1427,7 +1427,7 @@ country_event = {
 	option = {
 		name = "EVTOPT566991A"
 		
-		TEX = { add_casus_belli = { target = ULA type = conquest_any months = 24 } }
+		TEX = { add_casus_belli = { target = FROM type = conquest_any months = 24 } }
 		
 		ai_chance = { factor = 0.4 }
 	}
@@ -1438,7 +1438,7 @@ country_event = {
 			limit = { culture = texan }
 			militancy = 8
 		}
-		ULA = { inherit = TEX } 
+		FROM = { inherit = TEX } 
 		ai_chance = { factor = 0.6 }
 	}
 		
