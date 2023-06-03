@@ -318,7 +318,7 @@ political_decisions = {
 					exists = yes
 					ai = yes
 				}
-				THIS = { inherit = POR }
+				THIS = { inherit = LST }
 			}
 			random_country = {
 				limit = {
@@ -334,7 +334,7 @@ political_decisions = {
 					exists = yes
 					ai = yes
 				}
-				THIS = { inherit = CAT }
+				THIS = { inherit = VND }
 			}
 			random_country = {
 				limit = {
@@ -367,7 +367,7 @@ political_decisions = {
 					exists = yes
 					ai = yes
 				}
-				THIS = { inherit = BSQ }
+				THIS = { inherit = ANU }
 			}
 			random_country = {
 				limit = {
@@ -384,7 +384,7 @@ political_decisions = {
 					exists = yes
 					ai = yes
 				}
-				THIS = { inherit = BSQ }
+				THIS = { inherit = GLC }
 			}
 			random_country = {
 				limit = {
