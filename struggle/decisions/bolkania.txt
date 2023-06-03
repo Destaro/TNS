@@ -80,6 +80,7 @@ political_decisions = {
 					tag = BYE
 					tag = LIT
 					          }
+							  in_sphere = THIS
 					NOT = {
 						tag = THIS
 					}
@@ -172,7 +173,7 @@ political_decisions = {
 					tag = BKV
 					tag = KUR	
 					}
-					
+					in_sphere = THIS
 					NOT = {
 						tag = THIS
 					}
