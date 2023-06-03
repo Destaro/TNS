@@ -6,4 +6,3 @@ trade_goods = iron
 terrain = boreal
 life_rating = 10
 
-add_core = SCA
