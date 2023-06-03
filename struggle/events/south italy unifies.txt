@@ -105,7 +105,7 @@ country_event = {
 	picture = "orazi"
 	fire_only_once = yes
 	trigger = {
- NOT = { ai = yes }	
+ NOT = { ai = yes }
 	OR = {
 	tag = CSZ
 	tag = AVR
@@ -153,7 +153,7 @@ country_event = {
 	picture = "orazi"
 	
 	fire_only_once = yes
-	trigger = { 
+	trigger = {
 	
 	OR = {
 	tag = CSZ
@@ -812,7 +812,7 @@ country_event = {
 	title = "EVTNAME299997" 
 	desc = "EVTDESC299997"
 	picture = "italian_war_of_independence_won"
-        major = yes
+    
 
 	fire_only_once = yes
 	trigger = {
@@ -929,5 +929,288 @@ country_event = {
 			}
 		}
 		ai_chance = { factor = 30 }
+	}
+}
+
+## Italic Council of National Unification ##
+
+country_event = {
+	id = 20091
+	title = "EVTNAME20091" #A united Italy?
+	desc = "EVTDESC20091" #
+	picture = "roman_republic"
+    fire_only_once = yes
+	
+		trigger = {
+			tag = SIC
+			year = 1845
+			SIC = {
+				is_greater_power = yes
+			}
+			LOM = {
+				is_greater_power = yes
+			}
+				OR = {
+					target = SIC
+					year = 1845
+					SIC = {
+					is_greater_power = yes
+					}
+					PDN = {
+					is_greater_power = yes
+					}
+				}
+		}
+		
+		option = {
+		name = "EVTOPTA20091A" #Ask Cisalpine Duchy if they are alright with the idea
+		LOM = { country_event = 20092 }
+		set_global_flag = italic_council
+		ai_chance = { factor = 95 }
+		}
+	
+		option = {
+			name = "EVTOPTA20091B" #Forget about it
+			ai_chance = { factor = 5 }
+		}
+}
+
+country_event = {
+	id = 20092
+	title = "EVTNAME20092" #Come to terms with the Southeners?
+	desc = "EVTDESC20092" #
+	picture = "roman_republic"
+    fire_only_once = yes
+	
+		trigger = {
+			tag = LOM
+			has_global_flag = italic_council
+			SIC = {
+				is_greater_power = yes
+			}
+			LOM = {
+				is_greater_power = yes
+			}
+				OR = {
+					SIC = {
+					is_greater_power = yes
+					}
+					PDN = {
+					is_greater_power = yes
+					}
+				}
+		}
+		
+		option = {
+		name = "EVTOPTA20092A" #Let's do it
+		SIC = { country_event = 20093 }
+		set_global_flag = italic_council_confirmed
+		ai_chance = { factor = 100 }
+		}
+	
+		option = {
+			name = "EVTOPTA20092B" #Never!
+			SIC = { country_event = 20094 }
+			set_global_flag = italic_council_failed
+			ai_chance = { factor = 0 }
+		}
+}
+
+country_event = {
+	id = 20093
+	title = "EVTNAME20093" #Milan accepts
+	desc = "EVTDESC20093" #
+	picture = "roman_republic"
+    fire_only_once = yes
+	
+		trigger = {
+			tag = SIC
+			has_global_flag = italic_council_confirmed
+			SIC = {
+				is_greater_power = yes
+			}
+			LOM = {
+				is_greater_power = yes
+			}
+				OR = {
+					SIC = {
+					is_greater_power = yes
+					}
+					PDN = {
+					is_greater_power = yes
+					}
+				}
+		}
+		
+		option = {
+		name = "EVTOPTA20093A" #The Council shall be done in Ravenna!
+		set_global_flag = italic_council_success
+		}
+}
+
+country_event = {
+	id = 20094
+	title = "EVTNAME20094" #Milan refuses
+	desc = "EVTDESC20094" #
+	picture = "roman_republic"
+    fire_only_once = yes
+	
+		trigger = {
+			tag = SIC
+			has_global_flag = italic_council_failed
+			SIC = {
+				is_greater_power = yes
+			}
+			LOM = {
+				is_greater_power = yes
+			}
+				OR = {
+					SIC = {
+					is_greater_power = yes
+					}
+					PDN = {
+					is_greater_power = yes
+					}
+				}
+		}
+		
+		option = {
+		name = "EVTOPTA20094A" #Bummer
+		}
+}
+
+country_event = {
+	id = 20095
+	title = "EVTNAME20095" #Italic Council of National Unification
+	desc = "EVTDESC20095" #
+	major = yes
+    fire_only_once = yes
+	
+		trigger = {
+			tag = SIC
+			OR = {
+				tag = LOM
+				AND = {
+					war = no
+					is_vassal = no
+					is_disarmed = no
+					has_global_flag = italic_council_success
+				}
+			}
+		}
+		
+		option = {
+		name = "EVTOPTA20095A" #Today we have shown the entire world the prowess of Italy and the Italian people!
+		add_accepted_culture = south_italian
+		add_accepted_culture = north_italian
+		add_accepted_culture = venetian
+		add_accepted_culture = dalmatian
+		random_owned = { 
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = french } }
+			owner = { remove_accepted_culture = french }
+		}
+		random_owned = { 
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = south_german } }
+			owner = { remove_accepted_culture = south_german }
+		}
+		random_owned = { 
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = british } }
+			owner = { remove_accepted_culture = british }
+		}
+		random_owned = { 
+			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
+			owner = { remove_accepted_culture = polish }
+		}
+		random_owned = { 
+			limit = { owner = { primary_culture = polish accepted_culture = south_german } } owner = { remove_accepted_culture = south_german }
+		}
+		random_owned = { 
+			limit = { owner = { primary_culture = polish accepted_culture = north_german } } owner = { remove_accepted_culture = north_german }
+		}
+		random_owned = { 
+			limit = { owner = { primary_culture = polish accepted_culture = czech } } owner = { remove_accepted_culture = czech }
+		}
+		all_core = { remove_core = THIS }
+		change_tag = culture
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+					tag = PAP
+					tag = SMR
+				}
+				NOT = { has_country_flag = post_colonial_country }
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = 11101
+		}
+		random_country = {
+			limit = {
+				tag = PAP
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -200
+			}
+			leave_alliance = THIS
+			any_owned = {
+				limit = {
+					NOT = { province_id = 3625 }
+				}
+				secede_province = THIS
+			}
+		}
+		random_country = {
+			limit = { is_sphere_leader_of = PAP }
+			set_country_flag = objects_to_italy
+			diplomatic_influence = { who = PAP value = -200 }
+			leave_alliance = PAP
+		}
+		any_country = {
+			limit = { alliance_with = PAP }
+			set_country_flag = objects_to_italy
+			diplomatic_influence = { who = PAP value = -100 }
+			leave_alliance = PAP
+		}
+		any_country = {
+			limit = {
+				NOT = { is_culture_group = italian }
+				exists = yes
+				OR = {
+					has_country_flag = objects_to_italy
+					primary_culture = french
+					tag = AUS
+					tag = KUK
+					AND = {
+						neighbour = ITA
+						is_greater_power = yes
+					}
+				}
+			}
+			country_event = { id = 96165 days = 20 }
+		}
+		inherit = SIC
+		inherit = LOM
+		prestige = 15
+		government = italian_confederation
+		capital = 749
+		749 = {
+			add_province_modifier = {
+			name = baby_boom
+			duration = 60
+			}
+		}
+		ITA = {
+			add_country_modifier = {
+			name = economic_boom
+			duration = 120
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
 	}
 }
