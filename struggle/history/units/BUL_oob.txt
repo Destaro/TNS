@@ -1,3 +1,29 @@
+PRD = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+LIT = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BYE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BKV = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+KUR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
 leader = {
 	name = "A.E. Ramsay"
 	date = 1828.1.1
