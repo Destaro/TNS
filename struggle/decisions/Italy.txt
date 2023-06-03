@@ -1364,4 +1364,47 @@ political_decisions = {
 		}
 	}
 	
+	centralize_italian_confederation = {
+		picture = italian_islands
+		potential = {
+		has_global_flag = italic_council_success
+		tag = ITA
+		}
+	
+		allow = {
+		is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 749
+			owns = 754
+			owns = 762
+			owns = 744
+			owns = 726
+			
+		}
+		
+		effect = {
+			set_global_flag = centralized_italy
+			prestige = 15
+			badboy = -5
+			government = prussian_constitutionalism
+			nationalvalue = nv_productivity
+			election = yes
+			
+			add_country_modifier = {
+			name = liberal_agitation
+			duration = 60
+			}
+			
+			add_country_modifier = {
+			name = economic_boom
+			duration = 120
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+			}
+	}
+	
 }

@@ -1,93 +1,92 @@
-;;;;;;;;;;;;;x,,
-welsh;Brython;;;;;;;;;;;;;x,,
-scottish;Albidosaek;;;;;;;;;;;;;x,,
-wallonian;Walloon;;;;;;;;;;;;x,,
-montenegrin;Montenegrin;;;;;;;;;;;;;x,,
-faroese;Faroese;;;;;;;;;;;;;x,,
-galician;Galician;;;;;;;;;;;;;x,,
-volga_german;Eastern German;;;;;;;;;;;;;x,,
-arpitan;Arpitan;;;;;;;;;;;;;x,,
-old_persian;Parsig;;;;;;;;;;;;x,,
-avadhi;Awadhi;;;;;;;;;;;;x,,
-hanhui;Hui;;;;;;;;;;;;;x,,
-texan;Tejano;;;;;;;;;;;;;x,,
-siebenburger;Transylvanian-Saxon;;;;;;;;;;;;;x,,
-jerriais;Jerriais;;;;;;;;;;;;;x,,
-anglo_canadian;Nye Aenglisc;Nye Aenglisc;Nye Aenglisc;;Nye Aenglisc;;;;;;;;;x;;;;,,
-french_canadian;French-Canadien;Franco-canadien;Frankokanadisch;;Franco-canadiense;;;;;;;;;x;;;;,,
-anglo_indian;Anglo-Indian;;;;;;;;;;;;;x,,
-pan_french_nationalism;Pan-French Nationalism;;;;;;;;;x;;;;,,
-;;;;;;;;;;;;;x,,
-EVTDESC72669;The kingdom of the Franks has long been disunited, but $SPHEREMASTER$ has finally decided that this is no longer the case. Their ruler has been crowned king of the Franks, and our people are clambering onto unite with them.;;;;;;;;;;;;;x
-EVTNAME72669;Francia, Reunited.;;;;;;;;;;;;;x,
-EVTOPTA72669;We don't exactly have a choice but to join them..;;;;;;;;;;;;;x,,
-unite_francia_title;Unite Francia;;;;;;;;;;;;;,,
-unite_francia_desc;The kingdom of the Franks has not been united since the viking incursions in the 10th century, but we are in the position to take the crown. Delegations will be sent out to the petty kings and dukes of the land with a demand of subjugation. Francorum regnum iterum novum erit.;;;;;;;;;;;;;,
-low_saxon;Lower Saxon;x,,
-high_saxon;Upper Saxon;x,,
-baltic_german;East German;x,,
-allemanic;Allemanic;x,,
-franconian;Franconian;x,,
-bavarian;Bavarian;x,,
-form_germany_title;Form Germany;x,,
-form_germany_desc;Our fatherland has been long divided. By combining the various Germanic peoples of Central Europe, we will forge a new German nation. Come, Germans!;x
-AIN;Ainu;x,,
-AIN_ADJ;Ainu;x,,
-AIN_absolute_monarchy;Ainu Mosir;x,,
-AIN_conservative;Conservatist Faction;x,,
-AIN_liberal;Reformist Faction;x,,
-AIN_socialist;Progressive Faction;x,,
-AIN_communist;Communist Faction;x,,
-AIN_reactionary;Nationalist Faction;x,,
-AIN_anarcho_liberal;Radical Faction;x,,
-AIN_fascist;Fascist faction;x,,
-MIN;The Great Ming;x,,
-MIN_ADJ;Ming;x,,
-SHU;The Great Shun;x,,
-SHU_ADJ;Shun;x,,
-HOJ;Hoju;x,,
-HOJ_ADJ;Hojuan;x,,
-GSH;Goushu;x,,
-GSH_ADJ;Goushuan;x,,
-SBL;Seobli Republic;,,
-SBL_ADJ;Seoblian;x,,
-NKG;Nankaigan;x,,
-NKG_ADJ;Nankaiganese;x,,
-SKG;Seikaigan;x,,
-SKG_ADJ;Seikaiganese;x,,
-seoblian;Seoblian;x,,
-nankaiganese;Nankaiganese;x,,
-seikaiganese;Seikaiganese;x,,
-JAN;Jan Mayen;x,,
-JAN_ADJ;Jan Mayen;x,,
-JAN_reactionary;Strid Partiet;x,,
-JAN_liberal;Venstre;x,,
-JAN_conservative;Høyre;x,,
-JAN_socialist;Arbeiderparti;x,,
-JAN_anarcho_liberal;Radicals;x,,
-JAN_communist;Communists;x,,
-JAN_fascist;Nasjonal Samling;x,,
-NORMAL_WAR_RUTHENIA_UNIFICATION;$ORDER$Reunification of Ruthenia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;,,
-ruthenia_acquire_state;Ruthene Reunification;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-ruthenia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-ruthenia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-ruthenia_acquire_state_desc;Acquire a Ruthene state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,
-NORMAL_WAR_PERSIA_UNIFICATION;$ORDER$Parvizid war of reclamation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;,,
-persia_acquire_state;Persia;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-persia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-persia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-persia_acquire_state_desc;Acquire a Persian state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,
-NORMAL_WAR_PARTHIA_UNIFICATION;$ORDER$Parthian war of reclamation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;,,
-parthia_acquire_state;Persia;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-parthia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-parthia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-parthia_acquire_state_desc;Acquire a Persian state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,
-NORMAL_WAR_FRANKIA_UNIFICATION;$ORDER$Frankish war of Unification;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;,,
-frankia_acquire_state;Frankia;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-frankia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-frankia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-frankia_acquire_state_desc;Acquire a Frankish state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,
-mongolia_acquire_state;China;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-mongolia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-mongolia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,
-mongolia_acquire_state_desc;Acquire a Chinese state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,
+;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+welsh;Brython;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+scottish;Albidosaek;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+wallonian;Walloon;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+montenegrin;Montenegrin;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faroese;Faroese;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+galician;Galician;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+volga_german;Eastern German;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+arpitan;Arpitan;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+old_persian;Parsig;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+avadhi;Awadhi;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+hanhui;Hui;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+texan;Tejano;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+siebenburger;Transylvanian-Saxon;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+jerriais;Jerriais;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+anglo_canadian;Nye Aenglisc;Nye Aenglisc;Nye Aenglisc;;Nye Aenglisc;;;;;;;;;x;;;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+french_canadian;French-Canadien;Franco-canadien;Frankokanadisch;;Franco-canadiense;;;;;;;;;x;;;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+anglo_indian;Anglo-Indian;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+pan_french_nationalism;Pan-French Nationalism;;;;;;;;;x;;;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+italian_confederation;Italian Confederacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+italian_confederation_ruler;King and President;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ITA_italian_confederation;Italian Confederation;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+AVA_italian_confederation_ADJ;FILL;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC72669;The kingdom of the Franks has long been disunited, but $SPHEREMASTER$ has finally decided that this is no longer the case. Their ruler has been crowned king of the Franks, and our people are clambering onto unite with them.;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME72669;Francia, Reunited.;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTOPTA72669;We don't exactly have a choice but to join them..;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+unite_francia_title;Unite Francia;;;;;;;;;;;;;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+unite_francia_desc;The kingdom of the Franks has not been united since the viking incursions in the 10th century, but we are in the position to take the crown. Delegations will be sent out to the petty kings and dukes of the land with a demand of subjugation. Francorum regnum iterum novum erit.;;;;;;;;;;;;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+low_saxon;Lower Saxon;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+high_saxon;Upper Saxon;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+baltic_german;East German;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+allemanic;Allemanic;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+franconian;Franconian;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bavarian;Bavarian;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+form_germany_title;Form Germany;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+form_germany_desc;Our fatherland has been long divided. By combining the various Germanic peoples of Central Europe, we will forge a new German nation. Come, Germans!;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN;Ainu;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_ADJ;Ainu;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_absolute_monarchy;Ainu Mosir;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_conservative;Conservatist Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_liberal;Reformist Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_socialist;Progressive Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_communist;Communist Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_reactionary;Nationalist Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_anarcho_liberal;Radical Faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AIN_fascist;Fascist faction;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MIN;The Great Ming;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MIN_ADJ;Ming;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SHU;The Great Shun;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SHU_ADJ;Shun;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NKR;Hoju;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NKR_ADJ;Hojuan;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SBL;Seobli;,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SBL_ADJ;Seoblish;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MCK;Aobu Republic;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MCK_ADJ;Aobuan;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NJP;Nankaigan;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NJP_ADJ;Nankaiganese;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN;Jan Mayen;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_ADJ;Jan Mayen;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_reactionary;Strid Partiet;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_liberal;Venstre;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_conservative;Høyre;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_socialist;Arbeiderparti;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_anarcho_liberal;Radicals;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_communist;Communists;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JAN_fascist;Nasjonal Samling;x,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NORMAL_WAR_RUTHENIA_UNIFICATION;$ORDER$Reunification of Ruthenia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+ruthenia_acquire_state;Ruthene Reunification;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ruthenia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ruthenia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ruthenia_acquire_state_desc;Acquire a Ruthene state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NORMAL_WAR_PERSIA_UNIFICATION;$ORDER$Unification of Eran;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+persia_acquire_state;Eranian Unification;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+persia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+persia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+persia_acquire_state_desc;Acquire a Persian state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NORMAL_WAR_PARTHIA_UNIFICATION;$ORDER$ Conquest of Eran;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+parthia_acquire_state;Eranian Unification;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+parthia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+parthia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+parthia_acquire_state_desc;Acquire a Persian state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NORMAL_WAR_FRANKIA_UNIFICATION;$ORDER$Frankish war of Unification;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+frankia_acquire_state;Unify Francia;Prendre ?at;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+frankia_acquire_state_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+frankia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+frankia_acquire_state_desc;Acquire a Frankish state.;Prendre un ??at? ennemi;Erobern Sie einen feindlichen ?Staat?.;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mongolia_acquire_state;China;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mongolia_acquire_state_short;Acquire $STATE$;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mongolia_acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mongolia_acquire_state_desc;Acquire a Chinese state.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -162,6 +162,21 @@ french_bourbon = {
 	appoint_ruling_party = yes
 }
  
+italian_confederation = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+}
+ 
 lotharingian_duchy = {
 	conservative = yes
 	reactionary = yes
@@ -176,8 +191,6 @@ autonomous_dependency = {
 	#which ideology of parties.
 	liberal = yes
 	anarcho_liberal = yes
-	social_liberal = yes
-	market_liberal = yes
 	socialist = yes
 	conservative = yes
 	reactionary = yes
