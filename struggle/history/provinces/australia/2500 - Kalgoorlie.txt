@@ -1,7 +1,4 @@
-owner = SKG
-controller = SKG
 add_core = SKG
-add_core = GSH
 trade_goods = grain
 terrain = dryhills
 life_rating = 15

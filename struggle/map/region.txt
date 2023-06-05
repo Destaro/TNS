@@ -1586,15 +1586,7 @@ ARG_2398 = { 2131 2398 2399 2400 2396 } #Patagonia Meridional
 
 ### Australia & New Zealand
 
-ENG_2497 = { 2497 2498 2499 3872 3873 3874 3875 } #Western Australia part 1
-
-ENG_2500 = { 2501 3878 3880 3882 2601 } #Western Australia part 2
-
-ENG_2503 = { 2500 2503 2605 2504 2502 } #Western Australia part 3
-
-ENG_2601 = { 2602 3876 3877 3879 } #Western Australia part 4
-
-ENG_2505 = { 2505 2506 2603 3881 3883 3884 3885 } #Northern Territory
+ENG_2505 = { 2505 2506 2507 2603 3878 } #Northern Territory
 
 ENG_2509 = { 2508 2509 2510 2511 2512 2571 } #North Island - Aotearoa
 
@@ -1604,21 +1596,29 @@ R_TASMANIA = { 2482 3348 } #Tasmania
 
 R_VICTORIA = { 2476 2477 2478 2479 3345 3346 } #Victoria
 
-R_UPPER_MUR = { 2473 2480 2519 3272 } #Upper Murray Region
+R_UPPER_MUR = { 2473 2480 3272 3884 } #Upper Murray Region
 
-R_LOWER_MUR = { 2481 2493 3353 } #Lower Murray Region
+R_LOWER_MUR = { 2481 2493 3353 3885 } #Lower Murray Region
 
-R_SOUTH_AUS = { 2475 2491 2492 2494 } #South Australia
+R_SOUTH_AUS = { 2475 2491 2492 2494 2495 2496 3879 } #South Australia
 
-R_CENTRAL_AUS = { 2495 2496 2507 } #Western South Australia
+R_SYDNEY = { 2468 2469 2471 3357 } #Costal New South Wales around R_SYDNEY
 
-R_SYDNEY = { 2468 2471 2472 3344 3357 } #Costal New South Wales south from Sydney
+R_CANBERRA = { 2472 3344 3877 3881 3883 }
 
-R_NEW_ENG = { 2469 2470 2474 3349 3351 3352 } #New England (Australia)
+R_NEW_ENG = { 2470 2474 3349 3351 3352 } #New England (Australia)
 
 R_SOUTH_QLD = { 2483 2484 2485 2486 2489 2490 3358 } #South and Central Queensland
 
 R_NORTH_QLD = { 2487 2488 2604 3354 } #North Queensland
+
+R_KIM_PIL = { 2501 2502 2601 2602 } # The Kimberley and the Pilbara
+
+R_SOUTH_WA = { 2498 3872 3875 3880 } # Western Australia southeast of Perth
+
+R_PERTH = { 2497 2499 3873 3874 3876 }
+
+R_AURALIA = { 2500 2503 2504 2605 3882 }
 
 
 
@@ -1626,7 +1626,7 @@ R_NORTH_QLD = { 2487 2488 2604 3354 } #North Queensland
 
 #AST_2244 = { 2244 2406 } #Christmas & Cocos Islands
 
-SPA_610 = { 610 2579 2518 2522 } #Caroline Islands
+SPA_610 = { 610 2579 2518 2519 2522 } #Caroline Islands
 
 HAW_658 = { 658 2524 2526 2623 } #Hawaiian Islands
 

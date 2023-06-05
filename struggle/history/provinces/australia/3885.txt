@@ -1,5 +1,6 @@
-owner = SBL
-controller = SBL
-add_core = SBL
+owner = NKG
+controller = NKG
+add_core = NKG
+add_core = GSH
 trade_goods = fruit
-life_rating = 20
+life_rating = 35
