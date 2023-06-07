@@ -1,0 +1,32 @@
+political_decisions = {
+	manifest_destiny_australia = {
+		potential = {
+			OR = {
+				tag = GSH
+				tag = HOJ
+			}			
+			NOT = {
+				has_country_flag = manifest_destiny_australia
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			ENG_2509 = { add_core = THIS }	# North Island
+			ENG_2513 = { add_core = THIS }	# South Island
+			AST_1097 = { add_core = THIS }	# New Caledonia
+			AST_2528 = { add_core = THIS }	# Southern PNG
+			GER_2530 = { add_core = THIS }	# Northern PNG
+			AST_2534 = { add_core = THIS }	# Solomon Islands
+			NET_1451 = { add_core = THIS }	# Western New Guinea
+			set_country_flag = manifest_destiny_australia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

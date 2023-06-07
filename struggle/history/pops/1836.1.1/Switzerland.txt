@@ -770,36 +770,3 @@
 		size = 14550
 	}
 }
-
-#Brig (POPS taken from Sitten)
-3272 = {
-	aristocrats = {
-		culture = manchu
-		religion = mahayana
-		size = 150
-	}
-
-	clergymen = {
-		culture = manchu
-		religion = mahayana
-		size = 90
-	}
-	
-	artisans = {
-		culture = manchu
-		religion = mahayana
-		size = 550
-	}
-	
-	soldiers = {
-		culture = manchu
-		religion = mahayana
-		size = 1100
-	}
-	
-	farmers = {
-		culture = manchu
-		religion = mahayana
-		size = 11135
-	}
-}

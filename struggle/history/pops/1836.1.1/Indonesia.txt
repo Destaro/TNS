@@ -4212,5 +4212,40 @@
 		religion = animist
 		size = 32450
 	}
+}
+3347 = {
+	aristocrats = {
+		culture = japanese_creole
+		religion = mahayana
+		size = 150
+	}
+	
+	clergymen = {
+		culture = japanese_creole
+		religion = mahayana
+		size = 100
+	}
 
+	artisans = {
+		culture = japanese_creole
+		religion = mahayana
+		size = 750
+	}
+
+	soldiers = {
+		culture = japanese_creole
+		religion = mahayana
+		size = 1300
+	}
+	farmers = {
+		culture = japanese_creole
+		religion = shinto
+		size = 17000
+	}
+	
+	aristocrats = {
+		culture = japanese_creole
+		religion = shinto
+		size = 1000
+	}
 }

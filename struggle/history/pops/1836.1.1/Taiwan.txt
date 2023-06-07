@@ -294,32 +294,6 @@
 	
 }
 
-#Inner Taiwan
-3348 = {
-	farmers = {
-		culture = taiwanese
-		religion = animist
-		size = 17000
-	}
-	
-	slaves = {
-		culture = taiwanese
-		religion = animist
-		size = 20000
-	}
-	
-	soldiers = {
-		culture = taiwanese
-		religion = animist
-		size = 5000
-	}
-	
-	aristocrats = {
-		culture = taiwanese
-		religion = animist
-		size = 1000
-	}
-}
 3349 = {
 	farmers = {
 		culture = taiwanese
