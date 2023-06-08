@@ -21,8 +21,8 @@ potential = {
 
 reclaim_ocitania = {
  potential = {
-             
-			tag = FRC
+			
+			OR = { tag = ORL tag = FRC }
 			
 			
          NOT = {
