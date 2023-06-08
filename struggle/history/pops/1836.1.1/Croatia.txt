@@ -526,49 +526,49 @@
 	}
 
 	clergymen = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 4625
 	}
 
 	clergymen = {
-		culture = czech
+		culture = dalmatian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = czech
+		culture = dalmatian
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = czech
+		culture = dalmatian
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = czech
+		culture = dalmatian
 		religion = catholic
 		size = 4650
 	}

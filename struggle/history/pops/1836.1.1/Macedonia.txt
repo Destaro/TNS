@@ -326,80 +326,80 @@
 	}
 	
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 200
 	}
 	
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 110
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 225
 	}
 	
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 2965
 	}
 	
 	farmers = {
-		culture = serb
-		religion = sunni
+		culture = aromanian
+		religion = orthodox
 		size = 500
 	}
 	
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 6000
 	}
 
 	aristocrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1500
 	}
 
 	bureaucrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 225
 	}
 
 	officers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 175
 	}
 
 	clergymen = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1300
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1975
 	}
 	

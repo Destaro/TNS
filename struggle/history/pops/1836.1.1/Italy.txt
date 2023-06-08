@@ -3303,8 +3303,8 @@
 	}
 
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = copt
+		religion = coptic
 		size = 700
 	}
 
@@ -3375,14 +3375,14 @@
 	}
 
 	soldiers = {
-		culture = maghrebi
-		religion = sunni
+		culture = armenian
+		religion = catholic
 		size = 2337
 	}
 
 	officers = {
-		culture = maghrebi
-		religion = sunni
+		culture = armenian
+		religion = catholic
 		size = 370
 	}
 

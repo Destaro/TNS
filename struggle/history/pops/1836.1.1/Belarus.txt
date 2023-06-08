@@ -282,14 +282,14 @@
 	}
 
 	soldiers = {
-		culture = tatar
-		religion = sunni
+		culture = ukrainian
+		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = tatar
-		religion = sunni
+		culture = ukrainian
+		religion = orthodox
 		size = 1500
 	}
 

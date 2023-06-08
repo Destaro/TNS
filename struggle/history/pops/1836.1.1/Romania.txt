@@ -2062,7 +2062,7 @@
 	
 	farmers = {
 		culture = tatar
-		religion = sunni
+		religion = manichaeism
 		size = 8000
 	}
 
@@ -2145,7 +2145,7 @@
 	
 	farmers = {
 		culture = tatar
-		religion = sunni
+		religion = manichaeism
 		size = 6000
 	}
 	
@@ -2229,43 +2229,43 @@
 
 	aristocrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 75
 	}
 
 	officers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 13500
 	}
 	
@@ -2277,9 +2277,8 @@
 }
 #Mangalia (128000/32000 POPS)  
 3492 = {
-	
 	aristocrats = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 100
 	}
@@ -2297,19 +2296,19 @@
 	}
 	
 	clergymen = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 550
 	}
 
 	farmers = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 12050 
 	}
@@ -2347,48 +2346,48 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 400 
+		size = 4000
 	}
 
 	aristocrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 75
 	}
 
 	officers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	soldiers = {
-		culture = aromanian
-		religion = sunni
+		culture = greek
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = aromanian
-		religion = sunni
+		culture = greek
+		religion = orthodox
 		size = 13500
 	}
 	
@@ -2475,43 +2474,43 @@
 
 	aristocrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 75
 	}
 
 	officers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 13500
 	}
 	
@@ -2556,31 +2555,31 @@
 
 	aristocrats = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 150 
 	}
 
 	clergymen = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 200 
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 9600 
 	}
 	
@@ -2637,19 +2636,19 @@
 
 	artisans = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 200 
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = sunni
+		religion = orthodox
 		size = 9600 
 	}
 	

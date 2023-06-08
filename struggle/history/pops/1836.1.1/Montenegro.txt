@@ -138,31 +138,31 @@
 
 	aristocrats = {
 		culture = dalmatian
-		religion = sunni
+		religion = catholic
 		size = 250
 	}
 
 	clergymen = {
 		culture = dalmatian
-		religion = sunni
+		religion = catholic
 		size = 25
 	}
 
 	artisans = {
 		culture = dalmatian
-		religion = sunni
+		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
 		culture = dalmatian
-		religion = sunni
+		religion = catholic
 		size = 125
 	}
 
 	farmers = {
 		culture = dalmatian
-		religion = sunni
+		religion = catholic
 		size = 5825
 	}
 }

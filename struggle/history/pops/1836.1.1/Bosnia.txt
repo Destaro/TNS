@@ -3,50 +3,50 @@
 #Sarajevo (148000/37000 POPS)
 783 = {
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = albanian
+		religion = catholic
 		size = 500
 	}
 
 	aristocrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 275
 	}
 
 	officers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 225
 	}
 	
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 1200
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 34775
 	}
 	
@@ -224,31 +224,31 @@
 785 = {
 	aristocrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 500
 	}
 	
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 800
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 4500
 	}
 	
@@ -304,31 +304,31 @@
 786 = {
 	aristocrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 700
 	}
 	
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 1150
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 16975
 	}
 	
@@ -396,31 +396,31 @@
 787 = {
 	aristocrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 400
 	}
 	
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 600
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 18925
 	}
 
@@ -892,37 +892,37 @@
 
 	aristocrats = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 	
 	officers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 2500
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 3000
 	}
 	
@@ -952,7 +952,7 @@
 	
 	farmers = {
 		culture = gypsy
-		religion = sunni
+		religion = manichaeism
 		size = 300
 	}
 
@@ -1000,42 +1000,42 @@
 	
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 16000
 	}
 	
 	artisans = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 	farmers = {
 		culture = albanian
-		religion = sunni
+		religion = catholic
 		size = 200
 	}
 }
