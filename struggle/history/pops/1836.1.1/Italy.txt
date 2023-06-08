@@ -3247,6 +3247,7 @@
 		religion = catholic
 		size = 2200
 	}
+	
 	aristocrats = {
 		culture = sephardic
 		religion = jewish
@@ -3280,7 +3281,7 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 1777
+		size = 7777
 	}
 
 
@@ -3295,31 +3296,67 @@
 		religion = catholic
 		size = 2000
 	}
+	
+	farmers = {
+		culture = greek
+		religion = catholic
+		size = 4100
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = catholic
+		size = 700
+	}
 
 	officers = {
 		culture = vandalic
 		religion = catholic
 		size = 200
 	}
+	
+	artisans = {
+		culture = copt
+		religion = coptic
+		size = 2250
+	}
 
 	soldiers = {
 		culture = copt
 		religion = coptic
-		size = 700
+		size = 1500
+	}
+	
+	farmers = {
+		culture = greek
+		religion = catholic
+		size = 7100
+	}	
+
+	artisans = {
+		culture = greek
+		religion = catholic
+		size = 4100
 	}
 
 	soldiers = {
 		culture = visigothic
 		religion = catholic
-		size = 1700
+		size = 2000
 	}
 
 	officers = {
 		culture = visigothic
 		religion = catholic
-		size = 170
+		size = 200
 	}
 	
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 7100
+	}	
+
 	farmers = {
 		culture = visigothic
 		religion = catholic
@@ -3335,7 +3372,7 @@
 	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 2200
+		size = 7200
 	}
 	
 	farmers = {
@@ -3353,7 +3390,7 @@
 	artisans = {
 		culture = albanian
 		religion = catholic
-		size = 2000
+		size = 4000
 	}
 
 	officers = {
@@ -3397,6 +3434,30 @@
 		religion = catholic
 		size = 170
 	}
+	
+	soldiers = {
+		culture = russian
+		religion = catholic
+		size = 500
+	}
+
+	officers = {
+		culture = russian
+		religion = catholic
+		size = 10
+	}
+	
+	soldiers = {
+		culture = bulgarian
+		religion = catholic
+		size = 500
+	}
+
+	officers = {
+		culture = bulgarian
+		religion = catholic
+		size = 10
+	}
 
 	soldiers = {
 		culture = sephardic
@@ -3409,11 +3470,17 @@
 		religion = jewish
 		size = 70
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = zoroastrian
+		size = 1000
+	}
 
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 46125
+		size = 66125
 	}
 	
 	farmers = {

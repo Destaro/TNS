@@ -142,31 +142,31 @@
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 2750
 	}
 
@@ -324,31 +324,31 @@
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 2750
 	}
 
@@ -428,7 +428,7 @@
 	
 	farmers = {
 		culture = chechen
-		religion = sunni
+		religion = manichaeism
 		size = 500
 	}
 
@@ -526,7 +526,7 @@
 	
 	farmers = {
 		culture = chechen
-		religion = sunni
+		religion = manichaeism
 		size = 500
 	}
 
@@ -702,31 +702,31 @@
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 25
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 2750
 	}
 
@@ -851,31 +851,31 @@
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 20
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 20
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = manichaeism
 		size = 900
 	}
 }
@@ -987,31 +987,31 @@
 
 	aristocrats = {
 		culture = abkhaz
-		religion = sunni
+		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
 		culture = abkhaz
-		religion = sunni
+		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
 		culture = abkhaz
-		religion = sunni
+		religion = orthodox
 		size = 250
 	}
 
 	soldiers = {
 		culture = abkhaz
-		religion = sunni
+		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
 		culture = abkhaz
-		religion = sunni
+		religion = orthodox
 		size = 20550
 	}
 }
@@ -1020,32 +1020,32 @@
 #Batum (76000/19000 POPS) #now part of Georgia
 1096 = {
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+		culture = old_persian
+		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = old_persian
+		religion = manichaeism
 		size = 110
 	}
 
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = old_persian
+		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = old_persian
+		religion = manichaeism
 		size = 110
 	}
 
 	farmers = {
-		culture = turkish
-		religion = sunni
+		culture = old_persian
+		religion = manichaeism
 		size = 2725
 	}
 	
@@ -1099,31 +1099,31 @@
 
 	aristocrats = {
 		culture = georgian
-		religion = sunni
+		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
 		culture = georgian
-		religion = sunni
+		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
 		culture = georgian
-		religion = sunni
+		religion = orthodox
 		size = 600
 	}
 
 	soldiers = {
 		culture = georgian
-		religion = sunni
+		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
 		culture = georgian
-		religion = sunni
+		religion = orthodox
 		size = 11250
 	}
 

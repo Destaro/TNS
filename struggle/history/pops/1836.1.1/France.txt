@@ -241,73 +241,73 @@
 #Lille (620000/155000 POPS)
 3374 = {
 	aristocrats = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 1400
 	}
 
 	officers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 750
 	}
 
 	bureaucrats = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 1750
 	}
 
 	clergymen = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 1500
 	}
 
 	artisans = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 50000
 	}
 
 	artisans = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 7000
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 3000
 	}
 
 	labourers = {
-		culture = dutch
+		culture = occitan
 		religion = catholic
 		size = 20500
 	}
