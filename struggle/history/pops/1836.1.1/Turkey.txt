@@ -3863,7 +3863,7 @@
 	}
 	
 	farmers = {
-		culture = kivruli
+		culture = sephardic
 		religion = jewish
 		size = 800
 	}
