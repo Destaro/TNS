@@ -5,73 +5,73 @@
 
 	aristocrats = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 13
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 18
 	}
 	
 	officers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 20
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 100
 	}
 	
 	aristocrats = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 13
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 18
 	}
 	
 	officers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 20
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 100
 	}
 
@@ -98,49 +98,49 @@
 	
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 15
 	}
 	
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
@@ -155,49 +155,49 @@
 
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 10
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 20
 	}
 	
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
@@ -218,49 +218,49 @@
 	
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 10
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 20
 	}
 	
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
@@ -275,49 +275,49 @@
 
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 10
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 20
 	}
 	
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
@@ -356,25 +356,25 @@
 
 	clergymen = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 10
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = orthodox
+		religion = shinto
 		size = 20
 	}
 	
@@ -386,25 +386,25 @@
 	
 	clergymen = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	farmers = {
 		culture = alaskan
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
@@ -420,25 +420,25 @@
 78 = {
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 300
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1003
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1003
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 20010
 	}
 
@@ -453,25 +453,25 @@
 
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 530
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 2300
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1300
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 10
 	}
 
@@ -485,37 +485,37 @@
 80 = {
 	aristocrats = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	officers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 	
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 5
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 20
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 30
 	}
 
@@ -543,31 +543,31 @@
 81 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 150
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 475
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1025
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 32700
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 1100
 	}
 }
@@ -608,31 +608,31 @@
 83 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 40
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 335
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 415
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 20900
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 7
 	}
 	
@@ -643,79 +643,79 @@
 84 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 50
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 510
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 610
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 20350
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 1500
 	}
 	
 	clergymen = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 110
 	}
 	
 	artisans = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 2050
 	}
 	
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 25
 	}
 	
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 50
 	}
 
 	artisans = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1100
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1800
 	}
 }
@@ -723,25 +723,25 @@
 85 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 70
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 525
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 815
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25900
 	}
 }
@@ -749,42 +749,42 @@
 86 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 50
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 175
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 225
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 11700
 	}
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 1500
 	}
 	
 	artisans = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 750
 	}
 	
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 25
 	}
 
@@ -793,67 +793,67 @@
 87 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 120
 	}
 
 	bureaucrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 203
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 415
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 510
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 20525
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 1150
 	}
 
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 10
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	artisans = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 2050
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 15
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 900
 	}
 }
@@ -861,25 +861,25 @@
 88 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 350
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 425
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 11800
 	}
 }
@@ -887,84 +887,84 @@
 89 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 50
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 125
 	}
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 615
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 14900
 	}
 
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 50
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1900
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 1400
 	}
 	
 	aristocrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 10
 	}
 	
 	bureaucrats = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 75
 	}
 	
 	artisans = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 1150
 	}
 	
 	clergymen = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 25
 	}
 	
 	soldiers = {
 		culture = new_mongol
-		religion = catholic
+		religion = gelugpa
 		size = 25
 	}
 }
@@ -1148,25 +1148,25 @@
 94 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 50
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 125
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 315
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 10900
 	}
 }
@@ -1200,25 +1200,25 @@
 96 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 10
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 25
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 15
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 900
 	}
 }
@@ -1506,67 +1506,67 @@
 104 = {
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 100
 	}
 
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 525
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1015
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 40500
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 2100
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1200
 	}
 	
 	bureaucrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 250
 	}
 	
 	clergymen = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 250
 	}
 	
 	artisans = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 3350
 	}
 	
 	soldiers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 555
 	}
 	
 	aristocrats = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 10
 	}
 }
@@ -1671,25 +1671,25 @@
 107 = {
 	aristocrats = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 525
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 1015
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 30200
 	}
 }
@@ -1995,49 +1995,49 @@
 	
 	clergymen = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 705
 	}
 
 	artisans = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 3010
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 
 	farmers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 1050
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 2900
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 1100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 40900
 	}
 }
@@ -2046,49 +2046,49 @@
 	
 	clergymen = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 605
 	}
 
 	artisans = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 1010
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	farmers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 20900
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 1200
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 1800
 	}
 }
@@ -2224,49 +2224,49 @@
 	
 	clergymen = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 255
 	}
 
 	artisans = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 2005
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 420
 	}
 
 	farmers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 15030
 	}
 	
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 500
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 1900
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 900
 	}
 }
@@ -2351,37 +2351,37 @@
 121 = {
 	clergymen = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 500
 	}
 
 	artisans = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 1005
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 620
 	}
 
 	farmers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 16030
 	}
 	
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 2800
 	}
 }
@@ -2390,49 +2390,49 @@
 	
 	clergymen = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 500
 	}
 
 	artisans = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 1005
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 720
 	}
 
 	farmers = {
 		culture = meolli
-		religion = protestant
+		religion = mahayana
 		size = 20030
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 1900
 	}
 
 	soldiers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
 		culture = meolli
-		religion = animist
+		religion = mahayana
 		size = 900
 	}
 }
@@ -2574,7 +2574,7 @@
 	}
 
 	farmers = {
-		culture = yankee
+		culture = native_american_minor
 		religion = protestant
 		size = 3012
 	}
@@ -2598,56 +2598,56 @@
 
 	aristocrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 	
 	officers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 	
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 500
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1005
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1020
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 20030
 	}
 
 	aristocrats = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 100
 	}
 
 
 	soldiers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 150
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 1800
 	}
 }
@@ -2728,31 +2728,31 @@
 129 = {
 	aristocrats = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 40
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 308
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 2020
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 804
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = animist
+		religion = mahayana
 		size = 20300
 	}
 }
@@ -3909,67 +3909,67 @@
 143 = {
 	aristocrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 200
 	}
 
 	bureaucrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 200
 	}
 
 	officers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 125
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 550
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1400
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1150
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 39150
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 135
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 15
 	}
 
 	slaves = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 3800
 	}
 }
@@ -3977,67 +3977,67 @@
 3336 = {
 	aristocrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 200
 	}
 
 	bureaucrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 500
 	}
 
 	officers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 250
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 500
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 4000
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1500
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 39150
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 135
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1500
 	}
 
 	slaves = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 3800
 	}
 }
@@ -4139,25 +4139,25 @@
 145 = {
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 275
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 2200
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1050
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 33675
 	}
 }
@@ -4167,169 +4167,169 @@
 146 = {
 	farmers = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 500
 	}
 	
 	clergymen = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 10
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 50
 	}
 	
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1175
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 250
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 23650
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 5
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 220
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 275
 	}
 
 	aristocrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 675
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 200
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 15875
 	}
 	
 	farmers = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 2075
 	}
 
 	aristocrats = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 10
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 15
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 50
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 10
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = catholic
+		religion = mahayana
 		size = 2915
 	}
 
 	clergymen = {
-		culture = irish
+		culture = basque
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = irish
+		culture = basque
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = irish
+		culture = basque
 		religion = catholic
 		size = 2825
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 100
 	}
 
 	slaves = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 2700
 	}
 }
@@ -4337,25 +4337,25 @@
 147 = {
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 175
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 3250
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 1050
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 34625
 	}
 }
@@ -4443,103 +4443,103 @@
 149 = {
 	bureaucrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 175
 	}
 
 	officers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 245
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 475
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 3300
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 2075
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 34430
 	}
 
 	aristocrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 100
 	}
 
 	bureaucrats = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 75
 	}
 
 	officers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 200
 	}
 
 	soldiers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 75
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 5425
 	}
 
 	clergymen = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 150
 	}
 
 	farmers = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 100
 	}
 
 	slaves = {
 		culture = Dongfang
-		religion = protestant
+		religion = mahayana
 		size = 2700
 	}
 }
@@ -5075,31 +5075,31 @@
 158 = {
 	clergymen = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 250
 	}
 
 	artisans = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 1005
 	}
 
 	soldiers = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 405
 	}
 	
 	farmers = {
 		culture = new_mongol
-		religion = protestant
+		religion = gelugpa
 		size = 18050
 	}
 
 	farmers = {
 		culture = new_mongol
-		religion = animist
+		religion = gelugpa
 		size = 1963
 	}
 }

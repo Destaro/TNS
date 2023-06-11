@@ -362,37 +362,37 @@
 13 = {
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 100
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1010
 	}
 	
 	officers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 150
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 510
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 2050
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = animist
+		religion = shinto
 		size = 22460
 	}
 
@@ -401,31 +401,31 @@
 14 = {
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 210
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 510
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 710
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 20050
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = animist
+		religion = shinto
 		size = 12130
 	}
 }
@@ -433,31 +433,31 @@
 15 = {
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 300
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1300
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 400
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1000
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = animist
+		religion = shinto
 		size = 31150
 	}
 }
@@ -594,31 +594,31 @@
 20 = {
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 500
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1500
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1005
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 20015
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = animist
+		religion = shinto
 		size = 1950
 	}
 }
@@ -850,37 +850,37 @@
 
 	clergymen = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 750
 	}
 
 	artisans = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 2500
 	}
 
 	soldiers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 1500
 	}
 	
 	farmers = {
 		culture = shizuya
-		religion = protestant
+		religion = shinto
 		size = 15
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = catholic
+		religion = shinto
 		size = 580
 	}
 
 	farmers = {
 		culture = shizuya
-		religion = animist
+		religion = shinto
 		size = 31030
 	}
 }

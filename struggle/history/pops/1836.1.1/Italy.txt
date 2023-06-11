@@ -3278,6 +3278,13 @@
 		size = 7777
 	}
 	
+	
+	officers = {
+		culture = vandalic
+		religion = catholic
+		size = 200
+	}
+	
 	farmers = {
 		culture = south_italian
 		religion = catholic
@@ -3309,24 +3316,6 @@
 		size = 700
 	}
 
-	officers = {
-		culture = vandalic
-		religion = catholic
-		size = 200
-	}
-	
-	artisans = {
-		culture = copt
-		religion = coptic
-		size = 2250
-	}
-
-	soldiers = {
-		culture = copt
-		religion = coptic
-		size = 1500
-	}
-	
 	farmers = {
 		culture = greek
 		religion = catholic
@@ -3421,42 +3410,6 @@
 		culture = armenian
 		religion = catholic
 		size = 370
-	}
-
-	soldiers = {
-		culture = pannonian
-		religion = catholic
-		size = 2821
-	}
-
-	officers = {
-		culture = pannonian
-		religion = catholic
-		size = 170
-	}
-	
-	soldiers = {
-		culture = russian
-		religion = catholic
-		size = 500
-	}
-
-	officers = {
-		culture = russian
-		religion = catholic
-		size = 10
-	}
-	
-	soldiers = {
-		culture = bulgarian
-		religion = catholic
-		size = 500
-	}
-
-	officers = {
-		culture = bulgarian
-		religion = catholic
-		size = 10
 	}
 
 	soldiers = {
