@@ -1,4 +1,4 @@
-add_core = NKG
+add_core = NCH
 trade_goods = fruit
 terrain = semidesert
 life_rating = 15

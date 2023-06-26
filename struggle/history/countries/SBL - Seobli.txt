@@ -1,5 +1,6 @@
 capital = 2483
-primary_culture = seoblian
+primary_culture = korean_australian
+culture = korean
 religion = catholic
 government = democracy
 plurality = 0.57

@@ -1,4 +1,4 @@
-add_core = SKG
+add_core = SBL
 trade_goods = grain
 terrain = savanna
 life_rating = 15

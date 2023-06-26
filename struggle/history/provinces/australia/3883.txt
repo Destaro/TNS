@@ -1,5 +1,5 @@
-owner = SBL
-controller = SBL
-add_core = SBL
+owner = NCH
+controller = NCH
+add_core = NCH
 trade_goods = grain
 life_rating = 35

@@ -1,6 +1,6 @@
-owner = SKG
-controller = SKG
-add_core = SKG
-add_core = GSH
+owner = SBL
+controller = SBL
+add_core = SBL
+
 trade_goods = grain
 life_rating = 35
