@@ -83,7 +83,7 @@ HOJ		= "countries/Hoju.txt"
 GSH		= "countries/Goushu.txt"
 SBL		= "countries/Seobli.txt"
 NKG		= "countries/Nankaigan.txt"
-SKG		= "countries/Seikaigan.txt"
+NCH     = "countries/Nichinan.txt"
 
 ##HFM New Nations
 #ATB	= "countries/Saxe-Altenburg.txt"

@@ -1,7 +1,7 @@
-owner = NKG
-controller = NKG
-add_core = NKG
-add_core = GSH
+owner = NCH
+controller = NCH
+add_core = NCH
+
 trade_goods = wool
 life_rating = 35
 

@@ -157,7 +157,6 @@ political_decisions = {
 				is_culture_group = polish_culture_group
 				is_culture_group = beneluxian
 				is_culture_group = east_slavic
-				is_culture_group = japanese_australian
 				tag = FSA
 				tag = CSA
 				tag = URP
@@ -205,67 +204,6 @@ political_decisions = {
 				country_event = 11101
 			}
 			add_accepted_culture = union		
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-
-	form_goushu = {
-		news = yes
-		potential = {
-			is_culture_group = japanese_australian
-			NOT = {
-				exists = GSH
-			}
-		}
-		
-		allow = {
-		nationalism_n_imperialism = 1
-			war = no
-			GSH = {
-				all_core = {
-					OR = {
-						owned_by = GSH
-						owner = {
-							OR = {
-								vassal_of = THIS
-								in_sphere = GSH
-							}
-						}
-					}
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 20
-			change_tag = GSH
-			add_accepted_culture = nankaiganese
-			add_accepted_culture = seikaiganese
-			any_country = {
-				limit = {
-					is_culture_group = japanese_australian
-					in_sphere = THIS
-				}
-				country_event = { id=11101 days=0 }
-			}
-
-			ENG_2505 = { add_core = THIS } #Northern Territory
-			R_TASMANIA =  { add_core = THIS }
-			R_VICTORIA =  { add_core = THIS }
-			R_UPPER_MUR = { add_core = THIS }
-			R_LOWER_MUR = { add_core = THIS }
-			R_SOUTH_AUS = { add_core = THIS }
-			R_SYDNEY =  { add_core = THIS }
-			R_CANBERRA = { add_core = THIS }
-			R_NEW_ENG =  { add_core = THIS }
-			R_SOUTH_QLD = { add_core = THIS }
-			R_NORTH_QLD = { add_core = THIS }
-			R_KIM_PIL =  { add_core = THIS }
-			R_SOUTH_WA = { add_core = THIS }
-			R_PERTH =  { add_core = THIS }
-			R_AURALIA =  { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1

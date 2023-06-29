@@ -1,5 +1,6 @@
-capital = 2497
-primary_culture = seikaiganese
+capital = 2476
+primary_culture = japanese_australian
+culture = japanese
 religion = catholic
 government = democracy
 plurality = 0.57
