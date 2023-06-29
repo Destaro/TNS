@@ -87,7 +87,7 @@
 	}
 	
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1325
 	}
@@ -149,31 +149,31 @@
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 26625
 	}
@@ -259,31 +259,31 @@
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 10625
 	}
@@ -369,31 +369,31 @@
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 18625
 	}
@@ -479,31 +479,31 @@
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 20625
 	}
@@ -829,31 +829,31 @@
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 75
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 3600
 	}
@@ -1554,31 +1554,31 @@
 #Hasaka (264000/66000 POPS)
 3329 = {
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 150
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 125
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 350
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 750
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 3800
 	}
@@ -1662,7 +1662,7 @@
 	}
 	
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 975
 	}
@@ -1703,31 +1703,31 @@
 #Sinjar (92000/23000 POPS)
 3460 = {
 	aristocrats = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 20
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 1075
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = old_persian
 		religion = manichaeism
 		size = 7075
 	}

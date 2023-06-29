@@ -1,5 +1,5 @@
-capital = 322
-primary_culture = swedish
+capital = 334
+primary_culture = norse
 culture = finnish
 prestige = 100
 religion = protestant

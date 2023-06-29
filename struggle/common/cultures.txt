@@ -529,6 +529,14 @@ scandinavian = {
 		last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
 		}
+	norse = { 
+		color = { 40 40 130}
+		first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes
+		Hermann Jón Kristján Magnús Ólafur Pétur Sigurdur Stefán Sveinn Tryggvi }
+		
+		last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
+		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
+		}
 	}
 	
 finnic = {

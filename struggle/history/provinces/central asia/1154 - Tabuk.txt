@@ -1,5 +1,6 @@
-owner = HDJ
-controller = HDJ
+owner = JOR
+controller = JOR
+add_core = JOR
 add_core = HDJ
 trade_goods = wool
 life_rating = 35

@@ -1,7 +1,6 @@
 owner = WHA
 controller = WHA
 add_core = WHA
-add_core = SCO
 trade_goods = coal
 naval_base = 2 
 life_rating = 35
@@ -44,5 +43,3 @@ state_building = {
 
 	railroad = 3 
 }
-
-add_core = SCA

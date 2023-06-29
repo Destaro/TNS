@@ -594,31 +594,31 @@
 	}
 	
 	aristocrats = {
-		culture = kurdish
+		culture = parthian
 		religion = zoroastrian
 		size = 20
 	}
 	
 	clergymen = {
-		culture = kurdish
+		culture = parthian
 		religion = zoroastrian
 		size = 40
 	}
 	
 	artisans = {
-		culture = kurdish
+		culture = parthian
 		religion = zoroastrian
 		size = 400
 	}
 	
 	soldiers = {
-		culture = kurdish
+		culture = parthian
 		religion = zoroastrian
 		size = 50
 	}
 	
 	farmers = {
-		culture = kurdish
+		culture = parthian
 		religion = zoroastrian
 		size = 200
 	}
@@ -819,13 +819,13 @@
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = parthian
 		religion = manichaeism
 		size = 30
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = parthian
 		religion = manichaeism
 		size = 500
 	}

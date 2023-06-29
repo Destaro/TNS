@@ -75,73 +75,73 @@
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 100
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 100
 	}
 	
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 400
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 425
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 175
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 	
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
@@ -173,31 +173,31 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 800
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 1100
 	}
@@ -315,25 +315,25 @@
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = orthodox
 		size = 1325
 	}

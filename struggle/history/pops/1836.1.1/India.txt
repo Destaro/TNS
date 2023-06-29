@@ -6384,19 +6384,19 @@
 #Fort Christiansborg
 3263 = {
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 50
 	}
 	
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 2050
 	}
 	
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 500
 	}
@@ -15471,24 +15471,24 @@
 	}
 }
 
-#mumbai
+#Mumbai
 3821 = {
 	aristocrats = {
-		culture = marathi
-		religion = hindu
-		size = 30
-	}
-
-	clergymen = {
 		culture = marathi
 		religion = hindu
 		size = 200
 	}
 
+	clergymen = {
+		culture = marathi
+		religion = hindu
+		size = 300
+	}
+
 	artisans = {
 		culture = marathi
 		religion = hindu
-		size = 100
+		size = 6000
 	}
 
 	soldiers = {
@@ -15500,37 +15500,73 @@
 	farmers = {
 		culture = marathi
 		religion = hindu
-		size = 5500
+		size = 3000
 	}
-
+	
+	serfs = {
+		culture = marathi
+		religion = hindu
+		size = 11000
+	}
+	
 	aristocrats = {
-		culture = kannada
+		culture = marathi
 		religion = sunni
-		size = 200
+		size = 25
 	}
 
 	clergymen = {
-		culture = kannada
+		culture = marathi
 		religion = sunni
-		size = 175
-	}
-
-	artisans = {
-		culture = kannada
-		religion = sunni
-		size = 5000
+		size = 40
 	}
 
 	soldiers = {
-		culture = kannada
+		culture = marathi
 		religion = sunni
-		size = 250
+		size = 100
 	}
-
-	farmers = {
-		culture = kannada
+	
+	artisans = {
+		culture = marathi
 		religion = sunni
-		size = 9375
+		size = 1550
+	}
+    
+	farmers = {
+		culture = marathi
+		religion = sunni
+		size = 850
+	}
+	
+	serfs = {
+		culture = marathi
+		religion = sunni
+		size = 1550
+	}
+    
+	aristocrats = {
+		culture = norse
+		religion = catholic
+		size = 40
+	}
+	
+	bureaucrats = {
+		culture = norse
+		religion = catholic
+		size = 10
+	}
+	
+	artisans = {
+		culture = norse
+		religion = catholic
+		size = 10
+	}
+    
+	soldiers = {
+		culture = norse
+		religion = catholic
+		size = 150
 	}
 }
 

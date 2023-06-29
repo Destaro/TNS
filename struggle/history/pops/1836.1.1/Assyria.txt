@@ -314,15 +314,21 @@
 	}
 	
 	aristocrats = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 175
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 3375
 	}
 
 	artisans = {
@@ -368,7 +374,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = kurdish
 		religion = manichaeism
 		size = 5525
 	}

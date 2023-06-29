@@ -1,7 +1,7 @@
 capital = 794
 primary_culture = aromanian
 religion = orthodox
-government = colonial_company
+government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_autocracy
 literacy = 0.04

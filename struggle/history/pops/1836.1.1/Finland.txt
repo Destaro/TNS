@@ -87,7 +87,13 @@
 	farmers = {
 		culture = finnish
 		religion = catholic
-		size = 4425
+		size = 3000
+	}
+
+	farmers = {
+		culture = sami
+		religion = catholic
+		size = 1000
 	}
 }
 #Enare
@@ -164,37 +170,37 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 200
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
@@ -227,37 +233,37 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 200
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
@@ -295,25 +301,25 @@
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 115
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 210
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 3925
 	}
@@ -371,25 +377,25 @@
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 550
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 310
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 4325
 	}
@@ -435,43 +441,43 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 550
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 325
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 150
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 600
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 4750
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 2000
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 20325
 	}
@@ -527,31 +533,31 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 800
 	}
@@ -583,31 +589,31 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 950
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 1400
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 4550
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 3425
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 30225
 	}
@@ -663,31 +669,31 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 1100
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 3100
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 1175
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 23675
 	}
@@ -743,31 +749,31 @@
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 250
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 600
 	}
@@ -777,25 +783,25 @@
 #Aland Islands (11000 POPS)
 348 = {
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 35
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 2390
 	}
@@ -806,37 +812,37 @@
 
 3297 = {
 	aristocrats = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 134
 	}
 
 	artisans = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 1450
 	}
 
 	bureaucrats = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 36
 	}
 
 	clergymen = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 148
 	}
 
 	farmers = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 466
 	}
 
 	soldiers = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 666
 	}
@@ -853,13 +859,13 @@
 
 3296 = {
 	aristocrats = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 504
 	}
 
 	officers = { 
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 96
 	}

@@ -60,7 +60,7 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 120
 	}
@@ -72,7 +72,7 @@
 	}
 	
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 200
 	}
@@ -96,7 +96,7 @@
 	}
 	
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 4250
 	}
@@ -126,7 +126,7 @@
 	}
 	
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
@@ -329,7 +329,7 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 40
 	}
@@ -353,7 +353,7 @@
 	}
 	
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 165
 	}

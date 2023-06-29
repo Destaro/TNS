@@ -266,58 +266,17 @@
 	}
 }
 3363 = { # ~25k pops
-	aristocrats = {
-		culture = aromanian
-		religion = orthodox
-		size = 250
-	}
 
-	clergymen = {
-		culture = aromanian
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = aromanian
-		religion = orthodox
-		size = 360
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 3500
 	}
 
 	soldiers = {
-		culture = aromanian
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 8500
-	}
-	
-	clergymen = {
-		culture = aromanian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = aromanian
-		religion = orthodox
-		size = 160
-	}
-
-	soldiers = {
-		culture = aromanian
-		religion = orthodox
-		size = 350
-	}
-
-	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 8800
+		culture = bedouin
+		religion = manichaeism
+		size = 1000
 	}
 }
 #Ruse (188000/47000 POPS)

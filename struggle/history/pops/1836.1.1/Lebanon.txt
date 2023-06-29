@@ -977,33 +977,33 @@
 		size = 100
 	}
 	soldiers = {
-		culture = armenian
+		culture = south_hungarian
 		religion = syriac
 		size = 100
 	}
 	artisans = {
-		culture = armenian
+		culture = south_hungarian
 		religion = syriac
 		size = 500
 	}
 	farmers = {
-		culture = armenian
+		culture = south_hungarian
 		religion = syriac
 		size = 2500
 	}
 	
 	aristocrats = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 500
 	}
 	officers = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 100
 	}
 	bureaucrats = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 100
 	}
@@ -1013,12 +1013,12 @@
 		size = 750
 	}
 	artisans = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 2500
 	}
 	farmers = {
-		culture = south_hungarian
+		culture = kurdish
 		religion = manichaeism
 		size = 10350
 	}

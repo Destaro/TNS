@@ -150,7 +150,7 @@
 #Lille (620000/155000 POPS)
 3373 = {
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 1400
 	}
@@ -168,7 +168,7 @@
 	}
 	
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 50
 	}
@@ -180,13 +180,13 @@
 	}
 	
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 500
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 6000
 	}
@@ -204,7 +204,7 @@
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 3000
 	}
@@ -228,7 +228,7 @@
 	}
 
     labourers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 10500
 	}

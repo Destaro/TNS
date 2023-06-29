@@ -339,27 +339,13 @@ substate = {
 ### Feher Moğerurusag ###
 
 vassal = {
-	first = ANT
-	second = BDN
-	start_date = 1800.1.1
-	end_date = 1936.1.1
-}
-
-vassal = {
-	first = ANT
-	second = SRN
-	start_date = 1800.1.1
-	end_date = 1936.1.1
-}
-
-vassal = {
-	first = ANT
-	second = BHT
+	first = KSK
+	second = ANT
 	start_date = 1800.1.1
 	end_date = 1936.1.1
 }
 vassal = {
-	first = ANT
+	first = KSK
 	second = CLC
 	start_date = 1800.1.1
 	end_date = 1936.1.1

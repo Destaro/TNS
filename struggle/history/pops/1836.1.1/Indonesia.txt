@@ -3655,25 +3655,25 @@
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 5
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 10
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 10
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 25
 	}

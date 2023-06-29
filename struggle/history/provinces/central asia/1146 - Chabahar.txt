@@ -1,8 +1,6 @@
 owner = OMA
 controller = OMA
-
+add_core = KHR
 add_core = MAK
 trade_goods = fish
 life_rating = 35
-
-add_core = OMA

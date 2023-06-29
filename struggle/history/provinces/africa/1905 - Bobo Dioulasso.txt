@@ -1,5 +1,5 @@
 owner = MAS
-controller = MAS
+controller = KBO
 add_core = MOS
 add_core = KNG
 trade_goods = grain

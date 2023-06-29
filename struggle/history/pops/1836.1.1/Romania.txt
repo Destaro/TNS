@@ -2611,67 +2611,67 @@
 3494 = {
 
 	soldiers = {
-		culture = aromanian
-		religion = orthodox
+		culture = south_hungarian
+		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = aromanian
-		religion = orthodox
-		size = 100
+		culture = chaldean
+		religion = manichaeism
+		size = 200
 	}
 
 	artisans = {
-		culture = aromanian
-		religion = orthodox
-		size = 2500
+		culture = south_hungarian
+		religion = manichaeism
+		size = 7500
 	}
 
 	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 3600 
+		culture = south_hungarian
+		religion = manichaeism
+		size = 35600 
 	}
 
 	artisans = {
-		culture = aromanian
-		religion = orthodox
-		size = 200 
+		culture = south_hungarian
+		religion = manichaeism
+		size = 2400 
 	}
 
 	soldiers = {
-		culture = aromanian
-		religion = orthodox
-		size = 1100
+		culture = south_hungarian
+		religion = manichaeism
+		size = 5100
 	}
 
 	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 9600 
+		culture = south_hungarian
+		religion = manichaeism
+		size = 78600 
 	}
 	
 	soldiers = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 2825
 	}

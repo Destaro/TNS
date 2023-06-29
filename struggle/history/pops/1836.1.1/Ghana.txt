@@ -44,7 +44,7 @@
 		size = 6000
 	}
 }
-#Cape Coast (48000/12000 POPS) #swedish Tradepost in 1836 
+#Cape Coast (48000/12000 POPS) #norse Tradepost in 1836 
 1908 = {
 	aristocrats = {
 		culture = akan

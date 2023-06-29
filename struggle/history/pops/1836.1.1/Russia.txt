@@ -1188,13 +1188,13 @@
 	}
 	
 	farmers = {
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = finnish
+		culture = sami
 		religion = orthodox
 		size = 400
 	}
@@ -1225,13 +1225,13 @@
 	}
 
 	farmers = {
-		culture = finnish
+		culture = sami
 		religion = orthodox
-		size = 1000
+		size = 500
 	}
 
 	clergymen = {
-		culture = finnish
+		culture = sami
 		religion = orthodox
 		size = 10
 	}
@@ -1239,7 +1239,7 @@
 	farmers = {
 		culture = sami
 		religion = orthodox
-		size = 290
+		size = 890
 	}
 }
 #Kostomuksha (20000/5000 POPS)
@@ -1353,7 +1353,7 @@
 	farmers = {
 		culture = sami
 		religion = orthodox
-		size = 240
+		size = 700
 	}
 
 	clergymen = {
@@ -1989,19 +1989,19 @@
 #Saint Petersburg (735000/147000 POPS)
 994 = {
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 650
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 750
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 10
 	}
@@ -2025,49 +2025,49 @@
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 6000
 	}
 	
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 3700
 	}
 
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 700
 	}
 
 	officers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 950
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 6850
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
@@ -2264,31 +2264,31 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 650
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = catholic
 		size = 1325
 	}
@@ -2805,31 +2805,31 @@
 #Pskov (472000/118000 POPS)
 1006 = {
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 2000
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 650
 	}
 
 	artisans = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 4550
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 1150
 	}
 
 	farmers = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 24500
 	}
@@ -11759,7 +11759,7 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 50
 	}
@@ -11828,7 +11828,7 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 50
 	}
@@ -11903,7 +11903,7 @@
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = norse
 		religion = protestant
 		size = 50
 	}

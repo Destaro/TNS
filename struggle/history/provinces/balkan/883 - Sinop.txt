@@ -1,7 +1,6 @@
 owner = KSK
 controller = KSK
-
+add_core = ANT
+add_core = KSK
 trade_goods = fish
 life_rating = 35
-
-add_core = KSK

@@ -1,12 +1,7 @@
-owner = BYZ
-controller = BYZ
-
+owner = DLM
+controller = DLM
 add_core = BOS
-
-
+add_core = DLM
+add_core = ITA
 trade_goods = fish
 life_rating = 35
-
-
-add_core = WAL
-add_core = ROM

@@ -1,8 +1,6 @@
-owner = NEJ
-controller = NEJ
-add_core = HAL
+owner = JOR
+controller = JOR
+add_core = JOR
+add_core = HDJ
 trade_goods = wool
 life_rating = 10
-
-add_core = HDJ
-add_core = NEJ

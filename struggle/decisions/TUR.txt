@@ -426,6 +426,7 @@ political_decisions = {
 		picture = old_kurdistan_map
 		potential = {
 			NOT = { tag = KDS }
+			NOT = { tag = KSK }
 			NOT = { has_country_flag = yazidi_country }
 			NOT = { has_country_flag = became_kurdistan }
 			KDS = { exists = no }

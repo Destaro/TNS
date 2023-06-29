@@ -442,9 +442,9 @@ AUS_770 = { 3637 3639 770 778 } #Istria
 
 AUS_767 = { 767 618 } #Upper Carniola
 
-AUS_768 = { 768 3644 3645 3646 } #Lower Carniola
+AUS_768 = { 768 3645 3646 } #Lower Carniola
 
-AUS_771 = { 771 772 775 776 } #Croatia
+AUS_771 = { 772 775 776 } #Croatia
 
 AUS_777 = { 793 777 791 } #Slavonia
 
@@ -452,9 +452,9 @@ AUS_780 = { 780 781 782 } #Dalmatia
 
 AUS_788 = { 788 789 2569 } #Eastern Dalmatian interior
 
-AUS_774 = { 774 773 784 3565 3529 } #Western Dalmatian interior
+AUS_774 = { 774 773 784 3565 } #Western Dalmatian interior
 
-#AUS_3565 = { } #Northern Dalmatian interior
+AUS_3565 = { 3529 771 3644 } #Northern Dalmatian interior
 
 #AUS_2538 = { 2538 } #Vojvodina
 
@@ -510,7 +510,7 @@ WAL_665 = { 664 665 666 668 667 669 } #Wallachia
 
 MOL_673 = { 673 672 670 671 663 662 } #Moldavia
 
-TUR_674 = { 674 675 3493 3494 } #Dobrudja
+TUR_674 = { 674 675 3493 } #Dobrudja
 
 #MOL_676 = { 676 678 } #Bessarabia
 
@@ -518,7 +518,7 @@ TUR_788 = { 783 785 786 3564 } #Bosnia
 
 TUR_802 = { 804 2577 3666 787 797 } #Sandzak
 
-SER_794 = { 794 796 795 3363 } #Northern Serbia
+SER_794 = { 794 796 795 } #Northern Serbia
 
 MON_2582 = { 2583 2582 800 3657 } #Montenegro
 
@@ -528,7 +528,7 @@ TUR_805 = { 805 821 822 3655 831 3477 3495 } #Southern Macedonia
 
 TUR_806 = { 806 807 819 3471 3476 3478 } #Aromania
 
-TUR_1780 = { 3472 1780 849 3473 820 } #East Albania
+TUR_1780 = { 3472 1780 849 3473 } #East Albania
 
 TUR_809 = { 3482 3484 815 816 3486 817 } #Eastern Rumelia
 
@@ -550,7 +550,7 @@ EGY_843 = { 848 843 844 846 847 3492 } #Aegean Islands
 
 TUR_853 = { 850 851 852 3656 3669 } #Albania
 
-TUR_3473 = { 853 824 826 } #Epirus
+TUR_3473 = { 853 824 826 820 } #Epirus
 
 TUR_855 = { 855 856 857 } #Cyprus
 
@@ -575,7 +575,7 @@ DUL_3417 = { 3485 889 878 } #Dulkadir
 
 TUR_866 = { 866 867 868 871 } #Afyon
 
-TUR_880 = { 880 881 883 877 } #Kastamonu
+TUR_880 = { 880 881 883 877 3494 } #Kastamonu
 
 TUR_882 = { 882 884 3497 } #Trabizond
 
@@ -679,11 +679,11 @@ PER_1195 = { 1195 1202 1201 3452 1203 } #Ferghana
 
 KHI_1191 = { 1198 1199 1206 3444 3447 } #Bukhara
 
-HDJ_1151 = { 1151 1152 1153 1154 } #Hedjaz
+HDJ_1151 = { 1151 1152 1153 } #Hedjaz
 
-NEJ_1156 = { 1160 1156 3277 } #Hail
+NEJ_1156 = { 1160 1156 1154 } #Hail
 
-EGY_907 = { 3279 931 3324 922 } #North Arabian Desert
+EGY_907 = { 3279 931 3324 922 3363 3277 } #North Arabian Desert
 
 NEJ_1157 = { 1157 1161 1159 3275 } #Nejd
 
