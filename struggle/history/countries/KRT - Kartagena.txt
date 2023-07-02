@@ -1,12 +1,12 @@
 capital = 2447
 primary_culture = new_roman
-culture = punic
+culture = new_punic
 religion = punic_church
 government = hms_government
 plurality = 1.0
 prestige = 10
 nationalvalue = nv_order
-literacy = 0.01
+literacy = 0.25
 non_state_culture_literacy = 0.01
 civilized = yes
 oob = "KRT_oob.txt"

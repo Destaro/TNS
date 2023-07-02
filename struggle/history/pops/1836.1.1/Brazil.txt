@@ -695,7 +695,7 @@
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 105
 	}
@@ -2491,31 +2491,31 @@
 #Sabara (104000/26000 POPS)
 2442 = {
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 525
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 200
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 525
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 125
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 13200
 	}
@@ -2887,31 +2887,31 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2650
 	}
 
 	bureaucrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 450
 	}
 
 	officers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 100
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1000
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 7000
 	}
@@ -2923,25 +2923,25 @@
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2000
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2000
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 23050
 	}
@@ -3009,31 +3009,31 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1650
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 4800
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 30850
 	}
@@ -3101,31 +3101,31 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1650
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 4800
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 30850
 	}
@@ -3269,43 +3269,43 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1275
 	}
 
 	bureaucrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 125
 	}
 
 	officers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 150
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 550
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1925
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1100
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 42900
 	}
@@ -3373,31 +3373,31 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1250
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2100
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 15850
 	}
@@ -3589,31 +3589,31 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1250
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 2100
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 15850
 	}
@@ -4287,6 +4287,36 @@
 		religion = punic_church
 		size = 4000
 	}
+	
+	aristocrats = {
+		culture = new_punic
+		religion = punic_church
+		size = 225
+	}
+
+	clergymen = {
+		culture = new_punic
+		religion = punic_church
+		size = 75
+	}
+
+	artisans = {
+		culture = new_punic
+		religion = punic_church
+		size = 300
+	}
+
+	soldiers = {
+		culture = new_punic
+		religion = punic_church
+		size = 2400
+	}
+
+	farmers = {
+		culture = new_punic
+		religion = punic_church
+		size = 4000
+	}
 
 	clergymen = {
 		culture = afro_brazilian
@@ -4427,13 +4457,43 @@
 	soldiers = {
 		culture = new_roman
 		religion = punic_church
-		size = 2700
+		size = 1000
 	}
 
 	farmers = {
 		culture = new_roman
 		religion = punic_church
-		size = 12000
+		size = 6000
+	}
+	
+	aristocrats = {
+		culture = new_punic
+		religion = punic_church
+		size = 450
+	}
+
+	clergymen = {
+		culture = new_punic
+		religion = punic_church
+		size = 200
+	}
+
+	artisans = {
+		culture = new_punic
+		religion = punic_church
+		size = 650
+	}
+
+	soldiers = {
+		culture = new_punic
+		religion = punic_church
+		size = 1000
+	}
+
+	farmers = {
+		culture = new_punic
+		religion = punic_church
+		size = 6000
 	}
 
 	clergymen = {
@@ -4471,13 +4531,13 @@
 	clergymen = {
 		culture = new_roman
 		religion = punic_church
-		size = 75
+		size = 175
 	}
 
 	artisans = {
 		culture = new_roman
 		religion = punic_church
-		size = 200
+		size = 2700
 	}
 
 	soldiers = {
@@ -4489,7 +4549,31 @@
 	farmers = {
 		culture = new_roman
 		religion = punic_church
-		size = 2000
+		size = 5000
+	}
+	
+	clergymen = {
+		culture = new_punic
+		religion = punic_church
+		size = 150
+	}
+
+	artisans = {
+		culture = new_punic
+		religion = punic_church
+		size = 1500
+	}
+
+	soldiers = {
+		culture = new_punic
+		religion = punic_church
+		size = 2025
+	}
+
+	farmers = {
+		culture = new_punic
+		religion = punic_church
+		size = 6000
 	}
 
 	aristocrats = {
@@ -4519,7 +4603,7 @@
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 4575
+		size = 3175
 	}
 }
 #Beni Region (32000) #see Bolivia.txt for balance of region
