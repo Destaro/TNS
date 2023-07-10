@@ -393,3 +393,11 @@ vassal = {
 	start_date = 1800.1.1
 	end_date = 1936.1.1
 }
+
+### Selbapunnica ###
+vassal = {
+	first = KRT
+	second = RGS
+	start_date = 1800.1.1
+	end_date = 1936.1.1
+}

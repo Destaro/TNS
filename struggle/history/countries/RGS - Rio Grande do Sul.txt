@@ -1,11 +1,11 @@
 capital = 2463
-primary_culture = brazilian
-culture = platinean
-religion = catholic
-government = democracy
+primary_culture = new_punic
+culture = new_roman
+religion = punic_church
+government = dominion
 plurality = 0.0
-nationalvalue = nv_liberty
-literacy = 0.1
+nationalvalue = nv_order
+literacy = 0.10
 non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 2

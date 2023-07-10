@@ -3,58 +3,58 @@
 #Saint Helena (4000/1000 POPS)
 2129 = {
 	bureaucrats = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 5
 	}
 
 	clergymen = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 25
 	}
 
 	soldiers = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 20
 	}
 
 	artisans = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 50
 	}
 
 	farmers = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 245
 	}
 	
 	farmers = {
-		culture = punic
-		religion = mahayana
+		culture = new_punic
+		religion = punic_church
 		size = 155
 	}
 	
 	farmers = {
-		culture = afro_caribeno
-		religion = protestant
+		culture = south_italian
+		religion = punic_church
 		size = 500
 	}
 }
 #Ascension (140/35 POPS)
 2130 = {
 	soldiers = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 10
 	}
 
 	farmers = {
-		culture = punic
-		religion = protestant
+		culture = new_punic
+		religion = punic_church
 		size = 60
 	}
 }
@@ -63,13 +63,13 @@
 
 	soldiers = {
 		culture = visigothic
-		religion = protestant
+		religion = punic_church
 		size = 10
 	}
 	
 	farmers = {
 		culture = visigothic
-		religion = protestant
+		religion = punic_church
 		size = 60
 	}
 

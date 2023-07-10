@@ -3,147 +3,77 @@
 #Montevideo (112000/28000 POPS)
 2344 = {
 	aristocrats = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 2650
 	}
 
 	bureaucrats = {
-		culture = new_roman
+		culture = new_punic
+		religion = punic_church
+		size = 750
+	}
+
+	officers = {
+		culture = new_punic
 		religion = punic_church
 		size = 450
 	}
 
-	officers = {
-		culture = new_roman
-		religion = punic_church
-		size = 250
-	}
-
 	clergymen = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 1600
+		size = 2600
 	}
 
 	artisans = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 10000
 	}
 	
 	soldiers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 300
+		size = 2500
 	}
 
-	
-
 	farmers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 79050
+		size = 80050
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 2650
 	}
 
 	bureaucrats = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 450
 	}
 
 	officers = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 100
 	}
 
 	clergymen = {
-		culture = punic
-		religion = punic_church
-		size = 1000
-	}
-
-	artisans = {
-		culture = punic
-		religion = punic_church
-		size = 7000
-	}
-	
-	
-
-	
-
-	soldiers = {
-		culture = punic
-		religion = punic_church
-		size = 2000
-	}
-
-
-
-	farmers = {
-		culture = punic
-		religion = punic_church
-		size = 23050
-	}
-	
-	clergymen = {
-		culture = afro_brazilian
-		religion = punic_church
-		size = 150
-	}
-
-	artisans = {
-		culture = afro_brazilian
-		religion = punic_church
-		size = 2350
-	}
-
-	soldiers = {
-		culture = afro_brazilian
-		religion = punic_church
-		size = 300
-	}
-
-	farmers = {
-		culture = afro_brazilian
-		religion = punic_church
-		size = 9200
-	}
-
-	slaves = {
-		culture = afro_brazilian
-		religion = punic_church
-		size = 57000
-	}
-}
-#Paysandu (36000/9000 POPS)
-2345 = {
-	aristocrats = {
 		culture = new_roman
 		religion = punic_church
-		size = 1050
-	}
-
-	clergymen = {
-		culture = new_roman
-		religion = punic_church
-		size = 700
+		size = 1500
 	}
 
 	artisans = {
 		culture = new_roman
 		religion = punic_church
-		size = 3000
+		size = 8700
 	}
-
+	
 	soldiers = {
 		culture = new_roman
 		religion = punic_church
@@ -153,65 +83,127 @@
 	farmers = {
 		culture = new_roman
 		religion = punic_church
-		size = 30850
+		size = 28750
 	}
 	
-	aristocrats = {
-		culture = punic
-		religion = punic_church
-		size = 1050
-	}
-
 	clergymen = {
-		culture = punic
-		religion = punic_church
-		size = 700
-	}
-
-	artisans = {
-		culture = punic
-		religion = punic_church
-		size = 4800
-	}
-
-	soldiers = {
-		culture = punic
-		religion = punic_church
-		size = 2000
-	}
-
-	farmers = {
-		culture = punic
-		religion = punic_church
-		size = 25850
-	}
-
-	clergymen = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = berber
+		religion = punic_church
+		size = 2350
+	}
+
+	soldiers = {
+		culture = berber
+		religion = punic_church
+		size = 300
+	}
+
+	farmers = {
+		culture = berber
+		religion = punic_church
+		size = 9200
+	}
+
+	slaves = {
+		culture = berber
+		religion = punic_church
+		size = 50000
+	}
+}
+#Paysandu (36000/9000 POPS)
+2345 = {
+	aristocrats = {
+		culture = new_punic
+		religion = punic_church
+		size = 1050
+	}
+
+	clergymen = {
+		culture = new_punic
+		religion = punic_church
+		size = 700
+	}
+
+	artisans = {
+		culture = new_punic
+		religion = punic_church
+		size = 3100
+	}
+
+	soldiers = {
+		culture = new_punic
+		religion = punic_church
+		size = 1500
+	}
+
+	farmers = {
+		culture = new_punic
+		religion = punic_church
+		size = 28850
+	}
+	
+	aristocrats = {
+		culture = new_roman
+		religion = punic_church
+		size = 750
+	}
+
+	clergymen = {
+		culture = new_roman
+		religion = punic_church
+		size = 550
+	}
+
+	artisans = {
+		culture = new_roman
+		religion = punic_church
+		size = 3800
+	}
+
+	soldiers = {
+		culture = new_roman
+		religion = punic_church
+		size = 1100
+	}
+
+	farmers = {
+		culture = new_roman
+		religion = punic_church
+		size = 19850
+	}
+
+	clergymen = {
+		culture = berber
+		religion = punic_church
+		size = 150
+	}
+
+	artisans = {
+		culture = berber
 		religion = punic_church
 		size = 1000
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 4200
 	}
 
 	slaves = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 7700
 	}
@@ -219,91 +211,91 @@
 #Tacumba (12000/3000 POPS)
 2346 = {
 	aristocrats = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 1050
 	}
 
 	clergymen = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 3000
 	}
 
 	soldiers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 1500
 	}
 
 	farmers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 30850
+		size = 31850
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 1050
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 4800
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 2000
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
-		size = 25850
+		size = 19850
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 1000
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 4200
 	}
 
 	slaves = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 7700
 	}
@@ -311,91 +303,91 @@
 #Melo (40000/10000 POPS)
 2347 = {
 	aristocrats = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 1050
 	}
 
 	clergymen = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 700
+		size = 800
 	}
 
 	artisans = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 3000
+		size = 3100
 	}
 
 	soldiers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
 		size = 1500
 	}
 
 	farmers = {
-		culture = new_roman
+		culture = new_punic
 		religion = punic_church
-		size = 30850
+		size = 31850
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 1050
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
 		size = 700
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
-		size = 4800
+		size = 4200
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
-		size = 2000
+		size = 1900
 	}
 
 	farmers = {
-		culture = punic
+		culture = new_roman
 		religion = punic_church
-		size = 25850
+		size = 21850
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 1000
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 4200
 	}
 
 	slaves = {
-		culture = afro_brazilian
+		culture = berber
 		religion = punic_church
 		size = 7700
 	}

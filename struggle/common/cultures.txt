@@ -7834,6 +7834,19 @@ semitic_group = {
 		Hiramid Mago Mattanid Metallid Milkiramid Philosirid Gisgo Gerbalid Hammid Eugarid Mashhid Ummashid 
 		}
 	}
+	new_punic = {
+		color = { 141 103 200 }
+		first_names = { 
+		  Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodo Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+		Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+		Paltibaal Philosir Boodes Bomical Gisgo Malchus Abdhamon Abibaal Abirami Ahumm Eshmounhilles Eshmouniaton Itthobaal
+		Ummashtart Melqartshama Batnoam Urumilki Yehomilk Yadamilk Baaliaton Barekbaal Gerbaal Gerimilki Khiletzbaal Tabnit Yutpan Zimrida
+		Danel Kanmi Maharbaal Milkpilles Melqartpilles Milkyaton Massinissa Hiempsal Juba
+		}
+		last_names = { Abbarid Adonibaal Ahirom Baalhannid Baalid Barca Bodona Bostara Chelbesid Eshbaalid Eugorid Hannid
+		Hiramid Mago Mattanid Metallid Milkiramid Philosirid Gisgo Gerbalid Hammid Eugarid Mashhid Ummashid 
+		}
+	}
 }
 african_romance_group = {
 	leader = european

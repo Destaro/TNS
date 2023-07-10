@@ -111,37 +111,37 @@
 	}
 	
 	aristocrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 1850
 	}
 
 	bureaucrats = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 200
 	}
 
 	officers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 300
 	}
 
 	clergymen = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 775
 	}
 
 	artisans = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 3600
 	}
 
 	soldiers = {
-		culture = punic
+		culture = new_punic
 		religion = punic_church
 		size = 15100
 	}

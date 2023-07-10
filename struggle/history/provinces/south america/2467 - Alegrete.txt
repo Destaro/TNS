@@ -1,5 +1,5 @@
-owner = KRT
-controller = KRT
+owner = RGS
+controller = RGS
 add_core = LPL
 add_core = PRG
 trade_goods = cattle
