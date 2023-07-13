@@ -1,6 +1,6 @@
-owner = NKG
-controller = NKG
-add_core = NKG
+owner = NCH
+controller = NCH
+add_core = NCH
 trade_goods = grain
 terrain = hills
 life_rating = 35
