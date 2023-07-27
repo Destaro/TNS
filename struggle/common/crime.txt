@@ -197,18 +197,6 @@ good_healthcare_poorly_funded = {
 	}
 }
 
-
-trusts = {
-	active = yes
-	
-	rich_everyday_needs = -0.1
-	poor_everyday_needs = 0.3
-	icon = 10
-	
-	trigger = {
-	}
-}
-
 instigators = {
 	active = yes
 	
@@ -220,20 +208,6 @@ instigators = {
 		owner = { vote_franschise = none_voting }
 		civilized = yes
 		is_colonial = no
-	}
-}
-
-kleptocrats = {
-	active = yes
-	
-	middle_everyday_needs = -0.05 
-	poor_everyday_needs = 0.1
-	icon = 12
-	
-	trigger = {
-		owner = { vote_franschise = none_voting }
-		is_colonial = no
-		has_pop_type  = bureaucrats
 	}
 }
 
