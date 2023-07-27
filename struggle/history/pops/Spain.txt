@@ -869,7 +869,7 @@
 		religion = catholic
 		size = 600
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -877,7 +877,7 @@
 		religion = catholic
 		size = 550
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
@@ -885,7 +885,7 @@
 		religion = catholic
 		size = 3000
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	soldiers = {
@@ -893,7 +893,7 @@
 		religion = catholic
 		size = 550
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	farmers = {
@@ -901,7 +901,7 @@
 		religion = catholic
 		size = 51800
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	aristocrats = {
@@ -941,7 +941,7 @@
 		religion = catholic
 		size = 700
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	officers = {
@@ -949,7 +949,7 @@
 		religion = catholic
 		size = 100
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	bureaucrats = {
@@ -957,7 +957,7 @@
 		religion = catholic
 		size = 150
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -965,7 +965,7 @@
 		religion = catholic
 		size = 375
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
@@ -973,7 +973,7 @@
 		religion = catholic
 		size = 1750
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	soldiers = {
@@ -981,7 +981,7 @@
 		religion = catholic
 		size = 400
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	labourers = {
@@ -989,7 +989,7 @@
 		religion = catholic
 		size = 35025
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	aristocrats = {
@@ -1199,7 +1199,7 @@
 		religion = catholic
 		size = 1200
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -1207,7 +1207,7 @@
 		religion = catholic
 		size = 550
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
@@ -1215,7 +1215,7 @@
 		religion = catholic
 		size = 2750
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	soldiers = {
@@ -1223,7 +1223,7 @@
 		religion = catholic
 		size = 1100
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	farmers = {
@@ -1399,7 +1399,7 @@
 		religion = catholic
 		size = 33300
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	aristocrats = {
@@ -1439,7 +1439,7 @@
 		religion = catholic
 		size = 550
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -1447,7 +1447,7 @@
 		religion = catholic
 		size = 250
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
@@ -1455,7 +1455,7 @@
 		religion = catholic
 		size = 2750
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	soldiers = {
@@ -1463,7 +1463,7 @@
 		religion = catholic
 		size = 275
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	farmers = {
@@ -1471,7 +1471,7 @@
 		religion = catholic
 		size = 24150
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	aristocrats = {
@@ -1511,7 +1511,7 @@
 		religion = catholic
 		size = 850
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -1519,7 +1519,7 @@
 		religion = catholic
 		size = 400
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
@@ -1533,7 +1533,7 @@
 		religion = catholic
 		size = 400
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	farmers = {
@@ -1541,7 +1541,7 @@
 		religion = catholic
 		size = 37850
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	aristocrats = {
@@ -1549,7 +1549,7 @@
 		religion = catholic
 		size = 450
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	clergymen = {
@@ -1557,7 +1557,7 @@
 		religion = catholic
 		size = 200
 		militancy = 8
-		rebel_type = carlist_rebels
+		
 	}
 
 	artisans = {
