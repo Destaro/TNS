@@ -488,6 +488,7 @@ migration_target = {
 
 	modifier = {
 		factor = 5.01
+		country = { primary_culture = british }
 		OR = {
 			continent = australia_new_zealand
 			continent = north_america
@@ -496,11 +497,11 @@ migration_target = {
 			state_id = 273
 			is_core = EGY
 		}
-		country = { primary_culture = british }
 	}
 	
 	modifier = {
 		factor = 3.5
+		country = { primary_culture = british }
 		OR = { 
 			continent = africa
 			state_id = 2033
@@ -509,7 +510,6 @@ migration_target = {
 			is_core = RHO
 			is_core = CHI
 		}
-		country = { primary_culture = british }
 	}
 	
 	modifier = {
@@ -523,6 +523,7 @@ migration_target = {
 	
 	modifier = {
 		factor = 3.0
+		country = { primary_culture = french }
 		OR = { 
 			is_core = RHI
 			is_core = WAL
@@ -534,11 +535,11 @@ migration_target = {
 			continent = africa
 			continent = indochina
 		}
-		country = { primary_culture = french }
 	}
 	
 	modifier = {
 		factor = 3.0
+		country = { is_culture_group = italian }
 		OR = { 
 			continent = africa
 			continent = east_africa
@@ -553,11 +554,11 @@ migration_target = {
 			is_core = FIU
 			is_core = SLO
 		}
-		country = { is_culture_group = italian }
 	}
 	
 	modifier = {
 		factor = 2.5
+		country = { is_culture_group = east_asian }
 		OR = {
 			is_core = YNN
 			is_core = IMG
@@ -571,7 +572,6 @@ migration_target = {
 			is_core = KML
 			is_core = KOR
 		}
-		country = { is_culture_group = east_asian }
 	}
 	
 	modifier = {
@@ -606,6 +606,7 @@ migration_target = {
 			terrain = coral_island
 		}
 	}
+	
 	modifier = {
 		factor = 2
 		life_rating = 40
