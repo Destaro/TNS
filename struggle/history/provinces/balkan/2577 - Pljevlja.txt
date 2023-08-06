@@ -7,6 +7,6 @@ trade_goods = iron
 life_rating = 35
 
 
-add_core = WAL
+
 add_core = ROM
 add_core = ALB

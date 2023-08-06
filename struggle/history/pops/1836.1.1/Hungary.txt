@@ -1757,26 +1757,26 @@
 791 = {
 	clergymen = {
 		culture = aromanian
-		religion = orthodox
+		religion = catholic
 		size = 550 
 	}
 
 	artisans = {
 		culture = aromanian
-		religion = orthodox
+		religion = catholic
 		size = 3750
 	}
 
 	soldiers = {
 		culture = aromanian
-		religion = orthodox
+		religion = catholic
 		size = 1250 
 	}
 
 	farmers = {
 		culture = aromanian
-		religion = orthodox
-		size = 10350
+		religion = catholic
+		size = 11350
 	}
 	
 	farmers = {
@@ -1794,7 +1794,7 @@
 	artisans = {
 		culture = pannonian
 		religion = catholic
-		size = 3700
+		size = 2700
 	}
 
 	soldiers = {
@@ -1806,7 +1806,7 @@
 	farmers = {
 		culture = pannonian
 		religion = catholic
-		size = 13675  
+		size = 10675  
 	}
 }
 #Pancevo (268000/67000 POPS) #part of pannoniania today

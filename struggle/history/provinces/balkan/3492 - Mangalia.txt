@@ -1,6 +1,6 @@
 owner = BYZ
 controller = BYZ
-add_core = DBJ
+
 
 add_core = ROM
 

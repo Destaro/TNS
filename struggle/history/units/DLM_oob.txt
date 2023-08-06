@@ -1,0 +1,153 @@
+
+PAP = {	
+	value = 175
+	level = 0
+	influence_value = 0
+}
+
+TUN = {	
+	value = -175
+	level = 0
+	influence_value = 0
+}
+
+leader = {
+	name = "Carlo X Giovanni"
+	date = 1818.1.1
+	type = land
+	personality = charismatic
+	background = elderly
+	prestige = 0.5
+}
+
+leader = {
+	name = "Antonio Talasso"
+	date = 1807.1.1
+	type = land
+	personality = brilliant
+	background = school_of_the_bayonet
+	prestige = 0.3
+}
+
+leader = {
+	name = "Abramo Rossi"
+	date = 1818.1.1
+	type = land
+	personality = unruly
+	background = generals_aide
+	prestige = 0.2
+}
+
+leader = {
+	name = "Scroto di Zagabria"
+	date = 1834.1.1
+	type = sea
+	personality = able
+	background = adventurer
+	prestige = 0.1
+}
+
+army = {
+	name = "Armata Reale"
+	location = 771
+	regiment = {
+		name= "1. Guardia Reale"
+		type = guard
+		home = 771
+	}
+
+	regiment = {
+		name= "1. Truppe Dalmate"
+		type = infantry
+		home = 774
+	}
+
+	regiment = {
+		name= "2. Truppe a pois"
+		type = infantry
+		home = 773
+	}
+	
+	regiment = {
+		name= "1. Truppe Carniole"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "2. Truppe Cleune"
+		type = infantry
+		home = 789
+	}
+	
+	regiment = {
+		name= "1. Cavalleria Dalmata"
+		type = cavalry
+		home = 774
+	}
+	
+	regiment = {
+		name= "1. Cavalleria a pois"
+		type = cavalry
+		home = 774
+	}
+
+	regiment = {
+		name= "4. Artilleria Trebignese"
+		type = artillery
+		home = 2569
+	}
+	
+	regiment = {
+		name= "4. Artilleria Lubianese"
+		type = artillery
+		home = 768
+	}
+
+}
+
+navy = {
+	name = "Flotta Reale"
+	location = 2763
+	
+	ship = {
+		name = "Illirio"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Speranza"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Placida"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Oltremare"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristoantonio Duca di Carniola"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+}
+

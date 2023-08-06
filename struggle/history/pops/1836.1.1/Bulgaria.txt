@@ -36,18 +36,24 @@
         culture = aromanian
         religion = orthodox
         size = 300
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = aromanian
         religion = orthodox
         size = 625
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     artisans = {
         culture = aromanian
         religion = orthodox
         size = 900
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     farmers = {
@@ -60,12 +66,16 @@
         culture = aromanian
         religion = orthodox
         size = 300
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = aromanian
         religion = orthodox
         size = 300
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     artisans = {
@@ -78,6 +88,8 @@
         culture = aromanian
         religion = orthodox
         size = 13100
+		militancy = 9
+		rebel_type = nationalist_rebels
     }
 
     soldiers = {
@@ -155,36 +167,48 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	officers = {
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = aromanian
 		religion = orthodox
 		size = 600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
 		culture = aromanian
 		religion = orthodox
 		size = 500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = aromanian
 		religion = orthodox
-		size = 500
+		size = 750
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = aromanian
 		religion = orthodox
 		size = 5442
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	aristocrats = {
@@ -197,6 +221,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 110
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -215,6 +241,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 2000
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {

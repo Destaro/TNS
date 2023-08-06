@@ -1,5 +1,5 @@
-owner = BOS
-controller = BOS
-add_core = BOS
+owner = DLM
+controller = DLM
+add_core = DLM
 trade_goods = cattle
 life_rating = 35

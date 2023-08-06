@@ -43,13 +43,169 @@ army = {
 		home = 755
 	}
 
-	
-
 	regiment = {
 		name= "4. Truppe Svizzere"
 		type = artillery
 		home = 3603
 	}
-
 }
 
+navy = {
+	name = "Flotta Reale"
+	location = 754
+	
+	ship = {
+		name = "Caravaggio"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Torquato Tasso"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Amalfi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Cesariota"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Sorrento"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Pompei"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Ischia"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Caserta"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Flotta Salernitana"
+	location = 755
+	
+	ship = {
+		name = "Salerno"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Battipaglia"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Paestum"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Agropoli"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Camelota"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Flotta Amalfitana"
+	location = 3604
+	
+	ship = {
+		name = "Amalfi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Vitulazio"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Pompei"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Ischia"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Caserta"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Flottiglia di trasporto"
+		type = clipper_transport
+	}
+}

@@ -237,65 +237,65 @@
 	clergymen = {
 		culture = albanian
 		religion = catholic
-		size = 100
+		size = 270
 	}
 
 	artisans = {
 		culture = albanian
 		religion = catholic
-		size = 800
+		size = 3800
 	}
 
 	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 4500
+		size = 9500
 	}
 	
 	soldiers = {
-		culture = aromanian
-		religion = orthodox
+		culture = dalmatian
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = aromanian
-		religion = orthodox
+		culture = dalmatian
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = aromanian
-		religion = orthodox
+		culture = dalmatian
+		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = aromanian
-		religion = orthodox
+		culture = dalmatian
+		religion = catholic
 		size = 18300
 	}
 	
 	soldiers = {
-		culture = aromanian
+		culture = dalmatian
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = aromanian
+		culture = dalmatian
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = aromanian
+		culture = dalmatian
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = aromanian
+		culture = dalmatian
 		religion = catholic
 		size = 3675
 	}

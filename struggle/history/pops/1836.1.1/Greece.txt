@@ -225,7 +225,7 @@
     farmers = {
         culture = aromanian
         religion = orthodox
-        size = 9525
+        size = 7525
     }
 
     aristocrats = {
@@ -261,53 +261,53 @@
     farmers = {
         culture = aromanian
         religion = orthodox
-        size = 18650
+        size = 14650
     }
 
     farmers = {
         culture = aromanian
         religion = orthodox
-        size = 7650
+        size = 5650
     }
 
     aristocrats = {
         culture = greek
         religion = orthodox
-        size = 700
+        size = 950
     }
 
     officers = {
         culture = greek
         religion = orthodox
-        size = 200
+        size = 350
     }
 
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 400
+        size = 770
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 225
+        size = 625
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 900
+        size = 3100
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 16175
+        size = 27175
     }
 	
 	farmers = {
-        culture = greek
+        culture = circassian
         religion = orthodox
         size = 2000
     }
@@ -342,25 +342,25 @@
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 100
+		size = 750
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 650
+		size = 1450
 	}
 	
 	soldiers = {
 		culture = greek
 		religion = orthodox
-		size = 300
+		size = 750
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 15000
+		size = 17000
 	}
 	
 	clergymen = {
@@ -736,13 +736,13 @@
     soldiers = {
         culture = aromanian
         religion = orthodox
-        size = 3350
+        size = 3050
     }
 
     farmers = {
         culture = aromanian
         religion = orthodox
-        size = 20675
+        size = 15675
     }
 
     soldiers = {
@@ -754,19 +754,19 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 400
+        size = 700
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 900
+        size = 3900
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 20490
+        size = 24490
     }
 
     soldiers = {
@@ -790,7 +790,7 @@
     farmers = {
         culture = aromanian
         religion = orthodox
-        size = 28350
+        size = 7350
     }
 	
 	farmers = {
@@ -1255,45 +1255,178 @@
 #under the rule of Greece in 1836
 #Athens (308000/77000 POPS)
 834 = {
+	capitalists = {
+		culture = greek
+		religion = orthodox
+		size = 250
+	}
+
 	aristocrats = {
 		culture = greek
 		religion = orthodox
-		size = 500
+		size = 700
 	}
+	
 	bureaucrats = {
 		culture = greek
 		religion = orthodox
-		size = 850
+		size = 950
 	}
 
 	officers = {
 		culture = greek
 		religion = orthodox
-		size = 200
+		size = 275
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 775
+		size = 1075
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 1000
+		size = 2500
 	}
 
 	soldiers = {
 		culture = greek
 		religion = orthodox
-		size = 2100
+		size = 2500
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
 		size = 40175
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 700
+	}
+	
+	bureaucrats = {
+		culture = greek
+		religion = orthodox
+		size = 950
+	}
+
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 1075
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 2500
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 40175
+	}
+	
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 700
+	}
+	
+	bureaucrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 950
+	}
+
+	officers = {
+		culture = aromanian
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 1075
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 650
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 10175
+	}
+	
+	aristocrats = {
+		culture = tosk
+		religion = orthodox
+		size = 700
+	}
+	
+	bureaucrats = {
+		culture = tosk
+		religion = orthodox
+		size = 950
+	}
+
+	officers = {
+		culture = tosk
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 1075
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 650
+	}
+
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 10175
 	}
 }
 #Amfissa (76000/19000 POPS)
@@ -1959,43 +2092,43 @@
     aristocrats = {
         culture = greek
         religion = orthodox
-        size = 1800
+        size = 2100
     }
 
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 250
+        size = 350
     }
 
     officers = {
         culture = greek
         religion = orthodox
-        size = 325
+        size = 425
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 250
+        size = 350
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 4500
+        size = 5500
     }
 
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 2800
+        size = 3000
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 7000
+        size = 7500
     }
 
     aristocrats = {
@@ -2067,13 +2200,13 @@
     artisans = {
         culture = greek
         religion = orthodox
-        size = 1500
+        size = 1600
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 13345
+        size = 14345
     }
 
     soldiers = {

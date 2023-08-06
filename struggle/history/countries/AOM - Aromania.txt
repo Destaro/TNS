@@ -1,6 +1,5 @@
 capital = 806
 primary_culture = aromanian
-culture = greek
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.08

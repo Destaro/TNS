@@ -1,11 +1,13 @@
 owner = BYZ
 controller = BYZ
-add_core = MOL
+
 
 
 trade_goods = timber
 life_rating = 35
 
 
-add_core = AOM
+
 add_core = ROM
+
+add_core = AOM
