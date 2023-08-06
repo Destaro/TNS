@@ -506,53 +506,6 @@ migration_chance = {
 		factor = 0.05
 		country = { administration_spending = 0.75 colonial_policy = settlement }
 	}
-	
-	modifier = {
-		factor = 0.25
-		THIS = { 
-			is_culture_group = germanic 
-		}
-		location = { 
-			controlled_by = owner
-			NOT = {
-				state_id = 701
-				state_id = 682
-				state_id = 690
-				state_id = 695
-				state_id = 354
-				state_id = 349
-				state_id = 706
-			}
-		}
-		country = { has_country_flag = prussian_settlement_commission }
-	}
-	
-	modifier = {
-		factor = 0.4
-		THIS = { 
-			is_culture_group = polish_culture_group
-		}
-		#NOT = { unemployment = 0.1 }
-		location = { 
-			AND = {
-				controlled_by = owner
-				OR = {
-					state_id = 701
-					state_id = 682
-					state_id = 690
-					state_id = 695
-				}
-			}
-		}
-		country = { 
-			AND = { 
-				is_greater_power = yes
-				is_culture_group = germanic
-				NOT = { war_exhaustion = 1 }
-				has_country_flag = ruhr_polen
-			}
-		}
-	}
 
 	group = {
 		modifier = {

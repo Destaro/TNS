@@ -682,14 +682,6 @@ political_decisions = {
 					}
 				}
 			}
-			SCL = {
-				any_owned = {
-					add_province_modifier = {
-						name = baby_boom
-						duration = 3650
-					}
-				}
-			}
 			HAM = {
 				any_owned = {
 					add_province_modifier = {

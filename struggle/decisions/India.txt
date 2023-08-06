@@ -701,14 +701,6 @@ political_decisions = {
 				limit = { tag = REW exists = yes ai = no }
 				country_event = 11101
 			}
-			random_country = {
-				limit = { tag = CHH exists = yes ai = yes }
-				THIS = { inherit = CHH }
-			}
-			random_country = {
-				limit = { tag = CHH exists = yes ai = no }
-				country_event = 11101
-			}
 			1270 = { secede_province = BUN add_core = BUN }
 			1271 = { secede_province = BUN add_core = BUN }
 			1272 = { secede_province = BUN add_core = BUN }

@@ -257,11 +257,6 @@ REW = {
 	level = 5
 	influence_value = 0
 }
-CHH = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
 GWA = {
 	value = 125
 	level = 5
