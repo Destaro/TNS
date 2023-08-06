@@ -123,12 +123,42 @@ democracy = {
 	flagType = republic
 }
 
+federal_democracy = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}
+
 theocracy = {
 	#which ideology of parties.
 	reactionary = yes
 	conservative = yes
 	
 	election = no
+	appoint_ruling_party = yes
+}
+ 
+french_bourbon = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	
+	election = yes
+	duration = 48
 	appoint_ruling_party = yes
 }
  
@@ -151,6 +181,7 @@ lotharingian_duchy = {
 	conservative = yes
 	reactionary = yes
 	fascist = yes
+	
 	
 	appoint_ruling_party = yes
 }

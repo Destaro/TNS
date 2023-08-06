@@ -470,7 +470,7 @@ country_event = {
 		
 		533 = {
 			remove_core = ENG
-			#remove_core = HGL
+			remove_core = HGL
 			secede_province = FROM
 			add_core = FROM
 			change_province_name = "Helgoland"

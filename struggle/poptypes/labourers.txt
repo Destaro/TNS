@@ -464,9 +464,34 @@ modifier = {
 		country = { primary_culture = russian }
 	}
 	
+	modifier = {
+		factor = 2.5
+		OR = { 
+			state_id = 409
+			state_id = 411
+			state_id = 354
+			state_id = 350
+			state_id = 690
+			state_id = 699
+			state_id = 657
+			state_id = 2533
+		}
+		country = { has_country_flag = prussian_settlement_commission }
+	}
 	
-	
-
+	modifier = {
+		factor = 1.1
+		OR = { 
+			state_id = 354
+			state_id = 350
+			state_id = 690
+			state_id = 699
+			continent = south_west_africa
+			state_id = 409
+			state_id = 411
+		}
+		country = { is_culture_group = germanic }
+	}
 	
 	modifier = {
 		factor = -0.5
@@ -496,10 +521,36 @@ modifier = {
 		}
 		country = { is_culture_group = american_cultures }
 	}
-
-		modifier = {
-		factor = 5.01
+	
+	modifier = {
+		factor = -2.81
+		OR = { 
+			is_core = HND
+			continent = indochina
+			is_core = SRI
+			is_core = PRK
+			is_core = PHG
+			is_core = LHJ
+			is_core = MLT
+			AND = {
+				continent = oceania #Near East
+				NOT = { state_id = 1755 }
+			}
+			continent = west_africa
+			continent = central_africa
+			is_core = MLW
+			state_id = 1842
+			state_id = 1836
+			state_id = 1830
+			state_id = 1840
+			state_id = 1844
+			state_id = 2019
+		}
 		country = { primary_culture = british }
+	}
+	
+	modifier = {
+		factor = 5.01
 		OR = {
 			continent = australia_new_zealand
 			continent = north_america
@@ -508,11 +559,11 @@ modifier = {
 			state_id = 273
 			is_core = EGY
 		}
+		country = { primary_culture = british }
 	}
 	
 	modifier = {
 		factor = 3.5
-		country = { primary_culture = british }
 		OR = { 
 			continent = africa
 			state_id = 2033
@@ -521,6 +572,7 @@ modifier = {
 			is_core = RHO
 			is_core = CHI
 		}
+		country = { primary_culture = british }
 	}
 	
 	modifier = {
@@ -532,9 +584,8 @@ modifier = {
 		country = { primary_culture = british }
 	}
 	
-		modifier = {
+	modifier = {
 		factor = 3.0
-		country = { primary_culture = french }
 		OR = { 
 			is_core = RHI
 			is_core = WAL
@@ -546,11 +597,11 @@ modifier = {
 			continent = africa
 			continent = indochina
 		}
+		country = { primary_culture = french }
 	}
 	
 	modifier = {
 		factor = 3.0
-		country = { is_culture_group = italian }
 		OR = { 
 			continent = africa
 			continent = east_africa
@@ -565,11 +616,11 @@ modifier = {
 			is_core = FIU
 			is_core = SLO
 		}
+		country = { is_culture_group = italian }
 	}
 	
 	modifier = {
 		factor = 2.5
-		country = { is_culture_group = east_asian }
 		OR = {
 			is_core = YNN
 			is_core = IMG
@@ -583,6 +634,7 @@ modifier = {
 			is_core = KML
 			is_core = KOR
 		}
+		country = { is_culture_group = east_asian }
 	}
 	
 	modifier = {

@@ -79,7 +79,7 @@ political_decisions = {
 					NOT = { tag = AUS }
 					NOT = { tag = KUK }
 					NOT = { tag = BAN }
-					#NOT = { tag = LIE }
+					NOT = { tag = LIE }
 					exists = yes
 				}
 				country_event = 99999			
