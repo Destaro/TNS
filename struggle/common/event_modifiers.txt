@@ -3276,16 +3276,3 @@ foreign_weapons_imported = {
 	icon = 9
 }
 
-### TNS Modifiers ###
-
-sicilian_industrialization_plan = {
-	factory_throughput = 0.02
-	factory_owner_cost = -0.1
-	rgo_output = 0.02
-	tax_efficiency = 0.05
-	mobilization_economy_impact = 0.15
-	global_immigrant_attract = 0.01
-	supply_consumption = -0.03
-	icon = 13
-}
-
