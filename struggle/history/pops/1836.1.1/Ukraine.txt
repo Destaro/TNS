@@ -416,25 +416,25 @@
 #Maramos
 3664 = {
 	clergymen = {
-		culture = serb
+		culture = croat
 		religion = orthodox
 		size = 250  
 	}
 
 	artisans = {
-		culture = serb
+		culture = croat
 		religion = orthodox
 		size = 2600 
 	}
 
 	soldiers = {
-		culture = serb
+		culture = croat
 		religion = orthodox
 		size = 900
 	}
 
 	serfs = {
-		culture = serb
+		culture = croat
 		religion = orthodox
 		size = 13650  
 	}

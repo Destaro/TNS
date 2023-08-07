@@ -533,7 +533,7 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 26062
+		size = 15062
 	}
 	
 	soldiers = {
@@ -877,7 +877,61 @@
 		religion = orthodox
 		size = 10000
 	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 125
+	}
+	
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 125
+	}
 
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 10000
+	}
+	
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+	
+	officers = {
+		culture = aromanian
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+	
 	farmers = {
 		culture = aromanian
 		religion = orthodox

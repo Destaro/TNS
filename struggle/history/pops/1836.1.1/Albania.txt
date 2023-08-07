@@ -3,6 +3,8 @@
 	aristocrats = {
 		culture = albanian
 		religion = orthodox
+		militancy = 9
+		rebel_type = nationalist_rebels
 		size = 214
 	}
 	
@@ -15,6 +17,8 @@
 	officers = {
 		culture = albanian
 		religion = orthodox
+		militancy = 9
+		rebel_type = nationalist_rebels
 		size = 122
 	}
 	
@@ -97,30 +101,48 @@
 		culture = albanian
 		religion = catholic
 		size = 880
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = albanian
 		religion = catholic
 		size = 307
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
 		culture = albanian
 		religion = catholic
 		size = 556
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = albanian
 		religion = catholic
-		size = 2819
+		size = 3819
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
 		culture = albanian
 		religion = catholic
 		size = 27566
+		militancy = 5
+		rebel_type = nationalist_rebels
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 13000
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	aristocrats = {
@@ -152,8 +174,6 @@
 		religion = orthodox
 		size = 10127
 	}
-	
-	
 }
 
 #Kruje
@@ -162,12 +182,16 @@
 		culture = albanian
 		religion = catholic
 		size = 1245
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = albanian
 		religion = catholic
 		size = 600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
@@ -180,6 +204,8 @@
 		culture = albanian
 		religion = catholic
 		size = 2450
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
@@ -198,18 +224,24 @@
 		culture = tosk
 		religion = orthodox
 		size = 600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
 		culture = tosk
 		religion = orthodox
 		size = 491
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = tosk
 		religion = orthodox
 		size = 2000
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
@@ -259,62 +291,82 @@
 3656 = {
 	aristocrats = {
 		culture = albanian
-		religion = catholic
-		size = 45
+		religion = orthodox
+		size = 77
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = albanian
-		religion = catholic
-		size = 60
+		religion = orthodox
+		size = 150
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
 		culture = albanian
-		religion = catholic
-		size = 1500
+		religion = orthodox
+		size = 2500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = albanian
-		religion = catholic
-		size = 50
+		religion = orthodox
+		size = 450
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
 		culture = albanian
-		religion = catholic
-		size = 1000
+		religion = orthodox
+		size = 3500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	aristocrats = {
 		culture = tosk
 		religion = orthodox
 		size = 45
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = tosk
 		religion = orthodox
-		size = 60
+		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
 		culture = tosk
 		religion = orthodox
-		size = 1000
+		size = 2500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = tosk
 		religion = orthodox
-		size = 20
+		size = 450
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 800
+		size = 3500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	aristocrats = {
@@ -360,30 +412,40 @@
 		culture = albanian
 		religion = catholic
 		size = 45
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = albanian
 		religion = catholic
 		size = 120
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	artisans = {
 		culture = albanian
 		religion = catholic
 		size = 1500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	soldiers = {
 		culture = albanian
 		religion = catholic
-		size = 50
+		size = 250
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	farmers = {
 		culture = albanian
 		religion = catholic
 		size = 3000
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	aristocrats = {
@@ -573,33 +635,33 @@
 	}
 	
 	aristocrats = {
-		culture = aromanian
+		culture = tosk
 		religion = orthodox
 		size = 73
 	}
 	
 	clergymen = {
-		culture = aromanian
+		culture = tosk
 		religion = orthodox
 		size = 90
 	}
 	
 	artisans = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 931
 	}
 	
 	soldiers = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
 		size = 86
 	}
 	
 	farmers = {
-		culture = aromanian
+		culture = greek
 		religion = orthodox
-		size = 8047
+		size = 6047
 	}
 	
 	clergymen = {

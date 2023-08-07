@@ -1,6 +1,6 @@
-capital = 783
+capital = 791
 primary_culture = aromanian
-religion = sunni
+religion = catholic
 government = absolute_monarchy
 plurality = 0.08
 nationalvalue = nv_order

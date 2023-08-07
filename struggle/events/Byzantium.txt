@@ -1,303 +1,149 @@
 country_event = {
-
-	id = 3003003
-	title = "EVTNAME3003003" #collapseofrumelia
-	desc = "EVTDESC3003003"
-	picture = "danishgovernment"
+	id = 300000
+	title = "EVTNAME300000" 
+	desc = "EVTDESC300000"
+	picture = "constantinople"
+	
 	fire_only_once = yes
+
 	trigger = {
-	war = no
-	tag = RUM
-	OR = { 
-	AOM = { is_vassal = no }
-	EPI = { is_vassal = no }
-	GRE = { is_vassal = no }
-	ALB = { is_vassal = no }
-	DBJ = { is_vassal = no }
-	MOL = { is_vassal = no }
-	WAL = { is_vassal = no }
-	                  }
-	NOT = {
-	
-	 
-	     AOM = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			}
-			
-			WAL = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			
-			ALB = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			 
-			 EPI = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			}
-			
-			DBJ = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			
-			MOL = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			 GRE = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-	 
-	             }
-	
-	
-	    
-	
+		tag = BYZ
 	}
-	
-	
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
-		name = "EVTOPTB3003003" #byerumelia
-		set_global_flag = the_end_of_rumelia
-		release_vassal = DBJ
-		release_vassal = AOM
-		release_vassal = ALB
-		release_vassal = EPI
-		release_vassal = WAL
-		release_vassal = MOL
-		release_vassal = GRE
-		
+		name = "We have a bright future ahead of us."
+		set_country_flag = byz_intro1
+		prestige = 5
+		ai_chance = {
+			factor = 100
+		}
 	}
 }
 
-#dobrudjanrevolt
 country_event = {
-
-	id = 3003004
-	title = "EVTNAME3003004" #dobrudjanrevolt
-	desc = "EVTDESC3003004"
-	picture = "danishgovernment"
+	id = 300001
+	title = "EVTNAME300001" 
+	desc = "EVTDESC300001"
+	picture = "constantinople"
+	
 	fire_only_once = yes
+
 	trigger = {
-	tag = BYZ
-    year = 1840
-	
+		tag = BYZ
+		has_country_flag = byz_intro1
 	}
-	
+
 	mean_time_to_happen = {
-		months = 24
+		days = 1
 	}
 
 	option = {
-		name = "EVTOPTB3003004" #dobrudjanrevolt
+		name = "We survived worse, this won't stop us."
+		set_country_flag = byz_intro2
+		prestige = 5
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 300002
+	title = "EVTNAME300002" 
+	desc = "EVTDESC300002"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		has_country_flag = byz_intro2
+	}
+
+	mean_time_to_happen = {
+		days = 235
+	}
+
+	option = {
+		name = "Rest in peace, Restitutor Orbis."
+		set_country_flag = byz_intro3
+		any_pop = {
+			militancy = 5
+		}
+		any_pop = {
+			consciousness = 5
+		}	
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 300003
+	title = "EVTNAME300003" 
+	desc = "EVTDESC300003"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		has_country_flag = byz_intro3
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "May he be as lucky as Augustus and better than Traianus."
+		set_country_flag = byz_intro4
+		prestige = 10
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+## Aromanians and Albanians force their autonomy ##
+country_event = {
+	id = 300004
+	title = "EVTNAME300004" 
+	desc = "EVTDESC300004"
+	picture = "wallachian_revolution"
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 1840
+		tag = BYZ
+		owns = 809
+		owns = 850
+		NOT = {
+			has_global_flag = sofia_revolt_occurred
+			exists = AOM
+			exists = ALB
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = byzantium_minorities_autonomy
 		any_owned = {
 			limit = {
 				
-				is_core = DBJ
+				is_core = AOM
 			}
-			secede_province = DBJ
+			secede_province = AOM
 		}
-		war = {
-	target = DBJ
-	attacker_goal = { 
-	casus_belli = conquest_any
-	
-	 }
-	defender_goal = { 
-	casus_belli = humiliate 
-	                         }
-		
-	       }
-       }
-}
-
-#moldovajanrevolt
-country_event = {
-
-	id = 3003005
-	title = "EVTNAME3003005" #moldovajanrevolt
-	desc = "EVTDESC3003005"
-	picture = "danishgovernment"
-	fire_only_once = yes
-	trigger = {
-	tag = BYZ
-    year = 1841
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-	set_global_flag = moldovan_revolt
-		name = "EVTOPTB3003004" #moldovajanrevolt
-		any_owned = {
-			limit = {
-				
-				is_core = MOL
-			}
-			secede_province = MOL
-		}
-		
-		war = {
-	target = MOL
-	attacker_goal = { 
-	casus_belli = conquest_any
-	
-	 }
-	defender_goal = { 
-	casus_belli = humiliate 
-	                         }
-		
-	       }
-       }
-}
-
-#morlachianrevolt
-country_event = {
-
-	id = 366355
-	title = "EVTNAME3003005" #morlachianrevolt
-	desc = "EVTDESC3003005"
-	picture = "danishgovernment"
-	fire_only_once = yes
-	trigger = {
-	exists = BOS
-	tag = BYZ
-    year = 1841
-	has_global_flag = moldovan_revolt
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-	set_global_flag = morlachian_revolt
-		name = "EVTOPTB3003004" #moldovajanrevolt
-		any_owned = {
-			limit = {
-				
-				is_core = BOS
-			}
-			secede_province = BOS
-		}
-		
-		war = {
-	target = BOS
-	attacker_goal = { 
-	casus_belli = conquest_any
-	
-	 }
-	defender_goal = { 
-	casus_belli = humiliate 
-	                         }
-		
-	       }
-       }
-}
-
-#greekrevolt
-country_event = {
-
-	id = 3003006
-	title = "EVTNAME3003006" #greekrevolt
-	desc = "EVTDESC3003006"
-	picture = "danishgovernment"
-	fire_only_once = yes
-	trigger = {
-	GRE = { vassal_of = RUM }
-	tag = RUM
-    year = 1841
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-		name = "EVTOPTB3003004" #greekrevolt
-		release_vassal = GRE
-		
-		war = {
-	target = GRE
-	attacker_goal = { 
-	casus_belli = conquest_any
-	
-	 }
-	defender_goal = { 
-	casus_belli = humiliate 
-	                         }
-		
-	       }
-       }
-}
-
-#albanianrevolt
-country_event = {
-
-	id = 3003007
-	title = "EVTNAME3003007" #albanianrevolt
-	desc = "EVTDESC3003007"
-	picture = "danishgovernment"
-	fire_only_once = yes
-	trigger = {
-	
-	tag = BYZ
-    year = 1842
-	
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-		name = "EVTOPTB3003004" #albanianrevolt
 		any_owned = {
 			limit = {
 				
@@ -305,17 +151,636 @@ country_event = {
 			}
 			secede_province = ALB
 		}
-		
-		war = {
-	target = ALB
-	attacker_goal = { 
-	casus_belli = conquest_any
+		any_owned = {
+			limit = {
+				
+				is_core = BOS
+			}
+			secede_province = BOS
+		}
+		create_vassal = AOM
+		AOM = {government = dominion}
+		create_vassal = ALB
+		ALB = {government = dominion}
+		create_vassal = BOS
+		BOS = {government = dominion}
+		prestige = -5
+		BYZ = { plurality = 10 }
+		ALB = { plurality = 10 }
+		AOM = { plurality = 10 }
+		BOS = { plurality = 10 }
+	}
+
+	option = {
+		name = "We can't stop them..."
+		any_owned = {
+			limit = {
+				
+				is_core = AOM
+			}
+			secede_province = AOM
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = ALB
+			}
+			secede_province = ALB
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = BOS
+			}
+			secede_province = BOS
+		}
+		ALB = { capital = 3669 }
+		BOS = { capital = 783 }
+		any_pop = {
+			militancy = 1
+		}
+		any_pop = {
+			consciousness = 5
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
 	
-	 }
-	defender_goal = { 
-	casus_belli = humiliate 
-	                         }
-		
-	       }
-       }
+	option = {
+		name = "All in a days work."
+		any_owned = {
+			limit = {
+				
+				is_core = AOM
+			}
+			secede_province = AOM
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = ALB
+			}
+			secede_province = ALB
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = BOS
+			}
+			secede_province = BOS
+		}
+		ALB = { capital = 3669 }
+		BOS = { capital = 783 }
+		any_pop = {
+			militancy = 1
+		}
+		any_pop = {
+			consciousness = 5
+		}
+		change_tag_no_core_switch = AOM
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+## Emfýlios Pólemos / The Civil War ##
+country_event = {
+	id = 300005
+	title = "EVTNAME300005" 
+	desc = "EVTDESC300005"
+	picture = "wallachian_revolution"
+	major = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 1842
+		tag = BYZ
+		NOT = {
+		AOM = { ai = no }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	immediate = {
+		set_global_flag = sofia_revolt_occurred
+		release_vassal = AOM
+		AOM = {government = prussian_constitutionalism}
+		relation = { who = AOM value = -100 }
+		prestige = -10
+		war = {
+			target = AOM
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = become_independent }
+			call_ally = no
+		}
+		release_vassal = ALB
+		ALB = {government = prussian_constitutionalism}
+		release_vassal = BOS
+		BOS = {government = democracy}
+		relation = { who = ALB value = -100 }
+		any_pop = {
+			limit = {
+				location = { is_core = BYZ }
+				has_pop_culture = gheg
+			}
+			militancy = -10
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = BYZ }
+				has_pop_culture = tosk
+			}
+			militancy = -10
+		}
+		relation = { who = ALB value = -100 }
+		relation = { who = BOS value = -100 }
+	}
+
+	option = {
+		name = "Get my horse!"
+		define_general = {
+			name = "Achilleas Dimitriadu"
+			personality = clever
+			background = priest
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+## Albanian insurrection ##
+country_event = {
+	id = 300006
+	title = "EVTNAME300006" 
+	desc = "EVTDESC300006"
+	picture = "cinque_giornate"
+	major = no
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		ALB = {
+			exists = yes
+		}
+		has_global_flag = sofia_revolt_occurred     
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Put them back where they belong."
+			war = {
+				target = ALB
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = become_independent
+				}	
+			}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "We should concentrate on the bigger target."
+		prestige = -10
+		casus_belli = {
+			target = ALB
+			type = conquest
+			months = 60
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	option = {
+		name = "Liri!"
+			war = {
+				target = ALB
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = become_independent
+				}	
+			}
+		change_tag_no_core_switch = ALB
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+## Bosnia occupied ##
+country_event = {
+	id = 300007
+	title = "EVTNAME300007" 
+	desc = "EVTDESC300007"
+	picture = "bosnia_issue"
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		war = yes
+		war_with = AOM
+		has_global_flag = sofia_revolt_occurred
+		DLM = {
+			exists = yes
+		}
+		NOT = {
+			has_global_flag = sofia_revolt_ended
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		set_global_flag = sofia_revolt_bosnia_occupied
+		DLM = { create_vassal = BOS }
+		relation = { who = BOS value = -100 }
+		relation = { who = DLM value = -100 }
+	}
+
+	option = {
+		name = "They will pay for this"
+		casus_belli = {
+			target = BOS
+			type = conquest
+			months = 60
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Temporary Capital for Aromania
+
+country_event = {
+	id = 300008
+	title = "EVTNAME300008" 
+	desc = "EVTDESC300008"
+	picture = "cinque_giornate"
+	fire_only_once = yes
+
+	trigger = {
+		tag = AOM
+		war = yes
+		war_with = BYZ
+		has_global_flag = sofia_revolt_occurred
+		NOT = {
+			has_global_flag = sofia_revolt_ended
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_pop = {
+			limit = {
+				location = { is_core = AOM }
+				has_pop_culture = aromanian
+			}
+			militancy = -10
+		}
+		relation = { who = ALB value = 100 }
+		add_country_modifier = {
+			name = begin_revolution
+			duration = 365
+		}
+	}
+
+	option = {
+		name = "Serdica"
+		capital = 809
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "Constanta"
+		capital = 674
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "Belgrado"
+		capital = 794
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Temporary Capital for Albania
+
+country_event = {
+	id = 300009
+	title = "EVTNAME300009" #Temporary Capital
+	desc = "EVTDESC300009"
+	picture = "cinque_giornate"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		has_global_flag = sofia_revolt_occurred
+		NOT = {
+			has_global_flag = sofia_revolt_ended
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	immediate = {
+		any_pop = {
+			limit = {
+				location = { is_core = ALB }
+				has_pop_culture = gheg
+			}
+			militancy = -10
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = ALB }
+				has_pop_culture = tosk
+			}
+			militancy = -10
+		}
+		add_country_modifier = {
+			name = begin_revolution
+			duration = 365
+		}
+		define_general = {
+			name = "Pirro Ismail Shiroka"
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+	}
+
+	option = {
+		name = "Kruje"
+		capital = 851
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "Durres"
+		capital = 3656
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "Lezhe"
+		capital = 850
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+## Aromanian intro ##
+country_event = {
+	id = 300010
+	title = "EVTNAME300010" 
+	desc = "EVTDESC300010"
+	picture = "wallachian_revolution"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = AOM
+		owns = 809
+		has_global_flag = byzantium_minorities_autonomy
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	immediate = {
+		any_pop = {
+			consciousness = 2
+		}
+		any_pop = {
+			militancy = -2
+		}
+		prestige = 5
+	}
+
+	option = {
+		name = "We will be free... In time."
+		define_general = {
+			name = "Iustin Caruntus"
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+## Revoluția Aromână / The Civil War for Aromania ##
+country_event = {
+	id = 300011
+	title = "EVTNAME300011" 
+	desc = "EVTDESC300011"
+	picture = "wallachian_revolution"
+	major = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 1842
+		tag = AOM
+		NOT = {
+		ai = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	immediate = {
+		set_global_flag = sofia_revolt_occurred
+		BYZ = { release_vassal = AOM }
+		AOM = {government = prussian_constitutionalism}
+		BYZ = { relation = { who = AOM value = -100 } }
+		prestige = -10
+		BYZ = {release_vassal = ALB}
+		ALB = {government = prussian_constitutionalism}
+		BYZ = {release_vassal = BOS}
+		BOS = {government = democracy}
+		war = {
+			target = BYZ
+			attacker_goal = { casus_belli = become_independent }
+			defender_goal = { casus_belli = annex_core_country }
+			call_ally = no
+		}
+		BYZ = {
+			relation = { who = ALB value = -100 }
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = BYZ }
+				has_pop_culture = gheg
+			}
+			militancy = -10
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = BYZ }
+				has_pop_culture = tosk
+			}
+			militancy = -10
+		}
+		BYZ = { 
+		relation = { who = ALB value = -100 }
+		}
+		BYZ = {
+		relation = { who = BOS value = -100 }
+		}
+	}
+
+	option = {
+		name = "Traiasca libertatea, traiasca Aromania!"
+		define_general = {
+			name = "Achilleas Dimitriadu"
+			personality = clever
+			background = priest
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+## Aromanian victory in the Civil War ##
+country_event = {
+	id = 300012
+	title = "EVTNAME300012" 
+	desc = "EVTDESC300012"
+	picture = "wallachian_revolution"
+	major = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = AOM
+		war = no
+		OR = {  
+			BYZ = {
+				exists = yes
+				truce_with = THIS
+			}
+		}
+		has_global_flag = sofia_revolt_occurred
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "We are free!"
+		set_global_flag = sofia_revolt_ended
+		set_global_flag = sofia_revolt_aromania_won
+		any_pop = {
+			limit = { culture = aromanian }
+			militancy = -5
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = BYZ
+				}
+				truce_with = AOM
+				exists = yes
+			}
+			diplomatic_influence = { who = AOM value = -400 }
+			diplomatic_influence = { who = ALB value = -400 }
+			diplomatic_influence = { who = BOS value = -400 }
+		}
+		create_alliance = ALB
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+## Rhomanian victory in the Civil War ##
+country_event = {
+	id = 300013
+	title = "EVTNAME300013" 
+	desc = "EVTDESC300013"
+	picture = "wallachian_revolution"
+	major = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		war = no
+		OR = {  
+			AOM = {
+				exists = yes
+				truce_with = THIS
+			}
+		}
+		has_global_flag = sofia_revolt_occurred
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Another revolt, sedated"
+		set_global_flag = sofia_revolt_ended
+		set_global_flag = sofia_revolt_rhomania_won_won
+		inherit = AOM
+		any_pop = {
+			limit = { culture = aromanian }
+			militancy = 1
+			consciousness = 2
+		}
+		aristocrats = {
+			limit = {
+				has_pop_culture = aromanian
+			}
+			reduce_pop = 0.90
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
 }

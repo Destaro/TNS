@@ -123,32 +123,35 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Hrvatska "Maksimilijan Vrhovac" "Ilirski pokret" Slavonija Zagreb  
+		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
+	}
+	battleship = {
+		"Caio Duilio" "Enrico Dandolo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Andrea Doria" "Re Umberto" Sicilia Sardegna "Ammiraglio di Saint Bon" "Emanuele Filiberto" "Regina Margherita" "Benedetto Brin" "Regina Elena" "Vittorio Emanuele" Napoli Roma
 	}
 	ironclad = {
-		Osijek  "Janko Draškovic" "Antun Mihanovic" "Ljudevit Gaj" Rijeka  
+		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
 	}
 	manowar = {
-		Sava Drava Kupa Korana Cesma 
+		Sicilia Sardegna Puglia Libia Campania Basilicata Quarto Venezia Trento "Valle d'Aosta" Piemonte Liguria Lombardia Veneto Trentino Friuli "Emilia-Romagna" Toscana Marche Umbria Lazio Abruzzo Molise Calabria 
 	}
 	cruiser = {
-		"Ivan Lupis" "Janko Vukovic" "Matija Politeo" "Ante Tresic Pavicic" Branimir 
+		"Marco Polo" "Carlo Alberto" "Vettor Pisani" "General Garibaldi" "General San Martin" "General Belgrano" "General Pueyrredon" Amalfi Pisa "San Giorgio" "San Marco" "Nino Bixio" Marsala Taranto Brindisi Bari Trieste Fiume Gorizia Pola Zara Bolzano 
 	}
 	frigate = {
-		Dinara Kamešnica Biokovo Velebit Plješevica 
+		Fulmine Lampo Freccia Dardo Strale Euro Ostro Nembo Turbine Aquilone Borea Zeffiro Espero Artigliere Bersagliere Corazziere Garibaldino
+		Granatiere Lanciere Alpino Fuciliere Pontiere Ascaro Indomito Impavido Impetuoso Insidioso Intrepido Irrequieto Ardito Ardente Audace Animoso
 	}
 	monitor = {
-		Dubrovnik Ragusa Split Pula Gospic
-
-	}
-	clipper_transport = { 
-		 
-
-	}
-	steam_transport = { 
+		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
 		
 	}
+	clipper_transport = {
+		 
+	}
+	steam_transport = {
+	
+	}
 	commerce_raider = {
-		Krk Brijuni Lošinj Cres Ilovik
+		"Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco"  
 	}
 }

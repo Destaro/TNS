@@ -45,45 +45,45 @@
 	}
 	
 	aristocrats = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 800
 	}
 
 	bureaucrats = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 20
 	}
 
 	officers = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 350
 	}
 
 	artisans = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 1600
 	}
 
 	soldiers = {
-		culture = serb
-		religion = orthodox
+		culture = pannonian
+		religion = catholic
 		size = 725
 	}
 
 	farmers = {
-		culture = serb
-		religion = orthodox
-		size = 28025
+		culture = pannonian
+		religion = catholic
+		size = 25025
 	}
 	
 	farmers = {
@@ -101,12 +101,16 @@
 		culture = aromanian
 		religion = orthodox
 		size = 520
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = albanian
 		religion = orthodox
 		size = 75
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
@@ -119,12 +123,16 @@
 		culture = aromanian
 		religion = orthodox
 		size = 3170
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	serfs = {
 		culture = albanian
 		religion = orthodox
 		size = 5175
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -175,6 +183,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -193,34 +203,42 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = aromanian
 		religion = orthodox
 		size = 33360
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
-		culture = serb
+		culture = greek
 		religion = orthodox
 		size = 400
 	}
 	
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 16000
 	}
@@ -249,6 +267,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 950
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -258,31 +278,33 @@
 	}
 	
 	aristocrats = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 150
 	}
 
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 70
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 500
 	}
 
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 550
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 18580
 	}
@@ -311,6 +333,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 200
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -320,25 +344,27 @@
 	}
 	
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 160
 	}
 
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 300
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 5800
 	}
@@ -351,6 +377,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1350
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -372,43 +400,45 @@
 	}
 
 	aristocrats = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 1650
 	}
 
 	bureaucrats = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 350
 	}
 
 	officers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 300
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 4000
 	}
 
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 1600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 4950
 	}
@@ -461,6 +491,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -529,12 +561,16 @@
 		culture = aromanian
 		religion = orthodox
 		size = 850
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
@@ -553,30 +589,36 @@
 		culture = aromanian
 		religion = orthodox
 		size = 600
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 200
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 24250
 	}
 
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -595,6 +637,8 @@
 		culture = albanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -612,6 +656,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
@@ -648,6 +694,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -677,72 +725,79 @@
 	aristocrats = {
 		culture = albanian
 		religion = orthodox
-		size = 850
+		size = 950
 	}
 
 	bureaucrats = {
 		culture = albanian
 		religion = orthodox
-		size = 150
+		size = 350
 	}
 
 	officers = {
 		culture = albanian
 		religion = orthodox
-		size = 150
+		size = 350
 	}
 
 	clergymen = {
 		culture = albanian
 		religion = orthodox
-		size = 100
+		size = 250
 	}
 
 	artisans = {
 		culture = albanian
 		religion = orthodox
-		size = 2000
+		size = 2700
 	}
 
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 100
+		size = 1200
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 2800
+		size = 4800
 	}
 	
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 100
+		size = 1200
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = albanian
 		religion = orthodox
-		size = 100
+		size = 150
 	}
 
 	artisans = {
 		culture = albanian
 		religion = orthodox
-		size = 1100
+		size = 1700
 	}
 
 	soldiers = {
 		culture = albanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
+	
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 8420
+		size = 12420
 	}
 
 	aristocrats = {
@@ -779,6 +834,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -791,6 +848,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -803,18 +862,22 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = aromanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 15420
+		size = 10420
 	}
 }
 #Kosovo-Sanjak Region (466000)
@@ -826,6 +889,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 	
 	clergymen = {
@@ -856,12 +921,16 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -922,6 +991,8 @@
 		culture = albanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -934,6 +1005,8 @@
 		culture = albanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -979,6 +1052,8 @@
 		culture = albanian
 		religion = catholic
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -1039,6 +1114,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	officers = {
@@ -1228,6 +1305,8 @@
 		culture = aromanian
 		religion = orthodox
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -1288,6 +1367,8 @@
 		culture = albanian
 		religion = catholic
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
@@ -1300,6 +1381,8 @@
 		culture = albanian
 		religion = catholic
 		size = 100
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
@@ -1358,25 +1441,25 @@
 	}
 	
 	clergymen = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 4500
 	}
 
 	soldiers = {
-		culture = serb
+		culture = aromanian
 		religion = orthodox
 		size = 250
 	}

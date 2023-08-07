@@ -8,6 +8,7 @@ nationalvalue = nv_order
 literacy = 0.2
 prestige = 4
 civilized = yes
+oob = "DLM_oob.txt"
 
 # Political reforms
 slavery = no_slavery

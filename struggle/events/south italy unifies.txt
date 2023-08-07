@@ -171,7 +171,7 @@ country_event = {
 			AVR = { prestige = 10 }
 			set_global_flag = aversa_is_right
 		ai_chance = {
-			factor = 33
+			factor = 0
 		}
 	}
 	
@@ -180,7 +180,7 @@ country_event = {
 			MEL = { prestige = 10 }
 			set_global_flag = melfi_is_right
 		ai_chance = {
-			factor = 33
+			factor = 0
 		}
 	}
 	
@@ -189,7 +189,7 @@ country_event = {
 			CSZ = { prestige = 10 }
 			set_global_flag = cosenza_is_right
 		ai_chance = {
-			factor = 33
+			factor = 100
 		}
 	}
 }
@@ -302,7 +302,8 @@ country_event = {
 		name = "EVTOPTA29995" #We shall rule benevolently.
 		set_global_flag = cosenza_proposal_succeeds
 		set_country_flag = cosenzas_dream_to_be
-		government = absolute_monarchy 
+		government = prussian_constitutionalism
+		
 		inherit = AVR 
 		CSZ = { all_core = { add_core = SIC } }
 		AVR = { all_core = { add_core = SIC } }
@@ -313,13 +314,45 @@ country_event = {
 		           }
 		       }
 		change_tag = SIC
+		plurality = 8
 		TUN = {
 		any_owned = {
 		limit = { is_core = ITA }
 		add_core = SIC
+		militancy = 1
 		          }
 		}
 		inherit = MEL
+		treasury = 45520
+	}
+}
+
+# Industrialisation of Southern Italy
+country_event = {
+	id = 29996
+	title = "EVTNAME29996" #Industrialisation
+	desc = "EVTDESC29996" #Now that we are united, the saliant problem that arose in parliament is the difference between the African and the Southern Italian industrial power. The King and the Parliament have come together and decided to start a plan to industrialize the nation and prepare the population to war.
+	picture = "vespers"
+    fire_only_once = yes
+	
+		trigger = {
+		tag = SIC
+		}
+		
+		mean_time_to_happen = { days = 5 }
+
+		option = {
+		name = "People may die, but it's a risk I am willing to make."
+		any_pop = {
+			consciousness = 1
+		}
+		build_factory_in_capital_state = canned_food_factory
+		build_factory_in_capital_state = small_arms_factory
+		add_country_modifier = {
+			name = sicilian_industrialization_plan
+			duration = 730
+		}
+		
 	}
 }
 
@@ -342,7 +375,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 365
+		days = 750
 	}
 
 	immediate = {
@@ -359,7 +392,7 @@ country_event = {
 			target = SYC
 			attacker_goal = { casus_belli = annex_core_country }
 			defender_goal = { casus_belli = become_independent
-							  casus_belli = acquire_all_cores}
+							casus_belli = acquire_all_cores}
 		}
 		define_general = {
 			name = "Ioseph Glorius Mago"
@@ -610,6 +643,9 @@ country_event = {
 		set_global_flag = first_war_of_italian_independence_lost
 		clr_country_flag = first_war_of_italian_independence_intervention
 		prestige = -10
+		any_pop = {
+			consciousness = 7
+		}
 		TUN = { country_event = 299994 }
 		ai_chance = {
 			factor = 100
@@ -812,8 +848,7 @@ country_event = {
 	title = "EVTNAME299997" 
 	desc = "EVTDESC299997"
 	picture = "italian_war_of_independence_won"
-    
-
+	major = yes
 	fire_only_once = yes
 	trigger = {
 		tag = SIC
@@ -835,11 +870,16 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+	
+	immediate = {
+	3605 = { secede_province = SRD }
+	}
 
 	option = {
 		name = "We have shown the world the heroism of the Italian people!"
 		set_global_flag = first_war_of_italian_independence_won
 		prestige = 45
+		3605 = { secede_province = SRD }
 		any_country = {
             limit = {
                 exists = yes
@@ -847,7 +887,6 @@ country_event = {
                     tag = SRD
                 }
             }
-
             annex_to = THIS
         }
         any_owned = { add_core = SIC secede_province = THIS }
@@ -885,6 +924,33 @@ country_event = {
 		3591 = { secede_province = SIC }
 		3592 = { secede_province = SIC }
 		3593 = { secede_province = SIC }
+		any_country = {
+            limit = {
+                exists = yes
+                OR = {
+                    is_core = AVR
+                }
+            }
+            remove_core = AVR
+        }
+		any_country = {
+            limit = {
+                exists = yes
+                OR = {
+                    is_core = MEL
+                }
+            }
+            remove_core = MEL
+        }
+		any_country = {
+            limit = {
+                exists = yes
+                OR = {
+                    is_core = CSZ
+                }
+            }
+            remove_core = CSZ
+        }
 	}
 }
 
@@ -905,7 +971,7 @@ country_event = {
 			war = no
 		}
 
-		option = {
+	option = {
 		name = "EVTOPTA20090A" #Napoli
 		capital = 754
 		prestige = 5
@@ -1197,6 +1263,7 @@ country_event = {
 		prestige = 15
 		government = italian_confederation
 		capital = 749
+		nationalvalue = nv_order
 		749 = {
 			add_province_modifier = {
 			name = baby_boom

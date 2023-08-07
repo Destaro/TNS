@@ -2736,6 +2736,18 @@
 		religion = catholic
 		size = 8250
 	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
 
 	bureaucrats = {
 		culture = south_italian
@@ -2838,6 +2850,12 @@
 		culture = south_italian
 		religion = catholic
 		size = 4250
+	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
 	}
 
 	bureaucrats = {
@@ -2993,6 +3011,12 @@
 		religion = catholic
 		size = 3500
 	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
 
 	bureaucrats = {
 		culture = south_italian
@@ -3107,6 +3131,12 @@
 		religion = catholic
 		size = 1800
 	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
 
 	clergymen = {
 		culture = south_italian
@@ -3148,6 +3178,12 @@
 #under the rule of Two Sicilies in 1836
 #Reggio (572000/143000 POPS)
 759 = {
+	capitalists = {
+		culture = african_romance
+		religion = punic_church
+		size = 50
+	}
+
 	aristocrats = {
 		culture = south_italian
 		religion = catholic
@@ -3202,7 +3238,7 @@
 		size = 2000
 	}
 }
-#Catanzaro (344000/86000 POPS)
+#Paola (344000/86000 POPS)
 760 = {
 	aristocrats = {
 		culture = south_italian
@@ -3242,6 +3278,19 @@
 }
 #Cosenza (344000/86000 POPS)
 3600 = {
+	capitalists = {
+		culture = south_italian
+		religion = catholic
+		size = 50
+	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
+	}
+	
+
 	aristocrats = {
 		culture = south_italian
 		religion = catholic
@@ -3291,7 +3340,6 @@
 		size = 7777
 	}
 
-
 	soldiers = {
 		culture = albanian
 		religion = catholic
@@ -3302,6 +3350,18 @@
 		culture = greek
 		religion = catholic
 		size = 2000
+	}
+	
+	craftsmen = {
+		culture = greek
+		religion = catholic
+		size = 3000
+	}
+	
+	craftsmen = {
+		culture = albanian
+		religion = catholic
+		size = 3000
 	}
 	
 	farmers = {
@@ -3482,6 +3542,13 @@
 }
 #Castrovillari (708000/177000 POPS)
 3599 = {
+	capitalists = {
+		culture = south_italian
+		religion = catholic
+		size = 30
+	}
+	
+	
 	aristocrats = {
 		culture = south_italian
 		religion = catholic
@@ -3682,6 +3749,18 @@
 		culture = south_italian
 		religion = catholic
 		size = 4760
+	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
+	
+	craftsmen = {
+		culture = albanian
+		religion = catholic
+		size = 1000
 	}
 
 	clergymen = {
@@ -4014,6 +4093,12 @@
 		culture = south_italian
 		religion = catholic
 		size = 3750
+	}
+	
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
 	}
 
 	clergymen = {
