@@ -3,6 +3,13 @@ controller = BYZ
 add_core = EPI
 add_core = ALB
 
+naval_base = 1
+
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
 trade_goods = cattle
 life_rating = 35
 

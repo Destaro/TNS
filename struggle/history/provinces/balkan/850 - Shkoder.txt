@@ -1,8 +1,17 @@
 owner = BYZ
 controller = BYZ
-
+fort = 1
 add_core = ALB
 trade_goods = grain
 life_rating = 35
-
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
 add_core = BYZ

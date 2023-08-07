@@ -4,6 +4,11 @@ add_core = MEL
 add_core = ITA
 trade_goods = fruit
 life_rating = 35
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
 1861.1.1 = {
 	add_core = ITA
 }

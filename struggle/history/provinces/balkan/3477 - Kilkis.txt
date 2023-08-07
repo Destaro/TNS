@@ -2,7 +2,7 @@ owner = BYZ
 controller = BYZ
 add_core = GRE
 
-add_core = AOM
+
 add_core = ROM
 trade_goods = tobacco
 life_rating = 35

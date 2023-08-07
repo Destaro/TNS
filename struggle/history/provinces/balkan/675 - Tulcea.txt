@@ -10,4 +10,6 @@ life_rating = 35
 	controller = ROM
 	owner = ROM
 }
-add_core = DBJ
+
+
+add_core = AOM

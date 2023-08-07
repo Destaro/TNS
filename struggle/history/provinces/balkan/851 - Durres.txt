@@ -1,8 +1,12 @@
 owner = BYZ
 controller = BYZ
-
+fort = 1
 add_core = ALB
 trade_goods = cattle
 life_rating = 35
-
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
 add_core = BYZ
