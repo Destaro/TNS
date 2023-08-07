@@ -9,7 +9,7 @@ country_event = {
 	trigger = {
 		war = no
 		has_country_flag = crown_from_the_gutter
-		NOT = { tag = LIE }
+		#NOT = { tag = LIE }
 		NOT = { tag = VLG }
 		NOT = { tag = SIE }
 		NOT = { tag = BAN }
@@ -205,7 +205,7 @@ country_event = {
 					NOT = { tag = MOL }
 					NOT = { tag = SIE }
 					NOT = { tag = LUX }
-					NOT = { tag = LIE }
+					#NOT = { tag = LIE }
 					NOT = { tag = BAN }
 					NOT = { tag = VLG }
 					NOT = { tag = SMR }
@@ -721,7 +721,7 @@ country_event = {
 	trigger = {
 		war = no
 		NOT = { tag = UBD }
-		NOT = { tag = LIE }
+		#NOT = { tag = LIE }
 		NOT = { tag = VLG }
 		NOT = { tag = GCF }
 		NOT = { tag = SIE }
