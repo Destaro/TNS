@@ -3,6 +3,7 @@ controller = BYZ
 
 
 add_core = ALB
+add_core = ROM
 trade_goods = iron
 life_rating = 35
 

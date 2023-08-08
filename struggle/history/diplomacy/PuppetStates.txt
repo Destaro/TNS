@@ -401,11 +401,3 @@ vassal = {
 	start_date = 1800.1.1
 	end_date = 1936.1.1
 }
-
-### Illiria ###
-substate = {
-	first = DLM
-	second = BOS
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}

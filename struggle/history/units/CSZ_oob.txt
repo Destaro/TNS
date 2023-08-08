@@ -22,192 +22,50 @@ TUN = {
 	influence_value = 0
 }
 
-leader = {
-	name = "Giuseppe IX"
-	date = 1818.1.1
-	type = land
-	personality = charismatic
-	background = elderly
-	prestige = 0.5
-}
-
-leader = {
-	name = "Pietrangelo Ruffo di Calabria"
-	date = 1830.1.1
-	type = land
-	personality = brilliant
-	background = school_of_the_bayonet
-	prestige = 0.3
-}
-
-leader = {
-	name = "Carmine Amelio Panetta"
-	date = 1818.1.1
-	type = land
-	personality = unruly
-	background = generals_aide
-	prestige = 0.2
-}
-
-leader = {
-	name = "Ismaele Baleniere"
-	date = 1835.1.1
-	type = sea
-	personality = able
-	background = adventurer
-	prestige = 0.1
-}
-
 army = {
 	name = "Guardia Reale"
 	location = 3597
 	regiment = {
 		name= "1. Guardia Reale"
 		type = guard
-		home = 760
+		home = 3597
 	}
 
 	regiment = {
-		name= "1. Truppe Cosentine"
+		name= "1. Truppe Svizzere"
 		type = infantry
-		home = 3600
-	}
-
-	regiment = {
-		name= "2. Truppe Cosentine"
-		type = infantry
-		home = 3600
-	}
-	
-	regiment = {
-		name= "1. Truppe Catanzaresi"
-		type = infantry
-		home = 3595
-	}
-
-	regiment = {
-		name= "2. Truppe Catanzaresi"
-		type = infantry
-		home = 3595
-	}
-	
-	regiment = {
-		name= "1. Cavalleria Sibarita"
-		type = cavalry
 		home = 3599
 	}
 
 	regiment = {
-		name= "4. Artiglieria Monteleonese"
-		type = artillery
-		home = 3594
+		name= "2. Truppe Svizzere"
+		type = infantry
+		home = 3598
 	}
 	
 	regiment = {
-		name= "4. Artiglieria Silana"
+		name= "1. Truppe Svizzere"
+		type = infantry
+		home = 3596
+	}
+
+	regiment = {
+		name= "2. Truppe Svizzere"
+		type = infantry
+		home = 3594
+	}
+
+	regiment = {
+		name= "4. Truppe Svizzere"
 		type = artillery
-		home = 3598
+		home = 3595
+	}
+	
+	regiment = {
+		name= "4. Truppe Svizzere"
+		type = artillery
+		home = 3597
 	}
 
-}
-
-navy = {
-	name = "Flotta Reale"
-	location = 760
-	
-	ship = {
-		name = "Milone di Crotone"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Cassiodoro"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Zaleuco di Locri"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Principe di Bisignano"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Oltremare"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Belvedere"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Filippoantonio Falangola"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Squillace"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Flotta Catanzarese"
-	location = 3595
-	
-	ship = {
-		name = "Sant'Antonio"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Santa Maria"
-		type = frigate
-	}
-	
-	ship = {
-		name = "San Pasquale"
-		type = frigate
-	}
-	
-	ship = {
-		name = "San Martino"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
 }
 

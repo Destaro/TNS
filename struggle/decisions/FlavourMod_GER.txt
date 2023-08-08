@@ -652,48 +652,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	claim_liechenstein = {
-	picture = form_germany
-		potential = {
-			OR = { 
-				tag = GER
-				tag = GCF
-			}
-			is_greater_power = yes
-			OR = {
-				owns = 614
-				owns = 603
-			}
-			LIE = {
-				exists = yes
-				ai = yes
-			}
-			NOT = { has_country_flag = claim_liechenstein }
-		}
-		
-		allow = {
-			war = no
-			LIE = {
-				in_sphere = THIS
-				exists = yes
-				OR = {
-					NOT = { vassal_of = AUS }
-					vassal_of = THIS
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = claim_liechenstein
-			LIE = {
-				country_event = 11101
-				all_core = { add_core = THIS }
-			}
-		}
-
-		ai_will_do = { factor = 1 }
-	}
-	
 	become_schleswig = {
 		picture = gtfo
 		potential = {

@@ -196,6 +196,7 @@ country_event = {
 		}
 		ALB = { capital = 3669 }
 		BOS = { capital = 783 }
+		AOM = { capital = 809 }
 		any_pop = {
 			militancy = 1
 		}

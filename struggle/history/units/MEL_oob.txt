@@ -33,7 +33,7 @@ leader = {
 
 army = {
 	name = "Esercito Melfitano"
-	location = 3602
+	location = 744
 	regiment = {
 		name= "1. Fanteria di Linea"
 		type = infantry
@@ -57,67 +57,5 @@ army = {
 		type = infantry
 		home = 747
 	}
-	
-	regiment = {
-		name= "1. Cavalleria di Foggia"
-		type = cavalry
-		home = 757
-	}
-
-	regiment = {
-		name= "4. Artiglieria Beneventina"
-		type = artillery
-		home = 3613
-	}
-	
-	regiment = {
-		name= "4. Artiglieria Beneventina"
-		type = artillery
-		home = 3613
-	}
 }
 
-navy = {
-	name = "Flotta Reale"
-	location = 758
-	
-	ship = {
-		name = "Salerno"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Battipaglia"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Paestum"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Agropoli"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Camelota"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "Flottiglia di trasporto"
-		type = clipper_transport
-	}
-}

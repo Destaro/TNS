@@ -1,0 +1,1776 @@
+#Mosul Region (492000) #assyrian-catholic = assyrian  
+#under the rule of Ottoman Empire in 1836 
+#Arbil (104000/26000 POPS)
+924 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 4575
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 250
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 950
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 300
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 13800
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 600
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1000
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1325
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 4775
+	}
+}
+#Kirkuk (160000/40000 POPS)
+925 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 6075
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1600
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 26625
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1525
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1750
+	}
+}
+#Soran (160000/40000 POPS)
+3436 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1075
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1600
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 10625
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1525
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1750
+	}
+}
+#Solimaniyeh (160000/40000 POPS)
+3437 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 3075
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1600
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 18625
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1525
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1750
+	}
+}
+#Erbil (160000/40000 POPS)
+3438 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 6075
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1600
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 20625
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1525
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 1750
+	}
+}
+#Iraq Region (644000)
+#under the rule of Ottoman Empire in 1836
+#Baghdad (268000/67000 POPS)
+926 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1100
+	}
+
+	bureaucrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 350
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 400
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 4000
+	}
+	
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 3950
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1225
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 30525
+	}
+
+	farmers = {
+		culture = circassian
+		religion = manichaeism
+		size = 100
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2750
+	}
+	
+	aristocrats = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+	
+	officers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = catholic
+		size = 3650
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = orthodox
+		size = 1500
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = orthodox
+		size = 2425
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 100
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 3925
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 7350
+	}
+	
+	slaves = {
+		culture = forest_bantu #african_minor
+		religion = animist
+		size = 1000
+	}
+}
+#Samarra (92000/23000 POPS)
+927 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 850
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 175
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 15475
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 5525
+	}
+}
+#Mendeli (84000/21000 POPS)
+928 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 175
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 600
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 125
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 10975
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 3600
+	}
+
+	aristocrats = {
+		culture = old_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = old_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = old_persian
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 3600
+	}
+	
+	soldiers = {
+		culture = old_persian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = old_persian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = old_persian
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = old_persian
+		religion = catholic
+		size = 825
+	}
+}
+#Karbala (100000/25000 POPS)
+929 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 125
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 400
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 100
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 7300
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 3625
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 350
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 650
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 11850
+	}
+}
+#Kut (100000/25000 POPS)
+930 = {
+	aristocrats = {
+		culture = old_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = old_persian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = old_persian
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 7600
+	}
+
+	aristocrats = {
+		culture = old_persian
+		religion = manichaeism
+		size = 25
+	}
+
+	clergymen = {
+		culture = old_persian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = old_persian
+		religion = manichaeism
+		size = 100
+	}
+
+	soldiers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 25
+	}
+
+	farmers = {
+		culture = old_persian
+		religion = manichaeism
+		size = 1800
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 350
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 950
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 17525
+	}
+}
+#Badiyat al-Sham Region (8000)  #see Jordan.txt, Syria.txt & Saudi Arabia.txt for balance of region
+#under the "rule" of Egypt in 1836
+#Rutbah (8000/2000 POPS) #now part of Iraq
+931 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 1825
+	}
+}
+#Basra Region (388000) #see Gulf States.txt for balance of region  
+#under the rule of Ottoman Empire in 1836
+#Basra (140000/35000 POPS)
+932 = {
+	bureaucrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2975
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 6425
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 4550
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 375
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 200
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1050
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 19375
+	}
+}
+#Nasiriyya (152000/38000 POPS)
+933 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 200
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 3600
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 5500
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 500
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 275
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1400
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 25825
+	}
+}
+#Najaf (96000/24000 POPS)
+934 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 5500
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 4550
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 200
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 650
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 12025
+	}
+
+}
+#Amarra (96000/24000 POPS)
+3457 = {
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 300
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 5500
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 4550
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 200
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 650
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 12025
+	}
+
+}
+
+#Al-Salman
+3278 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 250
+	}
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 600
+	}
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = bedouin
+		religion = manichaeism
+		size = 150
+	}
+	clergymen = {
+		culture = bedouin
+		religion = manichaeism
+		size = 100
+	}
+	artisans = {
+		culture = bedouin
+		religion = manichaeism
+		size = 500
+	}
+	soldiers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 1200
+	}
+	farmers = {
+		culture = bedouin
+		religion = manichaeism
+		size = 10000
+	}
+}
+#Hasaka (264000/66000 POPS)
+3329 = {
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 150
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 125
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 350
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 750
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 3800
+	}
+	
+	clergymen = {
+		culture = turkish
+		religion = manichaeism
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = turkish
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = turkish
+		religion = manichaeism
+		size = 500
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = manichaeism
+		size = 400
+	}
+
+	farmers = {
+		culture = turkish
+		religion = manichaeism
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 800
+	}
+	
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2500
+	}
+
+	aristocrats = {
+		culture = turkish
+		religion = manichaeism
+		size = 50
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = coptic
+		size = 100
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = coptic
+		size = 550
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = coptic
+		size = 4350
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 975
+	}
+}
+
+#al-Jazira Desert (8000/2000 POPS)
+3458 = {
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 25
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 75
+	}
+
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 25
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 1425
+	}
+}
+#Sinjar (92000/23000 POPS)
+3460 = {
+	aristocrats = {
+		culture = kurdish
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = manichaeism
+		size = 20
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = manichaeism
+		size = 100
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 1075
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = manichaeism
+		size = 7075
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = coptic
+		size = 50
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = coptic
+		size = 150
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = coptic
+		size = 5175
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 25
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 100
+	}
+	
+	soldiers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 200
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 2475
+	}
+}
