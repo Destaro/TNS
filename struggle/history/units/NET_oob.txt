@@ -67,15 +67,7 @@ POR = {
 	value = 120
 }
 
-army = {
-	name = "Borneo Garnizoen"
-	location = 1408
-	regiment = {
-		name= "1e Infanterie Brigade"
-		type = infantry
-		home = 375
-		}
-}
+ 
 	
 army = {
 	name = "Suwalesi Garnizoen"
@@ -352,7 +344,7 @@ leader = {
 }
 
 leader = {
-	name = "David Chassé"
+	name = "David ChassÃ©"
 	date = 1806.1.1
 	type = land
 	personality = timid
