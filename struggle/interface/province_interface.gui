@@ -866,7 +866,7 @@ guiTypes = {
 			## Country Info
 			guiButtonType = {
 				name = "country_flag"
-				position = { x= 18 y = 149 }
+				position = { x= 13 y = 150 }
 				quadTextureSprite ="GFX_topbarflag"
 				buttonText = " "
 				buttonFont = "vic_18_black"
@@ -897,7 +897,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "country_name"
-				position = { x = 125 y = 140 }
+				position = { x = 95 y = 140 }
 				font = "vic_22"
 				text = "France"
 				maxWidth = 190
@@ -907,7 +907,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "country_status"
-				position = { x = 125 y = 170 }
+				position = { x = 95 y = 170 }
 				font = "Arial12_black"
 				text = "Great Power"
 				maxWidth = 250
@@ -917,7 +917,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "country_gov"
-				position = { x = 125 y = 190 }
+				position = { x = 95 y = 190 }
 				font = "Arial12_black"
 				text = "country_gov"
 				maxWidth = 250
@@ -927,7 +927,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "country_party"
-				position = { x = 125 y = 210 }
+				position = { x = 95 y = 210 }
 				font = "Arial12_black"
 				text = "country_party"
 				maxWidth = 250
