@@ -128,9 +128,35 @@
 #Iquique (32000/8000 POPS)
 2307 = {
 	aristocrats = {
-		culture = platinier
+		culture = south_andean
 		religion = catholic
-		size = 175
+		size = 1500
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = catholic
+		size = 250
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = catholic
+		size = 750
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = catholic
+		size = 2500
+		militancy = 9
+		rebel_type = nationalist_rebels
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 7600
 	}
 
 	clergymen = {
@@ -160,25 +186,25 @@
 	clergymen = {
 		culture = aimara
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
 		culture = aimara
 		religion = catholic
-		size = 300
+		size = 1700
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 75
+		size = 1075
 	}
 
 	farmers = {
 		culture = aimara
 		religion = catholic
-		size = 5575
+		size = 8575
 	}
 }
 #Arica (20000/5000 POPS) 

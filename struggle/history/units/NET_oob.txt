@@ -67,8 +67,6 @@ POR = {
 	value = 120
 }
 
- 
-	
 army = {
 	name = "Suwalesi Garnizoen"
 	location = 1430
@@ -344,7 +342,7 @@ leader = {
 }
 
 leader = {
-	name = "David ChassÃ©"
+	name = "David Chassé"
 	date = 1806.1.1
 	type = land
 	personality = timid

@@ -188,7 +188,7 @@
 	aristocrats = {
 		culture = amazonian
 		religion = animist
-		size = 50
+		size = 20
 	}
 
 	soldiers = {
@@ -200,31 +200,31 @@
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 2925
+		size = 25
 	}
 	
 	clergymen = {
 		culture = south_andean
 		religion = catholic
-		size = 5
+		size = 50
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 5
+		size = 500
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 5
+		size = 150
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 20
+		size = 2925
 	}
 }
 #Cajamarca Region (296000)
@@ -320,25 +320,25 @@
 	clergymen = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 150
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 150
+		size = 2150
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 1300
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 2325
+		size = 5325
 	}
 
 	clergymen = {
@@ -362,7 +362,7 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 9500
+		size = 7500
 	}
 
 	clergymen = {
@@ -448,7 +448,7 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 8350
+		size = 5350
 	}
 
 	clergymen = {
@@ -472,7 +472,7 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 1100
+		size = 600
 	}
 
 	slaves = {
@@ -574,19 +574,19 @@
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 700
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 200
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 1500
+		size = 3500
 	}
 
 	clergymen = {
@@ -610,7 +610,7 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 16400
+		size = 11400
 	}
 }
 #Jauja (60000/15000 POPS)
@@ -947,7 +947,7 @@
 	aristocrats = {
 		culture = south_andean
 		religion = catholic
-		size = 525
+		size = 1125
 	}
 
 	clergymen = {
@@ -959,19 +959,19 @@
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 300
+		size = 8000
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 4925
+		size = 6925
 	}
 
 	clergymen = {
@@ -995,7 +995,7 @@
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 15900
+		size = 11900
 	}
 
 	clergymen = {
@@ -1019,7 +1019,7 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 1100
+		size = 1000
 	}
 }
 #Ucayali Region (32000)
@@ -1211,25 +1211,27 @@
 	clergymen = {
 		culture = south_andean
 		religion = catholic
-		size = 150
+		size = 350
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 150
+		size = 2750
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 2750
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 2025
+		size = 9725
 	}
 
 	clergymen = {
@@ -1253,7 +1255,7 @@
 	farmers = {
 		culture = aimara
 		religion = catholic
-		size = 21500
+		size = 14500
 	}
 }
 #Arequipa (72000/18000 POPS)

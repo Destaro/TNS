@@ -6767,34 +6767,58 @@ latin_american_cultures = {
 	}
 	north_andean = {
 		color = {10 46 63}
-		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
-		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
-		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
-		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
+		first_names = { 
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn
+		Andica Ansovald Arcambald Aregisel Arnegisel Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Hartmut Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Magneric Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Merogais Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Ragambald Ragena Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Sunno Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert
+		Theoderic Theoric Theudebald Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari
+		Waltgaud Werinbert Wilbert Willichar Wolfari
 		}
-
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
-		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
+		
+		last_names = { 
+			Meroving Karling Erenolding Nibelunging Hugonid Dodonid Theodnid Cheribertid Ricufling Bouvinid
+			Landen Adalberts Laidrati Chiemgaudson Hildegars Leudoni Adelards Australdling
+			Baugulfson Berengling Hildradson Drogling Engelgerson Galimani Herluins Hermenelds
+			Roding Gunberts Wulfardson Vuodi Walthars Warins Wegelenzi Welenti Widling Morgannid
 		}
 	}
 	south_andean = {
-		color = {116 156 146}
-		first_names = { Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
-		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
-		Germán Hernando Hilarión Ignacio Isidoro Ismael Jorge José "José Miguel" Juan
-		"Juan Antonio" "Juan Francisco" Justo Ladislao Luis Manuel Mariano Miguel Narciso
-		Nicolás Pablo Patricio Pedro Ramón Rufino Ruperto Santiago Sebastián Severino Tomás
+		color = {22 52 127}
+		first_names = { 
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn
+		Andica Ansovald Arcambald Aregisel Arnegisel Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Hartmut Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Magneric Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Merogais Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Ragambald Ragena Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Sunno Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert
+		Theoderic Theoric Theudebald Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari
+		Waltgaud Werinbert Wilbert Willichar Wolfari
 		}
-
-		last_names = { Abaroa Ágreda Altamirano Arteaga Ballivián Baquedano Belzú Blanche Blanco Bulnes
-		Cabrera Calvo Campero Castilla Corrico Daza "de la Cruz" "de Santa Cruz" "de Velasco" "de Vidal"
-		Echenique Errázuriz Fernández Figueroa Franco Freire Gamarra Gorostiaga Grau
-		Guilarte "La Mar" Latorre Lynch Melgarejo Monje Montero Montes Montt Orbegoso
-		Pezet Rebolledo Ruíz-Tagle Salaverry "Santa María" Siles Sotomayor Toro Valencia Zañartu Zapata
+		
+		last_names = { 
+			Meroving Karling Erenolding Nibelunging Hugonid Dodonid Theodnid Cheribertid Ricufling Bouvinid
+			Landen Adalberts Laidrati Chiemgaudson Hildegars Leudoni Adelards Australdling
+			Baugulfson Berengling Hildradson Drogling Engelgerson Galimani Herluins Hermenelds
+			Roding Gunberts Wulfardson Vuodi Walthars Warins Wegelenzi Welenti Widling Morgannid
 		}
 	}
 	platinean = {

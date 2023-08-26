@@ -5,49 +5,53 @@
 	aristocrats = {
 		culture = south_andean
 		religion = catholic
-		size = 1100
+		size = 1700
 	}
 
 	bureaucrats = {
 		culture = south_andean
 		religion = catholic
-		size = 400
+		size = 700
 	}
 
 	officers = {
 		culture = south_andean
 		religion = catholic
-		size = 325
+		size = 725
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = catholic
-		size = 650
+		size = 950
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = catholic
-		size = 5825
+		size = 7825
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 3000
+		size = 3500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 2500
+		militancy = 9
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 19000
+		size = 31000
 	}
 
 	clergymen = {
@@ -65,7 +69,7 @@
 	farmers = {
 		culture = aimara
 		religion = catholic
-		size = 64175
+		size = 36175
 	}
 
 	clergymen = {
