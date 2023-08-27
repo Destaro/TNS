@@ -1,7 +1,7 @@
 capital = 1030
 primary_culture = mari
 religion = orthodox
-government = absolute monarchy
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_autocracy
 literacy = 0.01

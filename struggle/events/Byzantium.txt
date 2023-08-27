@@ -289,7 +289,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				location = { is_core = BYZ }
-				has_pop_culture = gheg
+				has_pop_culture = albanian
 			}
 			militancy = -10
 		}
