@@ -4,6 +4,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_flag = show_transfer
+			has_global_flag = multi_player_game
 		}
 		allow = {
 			
@@ -23,6 +24,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_flag = show_transfer
+			has_global_flag = multi_player_game
 		}
 		allow = {
 			
@@ -41,6 +43,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			NOT = {has_country_flag = show_transfer}
+			has_global_flag = multi_player_game
 		}
 		allow = {
 			
@@ -54,6 +57,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_flag = show_transfer
+			has_global_flag = multi_player_game
 		}
 		allow = {
 			
@@ -67,6 +71,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_flag = show_transfer
+			has_global_flag = multi_player_game
 			NOT = {has_country_flag = allow_transfer}
 		}
 		allow = {
@@ -82,6 +87,7 @@ political_decisions = {
 			ai = no
 			has_country_flag = show_transfer
 			has_country_flag = allow_transfer
+			has_global_flag = multi_player_game
 		}
 		allow = {
 			
