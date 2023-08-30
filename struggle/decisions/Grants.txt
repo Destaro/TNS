@@ -5,7 +5,9 @@ political_decisions = {
         picture = tresury_reforms
         potential = {
             ai = no
+            has_global_flag = multi_player_game
             NOT = { has_country_flag = will_receive_grants }
+
             }
 
         allow = {
@@ -41,6 +43,7 @@ political_decisions = {
         alert = no
         potential = {
             ai = no
+            has_global_flag = multi_player_game
             NOT = { has_country_flag = will_give_grants }
             }
 
