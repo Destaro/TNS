@@ -1,10 +1,8 @@
 capital = 1594
 primary_culture = uighur
-culture = khorasani_persian
-culture = kazak
-culture = kirgiz
-religion = sunni
-government = absolute_monarchy
+culture = khotani
+religion = manichaeism
+government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
