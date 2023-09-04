@@ -80,5 +80,313 @@ country_event = {
 	}
 }
 
+#### The Guaranì revolution ####
 
+country_event = {
+	id = 970007
+	title = "EVTNAME970007"	#Guaraní Revolt in Inca territories
+	desc = "EVTDESC970007"	#A warlike great tribe, the Guaranì are a formidable people, who have waged war against us even before the conquest of the Franks. A young Guaranì tribesman, Arapysandu Marangatu, has managed to rally around the local population and declared himself Chief of all the Guaranì tribes in Andronica.
+	picture = "guarani_misiones"
+	fire_only_once = yes
 	
+	trigger = {
+		tag = VOP
+		year = 1838
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "We have to stop him before it's too late!"
+		set_global_flag = guarani_revolt_in_inca
+		any_owned = {
+			limit = {
+					
+				is_core = PRG
+			}
+			secede_province = PRG
+		}
+		PRG = {
+            capital = 2366       
+        }
+		PRG = {government = absolute_monarchy}
+		PRG = { add_country_modifier = {
+				name = AI_immediate_mobilization_cheat
+				duration = 1000
+				}
+			}
+		PRG = { add_country_modifier = {
+				name = francia_utopia
+				duration = 1000
+				}
+			}
+		war = {
+				target = PRG
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = become_independent
+				}	
+		}
+		any_pop = {
+			militancy = 1
+		}
+		any_pop = {
+			consciousness = 5
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970011	#EVENT FOR GUARANI KINGDOM
+	title = "EVTNAME970011"	# The Heavenly Kingdom of Arapysandu Marangatu
+	desc = "EVTDESC970011"	# Born from a Guaraní family, Arapysandu Marangatu, a young and charismatic tribesman, has declared himself god emperor of the Guaranì tribes, and managed to rally around much of the Guaranì population into serving him. The Inca amministration in Guaranì lands have broken down and people in Cusco have begun calling for military intervention against the revolts. The Selbapunic empire looks with suspicion on the revolt, believing it could also spread to their Guaranì subjects. The tribesmen have began razing the lands, killing and enslaving outsiders in their land, and managed to steal many weapons from Quechua barracks in most towns.
+	picture = "guarani_misiones"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = PRG
+		war_with = VOP
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "DEATH TO THE OUTSIDERS"
+		PRG = {
+            small_arms = 7000
+            regular_clothes = 7000
+            leadership = 25
+            canned_food = 7000
+            treasury = 15000        
+        }
+		2366 = { fort = 1 }
+		2337 = { fort = 1 }
+		2367 = { fort = 1 }
+		define_general = {
+			name = High Chief Arapysandu Marangatu
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		define_general = {
+			name = Mbyja Yaguarete
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		define_general = {
+			name = Jasy Jára
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		define_general = {
+			name = Optimus Prayn
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		define_general = {
+			name = Moroti Ñanduti
+			personality = brilliant
+			background = school_of_the_bayonet
+		}
+		any_pop = {
+			limit = {
+				culture = guarani
+				type = soldiers
+			}
+			reduce_pop = 2
+		}
+		2372 = { remove_core = LPL }
+		2365 = { remove_core = LPL }
+		2367 = { remove_core = LPL }
+		2366 = { remove_core = LPL }
+		2337 = { remove_core = LPL }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970008
+	title = "EVTNAME970008"	#The Guaraní Revolution (In Inca)
+	desc = "EVTDESC970008"	#The Guaranì tribes have shown to be too powerful... they have conquered their lands and threw us out. The self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the Guaranì, calling himself Tupã's brother (Tupã is the god who created the universe and humanity in Guaranì mythology). The people believe him and treat him as a god.
+	picture = "guarani_misiones"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = VOP
+		2371 = { controlled_by = PRG }
+		2315 = { controlled_by = PRG }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = guarani_revolt_in_inca_success
+	}
+	
+	option = {
+		name = "We have to continue fighting."
+		any_pop = {
+			militancy = 1
+		}
+		any_pop = {
+			consciousness = 5
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = "We can't fight them..."
+		end_war = PRG
+		any_pop = {
+			militancy = 1
+		}
+		any_pop = {
+			consciousness = 5
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+country_event = {
+	id = 970009
+	title = "EVTNAME970009"	#The Guaraní Revolution in Inca (for KRT)
+	desc = "EVTDESC970009"	#The Guaranì tribes in Tawantinsuyu have managed to oust their Quechua overlords. The newly self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the Guaranì, calling himself Tupã's brother (Tupã is the god who created the universe and humanity in Guaranì mythology). The people believe him and treat him as a god. Many Guaranì tribe warriors have entered our territories and started rallying the local tribesmen. With revolts happening all around the region, people in Assùnta are fearing for their lives, barricading themselves or fleeing out of the city. 
+	picture = "Toucouleur"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_global_flag = guarani_revolt_in_inca_success
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	option = {
+		name = "We won't fall."
+		any_pop = {
+			consciousness = 2
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = guarani
+			}
+			militancy = 15
+		}
+		2339 = { add_province_modifier = {
+					name = impending_doom
+					duration = 1000
+				} 		
+		}
+		PRG = {
+			war = {
+				target = KRT
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+				defender_goal = {
+					casus_belli = annex_core_country
+				}	
+			}         
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+	
+country_event = {
+	id = 970010
+	title = "EVTNAME970010"	#The Assùnta massacre
+	desc = "EVTDESC970010"	#The Guaranì tribesmen have entered the town of Assùnta and massacred the local population. Men castrated in the main square, mothers dragged by their hair, thrown in the city's river alongside their children. Houses, chuches and town halls were looted, bringing all the town's wealth in one place. A story has reached Irriu de Bennardu: an old Guaranì tribesman, that converted to Christianity some 40 years ago, and lived in Assùta for much of his life, was forced by the Divine High Chief to write "Death to the Latins" in Selbapunic on the entrance to the city. The High Chief declared the town the new capital of his kingdom and said that any Selbapunic that would try to walk in their lands would be slowly tortured and killed.
+	picture = "failed_revolution"
+	fire_only_once = yes
+	major = yes
+	news = yes
+	news_desc_long = "EVTDESC970010_NEWS_LONG"
+	news_desc_medium = "EVTDESC970010_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC970010_NEWS_SHORT"
+	
+	trigger = {
+		tag = KRT
+		has_global_flag = guarani_revolt_in_inca_success
+		2339 = { controlled_by = PRG }
+		PRG = { remove_country_modifier = AI_immediate_mobilization_cheat }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = assunta_massacre_happened
+		PRG = { badboy = 15 }
+	}
+	
+	option = {
+		name = "They shall pay for this."
+		any_pop = {
+			consciousness = 7
+		}
+		2339 = {
+			remove_province_modifier = impending_doom
+			any_pop = {
+				limit = {
+					has_pop_culture = new_roman
+				}
+				reduce_pop = 0.40
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = new_punic
+				}
+				reduce_pop = 0.50
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = guarani
+					has_pop_religion = punic_church
+				}
+				reduce_pop = 0.70
+			}
+		}
+		any_owned = {
+			limit = {
+					
+				is_core = PRG
+			}
+			secede_province = PRG
+		}
+		2420 = { secede_province = PRG }
+		PRG = {
+            capital = 2339
+            small_arms = 5000
+            regular_clothes = 5000
+            leadership = 25
+            canned_food = 5000
+            treasury = 50000         
+        }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

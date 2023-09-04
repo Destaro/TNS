@@ -22,6 +22,43 @@ TUN = {
 	influence_value = 0
 }
 
+leader = {
+	name = "Giuseppe IX"
+	date = 1818.1.1
+	type = land
+	personality = charismatic
+	background = elderly
+	prestige = 0.5
+}
+
+leader = {
+	name = "Pietrangelo Ruffo di Calabria"
+	date = 1830.1.1
+	type = land
+	personality = brilliant
+	background = school_of_the_bayonet
+	prestige = 0.3
+}
+
+leader = {
+	name = "Carmine Amelio Panetta"
+	date = 1818.1.1
+	type = land
+	personality = unruly
+	background = generals_aide
+	prestige = 0.2
+}
+
+leader = {
+	name = "Ismaele Baleniere"
+	date = 1835.1.1
+	type = sea
+	personality = able
+	background = adventurer
+	prestige = 0.1
+}
+
+
 army = {
 	name = "Guardia Reale"
 	location = 3597

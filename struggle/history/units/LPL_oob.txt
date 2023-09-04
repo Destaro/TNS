@@ -1,3 +1,18 @@
+KRT = {
+	value = -50
+	truce_until = 1840.1.1
+}
+
+VOP = {
+	value = -50
+	truce_until = 1840.1.1
+}
+
+GCO = {
+	value = 50
+	truce_until = 1840.1.1
+}
+
 leader = {
 	name = "de Urquiza"
 	date = 1827.1.1

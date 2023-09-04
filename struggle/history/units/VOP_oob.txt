@@ -1,29 +1,16 @@
-CHL = {
-	value = -125
-}
-ARC = {
-	value = -125
-}
-BRZ = {
+LPL = {
 	value = -50
-}
-ECU = {
-	value = -25
-}
-CLM = {
-	value = -25
-}
-VNZ = {
-	value = -25
+	truce_until = 1840.1.1
 }
 
+KRT = {
+	value = -50
+	truce_until = 1840.1.1
+}
 
-leader = {
-	name = "Jose Ballivián"
-	type = land
-	date = 1836.1.1
-	background = generals_aide
-	personality = bold
+GCO = {
+	value = -75
+	truce_until = 1840.1.1
 }
 
 leader = {
@@ -67,11 +54,9 @@ army = {
 	}
 }
 
-
-
 leader = {
 	name = "Valencia Melgarejo"
-	date = 1860.1.1
+	date = 1836.1.1
 	type = land
 	personality = bastard
 	background = corrupt
@@ -131,53 +116,6 @@ navy = {
 
 	}
 	
-	army = {
-	name = "Tawatinsuyu Army"
-	location = 2295
-	regiment = {
-		name= "1.1ra división de infantería"
-		type = infantry
-		home = 2295
-	}
-
-	regiment = {
-		name= "2.1ra división de infantería"
-		type = infantry
-		home = 2295
-	}
-
-	regiment = {
-		name= "3.1ra división de infantería"
-		type = artillery
-		home = 2298
-	}
-	
-	regiment = {
-		name= "4.1ra división de infantería"
-		type = artillery
-		home = 2302
-	}
-    
-	regiment = {
-		name= "1. Cavalry Brigade"
-		type = cavalry
-		home = 2295
-	}
-
-	regiment = {
-		name= "2. Cavalry Brigade"
-		type = cavalry
-		home = 2295
-	}
-
-	regiment = {
-		name= "3. Cavalry Brigade"
-		type = cavalry
-		home = 2302
-	}
-}
-
-
 navy = {
 	name = "Incan War Navy"
 	location = 2295

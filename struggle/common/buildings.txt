@@ -656,6 +656,36 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
+## state selector
+
+	state_selector = {
+		type = selector
+		goods_cost =
+		{
+		}
+		time = 2
+		visibility = no
+		onmap = no
+		max_level = 2
+		province = yes
+
+		one_per_state = yes
+	}
+
+	state_deselector = {
+		type = deselector
+		goods_cost =
+		{
+		}
+		time = 2
+		visibility = no
+		onmap = no
+		max_level = 2
+		province = yes
+
+	}
+#endedit
+
 ############# Military Buildings and Infrastructure
 
 fort = {      
@@ -724,32 +754,3 @@ railroad = {
 	spawn_railway_track = yes
 }
 
-## state selector
-
-	state_selector = {
-		type = selector
-		goods_cost =
-		{
-		}
-		time = 2
-		visibility = no
-		onmap = no
-		max_level = 2
-		province = yes
-
-		one_per_state = yes
-	}
-
-	state_deselector = {
-		type = deselector
-		goods_cost =
-		{
-		}
-		time = 2
-		visibility = no
-		onmap = no
-		max_level = 2
-		province = yes
-
-	}
-#endedit

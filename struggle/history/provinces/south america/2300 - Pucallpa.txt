@@ -6,3 +6,5 @@ trade_goods = wool
 terrain = jungle
 life_rating = 31
 
+
+add_core = PEU

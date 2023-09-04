@@ -36,7 +36,6 @@ political_decisions = {
 		}
 		
 		allow = {
-			NOT = { month = 5 }
 			invention = national_fraternity
 			realism = 1
 			OR = {

@@ -99835,17 +99835,28 @@
 } # Sao Luis
 
 2424 = {
+    text_position = {
+        x = 2074.286667
+        y = 936.573333
+    }
+
+    text_rotation = 6.122155
+    text_scale = 3.999998
     unit = {
         x = 2112.000000
         y = 901.000000
     }
 
-    text_position = {
-        x = 2112.000000
-        y = 894.000000
+    city = {
+        x = 2059.813333
+        y = 930.680000
     }
 
-    text_scale = 3.999998
+    factory = {
+        x = 2096.300049
+        y = 919.900024
+    }
+
     building_construction = {
         x = 2097.000000
         y = 907.000000
@@ -99856,25 +99867,20 @@
         y = 905.000000
     }
 
-    factory = {
-        x = 2096.300049
-        y = 919.900024
-    }
-
     building_position = {
         fort = {
             x = 2140.000000
             y = 908.000000
         }
 
-        naval_base = {
-            x = 2123.000000
-            y = 916.200012
-        }
-
         railroad = {
             x = 2107.000000
             y = 901.000000
+        }
+
+        naval_base = {
+            x = 2123.000000
+            y = 916.200012
         }
 
     }
@@ -99910,17 +99916,23 @@
 } # Teresina
 
 2426 = {
+    text_position = {
+        x = 2143.448333
+        y = 900.316667
+    }
+
+    text_rotation = 6.192979
+    text_scale = 3.499999
     unit = {
         x = 2151.000000
         y = 889.000000
     }
 
-    text_position = {
-        x = 2151.000000
-        y = 880.200012
+    factory = {
+        x = 2153.000000
+        y = 901.000000
     }
 
-    text_scale = 3.499999
     building_construction = {
         x = 2159.000000
         y = 891.000000
@@ -99929,11 +99941,6 @@
     military_construction = {
         x = 2146.000000
         y = 874.000000
-    }
-
-    factory = {
-        x = 2153.000000
-        y = 901.000000
     }
 
     building_position = {
@@ -100338,11 +100345,6 @@
 } # Aracaju
 
 2435 = {
-    unit = {
-        x = 2221.000000
-        y = 786.000000
-    }
-
     text_position = {
         x = 2224.500000
         y = 782.000000
@@ -100350,6 +100352,16 @@
 
     text_rotation = 0.872665
     text_scale = 3.499999
+    unit = {
+        x = 2221.000000
+        y = 786.000000
+    }
+
+    factory = {
+        x = 2215.000000
+        y = 781.099976
+    }
+
     building_construction = {
         x = 2221.000000
         y = 794.000000
@@ -100358,11 +100370,6 @@
     military_construction = {
         x = 2219.800049
         y = 776.000000
-    }
-
-    factory = {
-        x = 2215.000000
-        y = 781.099976
     }
 
     building_position = {
@@ -100378,14 +100385,6 @@
 
     }
 
-    spawn_railway_track = {
-        {
-            x = 2230.596680
-            y = 796.200684
-        }
-
-    }
-
     building_rotation = {
         naval_base = 3.839724
     }
@@ -100393,17 +100392,28 @@
 } # Salvador de Bahia
 
 2436 = {
+    text_position = {
+        x = 2201.553333
+        y = 758.443333
+    }
+
+    text_rotation = 0.650508
+    text_scale = 2.999999
     unit = {
         x = 2201.000000
         y = 769.000000
     }
 
-    text_position = {
-        x = 2199.300049
-        y = 760.700012
+    city = {
+        x = 2205.226667
+        y = 754.963333
     }
 
-    text_scale = 2.799999
+    factory = {
+        x = 2209.000000
+        y = 771.000000
+    }
+
     building_construction = {
         x = 2192.000000
         y = 770.900024
@@ -100414,25 +100424,20 @@
         y = 757.000000
     }
 
-    factory = {
-        x = 2209.000000
-        y = 771.000000
-    }
-
     building_position = {
         fort = {
             x = 2193.000000
             y = 731.000000
         }
 
-        naval_base = {
-            x = 2211.500000
-            y = 751.000000
-        }
-
         railroad = {
             x = 2197.000000
             y = 756.000000
+        }
+
+        naval_base = {
+            x = 2211.500000
+            y = 751.000000
         }
 
     }

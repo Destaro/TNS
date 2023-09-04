@@ -376,6 +376,31 @@
 #Ruled by Bolivia 1836
 #Santa Cruz (16000/4000 POPS)
 2316 = {
+
+	clergymen = {
+		culture = quechua
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 600
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 11225
+	}
+
 	aristocrats = {
 		culture = south_andean
 		religion = catholic

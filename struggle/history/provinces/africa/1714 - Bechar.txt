@@ -5,3 +5,4 @@ trade_goods = wool
 life_rating = 30
 
 add_core = VOP
+add_core = SPU

@@ -1,8 +1,10 @@
 capital = 2247
 primary_culture = north_andean
+culture = south_andean
 religion = catholic
 government = democracy
 plurality = 0.0
+prestige = 10
 nationalvalue = nv_order
 literacy = 0.12
 civilized = yes

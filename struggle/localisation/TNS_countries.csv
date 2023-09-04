@@ -283,6 +283,16 @@ KRT_communist_2;Partidu Comunnista Selbapunnicu;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KRT_fascist;Partidu Natzionale Fascista;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KRT_socialist_1;L'Estremma;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KRT_socialist_2;Partidu Sociallìsta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG;Guaranì Heavenly Kingdom;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_ADJ;Guarani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_proletarian_dictatorship;Guarani Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_presidential_dictatorship;Guarani State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_bourgeois_dictatorship;Guarani State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_fascist_dictatorship;Guarani State;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_absolute_monarchy;Guaranì Heavenly Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_prussian_constitutionalism;Guaranì Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_hms_government;Guaranì Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRG_democracy;Guaranì Federal Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 MNZ;Monza;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 MNZ_ADJ;Monzan;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1148,7 +1158,7 @@ RGS_dominion_ADJ;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS;Cisplatignia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_ADJ;Cisplatinian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_colonial_company;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-RGS_dominion;Printzipadu da Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RGS_dominion;Catepannatu da Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_proletarian_dictatorship;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_presidential_dictatorship;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_bourgeois_dictatorship;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1157,3 +1167,12 @@ RGS_absolute_monarchy;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_prussian_constitutionalism;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_hms_government;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 RGS_democracy;Cisplatigna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PEU;Urelia;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+PEU_ADJ;Urelian;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+PEU_dominion;Prefettùra da Uregna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SPU;Attàccama;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+SPU_ADJ;Atacaman;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+SPU_dominion;Prefettùra da Attàccama;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BOL;Guaragna;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+BOL_ADJ;Guaragnian;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+BOL_dominion;Prefettùra da Guaragna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

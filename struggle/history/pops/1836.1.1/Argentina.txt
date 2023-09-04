@@ -255,57 +255,63 @@
 #Corrientes (96000/24000 POPS)
 2356 = {
 	aristocrats = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 450
 	}
 
 	bureaucrats = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 800
 	}
 
 	officers = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 35
 	}
 
 	clergymen = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 3000
 	}
 
 	soldiers = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 3000
 	}
 
 	farmers = {
-		culture = platinean
-		religion = catholic
+		culture = guarani
+		religion = animist
 		size = 45015
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
-		size = 75
+		culture = new_roman
+		religion = punic_church
+		size = 500
+	}
+	
+	artisans = {
+		culture = new_roman
+		religion = punic_church
+		size = 3500
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
-		size = 22750
+		culture = new_roman
+		religion = punic_church
+		size = 31750
 	}
 
 	slaves = {
@@ -666,88 +672,65 @@
 2366 = {
 	aristocrats = {
 		culture = guarani
-		religion = catholic
-		size = 75
+		religion = animist
+		size = 750
 	}
 
 	clergymen = {
 		culture = guarani
-		religion = catholic
-		size = 75
+		religion = animist
+		size = 750
 	}
 
 	soldiers = {
 		culture = guarani
-		religion = catholic
-		size = 500
+		religion = animist
+		size = 17500
 	}
 
 	labourers = {
 		culture = guarani
 		religion = animist
-		size = 2300
+		size = 2500
 	}
 
-	labourers = {
-		culture = guarani
-		religion = catholic
-		size = 1075
-	}
-
-	bureaucrats = {
-		culture = platinean
-		religion = catholic
-		size = 2
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = catholic
-		size = 23
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = catholic
-		size = 25
-	}
-
-	labourers = {
-		culture = platinean
-		religion = catholic
-		size = 500
-	}
-
-	slaves = {
+	farmers = {
 		culture = guarani
 		religion = animist
-		size = 800
+		size = 5005
 	}
+
 }
 #Xolotas (20000/5000 POPS) #now part of Argentina
 2367 = {
 	aristocrats = {
 		culture = guarani
-		religion = catholic
+		religion = animist
 		size = 75
 	}
 
 	clergymen = {
 		culture = guarani
-		religion = catholic
+		religion = animist
 		size = 75
 	}
 
 	soldiers = {
 		culture = guarani
-		religion = catholic
-		size = 550
+		religion = animist
+		size = 2750
 	}
 
 	labourers = {
 		culture = guarani
 		religion = animist
 		size = 4075
+	}
+	
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 5005
 	}
 }
 #Salta Region (36000)
@@ -934,27 +917,27 @@
 #Rivadavia (4000/1000 POPS)
 2372 = {
 	aristocrats = {
-		culture = platinean
-		religion = catholic
-		size = 15
+		culture = guarani
+		religion = animist
+		size = 30
 	}
 
 	clergymen = {
-		culture = platinean
-		religion = catholic
-		size = 25
+		culture = guarani
+		religion = animist
+		size = 150
 	}
 
 	soldiers = {
-		culture = platinean
-		religion = catholic
-		size = 10
+		culture = guarani
+		religion = animist
+		size = 700
 	}
 
 	farmers = {
-		culture = platinean
-		religion = catholic
-		size = 900
+		culture = guarani
+		religion = animist
+		size = 1700
 	}
 }
 #Tucuman Region (36000)

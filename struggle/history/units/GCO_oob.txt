@@ -1,3 +1,18 @@
+LPL = {
+	value = 50
+	truce_until = 1840.1.1
+}
+
+VOP = {
+	value = -50
+	truce_until = 1840.1.1
+}
+
+KRT = {
+	value = 15
+	truce_until = 1840.1.1
+}
+
 army = {
 	name = "Primary Army"
 	location = 2253

@@ -11,3 +11,4 @@ terrain = lapaz
 }
 
 add_core = VOP
+add_core = PEU

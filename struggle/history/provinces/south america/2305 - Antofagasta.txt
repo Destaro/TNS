@@ -12,3 +12,4 @@ naval_base = 1
 
 
 add_core = VOP
+add_core = SPU

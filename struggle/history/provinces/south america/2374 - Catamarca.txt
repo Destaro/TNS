@@ -2,3 +2,4 @@ owner = VOPcontroller = VOPadd_core = LPL
 trade_goods = woolterrain = dryhills
 life_rating = 351861.1.1 = { 	owner = ARG	controller = ARG	add_core = ARG	remove_core = ARC	}
 add_core = VOP
+add_core = SPU

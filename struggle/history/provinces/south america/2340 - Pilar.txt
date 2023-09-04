@@ -1,6 +1,6 @@
 owner = KRT
 controller = KRT
-add_core = LPL
+
 add_core = PRG
 trade_goods = grain
 life_rating = 31

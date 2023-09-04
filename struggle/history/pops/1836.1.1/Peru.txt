@@ -204,25 +204,25 @@
 	}
 	
 	clergymen = {
-		culture = south_andean
+		culture = north_andean
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_andean
+		culture = north_andean
 		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
-		culture = south_andean
+		culture = north_andean
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = south_andean
+		culture = north_andean
 		religion = catholic
 		size = 2925
 	}

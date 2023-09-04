@@ -12,3 +12,4 @@ life_rating = 20
 }
 
 add_core = VOP
+add_core = PEU

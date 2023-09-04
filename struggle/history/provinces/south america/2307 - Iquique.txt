@@ -10,3 +10,4 @@ life_rating = 15
 	controller = CHL
 	remove_core = SPU
 }
+add_core = PEU

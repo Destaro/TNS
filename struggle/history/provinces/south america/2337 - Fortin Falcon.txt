@@ -11,3 +11,5 @@ life_rating = 15
 	controller = PRG
 	add_core = PRG
 }
+
+add_core = BOL

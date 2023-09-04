@@ -1,0 +1,348 @@
+#########################################################
+#														#
+#      			 Selbapunnica Events					#
+#														#
+#########################################################
+
+country_event = {
+	id = 970000
+	title = "EVTNAME970000"	#A great discovery
+	desc = "EVTDESC970000"	#The identity of the Selbapunnic nation began forming during the early 1500s, when Andronicus Iovianus Adonibaal, a merchant born to an Afri-Romanni speaking father and Punic speaking mother at their resort house in Lilibbeu (Marsala), discovered these new landmasses west of the old continent, which would later be called after him. The first colony was called Noa Lilibbeu, after his hometown. After his incredible discovery, the Emperor of the Romans, Micheal IX Vandu, bestowed upon him the title of Exarch and Governor of Amazzogna (Named after an encounter between Andronicus and a tribe where it was custom that also women fought as soldiers). Altough officially the name of the colony was Amazzogna, the European colonists started calling it Selbapunnica, for the type of wood that populated the coast of the land. In Afri-Romanni, Selba means forest and Punniciu is the color of the deep red dye that those trees produced.
+	picture = "california_gold_rush"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "The start of a great journey."
+		set_country_flag = krt_intro1
+		prestige = 1
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970001
+	title = "EVTNAME970001"	#The natives
+	desc = "EVTDESC970001"	
+	picture = "MEX_victorio"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro1
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "We have to stop this!"
+		set_country_flag = krt_intro2
+		prestige = 2
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970002
+	title = "EVTNAME970002"	#The dynasty
+	desc = "EVTDESC970002"	#Initially the first Exarch of Amazzogna was from a family of merchants, but Andronicus asked the Emperor to make the title hereditary, The Emperor agreed, as Andronicus was an expert in trading and was also popular with the colonials in Amazzogna. As his family was elevated to nobility, the Iovianic dynasty began marrying Carthaginian royalty, cementing it's newly aquired position even more, becoming a pseudo cadet branch of the Vandu dynasty.
+	picture = "brazil_court"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro2
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Long live the king!"
+		set_country_flag = krt_intro3
+		prestige = 3
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Kings are a thing of the past."
+		set_country_flag = krt_intro3
+		prestige = 1
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 970003
+	title = "EVTNAME970003"	#The birth of a culture
+	desc = "EVTDESC970003"	#The colonists from Carthage quickly adapted to the new territories, building houses, roads, churches and town halls. Andronicus helped forming the first provinces of his exarchate, declaring the capital to be Noa Lilibbeu, but later on the more rich city of Irriu de Bennarzu would become the capital. The culture of the Afri-Romanni population would mix with the local and slave population, forming a Selbapunnic way of life. The northern part of the nation would have a more war-like culture, with the constant attacks from Frankish colonists and soldiers in the many wars that were fought between eachother. For some time northern Selbapunnica would be controlled by Francia, but the revolts were continuous. Eventually they sedated the revolts but Carthage reconquered the territories in a colonial war. The dialects of the north find more germanic loanwords, while the southern ones find more native american loanwords.
+	picture = "trekkers_under_mountain"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro3
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "A people without the knowledge of it's past is like a tree without roots."
+		set_country_flag = krt_intro4
+		prestige = 4
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970004
+	title = "EVTNAME970004"	#A peaceful independence
+	desc = "EVTDESC970004"	#As the Revolutionary wars in Europe ended, a spark of liberty shined in the population of the new world, wanting independence from their masters of the old continent. The Exarchate of Amazzogna was now to big to control, and the Emperor in Carthage knew that. Following a major reform in the Empire, the Emperor decided to give freedom to the Exarchate, before ensuring a truce of atleast 50 years and a short timed alliance to make the newly independent nation a close ally. The Exarchate of Amazzogna was now the Empire of Selbapunnica, and now the Selbapunnics had the choice to persue freedom or remain a close ally of Carthage...
+	picture = "nationalists"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro4
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "We have a bright future ahead of us."
+		set_country_flag = krt_intro5
+		prestige = 5
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970005
+	title = "EVTNAME970005"	#The actual Punics
+	desc = "EVTDESC970005"	#During the second wave of the colonization, an enourmous amount of Punics, or Qarthageni (as they are called by the Afri-Romanni), traveled to these new lands, searching fortune. A large group of them formed an independent colony withouth the knowledge of the Exarch nor the Emperor, in a region Selbapunnics call "Cisplatigna", founding many cities with names of old ones they came from, with the capital being Tagasht. Later they would be subjugated by the Exarch, but the local Punic population would revolt against the goverment so the Exarch formed a semi-independent state, or rather a Katepanate, calling it the Katepanate of Cisplatigna. These new Punics populations would divide from the old one, receiving a cultural shift like the one the Selbapunnics got: these Punics called themselves Andrunikit, Punics of Andronica.
+	picture = "montevideo_uruguay"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro5
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Selbapunnics here, selbapunnics there, I wondered where the real ones were."
+		set_country_flag = krt_intro6
+		prestige = 6
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970006
+	title = "EVTNAME970006"	#The Guaraní
+	desc = "EVTDESC970006"	#A warlike great tribe, the Guaranì are a formidable people, who have waged war against us and the Franks ever since we encountered them. A great war was waged against them, in 1750 the Guaraní War took the lives of many Frankish and Selbapunnics soldiers and civilians, causing the region to be depopulated, as many colonists left it, searching safety. They have been a thorn in the side of the Incas, of the Franks and of us. Lately Guaraní attacks have calmed down, but a rumor was spread all the way to Tagast: a young and influential warrior is contacting the Guaraní tribes, trying to unite them into a powerful nation...
+	picture = "guarani_misiones"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = krt_intro6
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Only time will tell."
+		set_country_flag = krt_intro7
+		prestige = 7
+		any_pop = {
+			limit = {
+				has_pop_culture = guarani
+			}
+			militancy = 4
+			consciousness = 3
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970012
+	title = "EVTNAME970012"	#The Western Coast
+	desc = "EVTDESC970012"	#With the conquest of the western coast, our empire has become overstretched, and the Emperor knows that very well. The Senate, becoming ever asserting and pressing on the Emperor's decisions, has drafted some ideas to make new states that would help with the administration of the newly conquered states. These new states would be 3: the prefecture of Guaragna, named after the Guaranì tribe that lives there, the prefecture of Attàccama, named after the Atacama desert, and finally the prefecture of Urania, name of the old Frankish colony of Cusco, which recalled the incredible height of the mountains that populate those lands. These new territories would be collectively known as the Triarchy. The law that enacted the creation of these semi-independent states was signed by the Emperor and all the 500 senators. Slowly, the autocracy normally associated with the Roman world was beginning to vanish in Selbapunnica, and the Emperor didnt have the power to do anything about it.
+	picture = "PDA_Refuse"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = manifest_destiny_krt
+		owns = 2310
+		owns = 2302
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Divide and conquer."
+		set_country_flag = krt_division_of_peru
+		government = prussian_constitutionalism
+		political_reform = wealth_weighted_voting
+		any_pop = {
+			consciousness = 3
+		}
+		prestige = 15
+		any_owned = {
+			limit = {
+				
+				is_core = PEU
+			}
+			secede_province = PEU
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = SPU
+			}
+			secede_province = SPU
+		}
+		any_owned = {
+			limit = {
+				
+				is_core = BOL
+			}
+			secede_province = BOL
+		}
+		create_vassal = PEU
+		PEU = {government = dominion}
+		create_vassal = SPU
+		SPU = {government = dominion}
+		create_vassal = BOL
+		BOL = {government = dominion}
+		PEU = { capital = 2302 }
+		SPU = { capital = 2313 }
+		BOL = { capital = 2366 }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 970013
+	title = "EVTNAME970013"	#Quechua, Aimara and Urelians
+	desc = "EVTDESC970013"	#Many cultures are present in the western coast: ancients one are the Quechua and Aimara, that controlled the old Inca Empire. The Urelians are the old remnants of the Frankish colonists that came from Netuwe Sallia. The Salians and Urelians have many similarities: grammar, words, customs... Albeit the incredible cultural similarities, many Salians believe they are superior, calling many Urelians "halfblots" since these commonly marry and intermix with the Quechua people. Now that we control them, we have to decide if these cultures will face persecution or be accepted in our new territories. 
+	picture = "peru_event"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KRT
+		has_country_flag = manifest_destiny_krt
+		has_country_flag = krt_division_of_peru
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "We benevolently accept all under our wings."
+		prestige = 5
+		PEU = {add_accepted_culture = quechua}
+		PEU = {add_accepted_culture = aimara}
+		PEU = {add_accepted_culture = south_andean}
+		SPU = {add_accepted_culture = quechua}
+		SPU = {add_accepted_culture = aimara}
+		SPU = {add_accepted_culture = south_andean}
+		BOL = {add_accepted_culture = quechua}
+		BOL = {add_accepted_culture = aimara}
+		BOL = {add_accepted_culture = south_andean}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We will only accept the Quechua and the Aimara."
+		PEU = {add_accepted_culture = quechua}
+		PEU = {add_accepted_culture = aimara}
+		SPU = {add_accepted_culture = quechua}
+		SPU = {add_accepted_culture = aimara}
+		BOL = {add_accepted_culture = quechua}
+		BOL = {add_accepted_culture = aimara}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We will only accept the Urelians."
+		PEU = {add_accepted_culture = south_andean}
+		SPU = {add_accepted_culture = south_andean}
+		BOL = {add_accepted_culture = south_andean}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Why would we need to accept these inferior cultures in our empire?"
+		any_pop = {
+			consciousness = 2
+		}
+		PEU = { any_pop = {
+			consciousness = 3
+			militancy = 4
+			}
+		}
+		SPU = { any_pop = {
+			consciousness = 3
+			militancy = 4
+			}
+		}
+		BOL = { any_pop = {
+			consciousness = 3
+			militancy = 4
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

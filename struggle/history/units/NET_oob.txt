@@ -68,6 +68,16 @@ POR = {
 }
 
 army = {
+	name = "Borneo Garnizoen"
+	location = 1408
+	regiment = {
+		name= "1e Infanterie Brigade"
+		type = infantry
+		home = 375
+		}
+}
+	
+army = {
 	name = "Suwalesi Garnizoen"
 	location = 1430
 	regiment = {

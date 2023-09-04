@@ -237,4 +237,60 @@ form_andronica = {
          		}
 	}
 	
+	manifest_destiny_krt = {
+		picture = peru
+		potential = {
+			tag = KRT
+			has_global_flag = guarani_revolt_in_inca
+			NOT = { has_country_flag = manifest_destiny_krt }
+		}
+		allow = {
+			war = no
+			prestige = 30
+			romanticism = 1
+			is_greater_power = yes
+		}
+		effect = {
+			any_pop = {
+			consciousness = 3
+			}
+			VOP = { all_core = { add_core = THIS } }
+			set_country_flag = manifest_destiny_krt
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	selbapunic_integrate_triarchy = {
+		picture = abolish_slavery_romania
+		potential = {
+			tag = KRT
+			is_our_vassal = BOL
+			is_our_vassal = SPU
+			is_our_vassal = PEU
+			NOT = { has_global_flag = selbapunic_integrate_triarchy }
+		}
+		
+		allow = {
+			war = no
+			year = 1870
+			is_our_vassal = BOL
+			is_our_vassal = SPU
+			is_our_vassal = PEU
+		}
+		
+		effect = {
+			set_global_flag = selbapunic_integrate_triarchy
+			prestige = 2
+			inherit = BOL
+			inherit = SPU
+			inherit = PEU
+		}
+		{
+		ai_will_do = { factor = 1 }
+		}
+	}
+
 }

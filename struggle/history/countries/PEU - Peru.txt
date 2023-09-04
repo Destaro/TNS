@@ -1,6 +1,7 @@
 capital = 2295
-primary_culture = south_andean
-religion = catholic
+primary_culture = new_roman
+culture = new_punic
+religion = punic_church
 government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_equality

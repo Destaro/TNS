@@ -1,8 +1,7 @@
-capital = 2339
+capital = 2337
 primary_culture = guarani
-culture = platinean
-religion = catholic
-government = presidential_dictatorship
+religion = animist
+government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_autocracy
 literacy = 0.11

@@ -6,6 +6,8 @@
 		culture = guarani
 		religion = animist
 		size = 25
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	clergymen = {
@@ -18,18 +20,24 @@
 		culture = guarani
 		religion = animist
 		size = 100
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size = 125
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 1800
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Puerto Guarani (8000/2000 POPS)
@@ -44,24 +52,32 @@
 		culture = guarani
 		religion = animist
 		size = 50
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
 		culture = guarani
 		religion = animist
 		size = 100
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size = 125
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 1800
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Paraguay Region (636000) #see Brazil.txt & Argentina.txt for balance of region
@@ -266,24 +282,32 @@
 		culture = guarani
 		religion = animist
 		size = 25
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size = 500
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 15
+		size = 1750
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 910
+		size = 2310
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Encarnacion (100000/25000 POPS)
@@ -346,6 +370,8 @@
 		culture = guarani
 		religion = animist
 		size = 25
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
@@ -357,13 +383,17 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 15
+		size = 2500
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 910
+		size = 1110
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #San Pedro (84000/21000 POPS)
@@ -431,19 +461,25 @@
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size = 300
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 15
+		size = 450
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 910
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	slaves = {
@@ -482,30 +518,40 @@
 		culture = guarani
 		religion = animist
 		size = 50
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = animist
 		size = 75
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
 		culture = guarani
 		religion = animist
 		size = 150
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
 		size = 25
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 2700
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 }

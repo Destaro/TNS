@@ -11,3 +11,4 @@ life_rating = 31
 }
 
 add_core = VOP
+add_core = SPU

@@ -1,4 +1,6 @@
 color = { 219  182  182 }
+dominion = { 237 72 69 }
+colonial_company = { 237 72 69 }
 graphical_culture = SouthAmericanGC
 
 party = {

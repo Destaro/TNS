@@ -1,7 +1,1 @@
-# Guarani Autonomy
-vassal = {
-	first = LPL
-	second = PRG
-	start_date = 1818.1.1
-	end_date = 1939.1.1
-}
+

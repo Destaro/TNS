@@ -1,7 +1,6 @@
 owner = VOP
 controller = VOP
 
-add_core = PRG
 trade_goods = fruit
 life_rating = 35
 1860.1.1 = {
@@ -10,3 +9,4 @@ life_rating = 35
 }
 
 add_core = VOP
+add_core = SPU

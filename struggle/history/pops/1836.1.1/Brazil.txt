@@ -841,13 +841,17 @@
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+		size = 1500
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 4650
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Under loose authority of Brazil 1836
@@ -855,56 +859,74 @@
 2417 = {
 	clergymen = {
 		culture = guarani
-		religion = punic_church
-		size = 50
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = punic_church
-		size = 100
-	}
-
-	soldiers = {
-		culture = amazonian
-		religion = punic_church
-		size = 25
-	}
-
-	farmers = {
-		culture = guarani
-		religion = punic_church
-		size = 1825
-	}
-
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = amazonian
 		religion = animist
 		size = 50
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
 		culture = amazonian
 		religion = animist
 		size = 250
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = amazonian
 		religion = animist
+		size = 25
+		rebel_type = nationalist_rebels
+		militancy = 3
+	}
+
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 3825
+		rebel_type = nationalist_rebels
+		militancy = 3
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 75
+		rebel_type = nationalist_rebels
+		militancy = 3
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = animist
 		size = 50
+		rebel_type = nationalist_rebels
+		militancy = 3
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 250
+		rebel_type = nationalist_rebels
+		militancy = 3
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 500
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 4575
+		size = 1575
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Cuiaba (28000/7000 POPS)
@@ -963,35 +985,6 @@
 		size = 900
 	}
 
-	aristocrats = {
-		culture = guarani
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = guarani
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = guarani
-		religion = animist
-		size = 250
-	}
-
-	soldiers = {
-		culture = guarani
-		religion = animist
-		size = 50
-	}
-
-	farmers = {
-		culture = guarani
-		religion = animist
-		size = 4575
-	}
 }
 #Corumba (8000/2000 POPS)
 2419 = {
@@ -1081,30 +1074,40 @@
 		culture = guarani
 		religion = animist
 		size = 50
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = animist
 		size = 75
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	artisans = {
 		culture = guarani
 		religion = animist
 		size = 150
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 25
+		size = 2500
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 
 	farmers = {
 		culture = guarani
 		religion = animist
 		size = 2700
+		rebel_type = nationalist_rebels
+		militancy = 3
 	}
 }
 #Goias Region (64000)
