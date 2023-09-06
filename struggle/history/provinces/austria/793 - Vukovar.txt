@@ -1,5 +1,6 @@
-owner = MRV
-controller = MRV
-add_core = MRV
+owner = BYZ
+controller = BYZ
+add_core = BOS
+add_core = ROM
 trade_goods = cattle
 life_rating = 35

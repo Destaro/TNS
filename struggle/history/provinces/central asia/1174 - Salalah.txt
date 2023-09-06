@@ -4,7 +4,6 @@ add_core = OMA
 add_core = KTH
 add_core = MHR
 add_core = FDL
-add_core = LHJ
 trade_goods = opium
 life_rating = 20
 terrain = desert

@@ -809,13 +809,11 @@ political_decisions = {
 			OR = {
 			any_neighbor_country = {
 				OR = {
-					tag = LHJ
 					tag = FDL
 					tag = KTH
 					tag = MHR
 				}
 			}
-			is_sphere_leader_of = LHJ
 			is_sphere_leader_of = FDL
 			is_sphere_leader_of = KTH
 			is_sphere_leader_of = MHR
@@ -832,42 +830,11 @@ political_decisions = {
 			set_country_flag = claimed_yemen
 			set_global_flag = claimed_yemen
 
-			diplomatic_influence = { who = LHJ value = -400 }
 			diplomatic_influence = { who = FDL value = -400 }
 			diplomatic_influence = { who = KTH value = -400 }
 			diplomatic_influence = { who = MHR value = -400 }
 			diplomatic_influence = { who = YEM value = -400 }
 			diplomatic_influence = { who = NYE value = -400 }
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = LHJ
-				}
-			relation = { who = THIS value = -400 }
-			leave_alliance = THIS
-			end_military_access = THIS
-			add_casus_belli = {
-				target = THIS
-				type = establish_protectorate_NI_casus_belli
-				months = 120
-				}
-			}
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = LHJ
-				}
-			relation = { who = THIS value = -400 }
-			leave_alliance = THIS
-			end_military_access = THIS
-			add_casus_belli = {
-				target = THIS
-				type = establish_protectorate_BC_casus_belli
-				months = 120
-				}
-			}
 			
 			random_country = {
 				limit = {

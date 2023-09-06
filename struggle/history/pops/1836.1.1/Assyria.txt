@@ -379,8 +379,8 @@
 		size = 5525
 	}
 }
-#Qaraqosh
-3806 = {
+#Tel Afer
+3807 = {
 	aristocrats = {
 		culture = assyrian
 		religion = manichaeism
@@ -523,9 +523,6 @@
 		religion = syriac
 		size = 8000
 	}
-}
-#Tel Afer
-3807 = {
 	aristocrats = {
 		culture = assyrian
 		religion = manichaeism

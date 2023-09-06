@@ -1,7 +1,7 @@
-owner = OMA
-controller = OMA
+owner = KHR
+controller = KHR
 add_core = KHR
-add_core = MAK
+add_core = TUR
 trade_goods = fish
 terrain = mountain
-life_rating = 31
+life_rating = 35

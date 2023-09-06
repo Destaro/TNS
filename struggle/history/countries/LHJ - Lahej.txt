@@ -1,13 +1,11 @@
-capital = 1412
-primary_culture = mashriqi
-culture = bedouin
-religion = sunni
+capital = 1142
+primary_culture = hormuzi
+religion = manichaeism
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
 non_state_culture_literacy = 0.01
-is_releasable_vassal = no
 
 # Political reforms
 slavery = yes_slavery

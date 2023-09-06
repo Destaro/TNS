@@ -1,6 +1,7 @@
-owner = JOR
-controller = JOR
-add_core = JOR
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+add_core = ASY
 trade_goods = sulphur
 life_rating = 10
 terrain = desert

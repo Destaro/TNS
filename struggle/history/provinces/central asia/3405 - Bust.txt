@@ -1,6 +1,6 @@
-owner = PER
-controller = PER
-add_core = PER
-add_core = LUR
+owner = KHR
+controller = KHR
+add_core = KHR
+add_core = LHJ
 trade_goods = grain
 life_rating = 35

@@ -158,6 +158,12 @@ kafiri;Kafiri;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 ethiosemitic;Ethiosemitic;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 ukrainian;Severian;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 byelorussian;Bolkanian;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+turkish;Türgesh;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+median;Medes;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+lurish;Lurish;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+hormuzi;Hormuzi;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+khitan;Qidún;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+caspian;Caspian;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
 ;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 LOM;Cisalpinia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 LOM_absolute_monarchy;Cisalpine Duchy;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -504,23 +510,30 @@ KHR_hms_government;Pahlaw;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KHR_prussian_constitutionalism;Pahlaw;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KHR_republic;Parthian Republic;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 KHR_ADJ;Parthian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR;Hormoz;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_colonial_company:Hormoz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_absolute_monarchy;Hormoz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_hms_government;Hormoz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_prussian_constitutionalism;Hormoz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_colonial_company_ADJ:Hormozi;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_absolute_monarchy_ADJ;Hormozi;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_hms_government_ADJ;Hormozi;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_prussian_constitutionalism_ADJ;Hormozi;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-LUR_ADJ;Hormozi;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
-YZD;Rustamids;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+LUR;Luristan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LUR_colonial_company:Mãda;;;;;;;;;;;;x
+LUR_absolute_monarchy;Mãda;;;;;;;;;;;;x
+LUR_hms_government;Mãda;;;;;;;;;;;;x
+LUR_prussian_constitutionalism;Mãda;;;;;;;;;;;;x
+LUR_colonial_company_ADJ:Mãdan;;;;;;;;;;;;x
+LUR_absolute_monarchy_ADJ;Mãdan;;;;;;;;;;;;x
+LUR_hms_government_ADJ;Mãdan;;;;;;;;;;;;x
+LUR_prussian_constitutionalism_ADJ;Mãdan;;;;;;;;;;;;x
+LUR_ADJ;Lurish;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+YZD;Yazd;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 YZD_absolute_monarchy;Rustamids;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 YZD_hms_government;Rustamids;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 YZD_prussian_constitutionalism;Rustamids;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-YZD_ADJ;Rustamid;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+YZD_absolute_monarchy_ADJ;Rustamid;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+YZD_hms_government_ADJ;Rustamid;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+YZD_prussian_constitutionalism_ADJ;Rustamid;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+YZD_ADJ;Yazdi;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 SEM;Semnan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 SEM_ADJ;Semnani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IRQ;Anazzah;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IRQ_ADJ;Anazzan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MZN;Tabarestan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MZN_ADJ;Tabarestani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 FRC_liberal;Republikeinen;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;
 FRC_liberal_2;Liberale Unie;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;

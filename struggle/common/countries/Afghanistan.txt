@@ -1,4 +1,4 @@
-color = { 120  100  100 }
+color = { 120  100  140 }
 colonial_company = { 78  82  109}
 dominion = { 78  82  109} 
 graphical_culture = MiddleEasternGC

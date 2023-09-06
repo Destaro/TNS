@@ -87,7 +87,7 @@
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1325
 	}
@@ -149,31 +149,31 @@
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 26625
 	}
@@ -259,31 +259,31 @@
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 10625
 	}
@@ -369,31 +369,31 @@
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 18625
 	}
@@ -479,31 +479,31 @@
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1600
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 20625
 	}
@@ -554,6 +554,109 @@
 		culture = assyrian
 		religion = catholic
 		size = 1750
+	}
+}
+#Qaraqosh
+3806 = {
+	aristocrats = {
+		culture = lurish
+		religion = manichaeism
+		size = 325
+	}
+
+	clergymen = {
+		culture = lurish
+		religion = manichaeism
+		size = 175
+	}
+
+	artisans = {
+		culture = lurish
+		religion = manichaeism
+		size = 850
+	}
+
+	soldiers = {
+		culture = lurish
+		religion = manichaeism
+		size = 175
+	}
+
+	farmers = {
+		culture = lurish
+		religion = manichaeism
+		size = 10000
+	}
+
+	farmers = {
+		culture = median
+		religion = manichaeism
+		size = 5475
+	}
+
+	aristocrats = {
+		culture = median
+		religion = manichaeism
+		size = 100
+	}
+
+	clergymen = {
+		culture = median
+		religion = manichaeism
+		size = 50
+	}
+
+	artisans = {
+		culture = median
+		religion = manichaeism
+		size = 250
+	}
+
+	soldiers = {
+		culture = median
+		religion = manichaeism
+		size = 75
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 5525
+	}
+	aristocrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 325
+	}
+
+	bureaucrats = {
+		culture = assyrian
+		religion = manichaeism
+		size = 25
+	}
+
+	officers = {
+		culture = assyrian
+		religion = manichaeism
+		size = 50
+	}
+
+	clergymen = {
+		culture = assyrian
+		religion = manichaeism
+		size = 150
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = manichaeism
+		size = 650
+	}
+
+	soldiers = {
+		culture = median
+		religion = manichaeism
+		size = 1100
 	}
 }
 #Iraq Region (644000)
@@ -699,31 +802,31 @@
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 400
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 7350
 	}
@@ -767,31 +870,31 @@
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = median
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = median
 		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = median
 		religion = manichaeism
 		size = 250
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = median
 		religion = manichaeism
 		size = 75
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = median
 		religion = manichaeism
 		size = 5525
 	}
@@ -945,31 +1048,31 @@
 	}
 
 	aristocrats = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = bedouin
+		culture = old_persian
 		religion = manichaeism
 		size = 3625
 	}
@@ -1584,31 +1687,31 @@
 	}
 	
 	clergymen = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 100
 	}
 	
 	aristocrats = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 500
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 400
 	}
 
 	farmers = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 2750
 	}
@@ -1638,7 +1741,7 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = southern_hungarian
 		religion = manichaeism
 		size = 50
 	}
@@ -1727,7 +1830,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 7075
 	}

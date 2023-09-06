@@ -1,6 +1,7 @@
 owner = PER
 controller = PER
 add_core = PER
+add_core = BLC
 terrain = dry_mountains
 trade_goods = timber
 life_rating = 35

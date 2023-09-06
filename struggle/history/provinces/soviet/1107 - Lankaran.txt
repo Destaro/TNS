@@ -1,1 +1,1 @@
-owner = PERcontroller = PERadd_core = PERadd_core = AZBterrain = montane_foresttrade_goods = grainlife_rating = 35
+owner = PERcontroller = PERadd_core = PERadd_core = BLCadd_core = MZNterrain = montane_foresttrade_goods = grainlife_rating = 35

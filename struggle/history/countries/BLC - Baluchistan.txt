@@ -1,11 +1,10 @@
 capital = 1222
 primary_culture = baluchi
-religion = sunni
+religion = manichaeism
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
-is_releasable_vassal = no
 
 # Political reforms
 slavery = no_slavery
@@ -49,4 +48,4 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = sunni_country
+set_country_flag = manichean_country

@@ -4,85 +4,85 @@
 #Tabriz (808000/202000 POPS)
 1108 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 400
 	}
 
 	bureaucrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 100
 	}
 
 	officers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 200
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 400
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 4000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 1000
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 10775
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 3350
 	}
 
 	bureaucrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 650
 	}
 
 	officers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 400
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1475
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 20000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 2000
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 60000
 	}
@@ -178,7 +178,7 @@
 	}
 
 	slaves = {
-		culture = russian
+		culture = caspian
 		religion = orthodox
 		size = 4000
 	}
@@ -192,61 +192,61 @@
 #Marand (808000/202000 POPS)
 3424 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 40
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 75
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 300
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 300
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 1775
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 210
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 200
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 15000
 	}
@@ -306,7 +306,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 8263
 	}
@@ -631,79 +631,79 @@
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 500
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 2775
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 20
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 50
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 300
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 6000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 120
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 150
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 3000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1300
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 8000
 	}
@@ -801,61 +801,61 @@
 #Miyaneh (808000/202000 POPS)
 3425 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 50
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 75
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 1000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 500
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 2775
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 150
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 2500
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1000
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 30763
 	}
@@ -1239,61 +1239,61 @@
 #Mahabad (200000/50000 POPS)
 1111 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 225
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 487
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1400
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1650
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 20000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 50
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 150
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5637
 	}
@@ -1359,55 +1359,55 @@
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 400
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 260
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 8000
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = zoroastrian
 		size = 50
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = zoroastrian
 		size = 25
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = zoroastrian
 		size = 100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = zoroastrian
 		size = 8
 	}
@@ -1427,61 +1427,61 @@
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 750
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 600
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 2525
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1050
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 25000
 	}
     
 	aristocrats = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 200
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1325
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 650
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 11250
 	}
@@ -1511,7 +1511,7 @@
 	}
 
 	farmers = {
-		culture = armenian
+		culture = caspian
 		religion = manichaeism
 		size = 11000
 	}
@@ -1547,25 +1547,25 @@
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 600
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 262
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 8000
 	}
@@ -1617,19 +1617,19 @@
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1650
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1650
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 60750
 	}
@@ -1657,19 +1657,19 @@
 #Astara (168000/42000 POPS)
 3393 = {
 	aristocrats = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 800
 	}
 
 	bureaucrats = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 100
 	}
 
 	officers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 125
 	}
@@ -1681,21 +1681,27 @@
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
-		size = 40500
+		size = 15500
+	}
+
+	farmers = {
+		culture = caspian
+		religion = zoroastrian
+		size = 25500
 	}
 
 	slaves = {
@@ -1743,7 +1749,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 30500
 	}
@@ -1781,67 +1787,67 @@
 	}
 
 	farmers = {
-		culture = parthian
+		culture = caspian
 		religion = zoroastrian
 		size = 10000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 75
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 3000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 5
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 15
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = parthian
 		religion = manichaeism
 		size = 500
 	}
@@ -1873,7 +1879,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 31575
 	}
@@ -1885,7 +1891,7 @@
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 6075
 	}
@@ -1923,19 +1929,19 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 50000
 	}
 	
 	farmers = {
-		culture = uzbek
+		culture = caspian
 		religion = zoroastrian
 		size = 2000
 	}
 	
 	farmers = {
-		culture = uzbek
+		culture = caspian
 		religion = manichaeism
 		size = 8000
 	}
@@ -2184,7 +2190,7 @@
 		size = 17300
 	}
 }
-#uzbeksahra (140000/35000 POPS)
+#Turkmensahra (140000/35000 POPS)
 3431 = {
 	aristocrats = {
 		culture = parthian
@@ -2337,145 +2343,145 @@
 #Sanandaj (236000/59000 POPS) #manichaeism = Ahl-e Haqq
 1117 = {
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 700
 	}
 
 	bureaucrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 150
 	}
 
 	officers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 250
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 600
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 2000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 1000
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 14000
 	}
 	
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 60
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 3000
 	}
 	
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 300
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 6700
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 250
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 250
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 700
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1250
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 13750
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 450
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1150
 	}
@@ -2521,92 +2527,98 @@
 	farmers = {
 		culture = old_persian
 		religion = manichaeism
-		size = 41900
+		size = 23900
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = manichaeism
+		size = 20000
 	}
 }
 
 #Kermanshah (84000/21000 POPS) 
 1119 = {
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 650
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 300
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 1700
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 1600
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 19000
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 150
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 1200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 500
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 20050
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 150
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 500
 	}
@@ -2624,19 +2636,19 @@
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 700
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 6000
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 4050
 	}
@@ -2656,61 +2668,61 @@
 #Chavar (84000/21000 POPS)
 3389 = {
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 175
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 15500
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 75
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = assyrian
 		religion = manichaeism
 		size = 3625
 	}
@@ -2718,61 +2730,61 @@
 #Piranshahr (200000/50000 POPS)
 3439 = {
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 125
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 87
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 300
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 1650
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 7000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 50
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 150
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5637
 	}
@@ -2811,31 +2823,31 @@
 #Khorramabad (64000/16000 POPS)
 1120 = {
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 300
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 800
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 33950
 	}
@@ -2947,7 +2959,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 40125
 	}
@@ -2991,139 +3003,139 @@
 #Hamadan (118000/29500 POPS)
 1122 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 620
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 300
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5900
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 14000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1000
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 2000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 10000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 55
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 100
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 2100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 5000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 125
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 3100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = median
 		religion = manichaeism
 		size = 8600
 	}
@@ -3155,61 +3167,61 @@
 #Zanjan (44000/11000 POPS)
 1123 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 300
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 6500
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 11000
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 4150
 	}
@@ -3247,31 +3259,31 @@
 #Soltaniyeh (44000/11000 POPS)
 3392 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 350
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 200
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 7000
 	}
@@ -3289,55 +3301,55 @@
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1000
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 1150
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 600
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = manichaeism
 		size = 5150
 	}
 	
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 250
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 2000
 	}
@@ -3369,7 +3381,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 16000
 	}
@@ -3423,7 +3435,7 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = manichaeism
 		size = 29850
 	}
@@ -4004,31 +4016,31 @@
 #Yazd (140000/35000 POPS)
 1130 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 700
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 350
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 6250
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 6950
 	}
@@ -4066,79 +4078,79 @@
 #Ardakan (140000/35000 POPS)
 3402 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 70
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 70
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 400
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 3000
 	}
 	
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 3
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 5
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 20
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 	
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 250
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 4950
 	}
@@ -4568,31 +4580,31 @@
 	}
 
 	aristocrats = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 300
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 75
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = lurish
 		religion = manichaeism
 		size = 5475
 	}
@@ -5316,91 +5328,91 @@
 #Jahrom (160000/40000 POPS)
 3388 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 70
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 90
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 360
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 450
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 3700
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 5
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 40
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 300
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 75
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 800
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 600
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 4000
 	}
@@ -5472,25 +5484,25 @@
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 80
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 660
 	}
 	
 	farmers = {
-	    culture = uzbek
+	    culture = turkish
 		religion = manichaeism
 		size = 1025
 	}
@@ -5670,17 +5682,17 @@
 	soldiers = {
 		culture = old_persian
 		religion = manichaeism
-		size = 25
+		size = 250
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = khitan
 		religion = manichaeism
-		size = 3000
+		size = 12000
 	}
 
 	farmers = {
-		culture = parthian
+		culture = khitan
 		religion = manichaeism
 		size = 3675
 	}
@@ -5728,43 +5740,43 @@
 	farmers = {
 		culture = old_persian
 		religion = manichaeism
-		size = 14125
+		size = 13125
 	}
 
 	farmers = {
-		culture = parthian
+		culture = khitan
 		religion = manichaeism
-		size = 14000
+		size = 15000
 	}
 }
 #Lengeh (76000/19000 POPS)
 1141 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 300
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 800
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 13750
 	}
@@ -5802,31 +5814,31 @@
 #Bandar Abbas (96000/24000 POPS)
 1142 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 12650
 	}
@@ -5876,31 +5888,31 @@
 #Lar (96000/24000 POPS)
 3386 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 32650
 	}
@@ -5950,31 +5962,31 @@
 #Bust (96000/24000 POPS)
 3405 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 325
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 12650
 	}
@@ -6004,7 +6016,7 @@
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 6400
 	}
@@ -6055,85 +6067,85 @@
 	}
 	
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 550
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 725
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 5000
 	}
 	
 	aristocrats = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 25
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 5
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 275
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = turkish
 		religion = manichaeism
 		size = 1375
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 625
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 350
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 2075
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 6375
 	}
@@ -6184,37 +6196,37 @@
 	}
 	
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 925
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 625
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 350
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 2075
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 13375
 	}
@@ -6247,39 +6259,39 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = khitan
 		religion = manichaeism
-		size = 10025
+		size = 14025
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = khitan
 		religion = manichaeism
 		size = 175
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = khitan
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = khitan
 		religion = manichaeism
 		size = 450
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = khitan
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = old_persian
 		religion = manichaeism
-		size = 8200
+		size = 4200
 	}
 }
 #Sistan Region (260000)
@@ -6287,13 +6299,13 @@
 #Zahedan (72000/18000 POPS)
 1144 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	bureaucrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 25
 	}
@@ -6323,37 +6335,37 @@
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 9925
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 125
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 350
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	farmers = {
-		culture = parthian
+		culture = turkish
 		religion = manichaeism
 		size = 6375
 	}
@@ -6361,61 +6373,61 @@
 #Jask (92000/23000 POPS)
 1145 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 275
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 14700
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 100
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 50
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 300
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 50
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 6075
 	}
@@ -6423,61 +6435,61 @@
 #Chabahar (96000/24000 POPS)
 1146 = {
 	aristocrats = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 275
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 175
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = hormuzi
 		religion = manichaeism
 		size = 15525
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 125
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 350
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 75
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 6375
 	}
@@ -6601,31 +6613,31 @@
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 20
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 4450
 	}
@@ -6932,31 +6944,31 @@
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 3450
 	}
@@ -7097,31 +7109,31 @@
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 3450
 	}
@@ -7406,31 +7418,31 @@
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 15
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 20
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 50
 	}
 	
 	farmers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 1550
 	}
@@ -7601,31 +7613,31 @@
 #Birjand (92000/23000 POPS)
 1148 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 450
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 225
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1150
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 20250
 	}
@@ -7665,121 +7677,121 @@
 #Qaen (92000/23000 POPS)
 3394 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 370
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 300
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 3700
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1000
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 13000
 	}
 	
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 80
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 850
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 7250
 	}
 	
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 3750
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 10
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 15
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = parthian
 		religion = manichaeism
 		size = 1250
 	}
@@ -7787,121 +7799,121 @@
 #Tabas (92000/23000 POPS)
 3395 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 400
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 200
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1000
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1000
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 9000
 	}
 	
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 150
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 1250
 	}
 	
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 10
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 100
 	}
 	
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 3250
 	}
 	
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 10
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 25
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 50
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 10
 	}
 	
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 1250
 	}
@@ -8064,31 +8076,31 @@
 #Zabol (92000/23000 POPS)
 3409 = {
 	aristocrats = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 150
 	}
 
 	clergymen = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 75
 	}
 
 	artisans = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 450
 	}
 
 	soldiers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 300
 	}
 
 	farmers = {
-		culture = parthian
+		culture = old_persian
 		religion = manichaeism
 		size = 9500
 	}
@@ -8106,13 +8118,13 @@
 	}
 	
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 300
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 6000
 	}
@@ -8122,37 +8134,37 @@
 3382 = {
 	
 	aristocrats = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 700
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 250
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 1840
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 18000
 	}
 	
 	farmers = {
-		culture = baluchi
+		culture = turkish
 		religion = manichaeism
 		size = 4250
 	}
 
 	slaves = {
-		culture = parthian
+		culture = turkish
 		religion = animist
 		size = 5000
 	}

@@ -233,67 +233,67 @@
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 17000
 	}
 	
 	clergymen = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 3
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 18
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 80
 	}
 	
 	clergymen = {
-		culture = old_persian
+		culture = alvuanian
 		religion = coptic
 		size = 30
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = alvuanian
 		religion = coptic
 		size = 600
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = alvuanian
 		religion = coptic
 		size = 2000
 	}
 	
 	clergymen = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 18
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 66
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 600
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = alvuanian
 		religion = zoroastrian
 		size = 4400
 	}
@@ -355,43 +355,43 @@
 #Naftmardab (76000/19000 POPS)
 3294 = {
 	clergymen = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 15
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 45
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 120
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 1855
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 150
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 900
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 680
 	}
@@ -403,25 +403,25 @@
 	}
 	
 	aristocrats = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 575
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 410
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 800
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 425
 	}
@@ -445,15 +445,21 @@
 	}
 	
 	artisans = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 600
 	}
+	
+	farmers = {
+		culture = caspian
+		religion = zoroastrian
+		size = 16985
+	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
-		size = 36985
+		size = 20000
 	}
 }
 #Siyazen (56000/14000 POPS)
@@ -1297,43 +1303,49 @@
 #Lankaran (56000/14000 POPS)
 1107 = {
 	aristocrats = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 675
 	}
 
 	clergymen = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 675
 	}
 
 	artisans = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 1200
 	}
 
 	soldiers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 2150
 	}
 
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
-		size = 35000
+		size = 12000
+	}
+
+	farmers = {
+		culture = caspian
+		religion = zoroastrian
+		size = 23000
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = baluchi
 		religion = zoroastrian
 		size = 2000
 	}
 	
 	farmers = {
-		culture = old_persian
+		culture = caspian
 		religion = zoroastrian
 		size = 3400
 	}

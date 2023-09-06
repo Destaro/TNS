@@ -1,8 +1,7 @@
-owner = MRV
-controller = MRV
-add_core = MRV
+owner = BYZ
+controller = BYZ
+add_core = BOS
+add_core = ROM
 trade_goods = timber
 life_rating = 35
 1861.1.1 = { railroad = 3 }
-
-add_core = PNN

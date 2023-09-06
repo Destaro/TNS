@@ -220,11 +220,9 @@ political_decisions = {
 		potential = {
 			NOT = { is_culture_group = arab }
 			OR = {
-				any_owned_province = { is_core = LHJ }
 				any_owned_province = { is_core = FDL }
 				any_owned_province = { is_core = KTH }
 				any_owned_province = { is_core = MHR }
-				is_sphere_leader_of = LHJ
 				is_sphere_leader_of = FDL
 				is_sphere_leader_of = KTH
 				is_sphere_leader_of = MHR
@@ -235,7 +233,6 @@ political_decisions = {
 		allow = {
 			war = no
 			OR = {
-				LHJ = { exists = no }
 				owns = 1412
 			}
 			1173 = {
@@ -286,7 +283,6 @@ political_decisions = {
 					exists = yes
 					OR = {
 						tag = KTH
-						tag = LHJ
 						tag = FDL
 						tag = MHR
 					}
@@ -294,7 +290,6 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
-			LHJ = { all_core = { add_core = YEM remove_core = LHJ } }
 			FDL = { all_core = { add_core = YEM remove_core = FDL } }
 			KTH = { all_core = { add_core = YEM remove_core = KTH } }
 			MHR = { all_core = { add_core = YEM remove_core = MHR } }
@@ -817,7 +812,7 @@ political_decisions = {
 			NOT = { tag = NYE }
 			YEM = { exists = yes NOT = { owns = 1412 } }
 			OR = {
-				AND = { tag = LHJ ai = yes is_vassal = no }
+				AND = { tag = HDJ ai = yes is_vassal = no }
 				great_wars_enabled = yes
 			}
 		}
@@ -852,11 +847,11 @@ political_decisions = {
 			}
 			
 			random_owned = { limit = { province_id = 1412 }
-				1412 = { secede_province = YEM add_core = YEM remove_core = THIS remove_core = LHJ }
+				1412 = { secede_province = YEM add_core = YEM remove_core = THIS remove_core = MHR }
 			}
 			
 			random_country = { limit = { owns = 1412 NOT = { num_of_cities = 2 } }
-				1412 = { add_core = YEM remove_core = THIS remove_core = LHJ }
+				1412 = { add_core = YEM remove_core = THIS remove_core = MHR }
 				annex_to = YEM
 			}
 			
