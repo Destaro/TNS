@@ -4,43 +4,43 @@
 1173 = {
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 270
 	}
 
 	bureaucrats = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 90
 	}
 
 	officers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 50
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 150
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 1100
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 2000
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 16700
 	}
 
@@ -54,31 +54,31 @@
 1175 = {
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 200
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 600
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 2000
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 10300
 	}
 
@@ -92,43 +92,43 @@
 1176 = {
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 550
 	}
 
 	bureaucrats = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 90
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 350
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 1900
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 3000
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 1175
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = manichaeism
 		size = 27050
 	}
 
