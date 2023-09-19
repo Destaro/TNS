@@ -23,31 +23,34 @@ country_event = {
 		release_vassal = PRD
 		release_vassal = LIT
 		prestige = 10
-		badboy = -20
 		set_global_flag = western_revolts
-		war = {
-	target = PRD
+	PRD = {
+               war = {
+	 target = BUL
 	attacker_goal = { 
-	casus_belli = make_puppet
+	casus_belli = humiliate 
 	
 	 }
 	defender_goal = { 
-	casus_belli = humiliate 
+	casus_belli = make_puppet
 	                         }
 		
 	       }
+}
 		   
-		   war = {
-	target = LIT
+	LIT = {	  
+         war = {
+	target = BUL
 	attacker_goal = { 
-	casus_belli = make_puppet
+	casus_belli = humiliate 
 	
 	 }
 	defender_goal = { 
-	casus_belli = humiliate 
+	casus_belli = make_puppet
 	                         }
 		
 	       }
+    }
 		   
 		   ai_chance = { factor = 50 }
        }
