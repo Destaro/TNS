@@ -146,3 +146,35 @@ country_event = {
 		ai_chance = { factor = 20 }
 	   }
 }
+
+#recovery of the westerners
+country_event = {
+
+	id = 778998
+	title = "EVTNAME777298" #the west is safe and sound
+	desc = "EVTDESC777288"
+	picture = "danishgovernment"
+	fire_only_once = yes
+	trigger = {
+	LIT = { vassal_of = BUL}
+	PRD = { vassal_of = BUL}
+	tag = BUL
+    has_global_flag = western_revolts
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	
+	   
+	   option = { 
+	   name = "EVTOPTA777910" #the west is safe
+	   prestige = 5
+	  LIT = { government = colonial_company}
+          PRD = { government = colonial_company}
+		badboy = -5
+		ai_chance = { factor = 20 }
+	   }
+}
