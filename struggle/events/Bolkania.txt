@@ -7,7 +7,7 @@ country_event = {
 	picture = "danishgovernment"
 	fire_only_once = yes
 	trigger = {
-	CPL = { vassal_of = BUL}
+	LIT = { vassal_of = BUL}
 	PRD = { vassal_of = BUL}
 	tag = BUL
     year = 1842
@@ -21,7 +21,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB777007" #westernrevolts
 		release_vassal = PRD
-		release_vassal = CPL
+		release_vassal = LIT
 		prestige = 10
 		badboy = -20
 		set_global_flag = western_revolts
