@@ -1,6 +1,6 @@
-owner = MON
-controller = MON
-
+owner = DLM
+controller = DLM
+add_core = DLM
 add_core = BOS
 add_core = MON
 
