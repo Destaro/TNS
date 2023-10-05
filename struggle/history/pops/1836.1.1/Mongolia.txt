@@ -91,6 +91,7 @@
         religion = sunni
         size = 6000
     }
+}
 #Uliastai (140000/35000 POPS)   
 1468 = {
     aristocrats = {
@@ -229,9 +230,7 @@
     }
 }
 
-#
-
-Khatgal (152000/38000 POPS)   
+#Khatgal (152000/38000 POPS)   
 2608 = {
     aristocrats = {
         culture = mongol
