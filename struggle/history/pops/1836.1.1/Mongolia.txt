@@ -92,6 +92,157 @@
         size = 6000
     }
 }
+
+#dalandzadgad
+1467 = {
+    aristocrats = {
+        culture = mongol
+        religion = gelugpa
+        size = 325
+    }
+
+    aristocrats = {
+        culture = tatar
+        religion = gelugpa
+        size = 325
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = gelugpa
+        size = 175
+    }
+
+    clergymen = {
+        culture = tatar
+        religion = gelugpa
+        size = 175
+    }
+
+    artisans = {
+        culture = mongol
+        religion = gelugpa
+        size = 875
+    }
+
+    artisans = {
+        culture = tatar
+        religion = gelugpa
+        size = 875
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = gelugpa
+        size = 175
+    }
+
+    soldiers = {
+        culture = tatar
+        religion = gelugpa
+        size = 175
+    }
+
+    farmers = {
+        culture = mongol
+        religion = gelugpa
+        size = 15950
+    }
+
+    farmers = {
+        culture = tatar
+        religion = gelugpa
+        size = 15950
+    }
+	
+    slaves = {
+        culture = uighur
+        religion = sunni
+        size = 1000
+    }
+
+    slaves = {
+        culture = tatar
+        religion = sunni
+        size = 1000
+    }
+}
+
+#dalandzadgad
+1466 = {
+    aristocrats = {
+        culture = mongol
+        religion = gelugpa
+        size = 325
+    }
+
+    aristocrats = {
+        culture = tatar
+        religion = gelugpa
+        size = 325
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = gelugpa
+        size = 175
+    }
+
+    clergymen = {
+        culture = tatar
+        religion = gelugpa
+        size = 175
+    }
+
+    artisans = {
+        culture = mongol
+        religion = gelugpa
+        size = 875
+    }
+
+    artisans = {
+        culture = tatar
+        religion = gelugpa
+        size = 875
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = gelugpa
+        size = 175
+    }
+
+    soldiers = {
+        culture = tatar
+        religion = gelugpa
+        size = 175
+    }
+
+    farmers = {
+        culture = mongol
+        religion = gelugpa
+        size = 15950
+    }
+
+    farmers = {
+        culture = tatar
+        religion = gelugpa
+        size = 15950
+    }
+	
+    slaves = {
+        culture = uighur
+        religion = sunni
+        size = 1000
+    }
+
+    slaves = {
+        culture = tatar
+        religion = sunni
+        size = 1000
+    }
+}
+
 #Uliastai (140000/35000 POPS)   
 1468 = {
     aristocrats = {

@@ -1,7 +1,7 @@
 owner = MRV
 controller = MRV
 
-add_core = AUS
+
 trade_goods = cattle
 life_rating = 35
 
