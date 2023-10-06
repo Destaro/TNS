@@ -6344,10 +6344,22 @@
 		size = 2000
 	}
 
+	aristocrats = {
+		culture = tatar
+		religion = gelugpa
+		size = 6000
+	}
+
 	bureaucrats = {
 		culture = mongol
 		religion = gelugpa
 		size = 225
+	}
+
+	bureaucrats = {
+		culture = tatar
+		religion = gelugpa
+		size = 675
 	}
 
 	officers = {
@@ -6356,10 +6368,22 @@
 		size = 225
 	}
 
+	officers = {
+		culture = tatar
+		religion = gelugpa
+		size = 675
+	}
+
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
 		size = 1050
+	}
+
+	clergymen = {
+		culture = tatar
+		religion = gelugpa
+		size = 3150
 	}
 
 	artisans = {
@@ -6368,10 +6392,22 @@
 		size = 4200
 	}
 
+	artisans = {
+		culture = tatar
+		religion = gelugpa
+		size = 12600
+	}
+
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
 		size = 1050
+	}
+
+	soldiers = {
+		culture = tatar
+		religion = gelugpa
+		size = 3150
 	}
 
 	farmers = {
@@ -6380,10 +6416,22 @@
 		size = 85250
 	}	
 
+	farmers = {
+		culture = tatar
+		religion = gelugpa
+		size = 255750
+	}
+
 	serfs = {
 		culture = mongol
 		religion = gelugpa
 		size = 10000
+	}
+
+	serfs = {
+		culture = tatar
+		religion = gelugpa
+		size = 30000
 	}
 
 	clergymen = {
@@ -6431,10 +6479,22 @@
 		size = 325
 	}
 
+	clergymen = {
+		culture = tatar
+		religion = gelugpa
+		size = 975
+	}
+
 	artisans = {
 		culture = mongol
 		religion = gelugpa
 		size = 1375
+	}
+
+	artisans = {
+		culture = tatar
+		religion = gelugpa
+		size = 4125
 	}
 
 	soldiers = {
@@ -6443,10 +6503,22 @@
 		size = 3000
 	}
 
+	soldiers = {
+		culture = tatar
+		religion = gelugpa
+		size = 9000
+	}
+
 	farmers = {
 		culture = mongol
 		religion = gelugpa
 		size = 90650
+	}
+
+	farmers = {
+		culture = tatar
+		religion = gelugpa
+		size = 271950
 	}
 
 	clergymen = {
@@ -6460,13 +6532,13 @@
 		religion = mahayana
 		size = 1000
 	}
-	
+
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
 		size = 1100
 	}
-	
+
 	farmers = {
 		culture = beifaren
 		religion = mahayana
@@ -6478,7 +6550,7 @@
 		religion = mahayana
 		size = 10875
 	}
-	
+
 	clergymen = {
 		culture = manchu
 		religion = mahayana
@@ -6490,13 +6562,13 @@
 		religion = mahayana
 		size = 300
 	}
-	
+
 	soldiers = {
 		culture = manchu
 		religion = mahayana
 		size = 1100
 	}
-	
+
 	farmers = {
 		culture = manchu
 		religion = mahayana
@@ -6506,10 +6578,17 @@
 }
 #Ulaan Chab Chuulghan (132000/33000 POPS)
 1534 = {
+
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
 		size = 650
+	}
+
+	aristocrats = {
+		culture = tatar
+		religion = gelugpa
+		size = 1950
 	}
 
 	clergymen = {
@@ -6518,10 +6597,22 @@
 		size = 325
 	}
 
+	clergymen = {
+		culture = tatar
+		religion = gelugpa
+		size = 975
+	}
+
 	artisans = {
 		culture = mongol
 		religion = gelugpa
 		size = 1650
+	}
+
+	artisans = {
+		culture = tatar
+		religion = gelugpa
+		size = 4950
 	}
 
 	soldiers = {
@@ -6530,30 +6621,42 @@
 		size = 4100
 	}
 
+	soldiers = {
+		culture = tatar
+		religion = gelugpa
+		size = 12300
+	}
+
 	farmers = {
 		culture = mongol
 		religion = gelugpa
 		size = 89375
 	}
-	
+
+	farmers = {
+		culture = tatar
+		religion = gelugpa
+		size = 268125
+	}
+
 	farmers = {
 		culture = beifaren
 		religion = mahayana
 		size = 70000
 	}
-	
+
 	artisans = {
 		culture = beifaren
 		religion = mahayana
 		size = 10000
 	}
-	
+
 	clergymen = {
-		culture = mongol
+		culture = beifaren
 		religion = mahayana
 		size = 500
 	}
-	
+
 	soldiers = {
 		culture = beifaren
 		religion = gelugpa
@@ -6562,10 +6665,17 @@
 }
 #Yeke Juu Chuulghan (456000/114000 POPS)
 1535 = {
+
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
 		size = 2225
+	}
+
+	aristocrats = {
+		culture = tatar
+		religion = gelugpa
+		size = 6675
 	}
 
 	clergymen = {
@@ -6574,10 +6684,22 @@
 		size = 1125
 	}
 
+	clergymen = {
+		culture = tatar
+		religion = gelugpa
+		size = 3375
+	}
+
 	artisans = {
 		culture = mongol
 		religion = gelugpa
 		size = 5600
+	}
+
+	artisans = {
+		culture = tatar
+		religion = gelugpa
+		size = 16800
 	}
 
 	soldiers = {
@@ -6586,10 +6708,22 @@
 		size = 1125
 	}
 
+	soldiers = {
+		culture = tatar
+		religion = gelugpa
+		size = 3375
+	}
+
 	farmers = {
 		culture = mongol
 		religion = gelugpa
 		size = 101925
+	}
+
+	farmers = {
+		culture = tatar
+		religion = gelugpa
+		size = 305775
 	}
 
 	clergymen = {

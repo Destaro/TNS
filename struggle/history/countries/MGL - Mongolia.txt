@@ -1,6 +1,9 @@
 capital = 1468
-primary_culture = mongol
+primary_culture = tatar
 culture = manchu
+culture = uzbek
+culture = kazak
+culture = mongol
 religion = gelugpa
 government = absolute_monarchy
 plurality = 0.0
@@ -30,7 +33,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = two_year_draft
+conscription = service_by_requirement
 debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
