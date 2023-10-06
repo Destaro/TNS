@@ -5,3 +5,4 @@ add_core = RUT
 trade_goods = timber
 terrain = boreal
 life_rating = 15
+naval_base = 1

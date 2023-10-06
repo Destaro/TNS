@@ -1,6 +1,7 @@
 capital = 334
 primary_culture = norse
 culture = finnish
+culture = norn
 prestige = 100
 religion = protestant
 government = hms_government
