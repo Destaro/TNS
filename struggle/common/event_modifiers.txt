@@ -3305,6 +3305,6 @@ AI_immediate_mobilization_cheat = {
 	icon = 20
 }
 mongolian_cavalry_boost {
-    icon = 4  // choose an appropriate icon index
+    icon = 20
     cavalry_attack = 0.10
 }
