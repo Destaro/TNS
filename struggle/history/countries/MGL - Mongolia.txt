@@ -69,4 +69,7 @@ nonstate_consciousness = 1
 	#Military Reforms
 	foreign_training = yes_foreign_training
 }
-
+add_country_modifier = {
+    name = mongolian_cavalry_boost
+    duration = -1
+}
