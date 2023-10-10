@@ -317,6 +317,8 @@ political_decisions = {
 			capital = 749
 			add_accepted_culture = north_italian
 			add_accepted_culture = south_italian
+			add_accepted_culture = venetian
+			add_accepted_culture = dalmatian
 			random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
 			random_owned = { limit = { owner = { accepted_culture = south_german } } owner = { remove_accepted_culture = south_german } }
 			random_owned = { limit = { owner = { accepted_culture = british } } owner = { remove_accepted_culture = british } }

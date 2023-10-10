@@ -38,6 +38,8 @@ political_decisions = {
 			add_accepted_culture = visigothic
 			add_accepted_culture = suebi 
 			add_accepted_culture = basque
+			add_accepted_culture = venetian
+			add_accepted_culture = dalmatian
 			TLD = { all_core = { add_core = THIS } }
 			VND = { all_core = { add_core = THIS } }
 			LST = { all_core = { add_core = THIS } }
