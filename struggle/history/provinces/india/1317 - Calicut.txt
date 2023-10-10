@@ -1,7 +1,9 @@
-owner = MYS
-controller = MYS
+owner = SRI
+controller = SRI
 add_core = MYS
 add_core = TRA
 trade_goods = fish
 life_rating = 32
 
+
+add_core = SRI

@@ -1,5 +1,7 @@
-owner = MYS
-controller = MYS
+owner = SRI
+controller = SRI
 add_core = MYS
 trade_goods = coffee
 life_rating = 32
+
+add_core = SRI

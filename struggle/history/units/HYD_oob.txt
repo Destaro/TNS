@@ -1,22 +1,22 @@
 army = {
 	name = "Army of the Nizam of Hyderabad"
-	location = 1283
+	location = 1286
 	regiment = {
 		name= "1.Irregular Horse"
 		type = cavalry
-		home = 1283
+		home = 3826
 	}
 
 	regiment = {
 		name= "2.Irregular Horse"
 		type = cavalry
-		home = 1278
+		home = 3833
 	}
 
 	regiment = {
 		name= "3.Irregular Horse"
 		type = cavalry
-		home = 1284
+		home = 3834
 	}
 
 	regiment = {

@@ -1,5 +1,7 @@
-owner = HYD
-controller = HYD
+owner = SRI
+controller = SRI
 add_core = HYD
 trade_goods = cotton
 life_rating = 32
+
+add_core = SRI

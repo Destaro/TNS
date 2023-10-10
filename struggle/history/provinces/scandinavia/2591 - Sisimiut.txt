@@ -1,5 +1,5 @@
-owner = HYD
-controller = HYD
+owner = SRI
+controller = SRI
 add_core = BAS
 add_core = ORI
 add_core = HYD
@@ -11,3 +11,5 @@ life_rating = 32
 	owner = ENG
 	controller = ENG
 }
+
+add_core = SRI

@@ -1,6 +1,8 @@
-owner = BAS
-controller = BAS
+owner = SRI
+controller = SRI
 add_core = BAS
 add_core = ORI
 trade_goods = grain
 life_rating = 32
+
+add_core = SRI

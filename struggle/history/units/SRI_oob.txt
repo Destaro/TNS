@@ -1,0 +1,72 @@
+army = {
+	name = "Army of the Wadiyar of Mysore"
+	location = 1314
+	regiment = {
+		name= "1.Mysore Contingent"
+		type = irregular
+		home = 1314
+	}
+
+	regiment = {
+		name= "2.Mysore Contingent"
+		type = irregular
+		home = 1313
+	}
+
+	regiment = {
+		name= "3.Mysore Contingent"
+		type = irregular
+		home = 1315
+	}
+
+}
+
+army = {
+	name = "Army of the Maharaja of Travancore"
+	location = 1319
+	regiment = {
+		name= "1.Kerala Division"
+		type = irregular
+		home = 1319
+	}
+
+	regiment = {
+		name= "2.Kerala Division"
+		type = irregular
+		home = 1319
+	}
+
+	regiment = {
+		name= "3.Kerala Division"
+		type = irregular
+		home = 1319
+	}
+
+}
+
+army = {
+	name = "Army of the Raja of Bastar"
+	location = 1279
+	regiment = {
+		name= "1.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+	regiment = {
+		name= "2.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+	regiment = {
+		name= "3.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+}
+
+
+
+

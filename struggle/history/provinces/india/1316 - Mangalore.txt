@@ -1,6 +1,7 @@
-owner = MYS
-controller = MYS
+owner = SRI
+controller = SRI
 add_core = MYS
 trade_goods = fruit
 life_rating = 32
 naval_base = 2
+add_core = SRI
