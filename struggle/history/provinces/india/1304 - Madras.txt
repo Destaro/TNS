@@ -1,5 +1,5 @@
-owner = SRI
-controller = SRI
+owner = KRN
+controller = KRN
 trade_goods = fish
 life_rating = 35
 terrain = madras
@@ -7,4 +7,3 @@ fort = 1
 naval_base = 2
 
 add_core = KRN
-add_core = SRI

@@ -1,5 +1,5 @@
-owner = SRI
-controller = SRI
+owner = KRN
+controller = KRN
 add_core = BAS
 add_core = ORI
 add_core = HYD
@@ -12,4 +12,5 @@ life_rating = 32
 	controller = ENG
 }
 
-add_core = SRI
+
+add_core = KRN
