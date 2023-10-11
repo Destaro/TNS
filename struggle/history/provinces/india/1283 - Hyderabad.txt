@@ -1,9 +1,6 @@
-owner = KRN
-controller = KRN
+owner = HYD
+controller = HYD
 add_core = HYD
 trade_goods = precious_goods
 life_rating = 35
 terrain = hyderabad
-
-
-add_core = KRN

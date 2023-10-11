@@ -3304,7 +3304,7 @@ AI_immediate_mobilization_cheat = {
 	land_organisation = 1
 	icon = 20
 }
-mongolian_cavalry_boost {
+mongolian_cavalry_boost = {
     icon = 20
     cavalry_attack = 0.10
 }

@@ -1,8 +1,5 @@
-owner = KRN
-controller = KRN
+owner = HYD
+controller = HYD
 add_core = HYD
 trade_goods = cotton
 life_rating = 32
-
-
-add_core = KRN
