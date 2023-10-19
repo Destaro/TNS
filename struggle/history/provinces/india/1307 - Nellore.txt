@@ -1,5 +1,5 @@
-owner = HYD
-controller = HYD
-add_core = HYD
+owner = KRN
+controller = KRN
+add_core = KRN
 trade_goods = grain
 life_rating = 32

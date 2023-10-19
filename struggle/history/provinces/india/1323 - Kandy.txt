@@ -1,6 +1,6 @@
-owner = SRI
-controller = SRI
-add_core = SRI
+owner = KRN
+controller = KRN
+add_core = KRN
 trade_goods = coffee
 life_rating = 33
 
