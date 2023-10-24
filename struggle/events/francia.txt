@@ -16,7 +16,7 @@ country_event = {
 	option = {
 		name = "EVTOPT9006005A"
 		leave_alliance = FRA
-		FRC = { add_casus_belli = { target = THIS type = make_puppet months = 24 } }
+		THIS = { add_casus_belli = { target = FRC type = make_puppet months = 24 } }
 		ai_chance = { factor = 0.7 }
 	}
 		

@@ -77,6 +77,7 @@ form_ruthenia = {
 	allow = { 
 	    is_greater_power = yes
 		 RUT = { all_core = { owned_by = THIS } }
+		 NOT = { LIT = vassal_of = BUL }
 		 war = no
 		 nationalism_n_imperialism = 1
 		 }

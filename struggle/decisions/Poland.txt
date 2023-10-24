@@ -577,14 +577,17 @@ war = {
 	western_campaing_rut = {
 		picture = become_poland
 		potential = {
+		OR = { 
 			tag = RUT
+			tag = SLA
+			}
 			NOT = { has_country_flag = western_campaing_rut }
 		}
 		allow = {
 			is_greater_power = yes
 			war = no
-			exists = PML
-			
+			exists = PRD
+			neighbour = PRD
 			
 		}
 		
@@ -594,7 +597,7 @@ war = {
 			
 
 war = {
-	target = PML
+	target = PRD
 	attacker_goal = { 
 	casus_belli = conquest_any
 	
@@ -834,7 +837,7 @@ war = {
 			NOT = { has_country_flag = black_sea_campaing_rut }
 		}
 		allow = {
-			year = 1870
+			year = 1850
 			war = no
 			exists = HUN
 			
