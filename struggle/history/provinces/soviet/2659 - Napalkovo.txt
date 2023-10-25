@@ -3,5 +3,5 @@ controller = SIB
 trade_goods = timber
 life_rating = 10
 
-add_core = BLG
+
 add_core = SIB

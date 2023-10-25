@@ -163,11 +163,10 @@ form_ruthenia = {
 		                }
 	
 	allow = { 
-	     
-		 ALN = { all_core = { owned_by = THIS } }
+	    
 		 war = no
-		 
-		 KAZ = { all_core = { owned_by = THIS } }
+		owns = 1181
+		owns = 1036
 		 }
 	
 	effect = {
