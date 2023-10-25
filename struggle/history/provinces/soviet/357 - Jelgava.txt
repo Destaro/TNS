@@ -1,7 +1,7 @@
 owner = LIT
 controller = LIT
 add_core = LIT
-add_core = LAT
+
 add_core = CUR
 
 trade_goods = cattle

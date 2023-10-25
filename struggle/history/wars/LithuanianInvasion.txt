@@ -16,8 +16,9 @@ name = "Bolkanian Invasion Of The Baltics"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = acquire_state
+		casus_belli = acquire_substate_region
 		state_province_id = 997
+		country = LIT
 		actor = SCA
 		receiver = BUL
 	}

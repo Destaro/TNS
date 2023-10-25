@@ -727,7 +727,8 @@
 	tag = SWE
 	        }
 	NOT = { has_country_flag = integrate_finland_and_estonia
-	        has_country_flag = integrate_finland }
+	        has_country_flag = integrate_finland
+            		exists = EST	}
 	      FIN = { vassal_of = THIS }
 		  
 		  }
@@ -761,10 +762,11 @@
 	tag = SCA
 	tag = SWE
 	        }
-	NOT = { has_country_flag = integrate_livonia
-	                                              }
+	NOT = { has_country_flag = integrate_livonia }
+	      OR = {                                         
 	      IZH = { vassal_of = THIS }
 		  LAT = { vassal_of = THIS }
+             }
 		  
 		  }
 		  
@@ -776,7 +778,7 @@
 	nationalism_n_imperialism = 1
 	year = 1855
 	war = no
-	   IZH = { vassal_of = THIS }
+	   
 	   LAT = { vassal_of = THIS }
 	is_greater_power = yes
 	
@@ -849,8 +851,8 @@
 	has_country_flag = integrate_finland_and_estonia 
 	            }
 	has_country_flag = integrate_livonia
-	revolution_n_counterrevolution = 1
-	year = 1880
+	
+	year = 1860
 	war = no
 	   NOV = { vassal_of = THIS }
 	  
@@ -963,8 +965,8 @@ restore_the_baltic = {
 	            }
      
 	 allow = {
-	 war = no
-	 351 = { owned_by = THIS }
+	 
+	 997 = { owned_by = THIS }
 	 
 	 }
 	 
@@ -972,6 +974,7 @@ restore_the_baltic = {
 	 BUL = { release_vassal = LIT }
 	 BUL = { release_vassal = BYE }
 	 SCA = { create_vassal = LAT }
+	 SCA = { create_vassal = CUR }
 	 SCA = { create_vassal = LIT }
 	 
 	  any_owned = {
