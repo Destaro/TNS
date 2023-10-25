@@ -87,15 +87,7 @@ army = {
 		}
 	}
 
-army = {
-	name = "Palembang Garnizoen"
-	location = 1399
-	regiment = {
-		name= "1e Infanterie Brigade"
-		type = infantry
-		home = 375
-		}
-	}	
+
 
 army = {
 	name = "Nederlandse Leger"
