@@ -249,45 +249,45 @@ political_decisions = {
 	
 
 	
-	*von_moltkes_staff_reforms = {
-	*	potential = {
-	*		OR = {
-	*			tag = PRU
-	*			tag = GER
-	*			tag = NGF
-	*		}
-	*		NOT = {
-	*			has_country_flag = von_moltke
-	*		}
-	*	}
-	*	allow = {
-	*		OR = { 
-	*			AND = {
-	*				breech_loaded_rifles = 1
-	*				army_professionalism = 1
-	*			}
-	*			AND = {
-	*				ai = yes
-	*				year = 1858
-	*			}
-	*		}
-	*	}
-	*	effect = {
-	*		add_country_modifier = {
-	*			name = prussian_general_staff
-	*			duration = 5475
-	*		}
-	*		prestige = 5
-	*		set_country_flag = von_moltke
-	*	}
-	*	ai_will_do = {
-	*		factor = 1
-	*		modifier = {
-	*			factor = 0
-	*			NOT = { year = 1850 }
-	*		}
-	*	}
-	*}
+	#von_moltkes_staff_reforms = {
+	#	potential = {
+	#		OR = {
+	#			tag = PRU
+	#			tag = GER
+	#			tag = NGF
+	#		}
+	#		NOT = {
+	#			has_country_flag = von_moltke
+	#		}
+	#	}
+	#	allow = {
+	#		OR = { 
+	#			AND = {
+	#				breech_loaded_rifles = 1
+	#				army_professionalism = 1
+	#			}
+	#			AND = {
+	#				ai = yes
+	#				year = 1858
+	#			}
+	#		}
+	#	}
+	#	effect = {
+	#		add_country_modifier = {
+	#			name = prussian_general_staff
+	#			duration = 5475
+	#		}
+	#		prestige = 5
+	#		set_country_flag = von_moltke
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			factor = 0
+	#			NOT = { year = 1850 }
+	#		}
+	#	}
+	#}
 	
 	the_ruhr_boom = {
 		picture = essen_ruhr
