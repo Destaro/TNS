@@ -1,8 +1,10 @@
-owner = SCA
-controller = SCA
-add_core = HYD
+owner = KRN
+controller = KRN
+
 trade_goods = precious_goods
 life_rating = 32
 colonial = 2
 
 
+
+add_core = KRN

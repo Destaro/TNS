@@ -1,5 +1,7 @@
-owner = BIK
-controller = BIK
+owner = PNJ
+controller = PNJ
 add_core = BIK
 trade_goods = cattle
 life_rating = 32
+
+add_core = PNJ

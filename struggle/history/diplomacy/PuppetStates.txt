@@ -82,13 +82,13 @@ substate = {
 }
 
 #Liechenstein
-vassal = {
-	first = PNJ
-	second = BIK
-	start_date = 1760.1.1
-	end_date = 1936.1.1
-}
-
+#vassal = {
+#	first = PNJ
+#	second = BIK
+#	start_date = 1760.1.1
+#	end_date = 1936.1.1
+#}
+#
 
 #Bahrain - Qatar
 vassal = {

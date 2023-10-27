@@ -1,6 +1,8 @@
-owner = BIK
-controller = BIK
+owner = PNJ
+controller = PNJ
 add_core = BIK
 terrain = semidesert
 trade_goods = wool
 life_rating = 25
+
+add_core = PNJ

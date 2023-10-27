@@ -1,7 +1,9 @@
-owner = SRI
-controller = SRI
-add_core = SRI
+owner = KRN
+controller = KRN
+
 trade_goods = coffee
 life_rating = 33
 
 1861.1.1 = { naval_base = 1 }
+
+add_core = KRN
