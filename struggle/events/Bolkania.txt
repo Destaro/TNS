@@ -24,6 +24,8 @@ country_event = {
 		release_vassal = LIT
 		prestige = 10
 		set_global_flag = western_revolts
+		PRD = { government = prussian_constitutionalism }
+		LIT = { government = absolute_monarchy }
 	PRD = {
                war = {
 	 target = BUL
