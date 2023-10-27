@@ -247,7 +247,7 @@ political_decisions = {
 		 PRD = { is_vassal = no }
        }
         allow = {
-		revolution_n_counterrevolution = 1
+		year = 1860
 		war = no
 		GER = { all_core = { owned_by = THIS } }
 		NOT = {
@@ -279,15 +279,22 @@ political_decisions = {
 	 begin_baltic_integration = {
 	 potential = {
          tag = GER
+		 OR = {
 		 has_country_flag = march_east
-		 NOT = { has_country_flag = begin_baltic_integration}
+		 owns = 3509
+		 
+		 AND = { owns = 701 owns = 692 owns = 3511 }
+		 }
+		 NOT = { 
+		 exists = PRD
+		 has_country_flag = begin_baltic_integration }
       	 }
 	 
 	 allow = {
      war = no
      PRD = { all_core = { owned_by = THIS } }
      is_greater_power = yes
-	 year = 1875
+	 year = 1870
 	 }
 	 
 	 effect = {
@@ -313,9 +320,9 @@ political_decisions = {
             is_vassal = no
         }
         allow = {
+		
 		is_greater_power = yes
-		empiricism = 1
-		functionalism = 1
+		state_n_government = 1
 		war = no
 		WES = { all_core = { owned_by = THIS } }
 		
