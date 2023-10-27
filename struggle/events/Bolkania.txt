@@ -60,6 +60,20 @@ country_event = {
 	   prestige = -15
 	   release_vassal = PRD
 		release_vassal = LIT
+		PRD = { government = prussian_constitutionalism }
+		LIT = { government = absolute_monarchy }
+		any_owned = {
+				limit = {
+					OR = { is_core = EST
+					       is_core = NOV
+						
+					}
+				}
+				remove_core = BUL
+				secede_province = LIT
+				add_core = LIT
+				}
+			}
 		badboy = -5
 		ai_chance = { factor = 50 }
 	   }
