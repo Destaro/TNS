@@ -186,7 +186,8 @@ political_decisions = {
 					tag = KUR	
 					tag = BYE
 					}
-					vassal_of = THIS
+					in_sphere = THIS
+					             
 					NOT = {
 						tag = THIS
 					}
