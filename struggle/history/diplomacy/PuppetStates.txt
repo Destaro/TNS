@@ -338,18 +338,7 @@ substate = {
 
 ### Feher Moğerurusag ###
 
-vassal = {
-	first = KSK
-	second = ANT
-	start_date = 1800.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = KSK
-	second = CLC
-	start_date = 1800.1.1
-	end_date = 1936.1.1
-}
+
 
 ### Songhai Empire ###
 vassal = {

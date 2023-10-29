@@ -1,5 +1,5 @@
-owner = CLC
-controller = CLC
+owner = KSK
+controller = KSK
 
 
 trade_goods = fruit

@@ -1,5 +1,5 @@
-owner = CLC
-controller = CLC
+owner = KSK
+controller = KSK
 
 add_core = CYP
 add_core = GRE
