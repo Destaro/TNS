@@ -1,5 +1,5 @@
-owner = NCH
-controller = NCH
-add_core = NCH
+owner = NKG
+controller = NKG
+add_core = NKG
 trade_goods = grain
 life_rating = 35

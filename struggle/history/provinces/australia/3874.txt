@@ -1,6 +1,6 @@
-owner = SBL
-controller = SBL
-add_core = SBL
+owner = NKG
+controller = NKG
+add_core = NKG
 
 trade_goods = grain
 terrain = dryhills

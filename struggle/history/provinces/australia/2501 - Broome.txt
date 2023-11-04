@@ -1,7 +1,6 @@
-owner = SBL
-controller = SBL
-add_core = SBL
-
+owner = AMA
+controller = AMA
+add_core = AMA
 trade_goods = grain
 terrain = savanna
 life_rating = 20

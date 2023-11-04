@@ -1,6 +1,6 @@
-owner = NKG
-controller = NKG
-add_core = NKG
+owner = AMA
+controller = AMA
+add_core = AMA
 trade_goods = cattle
 life_rating = 35
 naval_base = 1

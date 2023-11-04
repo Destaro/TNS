@@ -81,11 +81,14 @@ RME = "countries/RME.txt"
 MZN = "countries/Mazandaran.txt"
 
 ### TNS Australia ###
+NKG		= "countries/Nankaigan.txt"
+AMA		= "countries/Aoman.txt"
+
+## (retiring these tags)
 HOJ		= "countries/Hoju.txt"
 GSH		= "countries/Goushu.txt"
 SBL		= "countries/Seobli.txt"
-NKG		= "countries/Nankaigan.txt"
-NCH     = "countries/Nichinan.txt"
+NCH		= "countries/Nichinan.txt"
 
 ##HFM New Nations
 #ATB	= "countries/Saxe-Altenburg.txt"

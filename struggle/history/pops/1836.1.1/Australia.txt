@@ -2,43 +2,43 @@
 #Narrm
 2476 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 1525
 	}
 
 	bureaucrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 500
 	}
 
 	officers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 375
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 15000
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 6000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 99825
 	}
@@ -64,31 +64,31 @@
 #Djilang
 3346 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -120,31 +120,31 @@
 #Warnambool
 2477 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -176,31 +176,31 @@
 #Ballarat
 2478 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -232,31 +232,31 @@
 #Bendigo
 3345 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -288,31 +288,31 @@
 #Sale (8000/2000 POPS)
 2479 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -347,25 +347,25 @@
 #Nipaluna
 2482 = {
 	bureaucrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 15675
 	}
@@ -391,19 +391,19 @@
 #Launceston
 3348 = {
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 8675
 	}
@@ -432,31 +432,31 @@
 #Kanny-goopna
 2480 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -488,31 +488,31 @@
 #Bungambrawatha
 3884 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -544,25 +544,25 @@
 #Wagga Wagga
 2473 = {
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 3000
 	}
@@ -588,31 +588,31 @@
 #Griffith
 3272 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 150
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 90
 	}
 	
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 550
 	}
 	
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 1100
 	}
 	
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 11135
 	}
@@ -1012,62 +1012,62 @@
 #Sydney
 2468 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 1525
 	}
 
 	bureaucrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 500
 	}
 
 	officers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 375
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 15000
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 6000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 99825
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = animist
 		size = 25
 	}
 
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = animist
 		size = 175
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = animist
 		size = 2800
 	}
@@ -1075,31 +1075,31 @@
 #Newcastle
 2469 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1131,31 +1131,31 @@
 #Woolyungah
 3357 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1187,31 +1187,31 @@
 #Bathurst
 2471 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1245,31 +1245,31 @@
 #Port Macquarie
 2470 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1295,31 +1295,31 @@
 #Gumbin Gir
 3349 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1345,31 +1345,31 @@
 #Tamworth
 3351 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1395,31 +1395,31 @@
 #Dubbo
 3352 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -1445,31 +1445,31 @@
 #Moree
 2474 = {
 	aristocrats = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = korean_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 25550
 	}
@@ -2307,43 +2307,43 @@
 #Boorloo
 2497 = {
 	aristocrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 1525
 	}
 
 	bureaucrats = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 500
 	}
 
 	officers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 375
 	}
 
 	artisans = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 15000
 	}
 
 	soldiers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 6000
 	}
 
 	farmers = {
-		culture = japanese_australian
+		culture = nankaiganese
 		religion = catholic
 		size = 99825
 	}
