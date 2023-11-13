@@ -1,0 +1,45 @@
+political_decisions = {
+	manifest_destiny_aoman = {
+		potential = {
+			tag = AMA			
+			NOT = {
+				has_country_flag = manifest_destiny
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 2468
+		}
+		
+		effect = {
+			R_TASMANIA = { add_core = THIS }
+			R_EAST_VIC = { add_core = THIS }
+			R_WEST_VIC = { add_core = THIS }
+			R_RURAL_NSW = { add_core = THIS } 
+			R_SOUTH_AUS = { add_core = THIS }
+			R_NEW_ENG = { add_core = THIS } 
+			R_KIM_PIL = { add_core = THIS }
+			R_SOUTH_WA = { add_core = THIS }
+			R_PERTH = { add_core = THIS }
+			R_AURALIA = { add_core = THIS }
+            ENG_2509 = { add_core = THIS }
+            ENG_2513 = { add_core = THIS }
+			set_country_flag = manifest_destiny
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#	claim_old_manchuria = {
+#
+#	}
+#	conquer_old_manchuria = {
+#		
+#	}
+#
+#	return_home_AMA = {
+#
+#	}
+}

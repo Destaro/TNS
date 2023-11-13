@@ -1596,19 +1596,17 @@ ENG_2513 = { 2516 2513 2514 2515 } #South Island -  Te Waipounamu
 
 R_TASMANIA = { 2482 3348 } #Tasmania
 
-R_VICTORIA = { 2476 2477 2478 2479 3345 3346 } #Victoria
+R_EAST_VIC = { 2476 2479 2480 3883 3884 } # Eastern Victoria
 
-R_UPPER_MUR = { 2473 2480 3272 3884 } #Upper Murray Region
+R_WEST_VIC = { 2477 2478 3345 3346 2481 3353 3885 } #Western Victoria
 
-R_LOWER_MUR = { 2481 2493 3353 3885 } #Lower Murray Region
+R_RURAL_NSW = { 2473 2475 3272 3352 } #Rural New South Wales
 
-R_SOUTH_AUS = { 2475 2491 2492 2494 2495 2496 3879 } #South Australia
+R_SOUTH_AUS = { 2493 2491 2492 2494 2495 2496 3879 } #South Australia
 
-R_SYDNEY = { 2468 2469 2471 3357 } #Costal New South Wales around R_SYDNEY
+R_SYDNEY = { 2472 3344 3877 3881 2468 2471 3357 } #Costal New South Wales around Sydney
 
-R_CANBERRA = { 2472 3344 3877 3881 3883 }
-
-R_NEW_ENG = { 2470 2474 3349 3351 3352 } #New England (Australia)
+R_NEW_ENG = { 2469 2470 2474 3349 3351  } #New England (Australia)
 
 R_SOUTH_QLD = { 2483 2484 2485 2486 2489 2490 3358 } #South and Central Queensland
 

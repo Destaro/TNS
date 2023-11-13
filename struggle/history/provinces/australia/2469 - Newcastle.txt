@@ -1,5 +1,5 @@
-owner = NKG
-controller = NKG
-add_core = NKG
+owner = AMA
+controller = AMA
+add_core = AMA
 trade_goods = coal
 life_rating = 35

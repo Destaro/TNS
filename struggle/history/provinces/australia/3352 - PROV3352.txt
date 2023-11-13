@@ -1,5 +1,6 @@
-owner = AMA
-controller = AMA
+owner = NKG
+controller = NKG
+add_core = NKG
 add_core = AMA
 trade_goods = wool
 terrain = plains

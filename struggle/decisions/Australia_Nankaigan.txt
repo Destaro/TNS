@@ -1,0 +1,32 @@
+political_decisions = {
+	manifest_destiny_nankaigan = {
+        potential = {
+			tag = NKG			
+			NOT = {
+				has_country_flag = manifest_destiny
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 2468
+		}
+		
+		effect = {
+            ENG_2505 = { add_core = THIS }
+            R_NEW_ENG = { add_core = THIS  }
+            R_SOUTH_QLD = { add_core = THIS }
+            R_NORTH_QLD = { add_core = THIS }
+            ENG_2509 = { add_core = THIS }
+            ENG_2513 = { add_core = THIS }
+			set_country_flag = manifest_destiny
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#	proclaim_japan_korea_union = {
+#
+#	}
+}
