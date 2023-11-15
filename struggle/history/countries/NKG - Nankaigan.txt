@@ -1,6 +1,5 @@
 capital = 2476
-primary_culture = japanese_australian
-culture = japanese
+primary_culture = nankaiganese
 religion = catholic
 government = democracy
 plurality = 0.57
