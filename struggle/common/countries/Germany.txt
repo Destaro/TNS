@@ -2,6 +2,7 @@ color = { 147 130 110 }
 fascist_dictatorship = { 40 40 40 }
 proletarian_dictatorship = { 225 0 0 }
 democracy = { 232 232 232 }
+lotharingian_duchy = { 174 173 172 }
 graphical_culture = PrussianGC
 
 party = {

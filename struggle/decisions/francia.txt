@@ -236,7 +236,53 @@ reclaim_ocitania = {
  
  
  }
+ ######## LOTHARINGIA QUEST TO UNITE CAROLINGIAN EMPIRE
+  reclaim_burgundy = {
+  potential = {
+		tag = LOT
+         NOT = {
+            has_country_flag = reclaim_burgundy
+		 }
+		 NOT = { ITA = { exists = yes } }
+                      }
+					  
+	    allow = {
+			all_core = { owned_by = THIS }
+		}
+		
+		effect = {
+	    badboy = 7
+		set_country_flag = reclaim_burgundy
+		BRG = { all_core = { add_core = THIS } }
+		NCT = { all_core = { add_core = THIS } }
+		}
  
+ 
+ }
+ the_king_of_italy = {
+	potential = { 
+		tag = LOT
+         NOT = { has_country_flag = king_of_italy }
+		 has_country_flag = reclaim_burgundy
+		 NOT = { ITA = { exists = yes } }
+         }
+					  
+	    allow = {
+			all_core = { owned_by = THIS }
+		}
+		
+		effect = {
+	    badboy = 7
+		set_country_flag = king_of_italy
+		SWI = { all_core = { add_core = THIS } }
+		LOM = { all_core = { add_core = THIS } }
+		TUS = { all_core = { add_core = THIS } }
+		AQU = { all_core = { add_core = THIS } }
+		TST = { all_core = { add_core = THIS } }
+		}
+ 
+ 
+ }	
 
 
  }

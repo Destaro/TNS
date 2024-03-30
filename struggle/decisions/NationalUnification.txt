@@ -743,6 +743,8 @@ unite_francia = {
         potential = {
             NOT = { has_global_flag = francia_reunited }
 				is_culture_group = beneluxian
+			NOT = { tag = LOT }
+			NOT = { tag = GCF }
             }
 
             allow = {
