@@ -1,8 +1,10 @@
 political_decisions = {
 	form_eranshahr = {
 		potential = {
-	
+		OR = {
 		tag = PER
+		tag = KHR 
+		}
 		
 		
 			
@@ -13,6 +15,7 @@ political_decisions = {
 		allow = {
 			war = no
 			KHR = { all_core = { owned_by = THIS } }
+			PER = { all_core = { owned_by = THIS } }
 			TKM = {
 				all_core = {
 					OR = {
@@ -92,6 +95,7 @@ political_decisions = {
 					is_core = BDK
 					is_core = TKM
 					is_core = BUK
+					is_core = PER
 				}
 				add_core = ARY
 			}			
