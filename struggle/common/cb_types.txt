@@ -7266,6 +7266,7 @@ frankia_acquire_state = {
             OR = {
                 primary_culture = frankish
             }
+			ideological_thought = 1
             NOT = {
                 has_country_modifier = neutrality
                 war_policy = pacifism

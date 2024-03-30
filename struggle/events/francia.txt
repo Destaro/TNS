@@ -30,3 +30,183 @@ country_event = {
 		ai_chance = { factor = 0.3 }
 	}
 }
+########LOTHARINGIA QUEST ENDING
+country_event = {
+	id = 9006006
+	title = "EVTNAME9006006" #demandthecoloniesback
+	desc = "EVTDESC9006006"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1		
+	}
+	trigger = {
+		tag = LOT
+		has_country_flag = king_of_italy
+		all_core = { owned_by = THIS }
+		}
+	option = {
+		name = "EVTOPTA9006006"
+		badboy = 40
+		all_core = { add_core = GCF }
+		GER = { all_core = { add_core = GCF } }
+		FRC = { all_core = { add_core = GCF } }
+		change_tag = GCF
+		LOT = { government = lotharingian_duchy }
+	}
+	option = {
+		name = "EVTOPTB9006006"
+		badboy = 20
+		ITA = { all_core = { add_core = THIS } }
+		add_accepted_culture = north_italian
+	}
+	option = {
+		name = "EVTOPTC9006006"
+		badboy = -5
+		}
+}
+country_event = {
+	id = 9006007
+	title = "EVTNAME9006007" #demandthecoloniesback
+	desc = "EVTDESC9006007"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1		
+	}
+	trigger = {
+		tag = GCF
+		OR = { 
+		government = absolute_monarchy
+		government = lotharingian_duchy
+		government = prussian_constitutionalism
+		government = hms_government
+		}
+		all_core = { owned_by = THIS }
+		}
+	option = {
+		name = "EVTOPTA9006007"
+		prestige = 85
+		LOT = { all_core = { remove_core = FRC remove_core = ORL } }
+		576 = { add_province_modifier = { name = baby_boom duration = 3650 } }
+	}
+
+}
+country_event = {
+	id = 9006008
+	title = "EVTNAME9006008" 
+	desc = "EVTDESC9006008"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 1		
+	}
+	trigger = {
+		tag = GCF
+		OR = {
+		AND = {
+		year = 1875
+		month = 5
+		}
+		NOT = {
+		OR = {
+		government = absolute_monarchy
+		government = lotharingian_duchy
+		government = prussian_constitutionalism
+		government = hms_government
+		}
+		}
+		}
+	}
+	option = {
+		name = "EVTOPTA9006008"
+		set_country_flag = holy_collapse_batman
+		prestige = -200
+		all_core = { limit = { is_core = GER } remove_core = THIS secede_province = GER }
+		create_vassal = GER
+		GER = { government = lotharingian_duchy }
+		all_core = { limit = { is_core = ITA } remove_core = THIS add_core = LOM secede_province = LOM }
+		create_vassal = LOM 
+		LOM = { government = lotharingian_duchy }
+		all_core = { limit = { is_core = ORL } remove_core = THIS secede_province = ORL }
+		create_vassal = ORL
+		ORL = { government = lotharingian_duchy }
+		add_country_modifier = { name = no_more_war duration = 365 }
+		}
+	}
+country_event = {
+	id = 9006009
+	title = "EVTNAME9006009" 
+	desc = "EVTDESC9006009"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1		
+	}
+	trigger = {
+		tag = GCF
+		has_country_flag = holy_collapse_batman
+		NOT = { has_country_modifier = no_more_war }
+	}
+	option = {
+		name = "EVTOPTA9006009"
+		prestige = -50
+		set_country_flag = rage_against_dying_light
+		release_vassal = GER
+		war = {
+			target = GER
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = dismantle_cb }
+		}
+		release_vassal = ORL
+		war = {
+			target = ORL
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = dismantle_cb }
+		}
+		release_vassal = LOM
+		war = {
+			target = LOM
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = dismantle_cb }
+		}		
+	}
+	option = {
+		name = "EVTOPTB006009"
+		prestige = -100
+		release_vassal = GER
+		release_vassal = ORL
+		release_vassal = LOM
+		all_core = { remove_core = THIS }
+		change_tag = LOT
+		government = lotharingian_duchy
+		}
+	}
+country_event = {
+	id = 9006010
+	title = "EVTNAME9006010" 
+	desc = "EVTDESC9006010"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 1		
+	}
+	trigger = {
+		tag = GCF
+		has_country_flag = rage_against_dying_light
+		NOT = { has_country_modifier = no_more_war }
+		GER = { exists = no }
+		ORL = { exists = no }
+		FRC = { exists = no }
+		LOM = { exists = no }
+	}
+	option = {
+		name = "EVTOPTA9006009"
+		prestige = 100
+		GER = { all_core = { add_core = THIS } }
+		ORL = { all_core = { add_core = THIS } }
+		LOM = { all_core = { add_core = THIS } }
+	}
+	}

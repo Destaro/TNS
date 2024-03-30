@@ -90,4 +90,115 @@ political_decisions = {
 		             	  
 				}
 		 }
+		  conquest_of_anatolia = {
+	           potential = {
+			   tag = ROM	   
+			   
+			   NOT = { has_country_flag = the_reclamation_of_anatolia }
+			  
+			   }
+	      
+		  allow = {
+		  is_greater_power = yes
+		  ROM = { all_core = { owned_by = THIS } }
+		  860 = { owned_by = THIS }
+				war = no
+				state_n_government = 1
+	      }
+		  
+		  effect = {
+		  set_country_flag = the_reclamation_of_anatolia
+		  
+		  badboy = 10
+		 KSK = { all_core = { add_core = THIS } }
+		 ARM = { all_core = { add_core = THIS } }
+		 GEO = { all_core = { add_core = THIS } }
+		  prestige = 25
+		 
+		             	  
+				}
+		 }
+	crusade_for_levant = {
+		potential = {
+			tag = ROM	   
+			NOT = { has_country_flag = crusade_for_levant }
+			has_country_flag = the_reclamation_of_anatolia  
+			   }
+	    allow = {
+		  is_greater_power = yes
+		  ROM = { all_core = { owned_by = THIS } }
+				war = no
+				nationalism_n_imperialism = 1
+				}
+		effect = {
+		set_country_flag = crusade_for_levant
+		badboy = 10
+		SYR = { all_core = { add_core = THIS } }
+		ISR = { all_core = { add_core = THIS } }
+		LBN = { all_core = { add_core = THIS } }	
+		ASY = { all_core = { add_core = THIS } }
+		prestige = 20
+			}
+		}
+	reconquest_of_danube = {
+		potential = {
+			tag = ROM	   
+			NOT = { has_country_flag = reconquest_of_danube }
+			   }
+	    allow = {
+		  is_greater_power = yes
+		  ROM = { all_core = { owned_by = THIS } }
+				war = no
+				nationalism_n_imperialism = 1
+				}
+		effect = {
+		set_country_flag = reconquest_of_danube
+		badboy = 10
+		DLM = { all_core = { add_core = THIS } }
+		FIU = { all_core = { add_core = THIS } }	
+		SLO = { all_core = { add_core = THIS } }
+		TRE = { all_core = { add_core = THIS } }		
+		prestige = 20
+			}
+		}
+	crusade_for_egypt = {
+		potential = {
+			tag = ROM	   
+			NOT = { has_country_flag = crusade_for_egypt }
+			has_country_flag = crusade_for_levant
+			   }
+	    allow = {
+		  is_greater_power = yes
+		  ROM = { all_core = { owned_by = THIS } }
+				war = no
+				revolution_n_counterrevolution = 1
+				}
+		effect = {
+		set_country_flag = crusade_for_egypt
+		badboy = 10
+		EGY = { all_core = { add_core = THIS } }
+		TRI = { all_core = { add_core = THIS } }			
+		prestige = 20
+			}
+		}
+	crusade_for_mesopotamia = {
+		potential = {
+			tag = ROM	   
+			NOT = { has_country_flag = crusade_for_mesopotamia }
+			has_country_flag = crusade_for_levant  
+			   }
+	    allow = {
+		  is_greater_power = yes
+		  ROM = { all_core = { owned_by = THIS } }
+				war = no
+				nationalism_n_imperialism = 1
+				}
+		effect = {
+		set_country_flag = crusade_for_mesopotamia
+		badboy = 10
+		BNB = { all_core = { add_core = THIS } }
+		BAB = { all_core = { add_core = THIS } }	
+		prestige = 20
+			}
+		}
 	}
