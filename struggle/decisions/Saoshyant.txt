@@ -1,0 +1,58 @@
+political_decisions = {
+	become_saoshyant = {
+		potential = {
+		tag = TTN
+		
+		
+			
+			NOT = {
+				exists = ARY
+			}
+		}
+		allow = {
+			war = no
+			1127 = { owned_by = THIS }
+		}
+		effect = {
+		set_global_flag = the_empire_of_the_iranians
+		set_country_flag = relight_fires
+			prestige = 35
+			any_country = {
+				limit = {
+					OR = {
+						tag = BUK
+						tag = BDK 
+						tag = KHI
+						tag = UZB
+                        tag = TKM 						
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			KHR = { all_core = { add_core = ARY } }
+			KHI = { all_core = { add_core = ARY } }
+			UZB = { all_core = { add_core = ARY } }
+			BDK = { all_core = { add_core = ARY } }
+			TKM = { all_core = { add_core = ARY } }
+			BUK = { all_core = { add_core = ARY } }
+			PER = { all_core = { add_core = ARY } }
+			ARM = { all_core = { add_core = ARY } } 
+			ASY = { all_core = { add_core = ARY } }
+			change_tag = ARY
+			add_accepted_culture = parthian
+			add_accepted_culture = chorasmian
+			add_accepted_culture = aryao
+			add_accepted_culture = uzbek
+			add_accepted_culture = turkmen
+			add_accepted_culture = sogdian
+			civilized = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

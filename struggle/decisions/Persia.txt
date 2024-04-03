@@ -89,6 +89,7 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
+					OR = {
 					is_core = KHR
 					is_core = KHI 
 					is_core = UZB
@@ -96,6 +97,7 @@ political_decisions = {
 					is_core = TKM
 					is_core = BUK
 					is_core = PER
+					}
 				}
 				add_core = ARY
 			}			
@@ -106,6 +108,7 @@ political_decisions = {
 			add_accepted_culture = uzbek
 			add_accepted_culture = turkmen
 			add_accepted_culture = sogdian
+			civilized = yes
 		}
 		ai_will_do = {
 			factor = 1

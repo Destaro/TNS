@@ -1,1 +1,45 @@
+country_event = {
+	id = 9006011
+	title = "EVTNAME9006011" #demandthecoloniesback
+	desc = "EVTDESC9006011"
+	picture = "rosas_urquiza"
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+			
+	}
+	trigger = {
+		tag = ARY
+		has_country_flag = relight_fires
+		}
 
+		
+	option = {
+		name = "EVTOPTA9006011"
+		prestige = 50
+		political_reform = all_trade_unions
+		political_reform = all_voting_pops
+		political_reform = bankruptcy
+		political_reform = confederalism
+		social_reform = trinket_minimum_wage
+		social_reform = eight_hours
+		social_reform = good_safety
+		social_reform = good_subsidies
+		social_reform = good_pensions
+		social_reform = good_health_care
+		social_reform = good_schools
+		social_reform = rehabilitation
+		social_reform = child_labor_illegal
+	}
+	option = {
+		name = "EVTOPTB9006011"
+		prestige = 70
+		any_owned = { limit = { is_core = THIS } add_province_modifier = { name = baby_boom duration = 3650 } }
+		}
+	option = {
+		name = "EVTOPTC9006011"
+		prestige = 70
+		add_country_modifier = { name = the_new_policies duration = 3650 } 
+		}
+	}
+}
