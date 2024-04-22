@@ -781,9 +781,7 @@ country_event = {
 			}
 			reduce_pop = 0.90
 		}
-		ai_chance = {
-			factor = 100
-		}
+		country_event = 300025
 	}
 }
 country_event = {
@@ -1047,4 +1045,257 @@ country_event = {
 		add_accepted_culture = assyrian
 		prestige = 50	
 	}
+}
+country_event = {
+	id = 300023
+	title = "EVTNAME300023" 
+	desc = "EVTDESC300023"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		KSK = { exists = no all_core = { owned_by = BYZ } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Anatolia is Hellene forevermore."
+		prestige = 50	
+		country_event = 300024
+	}
+}
+#RHOMAION ATROCITIES FOLLOWING VICTORY
+country_event = {
+	id = 300024
+	title = "EVTNAME300024" 
+	desc = "EVTDESC300024"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "The Katchuskaya once the master, now the slave."
+		badboy = 10
+		set_country_flag = enslaved_katchuskaya
+		political_reform = yes_slavery
+		all_owned = { limit = { is_core = KSK } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		all_owned = { limit = { is_core = KSK } add_province_modifier = { name = genocide duration = 365 } }			
+		all_core = { remove_core = KSK }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+country_event = {
+	id = 300025
+	title = "EVTNAME300025" 
+	desc = "EVTDESC300025"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "The Latins shall know their place."
+		badboy = 7
+		remove_accepted_culture = aromanian
+		remove_accepted_culture = tosk
+		ROM = { all_core = { add_core = BYZ } }
+		any_owned = { limit = { OR = { is_core = AOM is_core = ROM } } add_province_modifier = { name = french_cultural_unity duration = -1 } }
+		any_owned = { limit = { is_core = ALB } remove_core = ALB add_province_modifier = { name = french_cultural_unity duration = -1 } }
+		all_core = { remove_core = ROM }
+		all_core = { remove_core = AOM }
+		any_pop = { limit = { has_pop_culture = aromanian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.7 }
+		any_pop = { limit = { has_pop_culture = aromanian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
+		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 }
+		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
+		country_event = 300026
+	}
+}
+country_event = {
+	id = 300026
+	title = "EVTNAME300026" 
+	desc = "EVTDESC300026"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "The Western Church is overstepping! Constantinople is supreme!"
+		prestige = -35
+		set_global_flag = greek_schism
+		relation = { who = PAP value = -400 }
+		relation = { who = ITA value = -400 }
+	}
+}
+######## Hellene Democracy ########
+country_event = {
+	id = 300027
+	title = "EVTNAME300027" 
+	desc = "EVTDESC300027"
+	picture = "hagia_sophia"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		date = 1837
+		month = 5
+		has_country_flag = byz_intro4
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "The Senate must be empowered, even to the degree of succession."
+		set_country_flag = senate_empowered
+		political_reform = landed_voting
+		political_reform = state_equal_weight
+		political_reform = gerrymandering
+	}
+	option = {
+		name = "The Senate shall have legislative power, but the emperor remains superior."
+		set_country_flag = senate_middleway
+		political_reform = landed_voting
+		political_reform = state_equal_weight
+		political_reform = gerrymandering
+	}
+	option = {
+		name = "The Senate is, was, and will always be, useless."
+		set_country_flag = senate_disbanded
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = censored_press
+		}
+}
+##### IN THE EVENT OF A MIDDLEWAY SENATE, CREATE REPUBLIC WHEN CIVIL WAR
+country_event = {
+	id = 300028
+	title = "EVTNAME300028" 
+	desc = "EVTDESC300028"
+	picture = "hagia_sophia"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		war = yes
+		has_country_flag = senate_middleway
+		AOM = { exists = yes NOT = { vassal_of = BYZ } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Such is the fate of the indecisive."
+		government = democracy
+		political_reform = wealth_weighted_voting
+		ruling_party_ideology = liberal
+		political_reform = state_equal_weight
+		political_reform = gerrymandering
+		add_country_modifier = { name = reluctant_fighter duration = 365 }
+	}
+}
+country_event = {
+	id = 300029
+	title = "EVTNAME300029" 
+	desc = "EVTDESC300029"
+	picture = "hagia_sophia"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		war = yes
+		has_country_flag = senate_empowered
+		AOM = { exists = yes NOT = { vassal_of = BYZ } }
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = "The Senate and the Basileus unite as one!"
+		add_country_modifier = { name = polish_uprising_mobilization duration = 365 }
+	}
+}
+country_event = {
+	id = 300030
+	title = "EVTNAME300030" 
+	desc = "EVTDESC300030"
+	picture = "hagia_sophia"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		war = yes
+		has_country_flag = senate_disbanded
+		AOM = { exists = yes NOT = { vassal_of = BYZ } }
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = "The Basileius WILL put the uprising down!"
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = liberal value = 0.3 } militancy = 3 }
+		add_country_modifier = { name = disunited_country duration = 365 }
+	}
+}
+#####Byzantine Atrocities - if the slaves are to be freed, the aristocracy demands compensation. 
+country_event = {
+	id = 300031
+	title = "EVTNAME300031" 
+	desc = "EVTDESC300031"
+	picture = "kodjabashi"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+		has_country_flag = enslaved_katchuskaya
+		political_reform = no_slavery
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = "We cannot afford this."
+		political_reform = yes_slavery
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } pop_type = slaves }
+	}
+	option = {
+		name = "Resettle the Kurds forcibly."
+		badboy = 10
+		any_pop = { limit = { has_pop_culture = kurdish } reduce_pop = 0.5 move_pop = 3650 }
+		3650 = { secede_province = KSK add_core = KSK remove_core = BYZ }
+		3650 = { add_province_modifier = { name = the_massacre duration = 6000 } }
+		create_vassal = KSK 
+		}
+	option = {
+		name = "Recompense the slaveholders."
+		treasury = -100000
+		}
+	option = {
+		name = "There shall be no recompense for this evil."
+		prestige = 20
+		any_pop = { limit = { has_pop_culture = greek } militancy = 5 }
+		add_country_modifier = { name = begin_revolution duration = 900 }
+		}
 }
