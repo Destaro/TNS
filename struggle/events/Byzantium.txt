@@ -1299,3 +1299,81 @@ country_event = {
 		add_country_modifier = { name = begin_revolution duration = 900 }
 		}
 }
+country_event = {
+	id = 300032
+	title = "EVTNAME300032" 
+	desc = "EVTDESC300032"
+	picture = "bucharest_fire"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = { tag = FRC tag = ITA tag = SPA }
+		has_country_flag = anti_byzantine_crusade
+		BYZ = { is_disarmed = yes truce_with = THIS } 
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = "The Purple Phoenix Burns Out"
+		prestige = 75
+		BYZ = {
+		TUR_3473 = { add_core = EPI }
+		TUR_853 = { add_core = EPI }
+		TUR_1780 = { add_core = EPI }
+		any_owned = { limit = { is_core = EPI } secede_province = EPI }
+		release = EPI 
+		TUR_806 = { add_core = MCD }
+		TUR_805 = { add_core = MCD }
+		TUR_832 = { add_core = MCD }
+		TUR_823 = { add_core = MCD }
+		TUR_829 = { add_core = MCD }
+		any_owned = { limit = { is_core = MCD } secede_province = MCD }
+		release = MCD
+		TUR_809 = { add_core = MDV }
+		TUR_818 = { add_core = MDV }
+		TUR_674 = { add_core = MDV }
+		TUR_810 = { add_core = MDV }
+		any_owned = { limit = { is_core = MDV } secede_province = MDV }
+		release = MDV
+		MON_2582 = { add_core = BOS }
+		TUR_802 = { add_core = BOS }
+		SER_794 = { add_core = BOS }
+		TUR_803 = { add_core = BOS }
+		any_owned = { limit = { is_core = BOS } secede_province = BOS }
+		release = BOS
+		any_owned = { limit = { is_core = GRE } secede_province = GRE }
+		release = GRE
+		prestige = -2000
+		any_owned = { limit = { is_core = ANT } add_core = PNT secede_province = PNT }
+		release = PNT
+		any_owned = { limit = { is_core = ARM } secede_province = ARM }
+		release = ARM
+		TUR_894 = { add_core = CLC }
+		DUL_3417 = { add_core = CLC }
+		TUR_873 = { add_core = CLC }
+		TUR_876 = { add_core = CLC }
+		TUR_875 = { add_core = CLC }
+		TUR_866 = { add_core = CLC }
+		TUR_869 = { add_core = CLC }
+		any_owned = { limit = { is_core = CLC } secede_province = CLC }
+		release = CLC
+		any_owned = { limit = { is_core = EGY } secede_province = EGY }
+		any_owned = { limit = { is_core = SYR } add_core = ISR secede_province = ISR }
+		any_owned = { limit = { is_core = LBN } add_core = ISR secede_province = ISR }
+		release = ISR
+		}
+		create_vassal = EPI
+		create_vassal = MCD
+		create_vassal = MDV
+		create_vassal = BOS
+		create_vassal = GRE
+		create_vassal = BYZ 
+		create_vassal = CLC
+		create_vassal = PNT
+		create_vassal = ISR
+	}
+}
