@@ -1307,6 +1307,9 @@ ITA_bourgeois_dictatorship_ADJ;Italian;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ITA_proletarian_dictatorship;The People's Republic of Italy;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 ITA_proletarian_dictatorship_ADJ;Italian;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 ITA_lotharingian_duchy;Provincia Italia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+ITA_absolute_monarchy;The Italian Empire;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+ITA_hms_government;The Italian Empire;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+ITA_theocracy;The Kingdom of God;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 IVC;Ivory Coast;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 IVC_ADJ;Ivorian;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 IVC_liberal;Rally of the Republicans;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,

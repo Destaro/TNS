@@ -1,0 +1,95 @@
+country_event = {
+	id = 9006012
+	title = "EVTNAME9006012"
+	desc = "EVTDESC9006012"
+	picture = "Mozart"
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 1
+	}
+	trigger = {
+		tag = VND
+		war = no
+		all_core = { limit = { is_core = OCC } owned_by = THIS }
+	}
+	option = {
+		name = "EVTOPTA9006012" 
+		set_country_flag = vandal_cession_defended
+		prestige = 25
+		OCC = { all_core = { add_core = THIS } }
+	}
+}
+country_event = {
+	id = 9006013
+	title = "EVTNAME9006013"
+	desc = "EVTDESC9006013"
+	picture = "Mozart"
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 1
+	}
+	trigger = {
+		tag = VND
+		war = no
+		NOT = { all_core = { limit = { is_core = OCC } owned_by = THIS } }
+	}
+	option = {
+		name = "EVTOPTA9006012" 
+		set_country_flag = vandal_cession_lost
+		prestige = -25
+		OCC = { all_core = { remove_core = THIS } }
+	}
+}
+country_event = {
+	id = 9006014
+	title = "EVTNAME9006014"
+	desc = "EVTDESC9006014"
+	picture = "Mozart"
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 1
+	}
+	trigger = {
+		tag = VND
+		war = no
+		all_core = { limit = { is_core = SRD } owned_by = THIS } 
+	}
+	option = {
+		name = "EVTOPTA9006014" 
+		set_country_flag = vandal_med_claims
+		prestige = 25
+		SRD = { all_core = { add_core = THIS } }
+		CRS = { all_core = { add_core = THIS } }
+	}
+}
+country_event = {
+	id = 9006015
+	title = "EVTNAME9006015"
+	desc = "EVTDESC9006015"
+	picture = "Mozart"
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 1
+	}
+	trigger = {
+		tag = VND
+		has_country_flag = vandal_cession_defended
+		war = no
+		all_core = { limit = { is_core = OCC } owned_by = THIS }
+		OR = {
+		government = absolute_monarchy
+		government = lotharingian_duchy
+		government = hms_government
+		government = prussian_constitutionalism
+		}
+	}
+	option = {
+		name = "EVTOPTA9006015" 
+		prestige = 50
+		add_accepted_culture = occitan
+		    any_pop = {
+            limit = { has_pop_culture = vandal }
+            ideology = { value = reactionary factor = 0.5 }
+        }
+	}
+}	

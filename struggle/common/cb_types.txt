@@ -7366,6 +7366,10 @@ persia_acquire_state = {
                 is_core = KHR
             }
             any_owned_province = {
+                NOT = { is_core = THIS }
+                is_core = PER
+            }			
+            any_owned_province = {
                 owner = { primary_culture = parthian }
                 NOT = { is_core = PER }
             }

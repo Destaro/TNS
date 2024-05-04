@@ -556,7 +556,7 @@ TUR_855 = { 855 856 857 } #Cyprus
 
 TUR_860 = { 860 858 859 } #Thrace
 
-TUR_860 = { 828 829 830 3691 } #Thrace
+TUR_829 = { 828 829 830 3691 } #Thrace
 
 
 ### Middle East
