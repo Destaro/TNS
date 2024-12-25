@@ -125110,7 +125110,21 @@
 
 }
 
-3522 = {} 
+3522 = {
+    text_position = {
+        x = 2704.080000
+        y = 1774.260000
+    }
+
+    text_rotation = 5.146897
+    text_scale = 4
+    unit = {
+        x = 2711.775000
+        y = 1766.565000
+    }
+
+}
+
 3523 = {
     text_position = {
         x = 2973.200000
@@ -128225,6 +128239,11 @@
 
     text_rotation = 0.675522
     text_scale = 3
+    unit = {
+        x = 2728.066667
+        y = 1764.466667
+    }
+
     building_position = {
         fort = {
             x = 2729.666667

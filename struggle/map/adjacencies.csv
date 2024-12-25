@@ -45,6 +45,8 @@ From;To;Type;Through;Data;Comment
 #
 # European Straits
 #
+3522;3857;land;2737;0;Hebrides to Ayr
+3522;3859;land;2736;0;Hebrides to Highlands
 254;271;sea;2737;0;Irish Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;2711;0;Öresund
