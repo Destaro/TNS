@@ -21,7 +21,6 @@ tag = KSK
 NOT = { has_country_flag = claim_the_armenians }
                }
 allow = { 
-nationalism_n_imperialism = 1
 war = no
  ARM = { all_core = { owned_by = THIS } }
   }
@@ -39,7 +38,6 @@ tag = KSK
 NOT = { has_country_flag = claim_the_asyria }
                }
 allow = { 
-nationalism_n_imperialism = 1
 war = no
  ASY = { all_core = { owned_by = THIS } }
   }
@@ -80,7 +78,6 @@ KSK = { all_core = { owned_by = THIS } }
                }
 			   
 allow = { 
-nationalism_n_imperialism = 1
 war = no
  EGY = { all_core = { owned_by = THIS } }
  LBN = { all_core = { owned_by = THIS } }
