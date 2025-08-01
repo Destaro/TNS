@@ -4,6 +4,48 @@ ULA = {
 	influence_value = 0
 }
 
+WLL = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+NET = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+FRI = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+LOR = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+LOR = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+LUX = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
+FLA = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
 army = {
 	name = "Armej af Frenklant"
 	location = 425

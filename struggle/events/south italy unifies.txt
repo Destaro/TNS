@@ -457,7 +457,7 @@ country_event = {
 					casus_belli = unification_casus_belli 
 					state_province_id = 759}
 			defender_goal = {
-					casus_belli = acquire_state 
+					casus_belli = acquire_any_state 
 					state_province_id = 3594
 				}
 		}
@@ -645,7 +645,7 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		726 = { secede_province = TUN }
+		762 = { secede_province = TUN }
 		any_pop = {
 			limit = {
 				has_pop_culture = south_italian
