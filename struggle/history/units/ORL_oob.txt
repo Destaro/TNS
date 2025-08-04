@@ -91,6 +91,38 @@ army = {
 		home = 439
 	}
 	
+	
+	regiment = {
+		name= "1. Artillerije Divisjen"
+		type = artillery
+		home = 425
+	}
+	
+	regiment = {
+		name= "2. Artillerije Divisjen"
+		type = artillery
+		home = 440
+	}
+	
+	
+}
+
+army = {
+name = "Armej af est"
+	location = 408
+	
+regiment = {
+		name= "1. Artillerije Divisjen"
+		type = artillery
+		home = 429
+	}
+	
+	regiment = {
+		name= "2. Artillerije Divisjen"
+		type = artillery
+		home = 443
+	}
+	
 	regiment = {
 		name= "1. Infanterije Divisjen"
 		type = infantry
@@ -108,30 +140,7 @@ army = {
 		type = infantry
 		home = 406
 	}
-	
-	regiment = {
-		name= "1. Artillerije Divisjen"
-		type = artillery
-		home = 425
-	}
-	
-	regiment = {
-		name= "2. Artillerije Divisjen"
-		type = artillery
-		home = 440
-	}
-	
-	regiment = {
-		name= "1. Artillerije Divisjen"
-		type = artillery
-		home = 429
-	}
-	
-	regiment = {
-		name= "2. Artillerije Divisjen"
-		type = artillery
-		home = 443
-	}
+
 }
 
 army = {

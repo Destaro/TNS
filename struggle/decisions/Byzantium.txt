@@ -206,7 +206,7 @@ political_decisions = {
 		OR = {
 			tag = ITA
 			tag = FRC
-			tag = SPA
+			tag = IBR
 			}
 		has_global_flag = greek_schism
 		NOT = { has_country_flag = anti_byzantine_crusade }

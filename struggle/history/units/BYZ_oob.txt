@@ -282,8 +282,8 @@ navy = {
 }
 
 army = {
-	name = "Army of Wallachia"
-	location = 786
+	name = "Western Garrison"
+	location = 783
 	regiment = {
 		name= "1st Wallachia Infantry"
 		type = infantry

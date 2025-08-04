@@ -3,5 +3,4 @@ controller = TRZ
 add_core = TRZ
 
 trade_goods = fish
-life_rating = 10
-colonial = 2
+life_rating = 10colonial = 2

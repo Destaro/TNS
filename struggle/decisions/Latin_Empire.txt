@@ -2,7 +2,7 @@ political_decisions = {
 	latin_rename_thrace = {
 		picture = gtfo
 		potential = {
-			tag = BYZ
+			tag = ROM
 			owns = 860
 		NOT = { has_global_flag = latin_rename_thrace }
 		}
@@ -13,7 +13,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = latin_rename_thrace
-			prestige = 2
+			
 			860 = { change_province_name = "Constantinopolis"
 			state_scope = {
 					change_region_name = "Eastern Thrace"
@@ -36,7 +36,7 @@ political_decisions = {
 	latin_rename_macedonia = {
 		picture = gtfo
 		potential = {
-			tag = BYZ
+			tag = ROM
 			owns = 805
 			owns = 829
 			NOT = { has_global_flag = latin_rename_macedonia }
@@ -48,7 +48,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = latin_rename_macedonia
-			prestige = 2
+			
 			805 = { change_province_name = "Tessalonika"}
 			3655 = { change_province_name = "Ato" }
 			822 = { change_province_name = "Polighiru"}
@@ -66,7 +66,7 @@ political_decisions = {
 	latin_rename_greece = {
 		picture = gtfo
 		potential = {
-			tag = BYZ
+			tag = ROM
 			owns = 834
 			NOT = { has_global_flag = latin_rename_greece }
 		}
@@ -77,7 +77,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = latin_rename_greece
-			prestige = 2
+			
 			834 = { change_province_name = "Athene"}
 			835 = { change_province_name = "Thebe" }
 			840 = { change_province_name = "Korintu"}
@@ -96,7 +96,7 @@ political_decisions = {
 	latin_rename_albania = {
 		picture = gtfo
 		potential = {
-			tag = BYZ
+			tag = ROM
 			owns = 851
 			NOT = { has_global_flag = latin_rename_albania }
 		}
@@ -107,7 +107,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = latin_rename_albania
-			prestige = 2
+			
 			852 = { change_province_name = "Pukeriopolis"}
 			851 = { change_province_name = "Kroja" }
 			850 = { change_province_name = "Alexio" }
@@ -120,7 +120,7 @@ political_decisions = {
 	latin_rename_rumelia = {
 		picture = gtfo
 		potential = {
-			tag = BYZ
+			tag = ROM
 			owns = 851
 			NOT = { has_global_flag = latin_rename_rumelia }
 		}
@@ -131,7 +131,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = latin_rename_rumelia
-			prestige = 2
+			
 			815 = {
 				change_province_name = "Karsala" 
 				state_scope = {
