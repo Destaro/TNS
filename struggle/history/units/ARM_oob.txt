@@ -1,0 +1,64 @@
+army = {
+	name = "Army of Armenia"
+	location = 1098
+	regiment = {
+		name= "5. Piyade Tümeni"
+		type = cavalry
+		home = 893
+	}
+
+	regiment = {
+		name= "6. Piyade Tümeni"
+		type = cavalry
+		home = 3497
+	}
+
+	regiment = {
+		name= "7. Piyade Tümeni"
+		type = cavalry
+		home = 892
+	}
+
+	regiment = {
+		name= "8. Piyade Tümeni"
+		type = artillery
+		home = 3380
+	}
+
+	regiment = {
+		name= "1. Redif Kars"
+		type = infantry
+		home = 3456
+	}
+
+	regiment = {
+		name= "2. Redif Kars"
+		type = infantry
+		home = 893
+	}
+
+	regiment = {
+		name= "3. Redif Kars"
+		type = infantry
+		home = 887
+	}
+
+	regiment = {
+		name= "1. Redif Trabzon"
+		type = infantry
+		home = 885
+	}
+
+	regiment = {
+		name= "2. Redif Trabzon"
+		type = infantry
+		home = 886
+	}
+
+	regiment = {
+		name= "3. Redif Trabzon"
+		type = infantry
+		home = 893
+	}
+
+}

@@ -88,6 +88,11 @@ set_global_flag = egypt_submitted_to_ottomans
 set_country_flag = muhammad_alis_reforms_enacted
 nationalvalue = nv_tradition
 
+
+
+foreign_training = yes_foreign_training
+land_reform = yes_land_reform 
+army_schools = yes_army_schools
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
 foreign_officers = yes_foreign_officers

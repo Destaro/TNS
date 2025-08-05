@@ -99,36 +99,36 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	greek_rename_rumelia = {
-		picture = gtfo
-		potential = {
-			primary_culture = greek
-			owns = 3484
-			NOT = { has_global_flag = greek_rename_rumelia }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			set_global_flag = greek_rename_rumelia
-			clr_global_flag = bulgaria_rename_rumelia
-			prestige = 2
-			815 = {
-				change_province_name = "Kártzali" 
-				state_scope = {
-					change_region_name = "Northern Thrace"
-				}
-			}
-			816 = { change_province_name = "Beroe" }
-			817 = { change_province_name = "Pyrgos" }
-			809 = { change_province_name = "Serdonpolis" }
-			814 = { change_province_name = "Odessos" }
-			3484 = { change_province_name = "Philippoúpolis" }
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#greek_rename_rumelia = {
+	#	picture = gtfo
+	#	potential = {
+	#		primary_culture = greek
+	#		owns = 3484
+	#		NOT = { has_global_flag = greek_rename_rumelia }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		set_global_flag = greek_rename_rumelia
+	#		clr_global_flag = bulgaria_rename_rumelia
+	#		prestige = 2
+	#		815 = {
+	#			change_province_name = "Kártzali" 
+	#			state_scope = {
+	#				change_region_name = "Northern Thrace"
+	#			}
+	#		}
+	#		816 = { change_province_name = "Beroe" }
+	#		817 = { change_province_name = "Pyrgos" }
+	#		809 = { change_province_name = "Serdonpolis" }
+	#		814 = { change_province_name = "Odessos" }
+	#		3484 = { change_province_name = "Philippoúpolis" }
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
 	turkish_rename_rumelia = {
 		picture = gtfo
@@ -164,66 +164,66 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	greek_rename_epirus = {
-		picture = gtfo
-		potential = {
-			primary_culture = greek
-			OR = { 
-				AND = { 
-					owns = 824
-					NOT = { has_global_flag = greek_rename_epirus_824 }
-				}
-				AND = {
-					owns = 853
-					NOT = { has_global_flag = greek_rename_epirus_853 }
-				}
-				AND = {
-					owns = 852
-					NOT = { has_global_flag = greek_rename_epirus_852 }
-				}
-			}
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			random_owned = {
-				limit = {
-					province_id = 824
-				}
-				824 = { change_province_name = "Ioannina" }
-				set_global_flag = greek_rename_epirus_824
-				clr_global_flag = albanian_rename_epirus_824
-				clr_global_flag = aromanian_rename_epirus_824
-			}
-			random_owned = {
-				limit = {
-					province_id = 853
-				}
-				853 = { change_province_name = "Argyrokastro" }
-				set_global_flag = greek_rename_epirus_853
-				clr_global_flag = albanian_rename_epirus_853
-				clr_global_flag = aromanian_rename_epirus_853
-			}
-			random_owned = {
-				limit = {
-					province_id = 852
-				}
-				852 = { change_province_name = "Antipátreia" }
-				851 = { change_province_name = "Kroaí" }
-				850 = { change_province_name = "Lissós" }
-				3669 = { change_province_name = "Avlónas" }
-				3656 = { change_province_name = "Dyrráchion" }
-				set_global_flag = greek_rename_epirus_852
-				clr_global_flag = albanian_rename_epirus_852
-				clr_global_flag = aromanian_rename_epirus_852
-			}
-			prestige = 2
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#greek_rename_epirus = {
+	#	picture = gtfo
+	#	potential = {
+	#		primary_culture = greek
+	#		OR = { 
+	#			AND = { 
+	#				owns = 824
+	#				NOT = { has_global_flag = greek_rename_epirus_824 }
+	#			}
+	#			AND = {
+	#				owns = 853
+	#				NOT = { has_global_flag = greek_rename_epirus_853 }
+	#			}
+	#			AND = {
+	#				owns = 852
+	#				NOT = { has_global_flag = greek_rename_epirus_852 }
+	#			}
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		random_owned = {
+	#			limit = {
+	#				province_id = 824
+	#			}
+	#			824 = { change_province_name = "Ioannina" }
+	#			set_global_flag = greek_rename_epirus_824
+	#			clr_global_flag = albanian_rename_epirus_824
+	#			clr_global_flag = aromanian_rename_epirus_824
+	#		}
+	#		random_owned = {
+	#			limit = {
+	#				province_id = 853
+	#			}
+	#			853 = { change_province_name = "Argyrokastro" }
+	#			set_global_flag = greek_rename_epirus_853
+	#			clr_global_flag = albanian_rename_epirus_853
+	#			clr_global_flag = aromanian_rename_epirus_853
+	#		}
+	#		random_owned = {
+	#			limit = {
+	#				province_id = 852
+	#			}
+	#			852 = { change_province_name = "Antipátreia" }
+	#			851 = { change_province_name = "Kroaí" }
+	#			850 = { change_province_name = "Lissós" }
+	#			3669 = { change_province_name = "Avlónas" }
+	#			3656 = { change_province_name = "Dyrráchion" }
+	#			set_global_flag = greek_rename_epirus_852
+	#			clr_global_flag = albanian_rename_epirus_852
+	#			clr_global_flag = aromanian_rename_epirus_852
+	#		}
+	#		prestige = 2
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
 	aromanian_rename_epirus = {
 		picture = gtfo

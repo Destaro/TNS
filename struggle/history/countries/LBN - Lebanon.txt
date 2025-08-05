@@ -86,3 +86,4 @@ precision_work = yes
 
 set_country_flag = catholic_country
 
+oob = "LBN_oob.txt"

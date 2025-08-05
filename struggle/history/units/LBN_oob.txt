@@ -1,0 +1,40 @@
+army = {
+	name = "Army of Arabia"
+	location = 896
+	regiment = {
+		name= "12. Piyade Tümeni"
+		type = infantry
+		home = 898
+	}
+
+	regiment = {
+		name= "13. Piyade Tümeni"
+		type = infantry
+		home = 899
+	}
+
+	regiment = {
+		name= "14. Piyade Tümeni"
+		type = infantry
+		home = 897
+	}
+
+	regiment = {
+		name= "1. Redif Halab"
+		type = irregular
+		home = 898
+	}
+
+	regiment = {
+		name= "2. Redif Halab"
+		type = irregular
+		home = 3276
+	}
+
+	regiment = {
+		name= "3. Redif Halab"
+		type = irregular
+		home = 3276
+	}
+
+}

@@ -204,9 +204,97 @@ army = {
 	
 }
 
+army = {
+	name = "Army of Arabia"
+	location = 894
+	regiment = {
+		name= "12. Piyade Tümeni"
+		type = infantry
+		home = 3485
+	}
 
+	regiment = {
+		name= "13. Piyade Tümeni"
+		type = infantry
+		home = 880
+	}
 
+	regiment = {
+		name= "14. Piyade Tümeni"
+		type = infantry
+		home = 875
+	}
 
+	regiment = {
+		name= "1. Redif Halab"
+		type = cavalry
+		home = 3498
+	}
+
+	regiment = {
+		name= "2. Redif Halab"
+		type = cavalry
+		home = 883
+	}
+
+	regiment = {
+		name= "3. Redif Halab"
+		type = cavalry
+		home = 882
+	}
+
+}
+
+navy = {
+	name = "The Yamagate Navy"
+	location = 861
+	ship = {
+		name= "Masudiya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadd al Bahri"
+		type = manowar
+	}
+	
+
+	ship = {
+		name= "Iskenderiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Badere i Zaffar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mahubey Subham"
+		type = frigate
+	}
+
+	ship = {
+		name= "Metelin"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
 
 
 
