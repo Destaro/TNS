@@ -66,6 +66,26 @@ From;To;Type;Through;Data;Comment
 843;869;sea;2772;0;Izmir Strait
 859;865;sea;2773;0;Dardanelles Strait
 860;861;land;2773;0;Golden Horn
+825;3492;sea;2772;0;Aegean island
+3488;666;land;3359;0;wallachia
+812;666;land;3359;0;wallachia
+810;666;land;3359;0;wallachia
+810;665;land;3359;0;wallachia
+3487;664;land;3359;0;wallachia
+811;664;land;3359;0;wallachia
+811;669;land;3359;0;wallachia
+818;669;land;3359;0;wallachia
+3493;669;land;3359;0;wallachia
+675;668;land;3355;0;wallachia
+675;678;land;3355;0;bulgaria to hungary
+675;673;land;3355;0;bulgaria to hungary
+810;653;land;3360;0;hungary
+795;653;land;3360;0;hungary
+795;792;land;3360;0;hungary
+791;792;land;3360;0;hungary
+791;2538;land;3360;0;hungary
+793;2538;land;3360;0;hungary
+793;779;land;3360;0;hungary
 759;763;sea;2760;0;Strait of Messina
 759;763;sea;2757;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
@@ -249,3 +269,4 @@ From;To;Type;Through;Data;Comment
 2773;2774;canal;860;4;Bosphorus Strait
 2772;2773;canal;859;5;Dardanelles Strait
 #2724;2723;canal;301;6;English Channel
+

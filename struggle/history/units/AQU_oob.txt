@@ -4,6 +4,12 @@ TUN = {
 	influence_value = 0
 }
 
+DLM = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
 leader = {
 	name = "un veneciano pue"
 	date = 1831.1.1

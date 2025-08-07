@@ -6,6 +6,12 @@ PER = {
 	influence_value = 0
 }
 
+BYZ = {	
+	value = -200
+	level = 0
+	influence_value = 0
+}
+
 QNG ={
 	level = 0
 }
