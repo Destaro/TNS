@@ -3308,3 +3308,10 @@ mongolian_cavalry_boost = {
     icon = 20
     cavalry_attack = 0.10
 }
+reluctant_fighter = {
+	land_organisation = -0.2
+	org_regain - -0.2
+	mobilisation_size = -0.1
+	prestige = -0.7
+	icon = 8
+}
