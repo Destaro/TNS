@@ -181,7 +181,6 @@ MKN		="countries/Mukriyan.txt"
 BHT		="countries/Bohtan.txt"
 SRN		="countries/Soran.txt"
 LBG		="countries/Limburg.txt"
-PNB		="countries/Pernambuco.txt"
 FIU		="countries/Fiume.txt"
 SYC		="countries/Sicily.txt"
 MDV		="countries/Moldova.txt"
@@ -205,7 +204,6 @@ MGH		="countries/Maghreb.txt"
 
 #Latin America
 
-BAH		= "countries/Bahia.txt"
 CHP		= "countries/Chiapas.txt"
 CEQ		= "countries/Equador Confederation.txt"
 ENT		= "countries/Entre Rios.txt"
@@ -237,7 +235,7 @@ TTB		= "countries/Trinidad.txt"
 UIL		= "countries/Illinois.txt"
 UNB		= "countries/Nebraska.txt"
 UNM		= "countries/New Mexico.txt"
-UOR		= "countries/Oregon.txt"
+
 
 #Europe
 ALS		= "countries/Elsass.txt"

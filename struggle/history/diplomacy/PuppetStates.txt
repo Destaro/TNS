@@ -48,30 +48,30 @@ substate = {
 
 
 #Alan Puppets
-substate = {
-	first = ALN
-	second = ABK
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-substate = {
-	first = ALN
-	second = CIR
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-substate = {
-	first = ALN
-	second = SVA
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-substate = {
-	first = ALN
-	second = CHY
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
+#substate = {
+#	first = ALN
+#	second = ABK
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
+#substate = {
+#	first = ALN
+#	second = CIR
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
+#substate = {
+#	first = ALN
+#	second = SVA
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
+#substate = {
+#	first = ALN
+#	second = CHY
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
 
 #Mittelafrika
 substate = {
@@ -186,12 +186,12 @@ vassal = {
 ##########################China
 
 #China - Tannu Tuva
-vassal = {
-	first = MGL
-	second = TNT
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
+#vassal = {
+#	first = MGL
+#	second = TNT
+#	start_date = 1836.1.1
+#	end_date = 1937.1.1
+#}
 
 #Ming/Lanfang
 #vassal = {

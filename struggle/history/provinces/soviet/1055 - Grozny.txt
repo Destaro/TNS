@@ -1,5 +1,5 @@
-owner = CHY
-controller = CHY
+owner = ALN
+controller = ALN
 add_core = CHY
 add_core = ALN
 trade_goods = grain

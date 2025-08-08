@@ -1,6 +1,8 @@
-owner = BRY
-controller = BRY
+owner = MGL
+controller = MGL
 add_core = BRY
 trade_goods = coal
 life_rating = 35
 
+
+add_core = MGL

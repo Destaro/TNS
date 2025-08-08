@@ -1,7 +1,7 @@
 owner = KRT
 controller = KRT
 
-add_core = BAH
+
 trade_goods = coffee
 terrain = dryhills
 life_rating = 35
