@@ -6,8 +6,6 @@ REB 	= 	"countries/rebels.txt"
 ### NEW NATIONS MOD ###
 
 ###France Mod###
-NZF		="countries/French New Zealand.txt"
-FAS		="countries/French Australia.txt"
 FCA		="countries/French Canada.txt"
 ULA		="countries/Louisiana.txt"
 EIC		="countries/East India Company.txt"
@@ -223,7 +221,6 @@ YUC		= "countries/Yucatan.txt"
 #North America
 BLZ		= "countries/Belize.txt"
 DAK		= "countries/Dakota.txt"
-FSA		= "countries/Free States of America.txt"
 GRN		= "countries/Greenland.txt"
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"
@@ -232,8 +229,6 @@ PRI		= "countries/Puerto Rico.txt"
 RPL		= "countries/Rupert's Land.txt"
 #TRS	= "countries/Tarasco.txt"
 TTB		= "countries/Trinidad.txt"
-UIL		= "countries/Illinois.txt"
-UNB		= "countries/Nebraska.txt"
 UNM		= "countries/New Mexico.txt"
 
 

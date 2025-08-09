@@ -42,4 +42,3 @@ country_event = {
 		add_country_modifier = { name = the_new_policies duration = 3650 } 
 		}
 	}
-}

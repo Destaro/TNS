@@ -1,4 +1,4 @@
-add_core = RPL
+
 trade_goods = timber
 terrain = new_world_boreal
 life_rating = 15
@@ -6,6 +6,6 @@ colonial = 1
 1861.1.1 = {
 	owner = VIN
 	controller = VIN
-	add_core = RPL
+	
 	colonial = 2
 }

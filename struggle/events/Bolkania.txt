@@ -79,7 +79,7 @@ country_event = {
 		badboy = -5
 		ai_chance = { factor = 50 }
 	   }
-}
+
 
 
 #easternrevolt

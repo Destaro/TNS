@@ -1251,7 +1251,7 @@ country_event = {
 
 	option = {
 		name = "The Basileius WILL put the uprising down!"
-		any_pop = { limit = { has_pop_culture = greek } ideology = { value = liberal_value = 0.3 } militancy = 3 }
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = liberal factor = 0.3 } militancy = 3 }
 		add_country_modifier = { name = disunited_country duration = 365 }
 	}
 }
