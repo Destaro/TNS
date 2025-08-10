@@ -1,6 +1,7 @@
 capital = 2228
-primary_culture = french
-culture = afro_antillean
+primary_culture = afro_frankish
+culture = afro_caribeno
+culture = caribeno
 religion = catholic
 government = democracy
 plurality = 0.0
