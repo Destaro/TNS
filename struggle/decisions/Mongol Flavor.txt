@@ -49,19 +49,6 @@ effect = {
 
 }
 
-#annex_the_tuvans = {
-#potential = {
-#tag = MGL
-#NOT = { has_country_flag = annex_the_tuvans }
-#TNT = { vassal_of = THIS }
-#}
-#allow = { prestige = 10 }
-#
-#effect = { set_country_flag = annex_the_tuvans
-#          inherit = TNT
-#		   TNT = { all_core = { add_core = THIS } }
-# 		   }
-#}
 
 centralize_kyrgistan_by_kyrgistan = {
 potential = {
@@ -95,9 +82,9 @@ NOT = { has_country_flag = core_the_yakuts }
 allow = {  
 YAK = { all_core = { owned_by = THIS } }
            prestige = 50
-		   
-		   
 		   }
+		   
+		   
 
 effect = { 
            add_accepted_culture = yakut

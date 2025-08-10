@@ -8,7 +8,7 @@ life_rating = 35
 owner = USA
 controller = USA
 add_core = USA
-remove_core = UNB
+
 }
 
 add_core = MEX

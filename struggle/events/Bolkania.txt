@@ -80,7 +80,7 @@ country_event = {
 		ai_chance = { factor = 50 }
 	   }
 
-}
+
 
 #easternrevolt
 country_event = {
