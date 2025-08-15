@@ -9,6 +9,7 @@ political_decisions = {
 			NOT = { has_global_flag = build_the_northern_railway }
 		}
 		allow = {
+		experimental_railroad = 1
 			money = 10000
 			owns = 625
 		}
