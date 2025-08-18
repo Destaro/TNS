@@ -1,7 +1,7 @@
 owner = KRT
 controller = KRT
 add_core = KRT
-add_core = PNB
+
 trade_goods = cotton
 terrain = savanna
 life_rating = 35

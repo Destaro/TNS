@@ -1,7 +1,8 @@
-owner = IRQ
-controller = IRQ
-add_core = IRQ
+owner = LBN
+controller = LBN
+add_core = LBN
 add_core = ASY
+add_core = KSK
 trade_goods = sulphur
 life_rating = 10
 terrain = desert

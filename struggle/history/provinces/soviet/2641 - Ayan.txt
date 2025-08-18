@@ -1,5 +1,7 @@
-owner = YAK
-controller = YAK
+owner = MGL
+controller = MGL
 add_core = YAK
 trade_goods = grain
 life_rating = 20
+
+add_core = MGL

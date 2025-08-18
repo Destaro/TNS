@@ -34,6 +34,23 @@ From;To;Type;Through;Data;Comment
 147;148;land;3284;0;Mississippi-Straits
 139;140;land;3282;0;Mississippi-Delta
 58;66;land;3286;0;Stlaurence Strait
+193;3337;land;3283;0;Lousiana
+193;142;land;3283;0;Lousiana
+192;142;land;3283;0;Lousiana
+192;141;land;3283;0;Lousiana
+140;141;land;3283;0;Lousiana
+140;139;land;3283;0;Lousiana
+193;143;land;3283;0;Lousiana
+189;143;land;3283;0;Lousiana
+189;145;land;3283;0;Lousiana
+187;147;land;3284;0;Lousiana
+148;147;land;3284;0;Lousiana
+168;146;land;3285;0;Lousiana
+168;150;land;3284;0;Lousiana
+168;166;land;3285;0;Lousiana
+164;166;land;3285;0;Lousiana
+164;163;land;3285;0;Lousiana
+167;163;land;3285;0;Lousiana
 
 #
 # African Straits
@@ -77,6 +94,11 @@ From;To;Type;Through;Data;Comment
 818;669;land;3359;0;wallachia
 3493;669;land;3359;0;wallachia
 675;668;land;3355;0;wallachia
+779;777;land;3361;0;wallachia
+640;776;land;3361;0;wallachia
+640;776;land;3361;0;wallachia
+3468;775;land;3361;0;wallachia
+3468;776;land;3361;0;wallachia
 675;678;land;3355;0;bulgaria to hungary
 675;673;land;3355;0;bulgaria to hungary
 810;653;land;3360;0;hungary

@@ -1,0 +1,89 @@
+BUK = {
+	value = 50
+}
+
+leader = {
+	name = "Zartosht Shah"
+	date = 1834.1.1
+	type = land
+	personality = charismatic
+	background = pawn
+}
+
+leader = {
+	name = "Anushirvan Ghobad"
+	date = 1836.1.1
+	type = land
+	personality = romantic 
+	background = incompetent
+}
+
+leader = {
+	name = "Goshtasb Khudayar"
+	date = 1835.6.1
+	type = land
+	personality = deeply_religious 
+	background = politician
+}
+
+army = {
+	name = "The Royal Army"
+	location = 3403 #Tehran
+	regiment = {
+		name= "Royal Guard"
+		type = guard
+		home = 1214
+	}
+
+	regiment = {
+		name= "1. Zamburak"
+		type = artillery
+		home = 2640
+	}
+
+	regiment = {
+		name= "1. Nezam-Atlin"
+		type = cavalry
+		home = 3398
+	}
+	regiment = {
+		name= "2. Nezam-Atlin"
+		type = cavalry
+		home = 1222
+	}
+
+	regiment = {
+		name= "5. Nezam"
+		type = irregular
+		home = 3426
+	}
+
+	regiment = {
+		name= "6. Nezam"
+		type = irregular
+		home = 3432
+	}
+	regiment = {
+		name= "1. Nezam"
+		type = infantry
+		home = 3411
+	}
+
+	regiment = {
+		name= "2. Nezam"
+		type = infantry
+		home = 3382
+	}
+	
+	regiment = {
+		name= "3. Nezam"
+		type = infantry
+		home = 1145
+	}
+
+	regiment = {
+		name= "4. Nezam"
+		type = infantry
+		home = 3405
+	}
+}

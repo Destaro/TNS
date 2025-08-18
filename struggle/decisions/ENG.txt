@@ -73,7 +73,7 @@ political_decisions = {
 				capital_scope = { continent = south_west_africa }
 			}
 			NOT = { has_country_flag = post_colonial_country }
-			primary_culture = british
+			
 			civilized = yes
 			revolution_n_counterrevolution = 1
 		}
@@ -116,7 +116,7 @@ political_decisions = {
 	
 	rhodesia_charter = {
 		potential = {
-			tag = ENG
+			tag = SCA
 			owns = 2068
 			owns = 2069
 			owns = 2070
@@ -408,6 +408,7 @@ political_decisions = {
 			tag = ENG
 			tag = ENL
 			tag = CEL
+			
 			}
 			year = 1844
 			NOT = { has_country_flag = big_ben_construction }		
@@ -798,153 +799,9 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	cede_aden = {
-		picture = aden_protectorate
-		alert = no
-		
-		potential = {
-			has_global_flag = created_aden_protectorate
-			OR = {
-				owns = 1412
-				1412 = { owner = { OR = { vassal_of = THIS AND = { in_sphere = THIS is_vassal = no ai = yes } } } }
-			}
-			NOT = { tag = YEM }
-			NOT = { tag = NYE }
-			YEM = { exists = yes NOT = { owns = 1412 } }
-			OR = {
-				AND = { tag = HDJ ai = yes is_vassal = no }
-				great_wars_enabled = yes
-			}
-		}
-		
-		
-		allow = {
-			war = no
-			OR = {
-				owns = 1412
-				1412 = {
-					owner = {
-						OR = {
-							vassal_of = THIS
-							AND = { in_sphere = THIS is_vassal = no } 
-						} 
-					}
-				}
-			}
-			1412 = { any_neighbor_province = { owned_by = YEM } }
-			OR = {
-				YEM = { OR = { is_vassal = no vassal_of = THIS } }
-				ai = yes
-			}
-		}
-		
-		effect = {
-			badboy = -2
-			1412 = { remove_core = THIS }
-			
-			random_country = { limit = { owns = 1412 num_of_cities = 2 }
-				1412 = { secede_province = THIS }
-			}
-			
-			random_owned = { limit = { province_id = 1412 }
-				1412 = { secede_province = YEM add_core = YEM remove_core = THIS remove_core = MHR }
-			}
-			
-			random_country = { limit = { owns = 1412 NOT = { num_of_cities = 2 } }
-				1412 = { add_core = YEM remove_core = THIS remove_core = MHR }
-				annex_to = YEM
-			}
-			
-			random_owned = { limit = { owner = { is_greater_power = yes } } owner = { diplomatic_influence = { who = YEM value = 100 } } }
-			relation = { who = YEM value = 100 }
-			random_country = { limit = { tag = YEM NOT = { capital = 1178 } } capital = 1412 } 
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				1412 = { any_neighbor_province = { owned_by = THIS } }
-			}
-			
-			modifier = {
-				factor = 0
-				owns = 1412
-			}
-		}
-	}
+	
 
-	christimas_and_cocos_adminstration = {
-		picture = dreams_of_empire
-		
-		potential = {
-			owns = 2244
-			OR = {
-				tag = AST
-				tag = FAS
-				AND = {
-					owns = 2476
-					owns = 2468
-					owns = 2487
-					owns = 2493
-					owns = 2497
-					owns = 2505
-				}
-				AST = { vassal_of = THIS }
-				FAS = { vassal_of = THIS }
-			}
-			OR = { 
-				AND = {
-					OR = { FRA = { has_country_flag = australia_organized } BOR = { has_country_flag = australia_organized } }
-					2244 = { NOT = { is_core = FAS } }
-				}
-				AND = { 
-					OR = { 
-						primary_culture = british
-						primary_culture = australian
-					}
-					2244 = { NOT = { is_core = AST } }
-				}
-			}
-		}
-		
-		allow = {
-			war = no
-			state_n_government = 1
-		}
-		
-		effect = {
-			random_owned = {
-				limit = {
-					owner = {
-						OR = {
-							is_culture_group = british
-							primary_culture = australian
-							primary_culture = anglo_canadian
-						}
-					}
-				}
-				2244 = { add_core = AST }
-				random_country = { limit = { tag = AST exists = yes } 2244 = { secede_province = AST } }
-			}
-			
-			random_owned = {
-				limit = {
-					owner = {
-						OR = {
-							primary_culture = french_australian
-							primary_culture = neo_zelandais
-							is_culture_group = french
-						}
-					}
-				}
-				2244 = { add_core = FAS }
-				random_country = { limit = { tag = FAS exists = yes } 2244 = { secede_province = FAS } }
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+	
 	
 	
 	the_foster_act = {

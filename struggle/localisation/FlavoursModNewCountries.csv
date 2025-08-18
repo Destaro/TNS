@@ -68,8 +68,8 @@ ZAM_colonial_company;Northern Rhodesia;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;
 #AFG_prussian_constitutionalism;The Kingdom of Afghanistan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;,
 #AFG_hms_government;The Kingdom of Afghanistan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;,
 ITA_theocracy;The Papal Kingdom;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;,
-MTQ_ADJ;Martiniquan;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-MTQ;Martinique;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+MTQ_ADJ;Caribbean;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+MTQ;Caribbean Federation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 SGP_dominion;The Straits Settlement;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 SGP_colonial_company;The Straits Settlement;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;
 SGP_ADJ;Singaporean;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,

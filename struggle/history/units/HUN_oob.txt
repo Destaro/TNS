@@ -1,16 +1,16 @@
 army = {
-	name = "6-i Armeiskii Korpus" #Crimean Army
+	name = "Hungarian Army" #Crimean Army
 	location = 964
 	regiment = {
 		name= "6.1-ya Pekhotnaya Diviziya"
 		type = infantry
-		home = 969
+		home = 979
 	}
 
 	regiment = {
 		name= "6.2-ya Pekhotnaya Diviziya"
 		type = infantry
-		home = 969
+		home = 980
 	}
 
 	regiment = {
@@ -22,37 +22,37 @@ army = {
 	regiment = {
 		name= "6.4-ya Pekhotnaya Diviziya"
 		type = infantry
-		home = 968
+		home = 964
 	}
 
 	regiment = {
 		name= "6.5-ya Pekhotnaya Diviziya"
 		type = infantry
-		home = 978
+		home = 966
 	}
 
 	regiment = {
-		name= "6.1-ya Pekhotnaya Diviziya"
+		name= "cavalry 3"
 		type = cavalry
 		home = 978
 	}
 
 	regiment = {
-		name= "6.2-ya Kavalerijskaya Diviziya"
-		type = cavalry
-		home = 978
-	}
-	
-	regiment = {
-		name= "6.3-ya Kavalerijskaya Diviziya"
+		name= "cavalry 4"
 		type = cavalry
 		home = 979
 	}
 	
 	regiment = {
-		name= "6.4-ya Kavalerijskaya Diviziya"
+		name= "cavalry 1"
 		type = cavalry
-		home = 964
+		home = 980
+	}
+	
+	regiment = {
+		name= "cavalry 2"
+		type = cavalry
+		home = 967
 	}
 
 }
@@ -72,6 +72,7 @@ navy = {
 		name= "Tri Svyatitelei"
 		type = manowar
 	}
+	
 	ship = {
 		name= "Tri Svyatitelei"
 		type = frigate

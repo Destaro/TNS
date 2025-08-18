@@ -9,7 +9,19 @@ army = {
 	regiment = {
 		name= "2. Brigade"
 		type = irregular
-		home = 1166
+		home = 1170
+	}
+	
+	regiment = {
+		name= "3. Brigade"
+		type = irregular
+		home = 1175
+	}
+	
+	regiment = {
+		name= "4. Brigade"
+		type = irregular
+		home = 1174
 	}
 }
 

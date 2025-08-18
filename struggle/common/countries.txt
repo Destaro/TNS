@@ -6,8 +6,6 @@ REB 	= 	"countries/rebels.txt"
 ### NEW NATIONS MOD ###
 
 ###France Mod###
-NZF		="countries/French New Zealand.txt"
-FAS		="countries/French Australia.txt"
 FCA		="countries/French Canada.txt"
 ULA		="countries/Louisiana.txt"
 EIC		="countries/East India Company.txt"
@@ -181,7 +179,6 @@ MKN		="countries/Mukriyan.txt"
 BHT		="countries/Bohtan.txt"
 SRN		="countries/Soran.txt"
 LBG		="countries/Limburg.txt"
-PNB		="countries/Pernambuco.txt"
 FIU		="countries/Fiume.txt"
 SYC		="countries/Sicily.txt"
 MDV		="countries/Moldova.txt"
@@ -205,7 +202,6 @@ MGH		="countries/Maghreb.txt"
 
 #Latin America
 
-BAH		= "countries/Bahia.txt"
 CHP		= "countries/Chiapas.txt"
 CEQ		= "countries/Equador Confederation.txt"
 ENT		= "countries/Entre Rios.txt"
@@ -225,7 +221,6 @@ YUC		= "countries/Yucatan.txt"
 #North America
 BLZ		= "countries/Belize.txt"
 DAK		= "countries/Dakota.txt"
-FSA		= "countries/Free States of America.txt"
 GRN		= "countries/Greenland.txt"
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"
@@ -234,10 +229,8 @@ PRI		= "countries/Puerto Rico.txt"
 RPL		= "countries/Rupert's Land.txt"
 #TRS	= "countries/Tarasco.txt"
 TTB		= "countries/Trinidad.txt"
-UIL		= "countries/Illinois.txt"
-UNB		= "countries/Nebraska.txt"
 UNM		= "countries/New Mexico.txt"
-UOR		= "countries/Oregon.txt"
+
 
 #Europe
 ALS		= "countries/Elsass.txt"

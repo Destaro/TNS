@@ -21,6 +21,8 @@ tag = KSK
 NOT = { has_country_flag = claim_the_armenians }
                }
 allow = { 
+nationalism_n_imperialism = 1
+is_greater_power = yes
 war = no
  ARM = { all_core = { owned_by = THIS } }
   }
@@ -38,6 +40,7 @@ tag = KSK
 NOT = { has_country_flag = claim_the_asyria }
                }
 allow = { 
+state_n_government = 1
 war = no
  ASY = { all_core = { owned_by = THIS } }
   }
@@ -56,9 +59,12 @@ NOT = { has_country_flag = reclaim_the_egypt }
                }
 			   
 allow = { 
+is_greater_power = yes
+nationalism_n_imperialism = 1
 war = no
  LBN = { all_core = { owned_by = THIS } }
  KSK = { all_core = { owned_by = THIS } }
+ SYR = { all_core = { owned_by = THIS } }
   }
   
 effect = {
@@ -74,6 +80,9 @@ tag = KSK
 NOT = { has_country_flag = the_end_of_the_romans}
 has_country_flag = reclaim_the_egypt
 has_country_flag = reclaim_the_levant
+owns = 1745
+owns = 902
+owns = 1098
 KSK = { all_core = { owned_by = THIS } }
                }
 			   
@@ -82,12 +91,15 @@ war = no
  EGY = { all_core = { owned_by = THIS } }
  LBN = { all_core = { owned_by = THIS } }
  owns = 860
+ owns = 834
+ owns = 852
+ owns = 807
   }
   
 effect = {
 set_country_flag = the_end_of_the_romans
 prestige = 20
-badboy = 10
+badboy = 15
 BYZ = { all_core = { add_core = THIS } }
  }
 }

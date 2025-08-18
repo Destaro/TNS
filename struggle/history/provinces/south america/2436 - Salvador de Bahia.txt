@@ -1,7 +1,7 @@
 owner = KRT
 controller = KRT
 
-add_core = BAH
+
 trade_goods = tobacco
 life_rating = 35
 

@@ -1131,59 +1131,61 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	silesia_rename_czech = {
-		picture = gtfo
-		potential = {
-			is_culture_group = czecho_slovak_culture_group
-			owns = 689 
-			OR = {
-				AND = { owns = 682 NOT = { has_global_flag = prussian_silesia_rename_czech } }
-				AND = { owns = 689 NOT = { has_global_flag = austrian_silesia_rename_czech } }
-			}
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			random_owned = {
-				limit = {
-					province_id = 682
-				}
-				682 = { 
-					change_province_name = "Boduregü" 
-					state_scope = { change_region_name = "Silezia Inferiuara" }
-				}
-				683 = { change_province_name = "Legnita"  }
-				684 = { change_province_name = "Bidoshtiu"  
-					state_scope = { change_region_name = "Silezia Süperiuara" }
-				}
-				685 = { change_province_name = "Siradiu"  }
-				owner = { 
-					set_global_flag = prussian_silesia_rename_czech
-					clr_global_flag = prussian_silesia_rename_german 
-					clr_global_flag = prussian_silesia_rename_polish 
-				}
-			}
-			random_owned = {
-				limit = {
-					province_id = 689
-				}
-				689 = { 
-					change_province_name = "Teshin" 
-				}
-				2584 = { change_province_name = "Bilscu"  }
-				owner = { 
-					set_global_flag = austrian_silesia_rename_czech
-					clr_global_flag = austrian_silesia_rename_polish 
-					clr_global_flag = austrian_silesia_rename_german 
-					
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
+	##
+	#silesia_rename_czech = {
+	#	picture = gtfo
+	#	potential = {
+	#		is_culture_group = czecho_slovak_culture_group
+	#		owns = 689 
+	#		OR = {
+	#			AND = { owns = 682 NOT = { has_global_flag = prussian_silesia_rename_czech } }
+	#			AND = { owns = 689 NOT = { has_global_flag = austrian_silesia_rename_czech } }
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		random_owned = {
+	#			limit = {
+	#				province_id = 682
+	#			}
+	#			682 = { 
+	#				change_province_name = "Boduregü" 
+	#				state_scope = { change_region_name = "Silezia Inferiuara" }
+	#			}
+	#			683 = { change_province_name = "Legnita"  }
+	#			684 = { change_province_name = "Bidoshtiu"  
+	#				state_scope = { change_region_name = "Silezia Süperiuara" }
+	#			}
+	#			685 = { change_province_name = "Siradiu"  }
+	#			owner = { 
+	#				set_global_flag = prussian_silesia_rename_czech
+	#				clr_global_flag = prussian_silesia_rename_german 
+	#				clr_global_flag = prussian_silesia_rename_polish 
+	#			}
+	#		}
+	#		random_owned = {
+	#			limit = {
+	#				province_id = 689
+	#			}
+	#			689 = { 
+	#				change_province_name = "Teshin" 
+	#			}
+	#			2584 = { change_province_name = "Bilscu"  }
+	#			owner = { 
+	#				set_global_flag = austrian_silesia_rename_czech
+	#				clr_global_flag = austrian_silesia_rename_polish 
+	#				clr_global_flag = austrian_silesia_rename_german 
+	#				
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
+	##
 	
 	west_galicia_rename_polish = {
 		picture = gtfo

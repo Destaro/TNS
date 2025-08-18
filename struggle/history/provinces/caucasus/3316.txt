@@ -1,5 +1,5 @@
-owner = CIR
-controller = CIR
+owner = ALN
+controller = ALN
 add_core = CIR
 add_core = ALN
 trade_goods = grain
