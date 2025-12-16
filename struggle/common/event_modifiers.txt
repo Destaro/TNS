@@ -842,7 +842,7 @@ academic_confusion = {
 
 ##### LIBERAL REVOLUTIONS #####
 liberal_agitation = {
-	pop_consciousness_modifier = 0.2
+	pop_consciousness_modifier = -0.2
 	pop_militancy_modifier = 0.05
 	immigrant_push = 0.75
 	icon = 4
@@ -854,7 +854,7 @@ springtime_of_nations = {
 }
 
 global_liberal_agitation = {
-	global_pop_consciousness_modifier = 0.2
+	global_pop_consciousness_modifier = -0.2
 	global_pop_militancy_modifier = 0.01
 	prestige = -0.03
 	icon = 4

@@ -1,4 +1,4 @@
-# An Age of Liberalism
+# An Age of Reactionarism
 country_event = {
 	id = 10001
 	title = "EVTNAME10001"
@@ -106,12 +106,8 @@ country_event = {
 				location = { is_colonial = no }
 			}
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.05
-			}
-			scaled_consciousness = {
-				ideology = liberal
-				factor = 4
 			}
 		}
 		set_global_flag = liberal_revolution_somewhere
@@ -130,13 +126,13 @@ country_event = {
 	trigger = {
 		has_country_flag = liberal_revolution_in_progress
 		OR = {
-			liberal = 15
+			reactionary = 15
 			average_militancy = 2
 		}
 		NOT = {
 			OR = {
 				vote_franschise = universal_weighted_voting
-				vote_franschise = universal_voting
+				vote_franschise = none_voting
 			}
 		}
 		year = 1847
@@ -244,13 +240,13 @@ country_event = {
 			limit = {
 				OR = {
 					has_province_modifier = liberal_agitation
-					liberal = 20
+					reactionary = 20
 					average_consciousness = 4
 				}
 			}
 			any_pop = {
 				scaled_militancy = {
-					ideology = liberal
+					ideology = reactionary
 					factor = 9
 				}
 			}
@@ -609,7 +605,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA10105" # Suppress
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.2
 		}
 		random_state = {
@@ -660,7 +656,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB10105" # Allow them their say
 		upper_house = {
-			ideology = liberal
+			ideology = reactionary
 			value = 0.1
 		}
 		any_pop = {
@@ -668,12 +664,8 @@ country_event = {
 				location = { is_colonial = no }
 			}
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.02
-			}
-			scaled_consciousness = {
-				ideology = liberal
-				factor = 4
 			}
 		}
 		ai_chance = {
@@ -764,12 +756,8 @@ country_event = {
 			}
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
-				}
-				scaled_consciousness = {
-					ideology = liberal
-					factor = 4
 				}
 			}
 			any_owned = {
@@ -815,7 +803,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB10110" # Defend old order!
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.2
 		}
 		aristocrats = {
@@ -927,7 +915,7 @@ country_event = {
 		random_state = {
 			limit = {
 				is_colonial = no
-				liberal = 5
+				reactionary = 5
 				any_owned_province = {
 					NOT = { has_province_modifier = liberal_agitation }
 				}
@@ -935,15 +923,15 @@ country_event = {
 			any_pop = {
 				limit = { literacy = 0.2 }
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
 				scaled_consciousness = {
-					ideology = liberal
+					ideology = reactionary
 					factor = 4
 				}
 				dominant_issue = {
-					value = free_press
+					value = none_voting
 					factor = 0.1
 				}
 			}
@@ -984,11 +972,11 @@ country_event = {
 	option = {
 		name = "EVTOPTB10120" # Censor the paper
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.1
 		}
 		any_pop = {
-			limit = { reactionary = 20 }
+			limit = { liberal = 20 }
 			consciousness = -3
 			dominant_issue = {
 				value = state_press
@@ -1122,14 +1110,14 @@ country_event = {
 		random_state = {
 			limit = {
 				is_colonial = no
-				liberal = 10
+				reactionary = 10
 				any_owned_province = {
 					NOT = { has_province_modifier = liberal_agitation }
 				}
 			}
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
 				scaled_consciousness = {
@@ -1306,14 +1294,14 @@ country_event = {
 		random_state = {
 			limit = {
 				is_colonial = no
-				liberal = 5
+				reactionary = 5
 				any_owned_province = {
 					NOT = { has_province_modifier = liberal_agitation }
 				}
 			}
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
 				scaled_consciousness = {
