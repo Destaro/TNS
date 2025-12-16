@@ -1,7 +1,7 @@
 owner = BYZ
 controller = BYZ
 add_core = BYZ
-trade_goods = fruit
+trade_goods = precious_goods
 life_rating = 35
 naval_base = 1
 fort = 1
