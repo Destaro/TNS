@@ -6,7 +6,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40
 prestige = 2
-
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
