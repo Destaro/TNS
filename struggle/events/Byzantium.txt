@@ -1384,3 +1384,36 @@ country_event = {
 		create_vassal = ISR
 	}
 }
+#RHOMAION ATROCITIES FOLLOWING VICTORY
+country_event = {
+	id = 300033
+	title = "EVTNAME300033" 
+	desc = "EVTDESC300033"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA300033"
+		badboy = 10
+		set_country_flag = enslaved_italia
+		political_reform = yes_slavery
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }		
+		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = genocide duration = 365 } }			
+	}
+}

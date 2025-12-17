@@ -77,7 +77,7 @@ political_decisions = {
 		  effect = {
 		  set_country_flag = we_are_roman
 		  ITA = { all_core = { add_core = THIS } }
-		  add_accepted_culture = south_italian
+		  country_event = 300033
 		  
 		  prestige = 20
 		  badboy = 10
