@@ -10,8 +10,6 @@ political_decisions = {
 	      
 		  allow = {
 		  is_greater_power = yes
-		  ROM = { all_core = { owned_by = THIS } }
-		  
 				war = no
 		        prestige = 70
 				nationalism_n_imperialism = 1
@@ -20,9 +18,7 @@ political_decisions = {
 		  
 		  effect = {
 		  set_country_flag = accept_the_aromanians
-		  add_accepted_culture = aromanian
-		
-		 ROM = { all_core = { add_core = THIS } }
+		  add_accepted_culture = old_persian
 		  prestige = 5
 		 
 		             	  
@@ -32,14 +28,12 @@ political_decisions = {
 		  the_reclamation_of_anatolia = {
 	           potential = {
 			   tag = BYZ	   
-			   
 			   NOT = { has_country_flag = the_reclamation_of_anatolia }
 			  
 			   }
 	      
 		  allow = {
 		  is_greater_power = yes
-		  ROM = { all_core = { owned_by = THIS } }
 		  BYZ = { all_core = { owned_by = THIS } }
 				war = no
 				military_score = 65
@@ -206,7 +200,7 @@ political_decisions = {
 		OR = {
 			tag = ITA
 			tag = FRC
-			tag = IBR
+			tag = SPA
 			}
 		has_global_flag = greek_schism
 		NOT = { has_country_flag = anti_byzantine_crusade }
