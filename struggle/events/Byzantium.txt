@@ -765,6 +765,10 @@ country_event = {
 		set_global_flag = sofia_revolt_ended
 		set_global_flag = sofia_revolt_rhomania_won_won
 		inherit = AOM
+        any_pop = {
+            limit = { has_pop_culture = greek }
+            ideology = { value = reactionary factor = 0.8 }
+        }
 		any_pop = {
 			limit = { culture = aromanian }
 			militancy = 1
@@ -1102,7 +1106,7 @@ country_event = {
 		remove_accepted_culture = aromanian
 		remove_accepted_culture = tosk
 		ROM = { all_core = { add_core = BYZ } }
-		any_owned = { limit = { OR = { is_core = AOM is_core = ROM } } add_province_modifier = { name = french_cultural_unity duration = -1 } }
+		any_owned = { limit = { OR = { is_core = AOM is_core = ROM is_core = BYZ } } add_province_modifier = { name = french_cultural_unity duration = -1 } }
 		any_owned = { limit = { is_core = ALB } remove_core = ALB add_province_modifier = { name = french_cultural_unity duration = -1 } }
 		all_core = { remove_core = ROM }
 		all_core = { remove_core = AOM }
@@ -1110,7 +1114,13 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = aromanian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 }
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
-		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.3 } } pop_type = slaves }
+		any_pop = { limit = { OR = { has_pop_culture = tosk has_pop_culture = aromanian } OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.2 } } pop_type = slaves }
+		any_pop = { limit = { pop_type = slaves location = 809 } move_pop = 860 }
+		any_pop = { limit = { pop_type = slaves location = 795 } move_pop = 859 }
+		any_pop = { limit = { pop_type = slaves location = 851 } move_pop = 860 }
+		any_pop = { limit = { pop_type = slaves location = 824 } move_pop = 858 }
+		any_pop = { limit = { pop_type = slaves location = 794 } move_pop = 860 }
+		
 		country_event = 300026
 	}
 }
