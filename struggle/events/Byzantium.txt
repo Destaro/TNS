@@ -751,13 +751,8 @@ country_event = {
 
 	trigger = {
 		tag = BYZ
-		war = no
-		OR = {  
-			AOM = {
-				exists = yes
-				truce_with = THIS
-			}
-		}
+		war = no 
+			AOM = { exists = no }
 		has_global_flag = sofia_revolt_occurred
 	}
 
@@ -1103,6 +1098,7 @@ country_event = {
 	option = {
 		name = "The Latins shall know their place."
 		badboy = 7
+		political_reform = yes_slavery
 		remove_accepted_culture = aromanian
 		remove_accepted_culture = tosk
 		ROM = { all_core = { add_core = BYZ } }
@@ -1114,6 +1110,7 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = aromanian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 }
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
+		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.3 } } pop_type = slaves }
 		country_event = 300026
 	}
 }
@@ -1251,7 +1248,7 @@ country_event = {
 
 	option = {
 		name = "The Basileius WILL put the uprising down!"
-		any_pop = { limit = { has_pop_culture = greek } ideology = { value = liberal factor = 0.3 } militancy = 3 }
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = reactionary factor = 0.3 } militancy = 3 }
 		add_country_modifier = { name = disunited_country duration = 365 }
 	}
 }
