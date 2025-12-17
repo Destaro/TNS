@@ -1,0 +1,261 @@
+#support an uprising in the south
+country_event = {
+
+	id = 3330001
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME3330001"
+	desc = "EVTDESC3330001"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA3330010" 
+		create_alliance = ANT
+		prestige = 10
+		badboy = 3
+		relation = { who = KSK value = -200 }
+	    relation = { who = ANT value = 200 }
+		KSK = { 
+		       war = {
+                target = HUN
+                
+				attacker_goal = {
+                    casus_belli = cut_down_to_size
+                  
+                }
+				
+				attacker_goal = { 
+				    casus_belli = war_reparations
+                          					}
+               
+                defender_goal = { 
+				    casus_belli = status_quo
+                     }
+					
+				 }
+				 
+				war = { 
+				target = ANT
+				 attacker_goal = { 
+				    casus_belli = conquest_any 
+					
+					}
+					
+					 defender_goal = { 
+				    casus_belli = status_quo
+                     }
+				   
+				   }
+					
+					
+		 }
+		
+	}
+	
+	option = {
+		name = "EVTOPTA3330011" 
+		prestige = -20
+		badboy = 1
+		relation = { who = KSK value = -200 }
+	    relation = { who = ANT value = 100 }
+		KSK = { 
+				 
+				war = { 
+				target = ANT
+				 attacker_goal = { 
+				    casus_belli = conquest_any 
+					
+					}
+					
+					 defender_goal = { 
+				    casus_belli = status_quo
+                     }
+				   
+				   }
+				
+		 }
+		
+	}
+ }
+
+
+#anatolia gets support
+country_event = {
+
+	id = 3330003
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME3330003"
+	desc = "EVTDESC3330003"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA3330012" 
+		treasury = 50000
+		add_to_stockpile = {
+    type = grain
+    amount = 200
+}
+
+add_to_stockpile = {
+    type = small_arms
+    amount = 200
+}
+
+add_to_stockpile = {
+    type = canned_food
+    amount = 200
+}
+
+   
+   
+	}
+	
+	
+	
+
+}
+
+#kuchaskaya loses its hungarian land
+country_event = {
+
+	id = 3330007
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME3330007"
+	desc = "EVTDESC3330007"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA3330017" 
+		
+
+
+any_owned = {
+			limit = { is_core = ANT }
+			secede_province = ANT
+		}
+   
+   
+	}
+	
+	
+	
+
+}
+
+
+#annexation of anatolia 
+country_event = {
+
+	id = 3330002
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME3330002"
+	desc = "EVTDESC3330002"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA3330014" 
+		HUN = { country_event = 5544001 }
+	
+		 
+ any_owned = {
+            limit = {
+                has_core = ANT
+            }
+            secede_province = HUN
+        }
+    
+	
+	ai_chance = {
+			factor = 50
+		}
+}
+
+   option = {
+		name = "EVTOPTA3330015" 
+		HUN = { country_event = 5544002 }
+	
+	
+	ai_chance = {
+			factor = 50
+		}
+           }
+
+
+   
+   
+	}
+	
+	
+	#accepted annexation
+country_event = {
+
+	id = 5544001
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME5544001"
+	desc = "EVTDESC5544001"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA5544011"
+        prestige = 15		
+		
+                 }
+   
+	}
+	
+	
+	
+	#rejected annexation
+country_event = {
+
+	id = 5544002
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME5544002"
+	desc = "EVTDESC5544002"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA5544012"
+        	prestige = -30
+		relation = { who = ANT value = 200 }
+                 }
+				 
+				 option = {
+				 badboy = 1
+		name = "EVTOPTA5544013"
+        	relation = { who = ANT value = -200 }
+		war = {
+                target = ANT
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                  
+                }
+				
+               
+                defender_goal = { 
+				    casus_belli = status_quo
+                     }
+					
+				      }
+                }
+
+	}
+

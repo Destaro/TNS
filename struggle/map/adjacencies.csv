@@ -62,6 +62,7 @@ From;To;Type;Through;Data;Comment
 #
 # European Straits
 #
+966;3499;sea;2776;0;Kerc to Tamtarqey
 3522;3857;land;2737;0;Hebrides to Ayr
 3522;3859;land;2736;0;Hebrides to Highlands
 254;271;sea;2737;0;Irish Strait
@@ -127,7 +128,6 @@ From;To;Type;Through;Data;Comment
 640;779;land;3361;0;Danube Bridges
 794;791;land;3360;0;Danube Bridges
 794;792;land;3360;0;Danube Bridges
-3494;678;land;3355;0;Danube Bridges
 383;3505;land;2721;0;Frisian Islands
 3505;533;land;2721;0;Frisian Islands
 812;664;land;3359;0;Danube Bridges

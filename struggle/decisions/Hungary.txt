@@ -1,0 +1,228 @@
+political_decisions = {
+	
+	secure_the_eastern_coast = {
+ potential = {
+       tag = HUN
+ NOT = { has_country_flag = secure_the_eastern_coast }
+          
+                      }
+					  
+	    allow = {
+		owns = 1048
+		owns = 1049
+		ideological_thought = 1
+		
+		}
+		
+		effect = {
+		set_country_flag = secure_the_eastern_coast
+		add_core = 1048
+		add_core = 1049
+		add_core = 3316
+		add_core = 1051
+		add_core = 3302
+		add_core = 3315
+		badboy = 1
+		prestige = 2
+		
+		}
+       
+ 
+ }
+ 
+ 	secure_the_north = {
+ potential = {
+       tag = HUN
+ NOT = { has_country_flag = secure_the_north }
+          
+                      }
+					  
+	    allow = {
+		owns = 972
+		owns = 961
+		nationalism_n_imperialism = 1
+		prestige = 50
+		}
+		
+		effect = {
+		set_country_flag = secure_the_north
+		add_core = 961
+		add_core = 3692
+		add_core = 954
+		add_core = 3298
+		add_core = 677
+		add_core = 3547
+		add_core = 3545
+		add_core = 963
+		add_core = 3546
+		add_core = 978
+		badboy = 5
+		prestige = 20
+		
+		}
+       
+ 
+ }
+ 
+ support_the_southern_uprising = { 
+
+ potential = {
+ ANT = { ai = yes }
+ NOT = {
+ has_country_flag = support_the_southern_uprising
+         
+                                 }
+								 
+ is_greater_power = yes
+ 
+ }
+ 
+ allow = {
+ war = no
+ is_greater_power = yes
+
+ ANT = {
+		in_sphere = THIS
+			
+		}
+ }
+
+effect = { 
+treasury = -50000
+set_country_flag = support_the_southern_uprising
+HUN = { country_event = 3330001 }
+ANT = { country_event = 3330003 }
+KSK = { country_event = 3330007 }
+                       }
+
+                           }
+						   
+						   
+						   
+	annex_the_southerners = {
+	
+	potential = { 
+	is_greater_power = yes
+	tag = HUN
+    NOT = { has_country_flag = annex_the_southerners }
+	
+	}
+	
+	allow = {
+	war = no
+	is_greater_power = yes
+     ANT = {
+				all_core = {
+					
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						
+				}
+			}
+			
+			
+	}
+	
+	effect = {
+      set_country_flag = annex_the_southerners
+	  ANT = { country_event = 3330002 }
+
+	}
+	
+	}
+	
+	integrate_the_south_hun = { 
+	
+	potential = {
+      tag = HUN
+	  has_country_flag = support_the_southern_uprising
+	  
+	 NOT = { 
+	 3494 = { owned_by = KSK }
+	 ANT = { exists = yes }
+	 has_country_flag = integrate_the_south_hun }
+	                                             }
+	
+	allow = {
+	has_country_flag = annex_the_southerners
+	military_score = 100
+	prestige = 100
+     war = no
+	 is_greater_power = yes
+	 nationalism_n_imperialism = 1
+	  ANT = {
+				all_core = {
+							owned_by = THIS
+				}
+			}
+	 
+	}
+	
+	effect = { 
+	any_owned = {
+				limit = {
+					is_core = ANT
+				}
+				add_core = HUN
+			}
+	set_country_flag = integrate_the_south_hun
+	add_accepted_culture = south_hungarian
+	prestige = 15
+	badboy = 3
+	                }
+	
+	}
+	
+	connect_the_coast = { 
+	
+	potential = {
+      tag = HUN
+	  
+	  has_country_flag = annex_the_southerners
+	  owns = 3494
+	  owns = 884
+	  owns = 3302
+	 NOT = { 
+	 ANT = { exists = yes }
+	 has_country_flag = connect_the_coast }
+	                                             }
+	
+	allow = {
+     war = no
+	 is_greater_power = yes
+	  ANT = {
+				all_core = {
+							owned_by = THIS
+				}
+			}
+	 
+	}
+	
+	effect = { 
+	badboy = 5
+	add_core = 3303
+	add_core = 3314
+	add_core = 1095
+	add_core = 3313
+	add_core = 1050
+	add_core = 3274
+	add_core = 1092
+	add_core = 1094
+	add_core = 1096
+	add_core = 3497
+	add_core = 882
+	add_core = 3491
+	add_core = 3498
+	set_country_flag = connect_the_coast
+	prestige = 10
+	
+	                }
+	
+	}
+	
+}
+
