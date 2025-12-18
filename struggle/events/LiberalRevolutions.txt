@@ -1050,7 +1050,6 @@ country_event = {
 	trigger = {
 		has_country_flag = liberal_revolution_in_progress
 		NOT = {
-			vote_franschise = none_voting
 			vote_franschise = universal_weighted_voting
 			vote_franschise = universal_voting
 		}
@@ -1350,7 +1349,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB10140" # Suppress it
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.1
 		}
 		any_pop = {
@@ -1522,7 +1521,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA10150" # Send in the troops
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.1
 		}
 		random_state = {
@@ -1610,7 +1609,7 @@ country_event = {
 					}
 				}
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
 				consciousness = 3
@@ -1741,15 +1740,11 @@ country_event = {
 			any_pop = {
 				limit = { is_primary_culture = yes }
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
-				scaled_consciousness = {
-					ideology = liberal
-					factor = 6
-				}
 				scaled_militancy = {
-					ideology = liberal
+					ideology = reactionary
 					factor = 3
 				}
 			}
@@ -1821,7 +1816,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA10160" # Crack down
 		upper_house = {
-			ideology = reactionary
+			ideology = liberal
 			value = 0.1
 		}
 		any_pop = {
@@ -1898,15 +1893,11 @@ country_event = {
 			}
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
-				scaled_consciousness = {
-					ideology = liberal
-					factor = 4
-				}
 				dominant_issue = {
-					value = yes_meeting
+					value = none_voting
 					factor = 0.1
 				}
 			}
@@ -2316,7 +2307,7 @@ province_event = {
 			}
 			any_pop = {
 				ideology = {
-					value = conservative
+					value = reactionary
 					factor = 0.1
 				}
 			}
@@ -2415,7 +2406,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA10200" # Send in the troops
 		random_pop = {
-			limit = { pop_majority_ideology = liberal }
+			limit = { pop_majority_ideology = reactionary }
 			reduce_pop = 0.90
 		}
 		any_pop = {
@@ -2431,7 +2422,7 @@ province_event = {
 			}
 			any_pop = {
 				scaled_militancy = {
-					ideology = liberal
+					ideology = reactionary
 					factor = 4
 				}
 			}
@@ -2475,22 +2466,21 @@ province_event = {
 			any_owned = { remove_province_modifier = liberal_agitation }
 			poor_strata = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.10
 				}
 			}
 			middle_strata = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
 			}
 			any_pop = {
 				scaled_militancy = {
-					ideology = liberal
+					ideology = reactionary
 					factor = 2
 				}
-				consciousness = 3
 			}
 		}
 		ai_chance = {
@@ -2804,7 +2794,7 @@ province_event = {
 			any_pop = {
 				scaled_militancy = {
 					factor = 6
-					ideology = liberal
+					ideology = reactionary
 				}
 			}
 		}
@@ -2919,12 +2909,12 @@ country_event = {
 					is_accepted_culture = no
 				}
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
-				scaled_consciousness = {
+				scaled_militancy = {
 					factor = 8
-					ideology = liberal
+					ideology = reactionary
 				}
 			}
 			any_owned = {
@@ -3117,7 +3107,7 @@ province_event = {
 					is_accepted_culture = no
 				}
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
 				consciousness = 4
@@ -3425,7 +3415,7 @@ country_event = {
 				}
 			}
 			scaled_militancy = {
-				ideology = liberal
+				ideology = reactionary
 				factor = 3
 			}
 		}								
@@ -3535,7 +3525,7 @@ country_event = {
 			limit = { is_colonial = no }
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
 				consciousness = 1
@@ -3555,7 +3545,7 @@ country_event = {
 			limit = { is_colonial = no }
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
 				ideology = {
@@ -3630,16 +3620,12 @@ country_event = {
 			limit = { is_colonial = no }
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
 				scaled_militancy = {
 					factor = 3
-					ideology = liberal
-				}
-				scaled_consciousness = {
-					factor = 5
-					ideology = liberal
+					ideology = reactionary
 				}
 			}
 		}
@@ -3647,7 +3633,7 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 1.2
-				ruling_party_ideology = liberal
+				ruling_party_ideology = reactionary
 			}
 			modifier = {
 				factor = 1.2
@@ -3693,11 +3679,11 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 1.2
-				ruling_party_ideology = reactionary
+				ruling_party_ideology = liberal
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				government = hms_government
 			}
 			modifier = {
 				factor = 1.2
@@ -3782,10 +3768,10 @@ country_event = {
 		name = "EVTOPTB10280"
 		rich_strata = {
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.05
 			}
-			consciousness = 1
+			consciousness = -1
 		}
 	}
 }
@@ -3838,10 +3824,10 @@ country_event = {
 			limit = { is_colonial = no }
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.15
 				}
-				consciousness = 1
+			militancy = 1
 			}
 		}
 	}
@@ -3850,10 +3836,10 @@ country_event = {
 		name = "EVTOPTB10290"
 		middle_strata = {
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.03
 			}
-			consciousness = 0.5
+			militancy = 0.5
 		}
 	}
 }
@@ -3911,10 +3897,10 @@ country_event = {
 			limit = { is_colonial = no }
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.05
 				}
-				consciousness = 1
+				militancy = 1
 			}
 		}
 	}
@@ -3924,10 +3910,10 @@ country_event = {
 		capitalists = {
 			militancy = 2
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.1
 			}
-			consciousness = 1
+			militancy = 1
 		}
 	}
 
@@ -3976,7 +3962,7 @@ country_event = {
 		name = "EVTOPTA10320"
 		middle_strata = {
 			ideology = {
-				value = liberal
+				value = reactionary
 				factor = 0.1
 			}
 			militancy = 1
@@ -4078,15 +4064,14 @@ country_event = {
 			}
 			any_pop = {
 				ideology = {
-					value = liberal
+					value = reactionary
 					factor = 0.1
 				}
-				militancy = 1
-				consciousness = 1
+				militancy = 2
 			}
 			poor_strata = {
 				dominant_issue = {
-					value = universal_weighted_voting
+					value = none_voting
 					factor = 0.1
 				}
 			}
