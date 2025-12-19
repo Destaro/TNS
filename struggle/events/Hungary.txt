@@ -259,3 +259,45 @@ country_event = {
 
 	}
 
+#Bolkania loses its cores
+
+country_event = {
+
+	id = 5544003
+	title = "EVTNAME5544003"
+	desc = "EVTDESC5544003"
+	picture = "Mozart"
+	
+	trigger = {
+   year = 1870
+		OR = {
+			tag = BUL
+		}
+		HUN = { owns = 972
+                owns = 961
+                owns = 3547	 }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.1
+			month = 5
+			NOT = { month = 7 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA5544022"
+        	any_owned = { 
+			limit = {
+				is_core = HUN
+				
+			                }
+			remove_core = THIS 
+			}
+                 }
+				 
+			
+
+	}
