@@ -1401,19 +1401,340 @@ country_event = {
 		political_reform = yes_slavery
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergy pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }		
 		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = genocide duration = 365 } }			
+	}
+}
+#FATE OF THE DEL-MOGYR AFTER KACHUSKAYA CONQUEST - Anatolia Exists
+country_event = {
+	id = 300034
+	title = "EVTNAME300034" 
+	desc = "EVTDESC300034"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		tag = BYZ
+		owns = 880
+		owns = 8805
+		ANT = { exists = yes }
+		ANT = { ai = yes }
+		}
+# OPTION A - AUTONOMY FOR THE ANATOLIAN MOGYR - LEADS TO FUTURE WAR WITH HUNGARY TO 'UNITE' THE HUNGARIAN VASSAL
+	option = {
+		name = "EVTOPTA300034"
+		badboy = -1
+		set_country_flag = autonomous_magyar
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = reactionary factor = 0.6 } militancy = 6 }
+		any_owned = { limit = { is_core = ANT } secede_province = ANT }
+		ANT = { government = colonial_company }
+		create_vassal = ANT
+		any_pop = { limit = { has_pop_culture = south_hungarian } move_pop = 3494 }			
+	}
+# OPTION B - WAR FOR THE ANATOLIAN COAST - ENSLAVEMENT WILL FOLLOW
+	option = {
+		name = "EVTOPTB300034"
+		badboy = 2
+		set_country_flag = war_for_magyar
+		any_owned = { limit = { is_core = ANT } secede_province = ANT }
+		war = {
+			target = ANT
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+	}
+}
+# THE SCOURING OF THE MAGYAR LANDS
+country_event = {
+	id = 300035
+	title = "EVTNAME300035" 
+	desc = "EVTDESC300035"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		tag = BYZ
+		owns = 880
+		owns = 8805
+		owns = 3494
+		ANT = { exists = no }
+		has_country_flag = war_for_magyar
+		}
+# ATROCITIES ENSUE - BUT THE CRISIS ENDS THERE
+	option = {
+		name = "EVTOPTA300035"
+		badboy = 5
+		prestige = 15
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = reactionary factor = 0.6 } }
+		any_pop = { limit = { OR = { has_pop_culture = south_hungarian has_pop_culture = hungarian } OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.2 } } pop_type = slaves reduce_pop = 0.8 }
+		any_pop = { limit = { has_pop_culture = south_hungarian pop_type = slaves } move_pop = 860 }	
+	}
+}
+# AN OPPORTUNITY TO COUP THE DEL-MOGYR - HUNGARY
+country_event = {
+	id = 300036
+	title = "EVTNAME300036" 
+	desc = "EVTDESC300036"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		tag = HUN
+		ANT = { vassal_of = BYZ }
+		ANT = { ai = yes }
+		has_country_flag = autonomous_magyar
+		year = 1853
+		}
+# DOING SO HAS A 100% CHANCE OF SUCCESS - THE DEL-MOGYR DO NOT LIKE THE BYZANTINES
+	option = {
+		name = "EVTOPTA300036"
+		badboy = 5
+		prestige = 15
+		inherit = ANT
+		ANT = { all_core = { add_core = HUN } }
+		add_accepted_culture = south_hungarian
+		BYZ = { country_event = 300037 }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name "EVTOPTB300036"
+		badboy = -3
+		prestige = -20
+		}
+}
+#BYZANTINE RESPONSE - WAR IS GUARANTEED
+country_event = {
+	id = 300037
+	title = "EVTNAME300037" 
+	desc = "EVTDESC300037"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA300037"
+		badboy = 5
+		war = { 
+			target = HUN
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = cut_down_to_size }
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "EVTOPTB300037"
+		prestige = -50
+		badboy = -5
+		ANT = { all_core = { remove_core = BYZ } }
+		}
+	}
+#THE SCOURING OF THE HUNGARIAN PEOPLES - THE BYZANTINE BLACK SEA IS SECURED
+country_event = {
+	id = 300038
+	title = "EVTNAME300038" 
+	desc = "EVTDESC300038"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		tag = BYZ
+		owns = 967
+		owns = 965
+		owns = 3494
+		HUN = { exists = no }
+		RUS_964 = { owned_by = BYZ }
+		}
+	option = {
+		name = "EVTOPTA300038"
+		badboy = 5
+		prestige = 20
+		RUS_964 = { add_core = BYZ remove_core = HUN }
+		any_pop = { limit = { has_pop_culture = greek } ideology = { value = reactionary factor = 0.6 } }
+		any_pop = { limit = { has_pop_culture = hungarian } reduce_pop = 0.8 }
+		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = clergymen pop_type = aristocracy pop_type = bureaucrats } } reduce_pop = 0.01 pop_type = farmers } 
+		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = soldiers pop_type = officers } } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = craftsmen pop_type = clerks } } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { OR = { has_pop_culture = south_hungarian has_pop_culture = hungarian } OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.2 } } pop_type = slaves reduce_pop = 0.5 }
+		any_pop = { limit = { has_pop_culture = south_hungarian pop_type = slaves } move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = hungarian pop_type = slaves OR = { location = 967 location = 3502 location = 964 location = 3503 location = 966 location = 3500 location = 3501 } } move_pop = 860 }
+		release_vassal = HUN 
+		HUN = {
+			government = colonial_company
+			}
+	}
+}
+#SOUTHERN ITALIAN CONFEDERATION - BYZANTIUM-BACKED COUP LED BY THE COSENZAN LEAGUE
+country_event = {
+	id = 300039
+	title = "EVTNAME300039" 
+	desc = "EVTDESC300039"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#THE COUP SUCCEEDS - COSENZAN PROVISIONAL GOVERNMENT ESTABLISHED - IT WILL NOT LAST LONG
+	option = {
+		name = "EVTOPTA300039"
+		prestige = -10
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = yes_slavery
+		set_country_flag = cosenzan_coup_backfire
+	}
+	#THE COUP FAILS - CONSPIRATORS DEFEATED IN THE CAPITAL - WAR WITH BYZANTIUM GUARANTEED
+	option = {
+		name = "EVTOPTB300039"
+		prestige = 5
+		any_pop = { limit = { ideology = liberal } militancy = 5 }
+		add_country_modifier = { name = diplomatic_isolation duration = 1000 }
+		BYZ = { country_event = 300040 }
+		}
+}
+#BYZANTINE RESPONSE TO FAILED COUP
+country_event = {
+	id = 300040
+	title = "EVTNAME300040" 
+	desc = "EVTDESC300040"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#WAR WITH SICILY - COSENZAN SEPARATISTS WILL JOIN BYZANTIUM
+	option = {
+		name = "EVTOPTA300040"
+		prestige = -10
+		badboy = 3
+		BYZ = { diplomatic_influence = { who = SIC value = -400 } }
+		SIC = { any_owned = { limit = { is_core = CSZ } secede_province = BYZ } }
+		casus_belli = {
+			target = SIC
+			type = make_puppet
+			months = 60
+		}
+		war = {
+			target = SIC
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = acquire_all_cores }
+		}
+	}
+	#COWARD.
+	option = {
+		name = "EVTOPTB300040"
+		prestige = -40
+		badboy = -1
+		}
+}
+#COSENZAN DISUNITY LEADS TO REQUEST FOR BYZANTINE INTERVENTION AS RIOTS ENSUE
+country_event = {
+	id = 300041
+	title = "EVTNAME300041" 
+	desc = "EVTDESC300041"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 50
+	}
+	trigger = {
+		tag = SIC
+		has_country_modifier = diplomatic_isolation
+		NOT = { year = 1850 }
+		in_sphere = BYZ 
+		}
+	#COSENZA CALLS FOR BYZANTINE INTERVENTION - ACCEPTS A LOSS OF ALL AUTONOMY
+	option = {
+		name = "EVTOPTA300041"
+		prestige = -50
+		BYZ = { country_event = 300042 }
+		any_owned = { limit = { is_core = SIC } add_province_modifier = { name = patriot_uprising duration = 365 } }
+		ai_chance = { factor = 30 }
+	}
+	#COSENZA PURGES ALL BYZANTINE INFLUENCES - SAME RESULT AS IF THE COUP FAILED - HARDLINE COSENZISTS ALIENATED
+	option = {
+		name = "EVTOPTB300041"
+		prestige = 5
+		remove_country_modifier = diplomatic_isolation
+		any_owned = { limit = { is_core = CSZ } add_province_modifier = { name = patriot_uprising duration = 365 } }
+		ai_chance = { factor = 70 }
+	}
+		BYZ = { diplomatic_influence = { who = SIC value = -400 } country_event = 300040 }
+}
+#COSENZA ASKS FOR BYZANTINE PROTECTION
+country_event = {
+	id = 300042
+	title = "EVTNAME300042" 
+	desc = "EVTDESC300042"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#NO REASON TO NOT ACCEPT A FREE PUPPET - THEMATA LONGOBARDIA
+	option = {
+		name = "EVTOPTA300042"
+		set_country_flag = took_longobardia
+		prestige = 20
+		create_vassal = SIC
+		SIC = { government = colonial_company any_core = { limit = { is_core = SYC } remove_core = SIC } }
+	}
+}
+#IF THE BYZANTINES HAD TO CONQUER IT BY WAR - MINOR ATROCITIES, BUT NOTHING LIKE WHAT WOULD HAVE COME OTHERWISE
+country_event = {
+	id = 300043
+	title = "EVTNAME300043" 
+	desc = "EVTDESC300043"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		SIC = { vassal_of = BYZ NOT = { government = colonial_company } }
+		}
+	#MINOR ATROCITIES - BUT AROMANIAN TROOPS SUCCESSFULLY REDUCE THE DAMAGE
+	option = {
+		name = "EVTOPTA300043"
+		set_country_flag = took_longobardia
+		prestige = 20
+		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_core = { limit = { is_core = SYC } remove_core = SIC } }
+		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
 	}
 }

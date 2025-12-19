@@ -221,4 +221,22 @@ political_decisions = {
 			set_country_flag = anti_byzantine_crusade
 			}
 		}
+	rally_the_cosenzan_league = {
+		potential = {
+		tag = BYZ
+		is_greater_power = yes
+		NOT = { has_country_flag = rallied_cosenzan_league }
+		SIC = { exists = yes owns = 3600 NOT = { government = democracy } }
+		NOT = { year = 1850 }
+		}
+		allow = {
+			SIC = { in_sphere = THIS }
+			NOT = { year = 1850 }
+			}
+		effect = {
+			prestige = 15
+			set_country_flag = rallied_cosenzan_league
+			SIC = { country_event = 300039 }
+		}
 	}
+}
