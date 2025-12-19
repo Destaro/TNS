@@ -72,7 +72,7 @@ political_decisions = {
  has_country_flag = support_the_southern_uprising
          
                                  }
-								 
+tag = HUN								 
  is_greater_power = yes
  
  }
