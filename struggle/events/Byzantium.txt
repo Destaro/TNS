@@ -1708,6 +1708,7 @@ country_event = {
 	#NO REASON TO NOT ACCEPT A FREE PUPPET - THEMATA LONGOBARDIA
 	option = {
 		name = "EVTOPTA300042"
+		set_country_flag = took_longobardia
 		prestige = 20
 		create_vassal = SIC
 		SIC = { government = colonial_company any_core = { limit = { is_core = SYC } remove_core = SIC } }
@@ -1731,6 +1732,7 @@ country_event = {
 	#MINOR ATROCITIES - BUT AROMANIAN TROOPS SUCCESSFULLY REDUCE THE DAMAGE
 	option = {
 		name = "EVTOPTA300043"
+		set_country_flag = took_longobardia
 		prestige = 20
 		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_core = { limit = { is_core = SYC } remove_core = SIC } }
 		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
