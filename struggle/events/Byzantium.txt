@@ -1591,3 +1591,148 @@ country_event = {
 			}
 	}
 }
+#SOUTHERN ITALIAN CONFEDERATION - BYZANTIUM-BACKED COUP LED BY THE COSENZAN LEAGUE
+country_event = {
+	id = 300039
+	title = "EVTNAME300039" 
+	desc = "EVTDESC300039"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#THE COUP SUCCEEDS - COSENZAN PROVISIONAL GOVERNMENT ESTABLISHED - IT WILL NOT LAST LONG
+	option = {
+		name = "EVTOPTA300039"
+		prestige = -10
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = yes_slavery
+		set_country_flag = cosenzan_coup_backfire
+	}
+	#THE COUP FAILS - CONSPIRATORS DEFEATED IN THE CAPITAL - WAR WITH BYZANTIUM GUARANTEED
+	option = {
+		name = "EVTOPTB300039"
+		prestige = 5
+		any_pop = { limit = { ideology = liberal } militancy = 5 }
+		add_country_modifier = { name = diplomatic_isolation duration = 1000 }
+		BYZ = { country_event = 300040 }
+		}
+}
+#BYZANTINE RESPONSE TO FAILED COUP
+country_event = {
+	id = 300040
+	title = "EVTNAME300040" 
+	desc = "EVTDESC300040"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#WAR WITH SICILY - COSENZAN SEPARATISTS WILL JOIN BYZANTIUM
+	option = {
+		name = "EVTOPTA300040"
+		prestige = -10
+		badboy = 3
+		BYZ = { diplomatic_influence = { who = SIC value = -400 } }
+		SIC = { any_owned = { limit = { is_core = CSZ } secede_province = BYZ } }
+		casus_belli = {
+			target = SIC
+			type = make_puppet
+			months = 60
+		}
+		war = {
+			target = SIC
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = acquire_all_cores }
+		}
+	}
+	#COWARD.
+	option = {
+		name = "EVTOPTB300040"
+		prestige = -40
+		badboy = -1
+		}
+}
+#COSENZAN DISUNITY LEADS TO REQUEST FOR BYZANTINE INTERVENTION AS RIOTS ENSUE
+country_event = {
+	id = 300041
+	title = "EVTNAME300041" 
+	desc = "EVTDESC300041"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 50
+	}
+	trigger = {
+		tag = SIC
+		has_country_modifier = diplomatic_isolation
+		NOT = { year = 1850 }
+		in_sphere = BYZ 
+		}
+	#COSENZA CALLS FOR BYZANTINE INTERVENTION - ACCEPTS A LOSS OF ALL AUTONOMY
+	option = {
+		name = "EVTOPTA300041"
+		prestige = -50
+		BYZ = { country_event = 300042 }
+		any_owned = { limit = { is_core = SIC } add_province_modifier = { name = patriot_uprising duration = 365 } }
+		ai_chance = { factor = 30 }
+	}
+	#COSENZA PURGES ALL BYZANTINE INFLUENCES - SAME RESULT AS IF THE COUP FAILED - HARDLINE COSENZISTS ALIENATED
+	option = {
+		name = "EVTOPTB300041"
+		prestige = 5
+		remove_country_modifier = diplomatic_isolation
+		any_owned = { limit = { is_core = CSZ } add_province_modifier = { name = patriot_uprising duration = 365 } }
+		ai_chance = { factor = 70 }
+	}
+		BYZ = { diplomatic_influence = { who = SIC value = -400 } country_event = 300040 }
+}
+#COSENZA ASKS FOR BYZANTINE PROTECTION
+country_event = {
+	id = 300042
+	title = "EVTNAME300042" 
+	desc = "EVTDESC300042"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+	#NO REASON TO NOT ACCEPT A FREE PUPPET - THEMATA LONGOBARDIA
+	option = {
+		name = "EVTOPTA300042"
+		prestige = 20
+		create_vassal = SIC
+		SIC = { government = colonial_company any_core = { limit = { is_core = SYC } remove_core = SIC } }
+	}
+}
+#IF THE BYZANTINES HAD TO CONQUER IT BY WAR - MINOR ATROCITIES, BUT NOTHING LIKE WHAT WOULD HAVE COME OTHERWISE
+country_event = {
+	id = 300043
+	title = "EVTNAME300043" 
+	desc = "EVTDESC300043"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		SIC = { vassal_of = BYZ NOT = { government = colonial_company } }
+		}
+	#MINOR ATROCITIES - BUT AROMANIAN TROOPS SUCCESSFULLY REDUCE THE DAMAGE
+	option = {
+		name = "EVTOPTA300043"
+		prestige = 20
+		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_core = { limit = { is_core = SYC } remove_core = SIC } }
+		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
+	}
+}
