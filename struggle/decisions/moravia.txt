@@ -35,8 +35,15 @@ political_decisions = {
 		  set_country_flag = begin_the_integration
 		  PNN = { all_core = { add_core = THIS } }
 		  prestige = 20
-		  badboy = -1
-		             	  
+		  badboy = 2
+		    any_pop = {
+				limit = { OR = { culture = czech 
+				                 culture = polish   
+                                 culture = slovak
+                                 culture = croat								 } 
+			                                            	}
+				militancy = 3
+			}   	  
 				}
 		 }
 		 
@@ -80,6 +87,14 @@ political_decisions = {
 		  set_country_flag = the_dalmatians
 		  prestige = 5
 		  badboy = 1
+		  any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 culture = dalmatian 
+				                 culture = pannonian		 } 
+			                                            	}
+				militancy = 5
+			}
 		             	  
 				}
 		 }
@@ -128,7 +143,14 @@ political_decisions = {
 		  DLM = { all_core = { add_core = THIS } }
 		  prestige = 20
 		  badboy = 1
-		             	  
+		             	  any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 culture = dalmatian 
+				                		 } 
+			                                            	}
+				militancy = 3
+			}
 				}
 		 }
 		 
@@ -162,6 +184,14 @@ political_decisions = {
 		  PZN = { all_core = { add_core = THIS } }
 		  prestige = 20
 		  badboy = 2
+		  any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 culture = croat 
+				                 culture = pannonian		 } 
+			                                            	}
+				militancy = 5
+			}
 		             	  
 				}
 		 }
@@ -199,7 +229,14 @@ political_decisions = {
 		  set_country_flag = accept_the_poles
 		  add_accepted_culture = polish
 		  prestige = 20
-		 
+		 any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 culture = croat 
+				                 culture = pannonian		 } 
+			                                            	}
+				militancy = 5
+			}
 		             	  
 				}
 		 }
@@ -246,7 +283,14 @@ political_decisions = {
 		  AUS = { all_core = { add_core = THIS } }
 		  SLV = { all_core = { add_core = THIS } }
 		  prestige = 20
-		 
+		 any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 
+				                 culture = pannonian		 } 
+			                                            	}
+				militancy = 2
+			}
 		             	  
 				}
 		 }
@@ -289,6 +333,14 @@ political_decisions = {
 					 limit = { is_core = CRO  }
 		  add_core = THIS
 		  }
+		  any_pop = {
+				limit = { 
+				           OR = { culture = croat
+				          
+				                 culture = pannonian		 } 
+			                                            	}
+				militancy = 3
+			}
 		  prestige = 20
 		 
 		             	  
@@ -322,6 +374,13 @@ political_decisions = {
 		 add_accepted_culture = bavarian
 		 add_accepted_culture = slovak
 		 add_accepted_culture = croat
+		 any_pop = {
+				limit = { 
+				           OR = { culture = czech
+				                 		 } 
+			                                            	}
+				militancy = 1
+			}
 		                 }
 		 
 		 }
@@ -424,6 +483,15 @@ political_decisions = {
 					  MOL = { all_core = { add_core = THIS } }
 					  ALB = { all_core = { add_core = THIS } }
 					  CRO = { all_core = { add_core = THIS } }
+					  any_pop = {
+				limit = { 
+				           OR = { culture = czech   culture = croat
+				                 culture = dalmatian 
+				                 culture = pannonian	
+                                 culture = polish		culture = bavarian						 } 
+			                                            	}
+				militancy = 3
+			}
 					  }
 		 
 		 }
