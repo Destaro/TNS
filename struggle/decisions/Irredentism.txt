@@ -399,16 +399,16 @@ political_decisions = {
 	picture = reclaim_croatia
 		potential = {
 			tag = HUN
-			771 = {
-				NOT = { is_core = HUN }
-			}
+			owns = 670
 			NOT = { has_country_flag = reclaimed_croatia }
 		}
 		allow = {
 			is_vassal = no
-			war_policy = jingoism
+			year = 1880
 			HUN = { all_core = { owned_by = THIS } }
+			owns = 671
 			owns = 670
+			owns = 673
 			OR = {
 				
 				is_greater_power = yes
@@ -416,15 +416,18 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = reclaimed_croatia
+			any_pop = {
+			limit = { culture = croat }
+				militancy = 5
+			}
 			prestige = 5
 			671 = { add_core = HUN }
 			670 = { add_core = HUN }
 			673 = { add_core = HUN }
-			677 = { add_core = HUN }
-			663 = { add_core = HUN }
 			672 = { add_core = HUN }
-			3298 = { add_core = HUN }
 			662 = { add_core = HUN }
+			663 = { add_core = HUN }
+			
 			any_country = {
 				limit = {
 					any_owned_province = { region = AUS_771 }
