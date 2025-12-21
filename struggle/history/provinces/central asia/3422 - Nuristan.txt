@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = OMA
+controller = OMA
 add_core = PER
 add_core = KHZ
 trade_goods = grain

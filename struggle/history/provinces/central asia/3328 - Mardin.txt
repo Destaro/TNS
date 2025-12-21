@@ -5,3 +5,4 @@ trade_goods = iron
 life_rating = 35
 
 add_core = ASY
+add_core = KSK

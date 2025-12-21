@@ -1738,3 +1738,139 @@ country_event = {
 		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
 	}
 }
+
+#early war that can cripple the entirety of kachuskayas game, for byzantine player
+
+country_event = {
+	id = 300150
+	title = "EVTNAME300150" 
+	desc = "EVTDESC300150"
+	picture = "total_greek_victory"
+	
+	mean_time_to_happen = {
+		days = 720
+	}
+	fire_only_once = yes
+	trigger = {
+	BYZ = { ai = no }
+		tag = BYZ
+		year = 1838
+		}
+	#oportunity to finish off kachuskaya
+	option = {
+		name = "EVTOPTA309150"
+		set_country_flag = final_manichean_defeat
+		prestige = 10
+		war = {
+			target = KSK
+			attacker_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 862 }
+		    attacker_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 870 }
+			defender_goal = { casus_belli = war_reparations }
+		}
+	}
+	
+	#avoid because you're unprepared
+	option = {
+		name = "EVTOPTA309150"
+		set_country_flag = afraid_to_fight_kachuskaya
+		prestige = -10
+	}
+}
+
+#early war that can cripple the entirety of kachuskayas game, for byzantine ai
+
+country_event = {
+	id = 300150
+	title = "EVTNAME300150" 
+	desc = "EVTDESC300150"
+	picture = "total_greek_victory"
+	
+	mean_time_to_happen = {
+		days = 720
+	}
+	fire_only_once = yes
+	trigger = {
+	BYZ = { ai = yes }
+		tag = BYZ
+		year = 1838
+		}
+	#oportunity to finish off kachuskaya
+	option = {
+		name = "EVTOPTA309150"
+		set_country_flag = final_manichean_defeat
+		prestige = 10
+		war = {
+			target = KSK
+			attacker_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 862 }
+		    attacker_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 870 }
+			defender_goal = { casus_belli = war_reparations }
+		}
+	}
+	
+	
+}
+
+#early war that can cripple the entirety of kachuskayas game, for kachuskayan player
+
+country_event = {
+	id = 300151
+	title = "EVTNAME300151" 
+	desc = "EVTDESC300151"
+	picture = "total_greek_victory"
+	
+	mean_time_to_happen = {
+		days = 720
+	}
+	fire_only_once = yes
+	trigger = {
+	KSK = { ai = no }
+		tag = KSK
+		year = 1838
+		}
+	#fight the romans
+	option = {
+		name = "EVTOPTA309151"
+		set_country_flag = our_last_stand
+		prestige = 10
+		war = {
+			target = BYZ
+			defender_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 862 }
+		    defender_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 870 }
+			attacker_goal = { casus_belli = war_reparations }
+		}
+	}
+	
+	#avoid because you're unprepared
+	option = {
+		name = "EVTOPTA309151"
+		set_country_flag = afraid_to_fight_romans
+		prestige = -30
+		any_owned = {
+            limit = {
+                OR = {
+                    province_id = 861
+                    province_id = 862
+					province_id = 863
+					province_id = 3479
+					province_id = 864
+					province_id = 865
+					province_id = 3325
+					province_id = 844
+					province_id = 869
+					province_id = 843
+					province_id = 870
+					province_id = 872
+					
+                }
+            }
+            secede_province = BYZ
+        }
+	}
+}
+

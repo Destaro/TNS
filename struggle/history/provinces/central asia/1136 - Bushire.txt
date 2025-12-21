@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = OMA
+controller = OMA
 add_core = PER
 add_core = BSR
 trade_goods = fish
