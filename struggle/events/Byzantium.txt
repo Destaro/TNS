@@ -1748,7 +1748,7 @@ country_event = {
 	picture = "total_greek_victory"
 	
 	mean_time_to_happen = {
-		days = 720
+		days = 1
 	}
 	fire_only_once = yes
 	trigger = {
@@ -1759,61 +1759,18 @@ country_event = {
 	#oportunity to finish off kachuskaya
 	option = {
 		name = "EVTOPTA309150"
-		set_country_flag = final_manichean_defeat
 		prestige = 10
-		war = {
-			target = KSK
-			attacker_goal = { casus_belli = acquire_any_state
-			                                state_province_id = 862 }
-		    attacker_goal = { casus_belli = acquire_any_state
-			                                state_province_id = 870 }
-			defender_goal = { casus_belli = war_reparations }
-		}
+		KSK = { country_event = 3000151 }
+		ai_chance = { factor = 100 }
 	}
 	
 	#avoid because you're unprepared
 	option = {
 		name = "EVTOPTA309150"
-		set_country_flag = afraid_to_fight_kachuskaya
 		prestige = -10
+		ai_chance = { factor = 0 }
 	}
 }
-
-#early war that can cripple the entirety of kachuskayas game, for byzantine ai
-
-country_event = {
-	id = 300150
-	title = "EVTNAME300150" 
-	desc = "EVTDESC300150"
-	picture = "total_greek_victory"
-	
-	mean_time_to_happen = {
-		days = 720
-	}
-	fire_only_once = yes
-	trigger = {
-	BYZ = { ai = yes }
-		tag = BYZ
-		year = 1838
-		}
-	#oportunity to finish off kachuskaya
-	option = {
-		name = "EVTOPTA309150"
-		set_country_flag = final_manichean_defeat
-		prestige = 10
-		war = {
-			target = KSK
-			attacker_goal = { casus_belli = acquire_any_state
-			                                state_province_id = 862 }
-		    attacker_goal = { casus_belli = acquire_any_state
-			                                state_province_id = 870 }
-			defender_goal = { casus_belli = war_reparations }
-		}
-	}
-	
-	
-}
-
 #early war that can cripple the entirety of kachuskayas game, for kachuskayan player
 
 country_event = {
@@ -1826,15 +1783,10 @@ country_event = {
 		days = 720
 	}
 	fire_only_once = yes
-	trigger = {
-	KSK = { ai = no }
-		tag = KSK
-		year = 1838
-		}
+	is_triggered_only = yes
 	#fight the romans
 	option = {
 		name = "EVTOPTA309151"
-		set_country_flag = our_last_stand
 		prestige = 10
 		war = {
 			target = BYZ
@@ -1844,12 +1796,12 @@ country_event = {
 			                                state_province_id = 870 }
 			attacker_goal = { casus_belli = war_reparations }
 		}
+		ai_chance = { factor = 90 }
 	}
 	
 	#avoid because you're unprepared
 	option = {
 		name = "EVTOPTA309151"
-		set_country_flag = afraid_to_fight_romans
 		prestige = -30
 		any_owned = {
             limit = {
@@ -1871,6 +1823,7 @@ country_event = {
             }
             secede_province = BYZ
         }
+		ai_chance = { factor = 5 }
 	}
 }
 
