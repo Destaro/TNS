@@ -512,6 +512,47 @@ country_event = {
 	}
 }
 
+
+#courland becomes a puppet
+country_event = {
+
+	id = 4445025
+
+	title = "EVTNAME4445025" #Courlandpuppet
+	desc = "EVTDESC4445025"
+	picture = "danishgovernment"
+
+ is_triggered_only = yes
+
+	option = {
+		name = "EVT4445025PTA"
+		SCA = { create_vassal = CUR }
+			
+	    }
+	
+}
+
+#bolkania loses sphere on latvia
+country_event = {
+
+	id = 4445026
+
+	title = "EVTNAME4445026" #bolkanianosphere
+	desc = "EVTDESC4445026"
+	picture = "danishgovernment"
+
+ is_triggered_only = yes
+
+	option = {
+		name = "EVT4445026PTA"
+		THIS = { diplomatic_influence = {
+	            who = LAT
+	            value = -400 } }	
+			
+	    }
+	
+}
+
 country_event = {
 	id = 47860904
 	title = "EVTNAME47860904" #vinlandicrevobellion
@@ -536,11 +577,13 @@ country_event = {
 		name = "EVTOPT47860904A"
 		VIN = { country_event = 47860903 }
 		THIS = { leave_alliance = VIN }
-		
+		SCA = { diplomatic_influence = {
+	          who = VIN
+	           value = -400 } }
+									     
 		SCA = {
 			release_vassal = VIN
-			
-		}
+		                           }
 		
 		
 		set_global_flag = the_vinlandic_rebellion

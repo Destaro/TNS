@@ -961,7 +961,8 @@ restore_the_baltic = {
 	 tag = SCA 
 	 tag = SWE
 	 }
-	 NOT = {  has_country_flag = restore_the_baltic }
+	 NOT = {  has_country_flag = restore_the_baltic
+              year = 1850                                     	 }
 	            }
      
 	 allow = {
@@ -974,7 +975,18 @@ restore_the_baltic = {
 	 BUL = { release_vassal = LIT }
 	 BUL = { release_vassal = BYE }
 	 SCA = { create_vassal = LAT }
-	 SCA = { create_vassal = CUR }
+	 LIT = { country_event = 4004005 }
+	 BUL = { country_event = 4445026 }
+	 CUR = { country_event = 4445025 }
+	 LIT = { any_owned = {
+				limit = {
+					is_core = CUR
+					NOT = { is_core = SCA }
+				                       }
+				secede_province = CUR
+			                       }
+		                                    }
+	 
 	 SCA = { create_vassal = LIT }
 	 
 	  any_owned = {
@@ -984,10 +996,13 @@ restore_the_baltic = {
            			secede_province = LAT	}
 	 prestige = 20
 	 set_country_flag = restore_the_baltic
-	LIT = { country_event = 4004005 }
+	
+	
+	    SCA = { create_vassal = CUR }		
+        	
 	 }
 
-      }
+  }
 	  
 	  restore_nordumbren = {
      potential = {
