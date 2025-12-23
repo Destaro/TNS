@@ -1,22 +1,28 @@
 political_decisions = {
+
 victory_against_scandinavia = {
+
 potential = { 
-       tag = ORL
-	    NOT = { has_country_flag = victory_against_scandinavia }
+      
+	  tag = ORL
+	   NDY = { is_vassal = no }
+	    NOT = { has_country_flag = victory_against_scandinavia	}
 		
 		           }
 				   
 	allow = { 
+	
 	war = no
 	BRT = { war = no }
 	NDY = { war = no }
-	}
+	                           }
+							   
 	effect = {
 	set_country_flag = victory_against_scandinavia 
 	
 	inherit = NDY
 	prestige = 10
-	}
+	                     }
 }
 
 reclaim_ocitania = {
