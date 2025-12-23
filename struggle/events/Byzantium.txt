@@ -1738,7 +1738,100 @@ country_event = {
 		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
 	}
 }
-
+#WAR WITH CARTHAGE - THE JUNE WAR EMERGES AS A CONTINUATION OF THE SICILIAN CONFLICT
+country_event = {
+	id = 300044
+	title = "EVTNAME300044" 
+	desc = "EVTDESC300044"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		SIC = { vassal_of = BYZ }
+		year = 1845
+		month = 6
+		}
+	#THE WAR IS ABSOLUTELY GUARANTEED - NEITHER POWER IS WILLING TO ACCEPT THE POSSIBILITY OF FAILURE
+	option = {
+		name = "EVTOPTA300044"
+		TUN = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		war = {
+			target = TUN
+			attacker_goal = { casus_belli = acquire_any_state
+			                                state_province_id = 763 }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+	}
+}
+#CARTHAGINIAN VICTORY - IF BYZANTIUM IS CUT DOWN TO SIZE OR ALTERNATIVE SCENARIO
+country_event = {
+	id = 300045
+	title = "EVTNAME300045" 
+	desc = "EVTDESC300045"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = TUN
+		war_with = BYZ
+		year = 1845
+		SIC = { vassal_of = BYZ }
+		NOT = { year = 1855 }
+		OR = {
+		860 = { 
+			owned_by = BYZ
+			controlled_by = THIS
+			province_control_days = 120
+			}
+		BYZ = { is_disarmed = yes }
+		BYZ = { war_exhaustion = 70 }
+			}
+		}
+	#MILITARY VICTORY SEES CARTHAGE INHERIT SOUTHERN ITALY 
+	option = {
+		name = "EVTOPTA300045"
+		prestige = 50
+		inherit = SIC
+		BYZ = { any_owned = { limit = { OR = { is_core = SIC is_core = TUN } } secede_province = TUN add_core = TUN } }
+	}
+}
+#BYZANTINE VICTORY - SICILY BECOMES ITS OWN VASSAL RATHER THAN PART OF SOUTHERN ITALY
+country_event = {
+	id = 300046
+	title = "EVTNAME300046" 
+	desc = "EVTDESC300046"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		owns = 763
+		SIC = { vassal_of = THIS }
+		}
+	#MILITARY VICTORY SEES CARTHAGE INHERIT SOUTHERN ITALY 
+	option = {
+		name = "EVTOPTA300046"
+		prestige = 25
+		release_vassal = SYC
+		diplomatic_influence = { who = SYC value = 400 }
+		SYC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_pop = { limit = { OR = { has_pop_culture = punic has_pop_culture = african_romance } } reduce_pop = 0.1 } }
+	}
+}
+#WAR WITH AQUILEIA
+#WAR WITH POPE
+#WAR WITH REST OF ITALY
+#BREAKING UP OF SOUTHERN ITALY
+#ANNEXATION OF ITALIAN PROVINCES
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
 
 country_event = {
@@ -1780,7 +1873,7 @@ country_event = {
 	picture = "total_greek_victory"
 	
 	mean_time_to_happen = {
-		days = 720
+		days = 1
 	}
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -1826,4 +1919,34 @@ country_event = {
 		ai_chance = { factor = 5 }
 	}
 }
+#BYZANTINE EVENT TO EXPEL THE KACHUSKAYANS - NOT EVEN THE LATINS WILL STOP THIS
+country_event = {
+	id = 300152
+	title = "EVTNAME300152" 
+	desc = "EVTDESC300152"
+	picture = "total_greek_victory"
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		owns = 863
+		owns = 869
+		}
+	#MANY KACHUSKAYANS ARE KILLED, THE ENTIRE ANATOLIAN COASTLINE GETS BYZANTINE CORES
+	option = {
+		name = "EVTOPTA309152"
+		prestige = 10
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 move_pop = 876 }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 move_pop = 876 }		
+		TUR_863 = { add_core = BYZ }
+		TUR_869 = { add_core = BYZ }
+		TUR_880 = { add_core = BYZ }
+		remove_core = 3494
+		TUR_882 = { add_core = BYZ }
+		ai_chance = { factor = 90 }
+	}
+}
+
 
