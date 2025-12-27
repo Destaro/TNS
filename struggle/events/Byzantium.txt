@@ -1518,7 +1518,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 	option = {
-		name "EVTOPTB300036"
+		name = "EVTOPTB300036"
 		badboy = -3
 		prestige = -20
 		}
