@@ -2953,13 +2953,13 @@
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 50
+		size = 550
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 4625
+		size = 14625
 	}
 }
 #Joplin (25000/5000 POPS)
@@ -2967,25 +2967,25 @@
 	clergymen = {
 		culture = visigothic
 		religion = protestant
-		size = 75
+		size = 275
 	}
 
 	artisans = {
 		culture = visigothic
 		religion = protestant
-		size = 250
+		size = 1250
 	}
 
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 50
+		size = 3500
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 4625
+		size = 44625
 	}
 }
 #Joplin (25000/5000 POPS)
@@ -2999,19 +2999,19 @@
 	artisans = {
 		culture = visigothic
 		religion = protestant
-		size = 250
+		size = 1250
 	}
 
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 50
+		size = 150
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 4625
+		size = 14625
 	}
 }
 #Joplin (25000/5000 POPS)
@@ -3025,19 +3025,19 @@
 	artisans = {
 		culture = visigothic
 		religion = protestant
-		size = 250
+		size = 1250
 	}
 
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 50
+		size = 150
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 4625
+		size = 24625
 	}
 }
 

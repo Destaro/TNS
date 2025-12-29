@@ -270,7 +270,7 @@ substate = {
 }
 
 # Carthage-Lusitania
-substate = {
+vassal = {
 	first = TUN
 	second = LST
 	start_date = 1800.1.1

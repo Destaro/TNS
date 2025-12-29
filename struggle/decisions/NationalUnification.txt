@@ -161,6 +161,7 @@ political_decisions = {
 				tag = CSA
 				tag = URP
 				tag = BYZ
+				tag = IBR
 			}
 		}
 		

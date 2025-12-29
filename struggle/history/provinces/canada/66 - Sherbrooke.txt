@@ -1,8 +1,8 @@
 owner = AVA
 controller = AVA
 add_core = AVA
+add_core = VIN
 trade_goods = grain
 life_rating = 30
 
 
-add_core = VIN

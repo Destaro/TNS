@@ -512,6 +512,24 @@ country_event = {
 	}
 }
 
+#courland becomes a puppet
+country_event = {
+
+	id = 4445025
+
+	title = "EVTNAME4445025" #Courlandpuppet
+	desc = "EVTDESC4445025"
+	picture = "danishgovernment"
+
+ is_triggered_only = yes
+
+	option = {
+		name = "EVT4445025PTA"
+		SCA = { create_vassal = CUR }
+			
+	    }
+	
+}
 
 #courland becomes a puppet
 country_event = {
