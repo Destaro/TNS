@@ -98,7 +98,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA2222111111"
 	FROM = { country_event = 222211112 } 
-	treasury = 100000
+	treasury = 500000
 		ai_chance = { factor = 75 }
 	}
 	
@@ -126,7 +126,7 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTA2222111121"
-	treasury = -100000
+	treasury = -500000
 	2209 = { secede_province = THIS }
 	2210 = { secede_province = THIS }
 	2211 = { secede_province = THIS }
@@ -361,8 +361,9 @@ country_event = {
 	#give money 
 	option = {
 		name = "EVTOPTA444411118A"
-	    badboy = 5
-		LOA = { annex_to = THIS }
+		treasury = -100000
+		LUN = { treasury = 50000 } 
+		KUB = { treasury = 50000 } 
 	relation = {
 	who = LUN 
 	value = 200    }
@@ -384,6 +385,55 @@ country_event = {
 	#dont give money
 	option = {
 		name = "EVTOPTA444411118B"
+		prestige = -5
+	}
+	
+}
+
+#send resources to the east congolese rebellion
+country_event = {
+	id = 444411118
+	title = "EVTNAME4444111188" 
+	desc = "EVTDESC4444111188"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = WHA tag = CEL }
+	LBA = { war_with = KON }
+	owns = 1981
+	has_global_flag = the_eastern_kongo_rebellion
+	}
+	
+	#give money 
+	option = {
+		name = "EVTOPTA4444111188A"
+	 treasury = -100000
+		LBA = { treasury = 50000 } 
+		AZA = { treasury = 50000 } 
+		
+	relation = {
+	who = LBA 
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = LBA
+	value = 100      }
+	
+	relation = {
+	who = AZA
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = AZA
+	value = 100      }
+	
+	}
+	
+	#dont give money
+	option = {
+		name = "EVTOPTA4444111188B"
 		prestige = -5
 	}
 	
