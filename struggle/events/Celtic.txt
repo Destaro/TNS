@@ -181,7 +181,7 @@ country_event = {
 		name = "EVTOPTA4444111141"
 	treasury = -25000
 	MAD = { country_event = 444411115 }
-	
+	prestige = 5
 		relation = {
 	who = MAD 
 	value = 200    }
@@ -231,7 +231,7 @@ country_event = {
 	
 	trigger = {
 	tag = WHA
-	year = 1850
+	year = 1843
 	has_country_flag = our_hand_in_the_merinan_pocket
 	}
 	
@@ -240,9 +240,17 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA44441111551"
-	treasury = -15000
+		name = "EVTOPTA444411115A"
+	treasury = -25000
+	MAD = { country_event = 444411115 }
 	}
+	
+	option = {
+		name = "EVTOPTA444411115B"
+	    
+	}
+	
+	
 	
 }
 
@@ -256,7 +264,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	    year = 1855
+	    year = 1847
 	    war = no
 		OR = { tag = WHA tag = CEL }
 		MAD = { in_sphere = THIS }
@@ -317,11 +325,11 @@ country_event = {
 	#annex loango
 	option = {
 		name = "EVTOPTA444411117A"
-	    badboy = 5
+	    badboy = 1
 		LOA = { annex_to = THIS }
 		relation = {
-	who = KON 
-	value = -200    }
+	    who = KON 
+	    value = -200 }
 	
 	diplomatic_influence = {
 	who = KON
@@ -527,33 +535,120 @@ country_event = {
 	#how dare they!
 	option = {
 		name = "EVTOPTA4444111192B"
-		badboy = 5
+		      badboy = 5
 	          add_casus_belli = {
 	          target = OMA
-	          type = demand_concession_casus_belli
+	          type = demand_concession_casus_belli_any
 			  state_province_id = 1303
 	          months = 12          }
 			  
 			   add_casus_belli = {
 	          target = OMA
-	          type = demand_concession_casus_belli
+	          type = demand_concession_casus_belli_any
 			  state_province_id = 1071
 	          months = 12          }
 			  
 			   add_casus_belli = {
 	          target = OMA
-	          type = demand_concession_casus_belli
+	          type = demand_concession_casus_belli_any
 			  state_province_id = 3422
 	          months = 12          }
 			  
 			   add_casus_belli = {
 	          target = OMA
-	          type = demand_concession_casus_belli
+	          type = demand_concession_casus_belli_any
 			  state_province_id = 1136
 	          months = 12          }
 			  
 		ai_chance = { factor = 50 }
 	}
 		
+	
+}
+
+
+#ultimatum to oman
+country_event = {
+	id = 444411120
+	title = "EVTNAME444411120" 
+	desc = "EVTDESC444411120"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#surrender zanzibar
+	option = {
+		name = "EVTOPTA444411120A"
+	any_owned = {
+	  limit = {  is_core = ZAN  }
+	  secede_province = FROM
+	    }
+		ai_chance = { factor = 65 }
+		FROM = { country_event = 444411121 }
+	}
+	
+	#oman refuses 
+	option = {
+		name = "EVTOPTA444411120A"
+	FROM = { country_event = 444411122 }
+		ai_chance = { factor = 35 }
+	}
+	
+}
+
+#oman accepts
+country_event = {
+	id = 444411121
+	title = "EVTNAME444411121" 
+	desc = "EVTDESC444411121"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPTA444411121A"
+        prestige = 10
+	}
+	
+}
+
+#oman refuses
+country_event = {
+	id = 444411122
+	title = "EVTNAME444411121" 
+	desc = "EVTDESC444411121"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    #they called our bluff
+	option = {
+		name = "EVTOPTA444411122A"
+        prestige = -20
+	}
+	
+	#to war by jingo!
+	option = {
+		name = "EVTOPTA444411122B"
+        prestige = 5
+		badboy = 2
+		war = {
+                target = OMA
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
 	
 }
