@@ -11,13 +11,12 @@ form_celts = {
 			      }
 			
 			NOT = {
-				
 				exists = CEL
 				has_country_flag = form_celts
 			}
 		}	
 		allow = {
-		
+		revolution_n_counterrevolution = 1
 			war = no
 			IRE = {
 				all_core = {
@@ -92,9 +91,7 @@ form_celts = {
 		
 		effect = {
 		set_country_flag = form_celts
-		add_accepted_culture = irish
 		add_accepted_culture = scottish
-		add_accepted_culture = welsh
 		add_accepted_culture = breton
 			prestige = 25
 				any_country = {
@@ -178,10 +175,10 @@ claim_scotland = {
 			NOT = {	has_country_flag = claim_scotland }
 		}	
 		allow = {
-		
+		is_greater_power = yes
 			war = no
-			SCO = {	all_core = { owned_by = THIS }		}
-			
+			WHA = {	all_core = { owned_by = THIS }		}
+			state_n_government = 1
 			
 			
 			
@@ -217,10 +214,10 @@ claim_england = {
 			}
 		}	
 		allow = {
-		
+		is_greater_power = yes
 			war = no
-			ENL = {	all_core = { owned_by = THIS }			}
-			
+			WHA = {	all_core = { owned_by = THIS }			}
+			state_n_government = 1
 			
 			
 			
@@ -251,6 +248,7 @@ claim_england = {
 	   NOT = { has_country_flag = remove_nordic_claims }
 	   }
 	   allow = {
+	   nationalism_n_imperialism = 1
 	   war = no
          SCO = {	all_core = { owned_by = THIS }	}
 		 ENL = { all_core = { owned_by = THIS } }
@@ -265,6 +263,91 @@ claim_england = {
 				                 }
 				remove_core = SCA
                         } 		
+		          }
+	}
+	
+	negotiate_the_purchase_of_mayumbe = {
+	   potential = { 
+	   OR = { 
+	   tag = WHA
+	   tag = CEL
+	   }
+	   NOT = { has_country_flag = negotiate_the_purchase_of_mayumbe }
+	                  }
+	   
+	   allow = {
+	   year = 1845
+	   is_greater_power = yes
+	   war = no
+       THIS = { is_sphere_leader_of = KON }
+	   THIS = { is_sphere_leader_of = LOA }
+		             }
+		 
+	   effect = {
+         set_country_flag = negotiate_the_purchase_of_mayumbe
+		 KON = { country_event = 444411111 }
+		          }
+	}
+	
+	the_purchase_of_kuba = {
+	   potential = { 
+	   OR = { 
+	   tag = WHA
+	   tag = CEL
+	   tag = SCA
+	   tag = ORL
+	   tag = FRC
+	   tag = ITA
+	   tag = GER
+	   tag = TUN
+	   }
+	   NOT = { has_country_flag = the_purchase_of_kuba
+               has_global_flag = kuba_purchased
+               has_country_flag = toledu_refused_kuba 
+               VNS = { vassal_of = TLD }                }
+	   2209 = { owned_by = TLD }
+	   2217 = { owned_by = TLD }
+	   nationalism_n_imperialism = 1
+	   has_global_flag = the_mexican_rebellion
+	                  }
+	   
+	   allow = {
+	   military_score = 200
+	   is_greater_power = yes
+	   war = no
+		             }
+		 
+	   effect = {
+         set_country_flag = the_purchase_of_kuba
+		 TLD = { country_event = 222211111 }
+		          }
+	}
+	
+	negotiate_the_purchase_of_omani_ports = {
+	   potential = { 
+	   OR = { 
+	   tag = WHA
+	   tag = CEL
+	   }
+	   NOT = { has_country_flag = negotiate_the_purchase_of_omani_ports }
+	   OR = {  
+	           OMA = { owns = 1303
+	                   owns = 3422
+					   owns = 1136
+	                   owns = 1071 }    
+	        }
+	   }
+	   
+	   allow = {
+	   state_n_government = 1
+	   is_greater_power = yes
+	   war = no
+       
+		             }
+		 
+	   effect = {
+         set_country_flag = negotiate_the_purchase_of_omani_ports
+		 OMA = { country_event = 444411119 }
 		          }
 	}
 

@@ -1,0 +1,509 @@
+#Kongo gets offer to sell mayumbe
+country_event = {
+	id = 444411111
+	title = "EVTNAME444411111" 
+	desc = "EVTDESC444411111"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#they accept
+	option = {
+		name = "EVTOPTA444411111"
+	WHA = { country_event = 444411112 } 
+	treasury = 100000
+		ai_chance = { factor = 75 }
+	}
+	
+	#they refuse
+	option = {
+		name = "EVTOPTA4444111112"
+	WHA = { country_event = 444411113 } 
+		ai_chance = { factor = 25 }
+	}
+		
+	
+}
+
+#Kongo accepts
+country_event = {
+	id = 444411112
+	title = "EVTNAME444411112" 
+	desc = "EVTDESC444411112"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA4444111122"
+	1974 = { secede_province = THIS }
+	treasury = -100000
+		
+	}
+	
+		
+	
+}
+
+#Kongo refuses
+country_event = {
+	id = 444411113
+	title = "EVTNAME444411113" 
+	desc = "EVTDESC444411113"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#we accept their refusal	
+	option = {
+		name = "EVTOPTA4444111132"
+	 
+	prestige = -15
+		ai_chance = { factor = 50 }
+	}
+	#how dare they!
+	option = {
+		name = "EVTOPTA44441111132"
+	          add_casus_belli = {
+	          target = KON
+	          type = acquire_substate_region 
+			  state_province_id = 1974
+	          months = 12          }
+			  
+		ai_chance = { factor = 50 }
+	}
+		
+	
+}
+
+#Toledu gets offered to sell Kuba and jamaica
+country_event = {
+	id = 222211111
+	title = "EVTNAME222211111" 
+	desc = "EVTDESC222211111"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    #they accept
+	option = {
+		name = "EVTOPTA2222111111"
+	FROM = { country_event = 222211112 } 
+	treasury = 100000
+		ai_chance = { factor = 75 }
+	}
+	
+	#they refuse
+	option = {
+		name = "EVTOPTA2222111112"
+	FROM = { country_event = 222211113 } 
+		ai_chance = { factor = 25 }
+	}
+		
+	
+}
+
+#Toledu accepts
+country_event = {
+	id = 222211112
+	title = "EVTNAME222211112" 
+	desc = "EVTDESC222211112"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA2222111121"
+	treasury = -100000
+	2209 = { secede_province = THIS }
+	2210 = { secede_province = THIS }
+	2211 = { secede_province = THIS }
+	2212 = { secede_province = THIS }
+	2217 = { secede_province = THIS }
+	2218 = { secede_province = THIS }
+	set_global_flag = kuba_purchased
+	}
+		
+}
+
+#Toledu refuses
+country_event = {
+	id = 222211113
+	title = "EVTNAME222211113" 
+	desc = "EVTDESC222211113"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA2222111131"
+	set_country_flag = toledu_refused_kuba 
+	}
+		
+}
+
+#influence in madagascar
+country_event = {
+	id = 444411114
+	title = "EVTNAME444411114" 
+	desc = "EVTDESC444411114"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    year = 1840
+	    war = no
+		tag = WHA
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#invest further
+	option = {
+		name = "EVTOPTA4444111141"
+	treasury = -25000
+	MAD = { country_event = 444411115 }
+	
+		relation = {
+	who = MAD 
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = MAD
+	value = 100      }
+	
+	set_country_flag = our_hand_in_the_merinan_pocket
+	
+	}
+	
+	#this is fine
+	option = {
+		name = "EVTOPTA4444111142"
+	relation = {
+	who = MAD 
+	value = 200    }
+	}
+	
+		
+}
+
+#madagascar gets moneh
+country_event = {
+	id = 444411115
+	title = "EVTNAME444411115" 
+	desc = "EVTDESC444411115"
+	picture = "rosas_urquiza"
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVTOPTA4444111151"
+	treasury = 25000
+	}
+	
+}
+
+#place our people in the merinan court
+country_event = {
+	id = 444411115
+	title = "EVTNAME4444111155" 
+	desc = "EVTDESC4444111155"
+	picture = "rosas_urquiza"
+	
+	trigger = {
+	tag = WHA
+	year = 1850
+	has_country_flag = our_hand_in_the_merinan_pocket
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA44441111551"
+	treasury = -15000
+	}
+	
+}
+
+#madagascar kicks the celts out
+country_event = {
+	id = 444411116
+	title = "EVTNAME444411116" 
+	desc = "EVTDESC444411116"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    year = 1855
+	    war = no
+		OR = { tag = WHA tag = CEL }
+		MAD = { in_sphere = THIS }
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+    
+	#abandon madagascar
+	option = {
+		name = "EVTOPTA4444111161"
+	    prestige = -30
+		relation = {
+	    who = MAD 
+	    value = -100    }
+	}
+	
+	#intervene with our supporters
+	option = {
+		name = "EVTOPTA4444111162"
+		relation = {
+	    who = MAD 
+	    value = -200    }
+		prestige = 5
+		badboy = 2
+	    war = {
+                target = MAD
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
+	
+		
+}
+
+#intervene on loango
+country_event = {
+	id = 444411117
+	title = "EVTNAME444411117" 
+	desc = "EVTDESC444411117"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = WHA tag = CEL }
+	LOA = { war_with = KON }
+	owns = 1974
+	has_global_flag = the_northern_kongo_rebellion
+	}
+	
+	#annex loango
+	option = {
+		name = "EVTOPTA444411117A"
+	    badboy = 5
+		LOA = { annex_to = THIS }
+		relation = {
+	who = KON 
+	value = -200    }
+	
+	diplomatic_influence = {
+	who = KON
+	value = -100      }
+	}
+	
+	#its not the time
+	option = {
+		name = "EVTOPTA444411117B"
+		relation = {
+	who = KON
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = KON
+	value = 100      }
+	}
+	
+}
+
+#send resources to the south congolese rebellion
+country_event = {
+	id = 444411118
+	title = "EVTNAME444411118" 
+	desc = "EVTDESC444411118"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = WHA tag = CEL }
+	LUN = { war_with = KON }
+	owns = 1981
+	has_global_flag = the_southern_kongo_rebellion
+	}
+	
+	#give money 
+	option = {
+		name = "EVTOPTA444411118A"
+	    badboy = 5
+		LOA = { annex_to = THIS }
+	relation = {
+	who = LUN 
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = LUN
+	value = 100      }
+	
+	relation = {
+	who = KUB 
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = KUB
+	value = 100      }
+	
+	}
+	
+	#dont give money
+	option = {
+		name = "EVTOPTA444411118B"
+		prestige = -5
+	}
+	
+}
+
+#Oman gets offer to sell indian and persian ports
+country_event = {
+	id = 444411119
+	title = "EVTNAME444411119" 
+	desc = "EVTDESC444411119"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#they accept
+	option = {
+		name = "EVTOPTA444411119A"
+	WHA = { country_event = 4444111191 } 
+	treasury = 100000
+	any_owned = { 
+	    limit = { OR = {  province_id = 1303  
+		                  province_id = 3422   
+                          province_id = 1136	
+ 						  province_id = 1071  } }
+	  secede_province = FROM 
+	                        }
+	  
+		ai_chance = { factor = 75 }
+	}
+	
+	#they refuse
+	option = {
+		name = "EVTOPTA444411119B"
+	WHA = { country_event = 4444111192 } 
+		ai_chance = { factor = 25 }
+	}
+		
+	
+}
+
+#oman accepts
+country_event = {
+	id = 4444111191
+	title = "EVTNAME4444111191" 
+	desc = "EVTDESC4444111191"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA4444111191A"
+	treasury = -100000
+	
+	relation = {
+	who = OMA
+	value = 150
+                }
+					
+	diplomatic_influence = {
+	who = OMA
+	value = 100
+                }
+	}
+	
+}
+
+#oman refuses
+country_event = {
+	id = 4444111192
+	title = "EVTNAME4444111192" 
+	desc = "EVTDESC4444111192"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#we accept their refusal	
+	option = {
+		name = "EVTOPTA4444111192A"
+	 
+	prestige = -5
+		ai_chance = { factor = 50 }
+	         }
+	
+	#how dare they!
+	option = {
+		name = "EVTOPTA4444111192B"
+		badboy = 5
+	          add_casus_belli = {
+	          target = OMA
+	          type = demand_concession_casus_belli
+			  state_province_id = 1303
+	          months = 12          }
+			  
+			   add_casus_belli = {
+	          target = OMA
+	          type = demand_concession_casus_belli
+			  state_province_id = 1071
+	          months = 12          }
+			  
+			   add_casus_belli = {
+	          target = OMA
+	          type = demand_concession_casus_belli
+			  state_province_id = 3422
+	          months = 12          }
+			  
+			   add_casus_belli = {
+	          target = OMA
+	          type = demand_concession_casus_belli
+			  state_province_id = 1136
+	          months = 12          }
+			  
+		ai_chance = { factor = 50 }
+	}
+		
+	
+}
