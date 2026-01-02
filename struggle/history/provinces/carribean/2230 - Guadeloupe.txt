@@ -1,5 +1,6 @@
-owner = ORL
-controller = ORL
+owner = WHA
+controller = WHA
+add_core = WHA
 trade_goods = fruit
 life_rating = 35
 colonial = 2

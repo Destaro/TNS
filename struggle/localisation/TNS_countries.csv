@@ -2,7 +2,7 @@
 concede_finland_title;Integrate Finland;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 concede_finland_desc;Finland has been autonomous since the conclusion of the eastern conquests, but now with increased ease of administration we can finally reintegrate the duchy into Sweden proper.;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 GC_NAME;The Northern Struggle;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
-GC_DESC;BLABLABLATESTING.;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GC_DESC;A concert of nations and empires, crumbling and rising, old and new, the sound of cries of joy and pain can be heard across from europe to andronica, from himilconis to asia, the once proud lion of the north is dying, a cancer has taken root, a leg may need to be cut to prevent further infection, grudges and oaths are reinforced every day evermore, what a glorious time this is, a brand new world aproaches, one which will be ruled either the old or the new, such is the struggle of man.;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 zoroastrian_country;Zoroastrian Religion;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"	"
 zoroastrian;Mazdayasna;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 manichaeism_country;Manichaeism Religion;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"	"
@@ -1218,3 +1218,22 @@ GER_hms_government;Kingdom of Germany;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 GER_fascist_dictatorship;German Reich;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 GER_proletarian_dictatorship;Commune of Germany;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
 GER_democracy;German Republic;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+CCC_ADJ;Celtic;Celtic;Celtic;;;;;;;;;;;x;
+CCC;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_proletarian_dictatorship;The Gaelic Lybian Commonwealth;The Gaelic Lybian Commonwealth;The Gaelic Lybian Commonwealth;;;;;;;;;;;x;
+CCC_presidential_dictatorship;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_bourgeois_dictatorship;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_fascist_dictatorship;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_absolute_monarchy;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_prussian_constitutionalism;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_hms_government;The Celtic Colonial Company;The Celtic Colonial Company;The Celtic Colonial Company;;;;;;;;;;;x;
+CCC_democracy;The Celtic Libyan Republic;The Celtic Libyan Republic;The Celtic Libyan Republic;;;;;;;;;;;x;
+CCC_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+CCC_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+CCC_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+CCC_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+CCC_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+CCC_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+CCC_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+CCC_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+CCC_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;

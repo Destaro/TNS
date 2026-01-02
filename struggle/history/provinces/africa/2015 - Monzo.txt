@@ -1,7 +1,7 @@
 owner = TRN
 controller = TRN
-
 add_core = KZB
+add_core = LUN
 trade_goods = grain
 terrain = savanna
 life_rating = 30

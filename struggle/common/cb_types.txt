@@ -106,6 +106,7 @@ colonial_conquest
 demand_concession_BC_casus_belli
 demand_concession_NI_casus_belli
 demand_concession_casus_belli
+demand_concession_casus_belli_any
 rude_boy
 conquest
 conquest_any
@@ -4298,6 +4299,109 @@ demand_concession_casus_belli = {
 			to = pro_military
 			value = 0.1
 		}
+	}
+	
+	on_po_accepted = {
+	}
+}
+
+# Demand Concession no infamy
+demand_concession_casus_belli_any = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 0
+	constructing_cb = no
+	crisis = no
+		
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 0.6
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		is_vassal = no
+		always = no
+	}
+	
+	allowed_states = {
+		any_owned_province = { is_colonial = no }
+		
+		#Restrictions to Chinese State conquering
+		OR = {
+			NOT = { owner = { is_culture_group = east_asian } }
+			NOT = { total_pops = 600000 }
+			NOT = { any_owned_province = { is_core = CHI } }
+			AND = {
+				THIS = { ai = no naval_directionism = 1 machine_guns = 1 NOT = { capital_scope = { continent = asia } } }
+				any_owned_province = { any_neighbor_province = { OR = { NOT = { owned_by = THIS } is_overseas = yes } } }
+				any_owned_province = { port = yes }
+			}
+			AND = {
+				THIS = { capital_scope = { continent = asia } ai = no naval_logistics = 1 num_of_ports = 1 }
+				NOT = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
+				any_owned_province = { port = yes }
+			}
+			AND = {
+				THIS = {
+					integral_rail_system = 1
+					military_logistics = 1
+					machine_guns = 1
+					ai = no
+					NOT = { capital_scope = { continent = asia } }
+				}
+				NOT = { total_pops = 2000000 }
+				any_owned_province = { any_neighbor_province = { owned_by = THIS is_overseas = no has_building = railroad } }
+			}
+			AND = {
+				THIS = { steel_railroad = 1 military_logistics = 1 machine_guns = 1 ai = no capital_scope = { continent = asia } }
+				NOT = { total_pops = 2000000 }
+				any_owned_province = { any_neighbor_province = { owned_by = THIS is_overseas = no has_building = railroad } }
+			}
+		}
+		NOT = { any_owned_province = { is_capital = yes } }
+		OR = {
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			THIS = { ai = no war_with = THIS }
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = { any_owned_province = { port = yes } }
+			}
+		}
+		OR = {
+			any_owned_province = {
+				NOT = {
+					any_core = {
+						exists = yes
+						alliance_with = THIS
+					}
+				}
+			}
+			THIS = { ai = no }
+		}
+		OR = {
+			any_owned_province = { NOT = { is_core = KOR } }
+			THIS = { ai = no }
+			THIS = { is_culture_group = east_asian }
+		}
+	}
+	
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
 	}
 	
 	on_po_accepted = {

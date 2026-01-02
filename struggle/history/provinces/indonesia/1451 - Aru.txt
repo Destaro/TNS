@@ -1,5 +1,6 @@
-owner = MAL
-controller = MAL
+owner = WHA
+controller = WHA
 add_core = MAL
 trade_goods = fish
 life_rating = 30
+colonial = 2

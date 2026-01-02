@@ -145,6 +145,23 @@ leader = {
 	prestige = 0.0
 }
 
+BRT = {
+	value = 150
+	level = 4
+	influence_value = 0
+}
+
+MAD = {
+	value = 150
+	level = 4
+	influence_value = 0
+}
+
+AVA = {
+	value = -150
+	level = 2
+	influence_value = 0
+}
 
 army = {
 	name = "Army of Ireland"

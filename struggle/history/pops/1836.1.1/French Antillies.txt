@@ -71,31 +71,31 @@
 #Guadeloupe (128400/32100 POPS)
 2230 = {
 	aristocrats = {
-		culture = frankish
+		culture = welsh
 		religion = catholic
 		size = 850
 	}
 
 	clergymen = {
-		culture = frankish
+		culture = welsh
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = frankish
+		culture = welsh
 		religion = catholic
 		size = 1300
 	}
 
 	soldiers = {
-		culture = frankish
+		culture = irish
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = frankish
+		culture = irish
 		religion = catholic
 		size = 600
 	}

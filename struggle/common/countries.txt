@@ -77,6 +77,7 @@ SHU	= "countries/Shun.txt"
 SHV	= "countries/Caucasian Albania.txt"
 RME = "countries/RME.txt"
 MZN = "countries/Mazandaran.txt"
+CCC = "countries/CCC.txt"
 
 ### TNS Australia ###
 NKG		= "countries/Nankaigan.txt"

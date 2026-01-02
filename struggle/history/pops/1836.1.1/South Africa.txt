@@ -233,37 +233,37 @@
 	aristocrats = {
 		culture = boer
 		religion = catholic
-		size = 10
+		size = 100
 	}
 
 	bureaucrats = {
 		culture = boer
 		religion = catholic
-		size = 40
+		size = 400
 	}
 
 	clergymen = {
 		culture = boer
 		religion = catholic
-		size = 95
+		size = 950
 	}
 
 	artisans = {
 		culture = boer
 		religion = catholic
-		size = 1000
+		size = 5000
 	}
 	
 	soldiers = {
 		culture = boer
 		religion = catholic
-		size = 100
+		size = 1100
 	}
 
 	farmers = {
 		culture = boer
 		religion = catholic
-		size = 3825
+		size = 23825
 	}
 
 	aristocrats = {
@@ -417,31 +417,31 @@
 	clergymen = {
 		culture = boer
 		religion = catholic
-		size = 100
+		size = 500
 	}
 	
 	soldiers = {
 		culture = boer
 		religion = catholic
-		size = 100
+		size = 1100
 	}
 
 	artisans = {
 		culture = boer
 		religion = catholic
-		size = 300
+		size = 4300
 	}
 
 	farmers = {
 		culture = boer
 		religion = catholic
-		size = 2775
+		size = 42775
 	}
 
 	farmers = {
 		culture = boer
 		religion = catholic
-		size = 500
+		size = 1500
 	}
 	
 	farmers = {
@@ -526,6 +526,36 @@
 		religion = animist
 		size = 2750
 	}
+	
+	aristocrats = {
+		culture = boer
+		religion = catholic
+		size = 125
+	}
+	
+	clergymen = {
+		culture = boer
+		religion = catholic
+		size = 450
+	}
+	
+	artisans = {
+		culture = boer
+		religion = catholic
+		size = 1150
+	}
+	
+	soldiers = {
+		culture = boer
+		religion = catholic
+		size = 525
+	}
+	
+	farmers = {
+		culture = boer
+		religion = catholic
+		size = 9260
+	}
 
 }
 #Karoo Region (244500)
@@ -537,37 +567,37 @@
 	aristocrats = {
 		culture = boer
 		religion = catholic
-		size = 10
+		size = 210
 	}
 
 	bureaucrats = {
 		culture = boer
 		religion = catholic
-		size = 40
+		size = 440
 	}
 
 	clergymen = {
 		culture = boer
 		religion = catholic
-		size = 55
+		size = 555
 	}
 
 	artisans = {
 		culture = boer
 		religion = catholic
-		size = 150
+		size = 1150
 	}
 
 	soldiers = {
 		culture = boer
 		religion = catholic
-		size = 250
+		size = 1250
 	}
 
 	farmers = {
 		culture = boer
 		religion = catholic
-		size = 2450
+		size = 22450
 	}
 	
 	farmers = {

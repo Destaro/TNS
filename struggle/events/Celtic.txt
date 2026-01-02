@@ -98,7 +98,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA2222111111"
 	FROM = { country_event = 222211112 } 
-	treasury = 500000
+	treasury = 1000000
 		ai_chance = { factor = 75 }
 	}
 	
@@ -126,7 +126,7 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTA2222111121"
-	treasury = -500000
+	treasury = -1000000
 	2209 = { secede_province = THIS }
 	2210 = { secede_province = THIS }
 	2211 = { secede_province = THIS }
@@ -591,7 +591,7 @@ country_event = {
 	
 	#oman refuses 
 	option = {
-		name = "EVTOPTA444411120A"
+		name = "EVTOPTA444411120B"
 	FROM = { country_event = 444411122 }
 		ai_chance = { factor = 35 }
 	}
@@ -613,6 +613,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA444411121A"
         prestige = 10
+		diplomatic_influence = {
+	    who = OMA
+	    value = 200      }
 	}
 	
 }
@@ -620,8 +623,8 @@ country_event = {
 #oman refuses
 country_event = {
 	id = 444411122
-	title = "EVTNAME444411121" 
-	desc = "EVTDESC444411121"
+	title = "EVTNAME444411122" 
+	desc = "EVTDESC444411122"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -638,7 +641,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA444411122B"
         prestige = 5
-		badboy = 2
+		badboy = 3
 		war = {
                 target = OMA
                 
@@ -647,6 +650,92 @@ country_event = {
                                                  }
                 defender_goal = { 
 				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
+	
+}
+
+#ultimatum to the kongo
+country_event = {
+	id = 444411130
+	title = "EVTNAME444411130" 
+	desc = "EVTDESC444411130"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#kongo submits
+	option = {
+		name = "EVTOPTA444411130A"
+	any_owned = {
+	  limit = {  }
+	  secede_province = FROM
+	    }
+		ai_chance = { factor = 15 }
+		FROM = { country_event = 444411131 }
+	}
+	
+	#kongo refuses 
+	option = {
+		name = "EVTOPTA444411130B"
+	FROM = { country_event = 444411132 }
+		ai_chance = { factor = 85 }
+	}
+	
+}
+
+#kongo accepts
+country_event = {
+	id = 444411131
+	title = "EVTNAME444411131" 
+	desc = "EVTDESC444411131"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPTA444411131A"
+        prestige = 20
+		set_global_flag = celtic_kongo
+	}
+	
+}
+
+#kongo refuses
+country_event = {
+	id = 444411132
+	title = "EVTNAME444411132" 
+	desc = "EVTDESC444411132"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    #they called our bluff
+	option = {
+		name = "EVTOPTA444411132A"
+        prestige = -30
+	}
+	
+	#to war by jingo!
+	option = {
+		name = "EVTOPTA444411132B"
+		badboy = 5
+		war = {
+                target = KON
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = acquire_all_cores
                                  		       }
                    }
 	}
