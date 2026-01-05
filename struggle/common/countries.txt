@@ -16,6 +16,7 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ###TNS NEW NATIONS###
+INA = "countries/INA.txt"
 ARY = "countries/ARY.txt"
 SLA = "countries/SLA.txt"
 WRE = "countries/WRE.txt"

@@ -81,6 +81,16 @@ substate = {
 	end_date = 1936.1.1
 }
 
+###Celtic Puppets###
+#Indus administration
+vassal = {
+	first = WHA
+	second = INA
+	start_date = 1760.1.1
+	end_date = 1936.1.1
+}
+
+
 #Liechenstein
 #vassal = {
 #	first = PNJ
@@ -91,20 +101,20 @@ substate = {
 #
 
 #Bahrain - Qatar
-vassal = {
-	first = BHR
-	second = QAT
-	start_date = 1815.1.1
-	end_date = 1868.1.1
-}
+#vassal = {
+#	first = BHR
+#	second = QAT
+#	start_date = 1815.1.1
+#	end_date = 1868.1.1
+#}
 
 #Iraq-Banu Ka'ab
-vassal = {
-	first = IRQ
-	second = KHZ
-	start_date = 1836.1.1
-	end_date = 1944.1.1
-}
+#vassal = {
+#	first = IRQ
+#	second = KHZ
+#	start_date = 1836.1.1
+#	end_date = 1944.1.1
+#}
 
 #Sweden-Finland
 substate = {

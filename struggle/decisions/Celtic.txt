@@ -18,7 +18,22 @@ form_celts = {
 		allow = {
 		revolution_n_counterrevolution = 1
 			war = no
+			AVA = { vassal_of = THIS }
 			IRE = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						
+					}
+				}
+			}
+			
+			AVA = {
 				all_core = {
 					OR = {
 						OR = {
@@ -537,6 +552,49 @@ claim_england = {
          who = KON
 	     value = -200
                 }
+	    }
+	}
+	
+	create_the_celtic_indus_administration = {
+	   potential = { 
+	   OR = { 
+	   tag = WHA
+	   tag = CEL
+	   }
+	   NOT = { has_country_flag = create_the_celtic_indus_administration }
+	   has_global_flag = the_celtic_envoys_into_punjab
+	   year = 1845
+	   }
+	   
+	   allow = {
+	   is_greater_power = yes
+	   war = no
+	   nationalism_n_imperialism = 1
+	   
+		             }
+		 
+	   effect = {
+         set_country_flag = create_the_celtic_indus_administration
+		 badboy = 5
+		any_owned = {
+		     limit = {   
+			 OR = {	continent = oceania                
+					continent = asia  }
+			 NOT = {  province_id = 3758  }			        
+                    	}
+		 secede_province = INA						
+		}
+		any_country = {
+				limit = {
+					tag = PNJ
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = INA
+			}
+		create_vassal = INA
+		 prestige = 20
 	    }
 	}
 

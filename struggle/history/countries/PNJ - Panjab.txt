@@ -1,5 +1,6 @@
 capital = 1227
 primary_culture = panjabi
+culture = hindi
 religion = sikh
 government = absolute_monarchy
 plurality = 0.0

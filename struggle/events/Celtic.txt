@@ -182,7 +182,7 @@ country_event = {
 	treasury = -25000
 	MAD = { country_event = 444411115 }
 	prestige = 5
-		relation = {
+	relation = {
 	who = MAD 
 	value = 200    }
 	
@@ -765,9 +765,6 @@ country_event = {
 		name = "EVTOPTA444411133A"
       set_global_flag = the_ccc_explores further into africa
 	}
-	
-	
-	
 }
 
 #war with angoche
@@ -1500,5 +1497,381 @@ country_event = {
          militancy = 4
 		}
 	}
+	
+}
+
+#the celts take over scandinavian asian colonies
+country_event = {
+	id = 444411155
+	title = "EVTNAME444411155" 
+	desc = "EVTDESC444411155"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	war = no
+	OR = { tag = CEL tag = WHA }
+	is_greater_power = yes
+	nationalism_n_imperialism = 1
+	SCA = { is_greater_power = no }
+	THIS = { all_core = { owned_by = THIS } }
+	owns = 280
+	owns = 291
+	owns = 300
+	owns = 268
+	SCA = { 
+	OR = { owns = 1423
+	       owns = 1442
+           owns = 1401
+           owns = 1320
+           owns = 1384           
+		   owns = 1388
+           owns = 1435
+           owns = 1446		   
+					   } 
+		   }
+		breech_loaded_rifles = 1
+		fire_control_systems = 1
+		prestige = 100
+		military_score = 75
+		naval_plans = 1
+		medicine = 1
+		nationalism_n_imperialism = 1
+		   
+	}
+	
+	mean_time_to_happen = {
+		days = 50
+	}
+
+	
+	#forceful take over
+	option = {
+		name = "EVTOPTA444411155A"
+		prestige = 20
+		badboy = 2
+		SCA = { country_event = 444411157 }
+	}
+	
+	#we cant afford it
+	option = {
+		name = "EVTOPTA444411155B"
+	}
+	
+}
+
+#the scandinavians take over celtic asian colonies
+country_event = {
+	id = 444411156
+	title = "EVTNAME444411156" 
+	desc = "EVTDESC444411156"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	war = no
+	tag = SCA
+	is_greater_power = yes
+	nationalism_n_imperialism = 1
+	WHA = { is_greater_power = no }
+	WHA = { exists = yes }
+	owns = 280
+	owns = 291
+	owns = 300
+	
+	WHA = { 
+	OR = { owns = 3758
+	       owns = 1451
+           owns = 2124   } 
+		   }
+		   
+		breech_loaded_rifles = 1
+		fire_control_systems = 1
+		prestige = 100  
+		military_score = 75 
+		naval_plans = 1  
+	    medicine = 1  
+		nationalism_n_imperialism = 1  
+	}
+	
+	mean_time_to_happen = { days = 50 }
+
+	
+	#forceful take over
+	option = {
+		name = "EVTOPTA444411156A"
+		prestige = 20
+		badboy = 2
+		WHA = { country_event = 444411158 }
+	}
+	
+	#we cant afford it
+	option = {
+		name = "EVTOPTA444411156B"
+	}
+	
+}
+
+#the celts took our stuff in asia
+country_event = {
+	id = 444411157
+	title = "EVTNAME444411157" 
+	desc = "EVTDESC444411157"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#curses!
+	option = {
+		name = "EVTOPTA444411157A"
+		prestige = -40
+		any_owned = {
+		limit = { continent = east_indies }
+		secede_province = FROM       }
+		}
+}
+
+#the norns took our stuff in asia
+country_event = {
+	id = 444411158
+	title = "EVTNAME444411158" 
+	desc = "EVTDESC444411158"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#curses!
+	option = {
+		name = "EVTOPTA444411158A"
+		prestige = -40
+		any_owned = {
+		limit = { OR = {     
+		province_id = 2124
+        province_id = 3758
+        province_id = 1451
+        continent = east_indies		} }
+		secede_province = FROM       }
+		}
+}
+	
+#envoys onto india
+country_event = {
+	id = 444411158
+	title = "EVTNAME444411158" 
+	desc = "EVTDESC444411158"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	OR = { tag = WHA tag = CEL }
+	owns = 3758
+	year = 1850
+	}
+
+
+	option = {
+		name = "EVTOPTA444411158A"
+      set_global_flag = the_celtic_envoys_into_punjab
+	}
+}
+
+#trigger rebellion in south sindh
+country_event = {
+	id = 444411159
+	title = "EVTNAME444411159" 
+	desc = "EVTDESC444411159"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	war = no
+	OR = { tag = WHA tag = CEL }
+	has_global_flag = the_celtic_envoys_into_punjab
+	year = 1855
+	owns = 3758
+	SIN = { exists = yes }
+	}
+    
+	mean_time_to_happen = { days = 100 }
+    
+	#war with sindh
+	option = {
+		name = "EVTOPTA444411159A"
+        treasury = -75000
+		badboy = 5
+		war = {
+                target = SIN
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	SIN = { country_event = 444411160 }
+	}
+	
+	#leave them be
+	option = {
+		name = "EVTOPTA444411159B"
+     
+	}
+}
+
+#sindh is getting invaded
+country_event = {
+	id = 444411160
+	title = "EVTNAME444411160" 
+	desc = "EVTDESC444411160"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPTA444411160A"
+        any_owned = {
+		limit = { province_id = 1290 }
+		secede_province = FROM
+		}
+	}
+}
+
+#support general in marwar to take over
+country_event = {
+	id = 444411161
+	title = "EVTNAME444411161" 
+	desc = "EVTDESC444411161"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	war = no
+	OR = { tag = WHA tag = CEL }
+	owns = 1290
+	has_global_flag = the_celtic_envoys_into_punjab
+	owns = 1290
+	year = 1857
+	}
+
+    #go to war with marwar with their own soldiers
+	option = {
+		name = "EVTOPTA444411161A"
+		badboy = 5
+        war = {
+                target = JOD
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	define_general = {
+	name = Pavitr Pravakar
+	personality = dauntless
+	background = cavalry_school
+                              }
+	}
+	
+	#bad idea
+	option = {
+		name = "EVTOPTA444411161B"
+	}
+}
+
+#bribe the hindustani court
+country_event = {
+	id = 444411162
+	title = "EVTNAME444411162" 
+	desc = "EVTDESC444411162"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	war = no
+	is_greater_power = yes
+	PNJ = { ai = yes }
+	war = no
+	OR = { tag = WHA tag = CEL }
+	has_global_flag = the_celtic_envoys_into_punjab
+	owns = 3730
+	owns = 1265
+	owns = 3726
+	year = 1860
+	}
+
+    #give them the money
+	option = {
+		name = "EVTOPTA444411162A"
+		treasury = -100000
+		
+	relation = {
+	who = PNJ
+	value = 200    }
+	
+    diplomatic_influence = {
+	who = PNJ
+	value = 200      }
+	set_country_flag = hindustani_court_bribed
+	}
+	
+	#bad idea
+	option = {
+		name = "EVTOPTA444411161B"
+	}
+}
+
+#hindustan is our subject
+country_event = {
+	id = 444411163
+	title = "EVTNAME444411163" 
+	desc = "EVTDESC444411163"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	war = no
+	is_greater_power = yes
+	PNJ = { ai = yes }
+	war = no
+	OR = { tag = WHA tag = CEL }
+	has_global_flag = the_celtic_envoys_into_punjab
+	owns = 3730
+	owns = 1265
+	owns = 3726
+	year = 1862
+	has_country_flag = hindustani_court_bribed
+	}
+
+    #the vassal in hindustan
+	option = {
+		name = "EVTOPTA444411163A"
+	  THIS = {  create_vassal = PNJ }
+		badboy = 5
+	}
+	
+	option = {
+		name = "EVTOPTA444411163B"
+	    prestige = -50
+	}
+	
 	
 }
