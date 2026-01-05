@@ -360,7 +360,7 @@ claim_england = {
 	   tag = CEL
 	   }
 	   NOT = { has_country_flag = ultimatum_to_oman_celts }
-	 
+	   year = 1840
 	   }
 	   
 	   allow = {

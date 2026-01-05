@@ -741,3 +741,764 @@ country_event = {
 	}
 	
 }
+
+###explorations and wars the CCC starts###
+
+
+#explorations of the ccc
+country_event = {
+	id = 444411133
+	title = "EVTNAME444411133" 
+	desc = "EVTDESC444411133"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	}
+
+
+	option = {
+		name = "EVTOPTA444411133A"
+      set_global_flag = the_ccc_explores further into africa
+	}
+	
+	
+	
+}
+
+#war with angoche
+country_event = {
+	id = 444411134
+	title = "EVTNAME444411134" 
+	desc = "EVTDESC444411134"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1848
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	AGC = { exists = yes }
+	has_global_flag = the_ccc_explores
+	}
+
+   mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "EVTOPTA444411134A"
+      set_global_flag = the_ccc_triggered_a_war_in_angoche
+	  prestige = -5
+	    war = {
+                target = AGC
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	  badboy = 1
+	}
+	
+	
+	
+}
+
+#war with buganda
+country_event = {
+	id = 444411135
+	title = "EVTNAME444411135" 
+	desc = "EVTDESC444411135"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1848
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	BUG = { exists = yes }
+	has_global_flag = the_ccc_explores
+	}
+
+   mean_time_to_happen = {
+		days = 100
+	}
+
+	option = {
+		name = "EVTOPTA444411135A"
+      set_global_flag = the_ccc_triggered_a_war_in_buganda
+	  prestige = -5
+	    war = {
+                target = BUG
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	  BUG = { country_event = 444411136 }
+	  badboy = 1
+	}
+	
+}
+
+#buganda is invaded
+country_event = {
+	id = 444411136
+	title = "EVTNAME444411136" 
+	desc = "EVTDESC444411136"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+ 
+
+	option = {
+		name = "EVTOPTA4444111356A"
+        2044 = { secede_province = FROM }
+		1943 = { secede_province = FROM }
+	}
+	
+	
+	
+}
+
+#war with kazembe
+country_event = {
+	id = 444411137
+	title = "EVTNAME444411137" 
+	desc = "EVTDESC444411137"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	any_neighbor_province = { owned_by = { tag = KZB } }
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	KZB = { exists = yes }
+	has_global_flag = the_ccc_explores
+	year = 1851
+	}
+
+   mean_time_to_happen = {
+		days = 100
+	}
+
+	option = {
+		name = "EVTOPTA444411137A"
+      set_global_flag = the_ccc_triggered_a_war_in_kazembe
+	  prestige = -5
+	  badboy = 1
+	    war = {
+                target = KZB
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	 
+	}
+	
+}
+
+#war with somalia
+country_event = {
+	id = 444411138
+	title = "EVTNAME444411138" 
+	desc = "EVTDESC444411138"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	any_neighbor_province = { owned_by = { tag = SOM } }
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	KZB = { exists = yes }
+	has_global_flag = the_ccc_explores
+	year = 1852
+	}
+
+   mean_time_to_happen = {
+		days = 100
+	}
+
+	option = {
+		name = "EVTOPTA444411138A"
+      set_global_flag = the_ccc_triggered_a_war_in_somalia
+	  prestige = -5
+	  badboy = 1
+	    war = {
+                target = SOM
+                
+				attacker_goal = {
+                    casus_belli = demand_concession_casus_belli_any
+			        state_province_id = 1869
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	 
+	}
+	
+}
+
+
+#ultimatum to hedjaz
+country_event = {
+	id = 444411139
+	title = "EVTNAME444411139" 
+	desc = "EVTDESC444411139"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	any_neighbor_province = { owned_by = { tag = HDJ } }
+	 CCC = { exists = yes }
+	 CCC = { vassal_of = THIS }
+	OR = { tag = WHA tag = CEL }
+	KZB = { exists = yes }
+	has_global_flag = the_ccc_explores
+	year = 1852
+	}
+
+	#the ccc taking over hedjaz 
+	option = {
+		name = "EVTOPTA444411139A"	
+		HDJ = { country_event = 444411140 }
+		badboy = 4
+	}
+	
+	#this is ridiculous
+	option = {
+		name = "EVTOPTA444411139B"	
+		relation = {
+	who = CCC
+	value = -200    }
+	}
+	
+	
+}
+
+#hedjaz decides
+country_event = {
+	id = 444411140
+	title = "EVTNAME444411140" 
+	desc = "EVTDESC444411140"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPTA444411140A"
+        ai_chance = { factor = 50 }
+		FROM = { country_event = 444411141 }
+	}
+	
+	option = {
+		name = "EVTOPTA444411140B"
+       ai_chance = { factor = 50 }
+	   FROM = { country_event = 444411142 }
+	}
+	
+}
+
+#hedjaz refuses
+country_event = {
+	id = 444411141
+	title = "EVTNAME444411141" 
+	desc = "EVTDESC444411141"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#to war by jingo!
+	option = {
+		name = "EVTOPTA444411141A"
+		war = {
+                target = HDJ
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
+	
+}
+
+#hedjaz surrenders
+country_event = {
+	id = 444411142
+	title = "EVTNAME444411142" 
+	desc = "EVTDESC444411142"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	#yey
+	option = {
+		name = "EVTOPTA444411142A"
+		HDJ = { annex_to = THIS }
+	}
+	
+}
+
+#the mallacan controversy
+country_event = {
+	id = 444411143
+	title = "EVTNAME444411143" 
+	desc = "EVTDESC444411143"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = CEL tag = WHA }
+	owns = 1390
+	year = 1850
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	#scandinavia and frankia are angry
+	option = {
+		name = "EVTOPTA444411143A"
+		set_country_flag = the_malaccan_controversy
+	
+	}
+	
+}
+
+#the gps decide what to do
+country_event = {
+	id = 444411144
+	title = "EVTNAME444411144" 
+	desc = "EVTDESC444411144"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	
+	trigger = { 
+	OR = { tag = SCA tag = ORL tag = FRC}
+	has_global_flag = the_malaccan_controversy
+	}
+	
+	mean_time_to_happen = {
+		days = 200
+	}
+
+	#demand the celts leave
+	option = {
+		name = "EVTOPTA444411144A"
+	    WHA = { country_event = 444411145 }
+		CEL = { country_event = 444411145 }
+		ai_chance = { factor = 75 }
+	}
+	
+	#leave them be
+	option = {
+		name = "EVTOPTA444411144B"
+	    prestige = -30
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#the celts decide how to respond
+country_event = {
+	id = 444411145
+	title = "EVTNAME444411145" 
+	desc = "EVTDESC444411145"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+
+	#refuse
+	option = {
+		name = "EVTOPTA444411145A"
+	    set_global_flag = the_celts_hold_malacca
+		FROM = { country_event = 444411146 }
+		ai_chance = { factor = 75 }
+	}
+	
+	#give in
+	option = {
+		name = "EVTOPTA444411145B"
+	    prestige = -50
+		any_owned = {
+		limit = { is_core = PHG }
+		secede_province = PHG
+		}
+		set_global_flag = the_celts_abandon_malacca
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#the celts decide how to respond
+country_event = {
+	id = 444411146
+	title = "EVTNAME444411146" 
+	desc = "EVTDESC444411146"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+
+	#to war!
+	option = {
+		name = "EVTOPTA444411146A"
+	    set_global_flag = the_celts_hold_malacca
+		FROM = { country_event = 444411147 }
+		 war = {
+                target = FROM
+                
+				attacker_goal = {
+                    casus_belli = liberate_country_any
+					country = PHG
+                                                 }
+                defender_goal = { 
+				    casus_belli = unification_GP_humiliate
+                                 		       }
+                   }
+		
+		ai_chance = { factor = 75 }
+	}
+	
+	#back down
+	option = {
+		name = "EVTOPTA444411146B"
+	    prestige = -50
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#either the franks or scandinavians invade
+country_event = {
+	id = 444411147
+	title = "EVTNAME444411147" 
+	desc = "EVTDESC444411147"
+	picture = "rosas_urquiza"
+	
+	is_triggered_only = yes
+	
+
+	#war is upon us
+	option = {
+		name = "EVTOPTA444411147A"
+	    
+	}
+	
+}
+
+#celtic influence in malacca
+country_event = {
+	id = 444411148
+	title = "EVTNAME444411148" 
+	desc = "EVTDESC444411148"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = CEL tag = WHA }
+	is_greater_power = yes
+	year = 1840
+	PHG = { 
+	exists = yes
+	ai = yes
+		        }		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	#invest heavily
+	option = {
+		name = "EVTOPTA444411148A"
+		set_country_flag = 1st_celtic_investment_in_malacca
+	    treasury = -250000
+		PHG = { country_event = 444411149 }
+		
+		relation = {
+	    who = PHG
+	    value = 200    }
+	
+	    diplomatic_influence = {
+	    who = PHG
+	    value = 100      }
+		
+	}
+	
+	#not worth it
+	option = {
+		name = "EVTOPTA444411148B"
+		set_country_flag = celts_dont_invest_in_malacca
+	
+	}
+	
+}
+
+#malaca gets bribed
+country_event = {
+	id = 444411149
+	title = "EVTNAME444411149" 
+	desc = "EVTDESC444411149"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	
+	
+	#celts gives us money
+	option = {
+		name = "EVTOPTA444411149A"
+		1390 = { fort = 1 }
+	    1390 = { infrastructure = 1 }
+		1390 = { naval_base = 1 }
+		treasury = 200000
+	}
+	
+}
+
+#celtic influence in malacca 2
+country_event = {
+	id = 444411150
+	title = "EVTNAME444411150" 
+	desc = "EVTDESC444411150"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = CEL tag = WHA }
+	is_greater_power = yes
+	year = 1845
+	PHG = { 
+	exists = yes
+	ai = yes
+		        }
+    has_country_flag = 1st_celtic_investment_in_malacca				
+	NOT = { has_country_flag = celts_dont_invest_in_malacca }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	#invest heavily
+	option = {
+		name = "EVTOPTA444411150A"
+		set_country_flag = 2st_celtic_investment_in_malacca
+	    treasury = -250000
+		PHG = { country_event = 444411151 }
+		
+		relation = {
+	    who = PHG
+	    value = 200    }
+	
+	    diplomatic_influence = {
+	    who = PHG
+	    value = 100      }
+		
+	}
+	
+	#not worth it
+	option = {
+		name = "EVTOPTA444411150B"
+		set_country_flag = celts_dont_invest_in_malacca
+	
+	}
+	
+}
+
+#malaca gets bribed again
+country_event = {
+	id = 444411151
+	title = "EVTNAME444411151" 
+	desc = "EVTDESC444411151"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	
+	
+	#celts gives us money
+	option = {
+		name = "EVTOPTA444411151A"
+		1389 = { fort = 1 }
+	    1389 = { infrastructure = 1 }
+		1389 = { naval_base = 1 }
+		treasury = 170000
+		research_points = 4000
+	}
+	
+}
+
+#celtic influence in malacca 3
+country_event = {
+	id = 444411152
+	title = "EVTNAME444411152" 
+	desc = "EVTDESC444411152"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = CEL tag = WHA }
+	is_greater_power = yes
+	year = 1848
+	PHG = { 
+	exists = yes
+	ai = yes
+		        }
+    has_country_flag = 2st_celtic_investment_in_malacca				
+	NOT = { has_country_flag = celts_dont_invest_in_malacca }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	#invest heavily
+	option = {
+		name = "EVTOPTA444411152A"
+		set_country_flag = 3st_celtic_investment_in_malacca
+	    treasury = -500000
+		PHG = { country_event = 444411153 }
+		
+		relation = {
+	    who = PHG
+	    value = 200    }
+	
+	    diplomatic_influence = {
+	    who = PHG
+	    value = 100      }
+		
+	}
+	
+	#not worth it
+	option = {
+		name = "EVTOPTA444411152B"
+		set_country_flag = celts_dont_invest_in_malacca
+	
+	}
+	
+}
+
+#malaca gets bribed again 3
+country_event = {
+	id = 444411153
+	title = "EVTNAME444411153" 
+	desc = "EVTDESC444411153"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+	
+	
+	#celts gives us money
+	option = {
+		name = "EVTOPTA444411153A"
+		2575 = { fort = 1 }
+	    2575 = { infrastructure = 1 }
+		2575 = { naval_base = 1 }
+		treasury = 450000
+		research_points = 8000
+	}
+	
+}
+
+#celtic influence in malacca 4
+country_event = {
+	id = 444411154
+	title = "EVTNAME444411154" 
+	desc = "EVTDESC444411154"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = { tag = CEL tag = WHA }
+	is_greater_power = yes
+	year = 1849
+	PHG = { 
+	exists = yes
+	ai = yes
+		        }
+    has_country_flag = 3st_celtic_investment_in_malacca				
+	NOT = { has_country_flag = celts_dont_invest_in_malacca }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	#pahang seeks to become a protectorate
+	option = {
+		name = "EVTOPTA444411154A"
+		set_country_flag = celts_dont_invest_in_malacca
+		prestige = 20
+		PHG = { annex_to = THIS }
+	    any_owned = {
+		limit = { culture = malay
+                  culture = yue
+                         		}
+         militancy = 4
+		}
+	}
+	
+}
