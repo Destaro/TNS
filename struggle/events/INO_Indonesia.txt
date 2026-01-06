@@ -138,3 +138,146 @@ country_event = {
 	}
 }
 
+#for some gps if they own all of java
+###the javan crisis
+country_event = {
+	id = 110052
+	title = "EVTNAME110052" 
+	desc = "EVTDESC110052"
+	picture = "INO_guided_democracy"
+	
+	major = yes
+	
+	trigger = {
+		OR = { 
+		tag = SCA 
+		tag = CEL 
+		tag = WHA 
+		tag = ORL 
+		tag = FRC 
+		tag = TUN  }
+		
+		is_greater_power = yes
+		
+		NOT = { owns = 1419 owns = 1416 }
+		
+		1416 = { owned_by = { OR = {
+                        tag = SCA            
+                        tag = ORL
+						tag = FRC
+        				tag = CEL
+                        tag = WHA
+                        tag = TUN  } } }
+						
+		1419 = { owned_by = { OR = { 
+		                tag = SCA            
+                        tag = ORL
+						tag = FRC
+        				tag = CEL
+                        tag = WHA
+                        tag = TUN     } } }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	option = {
+		name = "EVT110052OPTA" #demand they withdraw
+		1416 = { owner = { country_event = 110053 } }
+	}	
+	
+	option = {
+		name = "EVT110052OPTB" #we cant take them
+		
+	}
+	
+}
+
+#they demand we abandon java
+country_event = {
+	id = 110053
+	title = "EVTNAME110053" 
+	desc = "EVTDESC110053"
+	picture = "INO_guided_democracy"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "EVT110053OPTA" #they can take it from our cold dead hands
+		FROM = { country_event = 110054 } 
+		pretige = 50
+	}	
+	
+	option = {
+		name = "EVT110053OPTB" #we cant take them
+		FROM = { country_event = 110055 }
+		any_owned = { 
+		limit = { is_core = JAV }
+		secede_province = JAV
+		}
+		prestige = -50
+	}
+	
+}
+
+#intervene in java
+country_event = {
+	id = 110054
+	title = "EVTNAME110054" 
+	desc = "EVTDESC110054"
+	picture = "INO_guided_democracy"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = "EVT110054OPTA" #to war!
+		  war = {
+                target = FROM
+                
+				attacker_goal = {
+                    casus_belli = liberate_country_any
+					country = JAV
+                                                 }
+                defender_goal = { 
+				    casus_belli = unification_GP_humiliate
+                                 		       }
+                   }
+	}	
+	
+	option = {
+		name = "EVT110054OPTB" #called our bluff
+		prestige = -50
+	}
+	
+}
+
+#they give in
+country_event = {
+	id = 110055
+	title = "EVTNAME110055" 
+	desc = "EVTDESC110055"
+	picture = "INO_guided_democracy"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	
+	option = {
+		name = "EVT110055OPTA" #we have power and stuff
+		 prestige = 50
+	}	
+	
+	
+	
+}

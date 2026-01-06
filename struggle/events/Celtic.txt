@@ -123,6 +123,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
+    major = yes
 		
 	option = {
 		name = "EVTOPTA2222111121"
@@ -146,6 +147,8 @@ country_event = {
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
+	
+	major = yes
 	
 	is_triggered_only = yes
 
@@ -263,6 +266,8 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	major = yes
+	
 	trigger = {
 	    year = 1847
 	    war = no
@@ -314,6 +319,8 @@ country_event = {
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
+	
+	major = yes
 	
 	trigger = { 
 	OR = { tag = WHA tag = CEL }
@@ -495,6 +502,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
+    major = yes
 		
 	option = {
 		name = "EVTOPTA4444111191A"
@@ -523,6 +531,8 @@ country_event = {
 	fire_only_once = yes
 	
 	is_triggered_only = yes
+	
+	major = yes
 
 	#we accept their refusal	
 	option = {
@@ -607,6 +617,8 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	major = yes
+	
 	is_triggered_only = yes
 
 
@@ -630,6 +642,8 @@ country_event = {
 	fire_only_once = yes
 	
 	is_triggered_only = yes
+	
+	major = yes
 
     #they called our bluff
 	option = {
@@ -1081,6 +1095,8 @@ country_event = {
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
+	
+	major = yes
 	
 	trigger = { 
 	OR = { tag = CEL tag = WHA }
@@ -1783,9 +1799,9 @@ country_event = {
                                  		       }
                    }
 	define_general = {
-	name = Pavitr Pravakar
-	personality = dauntless
-	background = cavalry_school
+	name = Sangram Soam
+	personality = lilylivered
+	background = cursed_luck
                               }
 	}
 	
