@@ -3288,6 +3288,15 @@ sicilian_industrialization_plan = {
 	supply_consumption = -0.03
 	icon = 13
 }
+ccc_exploitation_economy = {
+	global_population_growth = -0.01
+	rgo_output = 0.7
+	factory_output = -1
+	tax_efficiency = 1
+	mobilisation_size = -1
+	factory_owner_cost = 1
+	non_accepted_pop_militancy_modifier = 1
+}
 
 impending_doom = {
 	immigrant_push = 0.9

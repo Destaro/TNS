@@ -520,7 +520,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				location = { is_core = ALB }
-				has_pop_culture = gheg
+				has_pop_culture = albanian
 			}
 			militancy = -10
 		}
@@ -654,7 +654,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				location = { is_core = BYZ }
-				has_pop_culture = gheg
+				has_pop_culture = albanian
 			}
 			militancy = -10
 		}
@@ -1083,8 +1083,8 @@ country_event = {
 		badboy = 10
 		set_country_flag = enslaved_katchuskaya
 		political_reform = yes_slavery
-		all_owned = { limit = { is_core = KSK } add_province_modifier = { name = population_resettlement duration = 3650 } }
-		all_owned = { limit = { is_core = KSK } add_province_modifier = { name = genocide duration = 365 } }			
+		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = genocide duration = 365 } }			
 		all_core = { remove_core = KSK }
 		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
@@ -1115,11 +1115,11 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 }
 		any_pop = { limit = { has_pop_culture = tosk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 }
 		any_pop = { limit = { OR = { has_pop_culture = tosk has_pop_culture = aromanian } OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.2 } } pop_type = slaves }
-		any_pop = { limit = { pop_type = slaves location = 809 } move_pop = 860 }
-		any_pop = { limit = { pop_type = slaves location = 795 } move_pop = 859 }
-		any_pop = { limit = { pop_type = slaves location = 851 } move_pop = 860 }
-		any_pop = { limit = { pop_type = slaves location = 824 } move_pop = 858 }
-		any_pop = { limit = { pop_type = slaves location = 794 } move_pop = 860 }
+		any_pop = { limit = { pop_type = slaves location = { province_id = 809 } } move_pop = 860 }
+		any_pop = { limit = { pop_type = slaves location = { province_id = 795 } } move_pop = 859 }
+		any_pop = { limit = { pop_type = slaves location = { province_id = 851 } } move_pop = 860 }
+		any_pop = { limit = { pop_type = slaves location = { province_id = 824 } } move_pop = 858 }
+		any_pop = { limit = { pop_type = slaves location = { province_id = 794 } } move_pop = 860 }
 		
 		country_event = 300026
 	}
@@ -1405,16 +1405,16 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } } reduce_pop = 0.6 pop_type = farmers }
 		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
 		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } } reduce_pop = 0.2 }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = 749 } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = 749 } reduce_pop = 0.2 pop_type = farmers }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } location = 749 } reduce_pop = 0 }
-		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = craftsmen pop_type = clerks } location = 749 } reduce_pop = 0.2 pop_type = slaves }		
-		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = population_resettlement duration = 3650 } }
-		all_owned = { limit = { is_core = ITA } add_province_modifier = { name = genocide duration = 365 } }			
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = slaves move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = aristocrats pop_type = capitalists pop_type = clergymen pop_type = bureaucrats } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = farmers }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = officers pop_type = soldiers } location = { province_id = 749 } } reduce_pop = 0 }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = officers pop_type = soldiers } location = { province_id = 749 } } reduce_pop = 0 }
+		any_pop = { limit = { has_pop_culture = south_italian OR = { pop_type = craftsmen pop_type = clerks } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = north_italian OR = { pop_type = craftsmen pop_type = clerks } location = { province_id = 749 } } reduce_pop = 0.2 pop_type = slaves }		
+		any_owned = { limit = { is_core = ITA } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = ITA } add_province_modifier = { name = genocide duration = 365 } }			
 	}
 }
 #FATE OF THE DEL-MOGYR AFTER KACHUSKAYA CONQUEST - Anatolia Exists
@@ -1431,7 +1431,7 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		owns = 880
-		owns = 8805
+		owns = 882
 		ANT = { exists = yes }
 		ANT = { ai = yes }
 		}
@@ -1473,7 +1473,7 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		owns = 880
-		owns = 8805
+		owns = 882
 		owns = 3494
 		ANT = { exists = no }
 		has_country_flag = war_for_magyar
@@ -1579,12 +1579,12 @@ country_event = {
 		RUS_964 = { add_core = BYZ remove_core = HUN }
 		any_pop = { limit = { has_pop_culture = greek } ideology = { value = reactionary factor = 0.6 } }
 		any_pop = { limit = { has_pop_culture = hungarian } reduce_pop = 0.8 }
-		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = clergymen pop_type = aristocracy pop_type = bureaucrats } } reduce_pop = 0.01 pop_type = farmers } 
+		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = clergymen pop_type = aristocrats pop_type = bureaucrats } } reduce_pop = 0.01 pop_type = farmers } 
 		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = soldiers pop_type = officers } } reduce_pop = 0.2 pop_type = farmers }
 		any_pop = { limit = { OR = { has_pop_culture = hungarian has_pop_culture = south_hungarian } OR = { pop_type = craftsmen pop_type = clerks } } reduce_pop = 0.2 pop_type = farmers }
 		any_pop = { limit = { OR = { has_pop_culture = south_hungarian has_pop_culture = hungarian } OR = { pop_type = farmers pop_type = serfs pop_type = labourers } NOT = { literacy = 0.2 } } pop_type = slaves reduce_pop = 0.5 }
 		any_pop = { limit = { has_pop_culture = south_hungarian pop_type = slaves } move_pop = 860 }
-		any_pop = { limit = { has_pop_culture = hungarian pop_type = slaves OR = { location = 967 location = 3502 location = 964 location = 3503 location = 966 location = 3500 location = 3501 } } move_pop = 860 }
+		any_pop = { limit = { has_pop_culture = hungarian pop_type = slaves OR = { location = { province_id = 967 } location = { province_id = 3502 } location = { province_id = 964 } location = { province_id = 3503 } location = { province_id = 966 } location = { province_id = 3500 } location = { province_id = 3501 } } } move_pop = 860 }
 		release_vassal = HUN 
 		HUN = {
 			government = colonial_company
@@ -1616,7 +1616,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB300039"
 		prestige = 5
-		any_pop = { limit = { ideology = liberal } militancy = 5 }
+		scaled_militancy = { ideology = liberal factor = 5 }
 		add_country_modifier = { name = diplomatic_isolation duration = 1000 }
 		BYZ = { country_event = 300040 }
 		}
@@ -1690,8 +1690,8 @@ country_event = {
 		remove_country_modifier = diplomatic_isolation
 		any_owned = { limit = { is_core = CSZ } add_province_modifier = { name = patriot_uprising duration = 365 } }
 		ai_chance = { factor = 70 }
-	}
 		BYZ = { diplomatic_influence = { who = SIC value = -400 } country_event = 300040 }
+	}
 }
 #COSENZA ASKS FOR BYZANTINE PROTECTION
 country_event = {
@@ -1711,7 +1711,7 @@ country_event = {
 		set_country_flag = took_longobardia
 		prestige = 20
 		create_vassal = SIC
-		SIC = { government = colonial_company any_core = { limit = { is_core = SYC } remove_core = SIC } }
+		SIC = { government = colonial_company all_core = { limit = { is_core = SYC } remove_core = SIC } }
 	}
 }
 #IF THE BYZANTINES HAD TO CONQUER IT BY WAR - MINOR ATROCITIES, BUT NOTHING LIKE WHAT WOULD HAVE COME OTHERWISE
@@ -1734,7 +1734,7 @@ country_event = {
 		name = "EVTOPTA300043"
 		set_country_flag = took_longobardia
 		prestige = 20
-		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_core = { limit = { is_core = SYC } remove_core = SIC } }
+		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } all_core = { limit = { is_core = SYC } remove_core = SIC } }
 		any_owned = { limit = { is_core = CSZ } secede_province = SIC }
 	}
 }
@@ -1853,7 +1853,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA309150"
 		prestige = 10
-		KSK = { country_event = 3000151 }
+		KSK = { country_event = 300151 }
 		ai_chance = { factor = 100 }
 	}
 	
