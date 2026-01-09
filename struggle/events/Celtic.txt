@@ -68,6 +68,7 @@ country_event = {
 	prestige = -15
 		ai_chance = { factor = 50 }
 	}
+	
 	#how dare they!
 	option = {
 		name = "EVTOPTA44441111132"
@@ -227,7 +228,7 @@ country_event = {
 
 #place our people in the merinan court
 country_event = {
-	id = 444411115
+	id = 4444111155
 	title = "EVTNAME4444111155" 
 	desc = "EVTDESC4444111155"
 	picture = "rosas_urquiza"
@@ -243,13 +244,13 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA444411115A"
+		name = "EVTOPTA4444111155A"
 	treasury = -25000
 	MAD = { country_event = 444411115 }
 	}
 	
 	option = {
-		name = "EVTOPTA444411115B"
+		name = "EVTOPTA4444111155B"
 	    
 	}
 	
@@ -294,7 +295,7 @@ country_event = {
 		relation = {
 	    who = MAD 
 	    value = -200    }
-		prestige = 5
+		prestige = 10
 		badboy = 2
 	    war = {
                 target = MAD
@@ -407,7 +408,7 @@ country_event = {
 
 #send resources to the east congolese rebellion
 country_event = {
-	id = 444411118
+	id = 4444111188
 	title = "EVTNAME4444111188" 
 	desc = "EVTDESC4444111188"
 	picture = "rosas_urquiza"
@@ -597,6 +598,7 @@ country_event = {
 	    }
 		ai_chance = { factor = 65 }
 		FROM = { country_event = 444411121 }
+		treasury = 100000
 	}
 	
 	#oman refuses 
@@ -628,6 +630,7 @@ country_event = {
 		diplomatic_influence = {
 	    who = OMA
 	    value = 200      }
+		treasury = -100000
 	}
 	
 }
@@ -778,6 +781,8 @@ country_event = {
 	option = {
 		name = "EVTOPTA444411133A"
       set_global_flag = the_ccc_explores further into africa
+	  treasury = -25000
+	  CCC = { treasury = 25000 }
 	}
 }
 
@@ -803,6 +808,7 @@ country_event = {
 		days = 60
 	}
 
+    #a dumb war
 	option = {
 		name = "EVTOPTA444411134A"
       set_global_flag = the_ccc_triggered_a_war_in_angoche
@@ -880,7 +886,7 @@ country_event = {
  
 
 	option = {
-		name = "EVTOPTA4444111356A"
+		name = "EVTOPTA444411136A"
         2044 = { secede_province = FROM }
 		1943 = { secede_province = FROM }
 	}
@@ -942,7 +948,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	any_neighbor_province = { owned_by = { tag = SOM } }
+	any_neighbor_province = { owned_by = SOM  }
 	 CCC = { exists = yes }
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
@@ -971,7 +977,6 @@ country_event = {
 				    casus_belli = status_quo
                                  		       }
                    }
-	 
 	}
 	
 }
@@ -987,11 +992,11 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	any_neighbor_province = { owned_by = { tag = HDJ } }
+	any_neighbor_province = { owned_by = { HDJ }
 	 CCC = { exists = yes }
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
-	KZB = { exists = yes }
+	HDJ = { exists = yes }
 	has_global_flag = the_ccc_explores
 	year = 1852
 	}
@@ -1025,13 +1030,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-
+    #hedjaz refuses
 	option = {
 		name = "EVTOPTA444411140A"
         ai_chance = { factor = 50 }
 		FROM = { country_event = 444411141 }
 	}
 	
+	#hedjaz surrenders
 	option = {
 		name = "EVTOPTA444411140B"
        ai_chance = { factor = 50 }
@@ -1087,7 +1093,7 @@ country_event = {
 	
 }
 
-#the mallacan controversy
+#the malaccan controversy
 country_event = {
 	id = 444411143
 	title = "EVTNAME444411143" 
@@ -1111,7 +1117,7 @@ country_event = {
 	#scandinavia and frankia are angry
 	option = {
 		name = "EVTOPTA444411143A"
-		set_country_flag = the_malaccan_controversy
+		set_global_flag = the_malaccan_controversy
 	
 	}
 	
@@ -1187,7 +1193,7 @@ country_event = {
 	
 }
 
-#the celts decide how to respond
+#the celts refuse
 country_event = {
 	id = 444411146
 	title = "EVTNAME444411146" 
@@ -1202,7 +1208,6 @@ country_event = {
 	#to war!
 	option = {
 		name = "EVTOPTA444411146A"
-	    set_global_flag = the_celts_hold_malacca
 		FROM = { country_event = 444411147 }
 		 war = {
                 target = FROM
@@ -1503,7 +1508,7 @@ country_event = {
 	#pahang seeks to become a protectorate
 	option = {
 		name = "EVTOPTA444411154A"
-		set_country_flag = celts_dont_invest_in_malacca
+		set_global_flag = pahang_celtic_protectorate
 		prestige = 20
 		PHG = { annex_to = THIS }
 	    any_owned = {
@@ -1680,9 +1685,9 @@ country_event = {
 	
 #envoys onto india
 country_event = {
-	id = 444411158
-	title = "EVTNAME444411158" 
-	desc = "EVTDESC444411158"
+	id = 4444111588
+	title = "EVTNAME4444111588" 
+	desc = "EVTDESC4444111588"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -1695,7 +1700,7 @@ country_event = {
 
 
 	option = {
-		name = "EVTOPTA444411158A"
+		name = "EVTOPTA4444111588A"
       set_global_flag = the_celtic_envoys_into_punjab
 	}
 }
@@ -1882,6 +1887,7 @@ country_event = {
 		name = "EVTOPTA444411163A"
 	  THIS = {  create_vassal = PNJ }
 		badboy = 5
+		prestige = 30
 	}
 	
 	option = {

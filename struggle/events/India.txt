@@ -729,3 +729,32 @@ province_event = {
 		}
 	}
 }
+
+#beroda annexed
+province_event = {
+
+	id = 9712101
+	title = "EVTNAME9712101"
+	desc = "EVTDESC9712101"
+	
+	trigger = {
+	BER = { ai = yes }
+	BER = { exists = yes }
+	is_greater_power = yes
+	THIS = { is_sphere_leader_of = BER }
+	state_n_government = 1
+	}
+	
+	fire_only_once = yes
+	
+	allow_multiple_instances  = no
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVT9712101OPTA"
+		BER = { annex_to = THIS }
+	}
+}
