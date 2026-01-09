@@ -81,7 +81,6 @@ country_event = {
 	   }
 
 
-
 #easternrevolt
 country_event = {
 

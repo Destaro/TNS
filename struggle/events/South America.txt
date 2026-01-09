@@ -173,27 +173,27 @@ country_event = {
 		2337 = { fort = 1 }
 		2367 = { fort = 1 }
 		define_general = {
-			name = High Chief Arapysandu Marangatu
+			name = "High Chief Arapysandu Marangatu"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = Mbyja Yaguarete
+			name = "Mbyja Yaguarete"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = Jasy Jára
+			name = "Jasy Jára"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = Optimus Prayn
+			name = "Optimus Prayn"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = Moroti Ñanduti
+			name = "Moroti Ñanduti"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
