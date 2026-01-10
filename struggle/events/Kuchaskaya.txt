@@ -1,40 +1,44 @@
 # the revenge of kuchaskaya
 country_event = {
 	id = 822001
-	title = "EVTNAME"
-	desc = "EVTDESC"
+	title = "EVTNAME822001"
+	desc = "EVTDESC822001"
 	picture = "food_shortage"
 
 	is_triggered_only = yes
+	
+	major = yes
 		
 	
 	option = {
 		name = "EVT822001OPTA"
-		
+		militancy = 3
 	}
 }
 
 #our destiny lies east
 country_event = {
 	id = 822002
-	title = "EVTNAME"
-	desc = "EVTDESC"
+	title = "EVTNAME822002"
+	desc = "EVTDESC822002"
 	picture = "food_shortage"
 
 	is_triggered_only = yes
+	
+	major = yes
 		
 	
 	option = {
 		name = "EVT822002OPTA"
-		
+		militancy = -3
 	}
 }
 
 #randomly gives bedouin accepted to kachuskaya
 country_event = {
-	id = 822001
-	title = "EVTNAME"
-	desc = "EVTDESC"
+	id = 822003
+	title = "EVTNAME822003"
+	desc = "EVTDESC822003"
 	picture = "food_shortage"
 
 	trigger = { 
@@ -52,7 +56,8 @@ country_event = {
 	mean_time_to_happen = { months = 36 }
 	
 	option = {
-		name = "EVTOPTA"
+		name = "EVT822003OPTA"
 		add_accepted_culture = bedouin
+		prestige = 1
 	}
 }

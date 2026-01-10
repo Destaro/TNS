@@ -194,21 +194,12 @@ claim_scotland = {
 			war = no
 			WHA = {	all_core = { owned_by = THIS }		}
 			state_n_government = 1
-			
-			
-			
-			
 		}
 		
 		effect = {
 		set_country_flag = claim_scotland
-
-			prestige = 5
-					
-					
+			prestige = 10
 					SCO = { all_core = { add_core = THIS } }
-					
-			
 		}
 		ai_will_do = {
 			factor = 1
@@ -217,14 +208,8 @@ claim_scotland = {
 
 claim_england = {
 		potential = {
-			
-		
 			tag = WHA
-			      
-			
 			NOT = {
-				
-				
 				has_country_flag = claim_england
 			}
 		}	
@@ -233,21 +218,14 @@ claim_england = {
 			war = no
 			WHA = {	all_core = { owned_by = THIS }			}
 			state_n_government = 1
-			
-			
-			
-			
+			has_country_flag = claim_scotland
 		}
 		
 		effect = {
 		set_country_flag = claim_england
-
-			prestige = 5
-					
-					
+			prestige = 10
 					ENL = { all_core = { add_core = THIS } }
-					
-			
+		
 		}
 		ai_will_do = {
 			factor = 1
@@ -490,6 +468,12 @@ claim_england = {
                      					  }			        
                     	}
 		 secede_province = CCC						
+		}
+		CCC = {
+		add_country_modifier = {
+	    name = ccc_exploitation_economy
+	    duration = 36525
+                                 }
 		}
 		 prestige = 20
 	    }

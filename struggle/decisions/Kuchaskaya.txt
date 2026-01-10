@@ -350,6 +350,7 @@ political_decisions = {
 	the_death_of_the_parvizids_ksk = {
 		potential = {
 			has_country_flag = accept_our_defeat_ksk
+			has_country_flag = march_into_persia_ksk
 			tag = KSK 
 			NOT = { has_country_flag = the_death_of_the_parvizids_ksk }
 			NOT = { has_country_flag = revenge_will_be_ours_ksk }
@@ -359,6 +360,9 @@ political_decisions = {
 			is_greater_power = yes
 			war = no
 			prestige = 130
+			owns = 925
+			owns = 926
+			owns = 932
 		}
   
 		effect = {
