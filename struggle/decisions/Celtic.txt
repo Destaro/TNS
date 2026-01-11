@@ -397,7 +397,7 @@ claim_england = {
 		 
 	   effect = {
          set_country_flag = the_omani_protectorate_celts
-		 badboy = 1
+		 badboy = 5
 		 OMA = { annex_to = THIS } 
 		 prestige = 10
 	    }
@@ -406,7 +406,9 @@ claim_england = {
 	the_omani_protectorate_gps = {
 	   potential = { 
 	  is_greater_power = yes
-	   NOT = { has_country_flag = the_omani_protectorate_gps }
+	   NOT = { has_country_flag = the_omani_protectorate_gps
+       tag = CEL
+	   tag = WHA }
 	   THIS = { is_sphere_leader_of = OMA }
 	   OMA = { exists = yes }
 	   }
@@ -475,8 +477,9 @@ claim_england = {
 	    duration = 36525
                                  }
 		}
+		create_vassal = CCC
 		 prestige = 20
-	    }
+	                  }
 	}
 	
 	give_libyan_provinces_to_ccc = {
