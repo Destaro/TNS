@@ -204,6 +204,7 @@ country_event = {
 	relation = {
 	who = MAD 
 	value = 200    }
+	set_country_flag = merina_not_worth
 	}
 	
 		
@@ -233,10 +234,13 @@ country_event = {
 	desc = "EVTDESC4444111155"
 	picture = "rosas_urquiza"
 	
+	fire_only_once = yes
+	
 	trigger = {
 	tag = WHA
 	year = 1843
 	has_country_flag = our_hand_in_the_merinan_pocket
+	NOT = { has_country_flag = merina_not_worth }
 	}
 	
 	mean_time_to_happen = {
@@ -245,16 +249,27 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA4444111155A"
-	    treasury = -25000
-	    MAD = { country_event = 444411115 }
+	treasury = -25000
+	MAD = { country_event = 444411115 }
+	prestige = 5
+	relation = {
+	who = MAD 
+	value = 200    }
+	
+	diplomatic_influence = {
+	who = MAD
+	value = 100      }
+	
 	}
 	
+	
+	#this is fine
 	option = {
 		name = "EVTOPTA4444111155B"
-	    prestige = -5
+	relation = {
+	who = MAD 
+	value = 200    }
 	}
-	
-	
 	
 }
 
@@ -780,7 +795,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA444411133A"
-      set_global_flag = the_ccc_explores further into africa
+      set_global_flag = the_ccc_explores_further_into_africa
 	  treasury = -25000
 	  CCC = { treasury = 25000 }
 	}
@@ -993,7 +1008,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	any_neighbor_province = { owned_by = { HDJ }
+	any_neighbor_province = { owned_by = { HDJ } }
 	 CCC = { exists = yes }
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
@@ -1805,7 +1820,7 @@ country_event = {
                                  		       }
                    }
 	define_general = {
-	name = Sangram Soam
+	name = Sangram_Soam
 	personality = lilylivered
 	background = cursed_luck
                               }
