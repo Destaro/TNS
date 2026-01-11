@@ -229,9 +229,9 @@ country_event = {
 
 #place our people in the merinan court
 country_event = {
-	id = 4444111155
-	title = "EVTNAME4444111155" 
-	desc = "EVTDESC4444111155"
+	id = 44441155
+	title = "EVTNAME44441155" 
+	desc = "EVTDESC44441155"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -247,29 +247,21 @@ country_event = {
 		days = 1
 	}
 	
+	#invest more
 	option = {
-		name = "EVTOPTA4444111155A"
-	treasury = -25000
-	MAD = { country_event = 444411115 }
-	prestige = 5
-	relation = {
-	who = MAD 
-	value = 200    }
+		name = "EVTOPTA44441155A"
+        treasury = -25000
+	    MAD = { country_event = 444411115 }
+	}
 	
-	diplomatic_influence = {
-	who = MAD
-	value = 100      }
+	#not worth
+	option = {
+		name = "EVTOPTA44441155B"
+        set_country_flag = merina_not_worth
 	
 	}
 	
 	
-	#this is fine
-	option = {
-		name = "EVTOPTA4444111155B"
-	relation = {
-	who = MAD 
-	value = 200    }
-	}
 	
 }
 
