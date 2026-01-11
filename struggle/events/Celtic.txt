@@ -245,13 +245,13 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA4444111155A"
-	treasury = -25000
-	MAD = { country_event = 444411115 }
+	    treasury = -25000
+	    MAD = { country_event = 444411115 }
 	}
 	
 	option = {
 		name = "EVTOPTA4444111155B"
-	    
+	    prestige = -5
 	}
 	
 	
@@ -955,6 +955,7 @@ country_event = {
 	KZB = { exists = yes }
 	has_global_flag = the_ccc_explores
 	year = 1852
+	SOM = { owns = 1869 }
 	}
 
    mean_time_to_happen = {
@@ -1501,7 +1502,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 50
 	}
 
 	
