@@ -812,7 +812,7 @@ country_event = {
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
 	AGC = { exists = yes }
-	has_global_flag = the_ccc_explores
+	has_global_flag = the_ccc_explores_further_into_africa
 	}
 
    mean_time_to_happen = {
@@ -856,7 +856,7 @@ country_event = {
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
 	BUG = { exists = yes }
-	has_global_flag = the_ccc_explores
+	has_global_flag = the_ccc_explores_further_into_africa
 	}
 
    mean_time_to_happen = {
@@ -921,7 +921,7 @@ country_event = {
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
 	KZB = { exists = yes }
-	has_global_flag = the_ccc_explores
+	has_global_flag = the_ccc_explores_further_into_africa
 	year = 1851
 	}
 
@@ -964,7 +964,7 @@ country_event = {
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
 	KZB = { exists = yes }
-	has_global_flag = the_ccc_explores
+	has_global_flag = the_ccc_explores_further_into_africa
 	year = 1852
 	SOM = { owns = 1869 }
 	}
@@ -1009,7 +1009,7 @@ country_event = {
 	 CCC = { vassal_of = THIS }
 	OR = { tag = WHA tag = CEL }
 	HDJ = { exists = yes }
-	has_global_flag = the_ccc_explores
+	has_global_flag = the_ccc_explores_further_into_africa
 	year = 1852
 	}
 

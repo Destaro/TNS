@@ -13836,31 +13836,31 @@
 	}
 	
 	aristocrats = {
-		culture = rajput
+		culture = sindi
 		religion = manichaean
 		size = 100
 	}
 
 	clergymen = {
-		culture = rajput
+		culture = sindi
 		religion = manichaean
 		size = 350
 	}
 
 	artisans = {
-		culture = rajput
+		culture = sindi
 		religion = manichaean
 		size = 2000
 	}
 
 	soldiers = {
-		culture = rajput
+		culture = sindi
 		religion = manichaean
 		size = 3000
 	}
 
 	farmers = {
-		culture = rajput
+		culture = sindi
 		religion = manichaean
 		size = 30000
 	}

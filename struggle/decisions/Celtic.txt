@@ -489,12 +489,13 @@ claim_england = {
 	   tag = CEL
 	   }
 	  any_owned_province = {
-        continent = africa 
+        OR = { continent = africa 
 		continent = south_africa                  
 		continent = central_africa
         continent = west_africa
         continent = east_africa
         continent = south_west_africa
+		                 }
 		NOT = { province_id = 2048
                 province_id = 2624
                 province_id = 1955
@@ -503,8 +504,11 @@ claim_england = {
                 province_id = 2060
                 province_id = 2005
                      				}
-                            }
+                            
+						}
 	   has_country_flag = create_the_celtic_colonial_company
+	   CCC = { vassal_of = THIS }
+	   CCC = { exists = yes }
 	   }
 	   
 	   allow = {
@@ -582,7 +586,12 @@ claim_england = {
 	   is_greater_power = yes
 	   war = no
 	   nationalism_n_imperialism = 1
-	   
+	   owns = 1266
+	   owns = 1288
+	   OR = { 
+	   owns = 1227 
+	   PNJ = { vassal_of = THIS }
+	   }
 		             }
 		 
 	   effect = {
@@ -592,7 +601,12 @@ claim_england = {
 		     limit = {   
 			 OR = {	continent = oceania                
 					continent = asia  }
-			 NOT = {  province_id = 3758  }			        
+			 NOT = {  province_id = 3758
+                      province_id = 1166
+                      province_id =	3347
+                      province_id = 3350
+                      province_id = 1177 
+                      province_id = 1288  }			        
                     	}
 		 secede_province = INA						
 		}

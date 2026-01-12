@@ -3287,3 +3287,22 @@ TIG_anarcho_liberal;Freedom Faction;Faction liberté;Freiheit Fraktion;;;;;;;;;;;
 TIG_socialist;Tigrayan People's Liberation Front;Front de libération du Tigrayienne populaire;Tigrayan Volksbefreiungsfront;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 TIG_communist;Tigrayan Communist Party;Tigrayienne Parti communiste;Tigrayan Kommunistischen Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
 TIG_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+INA_ADJ;Celtic;Celtic;Celtic;;;;;;;;;;;x;
+INA;The Indus Administration;The Indus Administration;The Indus Administration;;;;;;;;;;;x;
+INA_proletarian_dictatorship;The Indus Commune;The Indus Commune;The Indus Commune;;;;;;;;;;;x;
+INA_presidential_dictatorship;The Indus Republic;The Indus Republic;The Indus Republic;;;;;;;;;;;x;
+INA_bourgeois_dictatorship;The Indus Administration;The Indus Administration;The Indus Administration;;;;;;;;;;;x;
+INA_fascist_dictatorship;The Indus Valley Empire;The Indus Valley Empire;The Indus Valley Empire;;;;;;;;;;;x;
+INA_absolute_monarchy;The Indus Administration;The Indus Administration;The Indus Administration;;;;;;;;;;;x;
+INA_prussian_constitutionalism;The Indus Administration;The Indus Administration;The Indus Administration;;;;;;;;;;;x;
+INA_hms_government;The Indus Administration;The Indus Administration;The Indus Administration;;;;;;;;;;;x;
+INA_democracy;The Indus Republic;The Indus Republic;The Indus Republic;;;;;;;;;;;x;
+INA_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+INA_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+INA_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+INA_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+INA_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+INA_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+INA_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+INA_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+INA_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
