@@ -2,6 +2,7 @@ political_decisions = {
 
 
 form_ruthenia = {
+picture = russify_baltic_states
 		potential = {
 			
 			OR = {

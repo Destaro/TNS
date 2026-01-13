@@ -6,6 +6,7 @@ country_event = {
 	desc = "EVTDESC777007"
 	picture = "danishgovernment"
 	fire_only_once = yes
+	
 	trigger = {
 	LIT = { vassal_of = BUL}
 	PRD = { vassal_of = BUL}
@@ -15,56 +16,47 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 1
 	}
-
+    
+	#fight to keep the west
 	option = {
-		name = "EVTOPTB777007" #westernrevolts
+		name = "EVTOPTB777007A" #westernrevolts
 		release_vassal = PRD
 		release_vassal = LIT
 		prestige = 10
-		set_global_flag = western_revolts
+		set_global_flag = western_revolts_bolkania
 		PRD = { government = prussian_constitutionalism }
 		LIT = { government = absolute_monarchy }
-	PRD = {
+	    
+		PRD = {
                war = {
-	 target = BUL
-	attacker_goal = { 
-	casus_belli = humiliate 
-	
-	 }
-	defender_goal = { 
-	casus_belli = make_puppet
-	                         }
-		
+	           target = BUL
+	           attacker_goal = { casus_belli = unification_GP_humiliate }
+	           defender_goal = { casus_belli = make_puppet }
 	       }
-}
+        }
 		   
-	LIT = {	  
-         war = {
-	target = BUL
-	attacker_goal = { 
-	casus_belli = humiliate 
-	
-	 }
-	defender_goal = { 
-	casus_belli = make_puppet
-	                         }
-		
-	       }
-    }
+	    LIT = {	  
+             war = {
+	    target = BUL
+	    attacker_goal = { casus_belli = humiliate }
+	    defender_goal = { casus_belli = make_puppet }
+	           }
+        }
 		   
-		   ai_chance = { factor = 50 }
+		   ai_chance = { factor = 85 }
        }
 	   
+	   #give up
 	   option = { 
-	   name = "EVTOPTA777007" #westernrevolts
+	   name = "EVTOPTA777007B" #westernrevolts
 	   prestige = -15
 	   release_vassal = PRD
-		release_vassal = LIT
-		PRD = { government = prussian_constitutionalism }
-		LIT = { government = absolute_monarchy }
-		any_owned = {
+	   release_vassal = LIT
+	   PRD = { government = prussian_constitutionalism }
+	   LIT = { government = absolute_monarchy }
+	   any_owned = {
 				limit = {
 					OR = { is_core = EST
 					       is_core = NOV
@@ -77,7 +69,7 @@ country_event = {
 				}
 			}
 		badboy = -5
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 15 }
 	   }
 
 
@@ -94,17 +86,17 @@ country_event = {
 	BKV = { vassal_of = BUL}
 	KUR = { vassal_of = BUL}
 	tag = BUL
-    year = 1842
+    year = 1843
 	
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 1
 	}
 
 	option = {
-		name = "EVTOPTB777010" #easternrevolt
-		set_global_flag = eastern_revolt
+		name = "EVTOPTB777008A" #easternrevolt
+		set_global_flag = eastern_revolt_bolkania
 		
 		release_vassal = BKV
 		release_vassal = KUR
@@ -152,7 +144,7 @@ country_event = {
        }
 	   
 	   option = { 
-	   name = "EVTOPTA777009" #easternrevolt
+	   name = "EVTOPTA777008B" #easternrevolt
 	   prestige = -15
 	   release_vassal = BYE
 	   release_vassal = KUR
@@ -170,26 +162,26 @@ country_event = {
 	desc = "EVTDESC777288"
 	picture = "danishgovernment"
 	fire_only_once = yes
+	
+	major = yes
+	
 	trigger = {
 	LIT = { vassal_of = BUL}
 	PRD = { vassal_of = BUL}
 	tag = BUL
-    has_global_flag = western_revolts
+    has_global_flag = western_revolts_bolkania
+	war = no
 	
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 	}
 
-	
-	   
 	   option = { 
-	   name = "EVTOPTA777910" #the west is safe
-	   prestige = 5
-	  LIT = { government = colonial_company}
-          PRD = { government = colonial_company}
-		badboy = -5
-		ai_chance = { factor = 20 }
+	   name = "EVTOPTA778998A" #the west is safe
+	   prestige = 20
+	   LIT = { government = colonial_company}
+       PRD = { government = colonial_company}
 	   }
 }

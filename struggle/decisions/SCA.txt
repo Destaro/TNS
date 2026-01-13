@@ -697,8 +697,7 @@
 		  }
 		  
 	allow = {
-	nationalism_n_imperialism = 1
-	
+	state_n_government = 1
 	war = no
 	   FIN = { vassal_of = THIS }
 	   EST = { vassal_of = THIS }
@@ -730,14 +729,13 @@
 	        has_country_flag = integrate_finland
             		exists = EST	}
 	      FIN = { vassal_of = THIS }
-		  
+	      FIN = exists	  
 		  }
 		  
 	allow = {
-	nationalism_n_imperialism = 1
-	
+	state_n_government = 1
 	war = no
-	   FIN = { vassal_of = THIS }
+	FIN = { vassal_of = THIS }
 	   
 	is_greater_power = yes
 	

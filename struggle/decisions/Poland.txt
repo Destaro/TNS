@@ -866,41 +866,7 @@ war = {
 		}
 	}
 	
-	black_sea_campaing_bolkania = {
-		picture = become_poland
-		potential = {
-			tag = BUL
-			exists = HUN
-			NOT = { has_country_flag = black_sea_campaing_bolkania }
-		}
-		allow = {
-			has_country_flag = integrate_the_eastern_slavs
-			war = no
-			DON = { all_core = { owned_by = THIS } }
-			nationalism_n_imperialism = 1
-			
-		}
-		
-		effect = {
-			set_country_flag = black_sea_campaing_bolkania
-			badboy = 5
-			war = {
-	target = HUN
-	attacker_goal = { 
-	casus_belli = conquest_any
-	 }
-	defender_goal = { 
-	casus_belli = cut_down_to_size
-	                         }
 	
-                       }
-
-
-		}
-		ai_will_do = {
-			factor = 1 
-		}
-	}
 	
 	
 	unite_poland = {

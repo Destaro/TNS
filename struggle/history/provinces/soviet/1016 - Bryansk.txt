@@ -1,7 +1,7 @@
 owner = BKV
 controller = BKV
 add_core = BKV
-add_core = BUL
+
 add_core = RUT
 trade_goods = cattle
 life_rating = 35

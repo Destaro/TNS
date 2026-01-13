@@ -1,6 +1,7 @@
 political_decisions = {
 
 form_slavia = {
+picture = russify_baltic_states
         potential = {
 		OR = {
 		tag = BUL
@@ -98,27 +99,30 @@ form_slavia = {
 
 
 the_black_sea_coast = { 
-potential = {
+
+   potential = {
    OR = { 
      tag = SLA 
 	 tag = RUT 
 	 tag = BUL }
 	 NOT = { has_country_flag = the_black_sea_coast }
         }
-allow = {
-year = 1855
-is_greater_power = yes
-war = no
- HUN = { all_core = { owned_by = THIS } } 
-          }
-effect = { 
+          
+	 allow = {
+     year = 1855
+     is_greater_power = yes
+     war = no
+     HUN = { all_core = { owned_by = THIS } } 
+     }
+  
+  
+  effect = { 
   badboy = 2
   set_country_flag = the_black_sea_coast 
   HUN = { all_core = { add_core = THIS } }
-                    
 					}
 
-                             }
+    }
 	
 	
 	
