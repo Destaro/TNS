@@ -8,3 +8,5 @@ terrain = reval
 fort = 1
 naval_base = 2
 
+
+add_core = LIT

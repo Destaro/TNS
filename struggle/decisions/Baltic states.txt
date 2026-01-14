@@ -5,7 +5,7 @@ political_decisions = {
 			is_culture_group = baltic
 			NOT = { exists = UBD }
 			NOT = { has_global_flag = baltic_states_formed }
-			NOT = { has_country_flag = post_colonial_country }
+			
 		}
 
 		allow = {
@@ -53,6 +53,17 @@ political_decisions = {
 				}
 			}
 			
+			PRD = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			
 		}
 
 		effect = {
@@ -65,6 +76,7 @@ political_decisions = {
 			add_accepted_culture = estonian
 			add_accepted_culture = latvian
 			add_accepted_culture = lithuanian
+			add_accepted_culture = pruski
 			remove_accepted_culture = russian
 			remove_accepted_culture = north_german
 			change_tag = UBD
@@ -95,6 +107,14 @@ political_decisions = {
 			random_country = {
 				limit = {
 					tag = CUR
+					NOT = { in_sphere = THIS }
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
+			random_country = {
+				limit = {
+					tag = PRD
 					NOT = { in_sphere = THIS }
 					NOT = { tag = THIS }
 				}
