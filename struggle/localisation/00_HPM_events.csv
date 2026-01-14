@@ -5433,3 +5433,9 @@ EVT822002OPTA;To grow up is to accept;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTNAME822003;Bedouins in arabia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC822003;We have held lands in arabia for some time now and we can safely consider them proper members of our nation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVT822003OPTA;Welcome!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME778998;Recovery of the West;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC778998;After succesfully putting down the rebellion in the west the lands in Prussia and Lithuania have fallen back into the fold of Bolkanian power!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTOPTA778998A;Another day lithuanian morale dies;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME777100;The loss of the Baltic
+EVTDESC777100;After a catastrophic defeat during the western Baltic rebellions from their subjects in Prussia Lithuania and losing a connection to their ports in the Baltic their Baltic enemies have seized them and due to the broken state of Bolkania they were unable to defend them, what a sad state of affairs after their victory against the north;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTOPTA777100A;The Baltic was too cold anyways;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
