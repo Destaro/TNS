@@ -11,7 +11,7 @@ army = {
 
    
 	name = "Nye Heim Armen"
-	location = 2096
+	location = 3370
 	
 	regiment = {
 		name= "1. Commando"
@@ -43,4 +43,74 @@ army = {
 		home = 2096
 	}
 
+}
+
+
+navy = {
+    name = "Home fleet"
+    location = 2088
+
+    ship = {
+		name = "Isla de Cuba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+    
+	
+    ship = {
+        name= "Seagull"
+        type = frigate
+    }
+	
+    ship = {
+        name= "Seagull"
+        type = frigate
+    }
+
+
+    ship = {
+        name= "1st Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "2nd Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "3rd Transport Flotilla"
+        type = clipper_transport
+    }
+
+   
 }

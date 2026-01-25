@@ -617,9 +617,43 @@
         ai_will_do = { factor = 1 }
     }
 	
+	put_down_freed_novgorod = {
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = put_down_freed_novgorod                                        
+            NOV = { is_vassal = yes }                 }
+		  }
+		  
+	allow = {
+	war = no
+	is_greater_power = yes
+	}
+	
+	effect = {
+	set_country_flag = put_down_freed_novgorod
+	war = {
+                target = NOV
+         
+				attacker_goal = {
+                    casus_belli = conquest_any
+                  
+                }
+               
+                defender_goal = { 
+				    casus_belli = status_quo }
+					
+					
+	            }
+	    }
+	}
+	
 	
 	dominis_mari_baltici = {
 	potential = {
+	picture = form_scandinavia
 	tag = SCA
 	NOT = { has_country_flag = dominis_mari_baltici }
 	      }
@@ -1076,7 +1110,7 @@ restore_the_baltic = {
                
                 defender_goal = { 
 				    casus_belli = release_puppet
-                    tag = NTU }
+                    country = NTU }
 					
 					defender_goal = { 
 				    casus_belli = cut_down_to_size }

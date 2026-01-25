@@ -233,7 +233,7 @@ army = {
 
 army = {
 	name = "4-i Armeiskii Korpus" #Kiev/Ukrainian Army
-	location = 958
+	location = 3734
 	
 	regiment = {
 		name = "4.1-ya Pekhotnaya Diviziya"

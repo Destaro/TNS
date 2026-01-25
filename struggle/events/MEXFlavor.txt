@@ -1412,35 +1412,87 @@ country_event = {
 	
 }
 
+
+#ultimatum from the batavians
 country_event = {
 	id = 566992
 	title = "EVTNAME566992" #ultimatumfromthebatavians
 	desc = "EVTDESC566992"
 	picture = "rosas_urquiza"
 	
-	
-	
 	is_triggered_only = yes
 
 
-		
-	option = {
-		name = "EVTOPT566991A"
-		
-		TEX = { add_casus_belli = { target = FROM type = conquest_any months = 24 } }
-		
-		ai_chance = { factor = 0.4 }
-	}
-	
+	#texas refuses
 	option = {
 		name = "EVTOPT566992A"
+		FROM = { country_event = 566994 }
+		TEX = { 
+              war = {
+                target = WHA
+                
+				attacker_goal = {
+                    casus_belli = humiliate
+                       }
+               
+                defender_goal = { 
+				    casus_belli = conquest_any 
+					    }
+                   }
+		}
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	#texas surrenders
+	option = {
+		name = "EVTOPT566992B"
 		any_pop = {
 			limit = { culture = texan }
 			militancy = 8
 		}
 		FROM = { inherit = TEX } 
-		ai_chance = { factor = 0.6 }
+		FROM = { country_event = 566993 }
+		ai_chance = { factor = 50 }
 	}
 		
+	
+}
+
+#texas surrendered
+country_event = {
+	id = 566993
+	title = "EVTNAME566993" #ultimatumfromthebatavians
+	desc = "EVTDESC566993"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPT566993A"
+		prestige = 10
+	}
+	
+}
+
+#texas refuses
+country_event = {
+	id = 566994
+	title = "EVTNAME566994" #ultimatumfromthebatavians
+	desc = "EVTDESC566994"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPT566994A"
+		
+	}
 	
 }

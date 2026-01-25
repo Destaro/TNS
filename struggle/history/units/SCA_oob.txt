@@ -1109,6 +1109,30 @@ army = {
 		type = guard
 		home = 2557
 	}
+	
+	regiment = {
+		name= "The Grenadier Guards"
+		type = guard
+		home = 334
+	}
+	
+	regiment = {
+		name= "The Grenadier Guards"
+		type = guard
+		home = 334
+	}
+	
+	regiment = {
+		name= "The Grenadier Guards"
+		type = guard
+		home = 334
+	}
+	
+	regiment = {
+		name= "The Grenadier Guards"
+		type = guard
+		home = 334
+	}
 
 	regiment = {
 		
@@ -1589,12 +1613,30 @@ army = {
         type = guard
         home = 312
     }
+	
+	  regiment = {
+        name= "1. Landvern"
+        type = artillery
+        home = 343
+    }
+
+    regiment = {
+        name= "2. Landvern"
+        type = artillery
+        home = 335
+    }
+
+    regiment = {
+        name= "3. Landvern"
+        type = artillery
+        home = 329
+    }
 
 }
 
 army = {
     name = "Scottish Army"
-    location = 268
+    location = 3373
 
     regiment = {
         name= "1. Akershusiske brigade"
@@ -1609,7 +1651,7 @@ army = {
     }
 
     regiment = {
-        name= "1. Trondhjemske brigade"
+        name= "3. Trondhjemske brigade"
         type = infantry
         home = 3373
     }
@@ -1617,6 +1659,24 @@ army = {
     regiment = {
         name= "1. Bergenhusiske brigade"
         type = cuirassier
+        home = 3373
+    }
+	
+	 regiment = {
+        name= "1. Trondhjemske brigade"
+        type = artillery
+        home = 3373
+    }
+	
+	 regiment = {
+        name= "1. Trondhjemske brigade"
+        type = artillery
+        home = 280
+    }
+	
+	 regiment = {
+        name= "1. Trondhjemske brigade"
+        type = artillery
         home = 3373
     }
 
@@ -1637,7 +1697,7 @@ army = {
     regiment = {
         name= "2. Akershusiske brigade"
         type = infantry
-        home = 266
+        home = 3373
     }
 
     

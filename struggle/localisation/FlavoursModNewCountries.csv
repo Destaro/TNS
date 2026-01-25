@@ -100,11 +100,11 @@ NZL_dominion;The Dominion of New Zealand;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 NZL_absolute_monarchy;The Dominion of New Zealand;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 NZL_prussian_constitutionalism;The Dominion of New Zealand;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 NZL_hms_government;The Dominion of New Zealand;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;
-CAN_colonial_company;The Dominion of Canada;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-CAN_dominion;The Dominion of Canada;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-CAN_absolute_monarchy;The Dominion of Canada;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-CAN_prussian_constitutionalism;The Dominion of Canada;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
-CAN_hms_government;The Dominion of Canada;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;
+CAN_colonial_company;The Dominion of Andronica;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+CAN_dominion;The Dominion of Andronica;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+CAN_absolute_monarchy;Andronican Empire;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+CAN_prussian_constitutionalism;Andronican Federation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
+CAN_hms_government;The Dominion of Andronica;;;;;;;;;;;;;x,;;;;;;;;;;;;;;;;;;;;;;;;;;
 VTU_colonial_company;New Hebrides;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 VTU_dominion;New Hebrides;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,
 SER_colonial_company;The Principality of Serbia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;,

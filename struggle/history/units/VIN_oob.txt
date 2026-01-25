@@ -1,6 +1,6 @@
 army = {
 	name = "Royal Vinlandic Army"
-	location = 57
+	location = 996
 	regiment = {
 		name= "1.1. Canadian Division"
 		type = infantry
@@ -22,8 +22,8 @@ army = {
 }
 
 army = {
-	name = "The home Garrison"
-	location = 58
+	name = "The Home Garrison"
+	location = 65
 	
 	regiment = {
 		name= "2nd Dragoons (Royal Scots Greys)"
@@ -76,7 +76,7 @@ army = {
 
 army = {
 	name = "The Moshva Garrison"
-	location = 46
+	location = 351
 	
 	regiment = {
 		name= "Prince of Wales's Lancers"

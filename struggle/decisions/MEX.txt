@@ -113,17 +113,8 @@ political_decisions = {
         }
 
         allow = {
-		is_greater_power = yes
-            prestige = 25
+		is_vassal = no
             war = no
-            MEX = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = { in_sphere = THIS }
-                    }
-                }
-            }
         }
 
         effect = {
@@ -137,7 +128,6 @@ political_decisions = {
 						OR = {
 							primary_culture = texan
 							primary_culture = mexican
-							
 						}
 						
 					}

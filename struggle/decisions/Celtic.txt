@@ -266,14 +266,26 @@ claim_england = {
 	   tag = CEL
 	   }
 	   NOT = { has_country_flag = negotiate_the_purchase_of_mayumbe }
+	   OR = {
+       1974 = { owned_by = LOA }
+	   1974 = { owned_by = KON }
+	   }
 	                  }
 	   
 	   allow = {
 	   year = 1840
 	   is_greater_power = yes
 	   war = no
-       THIS = { is_sphere_leader_of = KON }
-	   THIS = { is_sphere_leader_of = LOA }
+       THIS = { is_sphere_leader_of = KON } 
+	   LOA = {
+				all_core = {
+						OR = {
+							owner = {
+								in_sphere = THIS
+							}
+						}
+				}
+			}
 		             }
 		 
 	   effect = {

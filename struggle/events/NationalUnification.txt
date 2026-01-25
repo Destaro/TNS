@@ -14,6 +14,8 @@ country_event = {
 		NOT = { tag = SIE }
 		NOT = { tag = BAN }
 		NOT = { tag = SMR }
+		NOT = { tag = RUT }
+		NOT = { tag = BUL }
 		NOT = { has_country_flag = post_colonial_country }
 		NOT = {
 			cultural_union = { exists = yes }

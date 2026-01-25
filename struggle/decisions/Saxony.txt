@@ -48,14 +48,15 @@ political_decisions = {
 					  
 	    allow = {
 		is_greater_power = yes
-		 AUS = { all_core = { owned_by = THIS } }
+		 owns = 599
 		 war = no
 		}
 		
 		effect = {
 		AUS = { all_core = { add_core = THIS } }
 		set_country_flag = integrate_austria
-		
+		618 = { add_core = THIS }
+		767 = { add_core = THIS }
 		}
        
  
@@ -66,7 +67,6 @@ political_decisions = {
  potential = {
              has_country_flag = integrate_frisia
 			 has_country_flag = integrate_net
-			 has_country_flag = integrate_the_north
 			tag = GER
          NOT = {
             has_country_flag = push_west
@@ -117,9 +117,10 @@ political_decisions = {
                       }
 					  
 	    allow = {
-		 684 = { owned_by = THIS }
-		 682 = { owned_by = THIS }
+		 revolution_n_counterrevolution = 1
 		 war = no
+		 is_greater_power = yes
+		 owns = 3514
 		}
 		
 		effect = {
@@ -279,12 +280,12 @@ political_decisions = {
 	 begin_baltic_integration = {
 	 potential = {
          tag = GER
-		 OR = {
 		 has_country_flag = march_east
 		 owns = 3509
+	     owns = 701 
+		 owns = 692 
+		 owns = 3511 
 		 
-		 AND = { owns = 701 owns = 692 owns = 3511 }
-		 }
 		 NOT = { 
 		 exists = PRD
 		 has_country_flag = begin_baltic_integration }

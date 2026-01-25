@@ -161,6 +161,79 @@ country_event = {
 		
 }
 
+#the franks get offered to sell florida
+country_event = {
+	id = 22227771
+	title = "EVTNAME22227771" 
+	desc = "EVTDESC22227771"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    #they accept
+	option = {
+		name = "EVTOPTA22227771A"
+	FROM = { country_event = 22227772 } 
+	treasury = 300000
+		ai_chance = { factor = 75 }
+	}
+	
+	#they refuse
+	option = {
+		name = "EVTOPTA22227771B"
+	FROM = { country_event = 22227773 } 
+		ai_chance = { factor = 25 }
+	}
+		
+	
+}
+
+#The franks accepts
+country_event = {
+	id = 22227772
+	title = "EVTNAME22227772" 
+	desc = "EVTDESC22227772"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    major = yes
+		
+	option = {
+		name = "EVTOPTA22227772"
+	treasury = -300000
+	199 = { secede_province = THIS }
+	200 = { secede_province = THIS }
+	set_global_flag = florida_purchased
+	}
+		
+}
+
+#The franks refuse
+country_event = {
+	id = 22227773
+	title = "EVTNAME22227773" 
+	desc = "EVTDESC22227773"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA22227773"
+	set_country_flag = franks_refused_florida 
+	}
+		
+}
+
 #influence in madagascar
 country_event = {
 	id = 444411114

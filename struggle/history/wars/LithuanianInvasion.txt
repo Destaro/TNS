@@ -3,12 +3,14 @@ name = "Bolkanian Invasion Of The Baltics"
 1835.10.2 = {
 	add_attacker = BUL
 	add_attacker = LIT
+	add_attacker = BKV
 	add_attacker = BYE
 	add_attacker = PRD
 	add_defender = SCA
 	add_defender = EST
 	add_defender = NOV
 	add_defender = FIN
+	add_defender = VIN
 	
 	# actor
 	# receiver
