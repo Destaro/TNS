@@ -1,4 +1,5 @@
 color = { 120 0 33 }
+colonial_company = { 147 82 173 }
 graphical_culture = ItalianGC
 
 party = {

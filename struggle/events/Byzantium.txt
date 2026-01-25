@@ -1262,7 +1262,7 @@ country_event = {
 		add_country_modifier = { name = disunited_country duration = 365 }
 	}
 }
-#####Byzantine Atrocities - if the slaves are to be freed, the aristocracy demands compensation. 
+#####Byzantine Atrocities - if the slaves are to be freed, the Byzantine Empire will end and a Greek Empire shall replace it
 country_event = {
 	id = 300031
 	title = "EVTNAME300031" 
@@ -1273,37 +1273,21 @@ country_event = {
 
 	trigger = {
 		tag = BYZ
-		has_country_flag = enslaved_katchuskaya
 		political_reform = no_slavery
+		year = 1850
 	}
 
 	mean_time_to_happen = {
 		days = 10
 	}
-
 	option = {
-		name = "We cannot afford this."
-		political_reform = yes_slavery
-		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } pop_type = slaves }
-	}
-	option = {
-		name = "Resettle the Kurds forcibly."
-		badboy = 10
-		any_pop = { limit = { has_pop_culture = kurdish } reduce_pop = 0.5 move_pop = 3650 }
-		3650 = { secede_province = KSK add_core = KSK remove_core = BYZ }
-		3650 = { add_province_modifier = { name = the_massacre duration = 6000 } }
-		create_vassal = KSK 
-		}
-	option = {
-		name = "Recompense the slaveholders."
-		treasury = -100000
-		}
-	option = {
-		name = "There shall be no recompense for this evil."
+		name = "The Hellene Court shall set things right"
 		prestige = 20
 		any_pop = { limit = { has_pop_culture = greek } militancy = 5 }
 		add_country_modifier = { name = begin_revolution duration = 900 }
+		all_core = { remove_core = BYZ add_core = GRE }
+		change_tag = GRE
+		government = democracy
 		}
 }
 country_event = {
@@ -1799,6 +1783,7 @@ country_event = {
 		name = "EVTOPTA300045"
 		prestige = 50
 		inherit = SIC
+		add_accepted_culture = south_italian
 		BYZ = { any_owned = { limit = { OR = { is_core = SIC is_core = TUN } } secede_province = TUN add_core = TUN } }
 	}
 }
@@ -1818,7 +1803,7 @@ country_event = {
 		owns = 763
 		SIC = { vassal_of = THIS }
 		}
-	#MILITARY VICTORY SEES CARTHAGE INHERIT SOUTHERN ITALY 
+	#MILITARY VICTORY SEES BYZANTIUM INHERIT SOUTHERN ITALY 
 	option = {
 		name = "EVTOPTA300046"
 		prestige = 25
@@ -1827,11 +1812,221 @@ country_event = {
 		SYC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.95 } any_pop = { limit = { OR = { has_pop_culture = punic has_pop_culture = african_romance } } reduce_pop = 0.1 } }
 	}
 }
-#WAR WITH AQUILEIA
-#WAR WITH POPE
-#WAR WITH REST OF ITALY
-#BREAKING UP OF SOUTHERN ITALY
-#ANNEXATION OF ITALIAN PROVINCES
+#WAR WITH AQUILEIA - AQUILEIA USES THE EXCOMMUNICATION TO JUSTIFY CUTTING TRADE ROUTES TO SOUTHERN ITALY
+country_event = {
+	id = 300047
+	title = "EVTNAME300047" 
+	desc = "EVTDESC300047"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		SIC = { vassal_of = THIS }
+		AQU = { owns = 3525 }
+		year = 1850
+		has_global_flag = greek_schism
+		ROM = { exists = no }
+		ALB = { exists = no }
+		AOM = { exists = no }
+		}
+	#WAR IS GUARANTEED - AQUILEIA WILL NOT SUFFER ITS TRADE BEING CUT OFF SO THOROUGHLY AND BYZANTIUM IS WELL BEYOND REASON
+	option = {
+		name = "EVTOPTA300047"
+		AQU = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = AQU type = make_puppet months = 60 }
+		war = {
+			target = AQU
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+	}
+}
+#THE ITALIAN CRUSADE - CALLED BY THE POPE
+country_event = {
+	id = 300048
+	title = "EVTNAME300048" 
+	desc = "EVTDESC300048"
+	picture = "total_greek_victory"
+	major = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	trigger = {
+		tag = PAP
+		AQU = { vassal_of = BYZ }
+		}
+	#ALL THREE POWERS GET A MAJOR BUFF - BYZ GETS AN EVENT
+	option = {
+		name = "EVTOPTA300048"
+		add_country_modifier = { name = sicilian_industrialization_plan duration = -1 }
+		add_country_modifier = { name = AI_immediate_mobilization_cheat duration = -1 }
+		TUS = { 
+		add_country_modifier = { name = sicilian_industrialization_plan duration = -1 }
+		add_country_modifier = { name = AI_immediate_mobilization_cheat duration = -1 }
+		}
+		PAP = {
+		add_country_modifier = { name = sicilian_industrialization_plan duration = -1 }
+		add_country_modifier = { name = AI_immediate_mobilization_cheat duration = -1 }
+		}
+		LOM = {
+		add_country_modifier = { name = sicilian_industrialization_plan duration = -1 }
+		add_country_modifier = { name = AI_immediate_mobilization_cheat duration = -1 }
+		}
+		BYZ = { country_event = 300049 }
+	}
+}
+#BYZANTINE NOTIFICATION OF PAPAL BUFF
+country_event = {
+	id = 300049
+	title = "EVTNAME300049" 
+	desc = "EVTDESC300049"
+	picture = "total_greek_victory"
+	major = yes
+	is_triggered_only = yes
+	#BYZANTIUM MAKES ITS OWN PREPARATIONS - BUT FAR LESS FERVENTLY
+	option = {
+		name = "EVTOPTA300049"
+		add_country_modifier = { name = italian_war_coming duration = 365 }
+		set_country_flag = italian_war_coming
+	}
+}
+#THE GREAT ITALIAN WAR - LAST CHANCE AT ITALIAN FREEDOM - THE PUPPETS REBEL AS WELL TO MAKE IT WORSE
+country_event = {
+	id = 300050
+	title = "EVTNAME300050" 
+	desc = "EVTDESC300050"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		has_country_flag = italian_war_coming
+		NOT = { has_country_modifier = italian_war_coming }
+		}
+	#BYZANTIUM WILL LOSE UNLESS IT ACHIEVES ABSOLUTE VICTORY
+	option = {
+		name = "EVTOPTA300050"
+		set_global_flag = great_italian_war
+		badboy = 5
+		PAP = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = PAP type = make_puppet months = 60 }
+		war = {
+			target = PAP
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		release_vassal = SIC
+		SIC = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = SIC type = make_puppet months = 60 }
+		war = {
+			target = SIC
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+			}
+		release_vassal = AQU
+		AQU = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = AQU type = make_puppet months = 60 }
+		war = {
+			target = AQU
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		release_vassal = SYC
+		SYC = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = SYC type = make_puppet months = 60 }
+		war = {
+			target = SYC
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		TUS = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = TUS type = make_puppet months = 60 }
+		war = {
+			target = TUS
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+		LOM = { casus_belli = { target = BYZ type = cut_down_to_size months = 60 } }
+		casus_belli = { target = LOM type = make_puppet months = 60 }
+		war = {
+			target = LOM
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = cut_down_to_size }
+		}
+	}
+}
+#THE PAPACY WINS - UNITED ITALY UNDER PAPAL SUPERVISION
+country_event = {
+	id = 300051
+	title = "EVTNAME300051" 
+	desc = "EVTDESC300051"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PAP
+		has_global_flag = great_italian_war
+		is_vassal = no
+		truce_with = BYZ
+		}
+	#BYZANTIUM MAKES ITS OWN PREPARATIONS - BUT FAR LESS FERVENTLY
+	option = {
+		name = "EVTOPTA300051"
+		prestige = 25
+		clr_global_flag = great_italian_war
+		inherit = TUS
+		inherit = SIC
+		inherit = SYC
+		inherit = AQU
+		inherit = LOM
+		change_tag = ITA
+	}
+}
+#BREAKING UP OF SOUTHERN ITALY - BYZANTINE VICTORY PREVENTS ANOTHER REVOLUTION
+country_event = {
+	id = 300052
+	title = "EVTNAME300052" 
+	desc = "EVTDESC300052"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+		has_global_flag = great_italian_war
+		PAP = { vassal_of = THIS }
+		SIC = { vassal_of = THIS }
+		SYC = { vassal_of = THIS }
+		TUS = { vassal_of = THIS }
+		LOM = { vassal_of = THIS }
+		AQU = { vassal_of = THIS }
+		}
+	#BYZANTIUM NOW HOLDS ONTO ALL OF ITALY - NO RESISTANCE SHALL EVER RETURN HERE - NONE OF REAL VALUE AT ANY RATE
+	option = {
+		name = "EVTOPTA300052"
+		prestige = 25
+		badboy = 5
+		set_country_flag = byzantine_italy
+		clr_global_flag = great_italian_war
+		LOM = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		TUS = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		PAP = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		SIC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		SYC = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		AQU = { government = colonial_company any_pop = { limit = { has_pop_culture = south_italian } reduce_pop = 0.7 } any_pop = { limit = { has_pop_culture = north_italian } reduce_pop = 0.7 } }
+		inherit = SIC
+		release_vassal = AVR
+		release_vassal = MEL
+		release_vassal = CSZ
+		AVR = { government = colonial_company }
+		MEL = { government = colonial_company }
+		CSZ = { government = colonial_company }
+	}
+}
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
 
 country_event = {
