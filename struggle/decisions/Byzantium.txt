@@ -235,4 +235,37 @@ political_decisions = {
 			SIC = { country_event = 300039 }
 		}
 	}
+	triumph_for_italy = {
+		potential = {
+		tag = BYZ
+		has_country_flag = byzantine_italy
+		NOT = { has_country_flag = end_the_theme_system_italy }
+		}
+		allow = {
+		is_greater_power = yes
+		revolution_n_counterrevolution = 1
+		SYC = { vassal_of = THIS in_sphere = THIS }
+		PAP = { vassal_of = THIS in_sphere = THIS }
+		AQU = { vassal_of = THIS in_sphere = THIS }
+		LOM = { vassal_of = THIS in_sphere = THIS }
+		AVR = { vassal_of = THIS in_sphere = THIS }
+		MEL = { vassal_of = THIS in_sphere = THIS }
+		CSZ = { vassal_of = THIS in_sphere = THIS }
+		TUS = { vassal_of = THIS in_sphere = THIS }
+		}
+		effect = {
+		set_country_flag = end_the_theme_system_italy
+		prestige = 75
+		ITA = { all_core = { add_core = BYZ } }
+		inherit = SYC
+		inherit = PAP
+		inherit = AQU
+		inherit = LOM
+		inherit = AVR
+		inherit = MEL
+		inherit = CSZ
+		inherit = TUS
+		country_event = 300033
+		}
+	}
 }

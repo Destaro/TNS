@@ -3324,3 +3324,6 @@ reluctant_fighter = {
 	prestige = -0.7
 	icon = 8
 }
+italian_war_coming = {
+	tax_efficiency = 0.1
+}

@@ -1,5 +1,6 @@
 color = { 0 156 45 }
 lotharingian_duchy = { 179 252 187 }
+colonial_company = { 147 82 173 }
 graphical_culture = ItalianGC
 party = {
 	name = "LOM_reactionary"
