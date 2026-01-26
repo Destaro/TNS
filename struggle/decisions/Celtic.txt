@@ -449,21 +449,24 @@ claim_england = {
 	   }
 	   NOT = { has_country_flag = create_the_celtic_colonial_company }
 	   is_greater_power = yes
-	   MAD = { all_core = { owned_by = THIS } }
+	  year = 1845
 	   }
 	   
 	   allow = {
 	   year = 1847
-	   owns = 2115
-	   owns = 1974
-	   owns = 2048
 	   is_greater_power = yes
 	   war = no
+	   OR = { 
+	   owns = 1974
+	   owns = 2116
+	   owns = 2115
+	   owns = 2036
+	   }
+	   
 		             }
 		 
 	   effect = {
          set_country_flag = create_the_celtic_colonial_company
-		 badboy = 1
 		any_owned = {
 		     limit = {   
 			 OR = { continent = africa

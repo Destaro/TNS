@@ -5260,7 +5260,6 @@ EVTOPTA5544012;Accept their decision.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA5544013;Correct this mistake.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTNAME5544003;We lose our claims on the hungarian held lands.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC5544003;They have held the land for too long and too many of our people have left for us to continue pushing a realistic claim, truly a humiliating day in our once glorious history.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-<<<<<<< Updated upstream
 EVTOPTA5544022;Curses!.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPT47860904A;Our Empire will not crumble;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPT4006004A;Those traitorous Snakes!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5464,7 +5463,7 @@ EVT822003OPTA;Welcome!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTNAME777298;Recovery of the West;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC777288;After succesfully putting down the rebellion in the west the lands in Prussia and Lithuania have fallen back into the fold of Bolkanian power!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA778998A;Another day lithuanian morale dies;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTNAME777100;The loss of the Baltic
+EVTNAME777100;The loss of the Baltic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC777100;After a catastrophic defeat during the western Baltic rebellions from their subjects in Prussia Lithuania and losing a connection to their ports in the Baltic their Baltic enemies have seized them and due to the broken state of Bolkania they were unable to defend them, what a sad state of affairs after their victory against the north;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA777100A;The Baltic was too cold anyways;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTB777007A;Fight to keep the west;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

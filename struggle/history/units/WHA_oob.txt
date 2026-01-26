@@ -151,6 +151,12 @@ BRT = {
 	influence_value = 0
 }
 
+LOA = {
+	value = 150
+	level = 4
+	influence_value = 0
+}
+
 MAD = {
 	value = 150
 	level = 4

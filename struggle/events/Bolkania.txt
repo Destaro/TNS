@@ -82,9 +82,10 @@ country_event = {
 	picture = "danishgovernment"
 	fire_only_once = yes
 	trigger = {
+	OR = { 
 	BYE = { vassal_of = BUL}
 	BKV = { vassal_of = BUL}
-	KUR = { vassal_of = BUL}
+	KUR = { vassal_of = BUL} }
 	tag = BUL
     year = 1843
 	

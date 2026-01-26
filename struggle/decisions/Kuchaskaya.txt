@@ -4,19 +4,18 @@ political_decisions = {
 		potential = { 
 			tag = KSK 
 			NOT = { has_country_flag = reclaim_the_levant }
-			owns = 861
-			owns = 869
+			
+			
 			}
 		allow = { 
-			is_greater_power = yes
 			war = no
-			KSK = { all_core = { owned_by = THIS } }
+			THIS = { all_core = { owned_by = THIS } }
 			ASY = { all_core = { owned_by = THIS } }
 			LBN = { all_core = { owned_by = THIS } }
 			}
 		effect = {
 			set_country_flag = reclaim_the_levant
-			prestige = 5
+			prestige = 10
 			SYR = { all_core = { add_core = THIS } }
 			}
 	}
@@ -42,16 +41,19 @@ political_decisions = {
 		}
 
 		claim_assyria = {
+		
 		potential = { 
 			tag = KSK 
 			NOT = { has_country_flag = claim_assyria }
 			}
+		
 		allow = { 
 			KSK = { all_core = { owned_by = THIS } }  
 			war = no
 			owns = 3328
 			LBN = { all_core = { owned_by = THIS }  }
 			}
+		
 		effect = {
 			set_country_flag = claim_assyria
 			prestige = 5
@@ -60,11 +62,13 @@ political_decisions = {
 		}
 
 	reclaim_the_egypt = {
+		
 		potential = { 
 			has_country_flag = revenge_will_be_ours_ksk
 			tag = KSK 
 			NOT = { has_country_flag = reclaim_the_egypt }
-			}	   
+			}	
+			
 		allow = { 
 			owns = 1745
 			is_greater_power = yes
@@ -76,7 +80,7 @@ political_decisions = {
 			SYR = { all_core = { owned_by = THIS } }
 			}
   
-		effect = {
+		 effect = {
 			set_country_flag = reclaim_the_egypt
 			prestige = 10
 			EGY = { all_core = { add_core = THIS } }
@@ -84,6 +88,7 @@ political_decisions = {
 		}
 
 	the_end_of_the_romans = {
+		
 		potential = {
 			has_country_flag = revenge_will_be_ours_ksk
 			tag = KSK 
@@ -116,17 +121,20 @@ political_decisions = {
 	}
 
 	sail_to_the_aegean = {
+		
 		potential = {
 			has_country_flag = revenge_will_be_ours_ksk
 			tag = KSK 
             NOT = { has_country_flag = sail_to_the_aegean}
 			has_country_flag = reclaim_the_levant
 		}	   
+		
 		allow = { 
 			war = no
 			is_greater_power = yes 
 			raider_group_doctrine = 1
 		} 
+		
 		effect = {
 			set_country_flag = sail_to_the_aegean
 			add_core = 848
@@ -135,7 +143,8 @@ political_decisions = {
 	}
 	
    look_to_the_south_ksk = {
-        potential = { 
+        
+		potential = { 
 			tag = KSK 
 			NOT = { has_country_flag = look_to_the_south_ksk }
 			owns = 3363
@@ -143,12 +152,14 @@ political_decisions = {
 			owns = 3808
 			KSK = { all_core = { owned_by = THIS } }
         }			   
+		
 		allow = { 	  
 			war = no
 			ASY = { all_core = { owned_by = THIS } }
 			LBN = { all_core = { owned_by = THIS } }
 			}
   
+		
 		effect = {
 			set_country_flag = look_to_the_south_ksk
 			prestige = 5
@@ -156,12 +167,14 @@ political_decisions = {
 		}
 	}
 	look_to_the_north_ksk = {
+		
 		potential = { 
 			tag = KSK 
 			NOT = { has_country_flag = look_to_the_north_ksk } 
 			ARM = { exists = no }        
 			KSK = { all_core = { owned_by = THIS } }
         }	   
+		
 		allow = { 
 			is_greater_power = yes
 			war = no

@@ -625,6 +625,7 @@
 	        }
 	NOT = { has_country_flag = put_down_freed_novgorod                                        
             NOV = { is_vassal = yes }                 }
+			exists = NOV
 		  }
 		  
 	allow = {
@@ -1128,12 +1129,14 @@ restore_the_baltic = {
       }
 	  
 	  demand_prussian_submission = { 
+	  
 	  potential = {
-         tag = SCA
-             PRD = {  is_vassal = no	 }
-			  PRD = { in_sphere = THIS	 }
-			  NOT = { has_country_flag = demand_prussian_submission }
-			 }
+       tag = SCA
+       PRD = {  is_vassal = no	 }
+	   PRD = { in_sphere = THIS	 }
+	   NOT = { has_country_flag = demand_prussian_submission }
+			                }
+			 
 	  allow = { 
 	  war = no
 	  PRD = { in_sphere = THIS }
@@ -1141,14 +1144,55 @@ restore_the_baltic = {
 	  is_greater_power = yes
 	  neighbour = PRD
 	      }
+		  
 	  effect = {
-	  badboy = 7
-    set_country_flag = demand_prussian_submission
-       PRD = { country_event =  6045009 }	  
+     	 badboy = 7
+         set_country_flag = demand_prussian_submission
+         PRD = { country_event =  6045009 }	  
 	          }
 	  
 	  
 	  }
+	  
+	  give_andronican_provinces_to_vinland = {
+	   potential = { 
+	   
+	   tag = SCA
+	  any_owned_province = {
+        continent = north_america
+		NOT = { province_id = 75
+                province_id = 74
+                province_id = 251
+                province_id = 203
+                province_id = 2636
+                     				}
+                            
+						}
+	   VIN = { vassal_of = THIS }
+	   exists = VIN 
+	                       }
+	   
+	   allow = {
+	  
+	   war = no
+		             }
+		 
+	   effect = {
+		any_owned = {
+		     limit = {   
+			 OR = { continent = north_america }
+			 NOT = {  province_id = 75
+                      province_id = 74
+                      province_id = 251
+                      province_id = 203
+                      province_id = 2636   }			        
+                    	}
+		 secede_province = VIN
+         add_core = VIN		 
+		}
+		 
+	    }
+	}
 	  
 	  
 	  

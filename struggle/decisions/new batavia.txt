@@ -11,8 +11,8 @@ claim_the_texans = {
 		allow = {
 			war = no
 			state_n_government = 1
-			prestige = 50
-            year = 1844
+			THIS = { all_core = { owned_by = THIS } }
+            
 			}
 		
 		effect = {
@@ -231,6 +231,8 @@ claim_the_texans = {
 		 THIS = { all_core = { owned_by = THIS } }
 		 war = no
 		 state_n_government = 1
+		 year = 1845
+		 prestige = 50
 		 }
 	
 	effect = {

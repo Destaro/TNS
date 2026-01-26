@@ -7,4 +7,3 @@ life_rating = 35
 
 
 add_core = AQU
-add_core = KSK
