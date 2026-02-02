@@ -10,3 +10,4 @@ life_rating = 35
 
 add_core = TEX
 add_core = VNS
+add_core = RGR

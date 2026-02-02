@@ -6,13 +6,15 @@ claim_all_peru_lpl = {
         potential = {
 			tag = LPL
 			NOT = { has_country_flag = claim_peru_lpl }
+			has_country_flag = centralize_the_north_lpl
         }
 		
 		allow = { 
+		    THIS = { all_core = { owned_by = THIS } }
 			war = no
-			LPL = { all_core = { owned_by = THIS } }
-			is_greater_power = yes
 			nationalism_n_imperialism = 1
+			phenomenalism = 1
+			inorganic_chemistry = 1
 		}
 		
 		effect = {
@@ -24,24 +26,109 @@ claim_all_peru_lpl = {
         }
 	}
 	
-	accept_the_platinier = {
+	the_guarani_lpl = {
         potential = {
 			tag = LPL
-			NOT = { has_country_flag = accept_the_platinier }
+			NOT = { has_country_flag = the_guarani_lpl }
+			
         }
 		
 		allow = { 
+		    THIS = { all_core = { owned_by = THIS } }
 			war = no
-			LPL = { all_core = { owned_by = THIS } }
-			is_greater_power = yes
 			state_n_government = 1
 		}
 		
 		effect = {
-			prestige = 5
-			add_accepted_culture = platinier
-			set_country_flag = accept_the_platinier
-			badboy = -1
+			prestige = 25
+			add_accepted_culture = south_andean
+			set_country_flag = the_guarani_lpl
+			badboy = 10
+			BOL = { all_core = { add_core = THIS } }
+        }
+	}
+	
+	
+	accept_the_guarani = {
+        potential = {
+			tag = LPL
+			NOT = { has_country_flag = accept_the_guarani_lpl
+                    has_country_flag = come_to_the_new_world    }
+			has_country_flag = the_integration_of_the_south
+        }
+		
+		allow = { 
+			war = no
+			year = 1860
+			BOL = { all_core = { owned_by = THIS } }
+			THIS = { all_core = { owned_by = THIS } }
+			NOT = { has_country_flag = come_to_the_new_world }
+		}
+		
+		effect = {
+			prestige = 15
+			add_accepted_culture = guarani
+			set_country_flag = accept_the_guarani_lpl
+			
+        }
+	}
+	
+	accept_the_aimara = {
+	
+        potential = {
+			tag = LPL
+			NOT = { has_country_flag = accept_the_aimara
+                    has_country_flag = come_to_the_new_world  }
+			has_country_flag = centralize_the_north_lpl
+        }
+		
+		allow = { 
+			war = no
+			nationalism_n_imperialism = 1
+			year = 1860
+			SPU = { all_core = { owned_by = THIS } }
+			NOT = { has_country_flag = come_to_the_new_world }
+		}
+		
+		effect = {
+			prestige = 20
+			add_accepted_culture = aimara
+			set_country_flag = accept_the_aimara
+			
+        }
+	}
+	
+	launch_naval_expansion_lpl = {
+	
+	 potential = {
+			tag = LPL
+			NOT = { has_country_flag = launch_naval_expansion_lpl }
+			has_country_flag = centralize_the_north_lpl
+			owns = 2326
+			owns = 2327
+			owns = 2355
+        }
+		
+		allow = { 
+			war = no
+			owns = 2309
+			year = 1855
+			money = 250000
+			NOT = { has_country_flag = come_to_the_new_world }
+		}
+		
+		effect = {
+			prestige = 20
+			treasury = -250000
+			2326 = { naval_base = 3  }
+			2327 = { naval_base = 3  }
+			2355 = { naval_base = 3  }
+			2309 = { naval_base = 3  }
+			2360 = { naval_base = 3  }
+			2355 = { naval_base = 3  }
+			2325 = { naval_base = 3  }
+			set_country_flag = launch_naval_expansion_lpl
+			
         }
 	}
 

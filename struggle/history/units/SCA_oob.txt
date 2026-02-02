@@ -320,7 +320,7 @@ army = {
 }
 
 army = {
-	name = "Svenska Armén"
+	name = "Kejserliga Armén"
 	location = 349
 	regiment = {
 		name= "Svea Livgarde"
@@ -1539,8 +1539,8 @@ leader = {
     name = "Peter Caspar Wessel-Brown"
     date = 1826.1.1
     type = sea
-    personality = no_personality
-    background = no_background
+    personality = professor
+    background = skilled
     prestige = 0.3
 }
 
@@ -1548,8 +1548,8 @@ leader = {
     name = "Jens Schow Fabricius"
     date = 1821.1.1
     type = sea
-    personality = no_personality
-    background = no_background
+    personality = skilled
+    background = professor
     prestige = 0.1
 }
 
@@ -1557,7 +1557,7 @@ leader = {
     name = "Johan Henrich Spørck"
     date = 1832.1.1
     type = land
-    personality = no_personality
+    personality = skilled
     background = attack_1.1
     prestige = 0.5
 }

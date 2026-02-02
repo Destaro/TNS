@@ -31,8 +31,8 @@ NOT = { has_country_flag = reclamation_of_the_western_steppe }
 
 allow = {
  war = no
- UYG = { all_core = { owned_by = THIS } }
- KML = { all_core = { owned_by = THIS } }
+ THIS = { all_core = { owned_by = THIS } }
+
            }
 
 effect = { 
@@ -81,7 +81,7 @@ NOT = { has_country_flag = core_the_yakuts }
 }
 allow = {  
 YAK = { all_core = { owned_by = THIS } }
-           prestige = 50
+           prestige = 20
 		   }
 		   
 		   

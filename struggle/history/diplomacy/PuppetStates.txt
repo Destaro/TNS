@@ -377,13 +377,7 @@ vassal = {
 	start_date = 1800.1.1
 	end_date = 1936.1.1
 }
-###RUTHENIAN SUCCESSORS###
-vassal = {
-	first = UKR
-	second = MVI
-	start_date = 1800.1.1
-	end_date = 1936.1.1
-}
+
 
 ###SAHSEN###
 vassal = {
@@ -394,7 +388,7 @@ vassal = {
 }
 
 ### Selbapunnica ###
-vassal = {
+substate = {
 	first = KRT
 	second = RGS
 	start_date = 1800.1.1

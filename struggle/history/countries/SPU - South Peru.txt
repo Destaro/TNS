@@ -1,6 +1,5 @@
 capital = 2578
-primary_culture = new_roman
-culture = new_punic
+primary_culture = aimara
 religion = punic_church
 government = presidential_dictatorship
 plurality = 25.0

@@ -1597,6 +1597,12 @@
 	}
 	
 	farmers = {
+		culture = texan
+		religion = catholic
+		size = 1750
+	}
+	
+	farmers = {
 		culture = pueblo
 		religion = animist
 		size = 450
@@ -2925,7 +2931,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 1550
+		size = 5550
 	}
 
 	farmers = {
@@ -3698,7 +3704,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 800
+		size = 3800
 	}
 
 	farmers = {
@@ -3800,9 +3806,9 @@
 	}
 
 	soldiers = {
-		culture = mexican
+		culture = texan
 		religion = catholic
-		size = 100
+		size = 4100
 	}
 
 	farmers = {
@@ -3858,7 +3864,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 625
+		size = 3625
 	}
 
 	farmers = {
@@ -4076,7 +4082,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 650
+		size = 2650
 	}
 
 	farmers = {
@@ -4126,7 +4132,7 @@
 	soldiers = {
 		culture = texan
 		religion = protestant
-		size = 550
+		size = 5550
 	}
 
 	farmers = {
@@ -9545,6 +9551,12 @@
 		culture = mexican
 		religion = catholic
 		size = 17000
+	}
+	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 10000
 	}
 
 	clergymen = {

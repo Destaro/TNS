@@ -1,0 +1,79 @@
+political_decisions = {
+
+accept_the_guarani_vop = {
+        potential = {
+			tag = VOP
+			NOT = { has_country_flag = accept_the_guarani_vop }
+        }
+		
+		allow = { 
+			war = no
+			year = 1842
+			idealism = 1
+			malthusian_thought = 1
+			introspectionism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = guarani
+			PRG = { all_core = { add_core = THIS } }
+			set_country_flag = accept_the_guarani_vop
+			badboy = -2
+        }
+	}
+	
+	accept_the_amazonians = {
+        potential = {
+			tag = VOP
+			NOT = { has_country_flag = accept_the_amazonians }
+			
+        }
+		
+		allow = { 
+			war = no
+			state_n_government = 1
+			prestige = 30
+			year = 1844
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = amazonian
+			set_country_flag = accept_the_amazonians
+			badboy = -2
+        }
+	}
+	
+	core_the_guarani_vop  = {
+        potential = {
+			tag = VOP
+			NOT = { has_country_flag = core_the_guarani_vop }
+			
+        }
+		
+		allow = { 
+			war = no
+			state_n_government = 1
+			prestige = 30
+			medicine = 1
+		    iron_railroad = 1
+			owns  = 2337
+		}
+		
+		effect = {
+			prestige = 10
+			PRG = { all_core = { add_core = THIS } }
+			set_country_flag = core_the_guarani_vop
+        }
+	}
+
+
+
+
+
+
+
+
+
+}

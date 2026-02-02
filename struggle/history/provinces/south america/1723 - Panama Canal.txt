@@ -1,11 +1,10 @@
 owner = GCO
 controller = GCO
 add_core = GCO
-add_core = CLM
-add_core = PNM
+
+add_core = ELS
 terrain = panama
 trade_goods = fruit
 life_rating = 31
 1861.1.1 = { railroad = 2 }
 
-add_core = VNG

@@ -201,8 +201,8 @@ political_decisions = {
 			has_country_flag = claim_the_armenians
 			has_country_flag = claim_assyria
 			NOT = { has_country_flag = march_into_persia_ksk }
-			ARM = { exists = no }
-			ASY = { exists = no }        
+		NOT = {	 exists = ARM 
+			     exists = ASY        }
 			KSK = { all_core = { owned_by = THIS } }
          }
 		allow = { 
@@ -249,6 +249,9 @@ political_decisions = {
 			add_core = 3454
 			add_core = 3422
 			add_core = 1132
+			add_core = 932
+			add_core = 1163
+			add_core = 926
 		}
 	}
    integrate_our_iranian_brothers = {

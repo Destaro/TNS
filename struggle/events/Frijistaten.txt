@@ -1,0 +1,448 @@
+#patagonian rebellion
+country_event = {
+	id = 9994441
+	title = "EVTNAME9994441" 
+	desc = "EVTDESC9994441"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1840
+        war = no		
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#war
+	option = {
+		name = "EVTOPTA9994441A"
+	any_owned = {
+	  limit = { is_core = PTG  }
+	  secede_province = PTG
+	    }
+		set_country_flag = patagonian_war_lpl
+			war = {
+                target = PTG
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+		PTG = { country_event = 9994442 }
+		ai_chance = { factor = 80 }
+	}
+	
+	#surrender
+	option = {
+		name = "EVTOPTA9994441B"
+	any_owned = {
+	  limit = { core = PTG  }
+	  secede_province = PTG
+	    }
+		
+		prestige = -20
+		PTG = { country_event = 9994443 }
+		ai_chance = { factor = 20 }
+	}
+	
+	
+	
+}
+
+
+
+#frijistaten will fight us
+country_event = {
+	id = 9994442
+	title = "EVTNAME9994442" 
+	desc = "EVTDESC9994442"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA9994442A"
+		
+		government = democracy
+		 add_country_modifier = { name = small_country_draft duration = 365 }
+		add_country_modifier = { name = unrecognized_country duration = 3650 } 
+		             
+	2325 = {
+	
+          sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }			 
+					   
+		sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+
+        sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+
+        sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }					   
+		sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+		sub_unit = { 
+	      type = cavalry
+	      value = current 
+                       }
+	      
+	    sub_unit = { 
+	      type = artillery
+	      value = current 
+                       }
+		}
+		
+	}
+	
+}
+
+#frijistaten will not fight us
+country_event = {
+	id = 9994443
+	title = "EVTNAME9994443" 
+	desc = "EVTDESC9994443"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA9994443A"
+		
+		government = democracy
+		 add_country_modifier = { name = small_country_draft duration = 365 }
+		add_country_modifier = { name = unrecognized_country duration = 3650 } 
+		             
+	2325 = {
+	
+          sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }			 
+					   
+		sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+
+        sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+
+        sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }					   
+		sub_unit = { 
+	      type = infantry
+	      value = current 
+                       }
+		sub_unit = { 
+	      type = cavalry
+	      value = current 
+                       }
+	      
+	    sub_unit = { 
+	      type = artillery
+	      value = current 
+                       }
+		}
+	
+     prestige = 10
+	
+	}
+	
+}
+
+#dust settles after rebellion
+country_event = {
+	id = 9994444
+	title = "EVTNAME9994444" 
+	desc = "EVTDESC9994444"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1845
+        war = no	
+        has_country_flag  = patagonian_war_lpl		
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#invest in patagonia
+	option = {
+		name = "EVTOPTA9994444A"
+	any_owned = {
+	  limit = { core = PTG  }
+	  militancy = -1
+	    }
+		treasury = -50000
+		ai_chance = { factor = 80 }
+		set_country_flag = 1st_investment_patagonia
+	}
+	
+	#nah
+	option = {
+		name = "EVTOPTA9994444B"
+	any_owned = {
+	  limit = { core = PTG  }
+	  militancy = 1
+	    }
+		set_country_flag = patagonia_abandoned
+		ai_chance = { factor = 20 }
+	}
+	
+	
+	
+}
+
+#the patagonian railway
+country_event = {
+	id = 9994445
+	title = "EVTNAME9994445" 
+	desc = "EVTDESC9994445"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1850
+        war = no	
+        has_country_flag  = 1st_investment_patagonia
+		NOT = { has_country_flag = patagonia_abandoned }
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#invest in patagonia
+	option = {
+		name = "EVTOPTA9994445A"
+	any_owned = {
+	  limit = { core = PTG  }
+	  militancy = -2
+	    }
+		treasury = -50000
+		ai_chance = { factor = 80 }
+		set_country_flag = 2st_investment_patagonia
+		
+	   2324 = { infrastructure = 2 }
+	   2325 = { infrastructure = 2 }
+	   2354 = { infrastructure = 2 }
+	   2355 = { infrastructure = 2 }
+	}
+	
+	#nah
+	option = {
+		name = "EVTOPTA9994445B"
+	any_owned = {
+	  limit = { core = PTG  }
+	  militancy = 2
+	    }
+		set_country_flag = patagonia_abandoned
+		ai_chance = { factor = 20 }
+		clr_country_flag = 1st_investment_patagonia
+	}
+	
+	
+	
+}
+
+#average folk complain
+country_event = {
+	id = 9994446
+	title = "EVTNAME9994446" 
+	desc = "EVTDESC9994446"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1852
+        war = no	
+        has_country_flag  = 2st_investment_patagonia
+		NOT = { has_country_flag = patagonia_abandoned }
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	
+	option = {
+		name = "EVTOPTA9994446A"
+	any_pop = {
+	  limit = { culture = platinier  }
+	  militancy = 1
+	  consciousness = 5
+	    }
+		war_exhaustion = 5
+	}
+	
+}
+
+#education for patagonia
+country_event = {
+	id = 9994447
+	title = "EVTNAME9994447" 
+	desc = "EVTDESC9994447"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1855
+        war = no	
+        has_country_flag  = 2st_investment_patagonia
+		NOT = { has_country_flag = patagonia_abandoned }
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#invest in patagonia
+	option = {
+		name = "EVTOPTA9994447A"
+	 any_owned = {
+	  limit = { core = PTG  }
+	  militancy = -2
+	    }
+		treasury = -50000
+		ai_chance = { factor = 80 }
+		set_country_flag = 3st_investment_patagonia
+		
+	   any_pop = { 
+	   limit = { culture = patagonian }
+	   literacy = 0.50 }
+	}
+	
+	#nah
+	option = {
+		name = "EVTOPTA9994447B"
+	 any_owned = {
+	  limit = { core = PTG  }
+	  militancy = 2
+	    }
+		set_country_flag = patagonia_abandoned
+		ai_chance = { factor = 20 }
+		clr_country_flag = 2st_investment_patagonia
+	}
+	
+	
+	
+}
+
+#average folk complain again
+country_event = {
+	id = 9994448
+	title = "EVTNAME9994448" 
+	desc = "EVTDESC9994448"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1857
+        war = no	
+        has_country_flag  = 3st_investment_patagonia
+		NOT = { has_country_flag = patagonia_abandoned }
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	
+	option = {
+		name = "EVTOPTA9994448A"
+	any_pop = {
+	  limit = { culture = platinier  }
+	  militancy = 2
+	  consciousness = 5
+	    }
+		war_exhaustion = 8
+	}
+	
+}
+
+#reconciliation with patagonia
+country_event = {
+	id = 9994449
+	title = "EVTNAME9994449" 
+	desc = "EVTDESC9994449"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = LPL
+	    year = 1860
+        war = no	
+        has_country_flag  = 3st_investment_patagonia
+		NOT = { has_country_flag = patagonia_abandoned }
+	}
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#invest in patagonia
+	option = {
+		name = "EVTOPTA9994449A"
+		prestige = 30
+		ai_chance = { factor = 80 }
+		set_country_flag = 3st_investment_patagonia
+	   any_pop = { 
+	   limit = { culture = patagonian }
+	   militancy = -6 
+	                  }
+	  set_country_flag = the_integration_of_the_south
+	  add_accepted_culture = patagonian
+	}
+	
+	
+	
+	
+}

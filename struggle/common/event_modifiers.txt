@@ -728,7 +728,7 @@ bigben_construction = {
 }
 
 small_immigration_boom = {
-	global_immigrant_attract = 1
+	global_immigrant_attract = 2
 	icon = 17
 }
 

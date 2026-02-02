@@ -72,11 +72,11 @@ country_event = {
 	#how dare they!
 	option = {
 		name = "EVTOPTA44441111132"
-	          add_casus_belli = {
-	          target = KON
+	      KON = { add_casus_belli = {
+	          target = THIS
 	          type = acquire_substate_region 
-			  state_province_id = 1974
 	          months = 12          }
+			  }
 			  
 		ai_chance = { factor = 50 }
 	}
@@ -631,30 +631,30 @@ country_event = {
 	option = {
 		name = "EVTOPTA4444111192B"
 		      badboy = 5
-	          add_casus_belli = {
-	          target = OMA
+	        OMA = {  add_casus_belli = {
+	          target = THIS
 	          type = demand_concession_casus_belli_any
 			  state_province_id = 1303
 	          months = 12          }
 			  
 			   add_casus_belli = {
-	          target = OMA
+	          target = THIS
 	          type = demand_concession_casus_belli_any
 			  state_province_id = 1071
 	          months = 12          }
 			  
 			   add_casus_belli = {
-	          target = OMA
+	          target = THIS
 	          type = demand_concession_casus_belli_any
 			  state_province_id = 3422
 	          months = 12          }
 			  
 			   add_casus_belli = {
-	          target = OMA
+	          target = THIS
 	          type = demand_concession_casus_belli_any
 			  state_province_id = 1136
 	          months = 12          }
-			  
+			}
 		ai_chance = { factor = 50 }
 	}
 		

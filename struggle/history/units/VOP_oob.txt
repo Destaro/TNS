@@ -52,6 +52,61 @@ army = {
 		type = cavalry
 		home = 2310
 	}
+	regiment = {
+		name= "3. Cavalry Brigade"
+		type = cavalry
+		home = 2303
+	}
+	
+	regiment = {
+		name= "1. artillery Brigade"
+		type = artillery
+		home = 2305
+	}
+}
+
+army = {
+	name = "Army of the North"
+	location = 2298 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1. Brigada de Infanteria"
+		type = infantry
+		home = 2293
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanteria"
+		type = infantry
+		home = 2299
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanteria"
+		type = infantry
+		home = 2578
+	}
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 2578
+	}
+
+	regiment = {
+		name= "2. Cavalry Brigade"
+		type = cavalry
+		home = 2295
+	}
+	regiment = {
+		name= "3. Cavalry Brigade"
+		type = cavalry
+		home = 2295
+	}
+	
+	regiment = {
+		name= "1. artillery Brigade"
+		type = artillery
+		home = 2367
+	}
 }
 
 leader = {
@@ -82,6 +137,27 @@ army = {
 		name= "3.1ra división de infantería"
 		type = infantry
 		home = 2313
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 2304
+	}
+	regiment = {
+		name= "2. Cavalry Brigade"
+		type = cavalry
+		home = 2304
+	}
+	regiment = {
+		name= "3. Cavalry Brigade"
+		type = cavalry
+		home = 2305
+	}
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 2303
 	}
 
 }

@@ -1,5 +1,5 @@
 capital = 2191
-primary_culture = central_american
+primary_culture = north_andean
 religion = catholic
 government = democracy
 plurality = 25.0

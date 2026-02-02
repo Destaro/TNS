@@ -14,3 +14,4 @@ life_rating = 35
 	}
 
 add_core = LPL
+add_core = VOP

@@ -1,7 +1,7 @@
 owner = RGS
 controller = RGS
 add_core = RGS
-add_core = LPL
+
 trade_goods = cattle
 life_rating = 38
 terrain = montevideo

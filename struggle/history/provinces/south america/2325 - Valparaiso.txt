@@ -12,3 +12,5 @@ naval_base = 1
 
 add_core = ARC
 add_core = LPL
+add_core = PTG
+add_core = VOP

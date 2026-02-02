@@ -1,0 +1,194 @@
+#Embassies to our cousins over the sea
+country_event = {
+	id = 77744441
+	title = "EVTNAME77744441" 
+	desc = "EVTDESC77744441"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+	    tag = GCO
+	    year = 1840
+        war = no	
+		NOT = {
+                relation = { who = ULA value = -100 }
+                relation = { who = LPL value = -100 }
+                       		}
+	  }
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#send them
+	option = {
+		name = "EVTOPTA77744441A"
+	       relation = {
+	       who = LPL
+	       value = 200
+           }
+		   
+		   relation = {
+	       who = ULA
+	       value = 200
+           }
+		treasury = -20000
+		ai_chance = { factor = 80 }
+		set_country_flag = sallia_sends_ambassadors
+		prestige = 20
+	}
+	
+	#nah
+	option = {
+		name = "EVTOPTA77744441B"
+	treasury = 20000
+		ai_chance = { factor = 20 }
+	}
+	
+	
+	
+}
+
+#an alliance with frijistaten
+country_event = {
+	id = 77744442
+	title = "EVTNAME77744442" 
+	desc = "EVTDESC77744442"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+		has_country_flag = sallia_sends_ambassadors
+	    tag = GCO
+	    year = 1842
+        war = no	
+		NOT = {
+                relation = { who = LPL value = -100 }
+                       		}
+		    LPL = { ai = yes }
+	  }
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#we are cousins after all
+	option = {
+		name = "EVTOPTA77744442A"
+	       relation = {
+	       who = LPL
+	       value = 200
+           }
+		   create_alliance = LPL
+		   
+		treasury = -10000
+		ai_chance = { factor = 80 }
+		set_country_flag = alliance_with_frijistaten_gco
+		prestige = 5
+	}
+	
+	#nah
+	option = {
+		name = "EVTOPTA77744442B"
+	         relation = {
+	       who = LPL
+	       value = -50
+           }
+		ai_chance = { factor = 20 }
+	}
+	
+	
+	
+}
+
+#Customs union
+country_event = {
+	id = 77744443
+	title = "EVTNAME77744443" 
+	desc = "EVTDESC77744443"
+	picture = "rosas_urquiza"
+	
+	
+	fire_only_once = yes
+	
+		trigger = {
+		has_country_flag = alliance_with_frijistaten_gco
+		neighbour = LPL
+	    tag = GCO
+        war = no	
+		NOT = {
+                relation = { who = LPL value = -100 }
+                       		}
+		    LPL = { ai = yes }
+	  }
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#we are cousins after all
+	option = {
+		name = "EVTOPTA77744443A"
+	       relation = {
+	       who = LPL
+	       value = 200
+           }
+		   create_alliance = LPL
+		   
+		treasury = 10000
+		ai_chance = { factor = 80 }
+		set_country_flag = customs_with_frijistaten_gco
+		
+	}
+	
+	
+}
+
+#earlier andronica
+country_event = {
+	id = 77744444
+	title = "EVTNAME77744444" 
+	desc = "EVTDESC77744444"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+		trigger = {
+		has_country_flag = customs_with_frijistaten_gco
+		neighbour = LPL
+	    tag = GCO
+        war = no	
+		NOT = {
+                relation = { who = LPL value = -100 }
+                       		}
+		    LPL = { ai = yes }
+		is_greater_power = yes
+		nationalism_n_imperialism = 1
+		year = 1865
+	  }
+    
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	#andronican union
+	option = {
+		name = "EVTOPTA77744444A"
+		 change_tag = UCA
+		 inherit = LPL 			
+	     LPL = { all_core = { add_core = THIS  }  } 
+	     VOP = { all_core = { add_core = THIS  }  } 
+		 PRG = { all_core = { add_core = THIS  }  } 
+		 RGS = { all_core = { add_core = THIS  }  } 
+	}
+		 
+	
+	
+	
+}

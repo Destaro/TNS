@@ -5,3 +5,5 @@ add_core = SHA
 add_core = YNN
 trade_goods = tropical_wood
 life_rating = 35
+
+add_core = DAI

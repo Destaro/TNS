@@ -5,3 +5,5 @@ add_core = MIN
 add_core = CHI
 trade_goods = tea
 life_rating = 32
+
+add_core = DAI

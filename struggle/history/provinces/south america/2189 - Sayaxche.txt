@@ -1,6 +1,6 @@
 owner = VNS
 controller = VNS
-add_core = UCA
+
 
 trade_goods = timber
 life_rating = 31
@@ -11,3 +11,5 @@ life_rating = 31
 }
 
 add_core = VNS
+add_core = YUC
+add_core = ELS

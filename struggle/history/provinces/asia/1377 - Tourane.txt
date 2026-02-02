@@ -3,3 +3,5 @@ controller = CAM
 add_core = CAM
 trade_goods = tobacco
 life_rating = 35
+
+add_core = DAI

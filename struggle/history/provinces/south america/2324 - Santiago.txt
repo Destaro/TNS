@@ -7,3 +7,4 @@ terrain = santiago
 
 add_core = ARC
 add_core = LPL
+add_core = VOP

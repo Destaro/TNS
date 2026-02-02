@@ -579,6 +579,8 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	major = yes
+	
 	trigger = {
 	year = 1838
 		tag = SCA
@@ -605,12 +607,13 @@ country_event = {
 		
 		
 		set_global_flag = the_vinlandic_rebellion
-		ai_chance = { factor = 0.9 }
+		
 	}
 		
 	
 }
 
+#vinlandicrevobellion
 country_event = {
 	id = 47860903
 	title = "EVTNAME47860903" #vinlandicrevobellion
@@ -643,6 +646,7 @@ country_event = {
 	
 }
 
+#MidgardianRevolt
 country_event = {
 	id = 47860906
 	title = "EVTNAME47860906" #MidgardianRevolt
@@ -669,18 +673,19 @@ country_event = {
 		}
 		
 		
-		
-		ai_chance = { factor = 0.9 }
 	}
 		
 	
 }
 
+#MidgardianRevolt
 country_event = {
 	id = 47860905
-	title = "EVTNAME47860905" #MidgardianRevolt
+	title = "EVTNAME47860905" 
 	desc = "EVTDESC47860905"
 	picture = "rosas_urquiza"
+	
+	major = yes
 	
 	fire_only_once = yes
 	
@@ -705,8 +710,8 @@ country_event = {
 			
 		}
 		
-		set_global_flag = the_vinlandic_rebellion
-		ai_chance = { factor = 0.9 }
+		set_global_flag = the_midgardian_rebellion
+	
 	}
 		
 	
@@ -748,4 +753,36 @@ country_event = {
 		militancy = 7 }
 		ai_chance = { factor = 0.5 }
 	}
+}
+
+#death of the king
+country_event = {
+	id = 476951
+	title = "EVTNAME476951" 
+	desc = "EVTDESC476951"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	year = 1837
+		tag = SCA
+		war_with = { BUL }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+			
+	}
+
+		
+	option = {
+		name = "EVTOPTA476951"
+		prestige = -20
+		kill_leader = 192
+	}
+		
+	
 }

@@ -1,5 +1,6 @@
 capital = 138
-primary_culture = mexican
+primary_culture = texan
+culture = mexican
 religion = catholic
 government = democracy
 plurality = 0.0

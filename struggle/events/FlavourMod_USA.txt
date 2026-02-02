@@ -18,11 +18,7 @@ country_event = {
 	picture = "california_gold_rush"
 	
 	trigger = {
-		year = 1848
-		OR = { 
-			has_country_flag = hasmanifestdestiny
-			has_country_flag = manifest_destiny_refuted
-		}
+		OR = { tag = MEX tag = TEX tag = TLD tag = IBR } 
 		war = no
 		owns = 104
 		AND = {
@@ -45,12 +41,12 @@ country_event = {
 				reduce_pop = 0.05
 			}
 			random_owned = {
-				limit = { owner = { primary_culture = yankee } }
+				limit = { owner = { primary_culture = new_mongol } }
 				owner = {
 					any_pop = {
 						limit = {
 							location = { is_core = CAL }
-							culture = yankee
+							culture = new_mongol
 						}
 						reduce_pop = 1.5
 					}
@@ -59,25 +55,7 @@ country_event = {
 					90 = { assimilate = yes }
 				}
 			}
-			random_owned = {
-				limit = { owner = { primary_culture = mexican } }
-				owner = {
-					any_pop = {
-						limit = {
-							location = { is_core = CAL }
-							culture = mexican
-						}
-						reduce_pop = 1.5
-					}
-					any_pop = {
-						limit = {
-							location = { is_core = CAL }
-							culture = yankee
-						}
-						reduce_pop = 0.2
-					}
-				}
-			}
+			
 			
 			84 = { 
 				add_province_modifier = {
@@ -107,80 +85,7 @@ country_event = {
 	}
 }
 
-#The Texan Statehood
-country_event = {
-	id = 99935
-	title = "EVTNAME99935" #The Texan Statehood
-	desc = "EVTDESC99935"
-	picture = "texas_state"
-	
-	trigger = {
-		tag = USA
-		owns = 133
-		TEX = {
-			exists = no			
-		}
-		NOT = { year = 1870 }
-		NOT = { 
-			has_country_flag = texan_state_flag
-		}
-	}
 
-	option = {
-		name = "EVT99935OPTA"
-		TEX = { 
-			all_core = {
-				limit = {  
-					empty = no 
-				}
-				
-				add_province_modifier = {
-					name = lone_star
-					duration = 465
-				}				
-			}
-		}
-		MEX = {
-			any_pop = {
-				limit = {
-					location = {
-						is_core = TEX
-					}
-					culture = texan
-					NOT = { 
-						type = soldiers 
-						type = bureaucrats
-						type = aristocrats
-					}
-				}
-				reduce_pop = 4
-			}
-			any_pop = {
-				limit = {
-					location = {
-						is_core = CAL
-					}
-					culture = mexican
-				}
-				reduce_pop = 0.5
-			}
-			any_pop = {
-				limit = {
-					location = {
-						is_core = CAL
-					}
-					culture = native_american_minor
-				}
-				reduce_pop = 0.2
-			}			
-		}
-		relation = {
-			who = MEX
-			value = -50
-		}		
-		set_country_flag = texan_state_flag
-	}
-}
 
 country_event = {
 	id = 110060
@@ -191,26 +96,26 @@ country_event = {
 	trigger = {
 		tag = MEX
 		owns = 104
-		war_with = USA
-		USA = { has_country_flag = hasmanifestdestiny }
+		war_with = TEX
 		NOT = { has_global_flag = bear_flag_revolt }
+		year = 1840
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 60 }
 	
 	option = {
 		name = "EVT110060OPTA"
 		release = CAL
-		any_owned = { limit = { is_core = CAL } secede_province = CAL  }
+		any_owned = { limit = { is_core = AMG } secede_province = CAL add_core = CAL }
 		war = {
 			target = CAL
-			attacker_goal = { casus_belli = annex_core_country }
+			attacker_goal = { casus_belli = conquest_any }
 			defender_goal = { casus_belli = status_quo }
 		}
 		
 		any_country = {
 			limit = {
-				tag = USA
+				tag = TEX
 			}
 			relation = {
 				who = CAL
@@ -226,7 +131,7 @@ country_event = {
 		
 		any_country = {
 			limit = {
-				tag = USA
+				tag = CAL
 				ai = yes
 			}
 			treasury = 20000
@@ -240,6 +145,7 @@ country_event = {
 		name = "EVT110060OPTB"
 		CAL = { any_owned = {remove_core = MEX } }
 		release = CAL
+		any_owned = { limit = { is_core = AMG } secede_province = CAL add_core = CAL }
 		prestige = -50
 		set_global_flag = bear_flag_revolt
 		ai_chance = { factor = 0 }
@@ -247,63 +153,7 @@ country_event = {
 
 }
 
-country_event = {
-	id = 99971
-	title = "EVTNAME99971" #The Treaty of New York
-	desc = "EVTDESC99971"
-	picture = "treaty"
-	major = yes
-	
-	trigger = {
-		tag = USA
-		has_global_flag = treaty_of_new_york
-		war = no
-		NOT = { has_country_flag = pacific_states }
-		has_country_flag = mormon_exodus
-	}
 
-	option = {
-		name = "EVT99971OPTA"
-		prestige = -25
-		any_pop = {
-			limit = {
-				culture = french_canadian
-			}
-			move_pop = 249
-		}
-		add_accepted_culture = anglo_canadian
-		CAN_46 = { is_slave = no }
-		MEX_100 = { add_core = CAL }
-		2148 = { add_core = CAL }
-		107 = { add_core = TEX }
-		128 = { add_core = TEX }
-		129 = { add_core = TEX }
-		109 = { add_core = TEX }
-		103 = { add_core = TEX }
-		105 = { add_core = TEX }
-		110 = { add_core = DES }
-		108 = { add_core = DES }
-		release_vassal = CAL
-		release_vassal = TEX
-		release_vassal = DES
-		create_alliance = CAL
-		create_alliance = DES
-		create_alliance = TEX
-		diplomatic_influence = {
-			who = CAL
-			value = 400
-		}
-		diplomatic_influence = {
-			who = TEX
-			value = 400
-		}
-		diplomatic_influence = {
-			who = DES
-			value = 400
-		}
-		set_country_flag = pacific_states
-	}
-}
 
 # 3rd Wave of US Migration
 country_event = {
@@ -532,238 +382,3 @@ country_event = {
 	}
 }
 
-country_event = {
-
-	id = 530001
-	title = "EVTNAME530001"
-	desc = "EVTDESC530001"
-	picture = "newyorkfire"
-
-	trigger = {
-		tag = USA
-		year = 1845
-		owns = 232 #NewYork
-		NOT = { has_country_flag = great_new_york_fire }
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen =  {
-		months = 5
-
-		modifier = {
-		 factor = 0.75
-		 year = 1845
-		}
-	}
-	
-	immediate = {
-		232 = { 
-			infrastructure = -1
-			any_pop = {
-				consciousness = 1.5
-			}
-		}
-		set_country_flag = great_new_york_fire
-	}
-
-	option = {
-		name = "EVTOPTA530001"
-		treasury = -35000
-		232 = { infrastructure = 1 }
-		random_list = {
-			50 = { 
-				232 = { 
-					add_province_modifier = { 
-						name = rebuilding_city 
-						duration = 90 
-					}
-				} 
-			}
-			50 = { 
-				232 = {
-					add_province_modifier = {
-						name = rebuilding_city
-						duration = 60 
-					}
-				} 
-			}
-		}
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				NOT = { money = 50100 }
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB530001"
-		treasury = -20000
-		random_list = {
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 60 
-						} 
-					} 
-				}
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 45 
-						} 
-					} 
-				}
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 30 
-						} 
-					} 
-				}
-			}
-			
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { money = 20100 }
-				}
-			}
-		}
-		
-	option = {
-		name = "EVTOPTC530001"
-		prestige = -15
-		232 = {
-			any_pop = {
-				consciousness = 1.5
-			}
-		}
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 100
-				NOT = { money = 10000 }
-			}
-		}
-	}
-
-}
-
-country_event = {
-
-	id = 530002
-	title = "EVTNAME530002"
-	desc = "EVTDESC530002"
-	picture = "chicagofire"
-
-	trigger = {
-		tag = USA
-		year = 1871
-		owns = 163 #Chicago
-		NOT = { year = 1873 }
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen =  {
-		months = 8
-
-		modifier = {
-		factor = 0.65
-		year = 1871
-		}
-	}
-
-	immediate = {
-		163 = { 
-			infrastructure = -1
-			any_pop = {
-				consciousness = 1.5
-			}
-		}
-		set_country_flag = great_new_york_fire
-	}
-
-	option = {
-		name = "EVTOPTA530001"
-		treasury = -55000
-		163 = { infrastructure = 1 }
-		random_list = {
-			50 = { 
-				163 = { 
-					add_province_modifier = { 
-						name = rebuilding_city 
-						duration = 90 
-					}
-				} 
-			}
-			50 = { 
-				163 = {
-					add_province_modifier = {
-						name = rebuilding_city
-						duration = 60 
-					}
-				} 
-			}
-		}
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				NOT = { money = 50100 }
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB530001"
-		treasury = -35000
-		random_list = {
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 60 
-						} 
-					} 
-				}
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 45 
-						} 
-					} 
-				}
-			33 = { 232 = { 
-				add_province_modifier = { 
-					name = rebuilding_city 
-					duration = 30 
-						} 
-					} 
-				}
-			}
-			
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { money = 20100 }
-				}
-			}
-		}
-		
-	option = {
-		name = "EVTOPTC530001"
-		prestige = -15
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 100
-				NOT = { money = 15000 }
-			}
-		}
-	}
-}

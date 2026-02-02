@@ -1,8 +1,8 @@
 owner = VNS
 controller = VNS
-add_core = UCA
 
-add_core = LOS
+
+add_core = MEX
 trade_goods = iron
 life_rating = 31
 1861.1.1 = {
@@ -12,3 +12,5 @@ life_rating = 31
 }
 
 add_core = VNS
+add_core = YUC
+add_core = ELS

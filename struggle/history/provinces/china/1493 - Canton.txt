@@ -6,3 +6,4 @@ add_core = CHI
 terrain = canton
 trade_goods = fish
 life_rating = 32
+add_core = DAI

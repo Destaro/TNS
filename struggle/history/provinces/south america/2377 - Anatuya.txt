@@ -7,3 +7,4 @@ terrain = savanna
 life_rating = 15
 
 add_core = BOL
+add_core = VOP

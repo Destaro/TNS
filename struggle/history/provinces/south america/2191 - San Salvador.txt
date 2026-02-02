@@ -10,3 +10,4 @@ naval_base = 1
 }
 
 add_core = VNS
+add_core = ELS

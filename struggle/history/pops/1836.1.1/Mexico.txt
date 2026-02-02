@@ -450,6 +450,12 @@
 		size = 700
 	}
 	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 1700
+	}
+	
 	clergymen = {
 		culture = native_american_minor
 		religion = animist
@@ -504,6 +510,13 @@
 		culture = mexican
 		religion = catholic
 		size = 750
+		militancy = 9
+	}
+	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 1750
 		militancy = 9
 	}
 	
@@ -626,6 +639,12 @@
 		culture = mexican
 		religion = catholic
 		size = 700
+	}
+	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 2700
 	}
 	
 	clergymen = {
@@ -887,6 +906,12 @@
 		religion = catholic
 		size = 300
 	}
+	
+		farmers = {
+		culture = texan
+		religion = catholic
+		size = 1300
+	}
 
 	slaves = {
 		culture = mexican
@@ -997,6 +1022,13 @@
 		culture = mexican
 		religion = catholic
 		size = 22450
+		militancy = 6
+	}
+	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 12450
 		militancy = 6
 	}
 
@@ -1306,6 +1338,13 @@
 		culture = mexican
 		religion = catholic
 		size = 35175
+		militancy = 9
+	}
+	
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 15175
 		militancy = 9
 	}
 

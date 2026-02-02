@@ -7,3 +7,4 @@ life_rating = 35
 add_core = VOP
 
 add_core = GCO
+add_core = PEU

@@ -1,11 +1,12 @@
 owner = GCO
 controller = GCO
-add_core = ECU
+
 
 trade_goods = timber
 terrain = montane_forest
 life_rating = 31
 
 add_core = VOP
-add_core = VNG
+
 add_core = GCO
+add_core = PEU

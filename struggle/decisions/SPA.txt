@@ -166,7 +166,8 @@ political_decisions = {
 		  exists = ANU
 			exists = LST
           NOT = { has_global_flag = invade_the_south }		 
-		TUN = { war_with = SIC }
+		OR = { TUN = { war_with = SIC } 
+		       TUN = { war_with = ITA }                }
                     		}
 	allow = {
           war = no

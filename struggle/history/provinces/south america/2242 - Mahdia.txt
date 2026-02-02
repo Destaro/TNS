@@ -1,10 +1,9 @@
 owner = GCO
 controller = GCO
 add_core = GCO
-add_core = VNZ
+
 terrain = new_world_jungle
 trade_goods = tropical_wood
 life_rating = 15
 colonial = 2
 
-add_core = VNG

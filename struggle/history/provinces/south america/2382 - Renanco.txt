@@ -10,3 +10,4 @@ life_rating = 15
 	}
 
 add_core = LPL
+add_core = PTG
