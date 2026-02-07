@@ -3327,3 +3327,7 @@ reluctant_fighter = {
 italian_war_coming = {
 	tax_efficiency = 0.1
 }
+
+egyptian_slave_economy = {
+	local_RGO_output = 0.5
+	pop_militancy_modifier = 0.15 }

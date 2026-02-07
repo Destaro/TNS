@@ -193,6 +193,7 @@ political_decisions = {
 		}
 	anti_byzantine_crusade = {
 		potential = {
+		BYZ = { exists = yes }
 		OR = {
 			tag = ITA
 			tag = FRC
@@ -268,4 +269,33 @@ political_decisions = {
 		country_event = 300033
 		}
 	}
+
+the_reclamation_of_armenia = {
+	           potential = {
+			   tag = BYZ
+				has_country_flag = the_reclamation_of_anatolia
+			   NOT = { has_country_flag = the_reclamation_of_armenia }
+			   }
+	      
+			allow = {
+				is_greater_power = yes
+				BYZ = { all_core = { owned_by = THIS } }
+				owns = 888
+				owns = 3498
+				owns = 3648
+				owns = 882
+				war = no
+				military_score = 65
+		        prestige = 150
+				iron_railroad = 1
+				breech_loaded_rifles = 1
+				}
+			effect = {
+				set_country_flag = the_reclamation_of_armenia
+				badboy = 10
+				ARM = { all_core = { add_core = THIS } }
+				GEO = { all_core = { add_core = THIS } }
+				prestige = 5     	  
+				}
+		 }
 }
