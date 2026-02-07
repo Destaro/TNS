@@ -19,6 +19,11 @@ core_courland = {
 			set_country_flag = core_courland
 			BYE = { all_core = { add_core = THIS } }
         }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		
 	}
 
 

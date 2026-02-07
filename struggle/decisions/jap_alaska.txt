@@ -4,6 +4,8 @@ political_decisions = {
 		potential = {
 			tag = JAP
 			NOT = { has_country_flag = japan_alaska }
+			medicine = 1
+			associationism = 1
 		}
 
 		allow = {

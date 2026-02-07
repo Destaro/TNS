@@ -1,7 +1,6 @@
 owner = LPL
 controller = LPL
 add_core = LPL
-add_core = ENT
 trade_goods = cattle
 life_rating = 35
 1861.1.1 = { 

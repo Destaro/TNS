@@ -1,8 +1,8 @@
 owner = VOP
 controller = VOP
-
-add_core = PRG
 add_core = LPL
+add_core = PRG
+
 trade_goods = timber
 terrain = savanna
 life_rating = 15

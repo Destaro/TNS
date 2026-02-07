@@ -9,7 +9,7 @@ core_urelia = {
 		allow = {
 			war = no
 			nationalism_n_imperialism = 1
-			any_owned_province = { core = PEU }
+			any_owned = { core = PEU }
 			prestige = 40
 			inorganic_chemistry = 1
 			phenomenalism = 1

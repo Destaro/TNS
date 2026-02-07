@@ -1528,7 +1528,6 @@ secret_police = {
 			OR = {
 				ruling_party_ideology = fascist
 				ruling_party_ideology = communist
-				ruling_party_ideology = reactionary
 			}
 		}
 		modifier = {

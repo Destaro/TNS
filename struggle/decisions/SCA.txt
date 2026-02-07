@@ -865,6 +865,38 @@
 	            }
 	}
 	
+	integrate_courland_without_lithuania = {
+	potential = {
+	OR = {
+	tag = SCA
+	tag = SWE
+	        }
+	NOT = { has_country_flag = integrate_courland_without_lithuania
+	        LIT = { vassal_of = THIS }                                  }
+	      
+		 CUR = { vassal_of = THIS } 
+		  
+		  }
+		  
+	allow = {
+	
+	nationalism_n_imperialism = 1
+	year = 1860
+	war = no
+	   
+	is_greater_power = yes
+	
+	
+	}
+	
+	effect = {
+	set_country_flag = integrate_courland_without_lithuania
+	inherit = CUR
+	prestige = 5
+	CUR = { all_core = { add_core = THIS } }
+	            }
+	}
+	
 	
 	integrate_novgorod = {
 	potential = {

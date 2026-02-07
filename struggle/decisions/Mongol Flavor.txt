@@ -95,12 +95,13 @@ effect = {
 }
 
 core_further_west = {
-potential = {
-tag = MGL
-NOT = { has_country_flag = core_further_west }
-
-}
-allow = { 
+    
+	 potential = {
+       tag = MGL
+        NOT = { has_country_flag = core_further_west }
+               }
+			   
+          allow = { 
            civilized = yes
            war = no
            KAZ = { all_core = { owned_by = THIS } }
@@ -108,7 +109,7 @@ allow = {
 		   KYR = { all_core = { owned_by = THIS } }
            }
 
-effect = { 
+        effect = { 
            set_country_flag = core_further_west       
 		   SIB = { all_core = { add_core = THIS } }
 		   URA = { all_core = { add_core = THIS } }
@@ -120,6 +121,27 @@ effect = {
 		   BUK = { all_core = { add_core = THIS } }
 		   BDK = { all_core = { add_core = THIS } }
  		   }
-}
+       }
+	   
+	   	claim_greater_mongolia = {
+	       picture = claim_greater_mongolia
+		   potential = {
+			tag = MGL
+			NOT = { has_country_flag = claim_greater_mongolia }
+		      }
+
+		allow = {
+			war = no
+			is_vassal = no
+			owns = 1489
+			owns = 1488
+		}
+
+		effect = {
+			set_country_flag = claim_greater_mongolia
+			XBI = { all_core = { add_core = THIS } }
+            SZC = { all_core = { add_core = THIS } }
+	                     }
+          }
 
 }

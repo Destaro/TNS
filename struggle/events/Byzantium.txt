@@ -1083,10 +1083,6 @@ country_event = {
 		badboy = 10
 		set_country_flag = enslaved_katchuskaya
 		political_reform = yes_slavery
-		TUR_863 = { remove_core = KSK }
-		TUR_869 = { remove_core = KSK }
-		TUR_880 = { remove_core = KSK }
-		TUR_882 = { remove_core = KSK }
 		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = genocide duration = 365 } }			
 		all_core = { remove_core = KSK }
@@ -1277,26 +1273,21 @@ country_event = {
 
 	trigger = {
 		tag = BYZ
-		slavery = no_slavery
+		political_reform = no_slavery
 		year = 1850
-		NOT = { year = 1900 }
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 10
 	}
 	option = {
-		name = "The Hellene Court shall set things right."
-		prestige = -20
+		name = "The Hellene Court shall set things right"
+		prestige = 20
 		any_pop = { limit = { has_pop_culture = greek } militancy = 5 }
 		add_country_modifier = { name = begin_revolution duration = 900 }
 		all_core = { remove_core = BYZ add_core = GRE }
 		change_tag = GRE
 		government = democracy
-		any_pop = {
-            limit = { has_pop_culture = greek }
-            ideology = { value = reactionary factor = 0.8 }
-        }
 		}
 }
 country_event = {
@@ -1912,7 +1903,6 @@ country_event = {
 	picture = "total_greek_victory"
 	major = yes
 	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
 	trigger = {
 		tag = BYZ
 		has_country_flag = italian_war_coming
@@ -1978,7 +1968,6 @@ country_event = {
 	picture = "total_greek_victory"
 	major = yes
 	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
 	trigger = {
 		tag = PAP
 		has_global_flag = great_italian_war
@@ -2006,7 +1995,6 @@ country_event = {
 	picture = "total_greek_victory"
 	major = yes
 	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
 	trigger = {
 		tag = BYZ
 		has_global_flag = great_italian_war
@@ -2039,377 +2027,6 @@ country_event = {
 		CSZ = { government = colonial_company }
 	}
 }
-#BYZANTINE EVENT UPON CONQUEST OF ANATOLIA - THE ARMENIANS DONT SUBMIT QUIETLY
-country_event = {
-	id = 300053
-	title = "EVTNAME300053" 
-	desc = "EVTDESC300053"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		has_country_flag = the_reclamation_of_armenia
-		all_core = { owned_by = THIS }
-		ARM = { all_core = { owned_by = THIS } }
-		GEO = { all_core = { owned_by = THIS } }
-		owns = 1098
-		owns = 1090
-		owns = 1094
-		owns = 1104
-		}
-	#THE ARMENIANS WILL BE MILITANT FOR QUITE SOME TIME - THE ARMENIAN QUAGMIRE WILL BE INDEFINITE
-	option = {
-		name = "EVTOPTA300053"
-		set_country_flag = caucasian_hell
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_owned = { limit = { OR = { is_core = ARM is_core = GEO is_core = ASY is_core = SHV } } add_province_modifier = { name = patriot_uprising duration = -1 } }
-	}
-}
-#ENDING THE CAUCASIAN HELL - A FULLY INDUSTRIALIZED POLICE STATE IS REQUIRED TO FINALLY CRUSH THE INSURGENTS
-country_event = {
-	id = 300054
-	title = "EVTNAME300054" 
-	desc = "EVTDESC300054"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		has_country_flag = the_reclamation_of_armenia
-		has_country_flag = caucasian_hell
-		all_core = { owned_by = THIS }
-		ARM = { all_core = { owned_by = THIS } }
-		GEO = { all_core = { owned_by = THIS } }
-		owns = 1098
-		owns = 1090
-		owns = 1094
-		owns = 1104
-		bolt_action_rifles = 1
-		invention = gas_attack_capability
-		invention = secret_police
-		integral_rail_system = 1
-		}
-	#THE ARMENIANS WILL BE NO MORE - THE UTTER ERADICATION OF THE ARMENIAN PEOPLE IS THE ONLY OUTCOME THE STATE WILL ACCEPT
-	option = {
-		name = "EVTOPTA300054"
-		set_country_flag = caucasian_hell
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.05 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.05 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.05 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = alvuanian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.05 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_owned = { limit = { OR = { is_core = ARM is_core = GEO is_core = ASY is_core = SHV } } remove_province_modifier = patriot_uprising }
-		release_vassal = ARM
-		release_vassal = GEO
-		release_vassal = SHV
-		ARM = { civilized = no }
-		GEO = { civilized = no }
-		SHV = { civilized = no }
-		inherit = ARM
-		inherit = GEO
-		inherit = SHV
-	}
-}
-#THE EMPIRE CONQUERS ANTIOCH - PRESTIGE EVENT RECOGNIZING ACHIEVEMENT
-country_event = {
-	id = 300055
-	title = "EVTNAME300055" 
-	desc = "EVTDESC300055"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 900
-		owns = 897
-		}
-	#SOME CHALDEANS DIE - BUT THE BYZANTINES HAVE NO GREAT INTEREST IN THEIR ERADICATION - ONLY COLONIZATION
-	option = {
-		name = "EVTOPTA300055"
-		prestige = 15
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.7 }
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		release_vassal = LBN
-		LBN = { civilized = no }
-		inherit = LBN
-		LBN = { all_core = { add_core = BYZ } }
-		905 = { trade_goods = iron }
-	}
-}
-#THE EMPIRE CONQUERS JERUSALEM - PRESTIGE EVENT RECOGNIZING ACHIEVEMENT - AND THE JEWS DIE - AND CORES FOR THE LEVANT
-country_event = {
-	id = 300056
-	title = "EVTNAME300056" 
-	desc = "EVTDESC300056"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 907
-		owns = 912
-		owns = 914
-		}
-	#THIS WILL GREATLY AFFECT THE REGIONAL STOCK MARKET - AND THE FERTILITY RATES - AND THE EXPECTED LIFESPAN - AND LIVING STANDARDS - AND HUMAN RIGHTS - AND THE INFASTRUCTURE - AND-
-	option = {
-		name = "EVTOPTA300056"
-		prestige = 15
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.9 }
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		917 = { any_pop = { limit = { has_pop_culture = sephardic OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.2 } }
-		917 = { any_pop = { limit = { has_pop_culture = sephardic OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 } }
-		917 = { any_pop = { limit = { has_pop_culture = sephardic OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 } }
-		SYR = { all_core = { add_core = BYZ } }
-		release_vassal = SYR
-		SYR = { civilized = no }
-		inherit = SYR
-		919 = { trade_goods = cotton }
-		916 = { trade_goods = cotton }
-		915 = { trade_goods = cotton }
-		913 = { trade_goods = silk }
-		917 = { trade_goods = tobacco }
-	}
-}
-#THE EMPIRE CONQUERS ALEXANDRIA - PRESTIGE AND FORCED LABOR
-country_event = {
-	id = 300057
-	title = "EVTNAME300057" 
-	desc = "EVTDESC300057"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 1751
-		owns = 1745
-		owns = 1746
-		}
-	#THIS IS A BYZANTINE MAGNUM OPUS - THE FORCED IMPRESSMENT OF EGYPTIAN LABOR WILL BE THE BASIS OF THE BYZANTINE MERCANTILE ECONOMY
-	option = {
-		name = "EVTOPTA300057"
-		prestige = 50
-		add_accepted_culture = circassian
-		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.95 }
-		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = circassian } pop_type = aristocrats }
-		EGY = { all_core = { add_core = BYZ } }
-		release_vassal = EGY
-		EGY = { civilized = no }
-		inherit = EGY
-		1751 = { trade_goods = precious_goods }
-		1745 = { trade_goods = opium }
-		1746 = { any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.6 } }
-		1746 = { trade_goods = cotton }
-		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = egyptian_slave_economy duration = -1 } }
-	}
-}
-#THE EMPIRE TAKES CARTHAGE - PRESTIGE AND TERRIBLE THINGS
-country_event = {
-	id = 300058
-	title = "EVTNAME300058" 
-	desc = "EVTDESC300058"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 1725
-		owns = 1728
-		}
-	#CARTHAGO DELENDA EST IS VERY MUCH REMEMBERED - THE RAPE OF CARTHAGE WILL NEVER BE RECOVERED FROM
-	option = {
-		name = "EVTOPTA300058"
-		prestige = 50
-		TUN = { all_core = { add_core = BYZ } }
-		release_vassal = EGY
-		TUN = { civilized = no }
-		inherit = TUN
-		any_pop = { limit = { has_pop_culture = punic OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.1 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = punic OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = punic OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = tuareg } pop_type = aristocrats move_pop = 1725 }
-		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.1 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }		
-		TUN = { all_core = { add_core = BYZ } }
-		release_vassal = EGY
-		TUN = { civilized = no }
-		inherit = TUN
-		3366 = { trade_goods = tobacco }
-		1725 = { trade_goods = opium }
-		1728 = { trade_goods = tea }
-		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = egyptian_slave_economy duration = -1 } }
-	}
-}
-#FINAL EVENT - THE PENTARCHY ACHIEVED - GREAT PRESTIGE EVENT AND FINAL BYZANTINE MODIFIER - THE ENDGAME
-country_event = {
-	id = 300059
-	title = "EVTNAME300059" 
-	desc = "EVTDESC300059"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 1725
-		owns = 1728
-		owns = 860
-		owns = 1751
-		owns = 1745
-		owns = 1746
-		owns = 907
-		owns = 912
-		owns = 914
-		owns = 900
-		owns = 897
-		has_country_flag = end_the_theme_system_italy
-		has_country_flag = enslaved_italia
-		}
-	#FINAL BYZANTINE MODIFIER AND TRIUMPHANT RECLAMATION OF ROME - OPTION TO SWITCH CAPITALS
-	option = {
-		name = "EVTOPTA300059"
-		prestige = 100
-		add_country_modifier = { name = byzantine_supremacy duration = -1 }
-	}
-	option = {
-		name = "EVTOPTB300059"
-		prestige = 100
-		capital = 749
-		add_country_modifier = { name = byzantine_supremacy duration = -1 }
-	}
-}
-#ECONOMIC CHANGE IN ANATOLIA UPON MODERN INDUSTRY
-country_event = {
-	id = 300060
-	title = "EVTNAME300060" 
-	desc = "EVTDESC300060"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		owns = 876
-		owns = 866
-		owns = 873
-		owns = 875
-		owns = 879
-		owns = 889
-		owns = 882
-		owns = 879
-		owns = 880
-		owns = 887
-		iron_railroad = 1
-		hot_blast = 1
-		has_country_flag = enslaved_katchuskaya
-		}
-	#MOST NON-BYZANTINE INDIVIDUALS ARE FORCED INTO MINE LABOR - MANY DIE IN THE TRANSITION
-	option = {
-		name = "EVTOPTA300060"
-		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = exploitative_mining duration = -1 } }
-		871 = { trade_goods = coal }
-		867 = { trade_goods = iron }
-		868 = { trade_goods = sulfur }
-		876 = { trade_goods = precious_metal }
-		878 = { trade_goods = precious_metal }
-		3327 = { trade_goods = precious_metal }
-		874 = { trade_goods = coal }
-		877 = { trade_goods = iron }
-		3650 = { trade_goods = iron }
-		873 = { trade_goods = coal }
-		3649 = { trade_goods = iron }
-		894 = { trade_goods = sulfur }
-		3490 = { trade_goods = sulfur }
-		3485 = { trade_goods = sulfur }
-		any_pop = { limit = { has_pop_culture = kurdish pop_type = slaves } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = armenian pop_type = slaves } reduce_pop = 0.8 }
-		any_pop = { limit = { has_pop_culture = georgian pop_type = slaves } reduce_pop = 0.8 }
-	}
-}
-#GREECE CONTENT TIME - STARTING EVENT TO NOTIFY PLAYER OF GREEK IDEOLOGY
-country_event = {
-	id = 300061
-	title = "EVTNAME300061" 
-	desc = "EVTDESC300061"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 1 }
-	trigger = {
-		tag = BYZ
-		year = 1841
-		month = 9
-		}
-	#GREEK IDEOLOGY DOES NOT PERMIT THE EXPANDING OF RIGHTS TO NON-GREEKS - THE IDEOLOGY IS EXCEEDINGLY SUPREMACIST IN NATURE - GREEKS WILL BE VERY DYSFUNCTIONAL ALL GAME
-	option = {
-		name = "EVTOPTA300061"
-		any_pop = {
-            limit = { has_pop_culture = greek }
-            ideology = { value = reactionary factor = 0.8 }
-        }
-		add_country_modifier = { name = hellenic_tract duration = -1 }
-	}
-}
-#THE BEGINNING OF THE HELLENIC REPUBLIC WILL BE TUMULTUOUS - MANY NON GREEKS WILL DIE AND THE WESTERN TERRITORIES WILL BE LOST
-country_event = {
-	id = 300062
-	title = "EVTNAME300062" 
-	desc = "EVTDESC300062"
-	picture = "total_greek_victory"
-	major = yes
-	fire_only_once = yes
-	mean_time_to_happen = { days = 10 }
-	trigger = {
-		tag = GRE
-		BYZ = { exists = no }
-		}
-	#ITALY IN PARTICULAR IS OUTSIDE THE GREEK REALM TO KEEP - EXCEPT SICILY MAYBE - PRESTIGE IS TANKED SEVERELY
-	option = {
-		name = "EVTOPTA300062"
-		prestige = -50
-		all_core = { limit = { is_core = ITA NOT = { is_core = SYC } } remove_core = GRE }
-		any_owned = { limit = { NOT = { is_core = GRE } } add_province_modifier = { name = regional_anarchy duration = 365 } }
-		}
-	}
-#FORMATION OF THE DESPOTATE - REMOVES ANY GOOD LAWS AND REPLACES THEM WITH TERRIBLE ONES - THE BEGINNING OF A GREEK DICTATORSHIP
-#THE GREEK DICTATORSHIP SEES TO THE FINAL ERADICATION OF LATIN PEOPLES IN GREECE
-#THE DESPOTATE BECOMES INCREASINGLY FORMALIZED - FEARS OF A PERMANENT NEW MONARCHY EMERGE - PLAYER NOTIFIED
-#REVOLUTIONARY FERVOR - CAPITAL MOVED TO THESSALONIKE
-#REVOLUTIONARY FERVOR - BORDERS OF THE GREEK "HEARTLAND" DEFINED - GUARANTEES BASE CORES FOR FUTURE CONTENT
-#REDEFINING OF THE ANGELS PROPHECY
-#FURTHER DEVELOPMENT OF THE CULT OF ATHENA - REBUILDING OF THE PARTHENON AS A PUBLIC WORKS PROJECT
-#PARTHENON COMPLETE - DICTATOR LIKENS HIMSELF TO ALEXANDER THE GREAT IN COMMENSURATE ADDRESS
-#A PLAY AT DYNASTY FOLLOWS - WHETHER SUCCESSFUL OR A FAILURE IT ONLY REASSERTS THE EXTREMISM OF THE GREEK SYSTEM - FASCIST TAKEOVER INEVITABLE
-#THE DEVELOPMENT OF HELLENE FASCISM - THE TSAKONIAN HELOTS
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
 
 country_event = {
@@ -2429,7 +2046,7 @@ country_event = {
 		}
 	#oportunity to finish off kachuskaya
 	option = {
-		name = "EVTOPTA300150"
+		name = "EVTOPTA309150"
 		prestige = 10
 		KSK = { country_event = 300151 }
 		ai_chance = { factor = 100 }
@@ -2437,7 +2054,7 @@ country_event = {
 	
 	#avoid because you're unprepared
 	option = {
-		name = "EVTOPTB300150"
+		name = "EVTOPTA309150"
 		prestige = -10
 		ai_chance = { factor = 0 }
 	}
@@ -2526,6 +2143,5 @@ country_event = {
 		ai_chance = { factor = 90 }
 	}
 }
-
 
 

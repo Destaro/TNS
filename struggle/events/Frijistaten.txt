@@ -45,7 +45,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994441B"
 	any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  secede_province = PTG
 	    }
 		
@@ -193,6 +193,7 @@ country_event = {
 	    year = 1845
         war = no	
         has_country_flag  = patagonian_war_lpl		
+		NOT = { exists = PTG }
 	}
     
 	mean_time_to_happen = {

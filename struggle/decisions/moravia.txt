@@ -1,22 +1,19 @@
 political_decisions = {
 	
 	begin_the_integration = {
-	           potential = {
+	           
+			   potential = {
 			   tag = MRV		   
 			   NOT = { has_country_flag = begin_the_integration }
-			
 			   }
 	      
 		  allow = {
 				war = no
-				nationalism_n_imperialism = 1
+				state_n_government = 1
 				functionalism = 1
-				experimental_psychology = 1
+				phenomenalism = 1
 			is_greater_power = yes
-			prestige = 150
-			
-			
-			
+			prestige = 100
 			PNN = {
 				all_core = {
 					OR = {
@@ -34,8 +31,7 @@ political_decisions = {
 		  add_accepted_culture = pannonian
 		  set_country_flag = begin_the_integration
 		  PNN = { all_core = { add_core = THIS } }
-		  prestige = 20
-		  badboy = 2
+		  prestige = 10
 		    any_pop = {
 				limit = { OR = { culture = czech 
 				                 culture = polish   
@@ -43,7 +39,7 @@ political_decisions = {
                                  culture = croat								 } 
 			                                            	}
 				militancy = 3
-			}   	  
+			              }   	  
 				}
 		 }
 		 
@@ -51,7 +47,7 @@ political_decisions = {
 	           potential = {
 			   tag = MRV		   
 			   NOT = { has_country_flag = the_dalmatians }
-			
+			   has_country_flag = the_adriatic_coast
 			   }
 	      
 		  allow = {
@@ -69,16 +65,6 @@ political_decisions = {
 				}
 			 }
 			 
-			 WAL = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
-			 
 			 
 	      }
 		  
@@ -86,21 +72,18 @@ political_decisions = {
 		  add_accepted_culture = dalmatian
 		  set_country_flag = the_dalmatians
 		  prestige = 5
-		  badboy = 1
 		  any_pop = {
-				limit = { 
-				           OR = { culture = czech
-				                 culture = dalmatian 
-				                 culture = pannonian		 } 
-			                                            	}
-				militancy = 5
-			}
-		             	  
-				}
-		 }
+				limit = { culture = dalmatian  	}
+				                      militancy = 5   }
+		  any_pop = {
+				limit = { culture = pannonian   }
+				                      militancy = 5    }					   
+		            }
+	 }
 		 
 		 the_adriatic_coast = {
-	           potential = {
+	          
+			  potential = {
 			   tag = MRV		   
 			   NOT = { has_country_flag = the_adriatic_coast }
 			
@@ -138,19 +121,18 @@ political_decisions = {
 	      }
 		  
 		  effect = {
-		 
-		  set_country_flag = the_adriatic_coast
-		  DLM = { all_core = { add_core = THIS } }
-		  prestige = 20
-		  badboy = 1
-		             	  any_pop = {
-				limit = { 
-				           OR = { culture = czech
+		   set_country_flag = the_adriatic_coast
+		   inherit = DLM
+		   DLM = { all_core = { add_core = THIS } }
+		   prestige = 20
+		   badboy = 1
+		   any_pop = {
+				         limit = { 
+				           OR = { culture = pannonian
 				                 culture = dalmatian 
-				                		 } 
-			                                            	}
-				militancy = 3
-			}
+				                		 } 	}
+				                       militancy = 3
+			                       }
 				}
 		 }
 		 
@@ -203,7 +185,7 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 			social_science = 1
 			is_greater_power = yes
-			prestige = 200
+			prestige = 150
 			
 			PZN = {
 				all_core = {
@@ -274,14 +256,11 @@ political_decisions = {
 		  AUS = { all_core = { add_core = THIS } }
 		  SLV = { all_core = { add_core = THIS } }
 		  prestige = 20
-		 any_pop = {
+		     any_pop = {
 				limit = { 
-				           OR = { culture = czech
-				                 
-				                 culture = pannonian		 } 
-			                                            	}
+				           OR = { culture = czech culture = pannonian  } 	}
 				militancy = 2
-			}
+			         } 
 		             	  
 				}
 		 }
@@ -297,11 +276,10 @@ political_decisions = {
 				war = no
 				revolution_n_counterrevolution = 1
 				social_science = 1
-			is_greater_power = yes
-			prestige = 200
-			
-			owns = 660
-			owns = 3663
+			 is_greater_power = yes
+			 prestige = 200
+			 owns = 660
+		     owns = 3663
 			 owns = 671
 			 owns = 670
 			 
@@ -310,6 +288,7 @@ political_decisions = {
 		  effect = {
 		  set_country_flag = dominate_the_balkans
 		  SIE = { all_core = { add_core = THIS } }
+		  CRO = { all_core = { add_core = THIS } }
 		  add_core = 665
 		  add_core = 3662
 		  add_core = 659
@@ -327,36 +306,32 @@ political_decisions = {
 		  any_pop = {
 				limit = { 
 				           OR = { culture = croat
-				          
-				                 culture = pannonian		 } 
+				                 culture = pannonian  } 
 			                                            	}
 				militancy = 3
 			}
-		  prestige = 20
+		    prestige = 20
 		 
 		             	  
 				}
 		 }
 		 
 		 
-		 integrate_the_peoples_of_the_nation = {
+	 integrate_the_peoples_of_the_nation = {
 		
 		potential = {
-		
-		tag = MRV
-		 NOT = {
-		 has_country_flag = integrate_the_peoples_of_the_nation
-		 
-		             }
+		     has_country_flag = begin_the_integration
+		     has_country_flag = extend_the_integration
+		     has_country_flag = dominate_the_balkans
+		     tag = MRV
+		     NOT = { has_country_flag = integrate_the_peoples_of_the_nation }
 		 }
 		 
 		 
 		 allow =  {
 		 war = no
 		 revolution_n_counterrevolution = 1
-		  has_country_flag = begin_the_integration
-		 has_country_flag = extend_the_integration
-		 has_country_flag = dominate_the_balkans
+		  is_greater_power = yes
 		 }
 		 
 		 effect = {
@@ -366,21 +341,21 @@ political_decisions = {
 		 add_accepted_culture = slovak
 		 add_accepted_culture = croat
 		 any_pop = {
-				limit = { 
-				           OR = { culture = czech
-				                 		 } 
-			                                            	}
+				limit = { culture = czech  }
 				militancy = 1
-			}
-		                 }
+			                 }
+		         }
 		 
 		 }
 		 
 		 become_the_danubian_something_moravia = {
-		 potential = { 
-		               tag = MRV    
-            NOT = { has_country_flag = become_the_danubian_something_moravia }					   
+		    
+			potential = { 
+		             tag = MRV    
+                     NOT = { has_country_flag = become_the_danubian_something_moravia }
+                     nationalism_n_imperialism = 1			
 		                                    }
+		 
 		 allow = {
              has_country_flag = integrate_the_peoples_of_the_nation
 	   	     war = no
@@ -452,15 +427,7 @@ political_decisions = {
 				}
 			 }
 			 
-			 DBJ = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
-			 }
+			
 				                                   }
 		 effect = { 
 		 prestige = 30
@@ -469,21 +436,22 @@ political_decisions = {
 					  add_accepted_culture = albanian
 					  add_accepted_culture = aromanian
 					  ROM = { all_core = { add_core = THIS } }
-					  DBJ = { all_core = { add_core = THIS } }
-					  WAL = { all_core = { add_core = THIS } }
-					  MOL = { all_core = { add_core = THIS } }
+					  AOM = { all_core = { add_core = THIS } }
+					  GRE = { all_core = { add_core = THIS } }
 					  ALB = { all_core = { add_core = THIS } }
 					  CRO = { all_core = { add_core = THIS } }
 					  any_pop = {
-				limit = { 
-				           OR = { culture = czech   culture = croat
-				                 culture = dalmatian 
-				                 culture = pannonian	
-                                 culture = polish		culture = bavarian						 } 
+				        limit = { 
+				           OR = { culture = czech
+        						  culture = croat
+				                  culture = dalmatian 
+				                  culture = pannonian	
+                                  culture = polish		
+								  culture = bavarian  } 
 			                                            	}
-				militancy = 3
-			}
+				                  militancy = 3
+			                                                      }
 					  }
 		 
 		 }
-	}
+}

@@ -171,13 +171,99 @@ navy = {
 		name= "4th Transport Flotilla"
 		type = clipper_transport
 	}
+	
+	ship = {
+		name= "HMS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
 
 
+}
+
+navy = {
+	name = "Chinese Fleet"
+	location = 1481
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "HMS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seringapatam"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Southampton"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Venus"
+		type = frigate
+	}
 
 
+}
 
+navy = {
+	name = "Southern Fleet"
+	location = 1463
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
 
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
 
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	
 	ship = {
 		name= "HMS Nereus"
 		type = frigate

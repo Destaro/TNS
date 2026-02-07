@@ -11,7 +11,7 @@ country_event = {
 	LIT = { vassal_of = BUL}
 	PRD = { vassal_of = BUL}
 	tag = BUL
-    year = 1842
+    year = 1848
 	
 	}
 	
@@ -87,7 +87,7 @@ country_event = {
 	BKV = { vassal_of = BUL}
 	KUR = { vassal_of = BUL} }
 	tag = BUL
-    year = 1843
+    year = 1849
 	
 	}
 	
@@ -199,13 +199,13 @@ country_event = {
 	major = yes
 	
 	trigger = {
-	NOT = {        LIT = { vassal_of = THIS }
-                   BYE = { vassal_of = THIS } 
-			       owns = 3734 
-                   owns = 352				      }
-	LIT = exists
+	NOT = {  OR = { LIT = { vassal_of = THIS }
+	                BYE = { vassal_of = THIS } }
+	         OR = { owns = 1007 AND = { owns = 3734 } }        
+                                                		   }
+						 
+	exists = LIT
 	tag = BUL
-    has_global_flag = western_revolts_bolkania
 	war = no
 	
 	}
@@ -218,14 +218,13 @@ country_event = {
 	   name = "EVTOPTA777100A" #goodbye port
 	   prestige = -10
 	   any_owned = {
-	   limit = { is_core = LIT }
-	   secede_province = LIT
-	   }
-	   
+			limit = { is_core = LIT }
+			secede_province = LIT
+		   }
 	   any_owned = {
-	   limit = { is_core = BYE }
-	   secede_province = BYE
-	   }
+			limit = { is_core = BYE }
+			secede_province = BYE
+		   } 
 	   
 	   }
 }

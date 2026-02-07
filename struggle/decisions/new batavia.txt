@@ -12,7 +12,7 @@ claim_the_texans = {
 			war = no
 			state_n_government = 1
 			THIS = { all_core = { owned_by = THIS } }
-            
+            TEX = { ai = yes }
 			}
 		
 		effect = {
@@ -40,6 +40,7 @@ claim_the_texans = {
 	
 	ultimatum_to_the_texans = {
 		potential = {
+		exists = TEX
 		NOT = { has_country_flag = ultimatum_to_the_texans }
 			owns = 205 
 			OR = {

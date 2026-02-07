@@ -8,3 +8,5 @@ life_rating = 35
 
 
 
+
+add_core = PZN

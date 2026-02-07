@@ -1219,7 +1219,7 @@ country_event = {
 	
 	
 	trigger = { 
-	OR = { tag = SCA tag = ORL tag = FRC}
+	OR = { tag = SCA tag = ORL tag = FRC }
 	has_global_flag = the_malaccan_controversy
 	}
 	
@@ -1230,8 +1230,7 @@ country_event = {
 	#demand the celts leave
 	option = {
 		name = "EVTOPTA444411144A"
-	    WHA = { country_event = 444411145 }
-		CEL = { country_event = 444411145 }
+		1352 = { owner = { country_event = 444411145 } }
 		ai_chance = { factor = 75 }
 	}
 	

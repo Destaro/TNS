@@ -4204,8 +4204,7 @@ china_acquire_state = {
 
 	can_use = {
 	is_culture_group = east_asian
-	THIS = { NOT = { tag = JAP
-			        tag = KOR } }
+	THIS = { NOT = { tag = JAP } }
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS
 		OR = {

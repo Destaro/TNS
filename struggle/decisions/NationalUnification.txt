@@ -746,6 +746,7 @@ unite_francia = {
 				is_culture_group = beneluxian
 			NOT = { tag = LOT }
 			NOT = { tag = GCF }
+			NOT = { tag = FRC }
             }
 
             allow = {

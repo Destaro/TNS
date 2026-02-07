@@ -461,6 +461,10 @@ claim_england = {
 	   owns = 2116
 	   owns = 2115
 	   owns = 2036
+	   owns = 2048
+	   owns = 2624
+	   owns = 1983
+	   owns = 1745
 	   }
 	   
 		             }

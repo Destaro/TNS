@@ -60,6 +60,9 @@ form_vinland_federation = {
 		}
 		
 		effect = {
+		change_tag = USA
+		AVA = { all_core = { add_core = THIS } }
+		ULA = { all_core = { add_core = THIS } }
 		120 = { add_core = THIS }
 		117 = { add_core = THIS }
 		118 = { add_core = THIS }
@@ -111,8 +114,12 @@ form_vinland_federation = {
 					is_core = ULA
 				}
 				add_core = USA
-			}			
-			change_tag = USA
+				remove_core = NEW
+				remove_core = VIN
+				remove_core = AVA
+				remove_core = ULA
+			          }			
+			
 		}
 		ai_will_do = {
 			factor = 1
@@ -157,7 +164,6 @@ form_vinland_federation = {
 		                }
 	
 	allow = { 
-	    is_greater_power = yes
 		 THIS = { all_core = { owned_by = THIS } }
 		 war = no
 		 state_n_government = 1
@@ -247,6 +253,8 @@ form_vinland_federation = {
 		
 		effect = {
 		change_tag = CAN
+		ULA = { all_core = { add_core = THIS } }
+		VIN = { all_core = { add_core = THIS } }
 		120 = { add_core = THIS }
 		117 = { add_core = THIS }
 		118 = { add_core = THIS }
@@ -295,6 +303,10 @@ form_vinland_federation = {
 					is_core = ULA
 				}
 				add_core = THIS
+				remove_core = NEW
+				remove_core = VIN
+				remove_core = AVA
+				remove_core = ULA
 			}			
 			
 		}
@@ -347,6 +359,8 @@ form_vinland_federation = {
 		
 		effect = {
 		change_tag = QUE
+		AVA = { all_core = { add_core = THIS } }
+		VIN = { all_core = { add_core = THIS } }
 		120 = { add_core = THIS }
 		117 = { add_core = THIS }
 		118 = { add_core = THIS }
@@ -395,6 +409,10 @@ form_vinland_federation = {
 					is_core = ULA
 				}
 				add_core = THIS
+				remove_core = NEW
+				remove_core = VIN
+				remove_core = AVA
+				remove_core = ULA
 			}			
 			
 		}
