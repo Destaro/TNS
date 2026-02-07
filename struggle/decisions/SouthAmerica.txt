@@ -160,7 +160,7 @@ political_decisions = {
 			add_country_modifier = { name = small_immigration_boom duration = 7730 }
 	      	}
 		}
-	}
+	
 	
 	brazilian_rubber_boom = {
 		picture = rubber_cycle
