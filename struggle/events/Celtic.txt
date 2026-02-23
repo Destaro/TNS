@@ -392,6 +392,8 @@ country_event = {
 		
 }
 
+
+#### Kongo Events###
 #intervene on loango
 country_event = {
 	id = 444411117
@@ -406,7 +408,7 @@ country_event = {
 	trigger = { 
 	OR = { tag = WHA tag = CEL }
 	LOA = { war_with = KON }
-	owns = 1974
+	OR = {  THIS = { is_sphere_leader_of = LOA }   owns = 1974 }
 	has_global_flag = the_northern_kongo_rebellion
 	}
 	
@@ -858,7 +860,8 @@ country_event = {
 	trigger = {
 	 CCC = { exists = yes }
 	 CCC = { vassal_of = THIS }
-	OR = { tag = WHA tag = CEL }
+	 OR = { tag = WHA tag = CEL }
+	 owns = 2048
 	}
 
 
@@ -924,6 +927,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	2037 = { owned_by = CCC }
 	year = 1848
 	 CCC = { exists = yes }
 	 CCC = { vassal_of = THIS }
@@ -1802,9 +1806,9 @@ country_event = {
 	war = no
 	OR = { tag = WHA tag = CEL }
 	has_global_flag = the_celtic_envoys_into_punjab
-	year = 1855
+	year = 1853
 	owns = 3758
-	SIN = { exists = yes }
+	exists = SIN
 	}
     
 	mean_time_to_happen = { days = 100 }
@@ -1825,12 +1829,13 @@ country_event = {
                                  		       }
                    }
 	SIN = { country_event = 444411160 }
+	ai_chance = { factor = 75 }
 	}
 	
 	#leave them be
 	option = {
 		name = "EVTOPTA444411159B"
-     
+     ai_chance = { factor = 25 }
 	}
 }
 
@@ -1870,7 +1875,8 @@ country_event = {
 	owns = 1290
 	has_global_flag = the_celtic_envoys_into_punjab
 	owns = 1290
-	year = 1857
+	year = 1855
+	exists = JOD
 	}
 
     #go to war with marwar with their own soldiers
@@ -1892,11 +1898,13 @@ country_event = {
 	personality = lilylivered
 	background = cursed_luck
                               }
+	  ai_chance = { factor = 75 }
 	}
 	
 	#bad idea
 	option = {
 		name = "EVTOPTA444411161B"
+		ai_chance = { factor = 25 }
 	}
 }
 
@@ -1935,11 +1943,13 @@ country_event = {
 	who = PNJ
 	value = 200      }
 	set_country_flag = hindustani_court_bribed
+	ai_chance = { factor = 75 }
 	}
 	
 	#bad idea
 	option = {
 		name = "EVTOPTA444411161B"
+		ai_chance = { factor = 25 }
 	}
 }
 
@@ -1972,11 +1982,13 @@ country_event = {
 	  THIS = {  create_vassal = PNJ }
 		badboy = 5
 		prestige = 30
+		ai_chance = { factor = 75 }
 	}
 	
 	option = {
 		name = "EVTOPTA444411163B"
 	    prestige = -50
+		ai_chance = { factor = 25 }
 	}
 	
 	

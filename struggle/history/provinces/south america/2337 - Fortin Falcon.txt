@@ -2,7 +2,7 @@ owner = VOP
 controller = VOP
 add_core = VOP
 add_core = PRG
-add_core = KRT
+
 trade_goods = tropical_wood
 terrain = savanna
 life_rating = 15

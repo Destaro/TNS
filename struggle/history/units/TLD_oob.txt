@@ -1,3 +1,11 @@
+GLC = {	
+	value = 25
+	level = 5
+	influence_value = 0
+}
+
+
+
 #Army
 army = {
 	name = "Ejército del Centro"
@@ -10,6 +18,12 @@ army = {
 
 	regiment = {
 		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+	
+	regiment = {
+		name= "3. Granaderos del Rey"
 		type = infantry
 		home = 489
 	}

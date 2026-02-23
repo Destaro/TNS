@@ -1273,6 +1273,11 @@
 		religion = catholic
 		size = 18850
 	}
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 13850
+	}
 }
 
 3849 = {
@@ -1819,6 +1824,11 @@
 		religion = catholic
 		size = 16025
 	}
+	labourers = {
+		culture = visigothic
+		religion = catholic
+		size = 16025
+	}
 }
 #Teruel (228000/57000 POPS)
 497 = {
@@ -2174,6 +2184,12 @@
 
 	farmers = {
 		culture = vandalic
+		religion = catholic
+		size = 17650
+	}
+	
+	farmers = {
+		culture = visigothic
 		religion = catholic
 		size = 17650
 	}
@@ -2941,25 +2957,25 @@
 	clergymen = {
 		culture = visigothic
 		religion = protestant
-		size = 75
+		size = 175
 	}
 
 	artisans = {
 		culture = visigothic
 		religion = protestant
-		size = 250
+		size = 1250
 	}
 
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 550
+		size = 1550
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 14625
+		size = 34625
 	}
 }
 #Joplin (25000/5000 POPS)
@@ -2993,7 +3009,7 @@
 	clergymen = {
 		culture = visigothic
 		religion = protestant
-		size = 75
+		size = 275
 	}
 
 	artisans = {
@@ -3005,13 +3021,13 @@
 	soldiers = {
 		culture = visigothic
 		religion = protestant
-		size = 150
+		size = 1150
 	}
 
 	farmers = {
 		culture = visigothic
 		religion = protestant
-		size = 14625
+		size = 44625
 	}
 }
 #Joplin (25000/5000 POPS)

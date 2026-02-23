@@ -10853,6 +10853,12 @@
 		religion = protestant
 		size = 29000
 	}
+	
+	farmers = {
+		culture = vinlander
+		religion = protestant
+		size = 17025
+	}
 }
 #Watertown (116000/29000 POPS)
 239 = {
@@ -10878,6 +10884,12 @@
 		culture = avalonian
 		religion = protestant
 		size = 27025
+	}
+	
+	farmers = {
+		culture = vinlander
+		religion = protestant
+		size = 17025
 	}
 }
 #Plattsburgh (76000/19000 POPS)
@@ -11587,6 +11599,12 @@
 		religion = catholic
 		size = 14000
 	}
+	
+	farmers = {
+		culture = vinlander
+		religion = catholic
+		size = 14000
+	}
 }
 #Bangor (156000/44000 POPS)
 249 = {
@@ -11660,6 +11678,12 @@
 		culture = avalonian
 		religion = catholic
 		size = 4000
+	}
+	
+	farmers = {
+		culture = vinlander
+		religion = catholic
+		size = 14000
 	}
 }
 #ruled by the UK
@@ -11739,6 +11763,12 @@
 
 	farmers = {
 		culture = avalonian
+		religion = protestant
+		size = 2725
+	}
+	
+	farmers = {
+		culture = vinlander
 		religion = protestant
 		size = 2725
 	}

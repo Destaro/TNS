@@ -6,6 +6,7 @@ core_courland = {
         potential = {
 			tag = LIT
 			NOT = { has_country_flag = core_courland }
+			NOT = { vassal_of = BUL }
         }
 		
 		allow = { 

@@ -2,7 +2,7 @@ owner = VOP
 controller = VOP
 add_core = VOP
 add_core = PRG
-add_core = KRT
+
 trade_goods = fish
 terrain = savanna
 life_rating = 151861.1.1 = { 	owner = PRG	controller = PRG

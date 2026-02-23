@@ -786,3 +786,269 @@ country_event = {
 		
 	
 }
+
+#put down the zulu
+country_event = {
+	id = 476952
+	title = "EVTNAME476952" 
+	desc = "EVTDESC476952"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    is_greater_power = yes
+	    year = 1870
+		tag = SCA
+		war = no
+		exists = ZUL
+		SAF = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+			
+	}
+
+	#Put down the zulu	
+	option = {
+		name = "EVTOPTA476952A"
+		war = {
+			target = ZUL
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		badboy = 5
+		prestige = 5
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	#leave it
+	option = {
+		name = "EVTOPTA476952B"
+	 ai_chance = {
+			factor = 20
+		}
+	}
+		
+	
+}
+
+
+#give zulu provinces to nyr heima
+country_event = {
+	id = 476953
+	title = "EVTNAME476953" 
+	desc = "EVTDESC476953"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	    OR = { owns = 2113 ZUL = { vassal_of = THIS }  }
+		exists = SAF
+		SAF = { vassal_of = THIS } 
+	}
+
+	#give provinces to nyr heima
+	option = {
+		name = "EVTOPTA476953A"
+		any_owned = {
+		    limit = { is_core = ZUL }
+		    secede_province = SAF
+		}
+		
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	#keep it
+	option = {
+		name = "EVTOPTA476953B"
+	 ai_chance = {
+			factor = 20
+		}
+	}
+		
+	
+}
+
+#ultimatum to johore
+country_event = {
+	id = 476957
+	title = "EVTNAME476957" 
+	desc = "EVTDESC476957"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = { 
+	   is_greater_power = yes
+	   tag = SCA
+	     SCA = { is_sphere_leader_of = JOH }
+	   exists = JOH
+	   nationalism_n_imperialism = 1
+	}
+	
+	
+	#threaten johore
+	option = {
+		name = "EVTOPTA476957A"
+	    badboy = 2
+		ai_chance = { factor = 75 }
+		JOH = { country_event = 476954 }
+	}
+	
+	#not worth it 
+	option = {
+		name = "EVTOPTA476957B"
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#johore receives it
+country_event = {
+	id = 476954
+	title = "EVTNAME476954" 
+	desc = "EVTDESC476954"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+    is_triggered_only = yes
+	
+	
+	#johore surrenders
+	option = {
+		name = "EVTOPTA476954A"
+	any_owned = {
+	  limit = {  is_core = JOH  }
+	  secede_province = FROM
+	    }
+		ai_chance = { factor = 65 }
+		FROM = { country_event = 476955 }
+	}
+	
+	#johore refuses 
+	option = {
+		name = "EVTOPTA476954B"
+	FROM = { country_event = 476956 }
+		ai_chance = { factor = 35 }
+	}
+	
+}
+
+#johore accepts
+country_event = {
+	id = 476955
+	title = "EVTNAME476955" 
+	desc = "EVTDESC476955"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = "EVTOPTA476955A"
+        prestige = 10
+		treasury = -50000
+	}
+	
+}
+
+#johore refuses
+country_event = {
+	id = 476956
+	title = "EVTNAME476956" 
+	desc = "EVTDESC476956"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+    #they called our bluff
+	option = {
+		name = "EVTOPTA476956A"
+        prestige = -20
+	}
+	
+	#to war by jingo!
+	option = {
+		name = "EVTOPTA476956B"
+        prestige = 5
+		badboy = 1
+		war = {
+                target = JOH
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
+	
+}
+
+#take over serkland
+country_event = {
+	id = 476958
+	title = "EVTNAME476958" 
+	desc = "EVTDESC476958"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+	    tag = SCA
+		OR = { 
+		   owns = 2088
+		   SAF = { vassal_of = SCA }
+		}
+	   year = 1885
+	   exists = NMB
+	}
+	
+	major = yes
+
+    #they're not worth it
+	option = {
+		name = "EVTOPTA476958A"
+	}
+	
+	#to war by jingo!
+	option = {
+		name = "EVTOPTA476958B"
+		badboy = 5
+		war = {
+                target = NMB
+                
+				attacker_goal = {
+                    casus_belli = conquest_any
+                                                 }
+                defender_goal = { 
+				    casus_belli = status_quo
+                                 		       }
+                   }
+	}
+	
+}

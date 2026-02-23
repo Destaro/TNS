@@ -6,16 +6,15 @@ country_event = {
 	picture = "henri_riviere"
 	
 	trigger = {
-		primary_culture = french
+		OR = { tag = FRC tag = LOT }
 			is_greater_power = yes
-			capital = 425
-		exists = DAI
+		exists = ASH
 		has_country_flag = tonkin_campaign
 		NOT = { has_country_flag = tonkin_campaign_started }
 	}
 	
 	mean_time_to_happen =  {
-		months = 12
+		months = 6
 
 		modifier = {
 			factor = 0.5
@@ -32,7 +31,7 @@ country_event = {
 		name = "EVT99949OPTA"
 		random_country = {
 			limit = {
-				tag = DAI
+				tag = ASH
 				civilized = no
 				exists = yes
 				ai = yes

@@ -136,13 +136,13 @@
 45 = {
 	
 	aristocrats = {
-		culture = frankish
+		culture = basque
 		religion = catholic
 		size = 10
 	}
 	
 	clergymen = {
-		culture = frankish
+		culture = basque
 		religion = catholic
 		size = 25
 	}
@@ -154,7 +154,7 @@
 	}
 	
 	farmers = {
-		culture = frankish
+		culture = basque
 		religion = catholic
 		size = 500
 	}

@@ -218,7 +218,6 @@ political_decisions = {
 			set_country_flag = anti_byzantine_crusade
 			}
 		}
-		
 	rally_the_cosenzan_league = {
 		potential = {
 		tag = BYZ

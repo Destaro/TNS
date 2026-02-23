@@ -11,12 +11,36 @@ core_urelia_gco = {
 			nationalism_n_imperialism = 1
 			any_owned_province = { is_core = PEU }
 			inorganic_chemistry = 1
-			phenomenalism = 1
+			empiricism = 1
 		}
 		effect = {
 		   set_country_flag = core_urelia_gco
 		   PEU = { all_core = { add_core = THIS } }
 		   prestige = 10
+		}
+	}
+	
+	core_urelia_remaining_gco = {
+		potential = {
+			tag = GCO
+			NOT = { has_country_flag = core_urelia_gco }
+			VOP = { ai = yes }
+			has_country_flag = core_urelia_gco
+		}
+		allow = {
+			war = no
+			any_owned_province = { is_core = PEU }
+			NOT = { exists = VOP }
+			owns = 2310
+		}
+		effect = {
+		   set_country_flag = core_urelia_remaining_gco
+		   SPU = { all_core = { add_core = THIS } }
+		   prestige = 10
+		   relation = {
+	       who = LPL
+	       value = -100
+                            }
 		}
 	}
 

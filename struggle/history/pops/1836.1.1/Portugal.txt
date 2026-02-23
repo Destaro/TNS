@@ -40,7 +40,12 @@
 	farmers = {
 		culture = suebi
 		religion = catholic
-		size = 150200
+		size = 110200
+	}
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 40200
 	}
 }
 #Vila Real (324000/81000) POPS
@@ -72,7 +77,13 @@
 	farmers = {
 		culture = suebi
 		religion = catholic
-		size = 69275
+		size = 49275
+	}
+	
+	farmers = {
+		culture = visigothic
+		religion = catholic
+		size = 20000
 	}
 }
 #Covilha (568000/142000 POPS)

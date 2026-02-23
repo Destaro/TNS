@@ -2545,6 +2545,12 @@
 		religion = catholic
 		size = 10900
 	}
+	
+	farmers = {
+		culture = vinlander
+		religion = catholic
+		size = 10900
+	}
 }
 #Riviere du Loup (56000/14000 POPS)
 67 = {
@@ -2568,6 +2574,12 @@
 
 	labourers = {
 		culture = avalonian
+		religion = catholic
+		size = 4500
+	}
+	
+	labourers = {
+		culture = vinlander
 		religion = catholic
 		size = 4500
 	}
@@ -2630,6 +2642,12 @@
 		religion = catholic
 		size = 10650
 	}
+	
+		farmers = {
+		culture = vinlander
+		religion = catholic
+		size = 10650
+	}
 }
 #Bathurst (64000/16000 POPS)
 69 = {
@@ -2663,6 +2681,12 @@
 	}
 	farmers = {
 		culture = avalonian
+		religion = protestant
+		size = 2501
+	}
+	
+	farmers = {
+		culture = vinlander
 		religion = protestant
 		size = 2501
 	}
@@ -2727,13 +2751,19 @@
 	farmers = {
 		culture = avalonian
 		religion = protestant
-		size = 14600
+		size = 7600
 	}
 
 	labourers = {
 		culture = avalonian
 		religion = catholic
 		size = 1100
+	}
+	
+	labourers = {
+		culture = vinlander
+		religion = catholic
+		size = 11100
 	}
 
 	labourers = {
@@ -2764,6 +2794,12 @@
 
 	farmers = {
 		culture = avalonian
+		religion = protestant
+		size = 9075
+	}
+	
+	farmers = {
+		culture = vinlander
 		religion = protestant
 		size = 9075
 	}

@@ -9,4 +9,3 @@ party_loyalty = {
 	loyalty_value = 25
 }
 
-add_core = KRT

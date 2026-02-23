@@ -1,5 +1,5 @@
 owner = KRT
 controller = KRT
-add_core = KRT
+
 trade_goods = fish
 life_rating = 35

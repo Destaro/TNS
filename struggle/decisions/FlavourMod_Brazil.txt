@@ -2,12 +2,12 @@ political_decisions = {
 	minas_gerais = {
 		picture = "minas_gerais"
 		potential = {
-			tag = BRZ
+			tag = KRT
 			year = 1900
 			NOT = {
 				has_country_flag = minas_gerais_ordered
 			}
-			relation = { who = ENG value = 100 }
+			relation = { who = WHA value = 100 }
 			any_greater_power = {
 				invention = dreadnoughts
 			}

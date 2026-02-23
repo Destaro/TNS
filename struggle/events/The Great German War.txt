@@ -1,0 +1,519 @@
+
+#swabia annexes bavaria
+country_event = {
+
+	id = 544666
+
+	trigger = {
+		tag = BAD
+		year = 1852
+		war = no
+		exists = BAV
+		NOT = {
+			exists = SGF
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+
+		
+	}
+
+	title = "EVTNAME544666"
+	desc = "EVTDESC544666"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544666A" 
+		set_global_flag = annexing_bavaria
+			relation = {
+			who = WES
+			value = -100 
+			
+		}
+		inherit = BAV
+		WES = { country_event = 5446666 }
+				ai_chance = {
+			factor = 70
+		}
+		treasury = 100000
+	}
+	
+	option = {
+		name = "EVTOPTA544666B" 
+		set_global_flag = bavaria_is_saxon
+		badboy = -2
+
+			relation = {
+			 who = WES
+			value = 200
+			}
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+
+#swabia annexes bavaria news to saxony
+country_event = {
+
+	id = 5446666
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+ 
+ major = yes
+
+	title = "EVTNAME5446666"
+	desc = "EVTDESC5446666"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA5446666A" 
+		
+	}
+	
+}
+
+
+#swabia becomes sgf
+country_event = {
+
+	id = 544667
+
+	trigger = {
+		tag = BAD
+		year = 1855
+		war = no
+		NOT = { exists = BAV }
+		NOT = { exists = SGF }
+		owns = 599
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME544667"
+	desc = "EVTDESC544667"
+	picture = "Mozart"
+
+	option = {
+	    set_global_flag = swabia_forms_sgf
+		name = "EVTOPTA544667A" 
+			relation = {
+			who = WES
+			value = -100 
+		}
+		prestige = 20
+		change_tag = SGF
+		FRE = { all_core = { add_core = THIS } }
+		BAV = { all_core = { add_core = THIS } }
+		WEI = { all_core = { add_core = THIS } }
+		any_country = {
+				limit = {
+					OR = {
+						primary_culture = allemanic
+						primary_culture = franconian
+						primary_culture = bavarian
+						primary_culture = high_saxon
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = GER
+				}
+				add_core = SGF
+			}
+			change_tag = SGF
+			add_accepted_culture = allemanic
+			add_accepted_culture = franconian
+			add_accepted_culture = bavarian
+	}
+	
+	
+}
+
+
+
+#swabia annexes franconia
+country_event = {
+
+	id = 544668
+
+	trigger = {
+		tag = SGF
+		year = 1858
+		war = no
+		exists = FRE
+		NOT = { exists = BAV } 
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME544668"
+	desc = "EVTDESC544668"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544668A" 
+		set_global_flag = annexing_franconia
+			relation = {
+			who = WES
+			value = -200 
+		                      }
+		    treasury = 100000
+		    inherit = FRE
+			add_accepted_culture = franconian
+				ai_chance = {
+			        factor = 70
+		                         }
+	}
+	
+	option = {
+		name = "EVTOPTA544668B" 
+		set_global_flag = franconia_is_saxon
+		badboy = -2
+
+			relation = {
+			 who = WES
+			value = 200
+			}
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+#swabia annexes thuringen
+country_event = {
+
+	id = 544670
+
+	trigger = {
+		tag = SGF
+		year = 1858
+		war = no
+		owns = 595
+		exists = WEI
+		has_global_flag = franconia_is_allemani
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME544670"
+	desc = "EVTDESC544670"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544670A" 
+		set_global_flag = annexing_thuringen
+			relation = {
+			who = WES
+			value = -200 
+		                      }
+		    inherit = WEI
+			treasury = 100000
+				ai_chance = {
+			        factor = 70
+		                         }
+	}
+	
+	option = {
+		name = "EVTOPTA544670B" 
+		set_global_flag = thuringen_is_saxon
+		badboy = -2
+
+			relation = {
+			 who = WES
+			value = 200
+			}
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+
+#the great german war 1
+country_event = {
+
+	id = 544669
+
+	trigger = {
+		tag = WES
+		has_global_flag = annexing_franconia
+		is_greater_power = yes
+		NOT = {
+			has_global_flag = franconia_is_saxon
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME544669"
+	desc = "EVTDESC544669"
+	picture = "Mozart"
+
+   #to war!
+	option = {
+		name = "EVTOPTA544669A" 
+		set_global_flag = the_great_german_war
+		badboy = 15
+		
+			relation = {
+			who = SGF
+			value = -200 
+		}
+		war = {
+	target = SGF
+	attacker_goal = { 
+	casus_belli = conquest_any
+	 }
+	defender_goal = { 
+	casus_belli = conquest_any }
+	
+}
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	#we cant take them
+	option = {
+		name = "EVTOPTA544669B" 
+		set_global_flag = franconia_is_allemani
+		prestige = -30
+		relation = {
+		who = SGF
+		value = 100
+		}
+				ai_chance = {
+			factor = 60
+		}
+	}
+}
+
+#the great german war 2
+country_event = {
+
+	id = 544671
+
+	trigger = {
+		tag = WES
+		has_global_flag = annexing_thuringen
+		is_greater_power = yes
+		NOT = {
+			has_global_flag = thuringen_is_saxon
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		
+	}
+
+	title = "EVTNAME544671"
+	desc = "EVTDESC544671"
+	picture = "Mozart"
+
+   #to war!
+	option = {
+		name = "EVTOPTA544671A" 
+		set_global_flag = the_great_german_war
+			relation = {
+			who = SGF
+			value = -200 
+		}
+		war = {
+	        target = SGF
+	        attacker_goal = { 
+	        casus_belli = conquest_any
+	                                    }
+	        defender_goal = { 
+	        casus_belli = conquest_any }
+	
+                       }
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	#we cant take them
+	option = {
+		name = "EVTOPTA544671B" 
+		set_global_flag = thuringen_is_allemani
+		prestige = -30
+		relation = {
+		who = SGF
+		value = 100
+		}
+				ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#victory over the allemani
+country_event = {
+
+	id = 544672
+
+    major = yes
+
+	trigger = {
+		tag = WES
+		war = no
+		has_country_flag = war_of_the_crowns
+		SGF = { all_core = { owned_by = WES } }
+		NOT = {
+		  	has_global_flag = thuringen_is_allemani
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+
+		
+	}
+
+	title = "EVTNAME544672"
+	desc = "EVTDESC544672"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544672A" 
+		set_global_flag = victory_over_the_allemani
+		FRE = { all_core = { add_core = THIS } }
+		WEI = { all_core = { add_core = THIS } }
+		
+		prestige = 30
+	}
+	
+	
+}
+
+#victory over the Saxons
+country_event = {
+
+	id = 544673
+
+    major = yes
+
+	trigger = {
+		tag = SGF
+		war = no
+		has_global_flag = the_great_german_war
+		SGF = { all_core = { owned_by = THIS } }
+		
+		NOT = { 
+		    exists = WES 
+		  	has_global_flag = thuringen_is_allemani
+		}
+		owns = 599
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+
+		
+	}
+
+	title = "EVTNAME544673"
+	desc = "EVTDESC544673"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544673A" 
+		set_global_flag = victory_over_the_saxons
+		WES = { all_core = { add_core = THIS } }
+		GER = { all_core = { add_core = THIS } }
+		change_tag = GER
+		add_accepted_culture = baltic_german
+		add_accepted_culture = low_saxon
+		add_accepted_culture = high_saxon
+		prestige = 30
+	}
+	
+	
+}
+
+#allemanic federation forms outside this event line
+country_event = {
+
+	id = 544674
+
+	trigger = {
+		tag = SGF
+		NOT = { has_global_flag = swabia_forms_sgf }
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME544674"
+	desc = "EVTDESC544674"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544674A" 
+		BAV = { all_core = { add_core = THIS } }
+		FER = { all_core = { add_core = THIS } }
+		change_tag = GER
+		add_accepted_culture = baltic_german
+		add_accepted_culture = low_saxon
+		add_accepted_culture = high_saxon
+	}
+	
+	
+}
+

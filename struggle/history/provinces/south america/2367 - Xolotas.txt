@@ -4,5 +4,5 @@ add_core = VOP
 add_core = PRG
 trade_goods = timber
 terrain = savannalife_rating = 15
-add_core = KRT
+
 add_core = BOL

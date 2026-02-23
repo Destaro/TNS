@@ -1,53 +1,5 @@
 political_decisions = {
-	commodore_perry_expedition = {
-	picture = commodore_perry_expedition
-        potential = {
-			tag = USA
-			state_n_government = 1
-			is_greater_power = yes
-			TKG = {
-				exists = yes
-				civilized = no
-				has_country_modifier = uncivilized_isolationism
-				NOT = { has_country_flag = caved_to_commodore_perry }
-				NOT = { has_country_flag = rejected_commodore_perry }
-			}
-			total_amount_of_ships = 4
-			any_owned_province = {
-				OR = {
-					region = USA_1
-					region = MEX_85
-					region = USA_78
-					region = USA_81
-					region = CAN_13
-				}
-			}
-			NOT = {
-				has_country_flag = commodore_perry_expedition
-				has_global_flag = boshin_war
-				has_global_flag = boshin_war_has_happened
-			}
-		}
-
-		allow = {
-			war = no
-			OR = {
-				nationalism_n_imperialism = 1
-				weapon_platforms = 1
-				is_sphere_leader_of = TKG
-			}
-		}
-
-		effect = {
-			set_country_flag = commodore_perry_expedition
-			badboy = 2
-			TKG = { country_event = 97605 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	
 	
 	kanagawa_treaty = {
 		picture = unequal_treaty
@@ -96,7 +48,7 @@ political_decisions = {
 	putiatin_mission = {
 		picture = french_military_mission_to_japan
 		potential = {
-			tag = RUS
+			tag = RUT
 			owns = 1072 #Okhotsk
 			owns = 1088 #Shumshu
 			1089 = { #Etorofu
@@ -121,7 +73,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = shimoda_treaty
 			prestige = 10
-			1088 = { add_core = RUS }
+			1088 = { add_core = RUT }
 			random_country = {
 				limit = {
 					owns = 1089 #Etorofu
@@ -658,7 +610,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					is_our_vassal = KOR
-					year = 1910
+					year = 1870
 				}
 				KOR = {
 					civilized = yes
@@ -764,6 +716,7 @@ political_decisions = {
 			war = no
 			war_policy = jingoism
 			is_greater_power = yes
+			year = 1880
 		}
 		
 		effect = {
@@ -1265,7 +1218,7 @@ political_decisions = {
 					has_country_modifier = fukoku_kyohei
 					OR = {
 						has_country_flag = taiwan_line_of_advantage
-						revolution_n_counterrevolution = 1
+						
 					}
 				}
 				AND = {
@@ -1544,7 +1497,7 @@ political_decisions = {
 	russian_sakhalin = {
 		picture = map_yellow_sea
 		potential = {
-			tag = RUS
+			tag = RUT
 			OR = {
 				owns = 1086 #Pogobi
 				owns = 1087 #Ootomari
@@ -1862,6 +1815,7 @@ political_decisions = {
 			KOR = { all_core = { owned_by = THIS } }
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
+			year = 1890
 		}
 
 		effect = {

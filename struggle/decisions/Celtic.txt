@@ -550,7 +550,8 @@ claim_england = {
                       province_id = 2124
                       province_id = 1177
                       province_id = 2060
-                      province_id = 2005   }			        
+                      province_id = 2005 
+                      province_id = 1983	  }			        
                     	}
 		 secede_province = CCC						
 		}

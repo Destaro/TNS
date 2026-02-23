@@ -45,6 +45,44 @@ army = {
 
 }
 
+army = {
+
+   
+	name = "1st garrison"
+	location = 2089
+	
+	regiment = {
+		name= "1. Commando"
+		type = infantry
+		home = 2096
+	}
+	
+	regiment = {
+		name= "2. Commando"
+		type = infantry
+		home = 2096
+	}
+	
+	regiment = {
+		name= "Bloemfontein Commando"
+		type = artillery
+		home = 2096
+	}
+
+	regiment = {
+		name= "Winburg Commando"
+		type = artillery
+		home = 2096
+	}
+
+	regiment = {
+		name= "Philippolis Commando"
+		type = artillery
+		home = 2096
+	}
+
+}
+
 
 navy = {
     name = "Home fleet"

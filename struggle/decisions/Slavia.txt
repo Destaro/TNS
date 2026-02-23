@@ -106,13 +106,26 @@ the_black_sea_coast = {
 	 tag = RUT 
 	 tag = BUL }
 	 NOT = { has_country_flag = the_black_sea_coast }
+	 HUN = { ai = yes } 
         }
           
 	 allow = {
      year = 1855
      is_greater_power = yes
      war = no
-     HUN = { all_core = { owned_by = THIS } } 
+     HUN = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						
+					}
+				}
+			}
      }
   
   

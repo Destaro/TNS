@@ -1,6 +1,6 @@
 
 
-add_core = KRT
+
 
 trade_goods = fruit
 terrain = savanna

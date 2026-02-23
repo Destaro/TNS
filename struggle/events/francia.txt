@@ -87,6 +87,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9006007"
 		prestige = 85
+		LOT = { all_core = { remove_core = FRC remove_core = ORL } }
 		576 = { add_province_modifier = { name = baby_boom duration = 3650 } }
 	}
 
@@ -207,6 +208,5 @@ country_event = {
 		GER = { all_core = { add_core = THIS } }
 		ORL = { all_core = { add_core = THIS } }
 		LOM = { all_core = { add_core = THIS } }
-		LOT = { all_core = { remove_core = FRC remove_core = ORL } }
 	}
 	}

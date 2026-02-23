@@ -11,7 +11,9 @@ country_event = {
 	LIT = { vassal_of = BUL}
 	PRD = { vassal_of = BUL}
 	tag = BUL
-    year = 1848
+    OR = { AND = { year = 1848  ai = no }
+	       AND = { year = 1842  ai = yes }       
+	                          }
 	
 	}
 	
@@ -87,8 +89,9 @@ country_event = {
 	BKV = { vassal_of = BUL}
 	KUR = { vassal_of = BUL} }
 	tag = BUL
-    year = 1849
-	
+    OR = { AND = { year = 1849  ai = no }
+	       AND = { year = 1843  ai = yes }       
+	                          }
 	}
 	
 	mean_time_to_happen = {
@@ -217,6 +220,10 @@ country_event = {
 	   option = { 
 	   name = "EVTOPTA777100A" #goodbye port
 	   prestige = -10
+	   any_owned = { 
+		     limit = { OR = { is_core = LIT is_core = NOV } }
+		     remove_core = BUL
+		   }
 	   any_owned = {
 			limit = { is_core = LIT }
 			secede_province = LIT
@@ -225,6 +232,8 @@ country_event = {
 			limit = { is_core = BYE }
 			secede_province = BYE
 		   } 
+		   
+		   
 	   
 	   }
 }

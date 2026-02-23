@@ -39,6 +39,7 @@ picture = russify_baltic_states
 			UKR = { all_core = { add_core = THIS } }
 			URA = { all_core = { add_core = THIS } }
 			BLG = { all_core = { add_core = THIS } }
+			BUL = { all_core = { add_core = THIS } }
 			3544 = { add_core = THIS }
 			any_country = {
 				limit = {
@@ -66,13 +67,37 @@ picture = russify_baltic_states
 		}
 	}
 	
+	accept_the_bolkanians = { 
+	potential = { 
+	
+	       tag = RUT  
+		   NOT = { has_country_flag = accept_the_bolkanians }
+		                }
+	
+	allow = { 
+	    OR = { is_greater_power = yes
+		       is_secondary_power = yes       }
+		 war = no
+		 owns = 718
+		 }
+	
+	effect = {
+	     set_country_flag = accept_the_bolkanians
+         add_accepted_culture = bulgarian
+		 prestige = 10
+             	}
+	
+	
+	}
+	
 	claim_the_baltics = { 
 	potential = { 
 	OR = {
 	       tag = RUT  
-		   
+		   tag = SLA
 		   }
 		   NOT = { has_country_flag = claim_the_baltics }
+		   LIT = { ai = yes }
 		                }
 	
 	allow = { 
@@ -166,8 +191,8 @@ picture = russify_baltic_states
 	allow = { 
 	    
 		 war = no
-		owns = 1181
-		owns = 1036
+		owns = 1184
+		owns = 2610
 		 }
 	
 	effect = {
@@ -400,7 +425,7 @@ picture = russify_baltic_states
 				}
 			}
 			QNG = {
-				neighbour = RUS
+				neighbour = RUT
 				OR = {
 					has_global_flag = taiping_has_been_defeated
 					has_country_flag = arrow_incident
@@ -436,13 +461,13 @@ picture = russify_baltic_states
 		
 		effect = {
 			set_global_flag = convention_of_peking
-			1081 = { add_core = RUS }
-			1082 = { add_core = RUS }
-			1083 = { add_core = RUS }
-			1084 = { add_core = RUS }
-			1085 = { add_core = RUS }
-			2617 = { add_core = RUS }
-			2697 = { add_core = RUS }
+			1081 = { add_core = RUT }
+			1082 = { add_core = RUT }
+			1083 = { add_core = RUT }
+			1084 = { add_core = RUT }
+			1085 = { add_core = RUT }
+			2617 = { add_core = RUT }
+			2697 = { add_core = RUT }
 			QNG = { country_event = 80110 }
 		}
 	}

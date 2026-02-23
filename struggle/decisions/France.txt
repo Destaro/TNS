@@ -241,7 +241,7 @@ political_decisions = {
 	haussmanns_renovations = {
 		picture = haussmanns_renovations
 		potential = {
-			primary_culture = french
+			tag = FRC 
 			is_greater_power = yes
 			capital = 425
 			NOT = { has_country_flag = extreme_home_makeover }
@@ -273,8 +273,7 @@ political_decisions = {
 			}
 			425 = { life_rating = 5 add_province_modifier = { name = haussmanns_renovations duration = -1 } }
 			prestige = 10
-			FRA = { set_country_flag = extreme_home_makeover }
-			BOR = { set_country_flag = extreme_home_makeover }
+			FRC = { set_country_flag = extreme_home_makeover }
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -283,10 +282,9 @@ political_decisions = {
 	annex_mayotte = {
 		picture = dreams_of_empire
 		potential = {
-			primary_culture = french
+			tag = WHA
 			is_greater_power = yes
-			capital = 425
-			2124 = { empty = yes }
+			owns = 2124 
 		}
 		
 		allow = {
@@ -366,12 +364,12 @@ political_decisions = {
 		}
 	}
 
+   #Repurposed for TNS Francia
 	annex_new_caledonia = {
 		picture = dreams_of_empire
 		potential = {
-			primary_culture = french
+			tag = FRC
 			is_greater_power = yes
-			capital = 425
 			state_n_government = 1
 			1097 = { empty = yes }
 			OR = {
@@ -394,14 +392,14 @@ political_decisions = {
 		}
 	}
 	
+	#Repurposed for TNS Francia
 	french_language_schooling = {
 		picture = embrace_minority
 		potential = {
-			primary_culture = french
+			tag = FRC
 			is_greater_power = yes
-			capital = 425
-			any_owned_province = { is_core = BRT }
-			BRT = { exists = no }
+			OR = { any_owned_province = { is_core = BRT is_core = OCC } }
+			OCC = { exists = no }
 			NOT = { has_country_flag = enacted_french_schooling	 }
 		}
 		
@@ -413,35 +411,26 @@ political_decisions = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = enacted_french_schooling }
-			BOR = { set_country_flag = enacted_french_schooling }
-			remove_accepted_culture = picard
-			remove_accepted_culture = arpitan
-			remove_accepted_culture = breton
-			remove_accepted_culture = wallonian
-			remove_accepted_culture = occitan
-			remove_accepted_culture = swiss_french
-			remove_accepted_culture = rhinelander
+			FRC = { set_country_flag = enacted_french_schooling }
 			any_owned = {
 				limit = {
 					is_core = THIS
 					OR = {
+						is_core = OCC
 						is_core = BRT
 						is_core = WLL
-						is_core = CAT
+						is_core = VND
 						is_core = CRS
 						is_core = ITA
 						is_core = THIS
-						is_core = SWI
+						
 						AND = {
 							is_core = LUX
-							THIS = { has_country_flag = chose_door_one }
 						}
 						AND = {
 							is_core = RHI
-							THIS = { has_country_flag = chose_door_one }
 						}
-						culture = picard
+						culture = arpitan
 						culture = occitan
 					}
 				}
@@ -452,15 +441,22 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = {
-					BRT = { exists = no }
+					OCC = { exists = no }
+				}
+				OCC = { all_core = { remove_core = OCC } }
+			}
+			
+			random_owned = {
+				limit = {
+					OCC = { exists = no }
 				}
 				BRT = { all_core = { remove_core = BRT } }
 			}
 			random_owned = {
 				limit = {
-					WLL = { exists = no }
+					VND = { exists = no }
 				}
-				WLL = { all_core = { remove_core = WLL } }
+				VND = { all_core = { remove_core = VND } }
 			}
 			random_owned = {
 				limit = {
@@ -470,11 +466,11 @@ political_decisions = {
 			}
 			any_country = {
 				limit = {
-					tag = LUX
+					tag = VND
 					exists = yes
 					vassal_of = THIS
 				}
-				primary_culture = french
+				primary_culture = frankish
 			}
 			any_country = {
 				limit = {
@@ -482,42 +478,14 @@ political_decisions = {
 					exists = yes
 					vassal_of = THIS
 				}
-				primary_culture = french
+				primary_culture = frankish
 			}	
 		}
 	}
 	
-	st_barths_question = {
-		picture = map_caribbean
-		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			NOT = { owns = 3246 }
-			NOT = { has_country_flag = st_barths_referendum }
-			OR = {
-				owns = 45
-				owns = 2230
-				owns = 2228
-			}
-		}
-		
-		allow = {
-			war = no
-			nationalism_n_imperialism = 1
-			has_global_flag = berlin_conference
-			3246 = { owner = { NOT = { truce_with = THIS } relation = { who = THIS value = 60 } } }
-			money = 55000
-		}
-		
-		effect = {
-			FRA = { set_country_flag = st_barths_referendum }
-			BOR = { set_country_flag = st_barths_referendum }
-			3246 = { owner = { country_event = 36623 } }
-		}
-		ai_will_do = { factor = 1 }
-	}
 
+
+#Repurposed for TNS Francia
 	alsace_lorraine_mines = {
 		picture = alsace_lorraine_mines
 		potential = {
@@ -541,6 +509,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#Repurposed for TNS Francia
 	french_iron_mines = {
 		picture = normandie_mine
 		potential = {
@@ -556,8 +525,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = french_mines_placed }
-			BOR = { set_country_flag = french_mines_placed }
+			FRC = { set_country_flag = french_mines_placed }
+			LOT = { set_country_flag = french_mines_placed }
 			ORL = { set_country_flag = french_mines_placed }
 			#FRC = { set_country_flag = french_mines_placed }
 			money = -30000
@@ -570,15 +539,16 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#Repurposed for TNS Francia
 #The Devil's Island
 devil_island = {
 	picture = FRA_devils_island
 	potential = {
-		primary_culture = french
+		tag = FRC
 		is_greater_power = yes
-		capital = 425
 		GUY = { exists = no }
-		owns = 2241 #Cayenne
+		OR = { owns = 2241 #Cayenne
+		       GCO = { vassal_of = THIS }     }
 		year = 1852
 		penal_system = colonial_transportation
 		NOT = { has_country_flag = devil_island }
@@ -589,8 +559,8 @@ devil_island = {
 	}
 		
 	effect = {
-		FRA = { set_country_flag = devil_island }
-		BOR = { set_country_flag = devil_island }
+		FRC = { set_country_flag = devil_island }
+		LOT = { set_country_flag = devil_island }
 		treasury = -5000
 		prestige = 5
 		2241 = { life_rating = 1 }

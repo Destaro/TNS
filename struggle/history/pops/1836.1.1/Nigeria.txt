@@ -2378,3 +2378,156 @@
 	}
 
 }
+
+#Rano (888000/220000 POPS)
+3581 = {
+	aristocrats = {
+		culture = hausa
+		religion = punic_church
+		size = 2325
+	}
+
+	bureaucrats = {
+		culture = hausa
+		religion = punic_church
+		size = 125
+	}
+
+	officers = {
+		culture = hausa
+		religion = punic_church
+		size = 250
+	}
+
+	clergymen = {
+		culture = hausa
+		religion = punic_church
+		size = 1175
+	}
+
+	artisans = {
+		culture = hausa
+		religion = punic_church
+		size = 5850
+	}
+
+	soldiers = {
+		culture = hausa
+		religion = punic_church
+		size = 1175
+	}
+
+	farmers = {
+		culture = hausa
+		religion = punic_church
+		size = 106025
+	}
+
+	aristocrats = {
+		culture = hausa
+		religion = punic_church
+		size = 575
+	}
+
+	clergymen = {
+		culture = hausa
+		religion = punic_church
+		size = 300
+	}
+
+	artisans = {
+		culture = hausa
+		religion = punic_church
+		size = 1500
+	}
+
+	soldiers = {
+		culture = hausa
+		religion = punic_church
+		size = 300
+	}
+
+	farmers = {
+		culture = hausa
+		religion = punic_church
+		size = 27325
+	}
+
+	slaves = {
+		culture = hausa
+		religion = punic_church
+		size = 13000
+	}
+
+	aristocrats = {
+		culture = fulbe
+		religion = punic_church
+		size = 1325
+	}
+
+	bureaucrats = {
+		culture = fulbe
+		religion = punic_church
+		size = 150
+	}
+
+	officers = {
+		culture = fulbe
+		religion = punic_church
+		size = 450
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = punic_church
+		size = 675
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = punic_church
+		size = 2700
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = punic_church
+		size = 675
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = punic_church
+		size = 48025
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = punic_church
+		size = 100
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = punic_church
+		size = 50
+	}
+
+	artisans = {
+		culture = songhai
+		religion = punic_church
+		size = 300
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = punic_church
+		size = 75
+	}
+
+	farmers = {
+		culture = songhai
+		religion = punic_church
+		size = 5475
+	}
+}

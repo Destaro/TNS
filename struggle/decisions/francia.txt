@@ -213,8 +213,8 @@ reclaim_ocitania = {
  
  
  reconquer_the_incas = {
-  potential = {
-             
+       
+	   potential = {
 			tag = FRC
 			has_country_flag = demand_the_return_of_the_colonies
 			
@@ -224,25 +224,23 @@ reclaim_ocitania = {
                       }
 					  
 	    allow = {
-		ULA = { vassal_of = THIS }
 		GCO = { vassal_of = THIS }
 		LPL = { vassal_of = THIS }
 		 war = no
 		}
 		
 		effect = {
-	    badboy = 7
 		set_country_flag = reconquer_the_incas
 		war = {
 			target = VOP
-			attacker_goal = { casus_belli = acquire_any_state 
+			attacker_goal = { casus_belli = make_puppet
                                            			}
 			defender_goal = { casus_belli = status_quo }
 		}
-		}
+	}
  
+  }
  
- }
  ######## LOTHARINGIA QUEST TO UNITE CAROLINGIAN EMPIRE
   reclaim_burgundy = {
   potential = {

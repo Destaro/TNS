@@ -1,0 +1,446 @@
+political_decisions = {
+	
+	reclaim_the_levant = {
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = reclaim_the_levant }
+			}
+			
+		allow = { 
+			war = no
+			THIS = { all_core = { owned_by = THIS } }
+			ASY = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			}
+			
+		effect = {
+			set_country_flag = reclaim_the_levant
+			prestige = 10
+			SYR = { all_core = { add_core = THIS } }
+			}
+	}
+
+	claim_the_armenians = {
+	
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = claim_the_armenians }
+			}
+			
+		allow = { 
+			has_country_flag = claim_assyria
+			ASY = { all_core = { owned_by = THIS }  }
+			KSK = { all_core = { owned_by = THIS }  }
+			state_n_government = 1
+			prestige = 50
+			war = no
+			}
+			
+		effect = {
+			set_country_flag = claim_the_armenians
+			prestige = 10
+			ARM = { all_core = { add_core = THIS } }
+			}
+		}
+
+		claim_assyria = {
+		
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = claim_assyria }
+			}
+		
+		allow = { 
+			KSK = { all_core = { owned_by = THIS } }  
+			war = no
+			owns = 3328
+			LBN = { all_core = { owned_by = THIS }  }
+			}
+		
+		effect = {
+			set_country_flag = claim_assyria
+			prestige = 5
+			ASY = { all_core = { add_core = THIS } }
+			}
+		}
+
+	reclaim_the_egypt = {
+		
+		potential = { 
+			has_country_flag = revenge_will_be_ours_ksk
+			tag = KSK 
+			NOT = { has_country_flag = reclaim_the_egypt }
+			}	
+			
+		allow = { 
+			owns = 1745
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			prestige = 100
+			war = no
+			LBN = { all_core = { owned_by = THIS } }
+			KSK = { all_core = { owned_by = THIS } }
+			SYR = { all_core = { owned_by = THIS } }
+			}
+  
+		 effect = {
+			set_country_flag = reclaim_the_egypt
+			prestige = 10
+			EGY = { all_core = { add_core = THIS } }
+			}
+		}
+
+	the_end_of_the_romans = {
+		
+		potential = {
+			has_country_flag = revenge_will_be_ours_ksk
+			tag = KSK 
+			NOT = { has_country_flag = the_end_of_the_romans }
+			NOT = { has_country_flag = accept_our_defeat_ksk }
+			has_country_flag = reclaim_the_levant
+			owns = 1745
+			owns = 902
+			owns = 1131
+			KSK = { all_core = { owned_by = THIS } }
+		}
+			   
+		allow = { 
+			war = no
+			EGY = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			owns = 860
+			owns = 834
+			owns = 852
+			owns = 807
+		}
+  
+		effect = {
+			set_country_flag = the_end_of_the_romans
+			prestige = 20
+			badboy = 15
+			BYZ = { all_core = { add_core = THIS } }
+			AOM = { all_core = { add_core = THIS } }
+		}
+	}
+
+	sail_to_the_aegean = {
+		
+		potential = {
+			has_country_flag = revenge_will_be_ours_ksk
+			tag = KSK 
+            NOT = { has_country_flag = sail_to_the_aegean}
+			has_country_flag = reclaim_the_levant
+		}	   
+		
+		allow = { 
+			war = no
+			is_greater_power = yes 
+			raider_group_doctrine = 1
+		} 
+		
+		effect = {
+			set_country_flag = sail_to_the_aegean
+			add_core = 848
+			add_core = 847
+        }
+	}
+	
+   look_to_the_south_ksk = {
+        
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = look_to_the_south_ksk }
+			owns = 3363
+			owns = 3324
+			owns = 3808
+			KSK = { all_core = { owned_by = THIS } }
+        }			   
+		
+		allow = { 	  
+			war = no
+			ASY = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			}
+  
+		
+		effect = {
+			set_country_flag = look_to_the_south_ksk
+			prestige = 5
+			JOR = { all_core = { add_core = THIS } }
+		}
+	}
+	
+	look_to_the_north_ksk = {
+		
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = look_to_the_north_ksk } 
+			ARM = { exists = no }        
+			KSK = { all_core = { owned_by = THIS } }
+        }	   
+		
+		allow = { 
+			war = no
+			ARM = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			ASY = { all_core = { owned_by = THIS } }
+			nationalism_n_imperialism = 1
+		}
+  
+		effect = {
+			set_country_flag = look_to_the_north_ksk
+			prestige = 5
+			badboy = 2
+			MIG = { all_core = { add_core = THIS } }
+			GEO = { all_core = { add_core = THIS } }
+			SHV = { all_core = { add_core = THIS } }
+		}
+	}
+
+	march_into_persia_ksk = {
+	
+        potential = {
+			PER = { ai = yes }		
+			tag = KSK 
+			has_country_flag = claim_the_armenians
+			has_country_flag = claim_assyria
+			NOT = { has_country_flag = march_into_persia_ksk }
+		     NOT = {	 exists = ARM 
+			             exists = ASY        }
+			KSK = { all_core = { owned_by = THIS } }
+         }
+		 
+		allow = { 
+			nationalism_n_imperialism = 1
+			war = no
+			ARM = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			ASY = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = march_into_persia_ksk
+			prestige = 10
+			add_core = 3436
+			add_core = 3438
+			add_core = 3439
+			add_core = 925
+			add_core = 927
+			add_core = 929
+			add_core = 3457
+			add_core = 928
+			add_core = 3457
+			add_core = 930
+			add_core = 934
+			add_core = 933
+			add_core = 911
+			add_core = 1158 
+			add_core = 935
+			add_core = 1158
+			add_core = 1131
+			add_core = 1132
+			add_core = 3383
+			add_core = 3455
+			add_core = 1133
+			add_core = 3806
+			add_core = 3437
+			add_core = 1111
+			add_core = 1118
+			add_core = 1117
+			add_core = 1119
+			add_core = 1120
+			add_core = 3389
+			add_core = 3454
+			add_core = 3422
+			add_core = 1132
+			add_core = 932
+			add_core = 1163
+			add_core = 926
+		}
+	}
+   integrate_our_iranian_brothers = {
+		potential = { 
+			tag = KSK 
+			NOT = { has_country_flag = integrate_our_iranian_brothers }        
+			has_country_flag = march_into_persia_ksk
+			war = no	                           
+			}   
+		allow = {
+			revolution_n_counterrevolution = 1	  
+			is_greater_power = yes
+			year = 1880
+			war = no
+			ARM = { all_core = { owned_by = THIS } }
+			LBN = { all_core = { owned_by = THIS } }
+			ASY = { all_core = { owned_by = THIS } }
+			owns = 925
+			owns = 928
+			owns = 911
+			owns = 3455
+			owns = 1119
+			owns = 3396
+			owns = 1148
+			owns = 1130
+			owns = 1140
+			owns = 1146
+			owns = 2640
+			owns = 3407
+			owns = 3404
+			owns = 3403
+			owns = 1213
+			owns = 1149
+			owns = 1217
+			owns = 1219
+			owns = 1127
+			}
+		effect = {
+			set_country_flag = integrate_our_iranian_brothers
+			prestige = 15
+			add_accepted_culture = old_persian
+			add_accepted_culture = parthian
+			}
+		}
+
+
+	revenge_will_be_ours_ksk = {
+		potential = { 
+			tag = KSK 
+			has_country_flag = march_into_persia_ksk
+			owns = 862
+			owns = 870
+			NOT = { has_country_flag = revenge_will_be_ours_ksk }
+			NOT = { has_country_flag = accept_our_defeat_ksk }
+			}        
+		allow = {
+			owns = 3437
+			owns = 3436
+			owns = 3438
+			owns = 930
+			owns = 935
+			owns = 1111
+			owns = 1117
+			owns = 3422
+			owns = 1168
+			owns = 3455
+			owns = 1132
+			owns = 933
+			owns = 1131
+			owns = 928
+			is_greater_power = yes
+			war = no
+			}
+		effect = {
+			set_country_flag = revenge_will_be_ours_ksk   
+			KSK = { country_event = 822001 }
+			}
+	}	
+
+	accept_our_defeat_ksk = {
+		potential = {
+			has_country_flag = march_into_persia_ksk		
+			tag = KSK 
+			NOT = { has_country_flag = accept_our_defeat_ksk }
+			NOT = { has_country_flag = revenge_will_be_ours_ksk }
+         }        
+		allow = {
+			owns = 3437
+			owns = 3436
+			owns = 3438
+			owns = 930
+			owns = 935
+			owns = 1111
+			owns = 1117
+			owns = 3422
+			owns = 1168
+			owns = 3455
+			owns = 1132
+			owns = 933
+			owns = 1131
+			owns = 928
+			is_greater_power = yes
+			war = no
+		}
+  
+		effect = {
+			set_country_flag = accept_our_defeat_ksk
+			KSK = { country_event = 822002 }
+		}
+	}
+
+	the_death_of_the_parvizids_ksk = {
+		potential = {
+			has_country_flag = accept_our_defeat_ksk
+			has_country_flag = march_into_persia_ksk
+			tag = KSK 
+			NOT = { has_country_flag = the_death_of_the_parvizids_ksk }
+			NOT = { has_country_flag = revenge_will_be_ours_ksk }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+			war = no
+			prestige = 130
+			owns = 925
+			owns = 926
+			owns = 932
+		}
+  
+		effect = {
+			set_country_flag = the_death_of_the_parvizids_ksk
+			PER = { all_core = { add_core = THIS }  }
+			badboy = 10
+		}
+	}
+
+	push_towards_india_ksk = {
+		potential = {
+			has_country_flag = 	the_death_of_the_parvizids_ksk
+			has_country_flag = march_into_persia_ksk
+			has_country_flag = to_the_east_of_iran
+			tag = KSK 
+			NOT = { has_country_flag = push_towards_india_ksk }
+			NOT = { has_country_flag = revenge_will_be_ours_ksk }
+         }        
+		allow = {   
+			is_greater_power = yes
+			war = no
+			JOD = { all_core = { owned_by = THIS  } }
+			SIN = { all_core = { owned_by = THIS  } }
+			owns = 1227
+		}
+		effect = {
+			badboy = 10
+			set_country_flag = push_towards_india_ksk
+			JOD = { all_core = { add_core = THIS  } }
+			SIN = { all_core = { add_core = THIS  } }
+			PNJ = { all_core = { add_core = THIS  } }
+		}
+	}
+
+	to_the_east_of_iran = {
+	
+		potential = {
+			KHR = { ai = yes }	
+			owns = 1127
+			has_country_flag = 	accept_our_defeat_ksk
+			has_country_flag = the_death_of_the_parvizids_ksk
+			tag = KSK 
+			NOT = { has_country_flag = to_the_east_of_iran }
+        }        
+		 
+		allow = {
+			revolution_n_counterrevolution = 1
+			is_greater_power = yes
+			war = no
+			PER = { all_core = { owned_by = THIS  } }
+		}
+  
+		effect = {
+			set_country_flag = to_the_east_of_iran
+			KHR = { all_core = { add_core = THIS } }
+			badboy = 5
+		}
+	}
+
+
+
+}

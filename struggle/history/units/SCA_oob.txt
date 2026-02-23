@@ -1,4 +1,26 @@
+SAF = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
 
+NDY = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+JOH = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+BRT = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
 
 BDB = {	
 	value = 125

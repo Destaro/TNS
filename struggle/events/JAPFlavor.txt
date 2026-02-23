@@ -1343,6 +1343,12 @@ country_event = {
 		clr_global_flag = boshin_war
 		set_global_flag = boshin_war_has_happened
 		prestige = 20
+		TKG = { all_core = { add_core = THIS } }
+		SAT = { all_core = { add_core = THIS } }
+		CHO = { all_core = { add_core = THIS } }
+		TOS = { all_core = { add_core = THIS } }
+		KAG = { all_core = { add_core = THIS } }
+		SEN = { all_core = { add_core = THIS } }
 		random_country = {
 			limit = {
 				tag = TKG

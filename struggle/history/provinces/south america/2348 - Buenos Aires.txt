@@ -1,7 +1,7 @@
 owner = LPL
 controller = LPL
 add_core = LPL
-add_core = SBA
+
 trade_goods = cattle
 life_rating = 35
 terrain = buenosaires

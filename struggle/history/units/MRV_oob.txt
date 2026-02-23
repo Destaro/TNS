@@ -5,6 +5,26 @@ SLV = {
 	influence_value = 0
 }
 
+
+SIE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+
+CRO = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+DLM = {	
+	value = 25
+	level = 5
+	influence_value = 0
+}
+
 FRE = {	
 	value = 125
 	level = 3

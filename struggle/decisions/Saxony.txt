@@ -238,11 +238,8 @@ political_decisions = {
         potential = {
 		is_greater_power = yes
 	 	exists = PRD
-	 	OR = {
-	    
 			tag = GER
-			          }
-          
+	
             NOT = { has_country_flag = march_east }
          is_vassal = no
 		 PRD = { is_vassal = no }
@@ -252,13 +249,14 @@ political_decisions = {
 		war = no
 		GER = { all_core = { owned_by = THIS } }
 		NOT = {
-		
-		PRD = { OR = { 
+		    PRD = {
+             	   OR = { 
 		           alliance_with = THIS 
 		           vassal_of = THIS  }
 				   }
 		        }
         }
+		
         effect = {
 		badboy = 5
         set_country_flag = march_east
@@ -326,10 +324,7 @@ political_decisions = {
 		state_n_government = 1
 		war = no
 		WES = { all_core = { owned_by = THIS } }
-		
-		owns = 691
-		owns = 701
-		owns = 694
+		owns = 699 
 		
 		                 }    
 		effect = {

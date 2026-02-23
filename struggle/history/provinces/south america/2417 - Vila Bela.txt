@@ -1,6 +1,6 @@
 owner = KRT
 controller = KRT
-add_core = KRT
+
 
 
 add_core = PRG

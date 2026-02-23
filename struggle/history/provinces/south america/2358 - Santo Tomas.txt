@@ -14,5 +14,5 @@ life_rating = 31
 	remove_core = ARC
 }
 
-add_core = KRT
+
 add_core = LPL

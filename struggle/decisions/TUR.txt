@@ -1,161 +1,10 @@
 political_decisions = {
 
-	tanzimat_reforms = {
-		potential = {
-			tag = TUR
-			NOT = { has_country_flag = tanzimat_reforms_enacted }
-			has_country_modifier = ottoman_oppression
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-		}
-		
-		allow = {
-			OR = {
-				AND = {
-					average_militancy = 5
-					average_consciousness = 6
-				}
-				nationalism_n_imperialism = 1
-			}
-		}
-		
-		effect = {
-			set_country_flag = tanzimat_reforms_enacted
-			set_country_flag = secularized_muslim_society
-			add_country_modifier = {  name = tanzimat_land_reform duration = 365 }
-			remove_country_modifier = ottoman_oppression
-			political_reform = open_borders
-			political_reform = unitary
-			political_reform = exploitation
-			random_owned = {
-				limit = { owner = { debt_law = serfdom } }
-				owner = { political_reform = peonage }
-			}
-			
-			random_owned = {
-				limit = { owner = { slavery = yes_slavery } }
-				owner = { political_reform = no_slavery }
-			}
-			
-			random_owned = {
-				limit = { owner = { slavery = freedom_of_womb } }
-				owner = { political_reform = no_slavery }
-			}
-			
-			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = mandatory_service } }
-			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = four_year_draft } }
-			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = two_year_draft } }
-			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
-			
-			
-			any_pop = {
-				limit = { is_primary_culture = no }
-				militancy = -3
-				consciousness = 2
-			}
-			any_pop = {
-				limit = { is_primary_culture = yes }
-				ideology = {
-					value = liberal
-					factor = 0.05
-				}
-				scaled_consciousness = {
-					ideology = liberal
-					factor = 3
-				}
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
 	
-	hatt_i_humayun = {
-		picture = kanun_i_esasi
-		potential = {
-			tag = TUR
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-			has_country_flag = tanzimat_reforms_enacted
-			NOT = {
-				has_country_flag = ottoman_constitution_refused
-				has_country_flag = enacted_ottomanism
-				has_country_flag = ottomans_to_turks
-			}
-		}
-		
-		allow = {
-			government = hms_government
-			revolution_n_counterrevolution = 1
-			NOT = { citizenship_policy = residency }
-			citizens_rights = all_voting_pops
-			OR = {
-				liberal = 30
-				socialist = 30
-				AND = {
-					liberal = 15
-					socialist = 15
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = enacted_ottomanism
-			random_owned = {
-				limit = {
-					owner = { any_owned_province = { is_core = ALB } }
-				}
-				owner = { add_accepted_culture = albanian }
-			}
-			random_owned = {
-				limit = {
-					owner = { any_owned_province = { is_core = BOS } }
-				}
-				owner = { add_accepted_culture = bosniak }
-			}
-			random_owned = {
-				limit = {
-					owner = { any_owned_province = { is_core = EGY } NOT = { has_global_flag = arab_nationalism_encouraged } }
-				}
-				owner = { add_accepted_culture = misri }
-			}
-			random_owned = {
-				limit = {
-					owner = { any_owned_province = { is_core = AZB } }
-				}
-				owner = { add_accepted_culture = azerbaijani }
-			}
-			random_owned = {
-				limit = {
-					owner = { any_owned_province = { is_core = PLS } NOT = { has_global_flag = arab_nationalism_encouraged } }
-				}
-				owner = { add_accepted_culture = mashriqi }
-			}
-			add_country_modifier = {
-				name = ottomanism_reform
-				duration = -1
-			}
-			any_pop = {
-				scaled_militancy = {
-					ideology = liberal
-					factor = -6
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	republican_reforms = {
 		potential = {
-			tag = TUR
+			tag = KSK
 			government = democracy
 			NOT = { has_country_flag = had_ataturk_reforms }
 		}
@@ -179,106 +28,45 @@ political_decisions = {
 		}
 	}
 	
-	greater_turkey = {
-		picture = "greater_turkey"
+	
+	
+	conquer_montenegro = {
+		picture = montenegro_map
 		potential = {
-			tag = TUR
-			government = fascist_dictatorship
-			has_country_flag = ottomans_to_turks
-			NOT = { has_country_flag = claimed_greater_turkey }
+			NOT = { has_country_flag = montenegro_claims }
+			tag = KSK
+			exists = BOS
+			owns = 860  
 		}
 		
 		allow = {
-			is_greater_power = yes
-			NOT = { average_militancy = 2 }
+	        OR = { owns = 860 AND = { owns = 796 }  }
+			nationalism_n_imperialism = 1
 		}
 		
 		effect = {
-			set_country_flag = claimed_greater_turkey
-			badboy = 10
-			EGY_897 = { add_core = TUR }
-			TUR_923 = { add_core = TUR }
-			RUS_1098 = { add_core = TUR }
-			RUS_1102 = { add_core = TUR }
-			1108 = { add_core = TUR }
-			1109 = { add_core = TUR }
-			1110 = { add_core = TUR }
-			1111 = { add_core = TUR }
-			1112 = { add_core = TUR }
-			1117 = { add_core = TUR }
-			1118 = { add_core = TUR }
-			1119 = { add_core = TUR }
-			any_country = {
-				limit = {
-					OR = {
-						owns = 897
-						owns = 923
-						owns = 1098
-						owns = 1102
-						owns = 1108
-						owns = 1117
-					}
-					NOT = { tag = THIS }
-				}
-				relation = { who = THIS value = -100 }
-				leave_alliance = THIS
+			badboy = 5
+			set_country_flag = montenegro_claims
+			relation = {
+				who = BOS
+				value = -400
 			}
-			any_pop = {
-				limit = { is_primary_culture = yes }
-				dominant_issue = {
-					factor = 0.10
-					value = jingoism
-				}
+			diplomatic_influence = {
+				who = BOS
+				value = -400
+			}
+			
+			casus_belli = {
+				target = BOS
+				type = conquest
+				months = 120
 			}
 		}
-		
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 1 
+			
+		}
 	}
-	
-	#conquer_montenegro = {
-	#	picture = montenegro_map
-	#	potential = {
-	#		NOT = { has_country_flag = montenegro_claims }
-	#		tag = TUR
-	#		exists = MON
-	#		NOT = { year = 1860 }
-	#	}
-	#	
-	#	allow = {
-	#		state_n_government = 1
-	#		war_policy = jingoism
-	#		NOT = { year = 1860 }
-	#	}
-	#	
-	#	effect = {
-	#		badboy = 5
-	#		set_country_flag = montenegro_claims
-	#		relation = {
-	#			who = MON
-	#			value = -400
-	#		}
-	#		diplomatic_influence = {
-	#			who = MON
-	#			value = -400
-	#		}
-	#		
-	#		casus_belli = {
-	#			target = MON
-	#			type = conquest
-	#			months = 120
-	#		}
-	#	}
-	#	ai_will_do = {
-	#		factor = 1 
-	#		modifier = {
-	#			factor = 0
-	#			NOT = {
-	#				has_country_flag = wallachia_annexed
-	#				has_country_flag = moldavia_annexed
-	#			}
-	#		}
-	#	}
-	#}
 	
 	
 		
@@ -468,94 +256,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 		}
 		
-	centralize_kurdish_states = {
-		picture = old_kurdistan_map
-		potential = {
-			tag = TUR
-			NOT = { has_country_flag = centralized_kurdish_states }
-			any_neighbor_country = { vassal_of = THIS primary_culture = kurdish }
-		}
-		
-		allow = {
-			OR = {
-				state_n_government = 1
-				has_country_flag = tanzimat_reforms_enacted
-			}
-			war = no
-		}
-		
-		effect = {
-			set_country_flag = centralized_kurdish_states
-			prestige = 5
-			any_country = { limit = { primary_culture = kurdish } relation = { who = THIS value = -400 } }
-			2414 = { change_province_name = "Cizre" }
-			892 = { change_province_name = "Hakkari" }
-			924 = { change_province_name = "Arbil" }
-			925 = { change_province_name = "Kirkuk" }
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = SRN
-					vassal_of = TUR
-					}
-				TUR = { release_vassal = SRN diplomatic_influence = { who = SRN value = -400 } }
-			}
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = BTL
-					vassal_of = TUR
-					}
-				TUR = { release_vassal = BTL diplomatic_influence = { who = BTL value = -400 } }
-			}
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = BHT
-					vassal_of = TUR
-					}
-				TUR = { release_vassal = BHT diplomatic_influence = { who = BHT value = -400 } }
-			}
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = BNB
-					vassal_of = TUR
-					}
-				TUR = { release_vassal = BNB diplomatic_influence = { who = BNB value = -400 } }
-			}
-			
-			random_country = {
-				limit = {
-					exists = yes
-					tag = BDN
-					vassal_of = TUR
-					}
-				TUR = { release_vassal = BDN diplomatic_influence = { who = BDN value = -400 } }
-			}
-			
-			any_country = {
-				limit = {
-					exists = yes
-					OR = {
-						tag = BDN
-						tag = BNB
-						tag = BTL
-						tag = SRN
-						tag = BHT
-					}
-				}
-			country_event = 986500
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-		}
-
+	
 	adopt_yazidi = {
 		picture = yazidi_symbol
 		potential = {
@@ -703,7 +404,7 @@ political_decisions = {
 	turkish_tea = {
 		picture = turkish_coffee_house
 		potential = {
-			tag = TUR
+			tag = KSK
 			NOT = { has_country_flag = turkish_tea_in_turkey }
 		}
 		
@@ -716,7 +417,7 @@ political_decisions = {
 			owns = 878
 			OR = {
 				year = 1915
-				organizational_development = 1
+				
 			}
 		}
 		
@@ -724,7 +425,7 @@ political_decisions = {
 			set_country_flag = turkish_tea_in_turkey
 			884 = { trade_goods = tea }
 			882 = { trade_goods = tea }
-			relation = { who = ENG value = -50 }
+			relation = { who = WHA value = -50 }
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -733,12 +434,12 @@ political_decisions = {
 	authorize_bulgarian_exarchate = {
 		picture = bulgarian_orthodox_church
 		potential = {
-			tag = TUR
+			tag = KSK
 			year = 1870
 			any_owned_province = {
-				is_core = BUL
+				is_core = ANT
 			}
-			NOT = { exists = BUL }
+			
 			NOT = { has_country_flag = bulgarian_exarchate }
 		}
 			
@@ -752,21 +453,13 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					location = { continent = europe }
-					has_pop_culture = bulgarian
-					has_pop_religion = orthodox
+					has_pop_culture = south_hungarian
 				}
 				militancy = -2
-			}
-				
-			any_pop = {
-				limit = {
-					location = { continent = europe }
-					NOT = { has_pop_culture = bulgarian }
-					has_pop_religion = orthodox
-					type = clergymen
-				}
 				consciousness = 1
 			}
+				
+			
 			set_country_flag = bulgarian_exarchate
 		}
 			
@@ -776,7 +469,7 @@ political_decisions = {
 	claim_bahrain = {
 		picture = bahrain_trade
 		potential = {
-			tag = TUR
+			tag = KSK
 			has_country_flag = qatar_protection
 			year = 1880
 			NOT = { has_country_flag = claimed_the_persian_gulf }
@@ -788,7 +481,7 @@ political_decisions = {
 
 		allow = {
 			war = no
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			is_greater_power = yes
 			OR = {
 				owns = 1164
@@ -808,7 +501,7 @@ political_decisions = {
 	claim_arab_coast = {
 		picture = nejd_sanjak
 		potential = {
-			tag = TUR
+			tag = KSK
 			NOT = { has_country_flag = claimed_arab_coast }
 			NOT = { 1163 = { is_core = THIS } }
 			NOT = { 1164 = { is_core = THIS } }
@@ -824,8 +517,8 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = claimed_arab_coast
-			badboy = 5
-			1163 = { add_core = THIS }
+			badboy = 1
+			1162 = { add_core = THIS }
 			1164 = { add_core = THIS }
 			}
 		ai_will_do = { factor = 1 }
@@ -834,7 +527,7 @@ political_decisions = {
 	revoke_kuwait_autonomy = {
 		picture = bahrain_trade
 		potential = {
-			tag = TUR
+			tag = KSK
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -867,7 +560,7 @@ political_decisions = {
 			set_country_flag = revoke_kuwait_autonomy
 			badboy = 2
 			relation = {
-				who = ENG
+				who = OMA
 				value = -200
 			}
 			any_greater_power = { limit = { NOT = { tag = ENG } capital_scope = { continent = europe } }
@@ -890,72 +583,11 @@ political_decisions = {
 		}
 	}
 	
-	revoke_samos_autonomy = {
-		picture = gtfo
-		potential = {
-			tag = TUR
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
-			NOT = { has_country_flag = revoke_samos_autonomy }
-			SAM = { 
-				OR = {
-					vassal_of = THIS
-					substate_of = THIS
-				}
-			}
-		}
-		
-		allow = {
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
-			war = no
-			has_recently_lost_war = no
-			is_greater_power = yes
-			mass_politics = 1
-			war_policy = jingoism
-			SAM = { 
-				in_sphere = THIS
-				OR = {
-					vassal_of = THIS
-					substate_of = THIS
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = revoke_samos_autonomy
-			badboy = 1
-			relation = {
-				who = GRE
-				value = -200
-			}
-			any_greater_power = { limit = { NOT = { tag = GRE } capital_scope = { continent = europe } }
-				relation = { who = THIS value = -25 }
-			}
-			inherit = SAM
-			SAM = {
-				all_core = {
-					secede_province = TUR
-				}
-			}
-		}
-		
-		ai_will_do = { 
-			factor = 1 
-			modifier = {
-				factor = 0
-				badboy = 0.5
-			}
-		}
-	}
+	
 	
 	release_albania = {
 		potential = {
-			tag = TUR
+			tag = KSK
 			owns = 849
 			is_greater_power = no
 			ai = yes

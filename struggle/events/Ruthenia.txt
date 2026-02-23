@@ -29,7 +29,6 @@ country_event = {
 			}		
 		}
 		BUL = { all_core = { add_core = THIS } }
-		badboy = 5
 		prestige = 30
 		set_global_flag = the_panslavic_dream
 		ai_chance = { factor = 0.8 }

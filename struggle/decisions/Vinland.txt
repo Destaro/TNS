@@ -114,11 +114,21 @@ form_vinland_federation = {
 					is_core = ULA
 				}
 				add_core = USA
-				remove_core = NEW
-				remove_core = VIN
-				remove_core = AVA
-				remove_core = ULA
-			          }			
+				
+			          }	
+
+            NEW = {
+				all_core = { remove_core = NEW }
+			}
+			VIN = {
+				all_core = { remove_core = VIN }
+			}			
+			AVA = {
+				all_core = { remove_core = AVA }
+			}
+			ULA = {
+				all_core = { remove_core = ULA }
+			}					  
 			
 		}
 		ai_will_do = {
@@ -298,16 +308,26 @@ form_vinland_federation = {
 			}
 			any_owned = {
 				limit = {
+				    is_core = NEW
 					is_core = VIN
 					is_core = AVA
 					is_core = ULA
 				}
-				add_core = THIS
-				remove_core = NEW
-				remove_core = VIN
-				remove_core = AVA
-				remove_core = ULA
+				add_core = CAN
+			}
+			 NEW = {
+				all_core = { remove_core = NEW }
+			}
+			VIN = {
+				all_core = { remove_core = VIN }
 			}			
+			AVA = {
+				all_core = { remove_core = AVA }
+			}
+			ULA = {
+				all_core = { remove_core = ULA }
+			}
+			
 			
 		}
 		
@@ -404,16 +424,27 @@ form_vinland_federation = {
 			}
 			any_owned = {
 				limit = {
+				    is_core = NEW
 					is_core = VIN
 					is_core = AVA
 					is_core = ULA
 				}
-				add_core = THIS
-				remove_core = NEW
-				remove_core = VIN
-				remove_core = AVA
-				remove_core = ULA
+				add_core = QUE
+			}
+			
+            NEW = {
+				all_core = { remove_core = NEW }
+			}
+			VIN = {
+				all_core = { remove_core = VIN }
 			}			
+			AVA = {
+				all_core = { remove_core = AVA }
+			}
+			ULA = {
+				all_core = { remove_core = ULA }
+			}			
+			
 			
 		}
 		ai_will_do = {
