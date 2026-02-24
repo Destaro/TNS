@@ -95,8 +95,8 @@ political_decisions = {
 	           
 			   potential = {
 			   tag = MRV		   
-			   NOT = { has_country_flag = restore_the_capital_rumena
-                       owns = 631			   }
+			   NOT = { capital = 631  }
+			   owns = 631
 			   }
 	      
 		  allow = {
