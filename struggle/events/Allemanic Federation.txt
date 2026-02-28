@@ -1,0 +1,143 @@
+#swabia annexes Romanda
+country_event = {
+
+	id = 544676
+	
+	major = yes
+
+	trigger = {
+		tag = BAD
+		year = 1840
+		war = no
+		exists = NCT
+		NCT = { alliance_with = THIS }
+		OR = { is_greater_power = yes
+               is_secondary_power = yes   }
+		NOT = {
+			exists = SGF
+			BAD = { relation = { who = NCT value = 0 } }
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+
+		
+	}
+
+	title = "EVTNAME544676"
+	desc = "EVTDESC544676"
+	picture = "Mozart"
+
+   #annex romanda
+	option = {
+		name = "EVTOPTA544676A" 
+			relation = {
+			who = BRG
+			value = -200 
+			
+		}
+		inherit = NCT
+				ai_chance = {
+			factor = 70
+		}
+		605 = { add_core = THIS }
+		607 = { add_core = THIS }
+		609 = { add_core = THIS }
+	}
+	#be a coward
+	option = {
+		name = "EVTOPTA544676B" 
+		badboy = -2
+
+			relation = {
+			 who = BRG
+			value = 200
+			}
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+
+
+#Allemanic federation annexes Trentino
+country_event = {
+
+	id = 544675
+
+	trigger = {
+		tag = SGF
+		war = no
+		exists = TST
+		OR = { is_greater_power = yes
+               is_secondary_power = yes   		}
+		NOT = {
+			SGF = { relation = { who = TST value = 0 } }
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+
+		
+	}
+
+	title = "EVTNAME544675"
+	desc = "EVTDESC544675"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544675A" 
+		set_global_flag = annexing_trentino
+		badboy = 7
+		any_country = { 
+		     limit = { is_culture_group = italian }
+		     relation = { who = THIS value = -100 }
+		     country_event = 544676
+		}
+		inherit = TST
+				ai_chance = {
+			factor = 70
+		}
+		treasury = 50000
+	}
+	
+	option = {
+		name = "EVTOPTA544675B" 
+		badboy = -2
+
+		
+				ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+#Allemanic annexes trentino news to italians
+country_event = {
+
+	id = 544676
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+ 
+ major = yes
+
+	title = "EVTNAME544676"
+	desc = "EVTDESC544676"
+	picture = "Mozart"
+
+	option = {
+		name = "EVTOPTA544676A" 
+		
+	}
+	
+}

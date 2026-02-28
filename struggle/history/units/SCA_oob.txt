@@ -16,6 +16,18 @@ JOH = {
 	influence_value = 0
 }
 
+KRN = {	
+	value = 25
+	level = 3
+	influence_value = 0
+}
+
+MAH {	
+	value = 0
+	level = 5
+	influence_value = 0
+}
+
 BRT = {	
 	value = 125
 	level = 5

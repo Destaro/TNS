@@ -3,14 +3,19 @@
 country_event = {
 
 	id = 544666
+	
+	major = yes
 
 	trigger = {
 		tag = BAD
 		year = 1852
 		war = no
 		exists = BAV
+		OR = { is_greater_power = yes
+               is_secondary_power = yes   		}
 		NOT = {
 			exists = SGF
+			BAD = { relation = { who = BAV value = 0 } }
 		}
 	}
 	

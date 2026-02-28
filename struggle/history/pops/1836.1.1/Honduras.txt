@@ -13,13 +13,13 @@
 	bureaucrats = {
 		culture = central_american
 		religion = catholic
-		size = 125
+		size = 525
 	}
 
 	officers = {
 		culture = central_american
 		religion = catholic
-		size = 100
+		size = 400
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -50,7 +50,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 40675
+		size = 80675
 		militancy = 5
 	}
 }
@@ -81,7 +81,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 225
+		size = 1225
 
 		militancy = 9
 		rebel_type = nationalist_rebels
@@ -90,7 +90,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 20850
+		size = 60850
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -108,7 +108,7 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 175
+		size = 575
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -116,13 +116,13 @@
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 850
+		size = 1850
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 175
+		size = 1175
 
 		militancy = 9
 		rebel_type = nationalist_rebels
@@ -131,7 +131,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 15375
+		size = 35375
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -141,7 +141,7 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 75
+		size = 175
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -149,7 +149,7 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 50
+		size = 350
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -157,13 +157,13 @@
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 150
+		size = 1150
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 25
+		size = 1025
 
 		militancy = 9
 		rebel_type = nationalist_rebels
@@ -172,7 +172,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 2700
+		size = 12700
 		militancy = 5
 	}
 

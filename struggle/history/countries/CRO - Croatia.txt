@@ -42,6 +42,7 @@ colonial_policy = no_colonies
 set_country_flag = catholic_country
 
 # Technologies
+flintlock_rifles = 1
 post_napoleonic_thought = 1
 bronze_muzzle_loaded_artillery = 1
 military_staff_system = 1

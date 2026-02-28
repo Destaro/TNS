@@ -21,6 +21,7 @@
 #Conflict with Burma 3
 
 #UK LR Normalization
+#Repurposed for TNS Prydain
 country_event = {
 	id = 99808
 	title = "EVTNAME33040"
@@ -28,7 +29,7 @@ country_event = {
 	picture = "big_ben_finished"
 
 	trigger = {
-		tag = ENG
+		OR = { tag = WHA tag = CEL }
 		is_greater_power = yes
 		OR = {
 			AND = {
@@ -61,8 +62,8 @@ country_event = {
 	
 	option = {
 		name = "EVT33040OPTA"
-		ENG = { all_core = { limit = { life_rating = 37 is_overseas = no NOT = { is_core = IRE } NOT = { province_id = 300 } } life_rating = -5 } }
-		ENG = { all_core = { limit = { life_rating = 35 is_overseas = no NOT = { is_core = IRE } } life_rating = -3 } }
+		THIS = { all_core = { limit = { life_rating = 37 is_overseas = no NOT = { is_core = ENG } NOT = { province_id = 300 } } life_rating = -5 } }
+		THIS = { all_core = { limit = { life_rating = 35 is_overseas = no NOT = { is_core = ENG } } life_rating = -3 } }
 		set_country_flag = lr_normalized_eng
 	}
 }
@@ -79,9 +80,9 @@ country_event = {
 	#news_desc_short = "EVTDESC99101_NEWS_SHORT"
 	
 	trigger = {
-		tag = ENG
+		tag = SCA
 		war_with = ZUL
-		2113 = { country_units_in_province = ENG }
+		2113 = { country_units_in_province = SCA }
 	}
 	
 	fire_only_once = yes	

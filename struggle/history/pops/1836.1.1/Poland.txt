@@ -1915,13 +1915,19 @@
 #Lodz (244000/61000 POPS) 
 712 = {
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 1500 
 	}
 
 	bureaucrats = {
 		culture = polish
+		religion = catholic
+		size = 225  
+	}
+	
+	bureaucrats = {
+		culture = croat
 		religion = catholic
 		size = 225  
 	}
@@ -1986,14 +1992,32 @@
 		size = 100
 	}
 	
+	clergymen = {
+		culture = croat
+		religion = jewish
+		size = 500
+	}
+	
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 100
 	}
+	
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 1100
+	}
 
 	artisans = {
 		culture = ashkenazi
+		religion = jewish
+		size = 2050  
+	}
+	
+	artisans = {
+		culture = croat
 		religion = jewish
 		size = 2050  
 	}
@@ -2002,6 +2026,12 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 3000 
+	}
+	
+	farmers = {
+		culture = croat
+		religion = jewish
+		size = 23000 
 	}
 }
 #Kalicz (252000/63000 POPS) 
@@ -2100,6 +2130,12 @@
 		religion = catholic
 		size = 1675
 	}
+	
+		aristocrats = {
+		culture = croat
+		religion = catholic
+		size = 1675
+	}
 
 	bureaucrats = {
 		culture = polish
@@ -2167,6 +2203,12 @@
 		size = 100
 	}
 	
+		clergymen = {
+		culture = croat
+		religion = jewish
+		size = 100
+	}
+	
 	aristocrats = {
 		culture = ashkenazi
 		religion = jewish
@@ -2178,9 +2220,21 @@
 		religion = jewish
 		size = 100
 	}
+	
+	officers = {
+		culture = croat
+		religion = jewish
+		size = 100
+	}
 
 	artisans = {
 		culture = ashkenazi
+		religion = jewish
+		size = 3600
+	}
+	
+	artisans = {
+		culture = croat
 		religion = jewish
 		size = 3600
 	}
@@ -2191,17 +2245,29 @@
 		size = 100
 	}
 
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 100
+	}
+
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 4250
+	}
+	
+	farmers = {
+		culture = croat
+		religion = jewish
+		size = 14250
 	}
 }
 #under the rule of Austria in 1836
 #Novy Sacz (596000/149000 POPS)
 704 = {
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 3450
 	}
@@ -2283,9 +2349,21 @@
 		religion = jewish
 		size = 125
 	}
+	
+	clergymen = {
+		culture = croat
+		religion = jewish
+		size = 525
+	}
 
 	artisans = {
 		culture = ashkenazi
+		religion = jewish
+		size = 4550
+	}
+	
+	artisans = {
+		culture = croat
 		religion = jewish
 		size = 4550
 	}
@@ -2295,17 +2373,29 @@
 		religion = jewish
 		size = 125
 	}
+	
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 125
+	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 8200
 	}
+	
+	farmers = {
+		culture = croat
+		religion = jewish
+		size = 48200
+	}
 }
 #Tarnow (616000/154000 POPS)
 714 = {
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 3500
 	}
@@ -2343,11 +2433,23 @@
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 70000
+		size = 35000
+	}
+	
+	serfs = {
+		culture = croat
+		religion = catholic
+		size = 35000
 	}
 	
 	clergymen = {
 		culture = ashkenazi
+		religion = jewish
+		size = 75
+	}
+	
+	clergymen = {
+		culture = croat
 		religion = jewish
 		size = 75
 	}
@@ -2357,24 +2459,36 @@
 		religion = jewish
 		size = 3600
 	}
+	
+	artisans = {
+		culture = croat
+		religion = jewish
+		size = 3600
+	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 75
 	}
+	
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 75
+	}
 
 	farmers = {
-		culture = ashkenazi
+		culture = croat
 		religion = jewish
-		size = 4250
+		size = 34250
 	}
 }
 #under the rule of Russia in 1836 (1368000)
 #Radom (444000/111000 POPS)
 713 = {
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 2525
 	}
@@ -2385,8 +2499,20 @@
 		size = 825
 	}
 	
+	bureaucrats = {
+		culture = croat
+		religion = catholic
+		size = 825
+	}
+	
 	soldiers = {
 		culture = polish
+		religion = catholic
+		size = 100
+	}
+	
+	soldiers = {
+		culture = croat
 		religion = catholic
 		size = 100
 	}
@@ -2396,9 +2522,21 @@
 		religion = catholic
 		size = 950
 	}
+	
+	clergymen = {
+		culture = croat
+		religion = catholic
+		size = 950
+	}
 
 	artisans = {
 		culture = polish
+		religion = catholic
+		size = 4900
+	}
+	
+	artisans = {
+		culture = croat
 		religion = catholic
 		size = 4900
 	}
@@ -2409,10 +2547,22 @@
 		size = 68600
 	}
 	
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 28600
+	}
+	
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 20000
+		size = 10000
+	}
+	
+	serfs = {
+		culture = croat
+		religion = catholic
+		size = 10000
 	}
 	
 	soldiers = {
@@ -2444,7 +2594,7 @@
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 2700
+		size = croat
 	}
 	
 	officers = {
@@ -2525,10 +2675,22 @@
 		size = 100
 	}
 	
+	aristocrats = {
+		culture = croat
+		religion = jewish
+		size = 100
+	}
+	
 	officers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 100
+	}
+	
+	officers = {
+		culture = croat
+		religion = jewish
+		size = 1100
 	}
 	
 	soldiers = {
@@ -2536,9 +2698,21 @@
 		religion = jewish
 		size = 100
 	}
+	
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 500
+	}
 
 	clergymen = {
 		culture = ashkenazi
+		religion = jewish
+		size = 125
+	}
+	
+	clergymen = {
+		culture = croat
 		religion = jewish
 		size = 125
 	}
@@ -2548,17 +2722,29 @@
 		religion = jewish
 		size = 4550
 	}
+	
+	artisans = {
+		culture = croat
+		religion = jewish
+		size = 4550
+	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 8325
 	}
+	
+	farmers = {
+		culture = croat
+		religion = jewish
+		size = 38325
+	}
 }
 #Kielce (448000/112000 POPS)
 716 = {
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 2550
 	}
@@ -2584,17 +2770,35 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 49600
+		size = 29600
+	}
+	
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 29600
 	}
 	
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 40000
+		size = 20000
+	}
+	
+	serfs = {
+		culture = croat
+		religion = catholic
+		size = 20000
 	}
 	
 	soldiers = {
 		culture = polish
+		religion = protestant
+		size = 125
+	}
+	
+	soldiers = {
+		culture = croat
 		religion = protestant
 		size = 125
 	}
@@ -2604,11 +2808,23 @@
 		religion = protestant
 		size = 100
 	}
+	
+	clergymen = {
+		culture = croat
+		religion = protestant
+		size = 100
+	}
 
 	artisans = {
 		culture = polish
 		religion = protestant
 		size = 400
+	}
+	
+	artisans = {
+		culture = croat
+		religion = protestant
+		size = 1400
 	}
 
 	farmers = {
@@ -2670,7 +2886,7 @@
 	}
 
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 3400
 	}
@@ -2708,7 +2924,13 @@
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 50000
+		size = 25000
+	}
+	
+	serfs = {
+		culture = croat
+		religion = catholic
+		size = 25000
 	}
 
 	clergymen = {
@@ -2716,9 +2938,21 @@
 		religion = jewish
 		size = 125
 	}
+	
+	clergymen = {
+		culture = croat
+		religion = jewish
+		size = 525
+	}
 
 	artisans = {
 		culture = ashkenazi
+		religion = jewish
+		size = 4550
+	}
+	
+	artisans = {
+		culture = croat
 		religion = jewish
 		size = 4550
 	}
@@ -2728,10 +2962,20 @@
 		religion = jewish
 		size = 100
 	}
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 1100
+	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
+		size = 8225
+	}
+	farmers = {
+		culture = croat
+		religion = protestant
 		size = 8225
 	}
 }
@@ -2762,7 +3006,7 @@
 	}
 
 	aristocrats = {
-		culture = polish
+		culture = croat
 		religion = catholic
 		size = 3400
 	}
@@ -2800,11 +3044,22 @@
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 50000
+		size = 25000
+	}
+	
+	serfs = {
+		culture = croat
+		religion = catholic
+		size = 25000
 	}
 
 	clergymen = {
 		culture = ashkenazi
+		religion = jewish
+		size = 125
+	}
+		clergymen = {
+		culture = croat
 		religion = jewish
 		size = 125
 	}
@@ -2814,7 +3069,17 @@
 		religion = jewish
 		size = 4550
 	}
+	artisans = {
+		culture = croat
+		religion = jewish
+		size = 4550
+	}
 
+	soldiers = {
+		culture = croat
+		religion = jewish
+		size = 1001
+	}
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
@@ -2823,6 +3088,11 @@
 
 	farmers = {
 		culture = ashkenazi
+		religion = jewish
+		size = 8225
+	}
+	farmers = {
+		culture = croat
 		religion = jewish
 		size = 8225
 	}

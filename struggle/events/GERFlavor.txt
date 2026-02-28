@@ -256,6 +256,7 @@ country_event = {
 
 }
 
+#Repurposed for TNS Germany
 country_event = {
 
 	id = 33005
@@ -271,7 +272,7 @@ country_event = {
 		}
 		year = 1903
 		is_greater_power = yes
-		TUR = {
+		KSK = {
 			war = no
 			owns = 926 #Baghdad
 			is_vassal = no
@@ -281,15 +282,15 @@ country_event = {
 				government = hms_government
 			}
 			NOT = {
-				alliance_with = ENG
-				alliance_with = FRA
-				alliance_with = BOR
-				alliance_with = RUS
+				alliance_with = WHA
+				alliance_with = FRC
+				alliance_with = LOT
+				alliance_with = RUT
 			}
 		}
 		NOT = {
 			year = 1910
-			alliance_with = TUR
+			alliance_with = KSK
 			has_global_flag = BerlinBaghdadRail
 		}
 	
@@ -321,17 +322,17 @@ country_event = {
 		prestige = 10
 		treasury = 20000
 		set_global_flag = BerlinBaghdadRail
-		relation = { who = TUR value = 100 }
-		relation = { who = ENG value = -75 }
-		relation = { who = RUS value = -75 }
+		relation = { who = KSK value = 100 }
+		relation = { who = WHA value = -75 }
+		relation = { who = RUT value = -75 }
 		ai_chance = { factor = 100 }
 	}
 
 	option = {
 		name = "EVTOPTB33005" 
-		relation = { who = TUR value = -50 }
-		relation = { who = ENG value = 75 }
-		relation = { who = RUS value = 75 }
+		relation = { who = KSK value = -50 }
+		relation = { who = WHA value = 75 }
+		relation = { who = RUT value = 75 }
 		officers = {
 			consciousness = 2
 			}

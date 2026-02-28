@@ -725,7 +725,7 @@
 	}
 
 	soldiers = {
-		culture = manchu
+		culture = korean
 		religion = mahayana
 		size = 13000
 	}
@@ -797,13 +797,13 @@
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = korean
 		religion = mahayana
 		size = 1325
 	}
 	
 	farmers = {
-		culture = beifaren
+		culture = korean
 		religion = mahayana
 		size = 65100
 	}
@@ -912,6 +912,12 @@
 		culture = manchu
 		religion = mahayana
 		size = 13700
+	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 33700
 	}
 
 	aristocrats = {

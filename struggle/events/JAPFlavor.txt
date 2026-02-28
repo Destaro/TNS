@@ -3285,6 +3285,7 @@ country_event = {
 	    year = 1842
 	    war = no
 		OR = { tag = KOR tag = JAP }
+		exists = PHL
 	}
 	
 	mean_time_to_happen = {

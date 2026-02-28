@@ -14,47 +14,33 @@ political_decisions = {
                       }
 					  
 	    allow = {
-		451 = { owned_by = THIS }
+		owns = 454
+		state_n_government = 1
 		 war = no
-		 nationalism_n_imperialism = 1
 		}
 		
 		effect = {
-		prestige = 15
-		431 = { add_core = THIS }
-		433 = { add_core = THIS }
-		451 = { add_core = THIS }
-		452 = { add_core = THIS }
-		453 = { add_core = THIS }
+		prestige = 20
+		badboy = 5
+		BRG = { 
+		 all_core = { 
+		    limit = { 
+			 NOT = { 
+             province_id = 433
+             province_id = 432
+             province_id = 3553
+             province_id = 3551
+             province_id = 609
+             province_id = 607
+             province_id = 605
+             province_id = 604 
+			 } 
+		   }
+		   add_core = THIS   
+		   }
+		}
+		
 		set_country_flag = claim_burgundy
-		
-		}
-       
- 
- }
- 
- claim_savoy = {
- potential = {
-             
-			tag = OCC
-			
-			
-         NOT = {
-            has_country_flag = claim_savoy
-		 }
-                      }
-					  
-	    allow = {
-		720 = { owned_by = THIS }
-		nationalism_n_imperialism = 1
-		 war = no
-		}
-		
-		effect = {
-		prestige = 10
-		badboy = 2
-		BRG = { all_core = { add_core = THIS } }
-		set_country_flag = claim_savoy
 		
 		}
        
@@ -73,14 +59,14 @@ political_decisions = {
                       }
 					  
 	    allow = {
-		498 = { owned_by = THIS }
-		nationalism_n_imperialism = 1
+		463 = { owned_by = THIS }
+		state_n_government = 1
 		 war = no
 		}
 		
 		effect = {
 		prestige = 10
-		badboy = 2
+		badboy = 5
 		VND = { all_core = { add_core = THIS } }
 		set_country_flag = claim_vandalica
 		
@@ -101,14 +87,15 @@ political_decisions = {
                       }
 					  
 	    allow = {
-		492 = { owned_by = THIS }
+		owns = 3850
+		owns = 460
 		nationalism_n_imperialism = 1
 		 war = no
 		}
 		
 		effect = {
 		prestige = 10
-		badboy = 2
+		badboy = 5
 		BSQ = { all_core = { add_core = THIS } }
 		set_country_flag = claim_the_basques
 		
@@ -118,28 +105,30 @@ political_decisions = {
  }
   
   embrace_the_arpitans_occ = {
- potential = {
-             
-			tag = OCC
-			
-			
-         NOT = {
+      potential = {
+            has_country_flag = claim_burgundy
+		    tag = OCC
+            NOT = {
             has_country_flag = embrace_the_arpitans_occ
 		 }
                       }
 					  
 	    allow = {
-		NCT = { all_core = { owned_by = THIS } }
-		state_n_government = 1
-		 war = no
+		  owns = 451
+		  owns = 608
+		  state_n_government = 1
+		  war = no
 		}
 		
 		effect = {
 		prestige = 5
-		badboy = 1
 		add_accepted_culture = arpitan
 		set_country_flag = embrace_the_arpitans_occ
 		NCT = { all_core = { add_core = THIS } }
+		432 = { add_core = THIS }
+		3551 = { add_core = THIS }
+		3553 = { add_core = THIS }
+		604 = { add_core = THIS }
 		}
        
  

@@ -1,19 +1,21 @@
 political_decisions = {
 
 
-claim_pannonian_lands = {
-potential = {
-  tag = SIE
-  NOT = {
-  exists = PNN
-  has_country_flag = claim_pannonian_lands      
+    claim_pannonian_lands = {
+           potential = {
+             tag = SIE
+             NOT = {
+             exists = PNN
+             has_country_flag = claim_pannonian_lands      
 			                               }
-  }
-allow = {
+          }
+    
+	  allow = {
         war = no
 		SIE = { all_core = { owned_by = THIS } }
       		}
-effect = { 
+
+     effect = { 
          set_country_flag = claim_pannonian_lands
 		 PNN = { all_core = { add_core = THIS } }
 		 change_tag = PNN
@@ -23,8 +25,9 @@ effect = {
 	 
 	  become_the_danubian_something_transilvania = {
 		 potential = { 
-		               tag = PNN 
-            NOT = { has_country_flag = become_the_danubian_something_transilvania }					   
+		             OR = {  tag = PNN tag = SIE  }
+            NOT = { has_country_flag = become_the_danubian_something_transilvania }	
+                   owns = 623			
 		                                    }
 		 allow = {
             is_greater_power = yes
@@ -61,11 +64,14 @@ effect = {
 					  change_tag = DNB
 					  add_accepted_culture = albanian
 					  add_accepted_culture = aromanian
-					  ROM = { all_core = { add_core = THIS } }
+					  AOM = { all_core = { add_core = THIS } }
 					  ALB = { all_core = { add_core = THIS } }
-					  WAL = { all_core = { add_core = THIS } }
-					  MOL = { all_core = { add_core = THIS } }
-					  EPI = { all_core = { add_core = THIS } }
+					  DLM = { all_core = { add_core = THIS } }
+					  AUS = { all_core = { add_core = THIS } }
+					  678 = { add_core = THIS }
+					  676 = { add_core = THIS }
+					  969 = { add_core = THIS }
+					  968 = { add_core = THIS }
 					  
 					  }
 		 

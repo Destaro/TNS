@@ -1,4 +1,6 @@
-#Contributed by Sharp_Espeon
+
+#Originally contributed by Sharp_Espeon on HFM
+#Repurposed for TNS Ruthenia
 country_event = {
     id = 24600
     title = "EVTNAME24600"
@@ -7,7 +9,7 @@ country_event = {
     fire_only_once = yes
     
     trigger = {
-        tag = RUS
+        tag = RUT
         year = 1880
     }
     
@@ -24,12 +26,9 @@ country_event = {
         name = "EVTOPTB24600" #Truly, we have far surpassed the French.
         prestige = 15
 		random_owned = {
-			limit = { exists = FRA }
-			FRA = { prestige = -10 }
+			limit = { exists = FRC }
+			FRC = { prestige = -10 }
 		}	
-		random_owned = {
-			limit = { exists = BOR }
-			BOR = { prestige = -10 }
-		}	
+			
     }
 }

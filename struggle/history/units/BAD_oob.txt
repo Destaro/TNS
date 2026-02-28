@@ -45,7 +45,7 @@ leader = {
 
 army = {
 	name = "1. Division"
-	location = 589
+	location = 592
 	regiment = {
 		name = "1. Reiter-Regiment König Karl" #Anachronistic by 30 years
 		type = cavalry
@@ -59,18 +59,18 @@ army = {
 	regiment = {
 		name = "2. Infanterie-Regiment"
 		type = infantry
-		home = 589
+		home = 593
 	}
 	
 	{
 		name = "3. Infanterie-Regiment Königin Olga" #Anachronistic by 30 years
 		type = infantry
-		home = 589
+		home = 603
 	}
 	regiment = {
 		name = "1. Artilery-Regiment"
 		type = artillery
-		home = 589
+		home = 593
 	}
 }
 
@@ -78,29 +78,29 @@ army = {
 
 army = {
 	name = "Badische Armee"
-	location = 586
+	location = 587
 	
 	regiment = {
 		name = "1. Badische Infanterie-Brigade"
 		type = infantry
-		home = 3677
+		home = 603
 	}
 	
 	regiment = {
 		name = "2. Badische Infanterie-Brigade"
 		type = infantry
-		home = 603
+		home = 594
 	}
 	
 	regiment = {
 		name = "7. Infanterie-Regiment"
 		type = infantry
-		home = 603
+		home = 592
 	}
 	regiment = {
 		name = "1. Bataillon FußArtillerie"
 		type = artillery
-		home = 594
+		home = 3677
 	}
 }
 

@@ -169,148 +169,147 @@ political_decisions = {
 	}
 	
 
-	clean_up_fra_vassal = {
-		picture = become_wallonia
-		potential = {
-			government = french_bourbon
-			NOT = { tag = FRA tag = BOR }
-			NOT = { has_country_flag = french_bourbon_fixed }
-		}
-		
-		allow = {
-			exists = yes
-		}
-		
-		effect = {
-			set_country_flag = french_bourbon_fixed
-			government = hms_government
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#clean_up_fra_vassal = {
+	#	picture = become_wallonia
+	#	potential = {
+	#		government = french_bourbon
+	#		NOT = { tag = FRA tag = BOR }
+	#		NOT = { has_country_flag = french_bourbon_fixed }
+	#	}
+	#	
+	#	allow = {
+	#		exists = yes
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = french_bourbon_fixed
+	#		government = hms_government
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	clean_up_fra_rhineland = {
-		picture = adolphe_thiers
-		potential = {
-			tag = RHI
-			RHI = { 
-				exists = yes
-				ai = yes
-				OR = { in_sphere = FRA in_sphere = BOR }
-				NOT = { vassal_of = FRA vassal_of = BOR }
-			}
-			NOT = { has_country_flag = rhine_vassal }
-		}
-		
-		allow = {
-			war = no
-			OR = { 
-				FRA = { truce_with = PRU has_country_modifier = rhine_crisis }
-				BOR = { truce_with = PRU has_country_modifier = rhine_crisis }
-			}
-			PRU = { has_recently_lost_war = yes }
-		}
-		
-		effect = {
-			set_country_flag = rhine_vassal
-			prestige = -50
-			any_owned = { limit = {  region = PRU_578 } secede_province = PRU }
-			571 = { add_core = RHI }
-			570 = { add_core = RHI }
-			random_country = {
-				limit = {
-					primary_culture = french
-					is_greater_power = yes
-					exists = yes
-				}
-				country_event = 99994
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#clean_up_fra_rhineland = {
+	#	picture = adolphe_thiers
+	#	potential = {
+	#		tag = RHI
+	#		RHI = { 
+	#			exists = yes
+	#			ai = yes
+	#			OR = { in_sphere = FRA in_sphere = BOR }
+	#			NOT = { vassal_of = FRA vassal_of = BOR }
+	#		}
+	#		NOT = { has_country_flag = rhine_vassal }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		OR = { 
+	#			FRA = { truce_with = PRU has_country_modifier = rhine_crisis }
+	#			BOR = { truce_with = PRU has_country_modifier = rhine_crisis }
+	#		}
+	#		PRU = { has_recently_lost_war = yes }
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = rhine_vassal
+	#		prestige = -50
+	#		any_owned = { limit = {  region = PRU_578 } secede_province = PRU }
+	#		571 = { add_core = RHI }
+	#		570 = { add_core = RHI }
+	#		random_country = {
+	#			limit = {
+	#				primary_culture = french
+	#				is_greater_power = yes
+	#				exists = yes
+	#			}
+	#			country_event = 99994
+	#		}
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 
-	clean_up_france_lost_rhine_crisis = {
-		picture = adolphe_thiers
-		potential = {
-			ai = yes
-			NOT = { has_global_flag = clean_up_france_lost_rhine_crisis }
-			OR = { 
-				FRA = { truce_with = PRU has_country_modifier = rhine_crisis }
-				BOR = { truce_with = PRU has_country_modifier = rhine_crisis }
-			}
-			575 = { OR = {owned_by = PRU owned_by = NGF owned_by = GER owned_by = GCF owned_by = AUS owned_by = SGF } }
-			PRU = { is_disarmed = no }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			set_global_flag = clean_up_france_lost_rhine_crisis
-			random_country = {
-				limit = {
-					primary_culture = french
-					is_greater_power = yes
-					exists = yes
-				}
-				country_event = 99993
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+	#clean_up_france_lost_rhine_crisis = {
+	#	picture = adolphe_thiers
+	#	potential = {
+	#		ai = yes
+	#		NOT = { has_global_flag = clean_up_france_lost_rhine_crisis }
+	#		OR = { 
+	#			FRA = { truce_with = PRU has_country_modifier = rhine_crisis }
+	#			BOR = { truce_with = PRU has_country_modifier = rhine_crisis }
+	#		}
+	#		575 = { OR = {owned_by = PRU owned_by = NGF owned_by = GER owned_by = GCF owned_by = AUS owned_by = SGF } }
+	#		PRU = { is_disarmed = no }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		set_global_flag = clean_up_france_lost_rhine_crisis
+	#		random_country = {
+	#			limit = {
+	#				primary_culture = french
+	#				is_greater_power = yes
+	#				exists = yes
+	#			}
+	#			country_event = 99993
+	#		}
+	#	}
+	#	
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	take_the_channel_islands = {
-		picture = channel_islands
-		potential = {
-			OR = {
-				419 = { owner = { war_with = THIS } }
-				419 = { owner = { truce_with = THIS } }
-			}
-			NOT = { owns = 419 }
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			419 = { NOT = { is_core = THIS } }
-		}
-		
-		allow = {
-			war = no
-			is_vassal = no
-			is_greater_power = yes 
-			NOT = { is_disarmed = yes }
-			NOT = { has_recently_lost_war = yes }
-			owns = 418
-			war_policy = jingoism
-			419 = { owner = { is_disarmed = yes truce_with = THIS war = no NOT = { military_score = THIS } } }
-		}
-		
-		effect = {
-			badboy = 1
-			419 = { secede_province = THIS }
-			419 = { add_core = THIS }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = { factor = 0 badboy = 0.8 }
-		}
-	}
+	#take_the_channel_islands = {
+	#	picture = channel_islands
+	#	potential = {
+	#		OR = {
+	#			419 = { owner = { war_with = THIS } }
+	#			419 = { owner = { truce_with = THIS } }
+	#		}
+	#		NOT = { owns = 419 }
+	#		primary_culture = french
+	#		is_greater_power = yes
+	#		capital = 425
+	#		419 = { NOT = { is_core = THIS } }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		is_vassal = no
+	#		is_greater_power = yes 
+	#		NOT = { is_disarmed = yes }
+	#		NOT = { has_recently_lost_war = yes }
+	#		owns = 418
+	#		war_policy = jingoism
+	#		419 = { owner = { is_disarmed = yes truce_with = THIS war = no NOT = { military_score = THIS } } }
+	#	}
+	#	
+	#	effect = {
+	#		badboy = 1
+	#		419 = { secede_province = THIS }
+	#		419 = { add_core = THIS }
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = { factor = 0 badboy = 0.8 }
+	#	}
+	#}
 	
 	annex_rhineland = {
 	picture = rhineland
 		potential = {
-			primary_culture = french
+			tag FRC
 			is_greater_power = yes
-			capital = 425
-			RHI = { exists = yes vassal_of = THIS }
+			BAD = { exists = yes vassal_of = THIS }
 			has_recently_lost_war = no
 			NOT = { has_country_flag = annexed_rhineland }
 		}
 		
 		allow = {
-			war = no		
-			owns = 412
+			war = no	
+			FRC = { all_core = { owned_by = THIS } }
 			revolution_n_counterrevolution = 1
 			is_greater_power = yes
 			OR = {
@@ -323,11 +322,10 @@ political_decisions = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = annexed_rhineland }
-			BOR = { set_country_flag = annexed_rhineland }
+			FRC = { set_country_flag = annexed_rhineland }
 			prestige = 25
 			badboy = 8
-			inherit = RHI
+			inherit = BAD
 		}
 		
 		ai_will_do = { 
@@ -336,32 +334,21 @@ political_decisions = {
 		}
 	}
 	
+	#Repurposed for TNS Francia
 	reclaim_alsace = {
 	picture = black_stain
 		alert = no
 		potential = {
-			primary_culture = french
+			OR = { tag = FRC tag = LOT }
 			is_greater_power = yes
-			capital = 425
 			is_disarmed = no
-			OR = {
-				has_global_flag = franco_prussian_memorial
-				has_global_flag = franco_prussian_memorial2
-			}
-			NOT = { owns = 412 }
+			
+			NOT = { owns = 409 }
 			NOT = { has_country_flag = black_stain }
 		}
 		
 		allow = {
-			OR = {
-				AND = {
-					year = 1905
-					OR = {
-						alliance_with = ENG
-						alliance_with = RUS
-						alliance_with = ITA
-					}
-				}
+			war = no
 				GER = {
 					exists = yes
 					OR = {
@@ -372,26 +359,17 @@ political_decisions = {
 						}
 					}
 				}
-				GCF = {
-					exists = yes
-					OR = {
-						is_disarmed = yes
-						AND = {
-							has_recently_lost_war = yes
-							war_exhaustion = 10
-						}
-					}
-				}
+				
 				ai = no
-			}
+			
 		}
 		
 		effect = {
-			FRA = { set_country_flag = black_stain }
-			BOR = { set_country_flag = black_stain }
+			FRC = { set_country_flag = black_stain }
+			LOT = { set_country_flag = black_stain }
 			prestige = 10
 			any_pop = {
-				limit = { is_culture_group = french }
+				limit = { is_culture_group = frankish }
 				militancy = -2
 			}
 		}
@@ -399,171 +377,171 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	the_treaty_of_milan = {
-	picture = establish_panfrenchism
-		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			ITA = {
-				exists = yes
-				NOT = { war_with = THIS }
-				owns = 744 #Florence
-			}
-			owns = 465 #Annecy
-			owns = 721 #Aosta
-			NOT = { has_global_flag = the_treaty_of_milan }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			set_global_flag = the_treaty_of_milan
-			prestige = 5
-			badboy = 3
-			721 = { remove_core = ITA }
-			465 = { remove_core = ITA }
-			466 = { remove_core = ITA }
-			472 = { remove_core = ITA }
-			any_owned = {
-				limit = { is_core = ITA  }
-				secede_province = ITA
-			}
-		}
-		
-		ai_will_do = { 
-			factor = 1 
-			modifier = { factor = 0 badboy = 0.8 }
-		}
-	}
+	#the_treaty_of_milan = {
+	#picture = establish_panfrenchism
+	#	potential = {
+	#		primary_culture = french
+	#		is_greater_power = yes
+	#		capital = 425
+	#		ITA = {
+	#			exists = yes
+	#			NOT = { war_with = THIS }
+	#			owns = 744 #Florence
+	#		}
+	#		owns = 465 #Annecy
+	#		owns = 721 #Aosta
+	#		NOT = { has_global_flag = the_treaty_of_milan }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#	}
+	#	
+	#	effect = {
+	#		set_global_flag = the_treaty_of_milan
+	#		prestige = 5
+	#		badboy = 3
+	#		721 = { remove_core = ITA }
+	#		465 = { remove_core = ITA }
+	#		466 = { remove_core = ITA }
+	#		472 = { remove_core = ITA }
+	#		any_owned = {
+	#			limit = { is_core = ITA  }
+	#			secede_province = ITA
+	#		}
+	#	}
+	#	
+	#	ai_will_do = { 
+	#		factor = 1 
+	#		modifier = { factor = 0 badboy = 0.8 }
+	#	}
+	#}
 
-	the_roman_question = {
-	picture = the_roman_question
-		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			has_country_flag = 2nd_empire
-			has_country_modifier = louis_napoleon_iii
-			ITA = {
-				ai = yes
-				exists = yes
-				owns = 750 #Viterbo
-				NOT = { owns = 749 } #Rome
-			}
-			PAP = {
-				government = theocracy
-				ai = yes
-				exists = yes
-				owns = 749
-				NOT = { owns = 743 }
-				NOT = { owns = 750 }
-				NOT = { war_with = THIS }
-			}
-			NOT = { has_country_flag = the_roman_question }
-		}
-		
-		allow = {
-			NOT = { any_greater_power = { war_with = THIS } }
-			NOT = { war_with = ITA }
-			is_greater_power = yes
-		}
-		
-		effect = {
-			FRA = { set_country_flag = the_roman_question }
-			BOR = { set_country_flag = the_roman_question }
-			prestige = 5
-			badboy = 1
-			create_vassal = PAP	
-			PAP = { government = theocracy }
-			diplomatic_influence = {
-				who = PAP
-				value = 400
-			}
-			relation = {
-				who = ITA
-				value = -50
-			}	
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+	#the_roman_question = {
+	#picture = the_roman_question
+	#	potential = {
+	#		primary_culture = french
+	#		is_greater_power = yes
+	#		capital = 425
+	#		has_country_flag = 2nd_empire
+	#		has_country_modifier = louis_napoleon_iii
+	#		ITA = {
+	#			ai = yes
+	#			exists = yes
+	#			owns = 750 #Viterbo
+	#			NOT = { owns = 749 } #Rome
+	#		}
+	#		PAP = {
+	#			government = theocracy
+	#			ai = yes
+	#			exists = yes
+	#			owns = 749
+	#			NOT = { owns = 743 }
+	#			NOT = { owns = 750 }
+	#			NOT = { war_with = THIS }
+	#		}
+	#		NOT = { has_country_flag = the_roman_question }
+	#	}
+	#	
+	#	allow = {
+	#		NOT = { any_greater_power = { war_with = THIS } }
+	#		NOT = { war_with = ITA }
+	#		is_greater_power = yes
+	#	}
+	#	
+	#	effect = {
+	#		FRA = { set_country_flag = the_roman_question }
+	#		BOR = { set_country_flag = the_roman_question }
+	#		prestige = 5
+	#		badboy = 1
+	#		create_vassal = PAP	
+	#		PAP = { government = theocracy }
+	#		diplomatic_influence = {
+	#			who = PAP
+	#			value = 400
+	#		}
+	#		relation = {
+	#			who = ITA
+	#			value = -50
+	#		}	
+	#	}
+	#	
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	switch_bor_back_to_fra = {
-		potential = {
-			ai = yes
-			NOT = { neighbour = BOR }
-			BOR = {
-				NOT = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
-					government = hms_government
-				}
-			}
-		}
-		allow = { ai = yes }
-		effect = { BOR = { all_core = { add_core = FRA remove_core = BOR } change_tag = FRA } }
-		
-		ai_will_do = { factor = 1 }
-	}
+	#switch_bor_back_to_fra = {
+	#	potential = {
+	#		ai = yes
+	#		NOT = { neighbour = BOR }
+	#		BOR = {
+	#			NOT = {
+	#				government = absolute_monarchy
+	#				government = prussian_constitutionalism
+	#				government = hms_government
+	#			}
+	#		}
+	#	}
+	#	allow = { ai = yes }
+	#	effect = { BOR = { all_core = { add_core = FRA remove_core = BOR } change_tag = FRA } }
+	#	
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	remove_any_french_cores = {
-		potential = {
-			ai = yes
-			OR = {
-				any_owned_province = { is_core = BOR }
-				any_owned_province = { is_core = FRA }
-				primary_culture = french
-				neighbour = FRA
-				neighbour = BOR
-			}
-		}
-		allow = {
-			OR = {
-				AND = {
-					FRA = { exists = yes }
-					BOR = { exists = no }
-					OR = {
-						any_owned_province = { is_core = BOR }
-						FRA = { any_owned_province = { is_core = BOR } }
-					}
-				}
-				AND = {
-					BOR = { exists = yes }
-					FRA = { exists = no }
-					OR = {
-						any_owned_province = { is_core = FRA }
-						BOR = { any_owned_province = { is_core = FRA } }
-					}
-				}
-			}
-		}
-		
-		effect = {
-			random_owned = {
-				limit = { exists = FRA }
-				BOR = { all_core = { remove_core = BOR add_core = FRA } }
-			}
-			random_owned = {
-				limit = { exists = BOR }
-				FRA = { all_core = { remove_core = FRA add_core = BOR } }
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+	#remove_any_french_cores = {
+	#	potential = {
+	#		ai = yes
+	#		OR = {
+	#			any_owned_province = { is_core = BOR }
+	#			any_owned_province = { is_core = FRA }
+	#			primary_culture = french
+	#			neighbour = FRA
+	#			neighbour = BOR
+	#		}
+	#	}
+	#	allow = {
+	#		OR = {
+	#			AND = {
+	#				FRA = { exists = yes }
+	#				BOR = { exists = no }
+	#				OR = {
+	#					any_owned_province = { is_core = BOR }
+	#					FRA = { any_owned_province = { is_core = BOR } }
+	#				}
+	#			}
+	#			AND = {
+	#				BOR = { exists = yes }
+	#				FRA = { exists = no }
+	#				OR = {
+	#					any_owned_province = { is_core = FRA }
+	#					BOR = { any_owned_province = { is_core = FRA } }
+	#				}
+	#			}
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#		random_owned = {
+	#			limit = { exists = FRA }
+	#			BOR = { all_core = { remove_core = BOR add_core = FRA } }
+	#		}
+	#		random_owned = {
+	#			limit = { exists = BOR }
+	#			FRA = { all_core = { remove_core = FRA add_core = BOR } }
+	#		}
+	#	}
+	#	
+	#	ai_will_do = { factor = 1 }
+	#}
 	
+	#Repurposed for TNS Francia
 	jules_ferry_laws = {
 		picture = jules_ferry
 		potential = {
-			primary_culture = french
+			OR = { tag = FRC tag = LOT }
 			is_greater_power = yes
-			capital = 425
 			year = 1870
 			NOT = { school_reforms = good_schools}
-			NOT = { has_country_flag = enacted_french_schooling	 }
+			NOT = { has_country_flag = enacted_frankish_schooling	 }
 		}
 		
 		allow = {
@@ -575,8 +553,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = enacted_french_schooling }
-			BOR = { set_country_flag = enacted_french_schooling }
+			FRC = { set_country_flag = enacted_frankish_schooling }
+			LOT = { set_country_flag = enacted_frankish_schooling }
 			random_owned = {
 				limit = { owner = { school_reforms = acceptable_schools } }
 				owner = { social_reform = good_schools }
@@ -594,46 +572,35 @@ political_decisions = {
 		}
 	}
 	
+	#Repurposed for TNS multiple GPs
 	purchase_annam = {
 		picture = dreams_of_empire
 		potential = {
 			capital_scope = { continent = europe }
 			is_greater_power = yes
-			NOT = { has_country_flag = purchase_annam }
-			1375 = {
+			NOT = { has_country_flag = purchase_bhalwa}
+			3783 = {
 				owner = {
-					is_greater_power = yes
+					civilized = no
 					ai = yes
-					capital_scope = { continent = europe }
+					capital_scope = { continent = asia }
 				}
 			}
-			1369 = {
-				OR = {
-					owner = {
-						civilized = no
-						ai = yes
-					}
-					owned_by = THIS
-				}
-			}
-			owns = 1380
-			NOT = { owns = 1375 }
+		
+			
+			NOT = { owns = 3783 }
 		}
 		
 		allow = {
 			total_pops = 2000000
-			OR = {
-				money = 100000
-				ai = yes
-			}
+			money = 1000000
 			num_of_ports = 3
 			total_amount_of_ships = 35
-			NOT = { any_greater_power = { war_with = THIS } }
 			NOT = { war_exhaustion = 5 }
 		}
 		
 		effect = {
-			set_country_flag = purchase_annam
+			set_country_flag = purchase_bhalwa
 			random_country = {
 				limit = {
 					exists = yes
@@ -646,13 +613,12 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#Repurposed for TNS Francia
 	support_troupes_de_marine = {
 		picture = troupes_de_marine
 		potential = {
-			primary_culture = french
+			OR = { tag = FRC tag = LOT }
 			is_greater_power = yes
-			capital = 425
-			colonial_nation = yes
 			NOT = { has_country_modifier = troupes_de_marine }
 		}
 		

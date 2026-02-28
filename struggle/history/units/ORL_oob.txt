@@ -10,6 +10,12 @@ WLL = {
 	influence_value = 0
 }
 
+KRN = {	
+	value = 25
+	level = 3
+	influence_value = 0
+}
+
 NET = {	
 	value = -200
 	level = 0

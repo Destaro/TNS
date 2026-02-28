@@ -35,12 +35,16 @@ political_decisions = {
                  	}
 	allow = {
        war = no 
-       owns = 84
-       owns = 114
-       owns = 110
-       owns = 143 
-	   owns = 107
-         	         }
+       owns = 2483
+	   nationalism_n_imperialism = 1
+	   army_decision_making = 1
+	   military_score = 100
+	   OR = { 
+         is_greater_power = yes
+         is_secondary_power = yes
+ 	                                 }
+    }
+	
 	effect = { 
 	prestige = 10
 	set_country_flag = claim_the_northern_tigers

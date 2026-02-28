@@ -21,7 +21,7 @@
 	officers = {
 		culture = central_american
 		religion = catholic
-		size = 75
+		size = 575
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -52,7 +52,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 43425
+		size = 83425
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -70,7 +70,7 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 100
+		size = 500
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -78,13 +78,13 @@
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 500
+		size = 1500
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 100
+		size = 1100
 
 		militancy = 9
 		rebel_type = nationalist_rebels
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 9025
+		size = 19025
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -111,7 +111,7 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 125
+		size = 525
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -119,7 +119,7 @@
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 600
+		size = 1600
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -127,7 +127,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 125
+		size = 1125
 
 		militancy = 9
 		rebel_type = nationalist_rebels
@@ -136,7 +136,7 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 11825
+		size = 31825
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
@@ -146,31 +146,31 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 10
+		size = 110
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 15
+		size = 115
 	}
 
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 15
+		size = 115
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 10
+		size = 510
 	}
 
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 120
+		size = 4120
 	}
 
 	soldiers = {

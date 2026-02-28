@@ -7,19 +7,19 @@ army = {
 	location = 1479
 	regiment = {
 		name= "1.1/Royal Army"
-		type = irregular
+		type = infantry
 		home = 1479
 	}
 
 	regiment = {
 		name= "1.2/Royal Army"
-		type = irregular
+		type = infantry
 		home = 1479
 	}
 
 	regiment = {
 		name= "1.3/Royal Army"
-		type = irregular
+		type = infantry
 		home = 1479
 	}
 
@@ -49,13 +49,13 @@ army = {
 
 	regiment = {
 		name= "1.8/Royal Army"
-		type = irregular
+		type = cavalry
 		home = 1620
 	}
 
 	regiment = {
 		name= "1.9/Royal Army"
-		type = irregular
+		type = artillery
 		home = 1620
 	}
 
@@ -67,25 +67,25 @@ army = {
 	location = 1624
 	regiment = {
 		name= "1.¨Royal Guard"
-		type = irregular
+		type = infantry
 		home = 1624
 	}
 
 	regiment = {
 		name= "2. Royal Guard"
-		type = irregular
+		type = infantry
 		home = 1636
 	}
 
 	regiment = {
 		name= "3. Royal Guard"
-		type = irregular
+		type = cavalry
 		home = 1628
 	}
 
 	regiment = {
 		name= "1. Infantry"
-		type = irregular
+		type = cavalry
 		home = 1633
 	}
 
@@ -107,20 +107,20 @@ army = {
 	name = "Northern Army"
 	location = 1623
 	regiment = {
-		name= "4. Infantry"
-		type = irregular
+		name= "1. Cavalry"
+		type = cavalry
 		home = 1619
 	}
 
 	regiment = {
-		name= "5. Infantry"
-		type = irregular
+		name= "2. Cavalry"
+		type = cavalry
 		home = 1620
 	}
 
 	regiment = {
-		name= "6. Infantry"
-		type = irregular
+		name= "3. Cavalry"
+		type = cavalry
 		home = 1622
 	}
 
@@ -146,6 +146,19 @@ army = {
 		type = irregular
 		home = 1634
 	}
+
+}
+
+army = {
+	name = "Davao Garrison"
+	location = 1463
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1463
+	}
+
+	
 
 }
 

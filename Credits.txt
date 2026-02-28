@@ -1,5 +1,6 @@
-Mods we've used assets from in the making of tns:
+Mods we've used assets from in the making of TNS:
 HPM: since hfm is based on this we naturally used it too.
 HFM: we based the mod mostly on HFM and re-used many files for flavor and what not.
 Haralds Triumph: we used terrain and provinces from this mod that were very useful around the world.
 Victoria universalis: we used some cb's (well more based on) from VU since their cbs are so well done and make wars way better.
+GFM: Clean up decisions from this were brought into TNS to help fix errors such as eternal wars.

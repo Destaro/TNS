@@ -242,7 +242,7 @@
 	soldiers = {
 		culture = romansh
 		religion = protestant
-		size = 1100
+		size = 9100
 	}
 
 	farmers = {
@@ -320,7 +320,7 @@
 	soldiers = {
 		culture = arpitan
 		religion = protestant
-		size = 1100
+		size = 6100
 	}
 
 	farmers = {
@@ -511,6 +511,12 @@
 		culture = north_italian
 		religion = catholic
 		size = 550
+	}
+	
+	soldiers = {
+		culture = arpitan
+		religion = protestant
+		size = 7150
 	}
 
 	farmers = {

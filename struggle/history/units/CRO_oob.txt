@@ -2,22 +2,48 @@ army = {
 	name = "Croat Army"
 	location = 702
 	regiment = {
-		name= "1. Infanterie Moldovei"
+		name= "1. Infanterie Croatia"
 		type = infantry
 		home = 702
 	}
 
 	regiment = {
-		name= "2. Infanterie Moldovei"
+		name= "2. Infanterie Croatia"
 		type = infantry
 		home = 702
 	}
 
 	regiment = {
-		name= "3. Infanterie Moldovei"
+		name= "3. Infanterie Croatia"
 		type = infantry
-		home = 3664
+		home = 702
 	}
+	
+	regiment = {
+		name= "4. Infanterie Croatia"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "5. Infanterie Croatia"
+		type = cavalry
+		home = 951
+	}
+
+	regiment = {
+		name= "6. Infanterie Croatia"
+		type = cavalry
+		home = 951
+	}
+	
+	regiment = {
+		name= "7. Infanterie Croatia"
+		type = artillery
+		home = 953
+	}
+
+	
 
 }
 
