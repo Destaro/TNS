@@ -269,8 +269,7 @@ political_decisions = {
 		country_event = 300033
 		}
 	}
-
-the_reclamation_of_armenia = {
+	the_reclamation_of_armenia = {
 	           potential = {
 			   tag = BYZ
 				has_country_flag = the_reclamation_of_anatolia
@@ -296,6 +295,68 @@ the_reclamation_of_armenia = {
 				ARM = { all_core = { add_core = THIS } }
 				GEO = { all_core = { add_core = THIS } }
 				prestige = 5     	  
+				}
+		 }
+	rebuilding_the_parthenon = {
+	           potential = {
+			   tag = GRE
+				NOT = { has_country_flag = parthenon_rebuilt }
+			   }
+			allow = {
+				is_greater_power = yes
+				GRE = { all_core = { owned_by = THIS } }
+				wealth = 100000
+				owns = 837
+				iron_railroad = 1
+				steam_turbine = 1
+				}
+			effect = {
+				set_country_flag = parthenon_rebuilt
+				pretige = 10
+				country_event = 300069
+				}
+		 }
+	greek_lebensraum = {
+	           potential = {
+			   tag = GRE
+			   has_country_flag = ready_for_alexanderite_idea
+				NOT = { has_country_flag = greek_lebensraum }
+			   }
+			allow = {
+				is_greater_power = yes
+				GRE = { all_core = { owned_by = THIS } }
+				revolution_n_counterrevolution = 1
+				steel_railroad = 1
+				machine_guns = 1
+				}
+			effect = {
+				set_country_flag = greek_lebensraum
+				badboy = 25
+				pretige = 10
+				KSK = { all_core = { add_core = THIS } }
+				PER = { all_core = { add_core = THIS } }
+				EGY = { all_core = { add_core = THIS } }
+				SYR = { all_core = { add_core = THIS } }
+				JOR = { all_core = { add_core = THIS } }
+				HDJ = { all_core = { add_core = THIS } }
+				OMA = { all_core = { add_core = THIS } }
+				KHR = { all_core = { add_core = THIS } }
+				TKM = { all_core = { add_core = THIS } }
+				UZB = { all_core = { add_core = THIS } }
+				KHI = { all_core = { add_core = THIS } }
+				BUK = { all_core = { add_core = THIS } }
+				BDK = { all_core = { add_core = THIS } }
+				SHV = { all_core = { add_core = THIS } }
+				TTN = { all_core = { add_core = THIS } }
+				ASY = { all_core = { add_core = THIS } }
+				LBN = { all_core = { add_core = THIS } }
+				ALN = { all_core = { add_core = THIS } }
+				DAG = { all_core = { add_core = THIS } }
+				MIG = { all_core = { add_core = THIS } }
+				HUN = { all_core = { add_core = THIS } }
+				ANT = { all_core = { add_core = THIS } }
+				KAZ = { all_core = { add_core = THIS } }
+				XIN = { all_core = { add_core = THIS } }
 				}
 		 }
 }
