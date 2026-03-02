@@ -2214,6 +2214,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA300057"
 		prestige = 50
+		set_country_flag = egyptian_slave_economy
 		add_accepted_culture = circassian
 		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.95 }
 		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
@@ -2387,7 +2388,7 @@ country_event = {
 	picture = "total_greek_victory"
 	major = yes
 	fire_only_once = yes
-	mean_time_to_happen = { days = 10 }
+	mean_time_to_happen = { days = 1 }
 	trigger = {
 		tag = GRE
 		BYZ = { exists = no }
@@ -2395,21 +2396,272 @@ country_event = {
 	#ITALY IN PARTICULAR IS OUTSIDE THE GREEK REALM TO KEEP - EXCEPT SICILY MAYBE - PRESTIGE IS TANKED SEVERELY
 	option = {
 		name = "EVTOPTA300062"
+		set_country_flag = greek_revolution
 		prestige = -50
 		all_core = { limit = { is_core = ITA NOT = { is_core = SYC } } remove_core = GRE }
 		any_owned = { limit = { NOT = { is_core = GRE } } add_province_modifier = { name = regional_anarchy duration = 365 } }
 		}
 	}
 #FORMATION OF THE DESPOTATE - REMOVES ANY GOOD LAWS AND REPLACES THEM WITH TERRIBLE ONES - THE BEGINNING OF A GREEK DICTATORSHIP
+country_event = {
+	id = 300063
+	title = "EVTNAME300063" 
+	desc = "EVTDESC300063"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	trigger = {
+		tag = GRE
+		BYZ = { exists = no }
+		has_country_flag = greek_revolution
+		}
+	#THE DESPOTATE IS A SECTARIAN REGIME THAT SEEKS THE PURIFICATION OF HELLENE SOCIETY BY ANY MEANS NECESSARY - IT WILL WORK TO REMOVE ALL ROMAN INFLUENCES
+	option = {
+		name = "EVTOPTA300063"
+		prestige = 20
+		add_country_modifier = { name = revolutionary_council duration = 3650 }
+		government = presidential_dictatorship
+		slavery = yes_slavery
+		upper_house_composition = appointed
+		vote_franschise = none_voting
+		public_meetings = no_meeting
+		press_rights = state_press
+		trade_unions = no_trade_unions
+		voting_system = first_past_the_post
+		political_parties = harassment
+		conscription = mandatory_service
+		debt_law = serfdom
+		penal_system = capital_punishment
+		child_labor = child_labor_legal
+		citizens_rights = primary_culture_only
+		border_policy = closed_borders
+		centralization = unitary
+		colonial_policy = settlement 
+		}
+	}
 #THE GREEK DICTATORSHIP SEES TO THE FINAL ERADICATION OF LATIN PEOPLES IN GREECE
+country_event = {
+	id = 300064
+	title = "EVTNAME300064" 
+	desc = "EVTDESC300064"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = GRE
+		BYZ = { exists = no }
+		has_country_flag = greek_revolution
+		has_country_modifier = revolutionary_council
+		}
+	#THE DESPOTATE WORKS TO ELIMINATE ALL LATIN INFLUENCES - LANDS WILL BE RESETTLED AND COLONIZED
+	option = {
+		name = "EVTOPTA300064"
+		prestige = 20
+		release_vassal = AOM
+		AOM = { civilized = no }
+		inherit = AOM
+		all_core = { remove_core = AOM }
+		any_pop = { limit = { has_pop_culture = aromanian } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = tosk } reduce_pop = 0.2 pop_type = slaves }
+		}
+	}
 #THE DESPOTATE BECOMES INCREASINGLY FORMALIZED - FEARS OF A PERMANENT NEW MONARCHY EMERGE - PLAYER NOTIFIED
+country_event = {
+	id = 300065
+	title = "EVTNAME300065" 
+	desc = "EVTDESC300065"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 30 }
+	trigger = {
+		tag = GRE
+		BYZ = { exists = no }
+		has_country_flag = greek_revolution
+		has_country_modifier = revolutionary_council
+		}
+	option = {
+		name = "EVTOPTA300065"
+		centralization = totalitarianism
+		political_parties = underground_parties
+		upper_house_composition = party_appointed
+		}
+	}
 #REVOLUTIONARY FERVOR - CAPITAL MOVED TO THESSALONIKE
+country_event = {
+	id = 300066
+	title = "EVTNAME300066" 
+	desc = "EVTDESC300066"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	trigger = {
+		tag = GRE
+		BYZ = { exists = no }
+		has_country_modifier = revolutionary_council
+		}
+	option = {
+		name = "EVTOPTA300066"
+		capital = 805
+		country_event = 300067
+		}
+	}
 #REVOLUTIONARY FERVOR - BORDERS OF THE GREEK "HEARTLAND" DEFINED - GUARANTEES BASE CORES FOR FUTURE CONTENT
-#REDEFINING OF THE ANGELS PROPHECY
-#FURTHER DEVELOPMENT OF THE CULT OF ATHENA - REBUILDING OF THE PARTHENON AS A PUBLIC WORKS PROJECT
-#PARTHENON COMPLETE - DICTATOR LIKENS HIMSELF TO ALEXANDER THE GREAT IN COMMENSURATE ADDRESS
+country_event = {
+	id = 300067
+	title = "EVTNAME300067" 
+	desc = "EVTDESC300067"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA300067"
+		prestige = 10
+		EGY_843 = { add_core = GRE }
+		KSK = { all_core = { add_core = GRE } }
+		TUR_855 = { add_core = GRE }
+		ARM = { all_core = { add_core = GRE } }
+		ASY = { all_core = { add_core = GRE } }
+		LBN = { all_core = { add_core = GRE } }
+		GEO = { all_core = { add_core = GRE } }
+		MIG = { all_core = { add_core = GRE } }
+		country_event = 300068
+		}
+	}
+#REVOLUTIONARY FERVOR - REDEFINING OF THE ANGELS PROPHECY
+country_event = {
+	id = 300068
+	title = "EVTNAME300068" 
+	desc = "EVTDESC300068"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA300068"
+		any_pop = {
+            limit = { has_pop_culture = greek }
+            ideology = { value = reactionary factor = 1 }
+        }
+		}
+	}
+#FURTHER DEVELOPMENT OF THE CULT OF ATHENA - REBUILDING OF THE PARTHENON AS A PUBLIC WORKS PROJECT - DECISION RESULT
+country_event = {
+	id = 300069
+	title = "EVTNAME300069" 
+	desc = "EVTDESC300069"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA300069"
+		add_country_modifier = { name = parthenon_being_rebuilt duration = 365 }
+		}
+	}
+#PARTHENON COMPLETE - DICTATOR LIKENS HIMSELF TO ALEXANDER THE GREAT IN COMMENSURATE ADDRESS - NEEDS TO BE COMPLETE FOR TRANSITION TO DICTATORSHIP
+country_event = {
+	id = 300070
+	title = "EVTNAME300070" 
+	desc = "EVTDESC300070"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	trigger = {
+		tag = GRE
+		has_country_flag = parthenon_rebuilt
+		NOT = { has_country_modifier = parthenon_being_rebuilt }
+	}
+	option = {
+		name = "EVTOPTA300070"
+		prestige = 50
+		research_points = 1000
+		country_event = 300071
+		}
+	}
 #A PLAY AT DYNASTY FOLLOWS - WHETHER SUCCESSFUL OR A FAILURE IT ONLY REASSERTS THE EXTREMISM OF THE GREEK SYSTEM - FASCIST TAKEOVER INEVITABLE
+country_event = {
+	id = 300071
+	title = "EVTNAME300071" 
+	desc = "EVTDESC300071"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	is_triggered_only = yes
+#THE PLAY AT DYNASTY SUCCEEDS - THE MAKEDONIAN MONARCHY IS ESTABLISHED
+	option = {
+		name = "EVTOPTA300071"
+		prestige = 25
+		government = absolute_monarchy
+		any_pop = {
+            limit = { has_pop_culture = greek }
+            ideology = { value = reactionary factor = 1 }
+        }
+		country_event = 300072
+		country_event = 1003
+	}
+#THE PLAY FAILS - NONETHELESS THE POLITICAL CULTURE TURNS TO MORE AUTHORITARIAN DICTATORSHIP
+	option = {
+		name = "EVTOPTA300071"
+		prestige = -25
+		government = fascist_dictatorship
+		ruling_party_ideology = fascist
+		any_pop = {
+            limit = { has_pop_culture = greek }
+            ideology = { value = fascist factor = 1 }
+        }
+		country_event = 300073
+		country_event = 1003
+	}
+}
 #THE DEVELOPMENT OF HELLENE FASCISM - THE TSAKONIAN HELOTS
+country_event = {
+	id = 300072
+	title = "EVTNAME300072" 
+	desc = "EVTDESC300072"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	is_triggered_only = yes
+#THIS IDEOLOGY BECOMES THE RULING IDEOLOGY REGARDLESS
+	option = {
+		name = "EVTOPTA300072"
+		ruling_party_ideology = fascist
+		set_country_flag = ready_for_alexanderite_idea
+		any_pop = {
+            limit = { has_pop_culture = greek }
+            ideology = { value = fascist factor = 0.3 }
+        }
+	}
+}
+#EGYPTIAN FAMINE - BYZANTIUM BUT I FORGOR BEFORE
+country_event = {
+	id = 300073
+	title = "EVTNAME300073" 
+	desc = "EVTDESC300073"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 10 }
+	trigger = { 
+		tag = BYZ
+		has_country_flag = egyptian_slave_economy
+		year = 1900
+		}
+#THIS IDEOLOGY BECOMES THE RULING IDEOLOGY REGARDLESS
+	option = {
+		name = "EVTOPTA300073"
+		any_owned = { limit = { is_core = EGY } remove_province_modifier = egyptian_slave_economy add_province_modifier = { name = egyptian_famine duration = -1 } }
+	}
+}
+
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
 
 country_event = {
@@ -2526,3 +2778,6 @@ country_event = {
 		ai_chance = { factor = 90 }
 	}
 }
+
+
+
