@@ -34,9 +34,136 @@ country_event = {
 		prestige = 10
 		treasury = 100000
 		inherit = GLC
+		add_accepted_culture = suebi
 		any_pop = { 
 		  limit = { culture = suebi } 
 		  militancy = 3
+		}
+	}
+}
+
+#Cuban/jamaican revolt
+
+country_event = {
+	id = 1112222
+	title = "EVTNAME1112222" #The Caribbean Republics
+	desc = "EVTDESC1112222"
+	picture = "mexico_soldiers"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = TLD
+		is_vassal = no
+		NOT = {
+			exists = CUB
+			has_country_flag = cuba_recaptured
+		}
+		any_owned_province = { is_core = CUB }
+		year = 1865
+		war_exhaustion = 70
+		is_greater_power = no
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = "EVT1112222OPTA"
+		any_owned = {
+			limit = { is_core = CUB }
+			secede_province = CUB
+		}
+		
+		any_owned = {
+			limit = { is_core = JAM }
+			secede_province = JAM
+		}
+		
+		CUB = {
+			any_pop = { militancy = -6 }
+			relation = {
+				who = JAM
+				value = 100
+			}
+			relation = {
+				who = MEX
+				value = 200
+			}
+			add_country_modifier = { name = unrecognized_country duration = 3650 }
+		}
+		
+			JAM = {
+			any_pop = { militancy = -6 }
+			relation = {
+				who = CUB
+				value = 100
+			}
+			relation = {
+				who = MEX
+				value = 200
+			}
+			add_country_modifier = { name = unrecognized_country duration = 3650 }
+		}
+		
+		war = {
+			target = CUB
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		
+			war = {
+			target = JAM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+		}	
+	}
+
+	option = {
+		name = "EVT1112222OPTB"
+		prestige = -5
+		any_owned = {
+			limit = { is_core = CUB }
+			secede_province = CUB
+		}
+		
+		any_owned = {
+			limit = { is_core = JAM }
+			secede_province = JAM
+		}
+		
+		CUB = {
+			any_pop = { militancy = -6 }
+			relation = {
+				who = JAM
+				value = 100
+			}
+			relation = {
+				who = MEX
+				value = 200
+			}
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				war = yes
+			}
 		}
 	}
 }

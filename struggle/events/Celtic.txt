@@ -555,7 +555,7 @@ country_event = {
 	#they accept
 	option = {
 		name = "EVTOPTA444411119A"
-	WHA = { country_event = 4444111191 } 
+	WHA = { country_event = 44441191 } 
 	treasury = 100000
 	any_owned = { 
 	    limit = { OR = {  province_id = 1303  
@@ -571,7 +571,7 @@ country_event = {
 	#they refuse
 	option = {
 		name = "EVTOPTA444411119B"
-	WHA = { country_event = 4444111192 } 
+	WHA = { country_event = 44441192 } 
 		ai_chance = { factor = 25 }
 	}
 		
@@ -580,7 +580,7 @@ country_event = {
 
 #oman accepts
 country_event = {
-	id = 4444111191
+	id = 44441191
 	title = "EVTNAME4444111191" 
 	desc = "EVTDESC4444111191"
 	picture = "rosas_urquiza"

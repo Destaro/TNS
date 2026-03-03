@@ -1,0 +1,33 @@
+#Carribean Federation Formed after Toledu loses its islands
+country_event = {
+	id = 999922
+	title = "EVTNAME999922"
+	desc = "EVTDESC999922"
+	major = yes
+
+	trigger = { 
+       tag = CUB
+       exists = JAM
+       war = no
+	}
+	
+	option = {
+		name = "EVT999922OPTA"
+		prestige = 25
+		inherit = JAM
+		change_tag = CRB
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = CUB
+					is_core = JAM
+					is_core = DOM
+				}
+			}
+			add_core = THIS
+			secede_province = CRB
+		}
+		DOM = { all_core = { add_core = THIS } }
+		PRI = { all_core = { add_core = THIS } }
+	}
+}
