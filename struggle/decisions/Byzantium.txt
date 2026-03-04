@@ -357,6 +357,8 @@ political_decisions = {
 				ANT = { all_core = { add_core = THIS } }
 				KAZ = { all_core = { add_core = THIS } }
 				XIN = { all_core = { add_core = THIS } }
+				TAJ = { all_core = { add_core = THIS } }
+				KYR = { all_core = { add_core = THIS } }
 				}
 		 }
 }

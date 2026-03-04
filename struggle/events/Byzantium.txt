@@ -2655,13 +2655,439 @@ country_event = {
 		has_country_flag = egyptian_slave_economy
 		year = 1900
 		}
-#THIS IDEOLOGY BECOMES THE RULING IDEOLOGY REGARDLESS
+#THIS FAMINE WILL REMAIN THE REST OF THE GAME YOU ABSOLUTE MONSTER
 	option = {
 		name = "EVTOPTA300073"
 		any_owned = { limit = { is_core = EGY } remove_province_modifier = egyptian_slave_economy add_province_modifier = { name = egyptian_famine duration = -1 } }
 	}
 }
+#GENOCIDE - KACHUSKAYA
+country_event = {
+	id = 300074
+	title = "EVTNAME300074" 
+	desc = "EVTDESC300074"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
 
+	trigger = {
+		tag = GRE
+		KSK = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE KACHUSKAYANS SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300074"
+		badboy = 10
+		set_country_flag = enslaved_katchuskaya
+		political_reform = yes_slavery
+		release = KSK
+		KSK = { civilized = no }
+		inherit = KSK
+		TUR_863 = { remove_core = KSK }
+		TUR_869 = { remove_core = KSK }
+		TUR_880 = { remove_core = KSK }
+		TUR_882 = { remove_core = KSK }
+		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = genocide duration = 365 } }			
+		all_core = { remove_core = KSK }
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#GENOCIDE - ASSYRIA
+country_event = {
+	id = 300075
+	title = "EVTNAME300075" 
+	desc = "EVTDESC300075"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		ASY = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE ASSYRIANS SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300075"
+		badboy = 10
+		set_country_flag = eradicated_assyria
+		political_reform = yes_slavery
+		release = ASY
+		ASY = { civilized = no }
+		inherit = ASY
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = ASY } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = ASY } add_province_modifier = { name = genocide duration = 365 } }			
+		all_core = { remove_core = ASY }
+		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#GENOCIDE - EGYPT
+country_event = {
+	id = 300076
+	title = "EVTNAME300076" 
+	desc = "EVTDESC300076"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		EGY = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE EGYPTIANS SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300076"
+		badboy = 10
+		set_country_flag = eradicated_egypt
+		political_reform = yes_slavery
+		release = EGY
+		EGY = { civilized = no }
+		inherit = EGY
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = genocide duration = 365 } }			
+		all_core = { remove_core = EGY }
+		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#GENOCIDE - LEVANT
+country_event = {
+	id = 300077
+	title = "EVTNAME300077" 
+	desc = "EVTDESC300077"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		JOR = { exists = no all_core = { owned_by = GRE } }
+		LBN = { exists = no all_core = { owned_by = GRE } }
+		SYR = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE LEVANT SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300077"
+		badboy = 10
+		set_country_flag = eradicated_levant
+		political_reform = yes_slavery
+		release = JOR
+		JOR = { civilized = no }
+		inherit = JOR
+		release = LBN
+		LBN = { civilized = no }
+		inherit = LBN
+		release = SYR
+		SYR = { civilized = no }
+		inherit = SYR
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = JOR } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = JOR } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = LBN } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = LBN } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = SYR } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = SYR } add_province_modifier = { name = genocide duration = 365 } }		
+		all_core = { remove_core = JOR remove_core = LBN remove_core = SYR }
+		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = mashriqi OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = mashriqi OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#GENOCIDE - CAUCASUS AND HUNGARY
+country_event = {
+	id = 300078
+	title = "EVTNAME300078" 
+	desc = "EVTDESC300078"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		SHV = { exists = no all_core = { owned_by = GRE } }
+		TTN = { exists = no all_core = { owned_by = GRE } }
+		HUN = { exists = no all_core = { owned_by = GRE } }
+		ANT = { exists = no all_core = { owned_by = GRE } }
+		ALN = { exists = no all_core = { owned_by = GRE } }
+		DAG = { exists = no all_core = { owned_by = GRE } }
+		MIG = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE CAUCASUS SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300078"
+		badboy = 10
+		set_country_flag = eradicated_caucasus
+		political_reform = yes_slavery
+		release = SHV
+		SHV = { civilized = no }
+		inherit = SHV
+		release = TTN
+		TTN = { civilized = no }
+		inherit = TTN
+		release = HUN
+		HUN = { civilized = no }
+		inherit = HUN
+		release = ANT
+		ANT = { civilized = no }
+		inherit = ANT
+		release = ALN
+		ALN = { civilized = no }
+		inherit = ALN
+		release = DAG
+		DAG = { civilized = no }
+		inherit = DAG
+		release = MIG
+		MIG = { civilized = no }
+		inherit = MIG
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = SHV } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = SHV } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = TTN } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = TTN } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = HUN } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = HUN } add_province_modifier = { name = genocide duration = 365 } }	
+		any_owned = { limit = { is_core = ANT } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = ANT } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = ALN } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = ALN } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = DAG } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = DAG } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = MIG } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = MIG } add_province_modifier = { name = genocide duration = 365 } }			
+		all_core = { remove_core = SHV remove_core = TTN remove_core = HUN remove_core = ANT remove_core = ALN remove_core = DAG remove_core = MIG }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = hungarian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kumyk OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kumyk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = azerbaijani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = azerbaijani OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chechen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chechen OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = circassian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = circassian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }	
+		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }	
+		any_pop = { limit = { has_pop_culture = south_hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = south_hungarian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }		
+	}
+}
+#GENOCIDE - PERSIA
+country_event = {
+	id = 300079
+	title = "EVTNAME300079" 
+	desc = "EVTDESC300079"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		PER = { exists = no all_core = { owned_by = GRE } }
+		KHR = { exists = no all_core = { owned_by = GRE } }
+		OMA = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE LEVANT SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300079"
+		badboy = 10
+		set_country_flag = eradicated_persia
+		political_reform = yes_slavery
+		release = PER
+		PER = { civilized = no }
+		inherit = PER
+		release = KHR
+		KHR = { civilized = no }
+		inherit = KHR
+		release = OMA
+		OMA = { civilized = no }
+		inherit = OMA
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = PER } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = PER } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = KHR } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = KHR } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = OMA } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = OMA } add_province_modifier = { name = genocide duration = 365 } }		
+		all_core = { remove_core = PER remove_core = KHR remove_core = OMA }
+		any_pop = { limit = { has_pop_culture = old_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = old_persian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = parthian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = parthian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#GENOCIDE - CENTRAL ASIA
+country_event = {
+	id = 300080
+	title = "EVTNAME300080" 
+	desc = "EVTDESC300080"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		TKM = { exists = no all_core = { owned_by = GRE } }
+		BDK = { exists = no all_core = { owned_by = GRE } }
+		BUK = { exists = no all_core = { owned_by = GRE } }
+		UZB = { exists = no all_core = { owned_by = GRE } }
+		KHI = { exists = no all_core = { owned_by = GRE } }
+		BUK = { exists = no all_core = { owned_by = GRE } }
+		KYR = { exists = no all_core = { owned_by = GRE } }
+		TAJ = { exists = no all_core = { owned_by = GRE } }
+		XIN = { exists = no all_core = { owned_by = GRE } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#THE LEVANT SHALL BE PURGED UTTERLY
+	option = {
+		name = "EVTOPTA300080"
+		badboy = 10
+		set_country_flag = eradicated_turkestan
+		political_reform = yes_slavery
+		release = TKM
+		TKM = { civilized = no }
+		inherit = TKM
+		release = BDK
+		BDK = { civilized = no }
+		inherit = BDK
+		release = BUK
+		BUK = { civilized = no }
+		inherit = BUK
+		release = UZB
+		UZB = { civilized = no }
+		inherit = UZB
+		release = KHI
+		KHI = { civilized = no }
+		inherit = KHI
+		release = KYR
+		KYR = { civilized = no }
+		inherit = KYR
+		release = TAJ
+		TAJ = { civilized = no }
+		inherit = TAJ
+		release = XIN
+		XIN = { civilized = no }
+		inherit = XIN
+		any_owned = { limit = { pop_majority_culture = greek has_province_modifier = small_baby_boom } add_province_modifier = { name = baby_boom duration = 1825 } }
+		any_owned = { limit = { pop_majority_culture = greek NOT = { has_province_modifier = small_baby_boom } } add_province_modifier = { name = small_baby_boom duration = 1825 } }
+		any_owned = { limit = { is_core = TKM } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = TKM } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = BDK } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = BDK } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = BUK } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = BUK } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = UZB } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = UZB } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = KHI } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = KHI } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = KYR } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = KYR } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = TAJ } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = TAJ } add_province_modifier = { name = genocide duration = 365 } }
+		any_owned = { limit = { is_core = XIN } add_province_modifier = { name = population_resettlement duration = 3650 } }
+		any_owned = { limit = { is_core = XIN } add_province_modifier = { name = genocide duration = 365 } }
+		all_core = { remove_core = TKM remove_core = BDK remove_core = BUK remove_core = UZB remove_core = KHI remove_core = KYR remove_core = TAJ remove_core = XIN }
+		any_pop = { limit = { has_pop_culture = turkmen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = turkmen OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = sogdian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = sogdian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chorasmian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chorasmian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khorasani_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khorasani_persian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kirgiz OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kirgiz OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khotani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khotani OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
+	}
+}
+#FINAL GENOCIDE - THE ANGEL OF DEATH REVEALS ITSELF
+country_event = {
+	id = 300081
+	title = "EVTNAME300081" 
+	desc = "EVTDESC300081"
+	picture = "total_greek_victory"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GRE
+		has_country_flag = eradicated_assyria
+		has_country_flag = eradicated_caucasus
+		has_country_flag = eradicated_egypt
+		has_country_flag = eradicated_levant
+		has_country_flag = eradicated_persia
+		has_country_flag = eradicated_turkestan
+		all_core = { owned_by = THIS }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+#AN EMPIRE OF UTTER RUIN
+	option = {
+		name = "EVTOPTA300080"
+		badboy = 1000
+		prestige 1000
+		set_country_flag = alexander_of_dust
+	}
+}
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
 
 country_event = {
