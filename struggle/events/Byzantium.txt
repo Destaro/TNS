@@ -2616,7 +2616,7 @@ country_event = {
             limit = { has_pop_culture = greek }
             ideology = { value = fascist factor = 1 }
         }
-		country_event = 300073
+		country_event = 300072
 		country_event = 1003
 	}
 }
