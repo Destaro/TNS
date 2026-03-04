@@ -56,11 +56,14 @@ country_event = {
 		tag = TLD
 		is_vassal = no
 		NOT = {
+			OR = {
 			exists = CUB
 			has_country_flag = cuba_recaptured
+			owns = 2172
+		  } 
 		}
 		any_owned_province = { is_core = CUB }
-		year = 1865
+		year = 1870
 		war_exhaustion = 70
 		is_greater_power = no
 	}

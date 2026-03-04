@@ -101,18 +101,8 @@ NOV = {
 	influence_value = 0
 }
 
-USA = {	
-	value = 125
-	level = 5
-	influence_value = 0
-}
 
 
-CUB = {	
-	value = 125
-	level = 5
-	influence_value = 0
-}
 
 CUR = {	
 	value = 125
