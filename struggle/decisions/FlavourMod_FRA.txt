@@ -300,9 +300,9 @@ political_decisions = {
 	annex_rhineland = {
 	picture = rhineland
 		potential = {
-			tag FRC
+			tag = FRC
 			is_greater_power = yes
-			BAD = { exists = yes vassal_of = THIS }
+			BAD = { exists = yes  vassal_of = THIS }
 			has_recently_lost_war = no
 			NOT = { has_country_flag = annexed_rhineland }
 		}

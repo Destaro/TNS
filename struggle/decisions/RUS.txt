@@ -102,7 +102,8 @@ picture = russify_baltic_states
 	
 	allow = { 
 	    is_greater_power = yes
-		 RUT = { all_core = { owned_by = THIS } }
+		 owns = 996
+		 owns = 718
 		 NOT = { LIT = { vassal_of = BUL } }
 		 war = no
 		 nationalism_n_imperialism = 1
