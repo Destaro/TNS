@@ -2732,9 +2732,9 @@ country_event = {
 		any_owned = { limit = { is_core = ASY } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = ASY } add_province_modifier = { name = genocide duration = 365 } }			
 		all_core = { remove_core = ASY remove_core = KDS }
-		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = assyrian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
 	}
 }
@@ -2769,7 +2769,7 @@ country_event = {
 		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = EGY } add_province_modifier = { name = genocide duration = 365 } }			
 		all_core = { remove_core = EGY }
-		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = copt OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
 	}
 }
@@ -2816,11 +2816,11 @@ country_event = {
 		any_owned = { limit = { is_core = SYR } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = SYR } add_province_modifier = { name = genocide duration = 365 } }		
 		all_core = { remove_core = JOR remove_core = LBN remove_core = SYR }
-		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = chaldean OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = mashriqi OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = mashriqi OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = mashriqi OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
 	}
 }
@@ -2891,25 +2891,25 @@ country_event = {
 		any_owned = { limit = { is_core = MIG } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = MIG } add_province_modifier = { name = genocide duration = 365 } }			
 		all_core = { remove_core = SHV remove_core = TTN remove_core = HUN remove_core = ANT remove_core = ALN remove_core = DAG remove_core = MIG }
-		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = hungarian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = georgian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = scythian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = kumyk OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kumyk OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = kumyk OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = azerbaijani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = azerbaijani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = azerbaijani OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = chechen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chechen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = chechen OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = circassian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = circassian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = circassian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }	
-		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = armenian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }	
-		any_pop = { limit = { has_pop_culture = south_hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = south_hungarian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = south_hungarian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }		
 	}
 }
@@ -2956,13 +2956,13 @@ country_event = {
 		any_owned = { limit = { is_core = OMA } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = OMA } add_province_modifier = { name = genocide duration = 365 } }		
 		all_core = { remove_core = PER remove_core = KHR remove_core = OMA }
-		any_pop = { limit = { has_pop_culture = old_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = old_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = old_persian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = parthian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = parthian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = parthian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = bedouin OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
 	}
 }
@@ -3040,23 +3040,23 @@ country_event = {
 		any_owned = { limit = { is_core = XIN } add_province_modifier = { name = population_resettlement duration = 3650 } }
 		any_owned = { limit = { is_core = XIN } add_province_modifier = { name = genocide duration = 365 } }
 		all_core = { remove_core = TKM remove_core = BDK remove_core = BUK remove_core = UZB remove_core = KHI remove_core = KYR remove_core = TAJ remove_core = XIN }
-		any_pop = { limit = { has_pop_culture = turkmen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = turkmen OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = turkmen OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = sogdian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = sogdian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = sogdian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = aryao OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = chorasmian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = chorasmian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = chorasmian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = khorasani_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khorasani_persian OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = khorasani_persian OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = kirgiz OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = kirgiz OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = kirgiz OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = uzbek OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
-		any_pop = { limit = { has_pop_culture = khotani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = khotani OR = { pop_type = farmers pop_type = serfs pop_type = labourers pop_type = craftsmen } } reduce_pop = 0.01 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = khotani OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves }
 	}
 }
