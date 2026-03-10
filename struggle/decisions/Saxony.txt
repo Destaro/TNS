@@ -131,7 +131,6 @@ political_decisions = {
 		add_core = 684
 		add_core = 685
 		add_core = 688
-		add_core = 632
 		set_country_flag = integrate_silesia
 		
 		}
