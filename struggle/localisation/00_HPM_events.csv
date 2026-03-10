@@ -5344,7 +5344,6 @@ EVTOPTA5544012;Accept their decision.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA5544013;Correct this mistake.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTNAME5544003;We lose our claims on the hungarian held lands.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC5544003;They have held the land for too long and too many of our people have left for us to continue pushing a realistic claim, truly a humiliating day in our once glorious history.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-<<<<<<< Updated upstream
 EVTOPTA5544022;Curses!.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPT47860904A;Our Empire will not crumble;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPT4006004A;Those traitorous Snakes!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5644,7 +5643,7 @@ EVTNAME5554441;The race for Maharliika;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC5554441;We have held possetions in the Maharlikan archipelago for several years now but so does our enemies across the sea and in this moment its a prime chance to take over the remains of the archipelago before them, me must seize it!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA5554441A;Its not worth our time;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA5554441B;Seize the opportunity!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTNAME544666;Swabia Annexes Bavaria
+EVTNAME544666;Swabia Annexes Bavaria;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC544666;Swabia was created after a union of several smaller German states after the Franks lost influence in the region, without a central figure to reign us in we've been able to expand our own reach in germany, we've recently reached out and come to an agreement for bavaria to join this union, the largest german state to form part of this federation, ultimately the goal is to create a proper Allemani Federation where all Southern Germans are represented to secure our own interests and bolster our economies, and perhaps in time more.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 EVTOPTA544666A;The Annexation of Bavaria;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTOPTA544666B;Bavaria is Saxon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5721,6 +5720,4 @@ EVTNAME1112222;The Caribbean Republics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC1112222;In the west after our terrible loss of Nova Toledu and our local defeats which has made us very weak has led to the administration of our islands in the west to see us as failing protectors and declare their own independence, it truly is unraveling, can we still turn this around?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVT1112222OPTA;We can't give up what we have left of our empire!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVT1112222OPTB;Its hopeless...;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-=======
 EVTOPTA5544022;Curses!.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
->>>>>>> Stashed changes
