@@ -2611,7 +2611,7 @@ country_event = {
 	}
 #THE PLAY FAILS - NONETHELESS THE POLITICAL CULTURE TURNS TO MORE AUTHORITARIAN DICTATORSHIP
 	option = {
-		name = "EVTOPTA300071"
+		name = "EVTOPTB300071"
 		prestige = -25
 		government = fascist_dictatorship
 		ruling_party_ideology = fascist

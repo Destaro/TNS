@@ -1,11 +1,11 @@
-color = { 28, 52, 74 }
+color = { 28 52 74 }
 colonial_company = { 155 65 65 }
 dominion = { 155 65 65 }
-fascist_dictatorship = { 36, 54, 71 }
-proletarian_dictatorship = { 82, 47, 44 }
-absolute_monarchy = { 32, 61, 94 }
-prussian_constitutionalism = { 32, 61, 94 }
-hms_government = { 38, 74, 115 }
+fascist_dictatorship = { 36 54, 71 }
+proletarian_dictatorship = { 82 47 44 }
+absolute_monarchy = { 32 61 94 }
+prussian_constitutionalism = { 32 61 94 }
+hms_government = { 38 74 115 }
 graphical_culture = EuropeanGC
 
 party = {
