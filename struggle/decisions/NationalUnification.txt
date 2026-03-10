@@ -162,6 +162,7 @@ political_decisions = {
 				tag = URP
 				tag = BYZ
 				tag = IBR
+				tag = SGF
 			}
 		}
 		

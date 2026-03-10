@@ -39,7 +39,6 @@ picture = russify_baltic_states
 			UKR = { all_core = { add_core = THIS } }
 			URA = { all_core = { add_core = THIS } }
 			BLG = { all_core = { add_core = THIS } }
-			BUL = { all_core = { add_core = THIS } }
 			3544 = { add_core = THIS }
 			any_country = {
 				limit = {
@@ -72,6 +71,7 @@ picture = russify_baltic_states
 	
 	       tag = RUT  
 		   NOT = { has_country_flag = accept_the_bolkanians }
+		   owns = 718
 		                }
 	
 	allow = { 
@@ -116,6 +116,28 @@ picture = russify_baltic_states
 		  EST = { all_core = { add_core = THIS } }
 		 
 		  badboy = 2
+             	}
+	
+	
+	}
+	
+	claim_bolkania = { 
+	potential = { 
+	       tag = RUT  
+		   NOT = { has_country_flag = claim_bolkania }
+		                }
+	
+	allow = { 
+	  war = no
+	    is_greater_power = yes
+		owns = 943
+		owns = 963
+		 }
+	
+	effect = {
+	      set_country_flag = claim_bolkania
+          
+		  BUL = { all_core = { add_core = THIS } }
              	}
 	
 	
@@ -1025,6 +1047,7 @@ picture = russify_baltic_states
 		ai_will_do = { factor = 1 }
 	}
 	
+ ###Repurposed for TNS Ruthenia
 	establish_caucasus_viceroyalty = {
 		picture = caucasus_viceroyalty
 		potential = {
@@ -1032,7 +1055,10 @@ picture = russify_baltic_states
 			tag = RUT
 			tag = SLA
 			}
-			NOT = { has_country_flag = caucasus_viceroyalty_established }
+			NOT = { has_country_flag = caucasus_viceroyalty_established 
+			 exists = ALN
+			}
+			
 			TCA = { ai = yes }
 			NOT = { has_global_flag = transcaucasia_formed }
 			OR = {
@@ -1078,8 +1104,10 @@ picture = russify_baltic_states
 				annex_to = THIS
 			}
 			RUS_1090 = { add_core = THIS }
-			RUS_1098 = { add_core = THIS }
+			RUS_1105 = { add_core = THIS }
 			RUS_1102 = { add_core = THIS }
+			RUS_1052 = { add_core = THIS }
+			TIM_1055 = { add_core = THIS }
 		}
 		ai_will_do = { factor = 1 }
 	}

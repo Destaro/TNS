@@ -508,7 +508,6 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			war_policy = jingoism
 			war = no
 			is_vassal = no
 			OR = {
@@ -518,12 +517,17 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = claimed_eastern_poland
-			badboy = 15
-			955 = { add_core = POL }
-			956 = { add_core = POL }
-			957 = { add_core = POL }
-			RUS_707 = { add_core = POL }
-			RUS_940 = { add_core = POL }
+			3508 = { add_core = POL }
+			3506 = { add_core = POL }
+			3507 = { add_core = POL }
+			696 = { add_core = POL }
+			3510 = { add_core = POL }
+			3509 = { add_core = POL }
+			671 = { add_core = POL }
+			662 = { add_core = POL }
+			663 = { add_core = POL }
+			RUS_360 = { add_core = POL }
+			RUS_698 = { add_core = POL }
 		}
 		ai_will_do = {
 			factor = 1 

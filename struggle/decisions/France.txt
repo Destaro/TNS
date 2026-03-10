@@ -285,6 +285,7 @@ political_decisions = {
 			tag = WHA
 			is_greater_power = yes
 			owns = 2124 
+			NOT = { has_country_flag = annex_mayotte }
 		}
 		
 		allow = {
@@ -293,6 +294,7 @@ political_decisions = {
 		}
 		
 		effect = {
+		 set_country_flag = annex_mayotte
 			prestige = 3
 			2124 = { add_core = THIS }
 			2123 = {

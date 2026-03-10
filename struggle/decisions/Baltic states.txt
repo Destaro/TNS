@@ -139,7 +139,7 @@ political_decisions = {
 		picture = form_baltic_states
 		potential = {
 			NOT = {
-				tag = RUS
+				tag = RUT
 				tag = PLC
 				exists = UBD
 				is_culture_group = baltic
@@ -207,7 +207,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 20
-			
+			set_global_flag = { annex_baltic_duchy }
 			random_owned = {
 				limit = { owner = { NOT = { is_culture_group = germanic } } }
 				UBD = {
@@ -249,7 +249,7 @@ political_decisions = {
 					remove_accepted_culture = volga_german
 					
 					clr_country_flag = ubd_substate
-					any_pop = { limit = { NOT = { has_pop_culture = north_german } } militancy = 4 }
+					any_pop = { limit = { NOT = { has_pop_culture = low_saxon } } militancy = 4 }
 				}
 			}
 
@@ -308,7 +308,7 @@ political_decisions = {
 		picture = old_vilnius
 		potential = {
 			UBD = { exists = yes }
-			NOT = { tag = RUS }
+			NOT = { tag = RUT }
 			OR = {
 				tag = UBD
 				is_our_vassal = UBD
