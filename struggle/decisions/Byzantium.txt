@@ -319,7 +319,7 @@ political_decisions = {
 	greek_lebensraum = {
 	           potential = {
 			   tag = GRE
-			   has_country_flag = ready_for_alexanderite_idea
+			   OR = { has_country_flag = ready_for_alexanderite_idea ai = yes }
 				NOT = { has_country_flag = greek_lebensraum }
 			   }
 			allow = {

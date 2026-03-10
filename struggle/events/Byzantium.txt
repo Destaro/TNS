@@ -2367,8 +2367,8 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	trigger = {
 		tag = BYZ
-		year = 1841
-		month = 9
+		year = 1836
+		month = 1
 		}
 	#GREEK IDEOLOGY DOES NOT PERMIT THE EXPANDING OF RIGHTS TO NON-GREEKS - THE IDEOLOGY IS EXCEEDINGLY SUPREMACIST IN NATURE - GREEKS WILL BE VERY DYSFUNCTIONAL ALL GAME
 	option = {
@@ -2507,6 +2507,9 @@ country_event = {
 		name = "EVTOPTA300066"
 		capital = 805
 		country_event = 300067
+		860 = { 
+					change_province_name = "Byzantion"
+				}
 		}
 	}
 #REVOLUTIONARY FERVOR - BORDERS OF THE GREEK "HEARTLAND" DEFINED - GUARANTEES BASE CORES FOR FUTURE CONTENT
@@ -2932,7 +2935,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-#THE LEVANT SHALL BE PURGED UTTERLY
+#PERSIA SHALL BE PURGED UTTERLY
 	option = {
 		name = "EVTOPTA300079"
 		badboy = 10
@@ -2991,7 +2994,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-#THE LEVANT SHALL BE PURGED UTTERLY
+#CENTRAL ASIA SHALL BE PURGED UTTERLY
 	option = {
 		name = "EVTOPTA300080"
 		badboy = 10
@@ -3085,10 +3088,13 @@ country_event = {
 	}
 #AN EMPIRE OF UTTER RUIN
 	option = {
-		name = "EVTOPTA300080"
+		name = "EVTOPTA300081"
 		badboy = 1000
 		prestige 1000
 		set_country_flag = alexander_of_dust
+		any_pop = { limit = { NOT = { has_pop_culture = greek } } reduce_pop = 0 }
+		any_pop = { limit = { has_pop_culture = greek } reduce_pop = 0.7 }
+		any_owned = { limit = { is_core = GRE } add_province_modifier = { name = genocide duration = -1 } }
 	}
 }
 #early war that can cripple the entirety of kachuskayas game, for byzantine player
