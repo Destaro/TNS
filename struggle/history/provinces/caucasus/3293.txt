@@ -1,6 +1,6 @@
 owner = GEO
 controller = GEO
 add_core = GEO
-add_core = TCA
+add_core = ARM
 trade_goods = grain
 life_rating = 35

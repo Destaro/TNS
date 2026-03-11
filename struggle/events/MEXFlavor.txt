@@ -70,6 +70,7 @@ country_event = {
 		NOT = {
 			exists = RGR
 			has_country_flag = texas_recaptured
+			has_global_flag = texan_formed_mexico 
 		}
 		any_owned_province = { is_core = RGR }
 		year = 1844
@@ -161,6 +162,7 @@ country_event = {
 		}
 		any_owned_province = { is_core = YUC }
 		year = 1841
+		NOT = { has_global_flag = texan_formed_mexico }
 	}
 
 	mean_time_to_happen = {
@@ -658,6 +660,7 @@ country_event = {
 		tag = TEX
 		RGR = { war_with = MEX }
 		exists = RGR
+		NOT = { has_global_flag = texan_formed_mexico }
 	}
 
 	
@@ -712,6 +715,7 @@ country_event = {
 		war = no
 		RGR = { war = no }
 		exists = RGR
+		NOT = { has_global_flag = texan_formed_mexico }
 	}
 
 	
@@ -728,6 +732,53 @@ country_event = {
 			militancy = 4
 		}
 		TEX = { inherit = RGR } 
+	}
+		
+	
+}
+
+#Texas annexes mexico after defeating them
+country_event = {
+	id = 54499992
+	title = "EVTNAME54499992" 
+	desc = "EVTDESC54499992"
+	picture = "rosas_urquiza"
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TEX
+		exists = MEX
+		OR = {
+             TEX = { all_core = { owned_by = THIS } }
+			 2172 = { controlled_by = TEX }
+		}
+       NOT = { has_global_flag = texan_formed_mexico }
+	}
+
+	
+	
+	option = {
+		name = "EVTOPTA54499992A"
+		any_pop = {
+			limit = { culture = texan }
+			militancy = -8
+		}
+		
+		any_pop = {
+			limit = { culture = mexican }
+			militancy = 4
+		}
+		TEX = { inherit = MEX } 
+		prestige = 25
+		any_owned = { 
+		   limit = { is_core = MEX }
+		   add_core = THIS
+		}
+		change_tag = MEX
+		set_global_flag = texan_formed_mexico
 	}
 		
 	

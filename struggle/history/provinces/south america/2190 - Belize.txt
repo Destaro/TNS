@@ -1,6 +1,5 @@
 owner = VNS
 controller = VNS
-add_core = MEX
 
 
 trade_goods = fruit

@@ -15,6 +15,9 @@ country_event = {
 		name = "EVT999922OPTA"
 		prestige = 25
 		inherit = JAM
+		add_accepted_culture = afro_frankish
+		add_accepted_culture = caribeno
+		add_accepted_culture = afro_caribeno
 		change_tag = CRB
 		any_owned = {
 			limit = {
@@ -29,5 +32,23 @@ country_event = {
 		}
 		DOM = { all_core = { add_core = THIS } }
 		PRI = { all_core = { add_core = THIS } }
+		2219 = { add_core = THIS }
+		2223 = { add_core = THIS }
+		2226 = { add_core = THIS }
+		2236 = { add_core = THIS }
+		2227 = { add_core = THIS }
+		2225 = { add_core = THIS }
+		2224 = { add_core = THIS }
+		2230 = { add_core = THIS }
+		2232 = { add_core = THIS }
+		2228 = { add_core = THIS }
+		2231 = { add_core = THIS }
+		2409 = { add_core = THIS }
+		2233 = { add_core = THIS }
+		2229 = { add_core = THIS }
+		2238 = { add_core = THIS }
+		2237 = { add_core = THIS }
+		2234 = { add_core = THIS }
+		2218 = { add_core = THIS }
 	}
 }

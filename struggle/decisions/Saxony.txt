@@ -131,7 +131,6 @@ political_decisions = {
 		add_core = 684
 		add_core = 685
 		add_core = 688
-		add_core = 632
 		set_country_flag = integrate_silesia
 		
 		}
@@ -246,6 +245,7 @@ political_decisions = {
        }
         allow = {
 		year = 1860
+		is_greater_power = yes
 		war = no
 		GER = { all_core = { owned_by = THIS } }
 		NOT = {
@@ -323,10 +323,13 @@ political_decisions = {
 		is_greater_power = yes
 		state_n_government = 1
 		war = no
-		WES = { all_core = { owned_by = THIS } }
-		owns = 699 
+		OR = { 
+		 AND = { WES = { all_core = { owned_by = THIS } } }
+		 AND = { owns = 699  }                                                  
+		  }
 		
-		                 }    
+		} 
+		
 		effect = {
 		prestige = 10
 		add_accepted_culture = baltic_german

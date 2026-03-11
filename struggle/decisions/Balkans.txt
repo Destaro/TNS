@@ -228,7 +228,8 @@ political_decisions = {
 		potential = {
             OR = {
 			tag = CRO
-
+            tag = SLV
+			tag = POL
                        }
 			NOT = { exists = YUG }
 			NOT = { has_global_flag = yugoslavia_formed }
@@ -306,15 +307,21 @@ political_decisions = {
 		}
 
 		effect = {
-		        add_accepted_culture = slovak
+		     add_accepted_culture = slovak
 			 add_accepted_culture = croat
-		      
+		     add_accepted_culture = silesian
+			 add_accepted_culture = sorbian
 			set_global_flag = yugoslavia_formed
 			prestige = 20
 			all_core = { add_core = YUG }
 			SLV = { all_core = { add_core = YUG } }
 			CRO = { all_core = { add_core = YUG } }
 			PZN = { all_core = { add_core = YUG } }
+			POL = { all_core = { add_core = YUG } }
+			SLS = { all_core = { add_core = YUG } }
+			552 = { add_core = THIS }
+			687 = { add_core = THIS }
+			3512 = { add_core = THIS }
 			random_owned = {
 				limit = { owner = { accepted_culture = pannonian } }
 				owner = { remove_accepted_culture = pannonian }
@@ -325,6 +332,7 @@ political_decisions = {
 					
 					add_accepted_culture = croat
 					add_accepted_culture = slovak
+					add_accepted_culture = polish
 				}
 			}
 			change_tag = YUG
@@ -335,7 +343,8 @@ political_decisions = {
 						vassal_of = THIS
 					}
 					NOT = { OR = { primary_culture = slovak
-					               primary_culture = croat  } }
+					               primary_culture = croat
+                                   primary_culture = polish			   } }
 				}
 				any_owned = {
 					limit = { is_core = YUG }
@@ -347,6 +356,8 @@ political_decisions = {
 					OR = {
 						tag = CRO
 					    tag = SLV
+						tag = PZN
+						tag = POL
 					}
 					in_sphere = THIS
 					NOT = {
@@ -429,6 +440,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = reclamation_of_slovakia
 			SLV = { all_core = { add_core = THIS } }
+			add_accepted_culture = slovak
 		}
 		ai_will_do = { factor = 1 }
 	}
