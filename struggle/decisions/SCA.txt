@@ -298,6 +298,8 @@
 	prestige = 10
 	FIN = { all_core = { add_core = THIS } }
 	EST = { all_core = { add_core = THIS } }
+	2588 = { add_core = THIS }
+	993 = { add_core = THIS }
 	            }
 	}
 	
@@ -469,7 +471,9 @@
 	
 	year = 1860
 	war = no
-	   NOV = { vassal_of = THIS }
+	  OR = { NOV = { vassal_of = THIS } 
+	         owns = 1003
+	  }
 	  
 	is_greater_power = yes
 	
