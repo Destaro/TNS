@@ -3090,7 +3090,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA300081"
 		badboy = 1000
-		prestige 1000
+		prestige = 1000
 		set_country_flag = alexander_of_dust
 		any_pop = { limit = { NOT = { has_pop_culture = greek } } reduce_pop = 0 }
 		any_pop = { limit = { has_pop_culture = greek } reduce_pop = 0.7 }
