@@ -3090,7 +3090,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA300081"
 		badboy = 1000
-		prestige 1000
+		prestige = 1000
 		set_country_flag = alexander_of_dust
 		any_pop = { limit = { NOT = { has_pop_culture = greek } } reduce_pop = 0 }
 		any_pop = { limit = { has_pop_culture = greek } reduce_pop = 0.7 }
@@ -3159,7 +3159,7 @@ country_event = {
 	
 	#avoid because you're unprepared
 	option = {
-		name = "EVTOPTA309151"
+		name = "EVTOPTA300151"
 		prestige = -30
 		any_owned = {
             limit = {
@@ -3201,7 +3201,7 @@ country_event = {
 		}
 	#MANY KACHUSKAYANS ARE KILLED, THE ENTIRE ANATOLIAN COASTLINE GETS BYZANTINE CORES
 	option = {
-		name = "EVTOPTA309152"
+		name = "EVTOPTA300152"
 		prestige = 10
 		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.5 move_pop = 876 }
 		any_pop = { limit = { has_pop_culture = kurdish OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 move_pop = 876 }		
