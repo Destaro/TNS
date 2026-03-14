@@ -2339,7 +2339,7 @@ country_event = {
 		any_owned = { limit = { is_core = KSK } add_province_modifier = { name = exploitative_mining duration = -1 } }
 		871 = { trade_goods = coal }
 		867 = { trade_goods = iron }
-		868 = { trade_goods = sulfur }
+		868 = { trade_goods = sulphur }
 		876 = { trade_goods = precious_metal }
 		878 = { trade_goods = precious_metal }
 		3327 = { trade_goods = precious_metal }
@@ -2348,9 +2348,9 @@ country_event = {
 		3650 = { trade_goods = iron }
 		873 = { trade_goods = coal }
 		3649 = { trade_goods = iron }
-		894 = { trade_goods = sulfur }
-		3490 = { trade_goods = sulfur }
-		3485 = { trade_goods = sulfur }
+		894 = { trade_goods = sulphur }
+		3490 = { trade_goods = sulphur }
+		3485 = { trade_goods = sulphur }
 		any_pop = { limit = { has_pop_culture = kurdish pop_type = slaves } reduce_pop = 0.8 }
 		any_pop = { limit = { has_pop_culture = armenian pop_type = slaves } reduce_pop = 0.8 }
 		any_pop = { limit = { has_pop_culture = georgian pop_type = slaves } reduce_pop = 0.8 }
