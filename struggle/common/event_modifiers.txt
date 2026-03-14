@@ -3342,7 +3342,7 @@ byzantine_supremacy = {
 }
 exploitative_mining = {
 	population_growth = -0.01
-	rgo_output = 0.5
+	local_rgo_output = 0.5
 	pop_militancy_modifier = 0.1
 }
 hellenic_tract = {
