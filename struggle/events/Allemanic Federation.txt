@@ -13,9 +13,10 @@ country_event = {
 		NCT = { alliance_with = THIS }
 		OR = { is_greater_power = yes
                is_secondary_power = yes   }
+			   	BAD = { relation = { who = NCT value = 0 } }
 		NOT = {
 			exists = SGF
-			BAD = { relation = { who = NCT value = 0 } }
+		
 		}
 	}
 	
@@ -100,7 +101,7 @@ country_event = {
 		any_country = { 
 		     limit = { is_culture_group = italian }
 		     relation = { who = THIS value = -100 }
-		     country_event = 544676
+		     country_event = 544678
 		}
 		inherit = TST
 				ai_chance = {
@@ -123,17 +124,17 @@ country_event = {
 #Allemanic annexes trentino news to italians
 country_event = {
 
-	id = 544676
+	id = 544678
 
 	is_triggered_only = yes
 	
 	fire_only_once = yes
-	title = "EVTNAME544676"
-	desc = "EVTDESC544676"
+	title = "EVTNAME544678"
+	desc = "EVTDESC544678"
 	picture = "Mozart"
 
 	option = {
-		name = "EVTOPTA544676A" 
+		name = "EVTOPTA544678A" 
 		
 	}
 	

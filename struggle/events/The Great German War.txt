@@ -2,21 +2,21 @@
 #swabia annexes bavaria
 country_event = {
 
-	id = 544666
+	id = 54411666
 	
 	major = yes
 
-	trigger = {
+   trigger = {
 		tag = BAD
 		year = 1852
 		war = no
 		exists = BAV
-		OR = { is_greater_power = yes
-               is_secondary_power = yes   		}
+		BAD = { relation = { who = BAV value = 0 } }
 		NOT = {
 			exists = SGF
-			BAD = { relation = { who = BAV value = 0 } }
+			
 		}
+		
 	}
 	
 	fire_only_once = yes
@@ -37,14 +37,14 @@ country_event = {
 			relation = {
 			who = WES
 			value = -100 
-			
 		}
 		inherit = BAV
 		WES = { country_event = 5446666 }
-				ai_chance = {
+			
+		treasury = 100000
+		ai_chance = {
 			factor = 70
 		}
-		treasury = 100000
 	}
 	
 	option = {
@@ -146,7 +146,6 @@ country_event = {
 				}
 				add_core = SGF
 			}
-			change_tag = SGF
 			add_accepted_culture = allemanic
 			add_accepted_culture = franconian
 			add_accepted_culture = bavarian
@@ -512,7 +511,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA544674A" 
 		BAV = { all_core = { add_core = THIS } }
-		FER = { all_core = { add_core = THIS } }
+		FRE = { all_core = { add_core = THIS } }
 		change_tag = GER
 		add_accepted_culture = baltic_german
 		add_accepted_culture = low_saxon

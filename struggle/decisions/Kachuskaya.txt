@@ -175,7 +175,6 @@ political_decisions = {
 		potential = { 
 			tag = KSK 
 			NOT = { has_country_flag = look_to_the_north_ksk } 
-			ARM = { exists = no }        
 			KSK = { all_core = { owned_by = THIS } }
         }	   
 		
@@ -199,15 +198,13 @@ political_decisions = {
 
 	march_into_persia_ksk = {
 	
-        potential = {
-			PER = { ai = yes }		
+        potential = {	
 			tag = KSK 
 			has_country_flag = claim_the_armenians
 			has_country_flag = claim_assyria
 			NOT = { has_country_flag = march_into_persia_ksk }
-		     NOT = {	 exists = ARM 
-			             exists = ASY        }
-			KSK = { all_core = { owned_by = THIS } }
+		     NOT = { exists = ASY        }
+			
          }
 		 
 		allow = { 

@@ -739,9 +739,9 @@ province_event = {
 	
 	trigger = {
 	BER = { ai = yes }
-	BER = { exists = yes }
+	exists = BER
 	is_greater_power = yes
-	THIS = { is_sphere_leader_of = BER }
+	BER = { in_sphere = THIS }
 	state_n_government = 1
 	}
 	
@@ -755,6 +755,6 @@ province_event = {
 	
 	option = {
 		name = "EVT9712101OPTA"
-		BER = { annex_to = THIS }
+		inherit = BER
 	}
 }
