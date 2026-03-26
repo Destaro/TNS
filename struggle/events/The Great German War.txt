@@ -2,7 +2,7 @@
 #swabia annexes bavaria
 country_event = {
 
-	id = 54411666
+	id = 544666
 	
 	major = yes
 
@@ -224,7 +224,9 @@ country_event = {
 		war = no
 		owns = 595
 		exists = WEI
-		has_global_flag = franconia_is_allemani
+		OR = { has_global_flag = franconia_is_allemani 
+		       owns = 597
+		}
 		
 	}
 	

@@ -2261,9 +2261,7 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
 		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }		
 		TUN = { all_core = { add_core = BYZ } }
-		release_vassal = EGY
 		TUN = { civilized = no }
-		inherit = TUN
 		3366 = { trade_goods = tobacco }
 		1725 = { trade_goods = opium }
 		1728 = { trade_goods = tea }
@@ -2323,7 +2321,6 @@ country_event = {
 		owns = 866
 		owns = 873
 		owns = 875
-		owns = 879
 		owns = 889
 		owns = 882
 		owns = 879

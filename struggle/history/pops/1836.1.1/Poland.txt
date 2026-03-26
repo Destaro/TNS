@@ -942,25 +942,25 @@
 #Danzig (76000/19000 POPS) 
 690 = {
 	aristocrats = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 375
 	}
 
 	officers = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 200 
 	}
 
 	clergymen = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 75  
 	}
@@ -969,6 +969,12 @@
 		culture = baltic_german
 		religion = protestant
 		size = 9500
+	}
+	
+	artisans = {
+		culture = pruski
+		religion = protestant
+		size = 3500
 	}
 
 	soldiers = {
@@ -983,7 +989,13 @@
 		size = 1100
 	}
 	
-		farmers = {
+	farmers = {
+		culture = pruski
+		religion = protestant
+		size = 7425 
+	}
+	
+	farmers = {
 		culture = baltic_german
 		religion = protestant
 		size = 275
@@ -1028,13 +1040,13 @@
 #Tuchel (180000/45000 POPS) 
 691 = {
 	aristocrats = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 800
 	}
 
 	clergymen = {
-		culture = baltic_german
+		culture = pruski
 		religion = protestant
 		size = 250  
 	}
@@ -1049,6 +1061,12 @@
 		culture = baltic_german
 		religion = protestant
 		size = 23825
+	}
+	
+	farmers = {
+		culture = pruski
+		religion = protestant
+		size = 13825
 	}
 
 		clergymen = {
@@ -1191,6 +1209,12 @@
 		culture = pruski
 		religion = protestant
 		size = 1000
+	}
+	
+	farmers = {
+		culture = pruski
+		religion = protestant
+		size = 24425 
 	}
 
 	farmers = {
@@ -3230,19 +3254,25 @@
 #Suwalki (196000/49000 POPS)
 707 = {
 	aristocrats = {
-		culture = polish
+		culture = pruski
 		religion = catholic
 		size = 1150
 	}
 
 	clergymen = {
-		culture = polish
+		culture = pruski
 		religion = catholic
 		size = 375
 	}
 
 	artisans = {
 		culture = polish
+		religion = catholic
+		size = 1900
+	}
+	
+	artisans = {
+		culture = pruski
 		religion = catholic
 		size = 1900
 	}
@@ -3257,6 +3287,12 @@
 		culture = polish
 		religion = catholic
 		size = 50625
+	}
+	
+	farmers = {
+		culture = pruski
+		religion = catholic
+		size = 20625
 	}
 	
 	serfs = {

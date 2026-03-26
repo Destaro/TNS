@@ -543,9 +543,9 @@ country_event = {
 
 #Oman gets offer to sell indian and persian ports
 country_event = {
-	id = 444411119
-	title = "EVTNAME444411119" 
-	desc = "EVTDESC444411119"
+	id = 4444119
+	title = "EVTNAME4444119" 
+	desc = "EVTDESC4444119"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -554,23 +554,17 @@ country_event = {
 
 	#they accept
 	option = {
-		name = "EVTOPTA444411119A"
+		name = "EVTOPTA4444119A"
 	WHA = { country_event = 44441191 } 
 	treasury = 100000
-	any_owned = { 
-	    limit = { OR = {  province_id = 1303  
-		                  province_id = 3422   
-                          province_id = 1136	
- 						  province_id = 1071  } }
-	  secede_province = FROM 
-	                        }
+	
 	  
 		ai_chance = { factor = 75 }
 	}
 	
 	#they refuse
 	option = {
-		name = "EVTOPTA444411119B"
+		name = "EVTOPTA4444119B"
 	WHA = { country_event = 44441192 } 
 		ai_chance = { factor = 25 }
 	}
@@ -592,9 +586,12 @@ country_event = {
     major = yes
 		
 	option = {
-		name = "EVTOPTA44441191"
+		name = "EVTOPTA44441191A"
 	treasury = -100000
-	
+	1303 = { secede_province = THIS }
+    1071 = { secede_province = THIS }
+	1136 = { secede_province = THIS }
+	3422 = { secede_province = THIS }
 	relation = {
 	who = OMA
 	value = 150

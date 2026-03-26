@@ -1057,6 +1057,7 @@ picture = russify_baltic_states
 			}
 			NOT = { has_country_flag = caucasus_viceroyalty_established 
 			 exists = ALN
+			 has_country_flag = claim_the_southern_khanates
 			}
 			
 			TCA = { ai = yes }

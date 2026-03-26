@@ -68,6 +68,7 @@ political_decisions = {
 					  ALB = { all_core = { add_core = THIS } }
 					  DLM = { all_core = { add_core = THIS } }
 					  AUS = { all_core = { add_core = THIS } }
+					  BOS = { all_core = { add_core = THIS } }
 					  678 = { add_core = THIS }
 					  676 = { add_core = THIS }
 					  969 = { add_core = THIS }

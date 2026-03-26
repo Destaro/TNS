@@ -69,9 +69,77 @@ country_event = {
 				secede_province = LIT
 				add_core = LIT
 				}
+				badboy = -5
+		        ai_chance = { factor = 15 }
 			}
-		badboy = -5
-		ai_chance = { factor = 15 }
+		
+	   }
+	   
+#western revolts without lithuania
+country_event = {
+
+	id = 777101
+	title = "EVTNAME777101" #westernrevolts
+	desc = "EVTDESC777101"
+	picture = "danishgovernment"
+	fire_only_once = yes
+	
+	trigger = {
+	 NOT = { LIT = { vassal_of = BUL} }
+	PRD = { vassal_of = BUL}
+	tag = BUL
+    OR = { AND = { year = 1848  ai = no }
+	       AND = { year = 1842  ai = yes }       
+	                          }
+	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+    
+	#fight to keep the west
+	option = {
+		name = "EVTOPTB777101A" #westernrevolts
+		release_vassal = PRD
+		prestige = 10
+		set_global_flag = western_revolts_bolkania
+		PRD = { government = prussian_constitutionalism }
+	    
+		PRD = {
+               war = {
+	           target = BUL
+	           attacker_goal = { casus_belli = unification_GP_humiliate }
+	           defender_goal = { casus_belli = make_puppet }
+	       }
+        }
+		   
+	    
+		   
+		   ai_chance = { factor = 85 }
+       }
+	   
+	   #give up
+	   option = { 
+	   name = "EVTOPTA777101B" #westernrevolts
+	   prestige = -15
+	   release_vassal = PRD
+	   PRD = { government = prussian_constitutionalism }
+	   any_owned = {
+				limit = {
+					OR = { is_core = PRD
+						
+					}
+				}
+				remove_core = PRD
+				secede_province = PRD
+				add_core = PRD
+				}
+			badboy = -5
+		    ai_chance = { factor = 15 }	
+				
+			}
+		
 	   }
 
 
@@ -220,6 +288,11 @@ country_event = {
 	   option = { 
 	   name = "EVTOPTA777100A" #goodbye port
 	   prestige = -10
+	  996 = { remove_core = THIS }
+	  1003 = { remove_core = THIS }
+	  994 = { remove_core = THIS }
+	  2580 = { remove_core = THIS }
+	  1004 = { remove_core = THIS }
 	   any_owned = { 
 		     limit = { OR = { is_core = LIT is_core = NOV } }
 		     remove_core = BUL
