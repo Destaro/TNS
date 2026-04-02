@@ -27,7 +27,7 @@ army = {
 	
 	regiment = {
 		name= "3rd Chengde Jalan"
-		type = irregular
+		type = infantry
 		home = 1480
 	}
 
@@ -39,7 +39,7 @@ army = {
 
 	regiment = {
 		name= "4th Chengde Jalan"
-		type = irregular
+		type = infantry
 		home = 1480
 	}
 }
@@ -50,7 +50,7 @@ army = {
 
 	regiment = {
 		name= "2nd Mukden Jalan"
-		type = irregular
+		type = infantry
 		home = 1479
 	}
 
@@ -62,7 +62,7 @@ army = {
 
 	regiment = {
 		name= "3rd Qiqihar Jalan"
-		type = irregular
+		type = infantry
 		home = 1552
 	}
 }
@@ -74,55 +74,55 @@ army = {
 
 	regiment = {
 		name= "1st Jirim Jalan"
-		type = irregular
+		type = artillery
 		home = 1533
 	}
 
 	regiment = {
 		name= "1st Manzhouli Jalan"
-		type = irregular
+		type = artillery
 		home = 1002
 	}
 
 	regiment = {
 		name= "1st Qiqihar Jalan"
-		type = irregular
+		type = artillery
 		home = 1552
 	}
 
 	regiment = {
 		name= "2nd Qiqihar Jalan"
-		type = irregular
+		type = infantry
 		home = 1552
 	}
 
 	regiment = {
 		name= "1st Jilin Jalan"
-		type = irregular
+		type = infantry
 		home = 1555
 	}
 
 	regiment = {
 		name= "1st Ninguta Jalan"
-		type = irregular
+		type = infantry
 		home = 1554
 	}
 
 	regiment = {
 		name = "2nd Ninguta Jalan"
-		type = irregular
+		type = infantry
 		home = 1554
 	}
 
 	regiment = {
 		name= "1st Aigun Jalan"
-		type = irregular
+		type = infantry
 		home = 1553
 	}
 
 	regiment = {
 		name= "1st Ulusamudan Jalan"
-		type = irregular
+		type = infantry
 		home = 1085
 	}
 }
@@ -133,37 +133,37 @@ army = {
 
 	regiment = {
 		name= "1st Chengde Jalan"
-		type = irregular
+		type = artillery
 		home = 1534
 	}
 
 	regiment = {
 		name= "2nd Chengde Jalan"
-		type = irregular
+		type = artillery
 		home = 1532
 	}
 
 	regiment = {
 		name= "1st Jinzhou Jalan"
-		type = irregular
+		type = infantry
 		home = 1532
 	}
 
 	regiment = {
 		name= "1st Lushun Jalan"
-		type = irregular
+		type = infantry
 		home = 1535
 	}
 
 	regiment = {
 		name= "1st Mukden Jalan"
-		type = irregular
+		type = infantry
 		home = 1535
 	}
 
 	regiment = {
 		name= "2nd Mukden Jalan"
-		type = irregular
+		type = infantry
 		home = 1535
 	}
 }
