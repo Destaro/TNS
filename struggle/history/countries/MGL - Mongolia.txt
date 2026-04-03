@@ -1,16 +1,16 @@
 capital = 1468
-primary_culture = tatar
+primary_culture = mongol
 culture = manchu
 culture = kazak
-culture = mongol
+culture = tatar
 culture = beifaren
 religion = gelugpa
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.1
 non_state_culture_literacy = 0.01 #Chinese
-prestige = 1
+prestige = 30
 oob = "MGL_oob.txt"
 
 # Political reforms
@@ -56,7 +56,22 @@ upper_house = {
 	communist = 0
 }
 
-# Inventions
+foreign_weapons = yes_foreign_weapons
+army_schools = yes_army_schools
+foreign_artillery = yes_foreign_artillery
+land_reform = yes_land_reform
+education_reform = yes_education_reform
+finance_reform = yes_finance_reform
+
+#Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+freedom_of_trade = 1
+guild_based_production = 1
+malthusian_thought = 1
 
 # Starting Consciousness
 consciousness = 2
