@@ -343,11 +343,14 @@
 	
 	integrate_livonia = {
 	potential = {
+	has_country_flag = integrate_finland_and_estonia 
 	OR = {
 	tag = SCA
 	tag = SWE
 	        }
-	NOT = { has_country_flag = integrate_livonia }
+	NOT = { has_country_flag = integrate_livonia 
+	        has_country_flag = integrate_finland
+	}
 	      OR = {                                         
 	      IZH = { vassal_of = THIS }
 		  LAT = { vassal_of = THIS }
@@ -356,10 +359,9 @@
 		  }
 		  
 	allow = {
-	OR = {
-	has_country_flag = integrate_finland
-	has_country_flag = integrate_finland_and_estonia 
-	            }
+	OR = { exists = IZH 
+	       exists = LAT
+	}
 	nationalism_n_imperialism = 1
 	year = 1855
 	war = no
@@ -771,7 +773,11 @@ restore_the_baltic = {
                       province_id = 74
                       province_id = 251
                       province_id = 203
-                      province_id = 2636   }			        
+                      province_id = 2636 
+					  province_id = 2219
+					  province_id = 203
+                      is_core = DOM		
+                      is_core = PRI					  }			        
                     	}
 		 secede_province = VIN
          add_core = VIN		 

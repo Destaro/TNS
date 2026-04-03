@@ -8,7 +8,9 @@ country_event = {
 
    trigger = {
 		tag = BAD
-		year = 1852
+		OR = { year = 1852 
+		 BAV = { in_sphere = THIS }
+		}
 		war = no
 		exists = BAV
 		BAD = { relation = { who = BAV value = 0 } }
@@ -163,7 +165,9 @@ country_event = {
 
 	trigger = {
 		tag = SGF
-		year = 1858
+		OR = { year = 1858 
+		  FRE = { in_sphere = THIS }
+		}
 		war = no
 		exists = FRE
 		NOT = { exists = BAV } 
@@ -220,7 +224,10 @@ country_event = {
 
 	trigger = {
 		tag = SGF
-		year = 1858
+		OR = { year = 1858
+		 WEI = { in_sphere = THIS }
+		}
+		
 		war = no
 		owns = 595
 		exists = WEI

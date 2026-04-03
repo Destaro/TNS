@@ -220,7 +220,7 @@ BEL_387 = { 379 380 387 390 391 3372 378 } #Brabant
 
 BEL_394 = { 394 392 404 3562 } #Wallonia
 
-BEL_395 = { 381 577 576 } #Mastrig
+BEL_395 = {  } #Mastrig
 
 FRA_400 = { 400 399 393 388 389 } #Flanders
 
@@ -241,7 +241,7 @@ FRA_432 = { 432 3551 3553 } #Franche-Comté
 
 FRA_412 = { 409 410 571 604 3563 3254 570 } #Alsace-Lorraine
 
-PRU_575 = { 575 572 574 3378 } #Rheinland
+PRU_575 = { 575 572 574 3378 381 577 576 } #Rheinland
 
 #PRU_576 = { 576 } #Aken
 

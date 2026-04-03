@@ -553,4 +553,46 @@ form_vinland_federation = {
 		          }
 	}
 	
+	the_purchase_of_hispaniola = {
+	   potential = {
+
+       NOT = { has_country_flag = the_purchase_of_hispaniola
+               has_global_flag = hispaniola_purchased
+               has_country_flag = franks_refused_hispaniola
+               OR = { ULA = { vassal_of = ORL }    
+                      ULA = { vassal_of = FRC } }	 
+                                      					  }	   
+	   OR = { 
+	   tag = AVA
+	   tag = VIN
+	   tag = ULA
+	   tag = CAN
+	   tag = QUE 
+	   tag = USA
+	   tag = WHA
+	   tag = CEL
+	   tag = SCA
+	   tag = TLD
+	   tag = IBR
+	   tag = BSQ
+	   }
+	   
+			   
+	OR = {   200 = { owned_by = ORL  }
+	         200 = { owned_by = FRC  }     }
+	                  }
+	   
+	   allow = {
+	   year = 1845
+	   is_greater_power = yes
+	   war = no
+	   money = 1000000
+		             }
+		 
+	   effect = {
+         set_country_flag = the_purchase_of_hispaniola
+		 2220 = { owner = { country_event = 22227722  } }
+		          }
+	}
+	
 }

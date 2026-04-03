@@ -1,0 +1,81 @@
+#the franks get offered to sell hispaniola
+country_event = {
+	id = 22227722
+	title = "EVTNAME22227722" 
+	desc = "EVTDESC22227722"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    #they accept
+	option = {
+		name = "EVTOPTA22227722A"
+	FROM = { country_event = 22227723 } 
+	treasury = 1000000
+		ai_chance = { factor = 75 }
+	}
+	
+	#they refuse
+	option = {
+		name = "EVTOPTA22227722B"
+	FROM = { country_event = 22227724 } 
+		ai_chance = { factor = 25 }
+	}
+		
+	
+}
+
+#The franks accepts
+country_event = {
+	id = 22227723
+	title = "EVTNAME22227723" 
+	desc = "EVTDESC22227723"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    major = yes
+		
+	option = {
+		name = "EVTOPTA22227723A"
+	treasury = -1000000
+	2220 = { secede_province = THIS }
+	2216 = { secede_province = THIS }
+	2214 = { secede_province = THIS }
+	2215 = { secede_province = THIS }
+	2213 = { secede_province = THIS }
+	2220 = { secede_province = THIS }
+	2219 = { secede_province = THIS }
+	2222 = { secede_province = THIS }
+	2223 = { secede_province = THIS }
+	2226 = { secede_province = THIS }
+	2236 = { secede_province = THIS }
+	set_global_flag = hispaniola_purchased
+	}
+		
+}
+
+#The franks refuse
+country_event = {
+	id = 22227724
+	title = "EVTNAME22227724" 
+	desc = "EVTDESC22227724"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+		
+	option = {
+		name = "EVTOPTA22227724A"
+	set_country_flag = franks_refused_hispaniola
+	}
+		
+}

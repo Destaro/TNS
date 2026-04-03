@@ -23,13 +23,7 @@ political_decisions = {
 				}
 			
 			PRD = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
+				vassal_of = THIS
 			 }
 			
 			
@@ -55,17 +49,11 @@ integrate_the_lithuanians = {
 			   }
 	      
 		  allow = {
-		   is_greater_power = yes
 		   war = no
 		   state_n_government = 1
 		 	LIT = {
-				all_core = {
-					OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
-					owner = { vassal_of = THIS }
-					}
-				}
+				vassal_of = THIS
+				
 			}
 
 	      }

@@ -1,0 +1,221 @@
+# the revenge of kuchaskaya
+country_event = {
+	id = 822001
+	title = "EVTNAME822001"
+	desc = "EVTDESC822001"
+	picture = "food_shortage"
+
+	is_triggered_only = yes
+	
+	major = yes
+		
+	
+	option = {
+		name = "EVT822001OPTA"
+		militancy = 3
+	}
+}
+
+#our destiny lies east
+country_event = {
+	id = 822002
+	title = "EVTNAME822002"
+	desc = "EVTDESC822002"
+	picture = "food_shortage"
+
+	is_triggered_only = yes
+	
+	major = yes
+		
+	
+	option = {
+		name = "EVT822002OPTA"
+		militancy = -3
+	}
+}
+
+#randomly gives bedouin accepted to kachuskaya
+country_event = {
+	id = 822003
+	title = "EVTNAME822003"
+	desc = "EVTDESC822003"
+	picture = "food_shortage"
+
+	trigger = { 
+	nationalism_n_imperialism = 1
+	tag = KSK
+	 year = 1850
+	 owns = 3324
+	 owns = 911
+	 owns = 3279
+	 owns = 3363
+	}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 36 }
+	
+	option = {
+		name = "EVT822003OPTA"
+		add_accepted_culture = bedouin
+		prestige = 1
+	}
+}
+
+#The europeans receive news of the fall of constantinople, again
+
+country_event = {
+	id = 822004
+	title = "EVTNAME822004" 
+	desc = "EVTDESC822004"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = { 
+	tag = KSK
+	year = 1870
+	owns = 860
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	#scandinavia and frankia are angry
+	option = {
+		name = "EVTOPTA822004A"
+		set_global_flag = the_second_fall_of_constantinople
+	
+	}
+	
+}
+
+#the gps decide what to do
+country_event = {
+	id = 444411144
+	title = "EVTNAME444411144" 
+	desc = "EVTDESC444411144"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	
+	trigger = { 
+	capital_scope = { continent = europe }
+	has_global_flag = the_second_fall_of_constantinople
+	}
+	
+	mean_time_to_happen = {
+		days = 200
+	}
+
+	#demand the celts leave
+	option = {
+		name = "EVTOPTA444411144A"
+		1352 = { owner = { country_event = 444411145 } }
+		ai_chance = { factor = 75 }
+	}
+	
+	#leave them be
+	option = {
+		name = "EVTOPTA444411144B"
+	    prestige = -30
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#the celts decide how to respond
+country_event = {
+	id = 444411145
+	title = "EVTNAME444411145" 
+	desc = "EVTDESC444411145"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+
+	#refuse
+	option = {
+		name = "EVTOPTA444411145A"
+	    set_global_flag = the_celts_hold_malacca
+		FROM = { country_event = 444411146 }
+		ai_chance = { factor = 75 }
+	}
+	
+	#give in
+	option = {
+		name = "EVTOPTA444411145B"
+	    prestige = -50
+		any_owned = {
+		limit = { is_core = PHG }
+		secede_province = PHG
+		}
+		set_global_flag = the_celts_abandon_malacca
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#the celts refuse
+country_event = {
+	id = 444411146
+	title = "EVTNAME444411146" 
+	desc = "EVTDESC444411146"
+	picture = "rosas_urquiza"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+
+	#to war!
+	option = {
+		name = "EVTOPTA444411146A"
+		FROM = { country_event = 444411147 }
+		 war = {
+                target = FROM
+                
+				attacker_goal = {
+                    casus_belli = liberate_country_any
+					country = PHG
+                                                 }
+                defender_goal = { 
+				    casus_belli = unification_GP_humiliate
+                                 		       }
+                   }
+		
+		ai_chance = { factor = 75 }
+	}
+	
+	#back down
+	option = {
+		name = "EVTOPTA444411146B"
+	    prestige = -50
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+#either the franks or scandinavians invade
+country_event = {
+	id = 444411147
+	title = "EVTNAME444411147" 
+	desc = "EVTDESC444411147"
+	picture = "rosas_urquiza"
+	
+	is_triggered_only = yes
+	
+
+	#war is upon us
+	option = {
+		name = "EVTOPTA444411147A"
+	    
+	}
+	
+}

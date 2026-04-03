@@ -41,7 +41,6 @@ claim_all_peru_lpl = {
 		
 		effect = {
 			prestige = 25
-			add_accepted_culture = south_andean
 			set_country_flag = the_guarani_lpl
 			badboy = 10
 			BOL = { all_core = { add_core = THIS } }

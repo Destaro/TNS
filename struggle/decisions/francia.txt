@@ -201,7 +201,7 @@ reclaim_ocitania = {
 		}
 		
 		effect = {
-	    badboy = 10
+	    badboy = 25
 		set_country_flag = demand_the_return_of_the_colonies
 		ULA = { country_event = 9006005 }
 		GCO = { country_event = 9006005 }

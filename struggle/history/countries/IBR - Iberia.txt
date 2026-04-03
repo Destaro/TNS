@@ -1,9 +1,8 @@
 capital = 487
-primary_culture = spanish
-culture = catalan
+primary_culture = visigothic
+culture = suebi
 culture = basque
-culture = portuguese
-culture = galician
+culture = vandalic
 religion = catholic
 government = hms_government
 plurality = 0.0

@@ -16,6 +16,8 @@ core_urelia_gco = {
 		effect = {
 		   set_country_flag = core_urelia_gco
 		   PEU = { all_core = { add_core = THIS } }
+		   2549 = { add_core = THIS }
+		   2321 = { add_core = THIS }
 		   prestige = 10
 		}
 	}
