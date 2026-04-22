@@ -62,7 +62,7 @@ country_event = {
 	}
 }
 
-#The europeans receive news of the fall of constantinople, again
+#the second fall of constantinople
 
 country_event = {
 	id = 822004
@@ -84,7 +84,7 @@ country_event = {
 		days = 100
 	}
 
-	#scandinavia and frankia are angry
+	#the euros are angry
 	option = {
 		name = "EVTOPTA822004A"
 		set_global_flag = the_second_fall_of_constantinople
@@ -93,11 +93,11 @@ country_event = {
 	
 }
 
-#the gps decide what to do
+#The europeans receive news of the fall of constantinople, again
 country_event = {
-	id = 444411144
-	title = "EVTNAME444411144" 
-	desc = "EVTDESC444411144"
+	id = 822005
+	title = "EVTNAME822005" 
+	desc = "EVTDESC822005"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -112,27 +112,28 @@ country_event = {
 		days = 200
 	}
 
-	#demand the celts leave
+	#demand the kurds leave
 	option = {
-		name = "EVTOPTA444411144A"
-		1352 = { owner = { country_event = 444411145 } }
+		name = "EVTOPTA822005A"
+		1352 = { owner = { country_event = 822006 } }
 		ai_chance = { factor = 75 }
+		set_country_flag = part_of_anti_kachuskayan_coalition
 	}
 	
 	#leave them be
 	option = {
-		name = "EVTOPTA444411144B"
+		name = "EVTOPTA822005B"
 	    prestige = -30
 		ai_chance = { factor = 25 }
 	}
 	
 }
 
-#the celts decide how to respond
+#the kurds decide how to respond
 country_event = {
-	id = 444411145
-	title = "EVTNAME444411145" 
-	desc = "EVTDESC444411145"
+	id = 822006
+	title = "EVTNAME822006" 
+	desc = "EVTDESC822006"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -142,31 +143,32 @@ country_event = {
 
 	#refuse
 	option = {
-		name = "EVTOPTA444411145A"
-	    set_global_flag = the_celts_hold_malacca
-		FROM = { country_event = 444411146 }
+		name = "EVTOPTA822006A"
+	    set_global_flag = kachuskaya_hold_constantinople
+		FROM = { country_event = 822007 }
 		ai_chance = { factor = 75 }
 	}
 	
 	#give in
 	option = {
-		name = "EVTOPTA444411145B"
+		name = "EVTOPTA822006B"
+		FROM = { country_event = 822009 }
 	    prestige = -50
 		any_owned = {
-		limit = { is_core = PHG }
-		secede_province = PHG
+		limit = { is_core = BYZ }
+		secede_province = BYZ
 		}
-		set_global_flag = the_celts_abandon_malacca
+		set_global_flag = the_kurds_abandon_constantinople
 		ai_chance = { factor = 25 }
 	}
 	
 }
 
-#the celts refuse
+#kachuskaya refuses
 country_event = {
-	id = 444411146
-	title = "EVTNAME444411146" 
-	desc = "EVTDESC444411146"
+	id = 822007
+	title = "EVTNAME822007" 
+	desc = "EVTDESC822007"
 	picture = "rosas_urquiza"
 	
 	fire_only_once = yes
@@ -176,14 +178,14 @@ country_event = {
 
 	#to war!
 	option = {
-		name = "EVTOPTA444411146A"
-		FROM = { country_event = 444411147 }
+		name = "EVTOPTA822007A"
+		FROM = { country_event = 822008 }
 		 war = {
                 target = FROM
                 
 				attacker_goal = {
                     casus_belli = liberate_country_any
-					country = PHG
+					country = BYZ
                                                  }
                 defender_goal = { 
 				    casus_belli = unification_GP_humiliate
@@ -195,18 +197,18 @@ country_event = {
 	
 	#back down
 	option = {
-		name = "EVTOPTA444411146B"
+		name = "EVTOPTA822007B"
 	    prestige = -50
 		ai_chance = { factor = 25 }
 	}
 	
 }
 
-#either the franks or scandinavians invade
+#the second great kachuskayan invasion
 country_event = {
-	id = 444411147
-	title = "EVTNAME444411147" 
-	desc = "EVTDESC444411147"
+	id = 822008
+	title = "EVTNAME822008" 
+	desc = "EVTDESC822008"
 	picture = "rosas_urquiza"
 	
 	is_triggered_only = yes
@@ -214,7 +216,26 @@ country_event = {
 
 	#war is upon us
 	option = {
-		name = "EVTOPTA444411147A"
+		name = "EVTOPTA822008A"
+	    
+	}
+	
+}
+
+
+#the kurds abandon constantinople
+country_event = {
+	id = 822009
+	title = "EVTNAME822009" 
+	desc = "EVTDESC822009"
+	picture = "rosas_urquiza"
+	
+	is_triggered_only = yes
+	
+
+	#yey
+	option = {
+		name = "EVTOPTA822009A"
 	    
 	}
 	
