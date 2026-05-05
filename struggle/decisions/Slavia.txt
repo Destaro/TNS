@@ -58,7 +58,16 @@ picture = russify_baltic_states
 				}
 			}
 			
-			THIS = { all_core = { owned_by = THIS } }
+			THIS = { 
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				} 
+			}
         }
 
         effect = {
