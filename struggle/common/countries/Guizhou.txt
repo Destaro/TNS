@@ -1,4 +1,5 @@
 color = { 130 88 47 }
+autonomous_dependency = { 46  139  87 }
 graphical_culture = ChineseGC
 
 party = {

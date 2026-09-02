@@ -1,4 +1,5 @@
 color = { 147 112 219 }
+autonomous_dependency = { 46  139  87 }
 graphical_culture = MiddleEasternGC
 
 party = {
