@@ -322,9 +322,9 @@ country_event = {
 				owner = { change_variable = { which = owed_cash_money value = 100 } }
 			}
 		}
-		random_owned = {
-			limit = { province_id = 3783 }
-			state_scope = { any_owned = { secede_province = FROM } }
+		any_owned = {
+			limit = { province_id = 3792 }
+		    secede_province = FROM  
 		}
 		
 		
