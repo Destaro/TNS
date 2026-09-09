@@ -1,6 +1,6 @@
-owner = UZB
-controller = UZB
-add_core = UZB
+owner = KAZ
+controller = KAZ
+add_core = KAZ
 add_core = AFS
 terrain = desert
 trade_goods = fish

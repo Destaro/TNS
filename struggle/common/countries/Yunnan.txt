@@ -1,4 +1,5 @@
 color = { 233 199 121 }
+autonomous_dependency = { 46  139  87 }
 #color = { 235  255  50 }
 graphical_culture = ChineseGC
 

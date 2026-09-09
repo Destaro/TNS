@@ -1,6 +1,7 @@
 color = { 255  214  154 }
 dominion = { 127 78 75 }
 colonial_company = { 127 78 75 }
+autonomous_dependency = { 46  139  87 }
 graphical_culture = ChineseGC
 
 party = {
