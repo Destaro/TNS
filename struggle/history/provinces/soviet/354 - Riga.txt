@@ -19,3 +19,4 @@ state_building = {
 		upgrade = yes
 	} 
 }
+add_core = EST`
