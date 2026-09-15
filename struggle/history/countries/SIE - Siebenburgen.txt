@@ -1,6 +1,5 @@
 capital = 657
 primary_culture = pannonian
-culture = croat
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
