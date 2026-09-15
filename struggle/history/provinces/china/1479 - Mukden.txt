@@ -1,6 +1,5 @@
-owner = KOR
-controller = KOR
-add_core = QNG
+owner = MGL
+controller = MGL
 add_core = CHI
 add_core = MCK
 trade_goods = timber
@@ -8,4 +7,3 @@ life_rating = 32
 
 
 add_core = MGL
-add_core = KOR

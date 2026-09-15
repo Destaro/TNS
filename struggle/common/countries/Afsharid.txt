@@ -1,6 +1,7 @@
 color = { 136  157  23 }
 colonial_company = { 163  115  66 }
 dominion = { 163  115  66 }
+autonomous_dependency = { 46  139  87 }
 graphical_culture = MiddleEasternGC
 
 party = {
