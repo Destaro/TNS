@@ -2243,14 +2243,13 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		owns = 1725
-		owns = 1728
 		}
 	#CARTHAGO DELENDA EST IS VERY MUCH REMEMBERED - THE RAPE OF CARTHAGE WILL NEVER BE RECOVERED FROM
 	option = {
 		name = "EVTOPTA300058"
 		prestige = 50
 		TUN = { all_core = { add_core = BYZ } }
-		release_vassal = EGY
+		release_vassal = TUN
 		TUN = { civilized = no }
 		inherit = TUN
 		any_pop = { limit = { has_pop_culture = punic OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.1 pop_type = slaves }
@@ -2259,9 +2258,10 @@ country_event = {
 		any_pop = { limit = { has_pop_culture = tuareg } pop_type = aristocrats move_pop = 1725 }
 		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.1 pop_type = slaves }
 		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
-		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }		
-		TUN = { all_core = { add_core = BYZ } }
-		TUN = { civilized = no }
+		any_pop = { limit = { has_pop_culture = phoenecoberber OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }	
+		any_pop = { limit = { has_pop_culture = african_romance OR = { pop_type = farmers pop_type = serfs pop_type = labourers } } reduce_pop = 0.1 pop_type = slaves }
+		any_pop = { limit = { has_pop_culture = african_romance OR = { pop_type = aristocrats pop_type = capitalists } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }
+		any_pop = { limit = { has_pop_culture = african_romance OR = { pop_type = bureaucrats pop_type = clergymen } } reduce_pop = 0.01 pop_type = slaves move_pop = 876 }			
 		3366 = { trade_goods = tobacco }
 		1725 = { trade_goods = opium }
 		1728 = { trade_goods = tea }
@@ -2321,6 +2321,7 @@ country_event = {
 		owns = 866
 		owns = 873
 		owns = 875
+		owns = 879
 		owns = 889
 		owns = 882
 		owns = 879
