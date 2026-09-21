@@ -1,6 +1,8 @@
-owner = NKG
-controller = NKG
-add_core = NKG
+owner = HOJ
+controller = HOJ
+
 trade_goods = fruit
 terrain = dryhills
 life_rating = 35
+
+add_core = HOJ

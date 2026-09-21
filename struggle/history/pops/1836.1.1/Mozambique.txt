@@ -298,43 +298,49 @@
 	aristocrats = {
 		culture = Pauperes
 		religion = catholic
-		size = 100
+		size = 300
 	}
 
 	clergymen = {
 		culture = Pauperes
 		religion = catholic
-		size = 100
+		size = 500
 	}
 
 	artisans = {
 		culture = Pauperes
 		religion = catholic
-		size = 100
+		size = 4100
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = catholic
-		size = 450
+		size = 2450
 	}
 	
 	farmers = {
 		culture = Pauperes
 		religion = catholic
-		size = 5000
+		size = 35000
 	}
 
 	aristocrats = {
-		culture = shona
+		culture = Pauperes
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = shona
+		culture = Pauperes
 		religion = animist
 		size = 150
+	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
 	}
 
 	artisans = {
@@ -426,7 +432,7 @@
 	aristocrats = {
 		culture = Pauperes
 		religion = catholic
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
@@ -438,29 +444,35 @@
 	artisans = {
 		culture = Pauperes
 		religion = catholic
-		size = 1125
+		size = 4125
+	}
+	
+		craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = catholic
-		size = 1100
+		size = 3100
 	}
 	
 	farmers = {
 		culture = Pauperes
 		religion = catholic
-		size = 20200
+		size = 40200
 	}
 
 	aristocrats = {
-		culture = sena
+		culture = Pauperes
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = sena
+		culture = Pauperes
 		religion = animist
 		size = 125
 	}
@@ -502,13 +514,13 @@
 	}
 
 	aristocrats = {
-		culture = nyasa
+		culture = Pauperes
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = nyasa
+		culture = Pauperes
 		religion = animist
 		size = 100
 	}
@@ -661,22 +673,28 @@
 		size = 400
 	}
 
+craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
+	}
+
 	artisans = {
 		culture = Pauperes
 		religion = protestant
-		size = 2000
+		size = 5000
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = protestant
-		size = 2450
+		size = 6450
 	}
 
    farmers = {
 		culture = Pauperes
 		religion = protestant
-		size = 25700
+		size = 55700
 	}
 	
 	farmers = {
@@ -694,17 +712,29 @@
 #Zombo (104000/26000 POPS)
 2056 = {
 	aristocrats = {
-		culture = nyasa
-		religion = animist
+		culture = Pauperes
+		religion = catholic
 		size = 400
+	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
 	}
 
 	clergymen = {
-		culture = nyasa
-		religion = animist
-		size = 100
+		culture = Pauperes
+		religion = catholic
+		size = 400
 	}
 
+	artisans = {
+		culture = Pauperes
+		religion = catholic
+		size = 3500
+	}
+	
 	artisans = {
 		culture = nyasa
 		religion = animist
@@ -712,11 +742,26 @@
 	}
 
 	soldiers = {
+		culture = Pauperes
+		religion = catholic
+		size = 4000
+	}
+	
+
+	
+	soldiers = {
 		culture = nyasa
-		religion = animist
+		religion = catholic
 		size = 100
 	}
 
+
+	farmers = {
+		culture = Pauperes
+		religion = catholic
+		size = 20100
+	}
+	
 	farmers = {
 		culture = nyasa
 		religion = animist
@@ -800,31 +845,37 @@
 	aristocrats = {
 		culture = Pauperes
 		religion = protestant
-		size = 100
+		size = 300
+	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
 	}
 
 	clergymen = {
 		culture = Pauperes
 		religion = protestant
-		size = 100
+		size = 500
 	}
 
 	artisans = {
 		culture = Pauperes
 		religion = protestant
-		size = 400
+		size = 5400
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = protestant
-		size = 1100
+		size = 7100
 	}
 
 farmers = {
 		culture = Pauperes
 		religion = protestant
-		size = 27800
+		size = 57800
 	}
 	farmers = {
 		culture = shona
@@ -839,13 +890,13 @@ farmers = {
 	}
 
 	aristocrats = {
-		culture = sena
+		culture = Pauperes
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = sena
+		culture = Pauperes
 		religion = animist
 		size = 100
 	}
@@ -869,13 +920,13 @@ farmers = {
 	}
 
 	aristocrats = {
-		culture = southern_bantu
+		culture = Pauperes
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = Pauperes
 		religion = animist
 		size = 150
 	}
@@ -905,7 +956,7 @@ farmers = {
 	}
 
 	clergymen = {
-		culture = swahili
+		culture = Pauperes
 		religion = sunni
 		size = 100
 	}
@@ -935,6 +986,12 @@ farmers = {
 		religion = protestant
 		size = 3350
 	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
+	}
 
 	clergymen = {
 		culture = Pauperes
@@ -945,13 +1002,13 @@ farmers = {
 	artisans = {
 		culture = Pauperes
 		religion = protestant
-		size = 1750
+		size = 4750
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = protestant
-		size = 2350
+		size = 3350
 	}
     
 	farmers = {
@@ -978,33 +1035,33 @@ farmers = {
 #Mocambique (88000/22000 POPS)
 2060 = {
 	aristocrats = {
-		culture = frankish
+		culture = Pauperes
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = frankish
+		culture = Pauperes
 		religion = catholic
-		size = 50
+		size = 550
 	}
 
 	bureaucrats = {
-		culture = frankish
+		culture = Pauperes
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = frankish
+		culture = Pauperes
 		religion = catholic
-		size = 600
+		size = 2600
 	}
 
 	soldiers = {
-		culture = frankish
+		culture = Pauperes
 		religion = catholic
-		size = 50
+		size = 2050
 	}
 
 	aristocrats = {
@@ -1033,6 +1090,12 @@ farmers = {
 
 	farmers = {
 		culture = makua
+		religion = animist
+		size = 13300
+	}
+	
+	farmers = {
+		culture = Pauperes
 		religion = animist
 		size = 13300
 	}

@@ -11351,74 +11351,7 @@
 		size = 325
 	}
 }
-#Binhaiban (328000/82000 POPS)
-3351 = {
-	aristocrats = {
-		culture = manchu
-		religion = mahayana
-		size = 1500
-	}
-	
-	bureaucrats = {
-		culture = manchu
-		religion = mahayana
-		size = 200
-	}
-	
-	officers = {
-		culture = manchu
-		religion = mahayana
-		size = 200
-	}
 
-	clergymen = {
-		culture = manchu
-		religion = mahayana
-		size = 475
-	}
-
-	artisans = {
-		culture = manchu
-		religion = mahayana
-		size = 3900
-	}
-
-	soldiers = {
-		culture = manchu
-		religion = mahayana
-		size = 1200
-	}
-
-	farmers = {
-		culture = manchu
-		religion = mahayana
-		size = 21075
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 150
-	}
-
-	farmers = {
-		culture = korean
-		religion = mahayana
-		size = 1050
-	}
-
-	farmers = {
-		culture = siberian
-		religion = animist
-		size = 130
-	}
-
-	slaves = {
-		culture = siberian
-		religion = animist
-		size = 325
-	}
-}
 #Boli (328000/82000 POPS)
 1083 = {
 

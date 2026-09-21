@@ -4,5 +4,5 @@ terrain = semidesert
 trade_goods = fish
 life_rating = 25
 
-
+add_core = TRN
 add_core = NMB

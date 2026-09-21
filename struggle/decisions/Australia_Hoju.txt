@@ -1,35 +1,23 @@
 political_decisions = {
-	manifest_destiny_aoman = {
+	manifest_destiny_hoju = {
 		potential = {
-			tag = AMA			
+			tag = HOJ			
 			NOT = {
-				has_country_flag = manifest_destiny_ama
+				has_country_flag = manifest_destiny_hoju
 			}
 		}
 
 		allow = {
 			war = no
 			state_n_government = 1
-			owns = 2468
-			owns = 3352
-			owns = 2501
+			owns = 3878
+			owns = 2496
 		}
 		
 		effect = {
-			R_TASMANIA = { add_core = THIS }
-			R_EAST_VIC = { add_core = THIS }
-			R_WEST_VIC = { add_core = THIS }
-			R_RURAL_NSW = { add_core = THIS } 
-			R_SOUTH_AUS = { add_core = THIS }
-			R_NEW_ENG = { add_core = THIS } 
-			R_KIM_PIL = { add_core = THIS }
-			R_SOUTH_WA = { add_core = THIS }
-			R_PERTH = { add_core = THIS }
-			R_AURALIA = { add_core = THIS }
-            ENG_2509 = { add_core = THIS }
-            ENG_2513 = { add_core = THIS }
-			set_country_flag = manifest_destiny_ama
-			HOJ = { all_core = { add_core = THIS } }
+			AMA = { all_core = { add_core = THIS } }
+			NKG = { all_core = { add_core = THIS } }
+			set_country_flag = manifest_destiny_hoju
 		}
 		ai_will_do = {
 			factor = 1
@@ -37,16 +25,17 @@ political_decisions = {
 	}
 	
 	
-	colonizng_papua_ama = {
+	colonizng_papua_hoj = {
         potential = {
 			
-                   tag = AMA
+                   tag = HOJ
 				   2529 = { empty = yes }
 				   2531 = { empty = yes }
 				   1560 = { empty = yes }
+				   owns = 2488
 			
 			NOT = {
-				has_country_flag = colonizng_papua_ama 
+				has_country_flag = colonizng_papua_hoj
 				
 			}
 		}
@@ -62,7 +51,7 @@ political_decisions = {
 		effect = {
             
 			prestige = 5
-			set_country_flag = colonizing_papua_ama
+			set_country_flag = colonizng_papua_hoj
 			2529 = {
 					secede_province = THIS
 					add_core = THIS

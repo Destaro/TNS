@@ -439,22 +439,28 @@
 		religion = protestant
 		size = 525
 	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
+	}
 
 	artisans = {
 		culture = Pauperes
 		religion = protestant
-		size = 1500
+		size = 5500
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = protestant
-		size = 2125
+		size = 8125
 	}
 	farmers = {
 		culture = Pauperes
 		religion = protestant
-		size = 18950
+		size = 58950
 	}
 
 	farmers = {
@@ -464,13 +470,13 @@
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = Pauperes
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = Pauperes
 		religion = animist
 		size = 25
 	}
@@ -578,25 +584,25 @@
 	clergymen = {
 		culture = Pauperes
 		religion = protestant
-		size = 250
+		size = 550
 	}
 
 	artisans = {
 		culture = Pauperes
 		religion = protestant
-		size = 1100
+		size = 4100
 	}
 
 	soldiers = {
 		culture = Pauperes
 		religion = protestant
-		size = 2250
+		size = 4250
 	}
 
 farmers = {
 		culture = Pauperes
 		religion = protestant
-		size = 20025
+		size = 40025
 	}
 	
 	farmers = {
@@ -606,15 +612,21 @@ farmers = {
 	}
 
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = Pauperes
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = Pauperes
 		religion = animist
 		size = 50
+	}
+	
+	craftsmen = {
+		culture = Pauperes
+		religion = protestant
+		size = 6525
 	}
 
 	artisans = {

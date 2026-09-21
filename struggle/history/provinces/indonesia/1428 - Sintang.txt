@@ -1,8 +1,9 @@
-owner = LAN
-controller = LAN
+owner = KOR
+controller = KOR
 add_core = LAN
 add_core = BRU
 add_core = KLM
 add_core = INO
 trade_goods = coffee
 life_rating = 15
+colonial = 2

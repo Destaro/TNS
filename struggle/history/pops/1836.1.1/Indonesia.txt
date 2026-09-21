@@ -4215,37 +4215,63 @@
 }
 3347 = {
 	aristocrats = {
-		culture = japanese_creole
+		culture = malay
 		religion = mahayana
 		size = 150
 	}
 	
 	clergymen = {
-		culture = japanese_creole
+		culture = malay
 		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
-		culture = japanese_creole
+		culture = malay
 		religion = mahayana
 		size = 750
 	}
 
 	soldiers = {
-		culture = japanese_creole
+		culture = malay
 		religion = mahayana
 		size = 1300
 	}
 	farmers = {
-		culture = japanese_creole
+		culture = malay
 		religion = shinto
 		size = 17000
 	}
 	
 	aristocrats = {
-		culture = japanese_creole
+		culture = malay
 		religion = shinto
+		size = 1000
+	}
+}
+
+3350 = {
+	farmers = {
+		culture = taiwanese
+		religion = animist
+		size = 17000
+	}
+	
+	slaves = {
+		culture = taiwanese
+		religion = animist
+		size = 20000
+	}
+	
+	soldiers = {
+		culture = taiwanese
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = taiwanese
+		religion = animist
 		size = 1000
 	}
 }

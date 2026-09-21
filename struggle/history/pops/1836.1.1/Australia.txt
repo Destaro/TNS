@@ -1075,31 +1075,31 @@
 #Newcastle
 2469 = {
 	aristocrats = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 25550
 	}
@@ -1245,31 +1245,31 @@
 #Port Macquarie
 2470 = {
 	aristocrats = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 25550
 	}
@@ -1295,31 +1295,31 @@
 #Gumbin Gir
 3349 = {
 	aristocrats = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 25550
 	}
@@ -1341,35 +1341,121 @@
 		religion = animist
 		size = 1800
 	}
+	
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 17000
+	}
+	
+	slaves = {
+		culture = aomannese
+		religion = animist
+		size = 20000
+	}
+	
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = aomannese
+		religion = animist
+		size = 1000
+	}
 }
 #Tamworth
 3351 = {
+
+aristocrats = {
+		culture = aomannese
+		religion = mahayana
+		size = 1500
+	}
+	
+	bureaucrats = {
+		culture = aomannese
+		religion = mahayana
+		size = 200
+	}
+	
+	officers = {
+		culture = aomannese
+		religion = mahayana
+		size = 200
+	}
+
+	clergymen = {
+		culture = aomannese
+		religion = mahayana
+		size = 475
+	}
+
+	artisans = {
+		culture = aomannese
+		religion = mahayana
+		size = 3900
+	}
+
+	soldiers = {
+		culture = aomannese
+		religion = mahayana
+		size = 1200
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = mahayana
+		size = 21075
+	}
+
+	artisans = {
+		culture = aomannese
+		religion = mahayana
+		size = 150
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = mahayana
+		size = 1050
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 130
+	}
+
+	
 	aristocrats = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 25550
 	}
@@ -1445,31 +1531,31 @@
 #Moree
 2474 = {
 	aristocrats = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 275
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 5100
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 4000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = aomannese
 		religion = catholic
 		size = 25550
 	}
@@ -1572,36 +1658,36 @@
 #Canberra
 3344 = {
 	aristocrats = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = mahayana
 		size = 150
 	}
 	
 	clergymen = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = mahayana
 		size = 750
 	}
 
 	soldiers = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = mahayana
 		size = 1300
 	}
 	farmers = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = shinto
 		size = 17000
 	}
 	
 	aristocrats = {
-		culture = japanese_creole
+		culture = nankaiganese
 		religion = shinto
 		size = 1000
 	}
@@ -1690,15 +1776,15 @@
 #Brisbane
 2483 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 50
+		size = 550
 	}
 
 	soldiers = {
@@ -1706,25 +1792,43 @@
 		religion = animist
 		size = 25
 	}
+	
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 4250
+	}
 
 	farmers = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
 		size = 190
+	}
+	
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 51090
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 1190
 	}
 }
 #Toowoomba
 2486 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 50
+		size = 550
 	}
 
 	soldiers = {
@@ -1737,6 +1841,24 @@
 		culture = aborigine
 		religion = animist
 		size = 1750
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 1725
+	}
+	
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 725
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 21750
 	}
 }
 #Charleville
@@ -1768,32 +1890,32 @@
 #Gladstone
 2484 = {
 	clergymen = {
-		culture = australian
+		culture = aomannese
 		religion = protestant
-		size = 3
+		size = 530
 	}
 	
 	artisans = {
-		culture = australian
+		culture = aomannese
 		religion = protestant
-		size = 5
+		size = 5000
 	}
 	
 	soldiers = {
-		culture = australian
+		culture = aomannese
 		religion = protestant
-		size = 5
+		size = 1500
 	}
 	
 	farmers = {
-		culture = australian
+		culture = aomannese
 		religion = protestant
-		size = 20
+		size = 32000
 	}
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
@@ -1817,15 +1939,15 @@
 #Clermont (4000/1000 POPS)
 2485 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 10
+		size = 110
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 425
 	}
 
 	soldiers = {
@@ -1838,6 +1960,24 @@
 		culture = aborigine
 		religion = animist
 		size = 900
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 3015
+	}
+	
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 715
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 24900
 	}
 }
 #Longreach (4000/1000 POPS)
@@ -1869,13 +2009,13 @@
 #Bunda
 3358 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
 		size = 25
 	}
@@ -1891,6 +2031,24 @@
 		religion = animist
 		size = 900
 	}
+	
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 915
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 2015
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 50900
+	}
 }
 
 
@@ -1898,31 +2056,31 @@
 #Townsville
 2487 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 50
+		size = 650
+	}
+
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 525
 	}
 
 	soldiers = {
 		culture = aborigine
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = australian
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = australian
+		culture = aborigine
 		religion = protestant
 		size = 500
 	}
@@ -1931,6 +2089,18 @@
 		culture = aborigine
 		religion = animist
 		size = 1750
+	}
+	
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 47500
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 5750
 	}
 }
 #Cooktown
@@ -1995,15 +2165,15 @@
 #Yuwibara
 3354 = {
 	aristocrats = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 10
+		size = 110
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = aomannese
 		religion = animist
-		size = 25
+		size = 525
 	}
 
 	soldiers = {
@@ -2016,6 +2186,24 @@
 		culture = aborigine
 		religion = animist
 		size = 900
+	}
+	
+	artisans = {
+		culture = aomannese
+		religion = animist
+		size = 10015
+	}
+	
+	soldiers = {
+		culture = aomannese
+		religion = animist
+		size = 715
+	}
+
+	farmers = {
+		culture = aomannese
+		religion = animist
+		size = 70900
 	}
 }
 
@@ -2200,53 +2388,65 @@
 #Rubibi
 2501 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 50
+		size = 550
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 2500
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 25
+		size = 5250
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 1750
+		size = 51750
 	}
 }
 #Dampier
 2502 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 5
+		size = 500
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 10
+		size = 1010
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 10
+		size = 7100
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 4500
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 450
+		size = 74500
 	}
 }
 #Wilkinkarra
@@ -2278,27 +2478,27 @@
 #Marapikurrinya
 2602 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 5
+		size = 50
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 15
+		size = 315
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 5
+		size = 500
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 450
+		size = 14500
 	}
 }
 
@@ -2307,43 +2507,43 @@
 #Boorloo
 2497 = {
 	aristocrats = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 1525
 	}
 
 	bureaucrats = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 500
 	}
 
 	officers = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 375
 	}
 
 	artisans = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 15000
 	}
 
 	soldiers = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 6000
 	}
 
 	farmers = {
-		culture = nankaiganese
+		culture = Hojese
 		religion = catholic
 		size = 99825
 	}
@@ -2376,39 +2576,39 @@
 #Northam
 3873 = {
 		aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 25
+		size = 725
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 15
+		size = 915
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 900
+		size = 20900
 	}
 }
 #Jambinu
 2499 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 50
 	}
@@ -2424,6 +2624,24 @@
 		culture = aborigine
 		religion = animist
 		size = 1850
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 2025
+	}
+	
+	soldiers = {
+		culture = Hojese
+		religion = animist
+		size = 625
+	}
+
+	farmers = {
+		culture = Hojese
+		religion = animist
+		size = 21850
 	}
 }
 #Meekantharra
@@ -2455,13 +2673,13 @@
 #The Gascoyne
 3874 = {
 		aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 25
 	}
@@ -2477,51 +2695,69 @@
 		religion = animist
 		size = 900
 	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 1500
+	}
+	
+	soldiers = {
+		culture = Hojese
+		religion = animist
+		size = 1150
+	}
+
+	farmers = {
+		culture = Hojese
+		religion = animist
+		size = 20000
+	}
 }
 
 #South Western Australia Region (Seikaigan)
 #Kojonup
 2498 = {
 	aristocrats = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 3
+		size = 300
 	}
 	
 	bureaucrats = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 2
+		size = 720
 	}
 	
 	clergymen = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 5
+		size = 500
 	}
 	
 	officers = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 5
+		size = 550
 	}
 
 	artisans = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 5
+		size = 5500
 	}
 	
 	soldiers = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 5
+		size = 1050
 	}
 	
 	farmers = {
-		culture = australian
+		culture = Hojese
 		religion = protestant
-		size = 20
+		size = 32000
 	}
 	
 	aristocrats = {
@@ -2551,13 +2787,13 @@
 #Goomburrup
 3880 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
 		size = 25
 	}
@@ -2572,6 +2808,24 @@
 		culture = aborigine
 		religion = animist
 		size = 900
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 6015
+	}
+	
+	soldiers = {
+		culture = Hojese
+		religion = animist
+		size = 4015
+	}
+
+	farmers = {
+		culture = Hojese
+		religion = animist
+		size = 69000
 	}
 }
 #Kinjarling
@@ -2599,6 +2853,30 @@
 		religion = animist
 		size = 900
 	}
+	
+	aristocrats = {
+		culture = Hojese
+		religion = animist
+		size = 110
+	}
+
+	clergymen = {
+		culture = Hojese
+		religion = animist
+		size = 525
+	}
+
+	soldiers = {
+		culture = Hojese
+		religion = animist
+		size = 615
+	}
+
+	farmers = {
+		culture = Hojese
+		religion = animist
+		size = 19000
+	}
 }
 #Lake Grace
 3875 = {
@@ -2624,6 +2902,30 @@
 		culture = aborigine
 		religion = animist
 		size = 900
+	}
+	
+	aristocrats = {
+		culture = Hojese
+		religion = animist
+		size = 210
+	}
+
+	clergymen = {
+		culture = Hojese
+		religion = animist
+		size = 525
+	}
+
+	soldiers = {
+		culture = Hojese
+		religion = animist
+		size = 1115
+	}
+
+	farmers = {
+		culture = Hojese
+		religion = animist
+		size = 9900
 	}
 }
 
@@ -2685,27 +2987,39 @@
 #Esperance
 2504 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 10
+		size = 110
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 25
+		size = 525
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 15
+		size = 1415
+	}
+	
+	bureaucrats = {
+		culture = Hojese
+		religion = animist
+		size = 900
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 5900
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 900
+		size = 44000
 	}
 }
 #Wiluna
@@ -2737,27 +3051,33 @@
 #Oondiri
 3882 = {
 	aristocrats = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 10
+		size = 210
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 15
+		size = 750
+	}
+	
+	artisans = {
+		culture = Hojese
+		religion = animist
+		size = 1100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 10
+		size = 1100
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = Hojese
 		religion = animist
-		size = 725
+		size = 37250
 	}
 }
 
