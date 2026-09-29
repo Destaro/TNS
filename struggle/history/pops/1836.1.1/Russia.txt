@@ -2330,6 +2330,12 @@
 		religion = orthodox
 		size = 10000
 	}
+	
+	farmers = {
+		culture = estonian
+		religion = orthodox
+		size = 10000
+	}
 
 	clergymen = {
 		culture = finnish
@@ -9826,6 +9832,36 @@
 		religion = animist
 		size = 230
 	}
+	
+	aristocrats = {
+		culture = japanese
+		religion = shinto
+		size = 20
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 50
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 300
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1230
+	}
 
 	bureaucrats = {
 		culture = tatar
@@ -9997,6 +10033,30 @@
 		culture = siberian
 		religion = animist
 		size = 140
+	}
+	
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 300
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 500
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 200
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1400
 	}
 
 	bureaucrats = {
@@ -11540,6 +11600,36 @@
 	farmers = {
 		culture = siberian
 		religion = animist
+		size = 440
+	}
+	
+	aristocrats = {
+		culture = japanese
+		religion = shinto
+		size = 15
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 50
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
 		size = 440
 	}
 

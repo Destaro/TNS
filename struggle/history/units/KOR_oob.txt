@@ -4,59 +4,59 @@ RUS = {
 
 army = {
 	name = "Royal Army"
-	location = 1479
+	location = 3869
 	regiment = {
 		name= "1.1/Royal Army"
 		type = infantry
-		home = 1479
+		home = 3869
 	}
 
 	regiment = {
 		name= "1.2/Royal Army"
 		type = infantry
-		home = 1479
+		home = 3866
 	}
 
 	regiment = {
 		name= "1.3/Royal Army"
 		type = infantry
-		home = 1479
+		home = 1621
 	}
 
 	regiment = {
 		name= "1.4/Royal Army"
 		type = irregular
-		home = 1479
+		home = 1626
 	}
 
 	regiment = {
 		name= "1.5/Royal Army"
 		type = irregular
-		home = 1479
+		home = 1636
 	}
 
 	regiment = {
 		name= "1.6/Royal Army"
 		type = irregular
-		home = 1479
+		home = 3863
 	}
 
 	regiment = {
 		name= "1.7/Royal Army"
 		type = irregular
-		home = 1620
+		home = 1629
 	}
 
 	regiment = {
 		name= "1.8/Royal Army"
 		type = cavalry
-		home = 1620
+		home = 1632
 	}
 
 	regiment = {
 		name= "1.9/Royal Army"
 		type = artillery
-		home = 1620
+		home = 1635
 	}
 
 }
@@ -156,6 +156,32 @@ army = {
 		name= "1. Infantry"
 		type = infantry
 		home = 1463
+	}
+	
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1457
+	}
+
+	
+
+}
+
+
+army = {
+	name = "Borneo Garrison"
+	location = 1426
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1635
+	}
+	
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1632
 	}
 
 	

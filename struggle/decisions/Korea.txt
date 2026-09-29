@@ -1,0 +1,619 @@
+political_decisions = {
+
+
+hoju_embassy = {
+		
+		potential = {
+			tag = KOR
+			NOT = { has_country_flag = hoju_embassy }
+			is_greater_power = yes
+			exists = HOJ
+			has_global_flag = another_korean_nation
+			
+		}
+
+		allow = {
+			war = no
+			year = 1850
+			relation = {
+				who = HOJ
+				value = 100
+			}
+		}
+
+		effect = {
+		    money = -100000
+			prestige = 20
+			HOJ = { country_event = 970002 }
+			relation = {
+				who = HOJ
+				value = 100
+			}
+			set_global_flag = hoju_embassy
+			}
+		ai_will_do = { factor = 1 }
+	}
+	
+	annex_hoju = {
+		
+		potential = {
+			tag = KOR
+			NOT = { has_country_flag = annex_hoju }
+			
+			exists = HOJ
+			has_global_flag = another_korean_nation
+			has_global_flag = hoju_embassy
+			
+		}
+
+		allow = {
+		 is_greater_power = yes
+		 money = 500000
+		 prestige = 100
+		 war = no
+		 HOJ = { in_sphere = THIS }
+		 year = 1860
+			relation = {
+				who = HOJ
+				value = 200
+			}
+		}
+
+		effect = {
+		    
+			
+			HOJ = { country_event = 970003 }
+			
+			set_country_flag = annex_hoju
+			}
+		ai_will_do = { factor = 1 }
+	}
+	
+	expand_to_the_north_korea = {
+		
+		potential = {
+			tag = KOR
+			NOT = { has_country_flag = expand_to_the_north_korea }
+			
+		}
+
+		allow = {
+		 war = no
+		 owns = 1481
+		 owns = 1082
+		 experimental_railroad = 1
+		 medicine = 1
+		 state_n_government = 1
+		 year = 1845
+		 
+		}
+
+		effect = {
+		    prestige = 5
+			CHI_1082 = { add_core = THIS }
+			CHI_1479 = { add_core = THIS }
+			random_owned = { limit = { province_id = 1082 NOT = { life_rating = 39 } } life_rating = 8 }
+			set_country_flag = expand_to_the_north_korea
+			
+			1082 = { 
+		
+		poor_strata = {
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+			}
+			move_pop = 1002
+		}
+			
+		any_pop = { 
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			militancy = 7
+			consciousness = 9
+		}
+			
+		any_pop = { 
+			limit = {
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+				OR = {
+					pop_type = artisans
+					pop_type = clergymen
+					pop_type = bureaucrats
+				}
+			}
+			pop_type = labourers
+		}
+		add_province_modifier = { name = population_resettlement duration = 2190 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1083 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+		
+		1084 = { poor_strata = { 
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+				}
+			}
+			pop_type = labourers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1085 = { poor_strata = {
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = {
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+					}
+				}
+			pop_type = farmers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1082 = {
+			poor_strata = {
+				limit = {
+					culture = korean
+				}
+				reduce_pop = 3
+			}
+		}
+		
+		1083 = {
+			poor_strata = {
+				limit = {
+					culture = korean
+				}
+				reduce_pop = 2
+			}
+		}
+		
+		
+		2617 = { poor_strata = { 
+		limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+			random_list = {
+				34 = { reduce_pop = 0.9 }
+				33 = { reduce_pop = 0.8 }
+				33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1553
+			}
+			any_pop = { 
+			limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+			OR = {
+				has_pop_culture = manchu
+				has_pop_culture = beifaren
+				has_pop_culture = nanfaren
+				}
+			OR = {
+				pop_type = artisans
+				pop_type = clergymen
+				pop_type = bureaucrats
+					}
+				}
+			pop_type = labourers
+			}
+		add_province_modifier = { name = population_resettlement duration = 1460 }
+		remove_province_modifier = nationalist_agitation
+		}
+		
+		1481 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+		
+		1479 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+		
+		1555 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+			
+			1554 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+		
+		1081 = {
+			poor_strata = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				random_list = {
+					34 = { reduce_pop = 0.9 }
+					33 = { reduce_pop = 0.8 }
+					33 = { reduce_pop = 0.7 }
+				}
+				move_pop = 1002
+			}
+			any_pop = { 
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+				}
+				militancy = 7
+				consciousness = 9
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = manchu
+						has_pop_culture = beifaren
+						has_pop_culture = nanfaren
+					}
+					OR = {
+						pop_type = artisans
+						pop_type = clergymen
+						pop_type = bureaucrats
+					}
+				}
+				pop_type = labourers
+			}
+			add_province_modifier = { name = population_resettlement duration = 1460 }
+			remove_province_modifier = nationalist_agitation
+		}
+			
+			
+			}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rename_daeman = {
+	   
+	   potential = {
+	    tag = KOR 
+	     owns = 1485
+		 NOT = { has_global_flag = rename_daeman }
+	   }
+	   
+	   
+	   allow = {
+	     war = no
+	   
+	   }
+	
+	
+	
+	   effect = { 
+	      prestige = 5
+	      set_global_flag = rename_daeman
+	       1485 = { change_province_name = Seobu }
+		   2681 = { change_province_name = Bukbu }
+		   2406 = { change_province_name = Peong hu Je do }
+		   2562 = { change_province_name = Nambu }
+	   }
+	   ai_will_do = { factor = 1 }
+	}
+	
+	#create puppet on kyushu
+	
+	#start education about the kaya in japan
+	
+	#fabricate claim on the japanese throne
+	
+	#the sun sets
+	
+	#assimilate hokkaido and karafuto
+
+}

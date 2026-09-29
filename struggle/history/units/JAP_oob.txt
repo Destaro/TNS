@@ -146,19 +146,53 @@ army = {
 	regiment = {
 		name= "1.Guard"
 		type = infantry
-		home = 3346
+		home = 2562
 	}
 	regiment = {
 		name= "2.Guard"
 		type = infantry
-		home = 3347
+		home = 1485
 	}
 	
 	
 }
 
 
+army = {
+	name = "Northern Garrison"
+	location = 1072
+	
+	
+	
+	
+	
+	regiment = {
+		name= "1.Guard"
+		type = infantry
+		home = 1655
+	}
+	
+	
+	
+}
 
+army = {
+	name = "Shizuya Garrison"
+	location = 2630
+	
+	
+	
+	
+	
+	regiment = {
+		name= "1.Guard"
+		type = infantry
+		home = 1657
+	}
+	
+	
+	
+}
 
 
 
@@ -173,12 +207,18 @@ army = {
 	regiment = {
 		name= "1.Guard"
 		type = infantry
-		home = 1456
+		home = 1661
 	}
 	regiment = {
 		name= "2.Guard"
 		type = infantry
-		home = 1677
+		home = 1661
+	}
+	
+	regiment = {
+		name= "3.Guard"
+		type = cavalry
+		home = 1661
 	}
 	
 	

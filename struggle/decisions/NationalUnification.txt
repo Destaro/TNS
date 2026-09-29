@@ -894,6 +894,95 @@ unite_sogdia = {
 	}
 	
 	
+	form_indochina = {
+		potential = {
+			
+			civilized = yes
+			OR = {
+				primary_culture = thai
+				primary_culture = khmer
+				primary_culture = karen
+				primary_culture = vietnamese
+				primary_culture = shan
+				primary_culture = burmese
+				primary_culture = kachin
+				
+				
+			}
+			
+			NOT = {
+				exists = INC
+			}
+		}
+		allow = {
+			war = no
+			owns = 1364
+			owns = 1346
+			owns = 1603
+			owns = 1369
+			owns = 1334
+		
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						OR = {
+							primary_culture = thai
+				            primary_culture = khmer
+				            primary_culture = karen
+				            primary_culture = vietnamese
+				            primary_culture = shan
+				            primary_culture = burmese
+				            primary_culture = kachin
+				            primary_culture = malay
+						}
+						tag = JOH
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+			
+            1376 = { add_core = THIS } 
+			1374 = { add_core = THIS } 
+			1370 = { add_core = THIS } 
+			1369 = { add_core = THIS } 
+			1371 = { add_core = THIS } 
+			1373 = { add_core = THIS } 
+			1601 = { add_core = THIS } 
+            SIA = { all_core = { add_core = THIS } }
+            WIA = { all_core = { add_core = THIS } }
+            BUR = { all_core = { add_core = THIS } }
+            JOH = { all_core = { add_core = THIS } }
+            PHG = { all_core = { add_core = THIS } }
+			ASM = { all_core = { add_core = THIS } }
+			YNN = { all_core = { add_core = THIS } }
+             
+			
+			change_tag = INC
+			add_accepted_culture = thai
+			add_accepted_culture = khmer
+			add_accepted_culture = karen
+			add_accepted_culture = vietnamese
+			add_accepted_culture = shan
+			add_accepted_culture = kachin
+            add_accepted_culture = burmese			
+			add_accepted_culture = malay
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
 	
 	
 }

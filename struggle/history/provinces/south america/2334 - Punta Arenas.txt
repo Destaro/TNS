@@ -8,5 +8,5 @@ life_rating = 15
 	owner = LPL
 	controller = LPL
 }
-
+colonial = 2
 add_core = LPL

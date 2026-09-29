@@ -8,8 +8,14 @@ country_event = {
 
    trigger = {
 		tag = BAD
-		OR = { year = 1852 
-		 BAV = { in_sphere = THIS }
+		OR = { 
+		 year = 1852 
+		 BAV = { 
+		    OR = { 
+			    in_sphere = THIS 
+			    all_core = { owned_by = THIS }
+			  } 
+			}
 		}
 		war = no
 		exists = BAV
@@ -45,7 +51,7 @@ country_event = {
 			
 		treasury = 100000
 		ai_chance = {
-			factor = 70
+			factor = 50
 		}
 	}
 	
@@ -60,7 +66,7 @@ country_event = {
 			}
 		
 				ai_chance = {
-			factor = 30
+			factor = 50
 		}
 	}
 }
@@ -158,7 +164,7 @@ country_event = {
 
 
 
-#swabia annexes franconia
+#allemani federation annexes franconia
 country_event = {
 
 	id = 544668
@@ -257,6 +263,7 @@ country_event = {
 			value = -200 
 		                      }
 		    inherit = WEI
+			add_accepted_culture = high_saxon
 			treasury = 100000
 				ai_chance = {
 			        factor = 70
@@ -319,10 +326,10 @@ country_event = {
 		war = {
 	target = SGF
 	attacker_goal = { 
-	casus_belli = conquest_any
+	casus_belli = cut_down_to_size
 	 }
 	defender_goal = { 
-	casus_belli = conquest_any }
+	casus_belli = cut_down_to_size }
 	
 }
 		ai_chance = {
@@ -382,10 +389,10 @@ country_event = {
 		war = {
 	        target = SGF
 	        attacker_goal = { 
-	        casus_belli = conquest_any
+	        casus_belli = cut_down_to_size
 	                                    }
 	        defender_goal = { 
-	        casus_belli = conquest_any }
+	        casus_belli = cut_down_to_size }
 	
                        }
 		ai_chance = {
@@ -418,8 +425,8 @@ country_event = {
 	trigger = {
 		tag = WES
 		war = no
-		has_country_flag = war_of_the_crowns
-		SGF = { all_core = { owned_by = WES } }
+		has_country_flag = the_great_german_war
+		SGF = { has_recently_lost_war = yes }
 		NOT = {
 		  	has_global_flag = thuringen_is_allemani
 		}
@@ -442,7 +449,7 @@ country_event = {
 		set_global_flag = victory_over_the_allemani
 		FRE = { all_core = { add_core = THIS } }
 		WEI = { all_core = { add_core = THIS } }
-		
+		BAV = { all_core = { add_core = THIS } }
 		prestige = 30
 	}
 	
@@ -461,6 +468,7 @@ country_event = {
 		war = no
 		has_global_flag = the_great_german_war
 		SGF = { all_core = { owned_by = THIS } }
+		WES = { has_recently_lost_war = yes }
 		
 		NOT = { 
 		    exists = WES 
@@ -486,7 +494,6 @@ country_event = {
 		set_global_flag = victory_over_the_saxons
 		WES = { all_core = { add_core = THIS } }
 		GER = { all_core = { add_core = THIS } }
-		change_tag = GER
 		add_accepted_culture = baltic_german
 		add_accepted_culture = low_saxon
 		add_accepted_culture = high_saxon
@@ -502,15 +509,18 @@ country_event = {
 	id = 544674
 
 	trigger = {
-		tag = SGF
-		NOT = { has_global_flag = swabia_forms_sgf }
-		
+		tag = BAD
+		exists = BAV 
+		NOT = { has_global_flag = swabia_forms_sgf
+                exists = GER
+		}
+		revolution_n_counterrevolution = 1
 	}
 	
 	fire_only_once = yes
  
 	mean_time_to_happen =  {
-		days = 1
+		months = 6
 	}
 
 	title = "EVTNAME544674"
@@ -519,12 +529,13 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA544674A" 
+		set_global_flag = swabia_forms_sgf
 		BAV = { all_core = { add_core = THIS } }
 		FRE = { all_core = { add_core = THIS } }
-		change_tag = GER
-		add_accepted_culture = baltic_german
-		add_accepted_culture = low_saxon
-		add_accepted_culture = high_saxon
+		inherit = BAV
+		change_tag = SGF
+		add_accepted_culture = bavarian
+		add_accepted_culture = franconian
 	}
 	
 	

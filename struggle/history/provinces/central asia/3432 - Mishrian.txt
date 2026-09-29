@@ -5,3 +5,5 @@ add_core = AFS
 terrain = montane_forest
 trade_goods = fruit
 life_rating = 35
+
+add_core = UZB

@@ -31,6 +31,42 @@
 		religion = animist
 		size = 900
 	}
+	
+	aristocrats = {
+		culture = japanese
+		religion = shinto
+		size = 50
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 130
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 518
+	}
+	
+	officers = {
+		culture = japanese
+		religion = shinto
+		size = 50
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = shinto
+		size = 200
+	}
+	
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1100
+	}
 }
 #Dawson (4000/1000 POPS)
 7 = {

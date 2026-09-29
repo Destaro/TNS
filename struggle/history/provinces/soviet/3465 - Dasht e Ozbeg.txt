@@ -3,3 +3,5 @@ controller = UZB
 add_core = UZB
 trade_goods = wool
 life_rating = 30
+
+add_core = KAZ

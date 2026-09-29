@@ -56,10 +56,16 @@ foreign_weapons = yes_foreign_weapons
 
 # Technologies
 flintlock_rifles = 1
+land_reform = yes_land_reform
+foreign_weapons = yes_foreign_weapons
+army_schools = yes_army_schools
+
+
 
 # Inventions
 ##bottling_process = yes
 modern_winemaking = yes
+flintlock_rifles = 1
 
 # Starting Consciousness
 consciousness = 3

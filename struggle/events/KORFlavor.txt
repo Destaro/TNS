@@ -5,5 +5,180 @@
 #####################################################################
 
 
+#Hoju relations
+country_event = {
+	id = 970001
+	title = "EVTNAME970001" 
+	desc = "EVTDESC970001"
+	news = yes
+	news_desc_long = "EVTDESC97641_NEWS_LONG"
+	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97641_NEWS_SHORT"
+	picture = "boshin_war"
+	
+	major = yes
+	
+	fire_only_once = yes
+   
+   trigger = { 
+      
+      exists = HOJ
+	  tag = KOR
+	  owns = 1449
+	  year = 1845
+	  war = no
+   
+   }
+	
+	option = {
+		name = "EVT970001OPTA"
+		set_global_flag = another_korean_nation
+	
+	}
+}
 
+#Hoju embassy
+country_event = {
+	id = 970002
+	title = "EVTNAME970002" 
+	desc = "EVTDESC970002"
+	news = yes
+	news_desc_long = "EVTDESC97641_NEWS_LONG"
+	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97641_NEWS_SHORT"
+	picture = "boshin_war"
+	
 
+	
+	fire_only_once = yes
+   
+   	is_triggered_only = yes
+	
+	option = {
+		name = "EVT970002OPTA"
+		set_global_flag = hoju_embassy
+		money = 100000
+	
+	}
+}
+
+#the annexation of hoju
+country_event = {
+	id = 970003
+	title = "EVTNAME970003" 
+	desc = "EVTDESC970003"
+	
+	picture = "boshin_war"
+	
+    major = yes
+	
+	fire_only_once = yes
+   
+   	is_triggered_only = yes
+	
+	#yes
+	option = {
+		name = "EVT970003OPTA"
+		
+		KOR = { inherit = HOJ
+                money = -500000
+				KOR = { country_event = 970004 }
+		} 
+		
+	
+	}
+	
+	 #no
+	option = {
+		name = "EVT970003OPTB"
+		set_global_flag = hoju_not_annexed
+	
+	}
+}
+
+#the annexation of hoju korea
+country_event = {
+	id = 970004
+	title = "EVTNAME970004" 
+	desc = "EVTDESC970004"
+	news = yes
+	news_desc_long = "EVTDESC97641_NEWS_LONG"
+	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC97641_NEWS_SHORT"
+	picture = "boshin_war"
+	
+    major = yes
+	
+	fire_only_once = yes
+   
+   	is_triggered_only = yes
+	
+	#yes
+	option = {
+		name = "EVT970004OPTA"
+		set_global_flag = hoju_annexed
+		prestige = 30
+		badboy = 1
+	
+	}
+	
+}
+
+#The invasion of Kalimatan
+country_event = {
+	id = 970010
+	title = "EVTNAME970010" 
+	desc = "EVTDESC970010"
+	
+	picture = "boshin_war"
+	
+
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6 
+		}
+   
+   trigger = { 
+   
+      exists = KLM
+	  tag = KOR
+	  owns = 1426
+	  year = 1845
+	  war = no
+	  medicine = 1
+   
+   }
+	
+	#kill em
+	option = {
+		name = "EVT970010OPTA"
+		set_global_flag = korean_invasion_of_kalimatan
+		war = {
+			target = KLM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		
+		relation = {
+				who = SCA
+				value = -100
+			}
+			
+			ai_chance = {
+			factor = 70
+			}
+	
+	}
+	
+	#nah
+	option = {
+		name = "EVT970010OPTB"
+		ai_chance = {
+			factor = 30
+	
+	   }
+	}
+}

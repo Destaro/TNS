@@ -1,5 +1,5 @@
 capital = 1204
-primary_culture = turkmen
+primary_culture = parthian
 religion = manichaeism
 government = colonial_company
 plurality = 0.0

@@ -313,6 +313,12 @@
 		religion = protestant
 		size = 34500
 	}
+	
+	farmers = {
+		culture = latvian
+		religion = protestant
+		size = 14500
+	}
 
 	clergymen = {
 		culture = norse

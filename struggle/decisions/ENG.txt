@@ -768,36 +768,7 @@ political_decisions = {
 	
 	
 	
-	tasmania_penal_colony = {
-		picture = drain_the_pinsk_marshes
-		
-		potential = {
-			owns = 2482
-			OR = {
-				2482 = { has_province_modifier = penal_colony }	
-				NOT = { has_global_flag = tasmania_renamed }
-			}
-		}
-		
-		allow = {
-			war = no
-			state_n_government = 1
-			OR = {
-				NOT = { penal_system = colonial_transportation }
-				year = 1853
-			}
-		}
-		
-		effect = {
-			set_global_flag = tasmania_renamed
-			2482 = {
-				change_province_name = "Tasmania"
-				remove_province_modifier = penal_colony
-				add_province_modifier = { name = population_resettlement duration = 60 }
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
+	
 	
 	
 

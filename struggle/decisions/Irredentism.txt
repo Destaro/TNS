@@ -148,29 +148,29 @@ political_decisions = {
  #	}		
  #
  
-	claim_greater_albania = {
-	picture = claim_greater_albania
-		potential = {
-			tag = ALB
-			NOT = { has_country_flag = claim_greater_albania }
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			prestige = 45
-			is_secondary_power = yes
-		}
-
-		effect = {
-			set_country_flag = claim_greater_albania
-			EPI = { all_core = { add_core = THIS } }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#claim_greater_albania = {
+	#picture = claim_greater_albania
+	#	potential = {
+	#		tag = ALB
+	#		NOT = { has_country_flag = claim_greater_albania }
+	#	}
+#
+#		allow = {
+#			war = no
+#			is_vassal = no
+#			prestige = 45
+#			is_secondary_power = yes
+#		}
+#
+#		effect = {
+#			set_country_flag = claim_greater_albania
+#			EPI = { all_core = { add_core = THIS } }
+#		}
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
 
 
 
@@ -581,156 +581,7 @@ political_decisions = {
 		}
 	}
 
-	provincia_cisplatina = {
-		picture = banda_oriental
-		potential = {
-			tag = BRZ
-			NOT = { has_country_flag = cisplatina_is_ours  }
-			is_greater_power = yes
-		}
-		
-		allow = {
-			nationalism_n_imperialism = 1
-			romanticism = 1
-			is_greater_power = yes
-		}
-		
-		effect = {
-			set_country_flag = cisplatina_is_ours #Uruguay provinces
-			badboy = 10
-			2344 = {
-				add_core = BRZ
-			}
-			2345 = {
-				add_core = BRZ
-			}
-			2346 = {
-				add_core = BRZ
-			}
-			2347 = {
-				add_core = BRZ
-			}
 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	rio_da_prata = {
-		picture = rhodesia_charter
-		potential = {
-			tag = BRZ
-			NOT = { has_country_flag = prata_is_ours }
-			is_greater_power = yes
-		}
-		
-		allow = {
-			has_country_flag = cisplatina_is_ours
-			nationalism_n_imperialism = 1
-			is_greater_power = yes
-		}
-		
-		effect = {
-			set_country_flag = prata_is_ours 
-			badboy = 10
-			2554 = { #posadas
-				add_core = BRZ
-			}
-			2358= { #santo tomas
-				add_core = BRZ
-			}
-			2357 = { #curuzu
-				add_core = BRZ
-			}
-			2356 = { #corrientes
-				add_core = BRZ
-			}
-			2359 = { #colon
-				add_core = BRZ
-			}
-			2360 = { #parana
-				add_core = BRZ
-			}
-
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	rename_uruguay = {
-		picture = banda_oriental
-		potential = {
-			tag = BRZ
-			owns = 2344
-			owns = 2345
-			owns = 2346
-			owns = 2347
-			has_country_flag = cisplatina_is_ours
-			NOT = {
-				has_global_flag = brazil_has_renamed_cisplatina
-			}
-		}
-		
-		allow = {
-			owns = 2344
-		}
-		
-		effect = {
-			2344 = {
-				change_province_name = "Montevideu"
-				state_scope = {
-					change_region_name = "Cisplatina"
-				}
-			}
-			prestige = 5
-			set_global_flag = brazil_has_renamed_cisplatina
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	restore_uruguay = {
-		picture = banda_oriental
-		potential = {
-			OR = {
-				tag = URU
-				tag = ARG
-				tag = PRG
-				tag = LPL
-			}
-			has_global_flag = brazil_has_renamed_cisplatina
-			owns = 2344
-			owns = 2345
-			owns = 2346
-			owns = 2347
-		}
-		
-		allow = {
-			owns = 2344
-		}
-		
-		effect = {
-			2344 = {
-				change_province_name = "Montevideo"
-				state_scope = {
-					change_region_name = "Uruguay"
-				}
-			}
-			prestige = 5
-			BRZ = { prestige = -10 }
-			clr_global_flag = brazil_has_renamed_cisplatina
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	total_war_in_rio_grande_sul = {
 		alert = yes
@@ -742,7 +593,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			war_with = BRZ
+			war_with = KRT
 		}
 		
 		effect = {
@@ -822,42 +673,7 @@ political_decisions = {
 		}
 	}
 	
-	deseret_complete_cores = {
-		alert = yes
-		picture = deseret_complete_cores
-		potential = {
-			NOT = { has_country_flag = deseret_claims }
-			tag = DES
-			NOT = { is_core = 88 }
-			NOT = { is_core = 87 }
-			NOT = { is_core = 89 }
-			NOT = { is_core = 90 }
-			NOT = { is_core = 102 }
-			exists = yes
-		}
-		
-		allow = {
-			is_vassal = no
-			invention = manifest_destiny
-			nationalism_n_imperialism = 1
-		}
-		
-		effect = {
-			badboy = 10
-			94 = { add_core = DES }
-			95 = { add_core = DES }
-			96 = { add_core = DES }
-			101 = { add_core = DES }
-			100 = { add_core = DES }
-			102 = { add_core = DES }
-			88 = { add_core = DES }
-			87 = { add_core = DES }
-			89 = { add_core = DES }
-			90 = { add_core = DES }
-			set_country_flag = deseret_claims 
-		}
-		ai_will_do = { factor = 1 }
-	}
+	
 	
 	greater_syria = {
 		alert = yes
@@ -984,96 +800,96 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	claim_transnitria = {
-		picture = transnistria_stamp
-		potential = {
-			tag = ROM
-			
-			NOT = { has_country_flag = claimed_transnitria }
-		}
-		
-		allow = {
-			war = no
-			is_vassal = no
-			nationalism_n_imperialism = 1
-			777 = { owned_by = THIS }
-		}
-		
-		effect = {
-			set_country_flag = claimed_transnitria
-			random_list = {
-				34 = { badboy = 3 }
-				33 = { badboy = 4 }
-				33 = { badboy = 5 }
-			}
-			BOS = { all_core = { add_core = THIS } }
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#claim_transnitria = {
+	#	picture = transnistria_stamp
+	#	potential = {
+	#		tag = ROM
+	#		
+	#		NOT = { has_country_flag = claimed_transnitria }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		is_vassal = no
+	#		nationalism_n_imperialism = 1
+	#		777 = { owned_by = THIS }
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = claimed_transnitria
+	#		random_list = {
+	#			34 = { badboy = 3 }
+	#			33 = { badboy = 4 }
+	#			33 = { badboy = 5 }
+	#		}
+	#		BOS = { all_core = { add_core = THIS } }
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	claim_aragon = {
-		picture = fueros
-		potential = {
-			tag = CAT
-			NOT = { has_country_flag = claimed_aragon }
-		}
-		
-		allow = {
-			war = no
-			is_vassal = no
-			nationalism_n_imperialism = 1
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-		}
-		
-		effect = {
-			set_country_flag = claimed_aragon
-			random_list = {
-				34 = { badboy = 1 }
-				33 = { badboy = 2 }
-				33 = { badboy = 3 }
-			}
-			497 = { add_core = CAT }
-			495 = { add_core = CAT }
-			496 = { add_core = CAT }
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#claim_aragon = {
+	#	picture = fueros
+	#	potential = {
+	#		tag = CAT
+	#		NOT = { has_country_flag = claimed_aragon }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		is_vassal = no
+	#		nationalism_n_imperialism = 1
+	#		OR = {
+	#			is_greater_power = yes
+	#			is_secondary_power = yes
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = claimed_aragon
+	#		random_list = {
+	#			34 = { badboy = 1 }
+	#			33 = { badboy = 2 }
+	#			33 = { badboy = 3 }
+	#		}
+	#		497 = { add_core = CAT }
+	#		495 = { add_core = CAT }
+	#		496 = { add_core = CAT }
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
-	claim_tisza = {
-		picture = romanians_marching
-		potential = {
-			tag = ROM
-			NOT = { has_country_flag = claimed_tisza }
-		}
-		
-		allow = {
-			war = no
-			nationalism_n_imperialism = 1
-			war_policy = jingoism
-			is_greater_power = yes
-			owns = 3666
-			owns = 850
-			owns = 849
-			owns = 824
-			
-			
-		}
-		
-		effect = {
-			set_country_flag = claimed_tisza
-			random_list = {
-				34 = { badboy = 5 }
-				33 = { badboy = 8 }
-				33 = { badboy = 10 }
-			}
-			EPI = { all_core = { add_core = THIS } }
-			ALB = { all_core = { add_core = THIS } }
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#claim_tisza = {
+	#	picture = romanians_marching
+	#	potential = {
+	#		tag = ROM
+	#		NOT = { has_country_flag = claimed_tisza }
+	#	}
+	#	
+	#	allow = {
+	#		war = no
+	#		nationalism_n_imperialism = 1
+	#		war_policy = jingoism
+	#		is_greater_power = yes
+	#		owns = 3666
+	#		owns = 850
+	#		owns = 849
+	#		owns = 824
+	#		
+	#		
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = claimed_tisza
+	#		random_list = {
+	#			34 = { badboy = 5 }
+	#			33 = { badboy = 8 }
+	#			33 = { badboy = 10 }
+	#		}
+	#		EPI = { all_core = { add_core = THIS } }
+	#		ALB = { all_core = { add_core = THIS } }
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 	
 	claim_the_caribbean = {
 		picture = claim_the_caribbean

@@ -1,7 +1,9 @@
-owner = KAZ
-controller = KAZ
-add_core = KAZ
+owner = UZB
+controller = UZB
+
 add_core = AFS
 terrain = desert
 trade_goods = fish
 life_rating = 20
+
+add_core = UZB

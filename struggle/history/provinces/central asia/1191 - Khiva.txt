@@ -1,6 +1,8 @@
-owner = BUK
-controller = BUK
-add_core = BUK
+owner = KHI
+controller = KHI
+
 trade_goods = wool
 terrain = farmlands
 life_rating = 35
+
+add_core = KHI

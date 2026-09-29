@@ -25,7 +25,6 @@ political_decisions = {
 		potential = {
 			tag = SIA
 			year = 1861
-			exists = USA
 			NOT = {
 				has_country_flag = sent_an_elephant_to_america
 			}
@@ -34,7 +33,7 @@ political_decisions = {
 			relation = { who = USA value = 0 }
 		}
 		effect = {
-			USA = { country_event = { id=13350 days=0 } }
+			232 = { owner = { country_event = { id=13350 days=0 } } }
 			set_country_flag = sent_an_elephant_to_america
 		}
 	}
@@ -43,21 +42,22 @@ political_decisions = {
 		picture = form_laos
 		potential = {
 			tag = SIA
-			CHK = { exists = yes vassal_of = SIA }
+			
 			NOT = {
 				has_country_flag = champassak_integrated
+				CAM = { ai = no}
 			}
 		}
 		allow = {
 			war = no
 			civilized = yes
-			is_our_vassal = CHK
-			CHK = { OR = { NOT = { part_of_sphere = yes } in_sphere = THIS } }
+			CAM = { exists = yes vassal_of = SIA }
+			CAM = { OR = { NOT = { part_of_sphere = yes } in_sphere = THIS } }
 		}
 		
 		effect = {
 			badboy = 1
-			inherit = CHK
+			inherit = CAM
 			set_country_flag = champassak_integrated
 		}
 	}

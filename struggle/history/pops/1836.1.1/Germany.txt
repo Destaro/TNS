@@ -139,7 +139,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 33500
+		size = 17500
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 17500
 	}
 }
 
@@ -446,7 +452,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 109800 
+		size = 59800 
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 59800 
 	}
 
 	clergymen = {
@@ -1233,7 +1245,13 @@
 	artisans = {
 		culture = high_saxon
 		religion = protestant
-		size = 40000
+		size = 20000
+	}
+	
+	artisans = {
+		culture = low_saxon
+		religion = protestant
+		size = 20000
 	}
 
 	artisans = {
@@ -1251,7 +1269,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 106300
+		size = 56300
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 56300
 	}
 
 	clergymen = {
@@ -1494,7 +1518,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 51875
+		size = 26875
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 26875
 	}
 }
 #Cottbus (344000/86000 POPS)
@@ -2189,7 +2219,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 91925 
+		size = 46925 
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 46925 
 	}
 
 	clergymen = {
@@ -2302,7 +2338,13 @@
 	farmers = {
 		culture = high_saxon
 		religion = protestant
-		size = 31355
+		size = 16355
+	}
+	
+	farmers = {
+		culture = low_saxon
+		religion = protestant
+		size = 16355
 	}
 
 	clergymen = {

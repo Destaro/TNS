@@ -3286,6 +3286,7 @@ country_event = {
 	    war = no
 		OR = { tag = KOR tag = JAP }
 		exists = PHL
+		prestige = 30
 	}
 	
 	mean_time_to_happen = {

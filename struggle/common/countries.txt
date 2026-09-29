@@ -83,9 +83,10 @@ CCC = "countries/CCC.txt"
 ### TNS Australia ###
 NKG		= "countries/Nankaigan.txt"
 AMA		= "countries/Aoman.txt"
-
-## (retiring these tags)
 HOJ		= "countries/Hoju.txt"
+
+## (leftovers dont delete without asking first)
+
 GSH		= "countries/Goushu.txt"
 SBL		= "countries/Seobli.txt"
 NCH		= "countries/Nichinan.txt"
@@ -411,6 +412,7 @@ GNG		= "countries/Guangdong.txt"
 HNN		= "countries/Hunan.txt"
 HUI		= "countries/Anhui.txt"
 INO		= "countries/Indonesia.txt"
+INC		= "countries/INC.txt"
 KCH		= "countries/Kachin.txt"
 KLM		= "countries/Kalimantan.txt"
 KMT		= "countries/Nationalist China.txt"

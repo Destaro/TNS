@@ -5,3 +5,5 @@ add_core = AFS
 terrain = dry_mountains
 trade_goods = fruit
 life_rating = 35
+
+add_core = UZB
