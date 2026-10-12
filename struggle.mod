@@ -1,3 +1,6 @@
 name = "The Northern Struggle"
 path = "mod/struggle"
 user_dir = "struggle"
+replace_path = "events"
+replace_path = "decisions"
+replace_path = "history/wars"
