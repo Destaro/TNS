@@ -474,7 +474,7 @@ yes_firearms_production_desc;Firearms are produced locally.;;;;;;;;;;;;;x;;;;;;;
 writing_system;Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 writing_system_l;Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 no_writing_language;No Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-no_writing_language_l;;No Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+no_writing_language_l;No Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 no_writing_language_desc;Spoken language is the only way of communication. There are no documents or writing language, no education system and no codified national language.;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 writing_language;Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 writing_language_l;Writing System;;;;;;;;;;;;;x;;;;;;;;;;;;;;
