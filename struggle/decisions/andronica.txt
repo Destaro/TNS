@@ -369,31 +369,6 @@ form_andronica = {
 		}
 	}
 	
-	manifest_destiny_krt = {
-		picture = peru
-		potential = {
-			tag = KRT
-			has_global_flag = guarani_revolt_in_inca
-			NOT = { has_country_flag = manifest_destiny_krt }
-		}
-		allow = {
-			war = no
-			prestige = 30
-			romanticism = 1
-			PEU = { all_core = { owned_by = THIS } }
-			is_greater_power = yes
-		}
-		effect = {
-			any_pop = {
-			consciousness = 3
-			}
-			VOP = { all_core = { add_core = THIS } }
-			set_country_flag = manifest_destiny_krt
-			prestige = 10
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 
 }

@@ -24,7 +24,7 @@ hoju_embassy = {
 		effect = {
 		    money = -100000
 			prestige = 20
-			HOJ = { country_event = 970002 }
+			HOJ = { country_event = 970102 }
 			relation = {
 				who = HOJ
 				value = 100
@@ -62,7 +62,7 @@ hoju_embassy = {
 		effect = {
 		    
 			
-			HOJ = { country_event = 970003 }
+			HOJ = { country_event = 970103 }
 			
 			set_country_flag = annex_hoju
 			}

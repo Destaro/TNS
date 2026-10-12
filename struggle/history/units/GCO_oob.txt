@@ -17,25 +17,25 @@ army = {
 	name = "Primary Army"
 	location = 2253
 	regiment = {
-		name= "1. Brigada de Infanter铆a"
+		name= "1. Brigada de Infanter韆"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "2. Brigada de Infanter铆a"
+		name= "2. Brigada de Infanter韆"
 		type = infantry
 		home = 2252
 	}
 
 	regiment = {
-		name= "3. Brigada de Infanter铆a"
+		name= "3. Brigada de Infanter韆"
 		type = infantry
 		home = 2254
 	}
 
 	regiment = {
-		name= "1. Brigada de Caballer铆a"
+		name= "1. Brigada de Caballer韆"
 		type = cuirassier
 		home = 2250
 	}
@@ -55,37 +55,37 @@ army = {
 	name = "2nd Southern Army"
 	location = 2247
 	regiment = {
-		name= "1.1a Divisi贸n de Infanter铆a"
+		name= "1.1a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "2.1a Divisi贸n de Infanter铆a"
+		name= "2.1a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "3.1a Divisi贸n de Infanter铆a"
+		name= "3.1a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "1.2a Divisi贸n de Infanter铆a"
+		name= "1.2a Divisi髇 de Infanter韆"
 		type = cavalry
 		home = 2248
 	}
 
 	regiment = {
-		name= "2.2a Divisi贸n de Infanter铆a"
+		name= "2.2a Divisi髇 de Infanter韆"
 		type = cavalry
 		home = 2248
 	}
 
 	regiment = {
-		name= "3.2a Divisi贸n de Infanter铆a"
+		name= "3.2a Divisi髇 de Infanter韆"
 		type = artillery
 		home = 2250
 	}
@@ -96,37 +96,37 @@ army = {
 	name = "Northern Army"
 	location = 2255
 	regiment = {
-		name= "1.3a Divisi贸n de Infanter铆a"
+		name= "1.3a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2255
 	}
 
 	regiment = {
-		name= "2.3a Divisi贸n de Infanter铆a"
+		name= "2.3a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2255
 	}
 
 	regiment = {
-		name= "3.3a Divisi贸n de Infanter铆a"
+		name= "3.3a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2255
 	}
 
 	regiment = {
-		name= "1.4a Divisi贸n de Infanter铆a"
+		name= "1.4a Divisi髇 de Infanter韆"
 		type = infantry
 		home = 2254
 	}
 
 	regiment = {
-		name= "2.4a Divisi贸n de Infanter铆a"
+		name= "2.4a Divisi髇 de Infanter韆"
 		type = cavalry
 		home = 2254
 	}
 
 	regiment = {
-		name= "3.4a Divisi贸n de Infanter铆a"
+		name= "3.4a Divisi髇 de Infanter韆"
 		type = cavalry
 		home = 2254
 	}
@@ -143,7 +143,7 @@ leader = {
 }
 
 leader = {
-	name = "Juan Falc贸n"
+	name = "Juan Falc髇"
 	date = 1827.1.1
 	type = land
 	personality = balanced_p
@@ -155,37 +155,37 @@ army = {
 	name = "2nd Northern Army"
 	location = 2264
 	regiment = {
-		name= "1.1ra divisi贸n"
+		name= "1.1ra divisi髇"
 		type = infantry
 		home = 2264
 	}
 
 	regiment = {
-		name= "2.1ra divisi贸n"
+		name= "2.1ra divisi髇"
 		type = infantry
 		home = 2267
 	}
 
 	regiment = {
-		name= "3.1ra divisi贸n"
+		name= "3.1ra divisi髇"
 		type = cuirassier
 		home = 2268
 	}
 
 	regiment = {
-		name= "1.2ra divisi贸n"
+		name= "1.2ra divisi髇"
 		type = infantry
 		home = 2269
 	}
 
 	regiment = {
-		name= "2.2ra divisi贸n"
+		name= "2.2ra divisi髇"
 		type = infantry
 		home = 2270
 	}
 
 	regiment = {
-		name= "3.2ra divisi贸n"
+		name= "3.2ra divisi髇"
 		type = cuirassier
 		home = 2271
 	}
@@ -205,36 +205,36 @@ army = {
 	name = "Southern Army"
 	location = 2279
 	regiment = {
-		name= "1.1ra divisi贸n de infanter铆a"
+		name= "1.1ra divisi髇 de infanter韆"
 		type = infantry
 		home = 2279
 	}
 
 	regiment = {
-		name= "2.1ra divisi贸n de infanter铆a"
+		name= "2.1ra divisi髇 de infanter韆"
 		type = infantry
 		home = 2279
 	}
 
 	regiment = {
-		name= "3.1ra divisi贸n de infanter铆a"
+		name= "3.1ra divisi髇 de infanter韆"
 		type = infantry
 		home = 2279
 	}
 	regiment = {
-		name= "4. Brigada de Infanter铆a"
+		name= "4. Brigada de Infanter韆"
 		type = cavalry
 		home = 2279
 	}
 
 	regiment = {
-		name= "5. Brigada de Infanter铆a"
+		name= "5. Brigada de Infanter韆"
 		type = artillery
 		home = 2279
 	}
 
 	regiment = {
-		name= "6. Brigada de Infanter铆a"
+		name= "6. Brigada de Infanter韆"
 		type = artillery
 		home = 2283
 	}

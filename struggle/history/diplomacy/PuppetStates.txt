@@ -330,7 +330,7 @@ substate = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-#Ili Ogürs
+#Ili Og�rs
 substate = {
 	first = KYR
 	second = KML
@@ -346,7 +346,7 @@ substate = {
 	end_date = 1937.1.1
 }
 
-### Feher Moğerurusag ###
+### Feher Mogerurusag ###
 
 
 

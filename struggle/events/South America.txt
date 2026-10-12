@@ -80,12 +80,12 @@ country_event = {
 	}
 }
 
-#### The GuaranÃ¬ revolution ####
+#### The Guaranì revolution ####
 
 country_event = {
 	id = 970007
-	title = "EVTNAME970007"	#GuaranÃ­ Revolt in Inca territories
-	desc = "EVTDESC970007"	#A warlike great tribe, the GuaranÃ¬ are a formidable people, who have waged war against us even before the conquest of the Franks. A young GuaranÃ¬ tribesman, Arapysandu Marangatu, has managed to rally around the local population and declared himself Chief of all the GuaranÃ¬ tribes in Andronica.
+	title = "EVTNAME970007"	#Guaraní Revolt in Inca territories
+	desc = "EVTDESC970007"	#A warlike great tribe, the Guaranì are a formidable people, who have waged war against us even before the conquest of the Franks. A young Guaranì tribesman, Arapysandu Marangatu, has managed to rally around the local population and declared himself Chief of all the Guaranì tribes in Andronica.
 	picture = "guarani_misiones"
 	fire_only_once = yes
 	
@@ -146,7 +146,7 @@ country_event = {
 country_event = {
 	id = 970011	#EVENT FOR GUARANI KINGDOM
 	title = "EVTNAME970011"	# The Heavenly Kingdom of Arapysandu Marangatu
-	desc = "EVTDESC970011"	# Born from a GuaranÃ­ family, Arapysandu Marangatu, a young and charismatic tribesman, has declared himself god emperor of the GuaranÃ¬ tribes, and managed to rally around much of the GuaranÃ¬ population into serving him. The Inca amministration in GuaranÃ¬ lands have broken down and people in Cusco have begun calling for military intervention against the revolts. The Selbapunic empire looks with suspicion on the revolt, believing it could also spread to their GuaranÃ¬ subjects. The tribesmen have began razing the lands, killing and enslaving outsiders in their land, and managed to steal many weapons from Quechua barracks in most towns.
+	desc = "EVTDESC970011"	# Born from a Guaraní family, Arapysandu Marangatu, a young and charismatic tribesman, has declared himself god emperor of the Guaranì tribes, and managed to rally around much of the Guaranì population into serving him. The Inca amministration in Guaranì lands have broken down and people in Cusco have begun calling for military intervention against the revolts. The Selbapunic empire looks with suspicion on the revolt, believing it could also spread to their Guaranì subjects. The tribesmen have began razing the lands, killing and enslaving outsiders in their land, and managed to steal many weapons from Quechua barracks in most towns.
 	picture = "guarani_misiones"
 	fire_only_once = yes
 	major = yes
@@ -183,7 +183,7 @@ country_event = {
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = "Jasy JÃ¡ra"
+			name = "Jasy Jára"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
@@ -193,7 +193,7 @@ country_event = {
 			background = school_of_the_bayonet
 		}
 		define_general = {
-			name = "Moroti Ã‘anduti"
+			name = "Moroti Ñanduti"
 			personality = brilliant
 			background = school_of_the_bayonet
 		}
@@ -217,8 +217,8 @@ country_event = {
 
 country_event = {
 	id = 970008
-	title = "EVTNAME970008"	#The GuaranÃ­ Revolution (In Inca)
-	desc = "EVTDESC970008"	#The GuaranÃ¬ tribes have shown to be too powerful... they have conquered their lands and threw us out. The self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the GuaranÃ¬, calling himself TupÃ£'s brother (TupÃ£ is the god who created the universe and humanity in GuaranÃ¬ mythology). The people believe him and treat him as a god.
+	title = "EVTNAME970008"	#The Guaraní Revolution (In Inca)
+	desc = "EVTDESC970008"	#The Guaranì tribes have shown to be too powerful... they have conquered their lands and threw us out. The self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the Guaranì, calling himself Tupã's brother (Tupã is the god who created the universe and humanity in Guaranì mythology). The people believe him and treat him as a god.
 	picture = "guarani_misiones"
 	fire_only_once = yes
 	
@@ -266,8 +266,8 @@ country_event = {
 
 country_event = {
 	id = 970009
-	title = "EVTNAME970009"	#The GuaranÃ­ Revolution in Inca (for KRT)
-	desc = "EVTDESC970009"	#The GuaranÃ¬ tribes in Tawantinsuyu have managed to oust their Quechua overlords. The newly self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the GuaranÃ¬, calling himself TupÃ£'s brother (TupÃ£ is the god who created the universe and humanity in GuaranÃ¬ mythology). The people believe him and treat him as a god. Many GuaranÃ¬ tribe warriors have entered our territories and started rallying the local tribesmen. With revolts happening all around the region, people in AssÃ¹nta are fearing for their lives, barricading themselves or fleeing out of the city. 
+	title = "EVTNAME970009"	#The Guaraní Revolution in Inca (for KRT)
+	desc = "EVTDESC970009"	#The Guaranì tribes in Tawantinsuyu have managed to oust their Quechua overlords. The newly self proclaimed high chief Arapysandu Marangatu has declared himself God-Emperor of the Guaranì, calling himself Tupã's brother (Tupã is the god who created the universe and humanity in Guaranì mythology). The people believe him and treat him as a god. Many Guaranì tribe warriors have entered our territories and started rallying the local tribesmen. With revolts happening all around the region, people in Assùnta are fearing for their lives, barricading themselves or fleeing out of the city. 
 	picture = "Toucouleur"
 	fire_only_once = yes
 	
@@ -316,8 +316,8 @@ country_event = {
 	
 country_event = {
 	id = 970010
-	title = "EVTNAME970010"	#The AssÃ¹nta massacre
-	desc = "EVTDESC970010"	#The GuaranÃ¬ tribesmen have entered the town of AssÃ¹nta and massacred the local population. Men castrated in the main square, mothers dragged by their hair, thrown in the city's river alongside their children. Houses, chuches and town halls were looted, bringing all the town's wealth in one place. A story has reached Irriu de Bennardu: an old GuaranÃ¬ tribesman, that converted to Christianity some 40 years ago, and lived in AssÃ¹ta for much of his life, was forced by the Divine High Chief to write "Death to the Latins" in Selbapunic on the entrance to the city. The High Chief declared the town the new capital of his kingdom and said that any Selbapunic that would try to walk in their lands would be slowly tortured and killed.
+	title = "EVTNAME970010"	#The Assùnta massacre
+	desc = "EVTDESC970010"	#The Guaranì tribesmen have entered the town of Assùnta and massacred the local population. Men castrated in the main square, mothers dragged by their hair, thrown in the city's river alongside their children. Houses, chuches and town halls were looted, bringing all the town's wealth in one place. A story has reached Irriu de Bennardu: an old Guaranì tribesman, that converted to Christianity some 40 years ago, and lived in Assùta for much of his life, was forced by the Divine High Chief to write "Death to the Latins" in Selbapunic on the entrance to the city. The High Chief declared the town the new capital of his kingdom and said that any Selbapunic that would try to walk in their lands would be slowly tortured and killed.
 	picture = "failed_revolution"
 	fire_only_once = yes
 	major = yes

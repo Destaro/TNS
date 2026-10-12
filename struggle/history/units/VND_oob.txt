@@ -1,33 +1,33 @@
 army = {
-	name = "EjÃ©rcito del Norte"
+	name = "Ejército del Norte"
 	location = 510
 	
 	regiment = {
-		name= "4. Brigada de InfanterÃ­a 'San Jorge'"
+		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
 		home = 498
 	}
 
 	regiment = {
-		name= "1. Brigada de ArtillerÃ­a"
+		name= "1. Brigada de Artillería"
 		type = artillery
 		home = 476
 	}
 	
 	regiment = {
-		name= "5. Brigada de InfanterÃ­a"
+		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 482
 	}
 	
 	regiment = {
-		name= "6. Brigada de InfanterÃ­a 'La Granja'"
+		name= "6. Brigada de Infantería 'La Granja'"
 		type = infantry
 		home = 483
 	}
 
 	regiment = {
-		name= "7. Brigada de InfanterÃ­a"
+		name= "7. Brigada de Infantería"
 		type = infantry
 		home = 497
 	}

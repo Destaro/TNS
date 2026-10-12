@@ -170,8 +170,8 @@ country_event = {
 
 country_event = {
 	id = 970006
-	title = "EVTNAME970006"	#The Guaran√≠
-	desc = "EVTDESC970006"	#A warlike great tribe, the Guaran√¨ are a formidable people, who have waged war against us and the Franks ever since we encountered them. A great war was waged against them, in 1750 the Guaran√≠ War took the lives of many Frankish and Selbapunnics soldiers and civilians, causing the region to be depopulated, as many colonists left it, searching safety. They have been a thorn in the side of the Incas, of the Franks and of us. Lately Guaran√≠ attacks have calmed down, but a rumor was spread all the way to Tagast: a young and influential warrior is contacting the Guaran√≠ tribes, trying to unite them into a powerful nation...
+	title = "EVTNAME970006"	#The GuaranÌ
+	desc = "EVTDESC970006"	#A warlike great tribe, the GuaranÏ are a formidable people, who have waged war against us and the Franks ever since we encountered them. A great war was waged against them, in 1750 the GuaranÌ War took the lives of many Frankish and Selbapunnics soldiers and civilians, causing the region to be depopulated, as many colonists left it, searching safety. They have been a thorn in the side of the Incas, of the Franks and of us. Lately GuaranÌ attacks have calmed down, but a rumor was spread all the way to Tagast: a young and influential warrior is contacting the GuaranÌ tribes, trying to unite them into a powerful nation...
 	picture = "guarani_misiones"
 	fire_only_once = yes
 	
@@ -204,7 +204,7 @@ country_event = {
 country_event = {
 	id = 970012
 	title = "EVTNAME970012"	#The Western Coast
-	desc = "EVTDESC970012"	#With the conquest of the western coast, our empire has become overstretched, and the Emperor knows that very well. The Senate, becoming ever asserting and pressing on the Emperor's decisions, has drafted some ideas to make new states that would help with the administration of the newly conquered states. These new states would be 3: the prefecture of Guaragna, named after the Guaran√¨ tribe that lives there, the prefecture of Att√†ccama, named after the Atacama desert, and finally the prefecture of Urania, name of the old Frankish colony of Cusco, which recalled the incredible height of the mountains that populate those lands. These new territories would be collectively known as the Triarchy. The law that enacted the creation of these semi-independent states was signed by the Emperor and all the 500 senators. Slowly, the autocracy normally associated with the Roman world was beginning to vanish in Selbapunnica, and the Emperor didnt have the power to do anything about it.
+	desc = "EVTDESC970012"	#With the conquest of the western coast, our empire has become overstretched, and the Emperor knows that very well. The Senate, becoming ever asserting and pressing on the Emperor's decisions, has drafted some ideas to make new states that would help with the administration of the newly conquered states. These new states would be 3: the prefecture of Guaragna, named after the GuaranÏ tribe that lives there, the prefecture of Att‡ccama, named after the Atacama desert, and finally the prefecture of Urania, name of the old Frankish colony of Cusco, which recalled the incredible height of the mountains that populate those lands. These new territories would be collectively known as the Triarchy. The law that enacted the creation of these semi-independent states was signed by the Emperor and all the 500 senators. Slowly, the autocracy normally associated with the Roman world was beginning to vanish in Selbapunnica, and the Emperor didnt have the power to do anything about it.
 	picture = "PDA_Refuse"
 	fire_only_once = yes
 	

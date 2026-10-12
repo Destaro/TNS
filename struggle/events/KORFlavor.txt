@@ -7,9 +7,9 @@
 
 #Hoju relations
 country_event = {
-	id = 970001
-	title = "EVTNAME970001" 
-	desc = "EVTDESC970001"
+	id = 970101
+	title = "EVTNAME970101" 
+	desc = "EVTDESC970101"
 	news = yes
 	news_desc_long = "EVTDESC97641_NEWS_LONG"
 	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
@@ -31,7 +31,7 @@ country_event = {
    }
 	
 	option = {
-		name = "EVT970001OPTA"
+		name = "EVT970101OPTA"
 		set_global_flag = another_korean_nation
 	
 	}
@@ -39,9 +39,9 @@ country_event = {
 
 #Hoju embassy
 country_event = {
-	id = 970002
-	title = "EVTNAME970002" 
-	desc = "EVTDESC970002"
+	id = 970102
+	title = "EVTNAME970102" 
+	desc = "EVTDESC970102"
 	news = yes
 	news_desc_long = "EVTDESC97641_NEWS_LONG"
 	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
@@ -55,7 +55,7 @@ country_event = {
    	is_triggered_only = yes
 	
 	option = {
-		name = "EVT970002OPTA"
+		name = "EVT970102OPTA"
 		set_global_flag = hoju_embassy
 		money = 100000
 	
@@ -64,9 +64,9 @@ country_event = {
 
 #the annexation of hoju
 country_event = {
-	id = 970003
-	title = "EVTNAME970003" 
-	desc = "EVTDESC970003"
+	id = 970103
+	title = "EVTNAME970103" 
+	desc = "EVTDESC970103"
 	
 	picture = "boshin_war"
 	
@@ -78,11 +78,11 @@ country_event = {
 	
 	#yes
 	option = {
-		name = "EVT970003OPTA"
+		name = "EVT970103OPTA"
 		
 		KOR = { inherit = HOJ
                 money = -500000
-				KOR = { country_event = 970004 }
+				KOR = { country_event = 970104 }
 		} 
 		
 	
@@ -90,7 +90,7 @@ country_event = {
 	
 	 #no
 	option = {
-		name = "EVT970003OPTB"
+		name = "EVT970103OPTB"
 		set_global_flag = hoju_not_annexed
 	
 	}
@@ -98,9 +98,9 @@ country_event = {
 
 #the annexation of hoju korea
 country_event = {
-	id = 970004
-	title = "EVTNAME970004" 
-	desc = "EVTDESC970004"
+	id = 970104
+	title = "EVTNAME970104" 
+	desc = "EVTDESC970104"
 	news = yes
 	news_desc_long = "EVTDESC97641_NEWS_LONG"
 	news_desc_medium = "EVTDESC97641_NEWS_MEDIUM"
@@ -115,7 +115,7 @@ country_event = {
 	
 	#yes
 	option = {
-		name = "EVT970004OPTA"
+		name = "EVT970104OPTA"
 		set_global_flag = hoju_annexed
 		prestige = 30
 		badboy = 1
@@ -126,9 +126,9 @@ country_event = {
 
 #The invasion of Kalimatan
 country_event = {
-	id = 970010
-	title = "EVTNAME970010" 
-	desc = "EVTDESC970010"
+	id = 970110
+	title = "EVTNAME970110" 
+	desc = "EVTDESC970110"
 	
 	picture = "boshin_war"
 	
@@ -153,7 +153,7 @@ country_event = {
 	
 	#kill em
 	option = {
-		name = "EVT970010OPTA"
+		name = "EVT970110OPTA"
 		set_global_flag = korean_invasion_of_kalimatan
 		war = {
 			target = KLM
@@ -175,7 +175,7 @@ country_event = {
 	
 	#nah
 	option = {
-		name = "EVT970010OPTB"
+		name = "EVT970110OPTB"
 		ai_chance = {
 			factor = 30
 	

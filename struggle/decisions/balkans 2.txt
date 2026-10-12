@@ -76,7 +76,7 @@ political_decisions = {
 					}
 				}
 				791 = {
-					change_province_name = "Sz√°vaszentdemeter"
+					change_province_name = "Sz·vaszentdemeter"
 				}
 				owner = { 
 					set_global_flag = hungarian_renamed_syrmia
@@ -184,7 +184,7 @@ political_decisions = {
 					}
 				}
 				793 = {
-					change_province_name = "Vukov√°r"
+					change_province_name = "Vukov·r"
 				}
 				owner = { 
 					set_global_flag = hungarian_renamed_vukovar

@@ -23,7 +23,7 @@ leader = {
 }
 
 leader = {
-	name = "BartolomÃ© Mitre"
+	name = "Bartolomé Mitre"
 	date = 1823.1.1
 	type = land
 	personality = efficient
@@ -44,37 +44,37 @@ army = {
 	name = "National Army"
 	location = 2322
 	regiment = {
-		name= "1.1ra divisiÃ³n de infanterÃ­a"
+		name= "1.1ra división de infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "2.1ra divisiÃ³n de infanterÃ­a"
+		name= "2.1ra división de infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "3.1ra divisiÃ³n de infanterÃ­a"
+		name= "3.1ra división de infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "1.1ra divisiÃ³n de caballerÃ­a"
+		name= "1.1ra división de caballería"
 		type = cuirassier
 		home = 2326
 	}
 
 	regiment = {
-		name= "2.1ra divisiÃ³n de caballerÃ­a"
+		name= "2.1ra división de caballería"
 		type = cuirassier
 		home = 2360
 	}
 
 	regiment = {
-		name= "3.1ra divisiÃ³n de caballerÃ­a"
+		name= "3.1ra división de caballería"
 		type = cuirassier
 		home = 2328
 	}
@@ -87,25 +87,25 @@ army = {
 	name = "Army of the Silver Wind"
 	location = 2349
 	regiment = {
-		name= "1. DivisiÃ³n de InfanterÃ­a"
+		name= "1. División de Infantería"
 		type = infantry
 		home = 2348
 	}
 
 	regiment = {
-		name= "2. DivisiÃ³n de InfanterÃ­a"
+		name= "2. División de Infantería"
 		type = infantry
 		home = 2348
 	}
 
 	regiment = {
-		name= "3. DivisiÃ³n de InfanterÃ­a"
+		name= "3. División de Infantería"
 		type = infantry
 		home = 2348
 	}
 
 	regiment = {
-		name= "4. DivisiÃ³n de InfanterÃ­a"
+		name= "4. División de Infantería"
 		type = infantry
 		home = 2349
 	}
@@ -125,37 +125,37 @@ army = {
 	name = "Mountain Unit"
 	location = 2323
 	regiment = {
-		name= "1.1ra divisiÃ³n de infanterÃ­a"
+		name= "1.1ra división de infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "2.1ra divisiÃ³n de infanterÃ­a"
+		name= "2.1ra división de infantería"
 		type = infantry
 		home = 2326
 	}
 
 	regiment = {
-		name= "3.1ra divisiÃ³n de infanterÃ­a"
+		name= "3.1ra división de infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "1.1ra divisiÃ³n de caballerÃ­a"
+		name= "1.1ra división de caballería"
 		type = cuirassier
 		home = 2328
 	}
 
 	regiment = {
-		name= "2.1ra divisiÃ³n de caballerÃ­a"
+		name= "2.1ra división de caballería"
 		type = cuirassier
 		home = 2325
 	}
 
 	regiment = {
-		name= "3.1ra divisiÃ³n de caballerÃ­a"
+		name= "3.1ra división de caballería"
 		type = cuirassier
 		home = 2324
 	}
@@ -166,12 +166,12 @@ army = {
 	name = "River Garrison"
 	location = 2359
 	regiment = {
-		name= "1. DivisiÃ³n de InfanterÃ­a"
+		name= "1. División de Infantería"
 		type = infantry
 		home = 2360
 	}
 	regiment = {
-		name= "2. DivisiÃ³n de InfanterÃ­a"
+		name= "2. División de Infantería"
 		type = infantry
 		home = 2356
 	}
@@ -263,14 +263,14 @@ leader = {
 }
 
 leader = {
-   name = "Justo JosÃ© de Urquiza"
+   name = "Justo José de Urquiza"
    type = land
    date = 1836.1.1
    background = school_of_the_bayonet
    personality = implacable
 	}
 	leader = {
-   name = "Genaro BerÃ³n de Astrada"
+   name = "Genaro Berón de Astrada"
    type = land
    date = 1835.12.12
    background = drillmaster

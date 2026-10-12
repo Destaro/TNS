@@ -175,13 +175,13 @@ army = {
 	
 
 	regiment = {
-		name= "SÃ¶dermanlands Regemente"
+		name= "Södermanlands Regemente"
 		type = infantry
 		home = 284
 	}
 
 	regiment = {
-		name= "FÃ¶rsta LivgrenadjÃ¤rregementet"
+		name= "Första Livgrenadjärregementet"
 		type = infantry
 		home = 299
 	}
@@ -193,13 +193,13 @@ army = {
 	}
 	
 	regiment = {
-		name= "SÃ¶dermanlands Regemente"
+		name= "Södermanlands Regemente"
 		type = infantry
 		home = 270
 	}
 
 	regiment = {
-		name= "FÃ¶rsta LivgrenadjÃ¤rregementet"
+		name= "Första Livgrenadjärregementet"
 		type = infantry
 		home = 271
 	}
@@ -211,26 +211,26 @@ army = {
 	}
 
 	regiment = {
-		name= "VÃ¤stgÃ¶ta Regemente"
+		name= "Västgöta Regemente"
 		type = artillery
 		home = 287
 	}
 
 
 regiment = {
-		name= "VÃ¤stgÃ¶ta Regemente"
+		name= "Västgöta Regemente"
 		type = artillery
 		home = 259
 	}
 	
 	regiment = {
-		name= "VÃ¤stgÃ¶ta Regemente"
+		name= "Västgöta Regemente"
 		type = artillery
 		home = 260
 	}
 	
 	regiment = {
-		name= "VÃ¤stgÃ¶ta Regemente"
+		name= "Västgöta Regemente"
 		type = hussar
 		home = 262
 	}
