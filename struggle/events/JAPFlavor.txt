@@ -3306,6 +3306,7 @@ country_event = {
 		name = "EVTOPTA5554441B"
 		prestige = 10
 		badboy = 3
+		set_country_flag = invaded_maharlika
 	    war = {
                 target = PHL
                 
@@ -3321,4 +3322,133 @@ country_event = {
 	}
 	
 		
+}
+
+#war for maharlika, the other power contests the islands once the invader holds Manila
+country_event = {
+	id = 5554442
+	title = "EVTNAME5554442"
+	desc = "EVTDESC5554442"
+	picture = "boshin_war"
+	
+	major = yes
+	
+	trigger = {
+		NOT = { has_global_flag = maharlika_war_declared }
+		NOT = { has_country_flag = invaded_maharlika }
+		OR = {
+			AND = {
+				tag = KOR
+				JAP = { has_country_flag = invaded_maharlika owns = 1455 }
+			}
+			AND = {
+				tag = JAP
+				KOR = { has_country_flag = invaded_maharlika owns = 1455 }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = "EVTOPTA5554442A"
+		set_global_flag = maharlika_war_declared
+		any_country = {
+			limit = { tag = JAP has_country_flag = invaded_maharlika }
+			KOR = {
+				war = {
+					target = JAP
+					attacker_goal = { casus_belli = acquire_state state_province_id = 1455 }
+					defender_goal = { casus_belli = status_quo }
+				}
+			}
+		}
+		any_country = {
+			limit = { tag = KOR has_country_flag = invaded_maharlika }
+			JAP = {
+				war = {
+					target = KOR
+					attacker_goal = { casus_belli = acquire_state state_province_id = 1455 }
+					defender_goal = { casus_belli = status_quo }
+				}
+			}
+		}
+	}
+}
+
+#korea holds manila after the war
+country_event = {
+	id = 5554443
+	title = "EVTNAME5554443"
+	desc = "EVTDESC5554443"
+	picture = "asian_administration"
+	
+	major = yes
+	
+	trigger = {
+		tag = KOR
+		has_global_flag = maharlika_war_declared
+		NOT = { has_global_flag = maharlika_war_settled }
+		NOT = { war_with = JAP }
+		truce_with = JAP
+		owns = 1455
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA5554443A"
+		set_global_flag = maharlika_war_settled
+		prestige = 10
+		JAP = {
+			any_owned = {
+				limit = { OR = { province_id = 1455 province_id = 1456 province_id = 1457 province_id = 1458 province_id = 1459 province_id = 1460 province_id = 1461 province_id = 1462 province_id = 1463 province_id = 2565 province_id = 1661 } }
+				secede_province = KOR
+			}
+		}
+	}
+}
+
+#japan holds manila after the war
+country_event = {
+	id = 5554444
+	title = "EVTNAME5554444"
+	desc = "EVTDESC5554444"
+	picture = "boshin_war"
+	
+	major = yes
+	
+	trigger = {
+		tag = JAP
+		has_global_flag = maharlika_war_declared
+		NOT = { has_global_flag = maharlika_war_settled }
+		NOT = { war_with = KOR }
+		truce_with = KOR
+		owns = 1455
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA5554444A"
+		set_global_flag = maharlika_war_settled
+		prestige = 10
+		KOR = {
+			any_owned = {
+				limit = { OR = { province_id = 1455 province_id = 1456 province_id = 1457 province_id = 1458 province_id = 1459 province_id = 1460 province_id = 1461 province_id = 1462 province_id = 1463 province_id = 2565 province_id = 1426 province_id = 1428 province_id = 1449 is_core = INO } }
+				secede_province = JAP
+			}
+		}
+		add_country_modifier = { name = maharlika_war_debts duration = 1825 }
+		any_country = {
+			limit = { vassal_of = JAP }
+			add_country_modifier = { name = maharlika_war_debts duration = 1825 }
+		}
+	}
 }
