@@ -2,25 +2,25 @@ army = {
 	name = "Army of Armenia"
 	location = 1098
 	regiment = {
-		name= "5. Piyade TÃ¼meni"
+		name= "5. Piyade Tümeni"
 		type = cavalry
 		home = 893
 	}
 
 	regiment = {
-		name= "6. Piyade TÃ¼meni"
+		name= "6. Piyade Tümeni"
 		type = cavalry
 		home = 3497
 	}
 
 	regiment = {
-		name= "7. Piyade TÃ¼meni"
+		name= "7. Piyade Tümeni"
 		type = cavalry
 		home = 892
 	}
 
 	regiment = {
-		name= "8. Piyade TÃ¼meni"
+		name= "8. Piyade Tümeni"
 		type = artillery
 		home = 3380
 	}

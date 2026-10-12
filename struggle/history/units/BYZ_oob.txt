@@ -2,43 +2,43 @@ army = {
 	name = "Thrace Army"
 	location = 860
 	regiment = {
-		name= "1. Piyade Alay覺"
+		name= "1. Piyade Alayi"
 		type = infantry
 		home = 861
 	}
 
 	regiment = {
-		name= "2. Piyade Alay覺"
+		name= "2. Piyade Alayi"
 		type = infantry
 		home = 860
 	}
 
 	regiment = {
-		name= "3. Piyade Alay覺"
+		name= "3. Piyade Alayi"
 		type = infantry
 		home = 860
 	}
 	
 	regiment = {
-		name= "4. Piyade Alay覺"
+		name= "4. Piyade Alayi"
 		type = infantry
 		home = 860
 	}
 
 	regiment = {
-		name= "5. Piyade Alay覺"
+		name= "5. Piyade Alayi"
 		type = artillery
 		home = 825
 	}
 
 	regiment = {
-		name= "6. Piyade Alay覺"
+		name= "6. Piyade Alayi"
 		type = cuirassier
 		home = 828
 	}
 	
 	regiment = {
-		name= "1. S羹vari Alay覺"
+		name= "1. S�vari Alayi"
 		type = cuirassier
 		home = 859
 	}
@@ -46,7 +46,7 @@ army = {
 	
 
 	regiment = {
-		name= "1. Piyade Alay覺"
+		name= "1. Piyade Alayi"
 		type = artillery
 		home = 813
 	}

@@ -8,7 +8,7 @@ GLC = {
 
 #Army
 army = {
-	name = "EjÃ©rcito del Centro"
+	name = "Ejército del Centro"
 	location = 489
 	regiment = {
 		name= "1. Granaderos del Rey"
@@ -35,19 +35,19 @@ army = {
 	}
 
 	regiment = {
-		name= "1. Brigada de InfanterÃ­a 'El Ramillete'"
+		name= "1. Brigada de Infantería 'El Ramillete'"
 		type = infantry
 		home = 503
 	}
 
 	regiment = {
-		name= "2. Brigada de InfanterÃ­a"
+		name= "2. Brigada de Infantería"
 		type = infantry
 		home = 509
 	}
 
 	regiment = {
-		name= "3. Brigada de InfanterÃ­a"
+		name= "3. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
@@ -78,77 +78,77 @@ army = {
 }
 
 army = {
-	name = "EjÃ©rcito del Norte"
+	name = "Ejército del Norte"
 	location = 490
 	
 	regiment = {
-		name= "4. Brigada de InfanterÃ­a 'San Jorge'"
+		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
 		home = 498
 	}
 
 	regiment = {
-		name= "1. Brigada de ArtillerÃ­a"
+		name= "1. Brigada de Artillería"
 		type = artillery
 		home = 476
 	}
 	
 	regiment = {
-		name= "5. Brigada de InfanterÃ­a"
+		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 482
 	}
 	
 	regiment = {
-		name= "6. Brigada de InfanterÃ­a 'La Granja'"
+		name= "6. Brigada de Infantería 'La Granja'"
 		type = infantry
 		home = 483
 	}
 
 	regiment = {
-		name= "7. Brigada de InfanterÃ­a"
+		name= "7. Brigada de Infantería"
 		type = infantry
 		home = 497
 	}
 }
 
 army = {
-	name = "EjÃ©rcito del Sur"
+	name = "Ejército del Sur"
 	location = 488
 
 	regiment = {
-		name= "8. Brigada de InfanterÃ­a"
+		name= "8. Brigada de Infantería"
 		type = infantry
 		home = 512
 	}
 
 	regiment = {
-		name= "9. Brigada de InfanterÃ­a"
+		name= "9. Brigada de Infantería"
 		type = infantry
 		home = 514
 	}
 
 	regiment = {
-		name= "10. Brigada de InfanterÃ­a"
+		name= "10. Brigada de Infantería"
 		type = infantry
 		home = 510
 	}
 
 	regiment = {
-		name= "11. Brigada de InfanterÃ­a"
+		name= "11. Brigada de Infantería"
 		type = infantry
 		home = 516
 	}
 	
 	regiment = {
-		name= "12. Brigada de InfanterÃ­a"
+		name= "12. Brigada de Infantería"
 		type = infantry
 		home = 515
 	}
 }
 
 army = {
-	name = "EjÃ©rcito de Cuba"
+	name = "Ejército de Cuba"
 	location = 2209
 	
 	regiment = {
@@ -183,7 +183,7 @@ army = {
 }
 
 army = {
-	name = "EjÃ©rcito Lusitano"
+	name = "Ejército Lusitano"
 	location = 521
 	regiment = {
 		name= "1. Brigada de Infantaria"
@@ -273,7 +273,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nuestra SeÃ±ora del Patrocinio"
+		name = "Nuestra Señora del Patrocinio"
 		type = frigate
 	}
 	
@@ -302,7 +302,7 @@ navy = {
 	}
 
 	ship = {
-		name= "HÃ©roe"
+		name= "Héroe"
 		type = manowar
 	}
 
@@ -322,12 +322,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Nuestra SeÃ±ora de AsunciÃ³n"
+		name= "Nuestra Señora de Asunción"
 		type = frigate
 	}
 
 	ship = {
-		name= "Nuestra SeÃ±ora de Atocha"
+		name= "Nuestra Señora de Atocha"
 		type = frigate
 	}
 
@@ -371,7 +371,7 @@ leader = {
 }
 
 leader = {
-	name = "NarvÃ¡ez"
+	name = "Narváez"
 	date = 1836.1.1
 	type = land
 	personality = efficient
@@ -380,7 +380,7 @@ leader = {
 }
 
 leader = {
-	name = "GerÃ³nimo ValdÃ©s"
+	name = "Gerónimo Valdés"
 	date = 1836.1.1
 	type = land
 	personality = competent
@@ -398,7 +398,7 @@ leader = {
 }
 
 leader = {
-	name = "JosÃ© RamÃ³n Rodil"
+	name = "José Ramón Rodil"
 	date = 1824.1.1
 	type = land
 	personality = merciless
@@ -426,7 +426,7 @@ leader = {
 	}
 	
 leader = {
-	name = "JosÃ© Joaquim da Rosa Coelho"
+	name = "José Joaquim da Rosa Coelho"
 	picture = european_admiral_5
 	type = sea
 	date = 1820.12.14
@@ -445,7 +445,7 @@ leader = {
 }
 
 leader = {
-	name = "LuÃ­s Barreto"
+	name = "Luís Barreto"
 	date = 1824.1.1
 	type = land
 	personality = resolute

@@ -247,7 +247,7 @@ country_event = {
 }
 
 
-## EmfÃ½lios PÃ³lemos / The Civil War ##
+## Emfýlios Pólemos / The Civil War ##
 country_event = {
 	id = 300005
 	title = "EVTNAME300005" 
@@ -610,7 +610,7 @@ country_event = {
 	}
 }
 
-## RevoluÈ›ia AromÃ¢nÄƒ / The Civil War for Aromania ##
+## Revolutia Aromâna / The Civil War for Aromania ##
 country_event = {
 	id = 300011
 	title = "EVTNAME300011" 

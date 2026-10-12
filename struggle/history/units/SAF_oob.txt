@@ -94,7 +94,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "CristÃ³bal ColÃ³n"
+		name = "Cristóbal Colón"
 		type = frigate
 	}
 	
