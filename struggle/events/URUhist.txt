@@ -1377,7 +1377,7 @@ country_event = {
 				tag = BRZ
 				war_with = URU
 			}
-			country_event = 97066
+#			country_event = 97066
 		}
 		ruling_party_ideology = liberal
 		any_pop = {

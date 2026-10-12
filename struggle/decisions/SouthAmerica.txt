@@ -299,7 +299,7 @@ political_decisions = {
 			set_country_flag = treaty_of_petropolis
 			random_owned = { limit = { owner = { ai = yes } } owner = { treasury = -100000 } }
 			random_owned = { limit = { owner = { ai = no } } owner = { treasury = -2000000 } }
-			any_country = { limit = { is_core = 2549 } country_event = 46610101 }
+#			any_country = { limit = { is_core = 2549 } country_event = 46610101 }
 		}
 		
 		ai_will_do = {

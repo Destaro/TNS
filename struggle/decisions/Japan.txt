@@ -36,7 +36,7 @@ political_decisions = {
 			set_country_flag = negotiate_unequal_treaty_TKG
 			TKG = {
 				set_country_flag = negotiate_unequal_treaty_TKG
-				country_event = 97608
+#				country_event = 97608
 			}
 		}
 		
@@ -78,7 +78,7 @@ political_decisions = {
 				limit = {
 					owns = 1089 #Etorofu
 				}
-				country_event = 32521
+#				country_event = 32521
 			}
 		}
 		
@@ -120,7 +120,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = negotiate_ganghwa_treaty
-			KOR = { country_event = 85015 }
+#			KOR = { country_event = 85015 }
 		}
 		
 		ai_will_do = {
