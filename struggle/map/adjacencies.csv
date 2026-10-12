@@ -21,8 +21,8 @@ From;To;Type;Through;Data;Comment
 #2225;2230;sea;2976;0;Montserrat-Guadeloupe Strait - STOP IT UK
 2225;2224;sea;2976;0;Montserrat-Antigua Strait
 2225;2227;sea;2976;0;Montserrat-St. Kitts Strait
-2236;3246;sea;2976;0;St. Martin-St. Barths Strait
-2227;3246;sea;2976;0;St. Kitts-St. Barths Strait
+#2236;3246;sea;2976;0;St. Martin-St. Barths Strait - disabled: 3246 is Jan Mayen in TNS, St. Barths is not a province
+#2227;3246;sea;2976;0;St. Kitts-St. Barths Strait - disabled: 3246 is Jan Mayen in TNS, St. Barths is not a province
 2223;2226;sea;2976;0;St. Thomas-Tortola Strait
 2226;2222;sea;2976;0;Puerto Rico-Tortola Strait
 2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
