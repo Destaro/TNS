@@ -305,14 +305,14 @@ political_decisions = {
 			allow = {
 				is_greater_power = yes
 				GRE = { all_core = { owned_by = THIS } }
-				wealth = 100000
+				money = 100000
 				owns = 837
 				iron_railroad = 1
 				steam_turbine = 1
 				}
 			effect = {
 				set_country_flag = parthenon_rebuilt
-				pretige = 10
+				prestige = 10
 				country_event = 300069
 				}
 		 }
@@ -332,7 +332,7 @@ political_decisions = {
 			effect = {
 				set_country_flag = greek_lebensraum
 				badboy = 25
-				pretige = 10
+				prestige = 10
 				KSK = { all_core = { add_core = THIS } }
 				PER = { all_core = { add_core = THIS } }
 				EGY = { all_core = { add_core = THIS } }

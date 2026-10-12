@@ -25,7 +25,7 @@ country_event = {
 		name = "EVTOPT9006005B"
 		FRC = { create_vassal = THIS }
 		any_pop = {
-		               limit = { is_primary_pop = yes }
+		               limit = { is_primary_culture = yes }
 		militancy = 7 }
 		ai_chance = { factor = 0.3 }
 	}

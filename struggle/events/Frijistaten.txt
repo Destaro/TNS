@@ -204,7 +204,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994444A"
 	any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = -1
 	    }
 		treasury = -50000
@@ -216,7 +216,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994444B"
 	any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = 1
 	    }
 		set_country_flag = patagonia_abandoned
@@ -253,7 +253,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994445A"
 	any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = -2
 	    }
 		treasury = -50000
@@ -270,7 +270,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994445B"
 	any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = 2
 	    }
 		set_country_flag = patagonia_abandoned
@@ -343,7 +343,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994447A"
 	 any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = -2
 	    }
 		treasury = -50000
@@ -359,7 +359,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA9994447B"
 	 any_owned = {
-	  limit = { core = PTG  }
+	  limit = { is_core = PTG  }
 	  militancy = 2
 	    }
 		set_country_flag = patagonia_abandoned

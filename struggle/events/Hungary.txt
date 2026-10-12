@@ -170,7 +170,7 @@ country_event = {
 		 
  any_owned = {
             limit = {
-                has_core = ANT
+                is_core = ANT
             }
             secede_province = HUN
         }

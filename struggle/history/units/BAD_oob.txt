@@ -62,7 +62,7 @@ army = {
 		home = 593
 	}
 	
-	{
+	regiment = {
 		name = "3. Infanterie-Regiment Königin Olga" #Anachronistic by 30 years
 		type = infantry
 		home = 603

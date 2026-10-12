@@ -161,7 +161,7 @@ country_event = {
 		
 		NOT = { owns = 1419 owns = 1416 }
 		
-		1416 = { owned_by = { OR = {
+		1416 = { owner = { OR = {
                         tag = SCA            
                         tag = ORL
 						tag = FRC
@@ -169,7 +169,7 @@ country_event = {
                         tag = WHA
                         tag = TUN  } } }
 						
-		1419 = { owned_by = { OR = { 
+		1419 = { owner = { OR = { 
 		                tag = SCA            
                         tag = ORL
 						tag = FRC

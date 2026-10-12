@@ -273,7 +273,7 @@ country_event = {
 		add_core = SIC
 		          }
 		}
-		government = hms_goverment 
+		government = hms_government 
 	}
 }
 

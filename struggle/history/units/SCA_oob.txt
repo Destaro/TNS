@@ -22,7 +22,7 @@ KRN = {
 	influence_value = 0
 }
 
-MAH {	
+MAH = {	
 	value = 0
 	level = 5
 	influence_value = 0

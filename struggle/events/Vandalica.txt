@@ -10,7 +10,7 @@ country_event = {
 	trigger = {
 		tag = VND
 		war = no
-		all_core = { limit = { is_core = OCC } owned_by = THIS }
+		all_core = { OR = { NOT = { is_core = OCC } owned_by = THIS } }
 	}
 	option = {
 		name = "EVTOPTA9006012" 
@@ -31,7 +31,7 @@ country_event = {
 	trigger = {
 		tag = VND
 		war = no
-		NOT = { all_core = { limit = { is_core = OCC } owned_by = THIS } }
+		NOT = { all_core = { OR = { NOT = { is_core = OCC } owned_by = THIS } } }
 	}
 	option = {
 		name = "EVTOPTA9006012" 
