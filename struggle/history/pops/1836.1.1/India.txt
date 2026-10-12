@@ -3177,13 +3177,13 @@
 	
 	farmers = {
 		culture = kangri
-		religion = hindi
+		religion = hindu
 		size = 900
 	}
 	
 	serfs = {
 		culture = kangri
-		religion = hindi
+		religion = hindu
 		size = 3000
 	}
 	
