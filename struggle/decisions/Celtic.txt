@@ -354,7 +354,7 @@ claim_england = {
 		 
 	   effect = {
          set_country_flag = negotiate_the_purchase_of_omani_ports
-		 OMA = { country_event = 444411119 }
+#		 OMA = { country_event = 444411119 }
 		          }
 	}
 	

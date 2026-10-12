@@ -230,7 +230,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			country_event = 37236
+#			country_event = 37236
 			FRA = { set_country_flag = the_eiffel_tower_was_built }
 			BOR = { set_country_flag = the_eiffel_tower_was_built }
 		}

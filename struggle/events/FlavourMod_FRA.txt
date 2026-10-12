@@ -120,13 +120,13 @@ country_event = {
 		name = "EVT99984OPTA"
 		set_country_flag = walloon_crisis
 		set_country_flag = walloon_owner
-		FROM = { country_event = 99986 }
+#		FROM = { country_event = 99986 }
 		FROM = {
 			relation = { who = THIS value = -400 }
 			diplomatic_influence = { who = THIS value = -400 }
 		}
 		any_country = {	limit = { is_greater_power = yes NOT = { alliance_with = FROM } capital_scope = { continent = europe } NOT = { tag = FRA tag = BOR } }
-			country_event = 99985
+#			country_event = 99985
 		}
 		ai_chance = { factor = 1 }
 	}

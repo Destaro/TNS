@@ -491,7 +491,7 @@ picture = russify_baltic_states
 			1085 = { add_core = RUT }
 			2617 = { add_core = RUT }
 			2697 = { add_core = RUT }
-			QNG = { country_event = 80110 }
+#			QNG = { country_event = 80110 }
 		}
 	}
 	
@@ -570,7 +570,7 @@ picture = russify_baltic_states
 				add_core = THIS
 			}
 			TPG = {
-				country_event = 80110
+#				country_event = 80110
 			}
 		}
 	}
@@ -1585,7 +1585,7 @@ picture = russify_baltic_states
 		
 		effect = {
 			set_global_flag = treaty_of_akhal
-			1204 = { owner = { country_event = 100019 } }
+#			1204 = { owner = { country_event = 100019 } }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -1619,7 +1619,7 @@ picture = russify_baltic_states
 				limit = { owner = { owns = 1210 } }
 				owner = { 1208 = { remove_core = AFG } 208 = { remove_core = BUK } 208 = { remove_core = UZB } 1211 = { remove_core = BUK } } 
 			}
-			random_owned = { limit = { owner = { NOT = { owns = 1210 } } } 1210 = { owner = { country_event = 325461 } } }
+#			random_owned = { limit = { owner = { NOT = { owns = 1210 } } } 1210 = { owner = { country_event = 325461 } } }
 		}
 
 		ai_will_do = { factor = 1 }

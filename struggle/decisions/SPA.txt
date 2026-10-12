@@ -681,7 +681,7 @@ political_decisions = {
 			
 			random_owned = {
 				limit = { owner = { NOT = { owns = 1976 owns = 1958 } } }
-				owner = { 1976 = { owner = { country_event = 90141 } } }
+#				owner = { 1976 = { owner = { country_event = 90141 } } }
 			}
 		}
 

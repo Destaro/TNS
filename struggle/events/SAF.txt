@@ -647,7 +647,7 @@ country_event = {
 					government = hms_government
 				}
 			}
-			country_event = 6052 #Kruger telegram
+#			country_event = 6052 #Kruger telegram
 		}
 		GCF = { 
 			limit = { #conditions for not sending telegram
@@ -664,7 +664,7 @@ country_event = {
 					government = hms_government
 				}
 			}
-			country_event = 6052 #Kruger telegram
+#			country_event = 6052 #Kruger telegram
 		}
 			
 		ai_chance = {
@@ -710,7 +710,7 @@ country_event = {
 					government = hms_government
 				}
 			}
-			country_event = 6052 #Kruger telegram
+#			country_event = 6052 #Kruger telegram
 		}
 		GCF = { 
 			limit = { #conditions for not sending telegram
@@ -727,7 +727,7 @@ country_event = {
 					government = hms_government
 				}
 			}
-			country_event = 6052 #Kruger telegram
+#			country_event = 6052 #Kruger telegram
 		}
 		ai_chance = {
 			factor = 15
