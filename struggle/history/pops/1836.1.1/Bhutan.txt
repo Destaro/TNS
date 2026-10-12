@@ -407,31 +407,31 @@
 	}
 	
 	clergymen = {
-		culture = chochangachakha
+		culture = chocangacakha
 		religion = gelugpa
 		size = 50
 	}
 
 	artisans = {
-		culture = chochangachakha
+		culture = chocangacakha
 		religion = gelugpa
 		size = 50
 	}
 
 	soldiers = {
-		culture = chochangachakha
+		culture = chocangacakha
 		religion = gelugpa
 		size = 100
 	}
 
 	farmers = {
-		culture = chochangachakha
+		culture = chocangacakha
 		religion = gelugpa
 		size = 300
 	}
     
 	serfs = {
-		culture = chochangachakha 
+		culture = chocangacakha 
 		religion = gelugpa
 		size = 1700
 	} 

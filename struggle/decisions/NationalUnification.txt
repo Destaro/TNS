@@ -451,7 +451,7 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
-			add_accepted_culture = avadhi
+			add_accepted_culture = awadhi
 			add_accepted_culture = marathi
 			add_accepted_culture = rajput
 			add_accepted_culture = bihari

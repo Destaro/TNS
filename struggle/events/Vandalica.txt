@@ -90,7 +90,7 @@ country_event = {
 		prestige = 50
 		add_accepted_culture = occitan
 		    any_pop = {
-            limit = { has_pop_culture = vandal }
+            limit = { has_pop_culture = vandalic }
             ideology = { value = reactionary factor = 0.5 }
         }
 	}

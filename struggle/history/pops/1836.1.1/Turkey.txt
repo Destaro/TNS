@@ -311,7 +311,7 @@
 	}
 	
 	capitalists = {
-		culture = lox_saxon
+		culture = low_saxon
 		religion = catholic
 		size = 10
 	}

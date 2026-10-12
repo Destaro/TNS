@@ -905,7 +905,7 @@ political_decisions = {
 		potential = {
 			tag = PNJ
 			NOT = { has_country_flag = embraced_avadhi }
-			any_owned_province = { culture = avadhi }
+			any_owned_province = { culture = awadhi }
 		}
 		
 		allow = {
@@ -916,7 +916,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 10
-			add_accepted_culture = avadhi
+			add_accepted_culture = awadhi
 			set_country_flag = embraced_avadhi
 		}
 		
