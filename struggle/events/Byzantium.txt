@@ -1156,7 +1156,7 @@ country_event = {
 
 	trigger = {
 		tag = BYZ
-		date = 1837
+		year = 1837
 		month = 5
 		has_country_flag = byz_intro4
 	}

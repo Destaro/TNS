@@ -600,7 +600,7 @@ hoju_embassy = {
 	      set_global_flag = rename_daeman
 	       1485 = { change_province_name = Seobu }
 		   2681 = { change_province_name = Bukbu }
-		   2406 = { change_province_name = Peong hu Je do }
+		   2406 = { change_province_name = "Peong hu Je do" }
 		   2562 = { change_province_name = Nambu }
 	   }
 	   ai_will_do = { factor = 1 }

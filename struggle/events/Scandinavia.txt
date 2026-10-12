@@ -750,7 +750,7 @@ country_event = {
 	trigger = {
 	year = 1837
 		tag = SCA
-		war_with = { BUL }
+		war_with = BUL
 	}
 	
 	mean_time_to_happen = {

@@ -49,7 +49,7 @@ country_event = {
          tag = ORL
          truce_with = SCA
          NOT = {
-                any_neighbour_country = { is_vassal = yes }
+                any_neighbor_country = { is_vassal = yes }
                 has_country_flag = victor_in_the_north 
 			}
 		}

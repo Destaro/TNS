@@ -203,8 +203,8 @@
 	
 	
 	dominis_mari_baltici = {
-	potential = {
 	picture = form_scandinavia
+	potential = {
 	tag = SCA
 	NOT = { has_country_flag = dominis_mari_baltici }
 	      }
@@ -316,7 +316,7 @@
 	        has_country_flag = integrate_finland
             		exists = EST	}
 	      FIN = { vassal_of = THIS }
-	      FIN = exists	  
+	      exists = FIN	  
 		  }
 		  
 	allow = {
