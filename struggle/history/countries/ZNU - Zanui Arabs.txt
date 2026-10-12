@@ -40,7 +40,7 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = exploitation
 
-ruling_party = PER_reactionary
+ruling_party = YEM_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 13
