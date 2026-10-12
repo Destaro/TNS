@@ -6,157 +6,157 @@
 
 
 #Mongolian Protectorate
+#
+#country_event = {
+#	id = 80115
+#	title = "EVTNAME80115"
+#	desc = "EVTDESC80115"
+#	picture = "asian_administration"
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "EVT80115OPTA"
+#		prestige = -5
+#		any_owned = {
+#			limit = { is_core = RUT }
+#			secede_province = RUT
+#		}
+#		create_alliance = FROM
+#		FROM = {
+#			create_vassal = THIS
+#			relation = { who = THIS value = 100 }
+#			diplomatic_influence = { who = THIS value = 100 }
+#		}
+#		random_country = {
+#			limit = {
+#				OR = {
+#					tag = QNG
+#					tag = CHI
+#					tag = KMT
+#					tag = TPG
+#				}
+#				exists = yes
+#				neighbour = THIS
+#			}
+#			casus_belli = {
+#				target = RUT
+#				type = release_puppet
+#				months = 60
+#			}
+#		}
+#		ai_chance = {
+#			factor = 75
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVT80115OPTB"
+#		prestige = 5
+#		any_pop = { militancy = -3 }
+#		RUT = { country_event = 80116 }
+#		ai_chance = {
+#			factor = 25
+#			modifier = {
+#				factor = 0
+#				in_sphere = FROM
+#			}
+#		}
+#	}
+#}
 
-country_event = {
-	id = 80115
-	title = "EVTNAME80115"
-	desc = "EVTDESC80115"
-	picture = "asian_administration"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVT80115OPTA"
-		prestige = -5
-		any_owned = {
-			limit = { is_core = RUT }
-			secede_province = RUT
-		}
-		create_alliance = FROM
-		FROM = {
-			create_vassal = THIS
-			relation = { who = THIS value = 100 }
-			diplomatic_influence = { who = THIS value = 100 }
-		}
-		random_country = {
-			limit = {
-				OR = {
-					tag = QNG
-					tag = CHI
-					tag = KMT
-					tag = TPG
-				}
-				exists = yes
-				neighbour = THIS
-			}
-			casus_belli = {
-				target = RUT
-				type = release_puppet
-				months = 60
-			}
-		}
-		ai_chance = {
-			factor = 75
-		}
-	}
-	
-	option = {
-		name = "EVT80115OPTB"
-		prestige = 5
-		any_pop = { militancy = -3 }
-		RUT = { country_event = 80116 }
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				in_sphere = FROM
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 80116
-	title = "EVTNAME80116"
-	desc = "EVTDESC80116"
-	picture = "asian_administration"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVT80116OPTA"
-		prestige = -5
-		leave_alliance = FROM
-		relation = { who = FROM value = -100 }
-		diplomatic_influence = { who = FROM value = -100 }
-		random_country = {
-			limit = {
-				tag = FROM
-				number_of_states = 2
-				civilized = yes
-			}
-			add_casus_belli = {
-				target = THIS
-				type = acquire_state
-				months = 24
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				number_of_states = 2
-				civilized = no
-				NOT = { has_global_flag = berlin_conference }
-			}
-			add_casus_belli = {
-				target = THIS
-				type = demand_concession_NI_casus_belli
-				months = 24
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				number_of_states = 2
-				civilized = no
-				has_global_flag = berlin_conference
-			}
-			add_casus_belli = {
-				target = THIS
-				type = demand_concession_BC_casus_belli
-				months = 24
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				NOT = { number_of_states = 2 }
-				civilized = yes
-			}
-			add_casus_belli = {
-				target = THIS
-				type = conquest
-				months = 24
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				NOT = { number_of_states = 2 }
-				civilized = no
-				NOT = { has_global_flag = berlin_conference }
-			}
-			add_casus_belli = {
-				target = THIS
-				type = establish_protectorate_NI_casus_belli
-				months = 24
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				NOT = { number_of_states = 2 }
-				civilized = no
-				has_global_flag = berlin_conference
-			}
-			add_casus_belli = {
-				target = THIS
-				type = establish_protectorate_BC_casus_belli
-				months = 24
-			}
-		}
-	}
-}
+#country_event = {
+#	id = 80116
+#	title = "EVTNAME80116"
+#	desc = "EVTDESC80116"
+#	picture = "asian_administration"
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "EVT80116OPTA"
+#		prestige = -5
+#		leave_alliance = FROM
+#		relation = { who = FROM value = -100 }
+#		diplomatic_influence = { who = FROM value = -100 }
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				number_of_states = 2
+#				civilized = yes
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = acquire_state
+#				months = 24
+#			}
+#		}
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				number_of_states = 2
+#				civilized = no
+#				NOT = { has_global_flag = berlin_conference }
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = demand_concession_NI_casus_belli
+#				months = 24
+#			}
+#		}
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				number_of_states = 2
+#				civilized = no
+#				has_global_flag = berlin_conference
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = demand_concession_BC_casus_belli
+#				months = 24
+#			}
+#		}
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				NOT = { number_of_states = 2 }
+#				civilized = yes
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = conquest
+#				months = 24
+#			}
+#		}
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				NOT = { number_of_states = 2 }
+#				civilized = no
+#				NOT = { has_global_flag = berlin_conference }
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = establish_protectorate_NI_casus_belli
+#				months = 24
+#			}
+#		}
+#		random_country = {
+#			limit = {
+#				tag = FROM
+#				NOT = { number_of_states = 2 }
+#				civilized = no
+#				has_global_flag = berlin_conference
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = establish_protectorate_BC_casus_belli
+#				months = 24
+#			}
+#		}
+#	}
+#}
 
 
 

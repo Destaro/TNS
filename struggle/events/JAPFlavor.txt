@@ -3282,7 +3282,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-	    year = 1842
+	    year = 1838
 	    war = no
 		OR = { tag = KOR tag = JAP }
 		exists = PHL
@@ -3296,7 +3296,9 @@ country_event = {
 	#not worth our time
 	option = {
 		name = "EVTOPTA5554441A"
-	    prestige = -5
+	    prestige = -5	
+	ai_chance = {
+			factor = 20 }
 	}
 	
 	#get it before they do
@@ -3314,6 +3316,8 @@ country_event = {
 				    casus_belli = status_quo
                                  		       }
                    }
+		ai_chance = {
+			factor = 80 }
 	}
 	
 		
