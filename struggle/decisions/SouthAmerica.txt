@@ -137,7 +137,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = come_to_the_new_world
 			treasury = -50000
-			add_country_modifier = { name = small_immigration_boom duration = 7730 }
+			add_country_modifier = { name = national_immigration_boom duration = 7730 }
 	      	}
 		}
 	

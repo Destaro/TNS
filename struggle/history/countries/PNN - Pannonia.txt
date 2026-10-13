@@ -8,7 +8,6 @@ literacy = 0.09
 civilized = yes
 oob = "PNN_oob.txt"
 
-decision = central_hungary_rename_pnn
 
 ruling_party = PNN_conservative_92
 upper_house = {

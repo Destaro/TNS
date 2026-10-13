@@ -726,7 +726,7 @@ bigben_construction = {
 	icon = 11
 }
 
-small_immigration_boom = {
+national_immigration_boom = {
 	global_immigrant_attract = 2
 	icon = 17
 }
@@ -1361,10 +1361,6 @@ the_bonnie_blue_flag = {
 }
 
 ##### WORKPLACE EVENTS #####
-silk_famine = {
-	farm_rgo_eff = -0.5
-	icon = 14
-}
 
 blood_and_iron_mine = {
 	mine_rgo_eff = 0.5
@@ -2806,12 +2802,6 @@ emergency_tax_measures2 = {
 
 ###HP's Persia minimod Modifiers
 
-silver_age = {
-	tax_efficiency = 0.01
-	diplomatic_points_modifier = 0.1
-	research_points_modifier = 0.1
-	icon = 5
-}
 
 ################
 # GOTT MIT UNS #
@@ -3084,13 +3074,6 @@ the_eight_banners = {
 	icon = 16
 }
 
-taiping_draft = {
-	land_organisation = -0.1
-	org_regain = -0.1
-	mobilisation_size = 0.15
-	prestige = -0.02
-	icon = 18
-}
 
 taiping_losing_boost = {
 	land_unit_start_experience = 15

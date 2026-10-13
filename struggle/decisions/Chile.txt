@@ -46,7 +46,7 @@ political_decisions = {
 					duration = 3650
 				}
 			}
-			add_country_modifier = { name = small_immigration_boom duration = 730 }
+			add_country_modifier = { name = national_immigration_boom duration = 730 }
 			prestige = 5
 			set_country_flag = valpariasoharbor_built
 		}
