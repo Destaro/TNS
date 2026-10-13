@@ -616,7 +616,8 @@ help_ai_spain = { #Uncivs
 		OR = {
 			is_culture_group = south_asian
 			is_culture_group = southeast_asian
-			is_culture_group = iranian_turanian
+			is_culture_group = iranian
+			is_culture_group = turanian
 			is_culture_group = arab
 		}
 	}
