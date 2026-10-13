@@ -166,7 +166,7 @@ party = {
 	start_date = 1890.1.1
 	end_date = 2000.1.1
 	
-	ideology = social_liberal
+	ideology = liberal
 
     social_policy = welfare_state
 	
@@ -182,7 +182,7 @@ party = {
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 	
-	ideology = market_liberal
+	ideology = anarcho_liberal
 
     social_policy = no_state_interference
 	
