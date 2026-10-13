@@ -47,8 +47,6 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
-	market_liberal = 0
-	social_liberal = 0
 }
 
 # Level_2
