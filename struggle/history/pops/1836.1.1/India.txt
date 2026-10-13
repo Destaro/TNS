@@ -7154,7 +7154,7 @@
 
 	farmers = {
 		culture = bengali
-		religion = mani
+		religion = manichaeism
 		size = 147250
 	}
 
