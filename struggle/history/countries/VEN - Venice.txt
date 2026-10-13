@@ -42,7 +42,6 @@ colonial_policy = no_colonies
 set_country_flag = catholic_country
 decision = italian_veneto
 decision = italian_lombardy
-decision = istria_rename_ita_slo
 decision = dalmatia_rename_ita
 
 # Technologies

@@ -110,8 +110,6 @@ commerce_raiders = yes
 precision_work = yes
 # Inventions
 
-decision = literacy_EIC
-decision = eic_effects
 
 
 #1861.1.1 = {
