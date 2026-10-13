@@ -2455,13 +2455,6 @@ turanian = {
 			Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli" 
 			}
 	}
-	gypsy = {
-	color = {16 102 163}
-		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
-		
-		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-		radicalism = 1
-	}
 }
 
 central_asian = {
@@ -5263,16 +5256,6 @@ indo_iranian = {
 		}
 	}
 	
-	bhadrawahi  = {
-		color ={135 105 135}
-		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
-			
-		}
-		
-		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
-               
-		}
-	}
 	
 	dogri  = {
 		color ={155 135 155} 
