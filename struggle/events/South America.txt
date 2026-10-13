@@ -330,7 +330,7 @@ country_event = {
 		tag = KRT
 		has_global_flag = guarani_revolt_in_inca_success
 		2339 = { controlled_by = PRG }
-		PRG = { remove_country_modifier = AI_immediate_mobilization_cheat }
+		PRG = { has_country_modifier = AI_immediate_mobilization_cheat }
 	}
 	
 	mean_time_to_happen = {
