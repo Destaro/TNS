@@ -46,7 +46,7 @@ govt_flag = {
 	flag = absolute_monarchy
 }
 
-ruling_party = SAF_conservative_2
+ruling_party = SAF_conservative
 upper_house = {
 	fascist = 0
 	liberal = 14

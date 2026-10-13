@@ -52,7 +52,7 @@ foreign_navies = yes_foreign_navies
 naval_schools = yes_naval_schools
 admin_reform = yes_admin_reform
 
-ruling_party = EIC_reactionary
+ruling_party = GER_reactionary
 upper_house = {
 	fascist = 5
 	liberal = 35	
