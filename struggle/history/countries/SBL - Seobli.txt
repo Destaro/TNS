@@ -1,5 +1,5 @@
 capital = 2483
-primary_culture = korean_australian
+primary_culture = Hojese
 culture = korean
 religion = catholic
 government = democracy
