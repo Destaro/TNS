@@ -61,7 +61,7 @@ flintlock_rifles = 1
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "JOH_oob.txt"
+oob = "PHG_oob.txt"
 1861.1.1 = {
 	oob = "/1861/JOH_oob.txt"
 }
