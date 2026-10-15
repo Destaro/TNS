@@ -4190,7 +4190,7 @@ country_event = {
 		prestige = -25
 		war_exhaustion = 5
 		1612 = { 
-			clr_province_flag = summer_palace 
+			clr_global_flag = summer_palace 
 			any_pop = {
 				reduce_pop = 0.99
 			}

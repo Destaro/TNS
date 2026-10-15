@@ -975,7 +975,7 @@ political_decisions = {
 		
 		effect = {
 			treasury = 25000
-			1008 = { set_province_flag = moscow_city }
+			1008 = { set_global_flag = moscow_city }
 			1008 = { any_pop = { literacy = 0.1 } }
 			994 = { any_pop = { literacy = 0.1 } }
 			any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.54 }
@@ -2280,8 +2280,8 @@ political_decisions = {
 			2484 = { add_province_modifier = { name = small_immigration_boom duration = 7300 } }	#Gladstone, AU
 			2491 = { add_province_modifier = { name = small_immigration_boom duration = 7300 } }	#Adelaide, AU
 			372 = { add_province_modifier = { name = sound_dues_toll duration = -1 } } #Copenhagen
-			2172 = { set_province_flag = mexico_city }
-			1616 = { set_province_flag = summer_palace }
+			2172 = { set_global_flag = mexico_city }
+			1616 = { set_global_flag = summer_palace }
 			#################Provinces Setup######################
 			
 			#################Giving Starting Money to Pops and Countries######################

@@ -102,7 +102,7 @@ political_decisions = {
 			set_global_flag = bigben_destroyed 
 			badboy = 15
 			prestige = -5
-			300 = { owner = { country_event = 152009875 } clr_province_flag = big_ben_built }
+			300 = { owner = { country_event = 152009875 } clr_global_flag = big_ben_built }
 		}
 		ai_will_do = { factor = 0 }
 	}
