@@ -2441,7 +2441,7 @@ country_event = {
 						any_owned_province = {
 							OR = {
 								region = PRU_575
-								region = PRU_570
+								OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 								region = PRU_578
 							}
 						}
@@ -2479,7 +2479,7 @@ country_event = {
 						any_owned_province = {
 							OR = {
 								region = PRU_575
-								region = PRU_570
+								OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 								region = PRU_578
 							}
 						}
@@ -2515,7 +2515,7 @@ country_event = {
 				any_owned_province = {
 					OR = {
 						region = PRU_575
-						region = PRU_570
+						OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 						region = PRU_578
 					}
 				}
@@ -2523,14 +2523,17 @@ country_event = {
 					any_owned_province = {
 						OR = {
 							region = PRU_575
-							region = PRU_570
+							OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 							region = PRU_578
 						}
 					}
 				}
 			}
 			PRU_575 = { add_core = RHI }
-			PRU_570 = { add_core = RHI }
+			570 = { add_core = RHI }
+			573 = { add_core = RHI }
+			574 = { add_core = RHI }
+			571 = { add_core = RHI }
 			PRU_578 = { add_core = RHI }
 			THIS = {
 				any_owned = {
@@ -2561,7 +2564,7 @@ country_event = {
 				any_owned_province = {
 					OR = {
 						region = PRU_575
-						region = PRU_570
+						OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 						region = PRU_578
 					}
 				}
@@ -2569,14 +2572,17 @@ country_event = {
 					any_owned_province = {
 						OR = {
 							region = PRU_575
-							region = PRU_570
+							OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 							region = PRU_578
 						}
 					}
 				}
 			}
 			PRU_575 = { add_core = RHI }
-			PRU_570 = { add_core = RHI }
+			570 = { add_core = RHI }
+			573 = { add_core = RHI }
+			574 = { add_core = RHI }
+			571 = { add_core = RHI }
 			PRU_578 = { add_core = RHI }
 			THIS = {
 				any_owned = {
@@ -2634,7 +2640,10 @@ country_event = {
 				}
 			}
 			PRU_575 = { add_core = RHI }
-			PRU_570 = { add_core = RHI }
+			570 = { add_core = RHI }
+			573 = { add_core = RHI }
+			574 = { add_core = RHI }
+			571 = { add_core = RHI }
 			PRU_578 = { add_core = RHI }
 		}	
 		
@@ -2653,7 +2662,10 @@ country_event = {
 				}
 			}
 			PRU_575 = { add_core = RHI }
-			PRU_570 = { add_core = RHI }
+			570 = { add_core = RHI }
+			573 = { add_core = RHI }
+			574 = { add_core = RHI }
+			571 = { add_core = RHI }
 			PRU_578 = { add_core = RHI }
 		}	
 
@@ -2925,7 +2937,22 @@ country_event = {
 				remove_core = GER
 				remove_core = GCF
 			}
-			AUS_612 = {
+			612 = {
+				add_core = AUS
+				remove_core = GER
+				remove_core = GCF
+			}
+			613 = {
+				add_core = AUS
+				remove_core = GER
+				remove_core = GCF
+			}
+			614 = {
+				add_core = AUS
+				remove_core = GER
+				remove_core = GCF
+			}
+			615 = {
 				add_core = AUS
 				remove_core = GER
 				remove_core = GCF
@@ -4155,9 +4182,9 @@ country_event = {
 					region = TEX_132
 					region = MEX_103
 					region = MEX_94
-					region = MEX_97
+					OR = { province_id = 97 province_id = 98 province_id = 99 }
 					region = MEX_85
-					region = MEX_100
+					OR = { province_id = 100 province_id = 101 province_id = 102 }
 				}
 			}
 			add_core = MEX
@@ -4350,7 +4377,7 @@ country_event = {
 					limit = {
 						OR = {
 							region = MEX_103
-							region = MEX_100
+							OR = { province_id = 100 province_id = 101 province_id = 102 }
 						}
 					}
 					add_core = TEX
@@ -5924,10 +5951,10 @@ country_event = {
 		all_core = {
 			limit = {
 				NOT = {
-					region = AUS_612
+					OR = { province_id = 612 province_id = 613 province_id = 614 province_id = 615 }
 					region = AUS_613
 					region = AUS_619
-					region = AUS_734
+					OR = { province_id = 734 province_id = 735 }
 				}
 			}
 			remove_core = THIS
@@ -5984,7 +6011,10 @@ country_event = {
 				NOT = { exists = PLC }
 				THIS = { owns = 702 }
 			}
-			AUS_702 = { add_core = RUS }
+			703 = { add_core = RUS }
+			704 = { add_core = RUS }
+			705 = { add_core = RUS }
+			714 = { add_core = RUS }
 		}
 
 		#Poland gets cores back, if it exists			

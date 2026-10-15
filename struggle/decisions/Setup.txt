@@ -1154,8 +1154,12 @@ political_decisions = {
 				literacy = 0.35
 			}
 			
-			AUS_612 = { any_pop = { literacy = 0.1 } }
-			AUS_734 = { any_pop = { limit = { has_pop_culture = south_german } literacy = 0.1 } }
+			612 = { any_pop = { literacy = 0.1 } }
+			613 = { any_pop = { literacy = 0.1 } }
+			614 = { any_pop = { literacy = 0.1 } }
+			615 = { any_pop = { literacy = 0.1 } }
+			734 = { any_pop = { limit = { has_pop_culture = south_german } literacy = 0.1 } }
+			735 = { any_pop = { limit = { has_pop_culture = south_german } literacy = 0.1 } }
 			any_pop = { limit = { has_pop_culture = siebenburger } literacy = 0.5 }
 			any_pop = { limit = { has_pop_religion = protestant NOT = { has_pop_culture = siebenburger } literacy = 0.05 } }
 			any_pop = { limit = { has_pop_culture = czech } literacy = 0.37 }
@@ -1594,7 +1598,11 @@ political_decisions = {
 			USA_200 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.04 } }
 			USA_194 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.02 } }
 			USA_170 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
-			USA_148 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
+			146 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
+			148 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
+			147 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
+			149 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
+			150 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
 			USA_185 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.03 } }
 			USA_196 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.04 } }
 			222 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.1 } }

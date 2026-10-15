@@ -1423,9 +1423,9 @@ country_event = {
 			limit = {
 				NOT = {
 					region = AUS_619
-					region = AUS_612
+					OR = { province_id = 612 province_id = 613 province_id = 614 province_id = 615 }
 					region = AUS_613
-					region = AUS_734
+					OR = { province_id = 734 province_id = 735 }
 				}
 			}
 			remove_core = THIS
