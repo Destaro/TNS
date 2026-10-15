@@ -1554,8 +1554,8 @@ leader = {
     name = "Thomas Konow"
     date = 1821.1.1
     type = sea
-    personality = defiant
-    background = war_college
+    personality = bold
+    background = school_of_defense
     prestige = 0.5
 }
 
