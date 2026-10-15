@@ -527,7 +527,7 @@ political_decisions = {
 			662 = { add_core = POL }
 			663 = { add_core = POL }
 			RUS_360 = { add_core = POL }
-			RUS_698 = { add_core = POL }
+			698 = { add_core = POL }
 		}
 		ai_will_do = {
 			factor = 1 

@@ -142,7 +142,7 @@ political_decisions = {
 				577 = { owner = { NOT = { is_culture_group = germanic } } }
 				572 = { owner = { NOT = { is_culture_group = germanic } } }
 				PRU_578 = { owner = { NOT = { is_culture_group = germanic } } }
-				PRU_570 = { owner = { NOT = { is_culture_group = germanic } } }
+				OR = { 570 = { owner = { NOT = { is_culture_group = germanic } } } 573 = { owner = { NOT = { is_culture_group = germanic } } } 574 = { owner = { NOT = { is_culture_group = germanic } } } 571 = { owner = { NOT = { is_culture_group = germanic } } } }
 				BAD_586 = { owner = { NOT = { is_culture_group = germanic } } }
 				WUR_589 = { owner = { NOT = { is_culture_group = germanic } } }
 				HES_2560 = { owner = { NOT = { is_culture_group = germanic } } }
@@ -566,7 +566,7 @@ political_decisions = {
 					region = PRU_581
 					region = PRU_578
 					region = PRU_575
-					region = PRU_570
+					OR = { province_id = 570 province_id = 573 province_id = 574 province_id = 571 }
 				}
 			}
 			NOT = { owns = 566 }

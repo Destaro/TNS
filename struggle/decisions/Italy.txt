@@ -488,7 +488,8 @@ political_decisions = {
 						}
 					}
 				}
-				AUS_734 = { add_core = ITA remove_core = TST }
+				734 = { add_core = ITA remove_core = TST }
+				735 = { add_core = ITA remove_core = TST }
 				AUS_736 = { add_core = ITA }
 				owner = { set_global_flag = italian_claimed_venetia }
 			}

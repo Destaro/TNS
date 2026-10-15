@@ -2080,7 +2080,7 @@ free_peoples = {
 						region = PRU_701
 						region = RUS_706
 						region = RUS_715
-						region = AUS_702
+						OR = { province_id = 703 province_id = 704 province_id = 705 province_id = 714 }
 					}
 				}
 				FROM = { tag = POL }
@@ -7636,7 +7636,7 @@ colonial_conquest = {
 						region = FRA_1700
 						region = ALD_1704
 						region = ALD_1708
-						region = ALD_1713
+						OR = { province_id = 1713 province_id = 1715 province_id = 1711 province_id = 1712 }
 						region = ALD_1718
 					}
 				}
@@ -7675,7 +7675,7 @@ colonial_conquest = {
 						region = FRA_1700
 						region = ALD_1704
 						region = ALD_1708
-						region = ALD_1713
+						OR = { province_id = 1713 province_id = 1715 province_id = 1711 province_id = 1712 }
 						region = ALD_1718
 					}
 				}

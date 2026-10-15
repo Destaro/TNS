@@ -284,7 +284,7 @@ country_event = {
 			}
 			owner = {
 				any_owned = {
-					limit = { region = SAX_558 }
+					limit = { OR = { province_id = 558 province_id = 559 province_id = 560 province_id = 687 } }
 					secede_province = SAX
 				}
 			}

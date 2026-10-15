@@ -33,8 +33,12 @@ greater_california = {
 
 		MEX_85 = { add_core = CAL } #California
 		MEX_94 = { add_core = CAL } #Nevada
-		MEX_97 = { add_core = CAL } #Utah
-		MEX_100 = { add_core = CAL } #Arizona
+		97 = { add_core = CAL }
+		98 = { add_core = CAL }
+		99 = { add_core = CAL } #Utah
+		100 = { add_core = CAL }
+		101 = { add_core = CAL }
+		102 = { add_core = CAL } #Arizona
 		MEX_2138 = { add_core = CAL } #Sonora
 
 		relation = { who = MEX value = -200 }

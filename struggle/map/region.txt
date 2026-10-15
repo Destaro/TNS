@@ -579,7 +579,7 @@ TUR_880 = { 880 881 883 877 3494 } #Kastamonu
 
 TUR_882 = { 882 884 3497 } #Trabizond
 
-TUR_879 = { 887 888 3459 3504 } #Erzincan
+TUR_887 = { 887 888 3459 3504 } #Erzincan
 
 TUR_879 = { 879 3491 3654 3327 3498 } #Northern Kapadokya - now Sivas
 
