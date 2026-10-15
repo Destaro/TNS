@@ -369,7 +369,7 @@ political_decisions = {
 			LOT = { set_country_flag = black_stain }
 			prestige = 10
 			any_pop = {
-				limit = { is_culture_group = frankish }
+				limit = { has_pop_culture = frankish }
 				militancy = -2
 			}
 		}

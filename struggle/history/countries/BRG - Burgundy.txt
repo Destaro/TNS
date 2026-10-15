@@ -70,7 +70,6 @@ upper_house =
     liberal = 8
     conservative = 86
     reactionary = 6
-    radical = 0
     socialist = 0
     communist = 0
 }

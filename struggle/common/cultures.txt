@@ -1850,6 +1850,17 @@ caspian_caucasian = {
 		}
 		radicalism = 25
 	}
+	dagestani = {
+		    color = {134 100 49}
+		    first_names = {
+		        Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+		        }
+
+		    last_names = {
+		        Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		    }
+		    radicalism = 25
+		}
 	
 	#Tsezic
 	tsezic = {
@@ -5630,6 +5641,16 @@ indo_iranian = {
 		
 		last_names = { Singh
                
+		}
+	}
+	kanauji = {
+		color = {90 190 41}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+
+		}
+
+		last_names = { Singh
+
 		}
 	}
 	

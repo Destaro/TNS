@@ -70,12 +70,24 @@ muslim = {
 		
 	}
 
+	druze = {
+		icon = 17
+		color = { 0.7 0.8 0.6 }
+	}
+
 }
 
 zoroastrian_group = {
 	zoroastrian = {
 		icon = 18
 		color = { 0.7 0.2 0.1 }
+	}
+}
+
+yazidi_group = {
+	yazidi = {
+		icon = 18
+		color = { 0.4 0.0 1.0 }
 	}
 }
 
@@ -123,6 +135,11 @@ eastern = {
 	sikh = {
 		color = { 0.3 0.8 0 }
 		icon = 13
+	}
+
+	jain = {
+		color = { 0.9 0.6 0.2 }
+		icon = 11
 	}
 
 	tianjiao = {

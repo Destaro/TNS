@@ -5206,36 +5206,6 @@
 	}
 	
 	aristocrats = {
-		culture = bandari
-		religion = manichaeism
-		size = 15
-	}
-
-	clergymen = {
-		culture = bandari
-		religion = manichaeism
-		size = 30
-	}
-
-	artisans = {
-		culture = bandari
-		religion = manichaeism
-		size = 80
-	}
-
-	soldiers = {
-		culture = bandari
-		religion = manichaeism
-		size = 10
-	}
-
-	farmers = {
-		culture = bandari
-		religion = manichaeism
-		size = 6000
-	}
-	
-	aristocrats = {
 		culture = old_persian
 		religion = manichaeism
 		size = 25
