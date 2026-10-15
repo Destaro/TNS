@@ -1686,36 +1686,6 @@
 		size = 3800
 	}
 	
-	clergymen = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 100
-	}
-	
-	aristocrats = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 150
-	}
-
-	artisans = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 500
-	}
-
-	soldiers = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 400
-	}
-
-	farmers = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 2750
-	}
-
 	aristocrats = {
 		culture = assyrian
 		religion = manichaeism
@@ -1738,12 +1708,6 @@
 		culture = assyrian
 		religion = manichaeism
 		size = 2500
-	}
-
-	aristocrats = {
-		culture = southern_hungarian
-		religion = manichaeism
-		size = 50
 	}
 
 	clergymen = {

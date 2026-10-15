@@ -1160,41 +1160,6 @@
 		size = 6125
 	}
 	
-	aristocrats = {
-		culture = wanling
-		religion = animist
-		size = 4
-	}
-
-	clergymen = {
-		culture = wanling
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = wanling
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = wanling
-		religion = animist
-		size = 20
-	}
-
-	farmers = {
-		culture = wanling
-		religion = animist
-		size = 100
-	}
-
-	serfs = {
-		culture = wanling
-		religion = animist
-		size = 625
-	}
 }
 
 #Biratnagar (540000/135000 POPS)   
@@ -3300,36 +3265,6 @@
 		culture = gyalsumda
 		religion = gelugpa
 		size = 140
-	}
-	
-	clergymen = {
-		culture = kusunda
-		religion = animist
-		size = 3
-	}
-
-	artisans = {
-		culture = kusunda
-		religion = animist
-		size = 1
-	}
-
-	soldiers = {
-		culture = kusunda
-		religion = animist
-		size = 5
-	}
-
-	farmers = {
-		culture = kusunda
-		religion = animist
-		size = 40
-	}
-	
-	serfs = {
-		culture = kusunda
-		religion = animist
-		size = 100
 	}
 	
     farmers = {

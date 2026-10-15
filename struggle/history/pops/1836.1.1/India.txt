@@ -313,30 +313,6 @@
 	}
 	
 	soldiers = {
-		culture = pamiri
-		religion = manichaeism
-		size = 200
-	}
-
-	farmers = {
-		culture = pamiri
-		religion = manichaeism
-		size = 3000
-	}
-	
-	soldiers = {
-		culture = burushaski
-		religion = manichaeism
-		size = 200
-	}
-
-	farmers = {
-		culture = burushaski
-		religion = manichaeism
-		size = 3000
-	}
-	
-	soldiers = {
 		culture = kalasha
 		religion = animist
 		size = 500
@@ -503,42 +479,6 @@
 		size = 3500
 	}
 	
-	aristocrats = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 50
-	}
-
-	clergymen = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 100
-	}
-
-	artisans = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 200
-	}
-
-	soldiers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 1000
-	}
-	
-	farmers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 5000
-	}
-	
-	serfs = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 1500
-	}
-	
 	soldiers = {
 		culture = pashtun
 		religion = manichaeism
@@ -600,36 +540,6 @@
 		culture = pashtun
 		religion = manichaeism
 		size = 3000
-	}
-	
-	clergymen = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 10
-	}
-
-	artisans = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 10
-	}
-
-	soldiers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 300
-	}
-	
-	farmers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 1100
-	}
-	
-	serfs = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 300
 	}
 	
 	aristocrats = {
@@ -735,30 +645,6 @@
 		culture = pashtun
 		religion = manichaeism
 		size = 100
-	}
-	
-	clergymen = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 10
-	}
-
-	artisans = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 10
-	}
-
-	soldiers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 100
-	}
-	
-	farmers = {
-		culture = wanetsi
-		religion = manichaeism
-		size = 200
 	}
 	
 	aristocrats = {
@@ -1432,12 +1318,6 @@
 		culture = gaddi
 		religion = hindu
 		size = 825
-	}
-	
-	serfs = {
-		culture = pugri
-		religion = manichaeism
-		size = 1000
 	}
 	
 	serfs = {
@@ -2475,66 +2355,6 @@
 
 #Karimabad (264000/66000 POPS)
 3395 = {
-	aristocrats = {
-		culture = pamiri
-		religion = manichaeism
-		size = 50
-	}
-
-	clergymen = {
-		culture = pamiri
-		religion = manichaeism
-		size = 50
-	}
-
-	soldiers = {
-		culture = pamiri
-		religion = manichaeism
-		size = 50
-	}
-
-	farmers = {
-		culture = pamiri
-		religion = manichaeism
-		size = 1300
-	}
-	
-	farmers = {
-		culture = qara_kirgiz
-		religion = animist
-		size = 300
-	}
-
-	aristocrats = {
-		culture = burushaski
-		religion = manichaeism
-		size = 50
-	}
-
-	clergymen = {
-		culture = burushaski
-		religion = manichaeism
-		size = 125
-	}
-
-	artisans = {
-		culture = burushaski
-		religion = manichaeism
-		size = 200
-	}
-
-	soldiers = {
-		culture = burushaski
-		religion = manichaeism
-		size = 400
-	}
-
-	farmers = {
-		culture = burushaski
-		religion = manichaeism
-		size = 6500
-	}
-	
 	farmers = {
 		culture = shina
 		religion = manichaeism
@@ -8020,29 +7840,6 @@
 		size = 45750
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 500
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 500
-	}
-
-	artisans = {
-		culture = boro_garo
-		religion = animist
-		size = 2500
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 33500
-	}
 }
 
 #Meghalaya
@@ -8075,12 +7872,6 @@
 		culture = assamese
 		religion = hindu
 		size = 10000
-	}
-	
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 30000
 	}
 	
 	farmers = {
@@ -8182,35 +7973,6 @@
 		size = 28125
 	}
 
-	aristocrats = {
-		culture = boro_garo
-		religion = animist
-		size = 250
-	}
-
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 250
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 250
-	}
-
-	artisans = {
-		culture = boro_garo
-		religion = animist
-		size = 1250
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 25000
-	}
 }
 
 #ahmadabad
@@ -8251,24 +8013,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8314,24 +8058,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8377,24 +8103,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8440,24 +8148,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8503,24 +8193,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8566,24 +8238,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8629,24 +8283,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8692,24 +8328,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8755,24 +8373,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8818,24 +8418,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8881,24 +8463,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8944,24 +8508,6 @@
 		size = 4000
 	}
 
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 3425
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = animist
@@ -8970,36 +8516,6 @@
 }
 #Agartala (608000/152000 POPS)
 2566 = {
-	aristocrats = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	clergymen = {
-		culture = boro_garo
-		religion = animist
-		size = 875
-	}
-
-	artisans = {
-		culture = boro_garo
-		religion = animist
-		size = 5000
-	}
-
-	soldiers = {
-		culture = boro_garo
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = boro_garo
-		religion = animist
-		size = 64125
-	}
-	
 	farmers = {
 		culture = kuki_chin
 		religion = hindu
