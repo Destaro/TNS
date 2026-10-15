@@ -149,18 +149,6 @@ QNG ={
 	influence_value = 0
 }
 
-BAH ={
-	value = -25
-	level = 0
-	influence_value = 0
-}
-
-PNB ={
-	value = -25
-	level = 0
-	influence_value = 0
-}
-
 #African Uncivs
 SOK = {
 	value = -25
