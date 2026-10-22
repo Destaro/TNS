@@ -64,7 +64,11 @@ political_decisions = {
 			KRN = {
 				all_core = { add_core = DRA }
 			}
-			ENG_1305 = { add_core = DRA } #Vizagapatnam
+			1305 = { add_core = DRA }
+			1306 = { add_core = DRA }
+			1307 = { add_core = DRA }
+			1308 = { add_core = DRA }
+			1279 = { add_core = DRA } #Vizagapatnam
 			1286 = { add_core = DRA } #Gulbarga
 			1283 = { add_core = DRA } #Hyderabad
 			1287 = { add_core = DRA } #Warangal
@@ -183,7 +187,12 @@ political_decisions = {
 				release = RAJ
 			}
 			change_tag = RAJ
-			ENG_1264 = { add_core = RAJ }
+			1264 = { add_core = RAJ }
+			1265 = { add_core = RAJ }
+			1266 = { add_core = RAJ }
+			1267 = { add_core = RAJ }
+			1268 = { add_core = RAJ }
+			1269 = { add_core = RAJ }
 			random_country = {
 				limit = {
 					tag = BIK
@@ -287,7 +296,7 @@ political_decisions = {
 			NOT = { has_global_flag = rajputana_formed }
 			NOT = { tag = HND }
 			OR = {
-				any_owned_province = { region = ENG_1264 }
+				any_owned_province = { OR = { province_id = 1264 province_id = 1265 province_id = 1266 province_id = 1267 province_id = 1268 province_id = 1269 } }
 				BIK = { in_sphere = THIS }
 				JAI = { in_sphere = THIS }
 				JAS = { in_sphere = THIS }
@@ -341,7 +350,12 @@ political_decisions = {
 			set_global_flag = rajputana_formed
 			prestige = 5
 			badboy = -3
-			ENG_1264 = { add_core = RAJ }
+			1264 = { add_core = RAJ }
+			1265 = { add_core = RAJ }
+			1266 = { add_core = RAJ }
+			1267 = { add_core = RAJ }
+			1268 = { add_core = RAJ }
+			1269 = { add_core = RAJ }
 			random_country = {
 				limit = {
 					tag = BIK
@@ -765,7 +779,15 @@ political_decisions = {
 			change_tag = DUR
 			PER_1148 = { add_core = DUR } #Mashhad
 			SIN_1288 = { add_core = DUR } #Sindh
-			PAN_1227 = { add_core = DUR } #Lahore
+			1227 = { add_core = DUR }
+			1228 = { add_core = DUR }
+			1229 = { add_core = DUR }
+			1231 = { add_core = DUR }
+			1230 = { add_core = DUR }
+			1232 = { add_core = DUR }
+			1233 = { add_core = DUR }
+			1234 = { add_core = DUR }
+			1235 = { add_core = DUR } #Lahore
 			1219 = { add_core = DUR } #Quetta
 			1220 = { add_core = DUR } #Dalbandin
 			1221 = { add_core = DUR } #Kalat
