@@ -41,7 +41,6 @@ colonial_policy = no_colonies
 set_country_flag = catholic_country
 decision = bohemia_rename_czh
 decision = sudetes_rename_czh
-decision = silesia_rename_czech
 
 ruling_party = BOH_conservative
 upper_house = {
