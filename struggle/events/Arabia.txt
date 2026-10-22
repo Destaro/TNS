@@ -24,7 +24,8 @@ country_event = {
 				citizens_rights = all_voting_pops
 			}
 			is_culture_group = arab
-			is_culture_group = iranian_turanian
+			is_culture_group = iranian
+			is_culture_group = turanian
 			has_country_flag = arab_revolt
 			has_country_flag = arab_revolt_ended
 			has_country_flag = friend_of_the_arabs
@@ -423,7 +424,8 @@ province_event = {
 			NOT = { has_country_flag = arab_revolt_ended }
 			NOT = {
 				is_culture_group = arab
-				is_culture_group = iranian_turanian
+				is_culture_group = iranian
+				is_culture_group = turanian
 			}
 		}
 		

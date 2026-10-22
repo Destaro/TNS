@@ -629,12 +629,6 @@
 	}
 	
 	farmers = {
-		culture = zaghawa
-		religion = punic_church
-		size = 300
-	}
-
-	farmers = {
 		culture = tuareg
 		religion = punic_church
 		size = 300
