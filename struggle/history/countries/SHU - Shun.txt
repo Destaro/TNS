@@ -57,7 +57,6 @@ classicism_n_early_romanticism = 1
 # Inventions
 
 # Unciv Reforms
-diplomatic_reform = interactive
 
 # Starting Consciousness
 consciousness = 0

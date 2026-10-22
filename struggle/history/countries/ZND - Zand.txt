@@ -65,15 +65,11 @@ army_command_principle = 1
 # Inventions
 
 # Unciv Reforms
-diplomatic_reform = interactive
-academic_institutions = madrasahs
 admin_reform = yes_admin_reform
-taxation_reform = tax_farmers
 army_schools = yes_army_schools
 foreign_officers = yes_foreign_officers
 finance_reform = yes_finance_reform
 foreign_training = yes_foreign_training
-disciplinary_reform = rehabilitationunciv
 
 # Starting Consciousness
 consciousness = 0

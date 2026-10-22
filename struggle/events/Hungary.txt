@@ -96,21 +96,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA3330012" 
 		treasury = 50000
-		add_to_stockpile = {
-    type = grain
-    amount = 200
-}
-
-add_to_stockpile = {
-    type = small_arms
-    amount = 200
-}
-
-add_to_stockpile = {
-    type = canned_food
-    amount = 200
-}
-
    
    
 	}

@@ -40,15 +40,11 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = exploitation
 
-diplomatic_reform = interactive
-academic_institutions = madrasahs
 admin_reform = yes_admin_reform
-taxation_reform = tax_farmers
 army_schools = yes_army_schools
 foreign_officers = yes_foreign_officers
 finance_reform = yes_finance_reform
 foreign_training = yes_foreign_training
-disciplinary_reform = rehabilitationunciv
 
 #Unciv Technologies
 
