@@ -1,147 +1,638 @@
 political_decisions = {
-yuan_restoration = {
-potential = {
-tag = MGL
-NOT = { has_country_flag = yuan_restoration } 
-                }
+	#CENTRALIZING THE CHAGATAI KHANATE
+	centralize_kyrgistan_by_kyrgistan = {
+		potential = {
+			tag = KYR
+			NOT = { has_country_flag = centralize_kyrgistan_by_kyrgistan }
+			TAJ = { vassal_of = THIS }
+			XIN = { vassal_of = THIS }
+			KML = { vassal_of = THIS }
+			UYG = { vassal_of = THIS }
+			}
+		allow = { 
+			prestige = 10 
+			}
 
-allow = {
- war = no
- CHI = { all_core = { owned_by = THIS } }
-
-           }
-
-effect = { 
- prestige = 30
- add_accepted_culture = beifaren
- set_country_flag = yuan_restoration
- CHI = { all_core = { add_core = THIS } }
- XBI = { all_core = { add_core = THIS } }
- KOR = { all_core = { add_core = THIS } }
- YNN = { all_core = { add_core = THIS } }
- TIB = { all_core = { add_core = THIS } }
-		  }
-}
-
-reclamation_of_the_western_steppe = {
-potential = {
-tag = MGL
-NOT = { has_country_flag = reclamation_of_the_western_steppe } 
-                }
-
-allow = {
- war = no
- THIS = { all_core = { owned_by = THIS } }
-
-           }
-
-effect = { 
- prestige = 10
- set_country_flag = reclamation_of_the_western_steppe
- UYG = { all_core = { add_core = THIS } }
- KML = { all_core = { add_core = THIS } }
- KYR = { all_core = { add_core = THIS } }
- XIN = { all_core = { add_core = THIS } }
- ALT = { all_core = { add_core = THIS } }
- KAZ = { all_core = { add_core = THIS } }
- TAJ = { all_core = { add_core = THIS } }
-		  }
-
-}
-
-
-centralize_kyrgistan_by_kyrgistan = {
-potential = {
-tag = KYR
-NOT = { has_country_flag = centralize_kyrgistan_by_kyrgistan }
-TAJ = { vassal_of = THIS }
-XIN = { vassal_of = THIS }
-KML = { vassal_of = THIS }
-UYG = { vassal_of = THIS }
-}
-allow = { prestige = 10 }
-
-effect = { set_country_flag = centralize_kyrgistan_by_kyrgistan
-           inherit = TAJ
-		   inherit = KML
-		   inherit = XIN
-		   inherit = UYG
-		   XIN = { all_core = { add_core = THIS } }
+		effect = { 
+			set_country_flag = centralize_kyrgistan_by_kyrgistan
+			inherit = TAJ
+			inherit = KML
+			inherit = XIN
+			inherit = UYG
+			XIN = { all_core = { add_core = THIS } }
 			TAJ = { all_core = { add_core = THIS } }
 			KML = { all_core = { add_core = THIS } }
 			UYG = { all_core = { add_core = THIS } }
  		   }
-}
-
-core_the_yakuts = {
-potential = {
-tag = MGL
-NOT = { has_country_flag = core_the_yakuts }
-
-}
-allow = {  
-YAK = { all_core = { owned_by = THIS } }
-           prestige = 20
-		   }
-		   
-		   
-
-effect = { 
-           add_accepted_culture = yakut
-           set_country_flag = core_the_yakuts       
-		   YAK = { all_core = { add_core = THIS } }
-		   KAM = { all_core = { add_core = THIS } }
- 		   }
-}
-
-core_further_west = {
-    
-	 potential = {
-       tag = MGL
-        NOT = { has_country_flag = core_further_west }
-               }
-			   
-          allow = { 
-           civilized = yes
-           war = no
-           KAZ = { all_core = { owned_by = THIS } }
-           ALT = { all_core = { owned_by = THIS } }
-		   KYR = { all_core = { owned_by = THIS } }
-           }
-
-        effect = { 
-           set_country_flag = core_further_west       
-		   SIB = { all_core = { add_core = THIS } }
-		   URA = { all_core = { add_core = THIS } }
-		   BLG = { all_core = { add_core = THIS } }
-		   KDA = { all_core = { add_core = THIS } }
-		   UZB = { all_core = { add_core = THIS } }
-		   KHI = { all_core = { add_core = THIS } }
-		   TKM = { all_core = { add_core = THIS } }
-		   BUK = { all_core = { add_core = THIS } }
-		   BDK = { all_core = { add_core = THIS } }
- 		   }
-       }
-	   
-	   	claim_greater_mongolia = {
-	       picture = claim_greater_mongolia
-		   potential = {
+	}
+	centralize_northern_provinces = {
+		potential = {
 			tag = MGL
-			NOT = { has_country_flag = claim_greater_mongolia }
-		      }
+			OR = {
+			SZC = { vassal_of = THIS }
+			XBI = { vassal_of = THIS }
+			MCK = { vassal_of = THIS }
+			IMG = { vassal_of = THIS }
+			}
+			}
+		allow = { 
+			prestige = 10 
+			literacy = 0.10
+			}
 
-		allow = {
-			war = no
+		effect = { 
+			prestige = 10
+			any_country = { limit = { OR = { tag = SZC tag = XBI tag = MCK } vassal_of = THIS } country_event = 50010 }
+ 		   }
+	}
+	centralize_southern_provinces = {
+		potential = {
+			tag = MGL
+			OR = {
+			YNN = { vassal_of = THIS }
+			GNG = { vassal_of = THIS }
+			GXI = { vassal_of = THIS }
+			FJN = { vassal_of = THIS }
+			}
+			}
+		allow = { 
+			prestige = 10 
+			literacy = 0.10
+			}
+
+		effect = { 
+			prestige = 10
+			any_country = { limit = { OR = { tag = YNN tag = GNG tag = GXI tag = FJN } vassal_of = THIS } country_event = 50010 }
+ 		   }
+	}
+	force_chagatai_submit = {
+		potential = {
+			tag = MGL
+			KYR = { exists = yes }
+			NOT = { has_country_flag = force_chagatai_submit }
+			}
+		allow = { 
+			prestige = 50
+			literacy = 0.10
+			}
+
+		effect = { 
+			set_country_flag = force_chagatai_submit
+			prestige = 10
+			KYR = { country_event = 50011 all_core = { add_core = MGL } }
+			ALT = { all_core = { add_core = MGL } }
+			UYG = { all_core = { add_core = MGL } }
+			ZIN = { all_core = { add_core = MGL } }
+			KML = { all_core = { add_core = MGL } }
+ 		   }
+	}
+	put_korea_in_place = {
+		potential = {
+			tag = MGL
+			KOR = { exists = yes }
+			has_country_flag = force_chagatai_submit
+			NOT = { has_country_flag = put_korea_in_place }
+			owns = 2221
+			OR = { MCK = { vassal_of = THIS } owns = 1555 }
+			}
+		allow = { 
+			prestige = 50
+			literacy = 0.10
+			KYR = { exists = no }
+			owns = 1189
+			}
+
+		effect = { 
+			set_country_flag = put_korea_in_place
+			country_event = 50015
+ 		   }
+	}
+	second_vietnamese_campaign = {
+		potential = {
+			tag = MGL
+			owns = 2221
+			NOT = { has_country_flag = second_vietnamese_campaign }
+			}
+		allow = { 
+			prestige = 50
+			literacy = 0.20
+			ALT = { exists = no }
+			}
+
+		effect = { 
+			set_country_flag = second_vietnamese_campaign
+			country_event = 50020
+ 		   }
+	}
+	push_into_central_asia = {
+		potential = {
+			tag = MGL
+			has_country_flag = one_chinese_empire
+			NOT = { has_country_flag = push_into_central_asia }
+			}
+		allow = { 
+			prestige = 50
+			literacy = 0.25
+			OR = { KYR = { vassal_of = THIS } owns = 1189 }
+			}
+
+		effect = { 
+			set_country_flag = push_into_central_asia
+			country_event = 50024
+ 		   }
+	}
+#DECISION FOR THE UNIFICATION OF TATARSTAN
+	unify_tatarstan = {
+		potential = {
+			OR = { tag = KAZ tag = TKM tag = AKH }
+			}
+		allow = { 
+			OR = { tag = KAZ tag = TKM tag = AKH }
+			OR = { owns = 3435 3435 = { owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+			OR = { owns = 1199 1199 = { owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+			OR = { owns = 1036 1036 = { owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+			}
+
+		effect = { 
+			set_country_flag = unified_tatarstan
+			prestige = 55
+			KAZ = { all_core = { add_core = TAR } }
+			BUK = { all_core = { add_core = TAR } }
+			TKM = { all_core = { add_core = TAR } }
+			BDK = { all_core = { add_core = TAR } }
+			UKR = { all_core = { add_core = TAR } }
+			ALN = { all_core = { add_core = TAR } }
+			HUN = { all_core = { add_core = TAR } }
+			SIA = { all_core = { add_core = TAR } }
+			any_country = { limit = { OR = { tag = KAZ tag = BUK tag = TKM tag = BDK tag = ALN } OR = { in_sphere = THIS vassal_of = THIS } } country_event = 50026 }
+			change_tag = TAR
+ 		   }
+	}
+#CENTRALIZE TATARSTAN
+	centralize_tatarstan = {
+		potential = {
+			tag = TAR
+			NOT = { has_country_flag = centralize_tatarstan }
+			}
+		allow = { 
+			all_core = { owned_by = THIS }
 			is_vassal = no
-			owns = 1489
-			owns = 1488
-		}
+			}
 
-		effect = {
-			set_country_flag = claim_greater_mongolia
-			XBI = { all_core = { add_core = THIS } }
-            SZC = { all_core = { add_core = THIS } }
-	                     }
-          }
+		effect = { 
+			set_country_flag = centralize_tatarstan
+			prestige = 25
+			all_core = { remove_core = KAZ remove_core = BUK remove_core = TKM remove_core = BDK remove_core = BDK remove_core = UKR remove_core = ALN }
+ 		   }
+	}
+#TATARSTAN EXPANSION 1
+	tatarstan_chagatai = {
+		potential = {
+			tag = TAR
+			has_country_flag = centralize_tatarstan
+			NOT = { has_country_flag = tatarstan_chagatai }
+			}
+		allow = { 
+			civilized = yes
+			all_core = { owned_by = THIS }
+			rank = 20
+			}
 
+		effect = { 
+			set_country_flag = tatarstan_chagatai
+			badboy = 5
+			prestige = 25
+			XIN = { all_core = { add_core = THIS } }
+			TAJ = { all_core = { add_core = THIS } }
+			KML = { all_core = { add_core = THIS } }
+			UYG = { all_core = { add_core = THIS } }
+			KYR = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#TATARSTAN EXPANSION 2
+	tatarstan_persia = {
+		potential = {
+			tag = TAR
+			has_country_flag = tatarstan_chagatai
+			NOT = { has_country_flag = tatarstan_persia }
+			}
+		allow = { 
+			civilized = yes
+			all_core = { owned_by = THIS }
+			rank = 16
+			}
+
+		effect = { 
+			set_country_flag = tatarstan_persia
+			badboy = 15
+			prestige = 25
+			KHR = { all_core = { add_core = THIS } }
+			PER = { all_core = { add_core = THIS } }
+			SHV = { all_core = { add_core = THIS } }
+			GEO = { all_core = { add_core = THIS } }
+			TTN = { all_core = { add_core = THIS } }
+			DAG = { all_core = { add_core = THIS } }
+			ARM = { all_core = { add_core = THIS } }
+			MIG = { all_core = { add_core = THIS } }
+			ASY = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#CHAGATAI EXPANSION 1
+	chagatai_pakistan = {
+		potential = {
+			tag = KYR
+			has_country_flag = centralize_kyrgistan_by_kyrgistan
+			NOT = { has_country_flag = chagatai_pakistan }
+			}
+		allow = { 
+			civilized = yes
+			all_core = { owned_by = THIS }
+			rank = 20
+			}
+
+		effect = { 
+			set_country_flag = chagatai_pakistan
+			badboy = 10
+			prestige = 25
+			LAD = { all_core = { add_core = THIS } }
+			PNJ = { all_core = { add_core = THIS } }
+			KHR = { all_core = { add_core = THIS } }
+			SIN = { all_core = { add_core = THIS } }
+			JOD = { all_core = { add_core = THIS } }
+			BUK = { all_core = { add_core = THIS } }
+			BDK = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#CHAGATAI EXPANSION 2
+	chagatai_hindustan = {
+		potential = {
+			tag = KYR
+			has_country_flag = chagatai_pakistan
+			NOT = { has_country_flag = chagatai_hindustan }
+			}
+		allow = { 
+			civilized = yes
+			all_core = { owned_by = THIS }
+			rank = 16
+			}
+
+		effect = { 
+			set_country_flag = chagatai_pakistan
+			badboy = 15
+			prestige = 25
+			AWA = { all_core = { add_core = THIS } }
+			BNG = { all_core = { add_core = THIS } }
+			TIB = { all_core = { add_core = THIS } }
+			BHU = { all_core = { add_core = THIS } }
+			ASM = { all_core = { add_core = THIS } }
+			GWA = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#CONQUEST OF ILKHANATE
+	ilkhanate_war = {
+		potential = {
+			tag = MGL
+			has_country_flag = push_into_central_asia
+			}
+		allow = { 
+			OR = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } owner = { vassal_of = THIS } } } }
+			NOT = { badboy = 18 }
+			}
+
+		effect = { 
+			set_country_flag = ilkhanate_war
+			country_event = 50027
+ 		   }
+	}
+#TAG TO FORM ILKHANATE
+	form_ilkhanate = {
+		potential = {
+			tag = TKM
+			}
+		allow = { 
+			owns = 1213
+			}
+
+		effect = { 
+			set_country_flag = form_ilkhanate
+			KHR = { all_core = { add_core = AFS } }
+			PER = { all_core = { add_core = AFS } }
+			SHV = { all_core = { add_core = AFS } }
+			GEO = { all_core = { add_core = AFS } }
+			TTN = { all_core = { add_core = AFS } }
+			DAG = { all_core = { add_core = AFS } }
+			ARM = { all_core = { add_core = AFS } }
+			MIG = { all_core = { add_core = AFS } }
+			ASY = { all_core = { add_core = AFS } }
+			BDK = { all_core = { add_core = AFS } }
+			BUK = { all_core = { add_core = AFS } }
+			change_tag = AFS
+ 		   }
+	}
+#ILKHANATE GOLDEN STEPPE
+	ilkhanate_steppe = {
+		potential = {
+			tag = AFS
+			NOT = { has_country_flag = ilkhanate_steppe }
+			}
+		allow = { 
+			all_core = { owned_by = THIS }
+			}
+
+		effect = { 
+			set_country_flag = ilkhanate_steppe
+			badboy = 10
+			prestige = 25
+			KAZ = { all_core = { add_core = THIS } }
+			UKR = { all_core = { add_core = THIS } }
+			ALN = { all_core = { add_core = THIS } }
+			HUN = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#ILKHANATE LEVANT AND ANATOLIA
+	ilkhanate_anatolia = {
+		potential = {
+			tag = AFS
+			has_country_flag = ilkhanate_steppe
+			NOT = { has_country_flag = ilkhanate_anatolia }
+			}
+		allow = { 
+			all_core = { owned_by = THIS }
+			}
+
+		effect = { 
+			set_country_flag = ilkhanate_anatolia
+			badboy = 10
+			prestige = 15
+			LBN = { all_core = { add_core = THIS } }
+			SYR = { all_core = { add_core = THIS } }
+			KSK = { all_core = { add_core = THIS } }
+			EGY = { all_core = { add_core = THIS } }
+			BYZ = { all_core = { add_core = THIS } }
+			JOR = { all_core = { add_core = THIS } }
+			NEJ = { all_core = { add_core = THIS } }
+			OMA = { all_core = { add_core = THIS } }
+			HDJ = { all_core = { add_core = THIS } }
+ 		   }
+	}
+#TECH BOOST 1
+	mongol_tech_1 = {
+		potential = {
+			tag = MGL
+			NOT = { has_country_flag = mongol_tech_1 }
+			}
+		allow = { 
+			literacy = 0.1
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_1
+			prestige = 25
+			country_event = 50029
+ 		   }
+	}	
+	mongol_tech_2 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_1
+			NOT = { has_country_flag = mongol_tech_2 }
+			}
+		allow = { 
+			literacy = 0.15
+			year = 1840
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_2
+			prestige = 25
+			country_event = 50030
+ 		   }
+	}
+	mongol_tech_3 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_2
+			NOT = { has_country_flag = mongol_tech_3 }
+			}
+		allow = { 
+			literacy = 0.2
+			year = 1850
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_3
+			prestige = 25
+			country_event = 50031
+ 		   }
+	}	
+	mongol_tech_4 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_3
+			NOT = { has_country_flag = mongol_tech_4 }
+			}
+		allow = { 
+			literacy = 0.25
+			year = 1860
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_4
+			prestige = 25
+			country_event = 50032
+ 		   }
+	}
+	mongol_tech_5 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_4
+			NOT = { has_country_flag = mongol_tech_5 }
+			}
+		allow = { 
+			literacy = 0.30
+			year = 1870
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_5
+			prestige = 25
+			country_event = 50033
+ 		   }
+	}
+	mongol_tech_6 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_5
+			NOT = { has_country_flag = mongol_tech_6 }
+			}
+		allow = { 
+			literacy = 0.35
+			year = 1880
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_6
+			prestige = 25
+			country_event = 50034
+ 		   }
+	}
+	mongol_tech_7 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_6
+			NOT = { has_country_flag = mongol_tech_7 }
+			}
+		allow = { 
+			literacy = 0.7
+			year = 1900
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_7
+			prestige = 25
+			country_event = 50035
+ 		   }
+	}
+	mongol_tech_8 = {
+		potential = {
+			tag = MGL
+			has_country_flag = mongol_tech_7
+			NOT = { has_country_flag = mongol_tech_8 }
+			}
+		allow = { 
+			literacy = 0.9
+			year = 1920
+			}
+
+		effect = { 
+			set_country_flag = mongol_tech_8
+			prestige = 25
+			country_event = 50036
+ 		   }
+	}
+	third_japanese_invasion = {
+		potential = {
+			tag = MGL
+			has_country_flag = ilkhanate_war
+			OR = { JAP = { exists = yes } TKG = { exists = yes } }
+			year = 1892
+			}
+		allow = { 
+			year = 1928
+			civilized = no
+			OR = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } owner = { vassal_of = THIS } } } }
+			}
+
+		effect = { 
+			set_country_flag = third_japanese_invasion
+			country_event = 50047
+ 		   }
+	}
+	new_reform_movement = {
+		potential = {
+			tag = MGL
+			year = 1892
+			NOT = { has_country_flag = new_reform_movement }
+			}
+		allow = { 
+			treasury = 100000
+			at_war = no
+			NOT = { ruling_party_ideology = reactionary }
+			}
+
+		effect = { 
+			set_country_flag = new_reform_movement
+			country_event = 50049
+ 		   }
+	}
+#FORM KMT TAG - CHINESE MINORS
+	new_kmt = {
+		potential = {
+			OR = {
+			tag = YNN
+			tag = XBI
+			tag = GUI
+			tag = GNG
+			tag = GNG
+			tag = FJN
+			}
+			}
+		allow = { 
+			owns = 2221
+			at_war = no
+			KMT = { exists = no }
+			}
+
+		effect = { 
+			set_country_flag = kmt_china
+			country_event = 50079
+ 		   }
+	}
+#FORM CHINA TAG - NORTHERN CHINESE AND DYNASTS
+	new_china = {
+		potential = {
+			OR = {
+			tag = MIN
+			tag = SHU
+			tag = HUI
+			tag = SXI
+			tag = GUI
+			}
+			}
+		allow = { 
+			owns = 1612
+			at_war = no
+			CHI = { exists = no }
+			}
+
+		effect = { 
+			prestige = 200
+			set_country_flag = new_china
+			country_event = 50080
+ 		   }
+	}
+#INNER MONGOLIA'S GREATER MONGOLIA
+	new_mongolia = {
+		potential = {
+			tag = IMG
+			NOT = { has_country_flag = greater_mongolia }
+			}
+		allow = { 
+			owns = 1612
+			at_war = no
+			}
+
+		effect = { 
+			prestige = 50
+			set_country_flag = greater_mongolia
+			MCK = { all_core = { add_core = IMG } }
+			XBI = { all_core = { add_core = IMG } }
+			KYR = { all_core = { add_core = IMG } }
+ 		   }
+	}
+#FORM QING DYNASTY
+	new_manchu = {
+		potential = {
+			tag = MCK
+			NOT = { has_country_flag = new_manchu }
+			}
+		allow = { 
+			owns = 1612
+			at_war = no
+			CHI = { exists = no }
+			}
+
+		effect = { 
+			prestige = 50
+			set_country_flag = new_manchu
+			all_core = { add_core = QNG }
+			CHI = { all_core = { add_core = QNG } }
+			IMG = { all_core = { add_core = QNG add_core = CHI } }
+			XBI = { all_core = { add_core = QNG add_core = CHI } }
+			YNN = { all_core = { add_core = QNG add_core = CHI } }
+			SZC = { all_core = { add_core = QNG add_core = CHI } }
+			change_tag = QNG
+			civilized = yes
+ 		   }
+	}
 }

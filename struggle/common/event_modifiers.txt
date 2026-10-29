@@ -1361,6 +1361,10 @@ the_bonnie_blue_flag = {
 }
 
 ##### WORKPLACE EVENTS #####
+silk_famine = {
+	farm_rgo_eff = -0.5
+	icon = 14
+}
 
 blood_and_iron_mine = {
 	mine_rgo_eff = 0.5
@@ -2802,6 +2806,12 @@ emergency_tax_measures2 = {
 
 ###HP's Persia minimod Modifiers
 
+silver_age = {
+	tax_efficiency = 0.01
+	diplomatic_points_modifier = 0.1
+	research_points_modifier = 0.1
+	icon = 5
+}
 
 ################
 # GOTT MIT UNS #
@@ -3074,6 +3084,13 @@ the_eight_banners = {
 	icon = 16
 }
 
+taiping_draft = {
+	land_organisation = -0.1
+	org_regain = -0.1
+	mobilisation_size = 0.15
+	prestige = -0.02
+	icon = 18
+}
 
 taiping_losing_boost = {
 	land_unit_start_experience = 15
@@ -3352,4 +3369,36 @@ egyptian_famine = {
 maharlika_war_debts = {
 	tax_efficiency = -0.15
 	max_tax = -0.25
+collapsing_mandate = {
+	administrative_efficiency_modifier = -0.2
+	pop_militancy_modifier = 0.05
+	land_organisation = -0.75
+	org_regain = -0.75
+}
+mongolian_rage = {
+    icon = 20
+    cavalry_attack = 0.10
+	land_organisation = 0.75
+	org_regain = 0.75
+}
+mandate_of_heaven = {
+	pop_militancy_modifier = -0.2
+	pop_consciousness_modifier = -0.2
+	tax_efficiency = 0.1
+	administrative_efficiency_modifier = 0.2
+	research_points_modifier = -6
+}
+buddhist_friendship = {
+	education_efficiency_modifier = 0.15
+	core_pop_militancy_modifier = -0.1
+	administrative_efficiency_modifier = 0.1
+}
+new_reform_movement = {
+	administrative_efficiency_modifier = 0.2
+	tax_efficiency = 0.05
+	research_points_modifier = 0.6
+	pop_consciousness_modifier = 0.15
+	pop_militancy_modifier = 0.15
+}
+mongol_industry_timer = {
 }

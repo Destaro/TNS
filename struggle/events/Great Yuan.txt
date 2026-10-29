@@ -1,0 +1,2454 @@
+#LORE EVENT - ALSO MONEY AND EQUIPMENT
+country_event = {
+	id = 50000
+	title = "EVTNAME50000" 
+	desc = "EVTDESC50000"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Beijing must be reclaimed by 1845
+	option = {
+		name = "EVTOPTA40000"
+		country_event = 50037
+		prestige = 5
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+#FAILING TO TAKE BEIJING ENDS MONGOLIA OUTRIGHT
+country_event = {
+	id = 50001
+	title = "EVTNAME50001" 
+	desc = "EVTDESC50001"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		NOT = { owns = 1616 }
+		year = 1850
+		NOT = { year = 1890 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Death
+	option = {
+		name = "EVTOPTA50001"
+		prestige = -100
+		release = MCK
+		release = TNT
+		release = YAK
+		release = BRY
+		any_owned = { limit = { is_core = CHI } secede_province = SHU }
+		all_core = { limit = { is_core = CHI } remove_core = MGL }
+		all_core = { add_core = IMG remove_core = MGL }
+		change_tag = IMG
+		remove_accepted_culture = beifaren
+	}
+}
+#FOR SHUN - BAD DEBUFF AND NOTIFICATION THAT LOSING BEIJING ENDS THEM - COLLAPSING MANDATE
+country_event = {
+	id = 50002
+	title = "EVTNAME50002" 
+	desc = "EVTDESC50002"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = SHU
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Death
+	option = {
+		name = "EVTOPTA50002"
+		prestige = -100
+		add_country_modifier = { name = collapsing_mandate duration = 3650 }
+	}
+}
+#FOR MONGOLS - WAR BUFFS AND EQUIPMENT
+country_event = {
+	id = 50003
+	title = "EVTNAME50003" 
+	desc = "EVTDESC50003"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		war = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Mongols are enraged and especially capable
+	option = {
+		name = "EVTOPTA50003"
+		add_country_modifier = { name = mongolian_rage duration = 3650 }
+		treasury = 100000
+	}
+}
+#TAKING BEIJING REINVIGORATES MONGOL CLAIM TO CHINA AND ENDS SHUN - DYNASTIC FLAVOR CAN START
+country_event = {
+	id = 50004
+	title = "EVTNAME50004" 
+	desc = "EVTDESC50004"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		owns = 1616
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Great Yuan are back
+	option = {
+		name = "EVTOPTA50004"
+		inherit = SHU
+		SHU = { all_core = { add_core = MGL } }
+		add_country_modifier = { name = mandate_of_heaven duration = -1 }
+		country_event = 50005
+	}
+}
+#THE NORTHERN PROVINCES SUBMIT
+country_event = {
+	id = 50005
+	title = "EVTNAME50005" 
+	desc = "EVTDESC50005"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#These puppets submit - ALTAN KHANATE SENT TO SHANXI
+	option = {
+		name = "EVTOPTA50005"
+		create_vassal = SZC
+		create_vassal = XBI
+		MCK = { capital = 1555 }
+		release_vassal = MCK
+		MCK = { government = autonomous_dependency }
+		SZC = { government = autonomous_dependency }
+		XBI = { government = autonomous_dependency }
+		IMG = { all_core = { add_core = MGL remove_core = IMG } }
+		CHI_1490 = { add_core = IMG }
+		CHI_1579 = { add_core = IMG }
+		CHI_1559 = { add_core = IMG }
+		release_vassal = IMG
+		IMG = { government = autonomous_dependency }
+	}
+	#I wonder what Manchuria is up to
+	option = {
+		name = "EVTOPTB50005"
+		create_vassal = SZC
+		create_vassal = XBI
+		release_vassal = MCK
+		IMG = { all_core = { add_core = MGL remove_core = IMG } }
+		CHI_1490 = { add_core = IMG }
+		CHI_1579 = { add_core = IMG }
+		CHI_1559 = { add_core = IMG }
+		release_vassal = IMG
+		IMG = { government = autonomous_dependency }
+		MCK = { government = autonomous_dependency }
+		SZC = { government = autonomous_dependency }
+		XBI = { government = autonomous_dependency }
+		change_tag_no_core_switch = MCK
+	}	
+}
+#UBASI KHAN AS EMPEROR
+country_event = {
+	id = 50006
+	title = "EVTNAME50006" 
+	desc = "EVTDESC50006"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		owns = 1616
+		year = 1840
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The one Ming core is to direct Mongolia
+	option = {
+		name = "EVTOPTA50006"
+		prestige = 15
+		capital = 1616
+		MCK = { all_core = { add_core = MGL } }
+		SHU = { all_core = { add_core = MGL } }
+		SZC = { all_core = { add_core = MGL } }
+		XBI = { all_core = { add_core = MGL } }
+		CHI_2221 = { add_core = MGL } 
+	}
+}
+#SUBDUING THE MING - TAKE NANKING AND THEY FALL
+country_event = {
+	id = 50007
+	title = "EVTNAME50007" 
+	desc = "EVTDESC50007"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		owns = 2221
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The end of the Ming
+	option = {
+		name = "EVTOPTA50007"
+		prestige = 15
+		CHI = { all_core = { add_core = MGL } }
+		inherit = MIN
+		country_event = 50008
+	}
+}
+#MANDATE RESTORED - PRESTIGE AND OUTWARD CONQUESTS OPENED
+country_event = {
+	id = 50008
+	title = "EVTNAME50008" 
+	desc = "EVTDESC50008"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The mandate opens
+	option = {
+		name = "EVTOPTA50008"
+		set_country_flag = mongol_mandate
+		prestige = 25
+		country_event = 50009
+	}
+}
+#THE SOUTHERN PROVINCES SUBMIT
+country_event = {
+	id = 50009
+	title = "EVTNAME50009" 
+	desc = "EVTDESC50009"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Southern Provinces Submit
+	option = {
+		name = "EVTOPTA50009"
+		add_accepted_culture = nanfaren
+		create_vassal = YNN
+		GUI = { capital = 1505 }
+		release_vassal = GUI
+		GUI = { government = autonomous_dependency }
+		YNN = { government = autonomous_dependency }
+		release_vassal = GNG
+		GNG = { government = autonomous_dependency }
+		release_vassal = GXI
+		GXI = { government = autonomous_dependency }
+		release_vassal = FJN
+		FJN = { government = autonomous_dependency }
+	}
+}
+#DECISION - INTEGRATING THE NORTHERN PROVINCES
+country_event = {
+	id = 50010
+	title = "EVTNAME50010" 
+	desc = "EVTDESC50010"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Any such tags that are your vassal will submit
+	option = {
+		name = "EVTOPTA50010"
+		MGL = { inherit = THIS }
+		ai_chance = { factor = 99 }
+	}
+	#For players mainly
+	option = {
+		name = "EVTOPTB50010"
+		MGL = { release_vassal = THIS }
+		war = { 
+			target = MGL
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			}
+		ai_chance = { factor = 1 }
+		}
+}
+#DECISION - CHAGATAI TOLD TO BEND THE KNEE - ANNEX THEIR VASSALS IF THEY ACCEPT
+country_event = {
+	id = 50011
+	title = "EVTNAME50011" 
+	desc = "EVTDESC50011"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Any such tags that are your vassal will submit
+	option = {
+		name = "EVTOPTA50011"
+		MGL = { inherit = THIS country_event = 50013 }
+		ai_chance = { factor = 55 }
+	}
+	#For players mainly
+	option = {
+		name = "EVTOPTB50011"
+		MGL = { country_event = 50012 }
+		ai_chance = { factor = 45 }
+		}
+}
+#WAR RESPONSE - CONQUEST WAR
+country_event = {
+	id = 50012
+	title = "EVTNAME50012" 
+	desc = "EVTDESC50012"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Mongol successor waaaar
+	option = {
+		name = "EVTOPTA50012"
+		war = { 
+			target = KYR 
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			}
+	}
+	#Wimp
+	option = {
+		name = "EVTOPTB50012"
+		clr_country_flag = force_chagatai_submit
+		prestige = -50
+		}
+}
+#UPON DEFEATING CHAGATAI THE VASSALS ARE ANNEXED AND CHAGATAI RELEASED AS ONE
+country_event = {
+	id = 50013
+	title = "EVTNAME50013" 
+	desc = "EVTDESC50013"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		KYR = { exists = no }
+		owns = 1189
+		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Chagatai 
+	option = {
+		name = "EVTOPTA50013"
+		prestige = 25
+		inherit = XIN
+		inherit = KML
+		inherit = UYG
+		inherit = TAJ
+		XIN = { all_core = { add_core = KYR remove_core = XIN } }
+		KML = { all_core = { add_core = KYR remove_core = KML } }
+		UYG = { all_core = { add_core = KYR remove_core = UYG } }
+		TAJ = { all_core = { add_core = KYR remove_core = TAJ } }
+		release_vassal = KYR
+		KYR = { government = autonomous_dependency }
+	}
+}
+#IF CHAGATAI WINS SOMEHOW IT GETS TO PLAY MONGOLIA
+country_event = {
+	id = 50014
+	title = "EVTNAME50014" 
+	desc = "EVTDESC50014"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = KYR
+		MGL = { exists = no }
+		owns = 1468
+		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Chagatai 
+	option = {
+		name = "EVTOPTA50014"
+		prestige = 25
+		inherit = XIN
+		inherit = KML
+		inherit = UYG
+		inherit = TAJ
+		XIN = { all_core = { add_core = KYR remove_core = XIN } }
+		KML = { all_core = { add_core = KYR remove_core = KML } }
+		UYG = { all_core = { add_core = KYR remove_core = UYG } }
+		TAJ = { all_core = { add_core = KYR remove_core = TAJ } }
+		MGL = { all_core = { add_core = KYR remove_core = MGL } }
+		add_accepted_culture = beifaren
+		add_accepted_culture = mongol
+		add_accepted_culture = manchu
+		add_accepted_culture = kazak
+		add_accepted_culture = tatar
+		add_accepted_culture = beifaren
+		add_accepted_culture = gelupga
+	}
+}
+#DECISION - PUTTING KOREA IN ITS PLACE
+country_event = {
+	id = 50015
+	title = "EVTNAME50015" 
+	desc = "EVTDESC50015"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Humiliation War
+	option = {
+		name = "EVTOPTA50015"
+		set_country_flag = kor_war_mongolia
+		badboy = 10
+		prestige = 10
+		casus_belli = { target = KOR type = conquest months = 10 }
+		war = { 
+			target = KOR
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = cut_down_to_size }
+			}
+	}
+	#Wimp
+	option = {
+		name = "EVTOPTB50015"
+		clr_country_flag = put_korea_in_place
+		prestige = -50
+		}
+}
+#SCRIPTED VICTORY OUTCOME AGAINST KOREA - ATROCITIES AND SPLIT VASSALHOOD - KOR_1620 and KOR_1619 to BRY, KOR_1624 and KOR_1627 to TNT, rest to Korean rump state
+country_event = {
+	id = 50016
+	title = "EVTNAME50016" 
+	desc = "EVTDESC50016"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		KOR = { exists = no }
+		owns = 1620
+		owns = 1619
+		owns = 1624
+		owns = 1627
+		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Mongol sub-groups pushed into Korea
+	option = {
+		name = "EVTOPTA50016"
+		prestige = 50
+		clr_country_flag = kor_war_mongolia
+		all_core = { remove_core = KOR }
+		any_owned = { limit = { is_core = MCK } secede_province = MCK }
+		BRY = { all_core = { add_core = MGL remove_core = BRY  } }
+		KOR_1620 = { add_core = BRY }
+		KOR_1619 = { add_core = BRY }
+		release_vassal = BRY 
+		BRY = { government = autonomous_dependency }
+		TNT = { all_core = { add_core = MGL remove_core = TNT } }
+		KOR_1624 = { add_core = TNT } 
+		KOR_1627 = { add_core = TNT }
+		release_vassal = TNT 
+		TNT = { government = autonomous_dependency }
+		KOR = { capital = 1632 }
+		release_vassal = KOR
+		KOR = { civilized = no }
+	}
+}
+#DEFEATED BY KOREA - HAVE FLAG AND AT PEACE BUT HAVENT CONQUERED - KOREA TAKES MANCHURIA
+country_event = {
+	id = 50017
+	title = "EVTNAME50017" 
+	desc = "EVTDESC50017"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		KOR = { exists = yes }
+		has_country_flag = kor_war_mongolia
+		NOT = { OR = { owns = 1620
+		owns = 1619
+		owns = 1624
+		owns = 1627
+		}
+		}
+		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Korea annexes Manchuria
+	option = {
+		name = "EVTOPTA50017"
+		prestige = -50
+		any_owned = { limit = { is_core = MCK } secede_province = KOR }
+		KOR = { inherit = MCK }
+	}
+}
+#FATE OF TIBET - MONGOLS CAN CHOOSE TO IGNORE FOR NEAT BUFFS
+country_event = {
+	id = 50018
+	title = "EVTNAME50018" 
+	desc = "EVTDESC50018"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		OR = { owns = 1556 XBI = { vassal_of = THIS } }
+		}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Create Tibetan Vassal
+	option = {
+		name = "EVTOPTA50018"
+		badboy = 3
+		prestige = 10
+		TIB = { country_event = 50019 }
+	}
+	#Leave Tibet Alone
+	option = {
+		name = "EVTOPTB50018"
+		badboy = -5
+		add_country_modifier = { name = buddhist_friendship duration = -1 }
+		relation = { who = TIB value = 400 }
+	}
+}
+#EVENT FOR TIBET TO ACCEPT PUPPETING OR DIE
+country_event = {
+	id = 50019
+	title = "EVTNAME50019" 
+	desc = "EVTDESC50019"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Accept
+	option = {
+		name = "EVTOPTA50019"
+		MGL = { create_vassal = TIB }
+	}
+	#Fight
+	option = {
+		name = "EVTOPTB50019"
+		badboy = -5
+		MGL = { casus_belli = { target = TIB type = make_puppet months = 10 }
+			war = {
+				target = TIB
+				attacker_goal = { casus_belli = make_puppet }
+				defender_goal = { casus_belli = civil_war }
+				}
+			}
+	}
+}
+#DECISION - THE SECOND VIETNAMESE CAMPAIGN
+country_event = {
+	id = 50020
+	title = "EVTNAME50020" 
+	desc = "EVTDESC50020"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Fight - waaar
+	option = {
+		name = "EVTOPTA50020"
+		badboy = 5
+		DAI = { all_core = { add_core = MGL } }
+		CAM = { all_core = { add_core = MGL } }
+		SIA = { all_core = { add_core = MGL } }
+		any_country = { 
+			limit = { OR = { tag = CAM tag = SIA } exists = yes }
+				war = {
+					target = MGL
+					attacker_goal = { casus_belli = cut_down_to_size }
+					defender_goal = { casus_belli = civil_war }
+					}
+				}
+		any_country = {
+			limit = { tag = DAI exists = yes }
+				war = {
+					target = MGL
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = civil_war }
+					}
+				}
+	}
+	#NO
+	option = {
+		name = "EVTOPTB50020"
+		clr_country_flag = second_vietnamese_campaign
+	}
+}
+#ATROCITIES AGAINST VIETNAM - FORCED MIGRATION INTO VINH AND ISOLATION OF THE VIETNAMESE IDENTITY
+country_event = {
+	id = 50021
+	title = "EVTNAME50021" 
+	desc = "EVTDESC50021"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		owns = 1369
+		owns = 1376
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Fight - waaar
+	option = {
+		name = "EVTOPTA50021"
+		prestige = 15
+		badboy = 5
+		any_pop = { limit = { has_pop_culture = vietnamese } reduce_pop = 0.8 }
+		DAI_1369 = { remove_core = DAI any_pop = { limit = { has_pop_culture = vietnamese } reduce_pop = 0.6 move_pop = 1376 } }
+		DAI_1380 = { remove_core = DAI any_pop = { limit = { has_pop_culture = vietnamese } reduce_pop = 0.6 move_pop = 1376 } }
+		LUA_1356 = { remove_core = DAI any_pop = { limit = { has_pop_culture = vietnamese } reduce_pop = 0.6 move_pop = 1376 } }
+		CHI_1499 = { remove_core = DAI add_core = GXI }
+		CHI_1601 = { remove_core = DAI }
+		DAI = { capital = 1376 }
+		country_event = 50022
+	}
+}
+#VIETNAM MIGRATIONS
+country_event = {
+	id = 50022
+	title = "EVTNAME50022" 
+	desc = "EVTDESC50022"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Vassal Spam
+	option = {
+		name = "EVTOPTA50022"
+		any_owned = { limit = { is_core = YNN secede_province = YNN } }
+		ALT = { all_core = { remove_core = ALT } }
+		DAI_1369 = { add_core = ALT }
+		release_vassal = ALT
+		ALT = { government = autonomous_dependency add_accepted_culture = yue any_owned = { add_province_modifier = { name = baby_boom duration = 3650 } } }
+		release_vassal = GXI 
+		GXI = { government = autonomous_dependency }
+		release_vassal = DAI
+		release_vassal = SHA
+		release_vassal = CAM
+		release_vassal = SIA
+	}
+}
+#ALL CHINESE RIVALS DEAD - ALT-CHINESE CORES REMOVED
+country_event = {
+	id = 50023
+	title = "EVTNAME50023" 
+	desc = "EVTDESC50023"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		SHU = { exists = no }
+		OR = { KOR = { exists = no } KOR = { vassal_of = THIS } }
+		OR = { DAI = { exists = no } DAI = { vassal_of = THIS } }
+		owns = 1616
+		owns = 2221
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	#prestige
+	option = {
+		name = "EVTOPTA50023"
+		prestige = 25
+		set_country_flag = one_chinese_empire
+		all_core = { remove_core = SHU remove_core = KOR remove_core = DAI }
+	}
+}
+#PUSHING THE KAZAKH DOMAIN 
+country_event = {
+	id = 50024
+	title = "EVTNAME50024" 
+	desc = "EVTDESC50024"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Dew it
+	option = {
+		name = "EVTOPTA50024"
+		badboy = 7.5
+		KAZ = { all_core = { add_core = MGL } }
+		BUK = { all_core = { add_core = MGL } }
+		TKM = { all_core = { add_core = MGL } }
+		BDK = { all_core = { add_core = MGL } }
+		UKR = { all_core = { add_core = MGL } }
+		ALN = { all_core = { add_core = MGL } }
+		any_country = { limit = { OR = { tag = KAZ tag = BUK tag = TKM tag = BDK tag = UKR tag = ALN } exists = yes is_vassal = no } 
+			war = { target = MGL
+				attacker_goal = { casus_belli = cut_down_to_size }
+				defender_goal = { casus_belli = civil_war }
+				}
+				}
+			}
+	option = {
+		name = "EVTOPTB50024"
+		clr_country_flag = push_into_central_asia
+		}
+}
+#KAZAKH VASSAL UPON CONQUEST
+country_event = {
+	id = 50025
+	title = "EVTNAME50025" 
+	desc = "EVTDESC50025"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MGL
+		has_country_flag = push_into_central_asia
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Dew it
+	option = {
+		name = "EVTOPTA50025"
+		badboy = 7.5
+		KAZ = { all_core = { add_core = TAR } }
+		BUK = { all_core = { add_core = TAR } }
+		TKM = { all_core = { add_core = TAR } }
+		BDK = { all_core = { add_core = TAR } }
+		UKR = { all_core = { add_core = TAR } }
+		ALN = { all_core = { add_core = TAR } }
+		TAR = { capital = 1199 }
+		release_vassal = TAR
+		TAR = { government = autonomous_dependency }
+			}
+}
+#TATARSTAN UNIFICATION
+country_event = {
+	id = 50026
+	title = "EVTNAME50026" 
+	desc = "EVTDESC50026"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Dew it
+	option = {
+		name = "EVTOPTA50026"
+		TAR = { inherit = THIS }
+		ai_chance = { factor = 100 }
+			}
+	option = {
+		name = "EVTOPTB50026"
+		war = { target = TAR
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			}
+		ai_chance = { factor = 0 }
+		}
+}
+#THE LAST PERSIAN CONQUEST 
+country_event = {
+	id = 50027
+	title = "EVTNAME50027" 
+	desc = "EVTDESC50027"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Dew it
+	option = {
+		name = "EVTOPTA50027"
+		badboy = 7
+			KHR = { all_core = { add_core = THIS } }
+			PER = { all_core = { add_core = THIS } }
+			SHV = { all_core = { add_core = THIS } }
+			GEO = { all_core = { add_core = THIS } }
+			TTN = { all_core = { add_core = THIS } }
+			DAG = { all_core = { add_core = THIS } }
+			ARM = { all_core = { add_core = THIS } }
+			MIG = { all_core = { add_core = THIS } }
+			ASY = { all_core = { add_core = THIS } }
+			any_country = { limit = { OR = { tag = ASY tag = MIG tag = ARM tag = DAG tag = TTN tag = GEO tag = SHV tag = PER tag = KHR } exists = yes is_vassal = no } casus_belli = { target = MGL type = cut_down_to_size months = 10 } 
+				war = { target = MGL
+					attacker_goal = { casus_belli = cut_down_to_size } 
+					defender_goal = { casus_belli = civil_war } 
+					}
+				}
+			}
+	option = {
+		name = "EVTOPTB50027"
+		clr_country_flag = ilkhanate_war
+		}
+}
+#ATROCITIES AGAINST PERSIA UPON COMPLETION AND NEO-ILKHANATE
+country_event = {
+	id = 50028
+	title = "EVTNAME50028" 
+	desc = "EVTDESC50028"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = MGL
+		has_country_flag = ilkhanate_war
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Dew it
+	option = {
+		name = "EVTOPTA50028"
+			KHR = { all_core = { add_core = AFS } }
+			PER = { all_core = { add_core = AFS } }
+			SHV = { all_core = { add_core = AFS } }
+			GEO = { all_core = { add_core = AFS } }
+			TTN = { all_core = { add_core = AFS } }
+			DAG = { all_core = { add_core = AFS } }
+			ARM = { all_core = { add_core = AFS } }
+			MIG = { all_core = { add_core = AFS } }
+			ASY = { all_core = { add_core = AFS } }
+			release_vassal = AFS
+			AFS = { government = autonomous_dependency }
+			}
+}
+#TECH BOOST - 1850
+country_event = {
+	id = 50029
+	title = "EVTNAME50029" 
+	desc = "EVTDESC50029"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Free tech - more artillery integration and small arms supply chains
+	option = {
+		name = "EVTOPTA50029"
+		activate_technology = army_professionalism
+		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = basic_chemistry
+		activate_technology = experimental_railroad
+			}
+}
+#TECH BOOST - 1840
+country_event = {
+	id = 50030
+	title = "EVTNAME50030" 
+	desc = "EVTDESC50030"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Free tech - more artillery integration and small arms supply chains
+	option = {
+		name = "EVTOPTA50030"
+		activate_technology = strategic_mobility
+		activate_technology = muzzle_loaded_rifles
+		activate_technology = piston_steam_engine
+		activate_technology = mechanized_mining
+			}
+}
+#TECH BOOST - 1850
+country_event = {
+	id = 50031
+	title = "EVTNAME50031" 
+	desc = "EVTDESC50031"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Free tech - more artillery integration and small arms supply chains
+	option = {
+		name = "EVTOPTA50031"
+		activate_technology = amy_decision_making
+		activate_technology = iron_breech_loaded_artillery
+		activate_technology = medicine
+		activate_technology = early_railroad
+			}
+}
+#TECH BOOST - 1860
+country_event = {
+	id = 50032
+	title = "EVTNAME50032" 
+	desc = "EVTDESC50032"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Free tech - more artillery integration and small arms supply chains
+	option = {
+		name = "EVTOPTA50032"
+		activate_technology = point_defense_system
+		activate_technology = breech_loaded_rifles
+		activate_technology = high_pressure_steam_engine
+		activate_technology = puddling
+			}
+}
+#TECH BOOST - 1870
+country_event = {
+	id = 50033
+	title = "EVTNAME50033" 
+	desc = "EVTDESC50033"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Free tech - more artillery integration and small arms supply chains
+	option = {
+		name = "EVTOPTA50033"
+		activate_technology = machine_guns
+		activate_technology = military_plans
+		activate_technology = military_statistics
+		activate_technology = military_logistics
+			}
+}
+#TECH BOOST - 1880
+country_event = {
+	id = 50034
+	title = "EVTNAME50034" 
+	desc = "EVTDESC50034"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Army tech and naval tech
+	option = {
+		name = "EVTOPTA50034"
+		activate_technology = post_nelsonian_thought
+		activate_technology = battleship_column_doctrine
+		activate_technology = raider_group_doctrine
+		activate_technology = clipper_design
+		activate_technology = steamers
+		activate_technology = iron_steamers
+		activate_technology = steel_breech_loaded_artillery
+		activate_technology = army_risk_management
+			}
+}
+#TECH BOOST - 1900
+country_event = {
+	id = 50035
+	title = "EVTNAME50035" 
+	desc = "EVTDESC50035"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Army tech and naval tech
+	option = {
+		name = "EVTOPTA50035"
+		activate_technology = army_nco_training
+		activate_technology = infiltration
+		activate_technology = bolt_action_rifles
+		activate_technology = indirect_artillery_fire
+		activate_technology = military_directionism
+		activate_technology = steel_steamers
+		activate_technology = blue_and_brown_water_schools
+		activate_technology = high_sea_battle_fleet
+			}
+}
+#FINAL REFORM PROGRAM - 1920 - Super upgrade
+country_event = {
+	id = 50036
+	title = "EVTNAME50036" 
+	desc = "EVTDESC50036"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Army tech and industry tech - the final modernization of the empire
+	option = {
+		name = "EVTOPTA50036"
+		activate_technology = modern_divisional_structure
+		activate_technology = heavy_armament_dunno
+		activate_technology = great_war_experience
+		activate_technology = modern_army_doctrine
+		activate_technology = iron_railroad
+		activate_technology = steel_railroad
+		activate_technology = integral_rail_system
+		activate_technology = inorganic_chemistry
+		activate_technology = organic_chemistry
+		activate_technology = compound_steam_engine
+		activate_technology = steam_turbine
+		activate_technology = combustion_engine
+			}
+}
+
+#DYNASTICS - UBASI KHAN - 1830-1874
+country_event = {
+	id = 50037
+	title = "EVTNAME50037" 
+	desc = "EVTDESC50037"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Ubasi Khan is based
+	option = {
+		name = "EVTOPTA50037"
+			}
+}
+#DYNASTICS - MANDUUL KHAN - 1874-1892
+country_event = {
+	id = 50038
+	title = "EVTNAME50038" 
+	desc = "EVTDESC50038"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1874
+		month = 6
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	#Manduul Khan is a very traditional ruler
+	option = {
+		name = "EVTOPTA50038"
+		prestige = 5
+		any_pop = { consciousness = -10 militancy = -10 }
+			}
+}
+#DYNASTICS - ADAI KHAN - 1892-1904 - WHERE THINGS CAN GO WRONG
+country_event = {
+	id = 50039
+	title = "EVTNAME50039" 
+	desc = "EVTDESC50039"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1892
+		month = 11
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	#Adai Khan is a westophile
+	option = {
+		name = "EVTOPTA50039"
+		prestige = 5
+			}
+}
+#DYNASTICS - MAKORGIS KHAN - 1904-1936 
+country_event = {
+	id = 50040
+	title = "EVTNAME50040" 
+	desc = "EVTDESC50040"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1904
+		month = 1
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Mkorgis Khan is a hardliner restorationist
+	option = {
+		name = "EVTOPTA50040"
+		prestige = 5
+			}
+}
+
+#################################################
+#######BELOW THIS CHECK FOR CIV STATUS###########
+#################################################
+#THE PROSPEROUS MANDATE - 1904
+country_event = {
+	id = 50040
+	title = "EVTNAME50040" 
+	desc = "EVTDESC50040"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1904
+		month = 1
+		civilized = no
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Prospering mandate, the fields are well-tilled and the empire is functioning
+	option = {
+		name = "EVTOPTA50040"
+		prestige = 5
+		country_event = 50041
+			}
+}
+#CHINESE CULTURAL RENAISSANCE - get good culture techs
+country_event = {
+	id = 50041
+	title = "EVTNAME50041" 
+	desc = "EVTDESC50041"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+
+	#Good culture
+	option = {
+		name = "EVTOPTA50041"
+		prestige = 15
+		activate_technology = enlightenment_thought
+		activate_technology = ideological_thought
+		activate_technology = state_n_government
+			}
+}
+#MAKORGIS KHAN AND THE MODERNIZING PROGRAM (WITH CHINESE CHARACTERISTICS) - 1915 - Commerce techs 
+country_event = {
+	id = 50042
+	title = "EVTNAME50042" 
+	desc = "EVTDESC50042"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1915
+		month = 6
+		civilized = no
+		}
+	mean_time_to_happen = {
+		days = 1
+	}
+	fire_only_once = yes
+	#Organizing and reforming the Confucian bureaucracy
+	option = {
+		name = "EVTOPTA50042"
+		prestige = 5
+		activate_technology = private_banks
+		activate_technology = stock_exchange
+		activate_technology = business_banks
+		activate_technology = freedom_of_trade
+		activate_technology = market_structure
+		activate_technology = business_regulations
+			}
+}
+#MAKORGIX KHAN AS THE KHAGAN OF THE MONGOL EMPIRE AND THE EMPEROR OF CHINA - THE UNIFICATION OF THE SATELLITES UNDER CHINESE RULE - 1918
+country_event = {
+	id = 50043
+	title = "EVTNAME50043" 
+	desc = "EVTDESC50043"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1918
+		month = 6
+		civilized = no
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Keep the vassals
+	option = {
+		name = "EVTOPTA50043"
+		badboy = -5
+			}
+	option = {
+		name = "EVTOPTB50043"
+		any_country = { limit = { vassal_of = THIS } country_event = 50010 }
+		}
+}
+#THE YUAN GOLDEN AGE - 1920
+country_event = {
+	id = 50044
+	title = "EVTNAME50044" 
+	desc = "EVTDESC50044"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1920
+		month = 6
+		civilized = no
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Keep the vassals
+	option = {
+		name = "EVTOPTA50044"
+		badboy = -5
+		prestige = 50
+			}
+}
+#MONGOLIA AT THE CENTER OF THE WORLD - 1928 - IF CONQUESTS
+country_event = {
+	id = 50045
+	title = "EVTNAME50045" 
+	desc = "EVTDESC50045"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1928
+		month = 6
+		civilized = no
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+		has_country_flag = ilkhanate_war
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#internationally prestigious...but a pariah
+	option = {
+		name = "EVTOPTA50045"
+		badboy = 5
+		prestige = 50
+			}
+}
+#THE PORTS REMAIN CLOSED - 1930
+country_event = {
+	id = 50046
+	title = "EVTNAME50046" 
+	desc = "EVTDESC50046"
+	picture = "constantinople"
+	
+	trigger = { 
+		tag = MGL
+		year = 1930
+		month = 6
+		civilized = no
+		all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#internationally prestigious...but a pariah
+	option = {
+		name = "EVTOPTA50046"
+		badboy = 5
+		prestige = 50
+			}
+}
+#DECISION - THIRD JAPANESE CAMPAIGN 
+country_event = {
+	id = 50047
+	title = "EVTNAME50047" 
+	desc = "EVTDESC50047"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#WAAAR
+	option = {
+		name = "EVTOPTA50047"
+		badboy = 10
+		casus_belli = { target = JAP type = conquest months = 10 }
+		casus_belli = { target = TKG type = conquest months = 10 }
+		TKG = { casus_belli = { target = MGL type = dismantle_cb months = 10 } }
+		JAP = { casus_belli = { target = MGL type = dismantle_cb months = 10 } }
+		war = {
+			target = JAP
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = dismantle_cb }
+			}
+		war = {
+			target = TKG
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = dismantle_cb }
+			}
+		any_country = { limit = { exists = no war_with = MGL } end_war = MGL }
+		}
+	option = {
+		name = "EVTOPTB50047"
+		clr_country_flag = third_japanese_invasion
+		}
+}
+#THIRD JAPANESE CAMPAIGN ENDS IN PUPPET SHOGUNATE 
+country_event = {
+	id = 50048
+	title = "EVTNAME50048" 
+	desc = "EVTDESC50048"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = MGL
+		owns = 1649
+		owns = 1657
+		TKG = { exists = no }
+		JAP = { exists = no }
+		OR = { KYR = { exists = no } KYR = { vassal_of = MGL } }
+		XIN = { exists = no }
+		KML = { exists = no }
+		UYG = { exists = no }
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Creating the new Japan
+	option = {
+		name = "EVTOPTA50048"
+		all_core = { remove_core = XIN remove_core = KML remove_core = UYG }
+		JAP_1660 = { add_core = XIN }
+		JAP_1665 = { add_core = KML }
+		JAP_1088 = { add_core = UYG }
+		XIN = { government = autonomous_dependency capital = 1660 add_accepted_culture = japanese }
+		KML = { government = autonomous_dependency capital = 1665 add_accepted_culture = japanese }
+		UYG = { government = autonomous_dependency capital = 1088 add_accepted_culture = japanese }
+		release_vassal = XIN
+		release_vassal = KML
+		release_vassal = UYG
+		JAP_1640 = { add_core = CHO }
+		JAP_1655 = { add_core = CHO }
+		release_vassal = CHO
+		JAP_1675 = { add_core = KAG }
+		release_vassal = KAG
+		JAP_1672 = { add_core = SEN }
+		JAP_1649 = { add_core = SEN }
+		release_vassal = SEN
+		}
+}
+#THE NEW REFORM MOVEMENT - ADAI KHAN
+country_event = {
+	id = 50049
+	title = "EVTNAME50049" 
+	desc = "EVTDESC50049"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Creating the new Mongolia
+	option = {
+		name = "EVTOPTA50049"
+		prestige = 20
+		activate_technology = classicism_n_early_romanticism
+		activate_technology = romanticism
+		activate_technology = late_enlightenment_philosophy
+		activate_technology = idealism
+		activate_technology = empiricism
+		}
+}
+#TECH BOOST - PATRONAGE OF WESTERN PHILOSOPHY - ADAI KHAN
+country_event = {
+	id = 50050
+	title = "EVTNAME50050" 
+	desc = "EVTDESC50050"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = MGL
+		year = 1901
+		has_country_flag = new_reform_movement
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Im sure there are no bad results for introducing nationalism
+	option = {
+		name = "EVTOPTA50050"
+		activate_technology = enlightenment_thought
+		activate_technology = ideological_thought
+		activate_technology = state_n_government
+		activate_technology = nationalism_n_imperialism
+		civilized = yes
+		}
+	#End it here
+	option = {
+		name = "EVTOPTB50050"
+		}
+}
+#BIRTH OF THE KMT - REPUBLICANS INFLUENCED BY WESTERN ACADEMIA
+country_event = {
+	id = 50051
+	title = "EVTNAME50051" 
+	desc = "EVTDESC50051"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = MGL
+		year = 1903
+		has_country_flag = new_reform_movement
+		civilized = yes
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#Im sure there are no bad results for introducing nationalism
+	option = {
+		name = "EVTOPTA50051"
+		remove_country_modifier = mandate_of_heaven
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } }consciousness = 5 militancy = 1 }
+		SZC = { all_core = { add_core = CHI } }
+		YNN = { all_core = { add_core = CHI } }
+		XBI = { all_core = { add_core = CHI } }
+		}
+}
+#NO LONGER KHANS
+country_event = {
+	id = 50052
+	title = "EVTNAME50052" 
+	desc = "EVTDESC50052"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = MGL
+		year = 1904
+		has_country_flag = new_reform_movement
+		civilized = yes
+		month = 2
+		}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Chinese Empire
+	option = {
+		name = "EVTOPTA50052"
+		all_core = { limit = { is_core = CHI } remove_core = MGL } change_tag = CHI
+		add_country_modifier = { name = new_reform_movement duration = -1 }
+		country_event = 50053
+		}
+}
+#NO DIVINE MANDATE
+country_event = {
+	id = 50053
+	title = "EVTNAME50053" 
+	desc = "EVTDESC50053"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	#The Chinese Empire has moved beyond the mandate...or so it seems.
+	option = {
+		name = "EVTOPTA50053"
+		prestige = 10
+		set_country_flag = mongol_china
+		}
+}
+#ADAI KHAN DIES - MAKORGIS KHAN AS EMPEROR
+country_event = {
+	id = 50054
+	title = "EVTNAME50054" 
+	desc = "EVTDESC50054"
+	picture = "constantinople"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = CHI
+		has_country_modifier = new_reform_movement
+		has_country_flag = mongol_china
+		}
+	#Makorgis Khan is a known old guardist
+	option = {
+		name = "EVTOPTA50054"
+		prestige = 10
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } } militancy = 2 consciousness = 5 }
+		}
+}
+#MAKORGIS TRIES TO WALK BACK REFORMS - RECLAIM MONGOL HERITAGE
+country_event = {
+	id = 50055
+	title = "EVTNAME50055" 
+	desc = "EVTDESC50055"
+	picture = "constantinople"
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = CHI
+		has_country_modifier = new_reform_movement
+		has_country_flag = mongol_china
+		year = 1906
+		}
+	#Makorgis Khan is a known old guardist
+	option = {
+		name = "EVTOPTA50055"
+		prestige = 10
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } } militancy = 2 consciousness = 5 }
+		any_pop = { limit = { OR = { has_pop_culture = mongol has_pop_culture = tatar } } ideology = { value = reactionary factor = 0.7 } }
+		country_event = 50056
+		}
+}
+#TRADITIONALISTS ALIENATED
+country_event = {
+	id = 50056
+	title = "EVTNAME50056" 
+	desc = "EVTDESC50056"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	is_triggered_only = yes
+	#Traditionalists already alienated by dropping of divine sanction, alienated further by mongolization process
+	option = {
+		name = "EVTOPTA50056"
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } } militancy = 2 consciousness = 5 }
+		country_event = 50057
+		}
+}
+#WESTERNIZERS ALIENATED
+country_event = {
+	id = 50057
+	title = "EVTNAME50057" 
+	desc = "EVTDESC50057"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	is_triggered_only = yes
+	#Westernizers no longer care for divine sanction - KMT gains support rapidly
+	option = {
+		name = "EVTOPTA50057"
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } } militancy = 2 consciousness = 5 }
+		}
+}
+#STUDENT PROTEST IN NANKING - WHITE SUN REVOLT
+country_event = {
+	id = 50058
+	title = "EVTNAME50058" 
+	desc = "EVTDESC50058"
+	picture = "constantinople"
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = CHI
+		KMT = { exists = no }
+		has_country_modifier = new_reform_movement
+		has_country_flag = mongol_china
+		year = 1907
+		}
+	#KMT supporters riot breaks down social order - reforms are promised, but this only puts blood in the water
+	option = {
+		name = "EVTOPTA50058"
+		any_pop = { limit = { OR = { has_pop_culture = beifaren has_pop_culture = nanfaren } } militancy = 10 consciousness = 10 ideology = { value = liberal factor = 0.4 } }
+		country_event = 50059
+		set_global_flag = chinese_civil_war
+		}
+}
+#PROVISIONAL REPUBLICAN GOVERNMENT IN NANKING - SOUTHERN GOVERNMENT FALLING
+country_event = {
+	id = 50059
+	title = "EVTNAME50059" 
+	desc = "EVTDESC50059"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#KMT supporters form provisional republican government, the civil war has begun
+	option = {
+		name = "EVTOPTA50059"
+		any_owned = { limit = { OR = { pop_majority_culture = nanfaren pop_majority_culture = min pop_majority_culture = miao is_core = GXI is_core = GUI } } add_core = KMT } 
+		CHI_2221 = { add_core = KMT }
+		CHI_1470 = { add_core = KMT }
+		CHI_1604 = { add_core = KMT }
+		CHI_1547 = { add_core = KMT }
+		CHI_1485 = { add_core = KMT }
+		GNG = { all_core = { add_core = KMT } }
+		GXI = { all_core = { add_core = KMT } }
+		release = KMT
+		KMT = { inherit = GXI inherit = GNG government = democracy }
+		release = SZC 
+		release_vassal = SZC
+		release = XBI 
+		release_vassal = XBI
+		release = YNN
+		release_vassal = YNN
+		any_country = { limit = { OR = { tag = SZC tag = XBI tag = YNN } government = autonomous_dependency } government = presidential_dictatorship }
+		CHI = { all_core = { add_core = KMT } }
+		country_event = 50060
+		}
+	#Option to play KMT
+	option = {
+		name = "EVTOPTB50059"
+		any_owned = { limit = { OR = { pop_majority_culture = nanfaren pop_majority_culture = min pop_majority_culture = miao is_core = GXI is_core = GUI } } add_core = KMT } 
+		CHI_2221 = { add_core = KMT }
+		CHI_1470 = { add_core = KMT }
+		CHI_1604 = { add_core = KMT }
+		CHI_1547 = { add_core = KMT }
+		CHI_1485 = { add_core = KMT }
+		GNG = { all_core = { add_core = KMT } }
+		GXI = { all_core = { add_core = KMT } }
+		release = KMT
+		KMT = { inherit = GXI inherit = GNG government = democracy }
+		release = SZC 
+		release_vassal = SZC
+		release = XBI 
+		release_vassal = XBI
+		release = YNN
+		release_vassal = YNN
+		any_country = { limit = { OR = { tag = SZC tag = XBI tag = YNN } government = autonomous_dependency } government = presidential_dictatorship }
+		change_tag_no_core_switch = KMT
+		MGL = { country_event = 50060 }
+		CHI = { all_core = { add_core = KMT } }
+		}
+}
+#MONGOL TRIBES BREAK AWAY - VASSAL TAGS FIND CAUSE FOR THEIR AMBITION
+country_event = {
+	id = 50060
+	title = "EVTNAME50060" 
+	desc = "EVTDESC50060"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#The remaining tribals are not willing to fight an unwinnable war for china
+	option = {
+		name = "EVTOPTA50060"
+		RUS_1469 = { add_core = IMG }
+		1188 = { add_core = IMG }
+		any_owned = { limit = { OR = { pop_majority_culture = mongol pop_majority_culture = tatar AND = { is_core = MGL NOT = { OR = { is_core = CHI is_core = TKM is_core = KYR is_core = AFS } } } } } add_core = IMG } 
+		release = IMG
+		IMG = { government = absolute_monarchy }
+		country_event = 50061
+		}
+	option = {
+		name = "EVTOPTB50060"
+		RUS_1469 = { add_core = IMG }
+		1188 = { add_core = IMG }
+		any_owned = { limit = { OR = { pop_majority_culture = mongol pop_majority_culture = tatar AND = { is_core = MGL NOT = { OR = { is_core = CHI is_core = TKM is_core = KYR is_core = AFS } } } } } add_core = IMG } 
+		release = IMG
+		change_tag_no_core_switch = IMG
+		IMG = { government = absolute_monarchy }
+		MGL = { country_event = 50061 }
+		}
+}
+#KOREA BREAKS AWAY - THE THREE VASSALS BREAK OFF AND ENTER CIVIL WAR
+country_event = {
+	id = 50061
+	title = "EVTNAME50061" 
+	desc = "EVTDESC50061"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#The remaining tribals are not willing to fight an unwinnable war for china
+	option = {
+		name = "EVTOPTA50061"
+		release_vassal = KOR
+		release = MCK
+		release_vassal = MCK
+		release = BRY
+		release_vassal = BRY
+		release = TNT
+		release_vassal = TNT
+		any_country = { limit = { OR = { tag = KOR tag = MCK tag = BRY tag = TNT } government = autonomous_dependency } government = presidential_dictatorship }
+		country_event = 50062
+		}
+}
+#VIETNAM BREAKS AWAY - THE LIGHT HAND OF THE MONGOLS IS EASILY SWEPT ASIDE
+country_event = {
+	id = 50062
+	title = "EVTNAME50062" 
+	desc = "EVTDESC50062"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#The remaining tribals are not willing to fight an unwinnable war for china
+	option = {
+		name = "EVTOPTA50062"
+		release_vassal = DAI
+		release = SIA
+		release_vassal = SIA
+		release = CAM
+		release_vassal = CAM
+		release = ALT
+		release_vassal = ALT
+		any_country = { limit = { OR = { tag = DAI tag = SIA tag = CAM tag = ALT } government = autonomous_dependency } government = proletarian_dictatorship }
+		country_event = 50063
+		}
+}
+#MONGOLIAN STATES BREAK AWAY
+country_event = {
+	id = 50063
+	title = "EVTNAME50063" 
+	desc = "EVTDESC50063"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#The remaining tribals are not willing to fight an unwinnable war for china
+	option = {
+		name = "EVTOPTA50063"
+		release_vassal = AFS
+		release_vassal = KYR
+		release_vassal = TAR
+		any_country = { limit = { OR = { tag = AFS tag = KYR tag = TAR } government = autonomous_dependency } government = absolute_monarchy }
+		country_event = 50064
+		}
+}
+#ISOLATED AROUND BEIJING - THE END OF THE DYNASTY AND WARLORD ERA - RETURN TO MGL TAG
+country_event = {
+	id = 50064
+	title = "EVTNAME50064" 
+	desc = "EVTDESC50064"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#Mongolist Clique
+	option = {
+		name = "EVTOPTA50064"
+		change_tag = MGL
+		prestige = -100
+		government = presidential_dictatorship
+		country_event = 50065
+		capital = 1616
+		}
+}
+#THE FORBIDDEN PALACE COUP - GET TO CHOOSE GOV NOW FOR RECONQUEST
+country_event = {
+	id = 50065
+	title = "EVTNAME50065" 
+	desc = "EVTDESC50065"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#Mongolist Clique Keeps Power
+	option = {
+		name = "EVTOPTA50065"
+		government = presidential_dictatorship
+		}
+	#The Khan retakes power in coup
+	option = {
+		name = "EVTOPTB50065"
+		government = absolute_monarchy
+		}
+	#Mercantilists?! - Mongolist trade clique hires personal mercenaries to halt the coup attempt
+	option = {
+		name = "EVTOPTC50065"
+		government = bourgeois_dictatorship
+		}
+	#Extreme Mongolists - the Khan is executed after a prolonged battle in Beijing - proclaim the Temujin heavenly kingdom
+	option = {
+		name = "EVTOPTD50065"
+		government = fascist_dictatorship
+		}
+	#Republican Sentiments Lead to Popular Revolt
+	option = {
+		name = "EVTOPTE50065"
+		government = democracy
+		}
+}
+#THE KMT INSTABILITY - EMERGENCE OF FUJIAN AND GUANXI CLIQUES - GUANXI ARE LEFTIST REPUBLICANS - FUJIAN ARE MILITARISTS
+country_event = {
+	id = 50066
+	title = "EVTNAME50066" 
+	desc = "EVTDESC50066"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = KMT
+		has_global_flag = chinese_civil_war
+		}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#Regional instability in the Republic
+	option = {
+		name = "EVTOPTA50066"
+		any_owned = { limit = { is_core = FJN } any_pop = { ideology = { value = fascist factor = 0.7 } } }
+		any_owned = { limit = { is_core = GXI } any_pop = { ideology = { value = communist factor = 0.7 } } }
+		any_owned = { limit = { NOT = { OR = { is_core = GXI is_core = FJN } } } any_pop = { ideology = { value = liberal factor = 0.3 } ideology = { value = socialist factor = 0.3 } ideology = { value = anarcho_liberal factor = 0.3 } } }
+		}
+}
+#THE MONGOLS SHATTER - EMERGENCE OF SHANXI AND ANHUI CLIQUES
+country_event = {
+	id = 50067
+	title = "EVTNAME50067" 
+	desc = "EVTDESC50067"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = MGL
+		has_global_flag = chinese_civil_war
+		}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	#The instability in the inner provinces leads to yet more land lost
+	option = {
+		name = "EVTOPTA50067"
+		CHI_1477 = { add_core = HUI }
+		CHI_1540 = { add_core = HUI }
+		CHI_2221 = { add_core = HUI }
+		CHI_1508 = { add_core = HUI }
+		CHI_1470 = { add_core = HUI }
+		CHI_1604 = { add_core = HUI }
+		CHI_1559 = { add_core = SXI }
+		CHI_1572 = { add_core = SXI }
+		CHI_1510 = { add_core = SXI }
+		HUI = { government = presidential_dictatorship capital = 1477 }
+		SXI = { government = proletarian_dictatorship capital = 1572 }
+		release = HUI
+		release = SXI
+		any_owned = { limit = { is_core = CHI } add_core = HUI }
+		any_owned = { limit = { is_core = CHI } add_core = SXI }
+		IMG = { country_event = 50068 }
+		}
+	#PLAY AS ANHUI
+	option = {
+		name = "EVTOPTB50067"
+		CHI_1477 = { add_core = HUI }
+		CHI_1540 = { add_core = HUI }
+		CHI_2221 = { add_core = HUI }
+		CHI_1508 = { add_core = HUI }
+		CHI_1470 = { add_core = HUI }
+		CHI_1604 = { add_core = HUI }
+		CHI_1559 = { add_core = SXI }
+		CHI_1572 = { add_core = SXI }
+		CHI_1510 = { add_core = SXI }
+		HUI = { government = presidential_dictatorship capital = 1477 }
+		SXI = { government = proletarian_dictatorship capital = 1572 }
+		release = HUI
+		release = SXI
+		any_owned = { limit = { is_core = CHI } add_core = HUI }
+		any_owned = { limit = { is_core = CHI } add_core = SXI }
+		IMG = { country_event = 50068 }
+		change_tag_no_core_switch = HUI
+		}
+	#Play as Shanxi
+	option = {
+		name = "EVTOPTC50067"
+		CHI_1477 = { add_core = HUI }
+		CHI_1540 = { add_core = HUI }
+		CHI_2221 = { add_core = HUI }
+		CHI_1508 = { add_core = HUI }
+		CHI_1470 = { add_core = HUI }
+		CHI_1604 = { add_core = HUI }
+		CHI_1559 = { add_core = SXI }
+		CHI_1572 = { add_core = SXI }
+		CHI_1510 = { add_core = SXI }
+		HUI = { government = presidential_dictatorship capital = 1477 }
+		SXI = { government = proletarian_dictatorship capital = 1572 }
+		release = HUI
+		release = SXI
+		any_owned = { limit = { is_core = CHI } add_core = HUI }
+		any_owned = { limit = { is_core = CHI } add_core = SXI }
+		IMG = { country_event = 50068 }
+		change_tag_no_core_switch = SXI
+		}
+}
+#THE INNER MONGOLIANS LOSE HAN STATES - CAN TRY TO FIGHT FOR THEM
+country_event = {
+	id = 50068
+	title = "EVTNAME50068" 
+	desc = "EVTDESC50068"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	#The Shanxi believe inner mongolia to still belong to china itself
+	option = {
+		name = "EVTOPTA50067"
+		any_owned = { limit = { is_core = MCK } secede_province = MCK }
+		any_owned = { limit = { is_core = CHI } add_core = SXI secede_province = SXI }
+		SXI = { casus_belli = { target = IMG type = make_puppet months = 10 } }
+		war = {
+			target = SXI
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = make_puppet }
+			}
+		}
+}
+#KMT GOVERNMENT ISSUES - THE LEFT-KMT DEMANDS - FUJIAN WILL BE LOST IF ACCEPTED, GUANXI WILL BE LOST IF REFUSED
+country_event = {
+	id = 50069
+	title = "EVTNAME50069" 
+	desc = "EVTDESC50069"
+	picture = "constantinople"
+	
+	trigger = {
+		tag = KMT
+		has_global_flag = chinese_civil_war
+		}
+		mean_time_to_happen = { days = 20 }
+	fire_only_once = yes
+	#China takes a more confederal structure, leans "left"
+	option = {
+		name = "EVTOPTA50069"
+		government = democracy
+		primary_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = min
+		CHI_1610 = { add_core = FJN }
+		CHI_1545 = { add_core = FJN }
+		CHI_1547 = { add_core = FJN }
+		release = FJN
+		FJN = { government = fascist_dictatorship add_accepted_culture = nanfaren }
+		country_event = 50070
+		}
+	#China takes a more centralist structure, leans "right"
+	option = {
+		name = "EVTOPTB50069"
+		government = presidential_dictatorship
+		primary_culture = min
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = yue
+		CHI_1493 = { add_core = GXI }
+		CHI_1526 = { add_core = GXI }
+		release = GXI
+		GXI = { government = proletarian_dictatorship add_accepted_culture = zhuang add_accepted_culture = min add_accepted_culture = yue }
+		country_event = 50071
+		}	
+	#Same as A but you play Fujian (why)
+	option = {
+		name = "EVTOPTC50069"
+		government = democracy
+		primary_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = min
+		CHI_1610 = { add_core = FJN }
+		CHI_1545 = { add_core = FJN }
+		CHI_1547 = { add_core = FJN }
+		release = FJN
+		FJN = { government = fascist_dictatorship add_accepted_culture = nanfaren }
+		change_tag_no_core_switch = FJN
+		KMT = { country_event = 50070 }
+		}
+	#Same as B But you play Guanxi (why)
+	option = {
+		name = "EVTOPTD50069"
+		government = presidential_dictatorship
+		primary_culture = min
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = yue
+		CHI_1493 = { add_core = GXI }
+		CHI_1526 = { add_core = GXI }
+		release = GXI
+		GXI = { government = proletarian_dictatorship add_accepted_culture = zhuang add_accepted_culture = min add_accepted_culture = yue }
+		change_tag_no_core_switch = GXI
+		KMT = { country_event = 50071 }
+		}
+}
+#KMT FOLLOWUP - CONSOLIDATION OF GUANXI COMMUNIST CHINA - CENTRAL CHINA IS DISTANCED BY SOUTHERN CONFEDERALISM
+country_event = {
+	id = 50070
+	title = "EVTNAME50070" 
+	desc = "EVTDESC50070"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+		mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	#China takes a hardcore confederal structure under the communists, alienates the Han
+	option = {
+		name = "EVTOPTA50069"
+		government = proletarian_dictatorship
+		add_accepted_culture = hakka
+		remove_accepted_culture = nanfaren
+		remove_accepted_culture = beifaren
+		CHI_1522 = { add_core = HUI }
+		any_owned = { limit = { is_core = HUI } secede_province = HUI }
+		any_owned = { limit = { is_core = SXI } secede_province = SXI }
+		CHI_1505 = { add_core = SZC }
+		CHI_1579 = { add_core = SZC }
+		CHI_1519 = { add_core = SZC }
+		any_owned = { limit = { is_core = SZC } secede_province = SZC }
+		}
+	#Moderation is Key
+	option = {
+		name = "EVTOPTB50069"
+		government = democracy
+		any_owned = { limit = { is_core = HUI } secede_province = HUI }
+		any_owned = { limit = { is_core = SXI } secede_province = SXI }
+		}	
+}
+#MILITARY CLIQUE EMERGES IN KMT - PRESIDENTIAL DICTATORSHIP IF FUJIANIST
+country_event = {
+	id = 50071
+	title = "EVTNAME50071" 
+	desc = "EVTDESC50071"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+		mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	#China takes a hardcore centralist structure under the fascists, alienates the Han
+	option = {
+		name = "EVTOPTA50071"
+		government = fascist_dictatorship
+		add_accepted_culture = hakka
+		remove_accepted_culture = nanfaren
+		remove_accepted_culture = beifaren
+		CHI_1522 = { add_core = HUI }
+		any_owned = { limit = { is_core = HUI } secede_province = HUI }
+		any_owned = { limit = { is_core = SXI } secede_province = SXI }
+		CHI_1505 = { add_core = SZC }
+		CHI_1579 = { add_core = SZC }
+		CHI_1519 = { add_core = SZC }
+		any_owned = { limit = { is_core = SZC } secede_province = SZC }
+		country_event = 50072
+		}
+	#Moderation is Key
+	option = {
+		name = "EVTOPTB50071"
+		government = presidential_dictatorship
+		any_owned = { limit = { is_core = HUI } secede_province = HUI }
+		any_owned = { limit = { is_core = SXI } secede_province = SXI }
+		}	
+}
+#THE DYNASTIC PLAY - THE BLUESHIRT LEADER IS A QUASI-MONARCHIST, BUT EVEN MOST BLUESHIRTS ARE OFFPUT BY THIS - KMT FAILSTATE 
+country_event = {
+	id = 50072
+	title = "EVTNAME50072" 
+	desc = "EVTDESC50072"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+		mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	#A new Chinese Empire under the Min?
+	option = {
+		name = "EVTOPTA50072"
+		government = absolute_monarchy
+		country_event = 50073
+		}
+	#Moderation is Key
+	option = {
+		name = "EVTOPTB50072"
+		}	
+}
+#KMT FAILSTATE IF DYNASTIC PLAY IS MADE
+country_event = {
+	id = 50073
+	title = "EVTNAME50073" 
+	desc = "EVTDESC50073"
+	picture = "constantinople"
+	
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	#A new Chinese Empire under the Min?
+	option = {
+		name = "EVTOPTA50073"
+		any_owned = { limit = { is_core = CHI NOT = { pop_majority_culture = min } } add_core = GUI }
+		CHI_1610 = { remove_core = GUI }
+		CHI_1547 = { remove_core = GUI }
+		release = GUI
+		GUI = { government = presidential_dictatorship }
+		change_tag = FJN
+		}
+}
+#KMT VICTORY IN CHINA
+country_event = {
+	id = 50074
+	title = "EVTNAME50074" 
+	desc = "EVTDESC50074"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = KMT
+		owns = 1612 
+		CHI = { exists = no }
+		all_core = { owned_by = THIS }
+		}
+	#The Southern Chinese Have Their State
+	option = {
+		name = "EVTOPTA50074"
+		prestige = 200
+		set_country_flag = south_china
+		CHI = { all_core = { remove_core = MGL remove_core = CHI add_core = KMT remove_core = FJN remove_core = GUI remove_core = GXI remove_core = YNN remove_core = SHA remove_core = SHU remove_core = HUI } }
+		}
+}
+#KMT VICTORY - REPUBLICAN
+country_event = {
+	id = 50075
+	title = "EVTNAME50075" 
+	desc = "EVTDESC50075"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = KMT
+		has_country_flag = south_china 
+		OR = {
+		government = democracy
+		government = bourgeois_dictatorship
+		}
+		NOT = { has_country_flag = kmt_victory }
+		has_global_flag = chinese_civil_war
+		}
+	#A Republic for All China
+	option = {
+		name = "EVTOPTA50075"
+		prestige = 20
+		clr_global_flag = chinese_civil_war
+		set_country_flag = kmt_victory
+		primary_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = min
+		add_accepted_culture = manchu	
+		add_accepted_culture = hanhui 
+		add_accepted_culture = dongfang
+		add_accepted_culture = hakka
+		}
+}
+#KMT VICTORY - FASCIST 
+country_event = {
+	id = 50076
+	title = "EVTNAME50076" 
+	desc = "EVTDESC50076"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = KMT
+		has_country_flag = south_china 
+		government = fascist_dictatorship
+		NOT = { has_country_flag = kmt_victory }
+		has_global_flag = chinese_civil_war
+		}
+	#A strong China for the modern world
+	option = {
+		name = "EVTOPTA50076"
+		prestige = 20
+		clr_global_flag = chinese_civil_war
+		set_country_flag = kmt_victory
+		primary_culture = min
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = yue
+		}
+}
+#KMT VICTORY - MONARCHIST
+country_event = {
+	id = 50077
+	title = "EVTNAME50077" 
+	desc = "EVTDESC50077"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = KMT
+		has_country_flag = south_china 
+		OR = {
+		government = absolute_monarchy
+		government = prussian_constitutionalism
+		government = hms_government
+		}
+		NOT = { has_country_flag = kmt_victory }
+		has_global_flag = chinese_civil_war
+		}
+	#A strong China for the modern world?
+	option = {
+		name = "EVTOPTA50077"
+		prestige = 20
+		clr_global_flag = chinese_civil_war
+		set_country_flag = kmt_victory
+		primary_culture = min
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = yue
+		}
+}
+#COMMUNIST VICTORY IN CHINA
+country_event = {
+	id = 50078
+	title = "EVTNAME50078" 
+	desc = "EVTDESC50078"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = KMT
+		has_country_flag = south_china 
+		government = proletarian_dictatorship
+		NOT = { has_country_flag = kmt_victory }
+		has_global_flag = chinese_civil_war
+		}
+	#A Worker's Republic for the southern Chinese
+	option = {
+		name = "EVTOPTA50078"
+		prestige = 20
+		clr_global_flag = chinese_civil_war
+		set_country_flag = kmt_victory
+		primary_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = nanfaren
+		add_accepted_culture = beifaren
+		add_accepted_culture = min
+		}
+}
+#CREATION OF NEW KMT IF KMT DEFEATED IN CIVIL WAR AND CLIQUE HOLDS NANKING
+country_event = {
+	id = 50079
+	title = "EVTNAME50079" 
+	desc = "EVTDESC50079"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	is_triggered_only = yes
+	#A New Han State
+	option = {
+		name = "EVTOPTA50079"
+		CHI = { all_core = { add_core = KMT } }
+		SZC = { all_core = { add_core = KMT add_core = CHI } }
+		YNN = { all_core = { add_core = KMT add_core = CHI } }
+		XBI = { all_core = { add_core = KMT add_core = CHI } }
+		change_tag = KMT
+		set_global_flag = chinese_civil_war
+		}
+}
+#CREATION OF NEW CHI IF KMT EXISTS AND RIVL TAG HOLDS BEIJING
+country_event = {
+	id = 50080
+	title = "EVTNAME50080" 
+	desc = "EVTDESC50080"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	is_triggered_only = yes
+	#A New Han State
+	option = {
+		name = "EVTOPTA50080"
+		SZC = { all_core = { add_core = CHI } }
+		YNN = { all_core = { add_core = CHI } }
+		XBI = { all_core = { add_core = CHI } }
+		IMG = { all_core = { add_core = CHI } }
+		change_tag = CHI
+		}
+}
+#CHI VICTORY - WARLORD-LED CHINA
+country_event = {
+	id = 50081
+	title = "EVTNAME50081" 
+	desc = "EVTDESC50081"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = CHI
+		all_core = { owned_by = THIS }
+		}
+	#A New Han State - weak warlord entity
+	option = {
+	name = "EVTOPTA50081"
+		prestige = 25
+		}
+}
+#SUCCESSFUL RECONQUEST - THE NATION MOURNS - THE TWICE CONQUERORS
+country_event = {
+	id = 50082
+	title = "EVTNAME50082" 
+	desc = "EVTDESC50082"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = MGL
+		has_global_flag = chinese_civil_war
+		CHI = { all_core = { owned_by = THIS } }
+		}
+	#The Mongol Empire will never truly recover its legitimacy - its days are numbered
+	option = {
+	name = "EVTOPTA50082"
+		prestige = 25
+		}
+}
+#YEARLY INDUSTRY CHECK - AUTO-BUILDS FACTORIES
+country_event = {
+	id = 50083
+	title = "EVTNAME50083" 
+	desc = "EVTDESC50083"
+	picture = "constantinople"
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+	trigger = {
+		tag = MGL
+		has_country_flag = mongol_tech_1
+		NOT = { has_country_modifier = mongol_industry_timer }
+		}
+	#Yearly industry
+	option = {
+	name = "EVTOPTA50083"
+		add_country_modifier = { name = mongol_industry_timer duration = 365 }
+		build_factory_in_capital_state = artillery_factory
+		build_factory_in_capital_state = small_arms_factory
+		build_factory_in_capital_state = steel_factory
+		build_factory_in_capital_state = steamer_shipyard
+		build_factory_in_capital_state = ammunition_factory
+		build_factory_in_capital_state = canned_food_factory
+		build_factory_in_capital_state = winery
+		build_factory_in_capital_state = liquor_distillery
+		}
+}
